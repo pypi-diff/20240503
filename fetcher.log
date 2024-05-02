@@ -659,3 +659,25 @@
 [2024-05-03 00:37:40] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
 [2024-05-03 00:37:40] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2024-05-03 00:37:40] INFO root fetch - main [MainThread]: Store serial: [23038212]
+[2024-05-03 00:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038212]
+[2024-05-03 00:39:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 00:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oursin
+[2024-05-03 00:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replit-river
+[2024-05-03 00:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: x4c
+[2024-05-03 00:39:50] INFO root fetch - processPackages [replit-river]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 00:39:50] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a3/60/d3406253d300f18664bf91712096240dd839c49b54c397c7d87c30c92ca3/replit_river-0.1.8.tar.gz
+[2024-05-03 00:39:50] INFO root fetch - processPackages [oursin]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-03 00:39:50] INFO root fetch - processPackages [x4c]: New version: [2024.5.2] Old Version: [2024.4.20]
+[2024-05-03 00:39:50] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/f9/71/2a26de14b3dd6bd912027ac18d96e94318272eed653ec07852ce4614e548/oursin-0.6.0.tar.gz
+[2024-05-03 00:39:50] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/63/d0/cf3e1765cd7b168b65aab1449b4829714a8999032e46f8c202867d284f77/replit_river-0.1.9.tar.gz
+[2024-05-03 00:39:50] INFO root fetch - processPackages [x4c]: Downloading https://files.pythonhosted.org/packages/3b/57/17ac921428a12747a900a2d8a3d4c8adb8ac64478e5fb7137a4f798d558b/x4c-2024.4.20.tar.gz
+[2024-05-03 00:39:50] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-05-03 00:39:50] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.8.tar.gz tmp/replit_river-0.1.9.tar.gz --markdown 20240503/r/replit-river/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 00:39:50] WARNING root fetch - processPackages [x4c]: Skipping package: exceeds size limit 91111092>=10485760
+[2024-05-03 00:39:50] INFO root fetch - main [MainThread]: End processing [x4c] error
+[2024-05-03 00:39:50] WARNING root fetch - processPackages [oursin]: Skipping package: exceeds size limit 49623294>=10485760
+[2024-05-03 00:39:50] INFO root fetch - main [MainThread]: End processing [oursin] error
+[2024-05-03 00:39:51] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.8.tar.gz]
+[2024-05-03 00:39:51] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.9.tar.gz]
+[2024-05-03 00:39:51] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-05-03 00:39:51] INFO root fetch - main [MainThread]: Store serial: [23038221]
