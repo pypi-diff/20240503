@@ -155,3 +155,45 @@
 [2024-05-03 00:07:52] INFO root fetch - processPackages [vtracer]: Remove: archive file [/home/abi/fetcher/tmp/vtracer-0.6.11-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-05-03 00:07:52] INFO root fetch - main [MainThread]: End processing [vtracer]: success
 [2024-05-03 00:07:52] INFO root fetch - main [MainThread]: Store serial: [23037968]
+[2024-05-03 00:09:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23037968]
+[2024-05-03 00:10:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accmt
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible-creator
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compas-wood
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cocoon-data
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ax-platform
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ansible-creator]: New version: [24.4.7] Old Version: [24.4.6]
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ansible-creator]: Downloading https://files.pythonhosted.org/packages/c3/81/7f35bafedbeab1bdd667ee2823116b8fa2e1f3914478297e40eba72f4589/ansible_creator-24.4.6.tar.gz
+[2024-05-03 00:10:02] WARNING root fetch - processPackages [compas-wood]: Skipping, unable to determine old version
+[2024-05-03 00:10:02] INFO root fetch - processPackages [accmt]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-03 00:10:02] INFO root fetch - main [MainThread]: End processing [compas-wood] error
+[2024-05-03 00:10:02] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ax-platform]: New version: [0.4.0] Old Version: [0.3.7]
+[2024-05-03 00:10:02] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ax-platform]: Downloading https://files.pythonhosted.org/packages/3e/72/bf17157f48ad1c7f4222f57ac861a4aaa6945aaadc8f7183f1699146a0a9/ax-platform-0.3.7.tar.gz
+[2024-05-03 00:10:02] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/65/39/b36e888ef2a694ab74962a841a9b273323f7871dcd8a03b3c0dab80b8c5f/accmt-1.0.1.tar.gz
+[2024-05-03 00:10:02] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-03 00:10:02] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-03 00:10:02] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240503/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 00:10:02] INFO root fetch - processPackages [ansible-creator]: Downloading https://files.pythonhosted.org/packages/ec/74/cc63023fe25be49c97cef86b33bec4185c690eeb294e2e3062f4d27234cb/ansible_creator-24.4.7.tar.gz
+[2024-05-03 00:10:02] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/e2/30/01288211542d97336a33dd6aa1041395f35bd93070f11a892279b0ec6b43/accmt-1.0.2.tar.gz
+[2024-05-03 00:10:03] INFO root fetch - processPackages [accmt]: executing diffoscope
+[2024-05-03 00:10:03] INFO root fetch - processPackages [accmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accmt-1.0.1.tar.gz tmp/accmt-1.0.2.tar.gz --markdown 20240503/a/accmt/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-03 00:10:03] INFO root fetch - processPackages [ax-platform]: Downloading https://files.pythonhosted.org/packages/65/b6/50258017b7cdc10b23cd054683604a088c7735374ca446459795b0634f15/ax-platform-0.4.0.tar.gz
+[2024-05-03 00:10:03] INFO root fetch - processPackages [ax-platform]: executing diffoscope
+[2024-05-03 00:10:03] INFO root fetch - processPackages [ax-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ax-platform-0.3.7.tar.gz tmp/ax-platform-0.4.0.tar.gz --markdown 20240503/a/ax-platform/0.3.7-0.4.0/README.md --exclude *.pyd
+[2024-05-03 00:10:03] INFO root fetch - processPackages [ansible-creator]: executing diffoscope
+[2024-05-03 00:10:03] INFO root fetch - processPackages [ansible-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_creator-24.4.6.tar.gz tmp/ansible_creator-24.4.7.tar.gz --markdown 20240503/a/ansible-creator/24.4.6-24.4.7/README.md --exclude *.pyd
+[2024-05-03 00:10:03] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-03 00:10:03] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-03 00:10:03] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-03 00:10:03] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-1.0.1.tar.gz]
+[2024-05-03 00:10:03] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-1.0.2.tar.gz]
+[2024-05-03 00:10:03] INFO root fetch - main [MainThread]: End processing [accmt]: success
+[2024-05-03 00:10:04] INFO root fetch - processPackages [ansible-creator]: Remove: archive file [/home/abi/fetcher/tmp/ansible_creator-24.4.6.tar.gz]
+[2024-05-03 00:10:04] INFO root fetch - processPackages [ansible-creator]: Remove: archive file [/home/abi/fetcher/tmp/ansible_creator-24.4.7.tar.gz]
+[2024-05-03 00:10:04] INFO root fetch - main [MainThread]: End processing [ansible-creator]: success
+[2024-05-03 00:10:10] INFO root fetch - processPackages [ax-platform]: Remove: archive file [/home/abi/fetcher/tmp/ax-platform-0.3.7.tar.gz]
+[2024-05-03 00:10:10] INFO root fetch - processPackages [ax-platform]: Remove: archive file [/home/abi/fetcher/tmp/ax-platform-0.4.0.tar.gz]
+[2024-05-03 00:10:10] INFO root fetch - main [MainThread]: End processing [ax-platform]: success
+[2024-05-03 00:10:10] INFO root fetch - main [MainThread]: Store serial: [23038021]
