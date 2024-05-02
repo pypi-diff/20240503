@@ -223,3 +223,33 @@
 [2024-05-03 00:12:20] INFO root fetch - processPackages [bare-script]: Remove: archive file [/home/abi/fetcher/tmp/bare-script-3.0.9.tar.gz]
 [2024-05-03 00:12:20] INFO root fetch - main [MainThread]: End processing [bare-script]: success
 [2024-05-03 00:12:20] INFO root fetch - main [MainThread]: Store serial: [23038032]
+[2024-05-03 00:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038032]
+[2024-05-03 00:14:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 00:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rship-sdk
+[2024-05-03 00:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beam-client
+[2024-05-03 00:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wisdem
+[2024-05-03 00:14:29] INFO root fetch - processPackages [beam-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 00:14:29] INFO root fetch - processPackages [rship-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:14:29] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/07/eb/9c82022b92f288308a41296f2e3550c5266bf3c2645e4cfdb81c42b09056/beam_client-0.2.1.tar.gz
+[2024-05-03 00:14:29] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/3a/59/54682cd06bcbefd5dde8d84fb3de98d90b0b8e120a88abcece0c610e21bf/rship-sdk-0.0.8.tar.gz
+[2024-05-03 00:14:30] INFO root fetch - processPackages [wisdem]: New version: [3.9.2] Old Version: [3.15.3]
+[2024-05-03 00:14:30] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/e2/03/acdd2ce759ba46fd3d4908fec2c95091d80ad09dab18be18f29f9cc8f62a/rship-sdk-0.0.9.tar.gz
+[2024-05-03 00:14:30] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/f1/b4/7e338461963f02962ac6288c4cb64f19fac9c48e057fa07ed45c1bbd5957/beam_client-0.2.2.tar.gz
+[2024-05-03 00:14:30] INFO root fetch - processPackages [beam-client]: executing diffoscope
+[2024-05-03 00:14:30] INFO root fetch - processPackages [beam-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_client-0.2.1.tar.gz tmp/beam_client-0.2.2.tar.gz --markdown 20240503/b/beam-client/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 00:14:30] INFO root fetch - processPackages [rship-sdk]: executing diffoscope
+[2024-05-03 00:14:30] INFO root fetch - processPackages [rship-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rship-sdk-0.0.8.tar.gz tmp/rship-sdk-0.0.9.tar.gz --markdown 20240503/r/rship-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:14:30] INFO root fetch - processPackages [wisdem]: Downloading https://files.pythonhosted.org/packages/fe/c1/3578370213b82de284a402a6064972b281d6538fff778ddc3b3d8b155908/wisdem-3.15.3-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-05-03 00:14:30] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.1.tar.gz]
+[2024-05-03 00:14:30] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.2.tar.gz]
+[2024-05-03 00:14:30] INFO root fetch - main [MainThread]: End processing [beam-client]: success
+[2024-05-03 00:14:30] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.8.tar.gz]
+[2024-05-03 00:14:30] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.9.tar.gz]
+[2024-05-03 00:14:30] INFO root fetch - main [MainThread]: End processing [rship-sdk]: success
+[2024-05-03 00:14:32] INFO root fetch - processPackages [wisdem]: Downloading https://files.pythonhosted.org/packages/63/9f/51d920ec46e756085defefae37961b91f277cee5c01881c6868447491c77/wisdem-3.9.2.tar.gz
+[2024-05-03 00:14:32] INFO root fetch - processPackages [wisdem]: executing diffoscope
+[2024-05-03 00:14:32] INFO root fetch - processPackages [wisdem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisdem-3.15.3-cp310-cp310-macosx_10_9_x86_64.whl.zip tmp/wisdem-3.9.2.tar.gz --markdown 20240503/w/wisdem/3.15.3-3.9.2/README.md --exclude *.pyd
+[2024-05-03 00:14:40] INFO root fetch - processPackages [wisdem]: Remove: archive file [/home/abi/fetcher/tmp/wisdem-3.15.3-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-05-03 00:14:40] INFO root fetch - processPackages [wisdem]: Remove: archive file [/home/abi/fetcher/tmp/wisdem-3.9.2.tar.gz]
+[2024-05-03 00:14:40] INFO root fetch - main [MainThread]: End processing [wisdem]: success
+[2024-05-03 00:14:40] INFO root fetch - main [MainThread]: Store serial: [23038038]
