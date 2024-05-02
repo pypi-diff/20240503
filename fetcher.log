@@ -539,3 +539,60 @@
 [2024-05-03 00:31:01] INFO root fetch - processPackages [langchain-google-cloud-sql-pg]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_cloud_sql_pg-0.4.1-py3-none-any.whl.zip]
 [2024-05-03 00:31:01] INFO root fetch - main [MainThread]: End processing [langchain-google-cloud-sql-pg]: success
 [2024-05-03 00:31:01] INFO root fetch - main [MainThread]: Store serial: [23038172]
+[2024-05-03 00:33:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038172]
+[2024-05-03 00:33:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 00:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rutificador
+[2024-05-03 00:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stripe
+[2024-05-03 00:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octoflow
+[2024-05-03 00:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: habluetooth
+[2024-05-03 00:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bittensor
+[2024-05-03 00:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: workforce
+[2024-05-03 00:33:11] INFO root fetch - processPackages [rutificador]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 00:33:11] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:33:11] INFO root fetch - processPackages [stripe]: New version: [9.5.0b1] Old Version: [9.5.0]
+[2024-05-03 00:33:11] INFO root fetch - processPackages [workforce]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 00:33:11] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/6a/5a/f271658904d7a4967dd34a338cfe772b3f4bd6ed33217e0a00f0346a53b1/rutificador-0.1.1.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [bittensor]: New version: [6.9.3] Old Version: [6.9.2]
+[2024-05-03 00:33:11] INFO root fetch - processPackages [habluetooth]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-05-03 00:33:11] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/f9/d5/ad027adc46853d14dea24be31fb01fc54c72a3029298b0e4462df9748700/stripe-9.5.0.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/3b/a9/e683e3563c82b588fab6d469cc072c811e3af7d8b24bdd584940c78e72e7/bittensor-6.9.2.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [habluetooth]: Downloading https://files.pythonhosted.org/packages/15/1e/1492a835223cfbb3371e2f90fb93c35ba6c4eacf42077fd05334ab4217a0/habluetooth-2.8.0.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/55/59/53be4a44d778aa9a2e2b63afe372493a11a17d0ed224ed95cc5a778fbc89/workforce-1.0.8.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/f2/15/aff2e59c29d3c0bb7d2bf91aca24a075ae97c4f0bd7f2a77e3269a4c4555/rutificador-0.1.2.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-05-03 00:33:11] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240503/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:33:11] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/cf/1e/10971e6739fb6e53665f4768b65494f95b11e169158d73ecf8c7a73bfcbf/stripe-9.5.0b1.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-03 00:33:11] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.1.1.tar.gz tmp/rutificador-0.1.2.tar.gz --markdown 20240503/r/rutificador/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 00:33:11] INFO root fetch - processPackages [habluetooth]: Downloading https://files.pythonhosted.org/packages/61/88/f7884e0c809c3814d5409ee9bd24adfacdb753df833a5e264a7d4d592794/habluetooth-2.8.1.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/b3/e0/1c70ecdd7e082c7683cdbce0d3fe6759fa8323e10e7d8abee14aceca1fa7/bittensor-6.9.3.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-05-03 00:33:11] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-9.5.0.tar.gz tmp/stripe-9.5.0b1.tar.gz --markdown 20240503/s/stripe/9.5.0-9.5.0b1/README.md --exclude *.pyd
+[2024-05-03 00:33:11] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/2d/19/86805c3946865872d10ea1e4ee5d133e7a8a82b698617f1b47e9b91cb517/workforce-1.0.9.tar.gz
+[2024-05-03 00:33:11] INFO root fetch - processPackages [habluetooth]: executing diffoscope
+[2024-05-03 00:33:11] INFO root fetch - processPackages [habluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habluetooth-2.8.0.tar.gz tmp/habluetooth-2.8.1.tar.gz --markdown 20240503/h/habluetooth/2.8.0-2.8.1/README.md --exclude *.pyd
+[2024-05-03 00:33:11] INFO root fetch - processPackages [bittensor]: executing diffoscope
+[2024-05-03 00:33:11] INFO root fetch - processPackages [bittensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-6.9.2.tar.gz tmp/bittensor-6.9.3.tar.gz --markdown 20240503/b/bittensor/6.9.2-6.9.3/README.md --exclude *.pyd
+[2024-05-03 00:33:12] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2024-05-03 00:33:12] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.8.tar.gz tmp/workforce-1.0.9.tar.gz --markdown 20240503/w/workforce/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 00:33:12] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-05-03 00:33:12] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-05-03 00:33:12] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-05-03 00:33:12] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.1.tar.gz]
+[2024-05-03 00:33:12] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.2.tar.gz]
+[2024-05-03 00:33:12] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-03 00:33:12] INFO root fetch - processPackages [habluetooth]: Remove: archive file [/home/abi/fetcher/tmp/habluetooth-2.8.0.tar.gz]
+[2024-05-03 00:33:12] INFO root fetch - processPackages [habluetooth]: Remove: archive file [/home/abi/fetcher/tmp/habluetooth-2.8.1.tar.gz]
+[2024-05-03 00:33:12] INFO root fetch - main [MainThread]: End processing [habluetooth]: success
+[2024-05-03 00:33:12] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.8.tar.gz]
+[2024-05-03 00:33:12] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.9.tar.gz]
+[2024-05-03 00:33:12] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2024-05-03 00:33:12] INFO root fetch - processPackages [bittensor]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-6.9.2.tar.gz]
+[2024-05-03 00:33:13] INFO root fetch - processPackages [bittensor]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-6.9.3.tar.gz]
+[2024-05-03 00:33:13] INFO root fetch - main [MainThread]: End processing [bittensor]: success
+[2024-05-03 00:33:18] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.5.0.tar.gz]
+[2024-05-03 00:33:18] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.5.0b1.tar.gz]
+[2024-05-03 00:33:18] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-05-03 00:33:18] INFO root fetch - main [MainThread]: Store serial: [23038190]
