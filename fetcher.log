@@ -713,3 +713,36 @@
 [2024-05-03 00:44:11] INFO root fetch - processPackages [chia-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/chia_dev_tools-1.2.4.tar.gz]
 [2024-05-03 00:44:11] INFO root fetch - main [MainThread]: End processing [chia-dev-tools]: success
 [2024-05-03 00:44:11] INFO root fetch - main [MainThread]: Store serial: [23038249]
+[2024-05-03 00:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038249]
+[2024-05-03 00:46:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aimet-torch
+[2024-05-03 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2024-05-03 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libcapella
+[2024-05-03 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prodvana
+[2024-05-03 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-library-ioka-api
+[2024-05-03 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-05-03 00:46:20] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240502.7.44.730492] Old Version: [20240502.4.52.185602]
+[2024-05-03 00:46:20] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240430] Old Version: [2.17.0.dev20240429]
+[2024-05-03 00:46:20] WARNING root fetch - processPackages [libcapella]: Skipping, unable to determine old version
+[2024-05-03 00:46:20] INFO root fetch - main [MainThread]: End processing [libcapella] error
+[2024-05-03 00:46:20] WARNING root fetch - processPackages [my-library-ioka-api]: Skipping, unable to determine old version
+[2024-05-03 00:46:20] INFO root fetch - main [MainThread]: End processing [my-library-ioka-api] error
+[2024-05-03 00:46:20] INFO root fetch - processPackages [aimet-torch]: New version: [1.31.1] Old Version: [1.30.1]
+[2024-05-03 00:46:20] INFO root fetch - processPackages [prodvana]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-03 00:46:20] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/b4/36/838a6e902706272ccd27baf28db9577de5a704a18e9f2cf7ec073fb497d0/certora-cli-alpha-master-20240502.4.52.185602.tar.gz
+[2024-05-03 00:46:20] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14545305>=10485760
+[2024-05-03 00:46:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-03 00:46:21] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/1f/82/1388267d7ed4f6bc85606fad5b8ce082df08bd252d5951254bbbc8887bb1/tf_nightly_intel-2.17.0.dev20240429-cp39-cp39-win_amd64.whl
+[2024-05-03 00:46:21] INFO root fetch - processPackages [aimet-torch]: Downloading https://files.pythonhosted.org/packages/ac/e2/1b98c6e59da290a406c33beb590e617e4ebe83309ba5f910705cdf6bcf5c/aimet_torch-1.30.1-cp38-cp38-manylinux_2_29_x86_64.whl
+[2024-05-03 00:46:21] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213270733>=10485760
+[2024-05-03 00:46:21] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-03 00:46:21] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/05/29/b305e83e3145ff688dc20fcaf7e9acc6387d8bcb0be66a1bad5781bb7543/prodvana-0.3.8.tar.gz
+[2024-05-03 00:46:21] WARNING root fetch - processPackages [aimet-torch]: Skipping package: exceeds size limit 10724473>=10485760
+[2024-05-03 00:46:21] INFO root fetch - main [MainThread]: End processing [aimet-torch] error
+[2024-05-03 00:46:21] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/b2/62/1999f7e3eed16a266b39c7205e01fda3f018d873f514114d86cdf999983b/prodvana-0.3.9.tar.gz
+[2024-05-03 00:46:21] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2024-05-03 00:46:21] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.3.8.tar.gz tmp/prodvana-0.3.9.tar.gz --markdown 20240503/p/prodvana/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-03 00:46:22] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.8.tar.gz]
+[2024-05-03 00:46:22] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
+[2024-05-03 00:46:22] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2024-05-03 00:46:22] INFO root fetch - main [MainThread]: Store serial: [23038269]
