@@ -1686,3 +1686,14 @@
 [2024-05-03 01:46:47] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.3.3.tar.gz]
 [2024-05-03 01:46:47] INFO root fetch - main [MainThread]: End processing [falcon-challenge]: success
 [2024-05-03 01:46:47] INFO root fetch - main [MainThread]: Store serial: [23038748]
+[2024-05-03 01:48:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038748]
+[2024-05-03 01:48:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 01:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: armenian-latin-to-armenian-hy
+[2024-05-03 01:48:55] INFO root fetch - processPackages [armenian-latin-to-armenian-hy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 01:48:55] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: fallback to get urls: [0.0.1]
+[2024-05-03 01:48:55] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: None
+[2024-05-03 01:48:55] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: None
+[2024-05-03 01:48:56] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: unable to get url for both version [0.0.1]
+[2024-05-03 01:48:56] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: None
+[2024-05-03 01:48:56] INFO root fetch - main [MainThread]: End processing [armenian-latin-to-armenian-hy] error
+[2024-05-03 01:48:56] INFO root fetch - main [MainThread]: Store serial: [23038752]
