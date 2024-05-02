@@ -1793,3 +1793,42 @@
 [2024-05-03 01:57:36] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.5.tar.gz]
 [2024-05-03 01:57:36] INFO root fetch - main [MainThread]: End processing [rutificador]: success
 [2024-05-03 01:57:36] INFO root fetch - main [MainThread]: Store serial: [23038808]
+[2024-05-03 01:59:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038808]
+[2024-05-03 01:59:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 01:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdftext
+[2024-05-03 01:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pigeonpost
+[2024-05-03 01:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml4xcube
+[2024-05-03 01:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soroban
+[2024-05-03 01:59:44] INFO root fetch - processPackages [ml4xcube]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 01:59:44] INFO root fetch - processPackages [soroban]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-03 01:59:44] INFO root fetch - processPackages [pdftext]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-03 01:59:44] INFO root fetch - processPackages [pigeonpost]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-03 01:59:44] INFO root fetch - processPackages [ml4xcube]: Downloading https://files.pythonhosted.org/packages/35/1d/523f060d39f967981f9d160685824c5b92965e9c385cd6d28270fb7df64e/ml4xcube-0.0.3.tar.gz
+[2024-05-03 01:59:44] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/85/74/d9a306f677bfdc5d67f0f1e19daffb75f002e38192c863736b9ae4ce105a/soroban-0.7.0.tar.gz
+[2024-05-03 01:59:44] INFO root fetch - processPackages [pdftext]: Downloading https://files.pythonhosted.org/packages/3e/59/5a3be3edb84b1cb39787c3a16280cdb3d3145793d474a04ad0a444d4ea52/pdftext-0.3.3.tar.gz
+[2024-05-03 01:59:44] INFO root fetch - processPackages [pigeonpost]: Downloading https://files.pythonhosted.org/packages/ac/8e/1795f7ac39da26b239bfa35b87c5492f825ba049ff14d9a14e7c8508f6ea/pigeonpost-0.4.4.tar.gz
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pdftext]: Downloading https://files.pythonhosted.org/packages/33/d0/c9ba787132d2b63d04a1888b8cd1294b8f4fc769e279cabe54bf25de6815/pdftext-0.3.4.tar.gz
+[2024-05-03 01:59:45] INFO root fetch - processPackages [ml4xcube]: Downloading https://files.pythonhosted.org/packages/04/13/625c4474b4024684c5affde42dea221b9a6fdb9bbfdf01375f8014e093bb/ml4xcube-0.0.4.tar.gz
+[2024-05-03 01:59:45] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/1d/1d/0d9a8373b0022e0bc5e6b9282de433e660d72bc5591b3aca33b366a5cb46/soroban-0.7.1.tar.gz
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pigeonpost]: Downloading https://files.pythonhosted.org/packages/ca/97/cb9f5841b3b74dcfe28712916e9b5ad24dab16ba10d372fb0591966592f4/pigeonpost-0.4.5.tar.gz
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pdftext]: executing diffoscope
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pdftext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdftext-0.3.3.tar.gz tmp/pdftext-0.3.4.tar.gz --markdown 20240503/p/pdftext/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-03 01:59:45] INFO root fetch - processPackages [soroban]: executing diffoscope
+[2024-05-03 01:59:45] INFO root fetch - processPackages [soroban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soroban-0.7.0.tar.gz tmp/soroban-0.7.1.tar.gz --markdown 20240503/s/soroban/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pigeonpost]: executing diffoscope
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pigeonpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonpost-0.4.4.tar.gz tmp/pigeonpost-0.4.5.tar.gz --markdown 20240503/p/pigeonpost/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-03 01:59:45] INFO root fetch - processPackages [ml4xcube]: executing diffoscope
+[2024-05-03 01:59:45] INFO root fetch - processPackages [ml4xcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml4xcube-0.0.3.tar.gz tmp/ml4xcube-0.0.4.tar.gz --markdown 20240503/m/ml4xcube/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 01:59:45] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.7.0.tar.gz]
+[2024-05-03 01:59:45] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.7.1.tar.gz]
+[2024-05-03 01:59:45] INFO root fetch - main [MainThread]: End processing [soroban]: success
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pdftext]: Remove: archive file [/home/abi/fetcher/tmp/pdftext-0.3.3.tar.gz]
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pdftext]: Remove: archive file [/home/abi/fetcher/tmp/pdftext-0.3.4.tar.gz]
+[2024-05-03 01:59:45] INFO root fetch - main [MainThread]: End processing [pdftext]: success
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pigeonpost]: Remove: archive file [/home/abi/fetcher/tmp/pigeonpost-0.4.4.tar.gz]
+[2024-05-03 01:59:45] INFO root fetch - processPackages [pigeonpost]: Remove: archive file [/home/abi/fetcher/tmp/pigeonpost-0.4.5.tar.gz]
+[2024-05-03 01:59:45] INFO root fetch - main [MainThread]: End processing [pigeonpost]: success
+[2024-05-03 01:59:46] INFO root fetch - processPackages [ml4xcube]: Remove: archive file [/home/abi/fetcher/tmp/ml4xcube-0.0.3.tar.gz]
+[2024-05-03 01:59:46] INFO root fetch - processPackages [ml4xcube]: Remove: archive file [/home/abi/fetcher/tmp/ml4xcube-0.0.4.tar.gz]
+[2024-05-03 01:59:46] INFO root fetch - main [MainThread]: End processing [ml4xcube]: success
+[2024-05-03 01:59:46] INFO root fetch - main [MainThread]: Store serial: [23038825]
