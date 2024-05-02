@@ -395,3 +395,42 @@
 [2024-05-03 00:19:42] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
 [2024-05-03 00:19:42] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
 [2024-05-03 00:19:42] INFO root fetch - main [MainThread]: Store serial: [23038123]
+[2024-05-03 00:21:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038123]
+[2024-05-03 00:21:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 00:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elegantmotd
+[2024-05-03 00:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: depedit
+[2024-05-03 00:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: client-library-for-chaos-mesh
+[2024-05-03 00:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beam-client
+[2024-05-03 00:21:51] INFO root fetch - processPackages [beam-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-03 00:21:51] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/f1/b4/7e338461963f02962ac6288c4cb64f19fac9c48e057fa07ed45c1bbd5957/beam_client-0.2.2.tar.gz
+[2024-05-03 00:21:51] INFO root fetch - processPackages [client-library-for-chaos-mesh]: New version: [1.2.17] Old Version: [1.2.14]
+[2024-05-03 00:21:51] INFO root fetch - processPackages [depedit]: New version: [3.4.0.1] Old Version: [3.4.0.0]
+[2024-05-03 00:21:51] INFO root fetch - processPackages [elegantmotd]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-03 00:21:51] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/a5/97/006f0448fa21ed58b2323057a2ff2eea3e8c17200ae0d0ac1dfa3c0238a3/elegantmotd-0.4.0.tar.gz
+[2024-05-03 00:21:51] INFO root fetch - processPackages [client-library-for-chaos-mesh]: Downloading https://files.pythonhosted.org/packages/04/85/39ac986c628cb83e4643c05ccc32b918aa66d931ce6eb6d182838597a277/client-library-for-chaos-mesh-1.2.14.tar.gz
+[2024-05-03 00:21:51] INFO root fetch - processPackages [depedit]: Downloading https://files.pythonhosted.org/packages/2e/bc/48282a1b8971310523e82f04a87c2c10542f0c0f1bafe36d606ab8e43b10/depedit-3.4.0.0.tar.gz
+[2024-05-03 00:21:52] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/15/ca/2e4d4f59374b418b8e0b79c6afcae16957cb48c02a06ba7735087ebd667f/beam_client-0.2.3.tar.gz
+[2024-05-03 00:21:52] INFO root fetch - processPackages [beam-client]: executing diffoscope
+[2024-05-03 00:21:52] INFO root fetch - processPackages [beam-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_client-0.2.2.tar.gz tmp/beam_client-0.2.3.tar.gz --markdown 20240503/b/beam-client/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-03 00:21:52] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/18/f0/0a6b2592ddc1f08da3c89a5ec501189b86b8673aede6ac01c719fefe75e6/elegantmotd-0.4.1.tar.gz
+[2024-05-03 00:21:52] INFO root fetch - processPackages [client-library-for-chaos-mesh]: Downloading https://files.pythonhosted.org/packages/ed/05/c36fefefe52fa8eb83bd45542826ba86683449bb1db6639d3399f073b68a/client_library_for_chaos_mesh-1.2.17.tar.gz
+[2024-05-03 00:21:52] INFO root fetch - processPackages [depedit]: Downloading https://files.pythonhosted.org/packages/c4/ae/6788bf181ffb42e4c238e6a3fb68f571fe5d5d49460f39e3fbe72d67d5dc/depedit-3.4.0.1.tar.gz
+[2024-05-03 00:21:52] INFO root fetch - processPackages [elegantmotd]: executing diffoscope
+[2024-05-03 00:21:52] INFO root fetch - processPackages [elegantmotd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elegantmotd-0.4.0.tar.gz tmp/elegantmotd-0.4.1.tar.gz --markdown 20240503/e/elegantmotd/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-03 00:21:52] INFO root fetch - processPackages [client-library-for-chaos-mesh]: executing diffoscope
+[2024-05-03 00:21:52] INFO root fetch - processPackages [client-library-for-chaos-mesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client-library-for-chaos-mesh-1.2.14.tar.gz tmp/client_library_for_chaos_mesh-1.2.17.tar.gz --markdown 20240503/c/client-library-for-chaos-mesh/1.2.14-1.2.17/README.md --exclude *.pyd
+[2024-05-03 00:21:52] INFO root fetch - processPackages [depedit]: executing diffoscope
+[2024-05-03 00:21:52] INFO root fetch - processPackages [depedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depedit-3.4.0.0.tar.gz tmp/depedit-3.4.0.1.tar.gz --markdown 20240503/d/depedit/3.4.0.0-3.4.0.1/README.md --exclude *.pyd
+[2024-05-03 00:21:52] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.2.tar.gz]
+[2024-05-03 00:21:52] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.3.tar.gz]
+[2024-05-03 00:21:52] INFO root fetch - main [MainThread]: End processing [beam-client]: success
+[2024-05-03 00:21:52] INFO root fetch - processPackages [elegantmotd]: Remove: archive file [/home/abi/fetcher/tmp/elegantmotd-0.4.0.tar.gz]
+[2024-05-03 00:21:52] INFO root fetch - processPackages [elegantmotd]: Remove: archive file [/home/abi/fetcher/tmp/elegantmotd-0.4.1.tar.gz]
+[2024-05-03 00:21:52] INFO root fetch - main [MainThread]: End processing [elegantmotd]: success
+[2024-05-03 00:21:52] INFO root fetch - processPackages [depedit]: Remove: archive file [/home/abi/fetcher/tmp/depedit-3.4.0.0.tar.gz]
+[2024-05-03 00:21:52] INFO root fetch - processPackages [depedit]: Remove: archive file [/home/abi/fetcher/tmp/depedit-3.4.0.1.tar.gz]
+[2024-05-03 00:21:52] INFO root fetch - main [MainThread]: End processing [depedit]: success
+[2024-05-03 00:21:53] INFO root fetch - processPackages [client-library-for-chaos-mesh]: Remove: archive file [/home/abi/fetcher/tmp/client-library-for-chaos-mesh-1.2.14.tar.gz]
+[2024-05-03 00:21:53] INFO root fetch - processPackages [client-library-for-chaos-mesh]: Remove: archive file [/home/abi/fetcher/tmp/client_library_for_chaos_mesh-1.2.17.tar.gz]
+[2024-05-03 00:21:53] INFO root fetch - main [MainThread]: End processing [client-library-for-chaos-mesh]: success
+[2024-05-03 00:21:53] INFO root fetch - main [MainThread]: Store serial: [23038134]
