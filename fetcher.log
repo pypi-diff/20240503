@@ -434,3 +434,27 @@
 [2024-05-03 00:21:53] INFO root fetch - processPackages [client-library-for-chaos-mesh]: Remove: archive file [/home/abi/fetcher/tmp/client_library_for_chaos_mesh-1.2.17.tar.gz]
 [2024-05-03 00:21:53] INFO root fetch - main [MainThread]: End processing [client-library-for-chaos-mesh]: success
 [2024-05-03 00:21:53] INFO root fetch - main [MainThread]: Store serial: [23038134]
+[2024-05-03 00:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038134]
+[2024-05-03 00:24:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FBlevi
+[2024-05-03 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible-dev-tools
+[2024-05-03 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agt-server
+[2024-05-03 00:24:01] INFO root fetch - processPackages [agt-server]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-03 00:24:01] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/80/dd/491b99eab953d0bf336b867f4830f76e4580c2475e8f489cbdcf642954c8/agt_server-1.3.7.tar.gz
+[2024-05-03 00:24:01] WARNING root fetch - processPackages [FBlevi]: Skipping, unable to determine old version
+[2024-05-03 00:24:01] INFO root fetch - main [MainThread]: End processing [FBlevi] error
+[2024-05-03 00:24:01] INFO root fetch - processPackages [ansible-dev-tools]: New version: [24.5.0] Old Version: [24.4.5]
+[2024-05-03 00:24:01] INFO root fetch - processPackages [ansible-dev-tools]: Downloading https://files.pythonhosted.org/packages/7e/32/4a683923e02d87eb520c564c240900982f9844d1d4dc7cb094360d755ebd/ansible_dev_tools-24.4.5.tar.gz
+[2024-05-03 00:24:01] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/14/c8/5fa7f075ca61048b636cb1158604e372eca0a0dabed98273293002dba621/agt_server-1.3.8.tar.gz
+[2024-05-03 00:24:02] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-05-03 00:24:02] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.3.7.tar.gz tmp/agt_server-1.3.8.tar.gz --markdown 20240503/a/agt-server/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-03 00:24:02] INFO root fetch - processPackages [ansible-dev-tools]: Downloading https://files.pythonhosted.org/packages/9c/f3/ed48553fb9d9b02a74f9406b95eb7b1060d03704bb118d583a8033cf677b/ansible_dev_tools-24.5.0.tar.gz
+[2024-05-03 00:24:02] INFO root fetch - processPackages [ansible-dev-tools]: executing diffoscope
+[2024-05-03 00:24:02] INFO root fetch - processPackages [ansible-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_dev_tools-24.4.5.tar.gz tmp/ansible_dev_tools-24.5.0.tar.gz --markdown 20240503/a/ansible-dev-tools/24.4.5-24.5.0/README.md --exclude *.pyd
+[2024-05-03 00:24:03] INFO root fetch - processPackages [ansible-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ansible_dev_tools-24.4.5.tar.gz]
+[2024-05-03 00:24:03] INFO root fetch - processPackages [ansible-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ansible_dev_tools-24.5.0.tar.gz]
+[2024-05-03 00:24:03] INFO root fetch - main [MainThread]: End processing [ansible-dev-tools]: success
+[2024-05-03 00:24:03] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.7.tar.gz]
+[2024-05-03 00:24:03] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.8.tar.gz]
+[2024-05-03 00:24:03] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-05-03 00:24:03] INFO root fetch - main [MainThread]: Store serial: [23038144]
