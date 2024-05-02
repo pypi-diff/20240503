@@ -1606,3 +1606,38 @@
 [2024-05-03 01:42:25] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.8rc0.tar.gz]
 [2024-05-03 01:42:25] INFO root fetch - main [MainThread]: End processing [featureform-enterprise]: success
 [2024-05-03 01:42:25] INFO root fetch - main [MainThread]: Store serial: [23038724]
+[2024-05-03 01:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038724]
+[2024-05-03 01:44:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 01:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlx
+[2024-05-03 01:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parcllabs
+[2024-05-03 01:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatpdb
+[2024-05-03 01:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PokeCodePy-Library
+[2024-05-03 01:44:34] INFO root fetch - processPackages [PokeCodePy-Library]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-03 01:44:34] INFO root fetch - processPackages [parcllabs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 01:44:34] INFO root fetch - processPackages [chatpdb]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-03 01:44:34] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/4b/a7/9060c070fcbeed0ac71fb0b49e67b6162c4027ec3296ac7d9595c1654294/parcllabs-0.1.8.tar.gz
+[2024-05-03 01:44:34] INFO root fetch - processPackages [mlx]: New version: [0.9.1.dev20240407] Old Version: [0.9.1]
+[2024-05-03 01:44:34] INFO root fetch - processPackages [PokeCodePy-Library]: Downloading https://files.pythonhosted.org/packages/bd/8e/de63457347babca57909a1592e2a9cffea5ebdef726741d57bcc025904bb/pokecodepy_library-1.0.0.tar.gz
+[2024-05-03 01:44:34] INFO root fetch - processPackages [mlx]: Downloading https://files.pythonhosted.org/packages/1a/4d/db965d36f516eb50b63bc732589057aa7cb2fc14c6c30f6504688a2b307c/mlx-0.9.1-cp39-cp39-macosx_14_0_arm64.whl
+[2024-05-03 01:44:34] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/54/76/252d5d459b8fefcdb4cd8ba9124168cc37b81f5740ca09ff3e754621335b/parcllabs-0.1.9.tar.gz
+[2024-05-03 01:44:34] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/68/ad/63b4e52de8a9f2f69a3cf7d52a66942dab85a4d6bb6380b0546ccf7bec3f/chatpdb-0.1.7.tar.gz
+[2024-05-03 01:44:35] INFO root fetch - processPackages [parcllabs]: executing diffoscope
+[2024-05-03 01:44:35] INFO root fetch - processPackages [parcllabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parcllabs-0.1.8.tar.gz tmp/parcllabs-0.1.9.tar.gz --markdown 20240503/p/parcllabs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 01:44:35] INFO root fetch - processPackages [PokeCodePy-Library]: Downloading https://files.pythonhosted.org/packages/ad/cd/1108982fc4e5a23afac901c3ce464bd6a91ba6853adde0242f71a0403506/pokecodepy_library-1.0.1.tar.gz
+[2024-05-03 01:44:35] INFO root fetch - processPackages [chatpdb]: Downloading https://files.pythonhosted.org/packages/46/4a/7d8b162038fcca16e6ca8978a76cdae6041cb233cb4d112b1ba9c673c201/chatpdb-0.1.9.tar.gz
+[2024-05-03 01:44:35] INFO root fetch - processPackages [PokeCodePy-Library]: executing diffoscope
+[2024-05-03 01:44:35] INFO root fetch - processPackages [PokeCodePy-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokecodepy_library-1.0.0.tar.gz tmp/pokecodepy_library-1.0.1.tar.gz --markdown 20240503/P/PokeCodePy-Library/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-03 01:44:35] INFO root fetch - processPackages [chatpdb]: executing diffoscope
+[2024-05-03 01:44:35] INFO root fetch - processPackages [chatpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatpdb-0.1.7.tar.gz tmp/chatpdb-0.1.9.tar.gz --markdown 20240503/c/chatpdb/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-03 01:44:35] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.8.tar.gz]
+[2024-05-03 01:44:35] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.9.tar.gz]
+[2024-05-03 01:44:35] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
+[2024-05-03 01:44:35] INFO root fetch - processPackages [PokeCodePy-Library]: Remove: archive file [/home/abi/fetcher/tmp/pokecodepy_library-1.0.0.tar.gz]
+[2024-05-03 01:44:35] INFO root fetch - processPackages [PokeCodePy-Library]: Remove: archive file [/home/abi/fetcher/tmp/pokecodepy_library-1.0.1.tar.gz]
+[2024-05-03 01:44:35] INFO root fetch - main [MainThread]: End processing [PokeCodePy-Library]: success
+[2024-05-03 01:44:36] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.7.tar.gz]
+[2024-05-03 01:44:36] INFO root fetch - processPackages [chatpdb]: Remove: archive file [/home/abi/fetcher/tmp/chatpdb-0.1.9.tar.gz]
+[2024-05-03 01:44:36] INFO root fetch - main [MainThread]: End processing [chatpdb]: success
+[2024-05-03 01:44:36] WARNING root fetch - processPackages [mlx]: Skipping package: exceeds size limit 31967351>=10485760
+[2024-05-03 01:44:36] INFO root fetch - main [MainThread]: End processing [mlx] error
+[2024-05-03 01:44:36] INFO root fetch - main [MainThread]: Store serial: [23038734]
