@@ -1197,3 +1197,60 @@
 [2024-05-03 01:04:37] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/sqldatamodel-0.4.1.tar.gz]
 [2024-05-03 01:04:37] INFO root fetch - main [MainThread]: End processing [SQLDataModel]: success
 [2024-05-03 01:04:37] INFO root fetch - main [MainThread]: Store serial: [23038469]
+[2024-05-03 01:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038469]
+[2024-05-03 01:06:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abacusai
+[2024-05-03 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-05-03 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certbot-filecopy-installer
+[2024-05-03 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soroban
+[2024-05-03 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2024-05-03 01:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cocorum
+[2024-05-03 01:06:46] INFO root fetch - processPackages [soroban]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-03 01:06:46] INFO root fetch - processPackages [certbot-filecopy-installer]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 01:06:46] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240501] Old Version: [0.7.52b20240430]
+[2024-05-03 01:06:46] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240501] Old Version: [1.9.0.dev20240430]
+[2024-05-03 01:06:46] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/54/82/f496d5dd7a51736c955d412fa8390729abe39c755e045a4ee6ee1824caf4/soroban-0.5.0.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [abacusai]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-03 01:06:46] INFO root fetch - processPackages [cocorum]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-03 01:06:46] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/39/5c/92efa9344a7d0213097d317c9a3c2cd04277321b26746fd4efca783d511a/tmnt-0.7.52b20240430.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/57/3d/641e8ee7b51e5efb06785a3faff2d7d70ed94f066c05260e4674336b6ce1/flwr_nightly-1.9.0.dev20240430.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [certbot-filecopy-installer]: Downloading https://files.pythonhosted.org/packages/56/36/c852d1c21af034bac92db8d68057bd27428456ea2a92407909644fc769e4/certbot_filecopy_installer-0.9.0.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/8c/16/77465319e22c391afc6be15ece7534cb2a02edd5f17f019b686e19e5f5b1/abacusai-1.2.4.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [cocorum]: Downloading https://files.pythonhosted.org/packages/dd/c9/8ce1955d07788e552f36959b3cbe790bba537fc29775e73ab4e29a950c8d/cocorum-0.3.0.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/3c/5c/477f957b0eac5053d5ada09eef3ae7c0d835d877bb74a03358522434c085/soroban-0.6.0.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/48/03/fe93b39e8c22103d7c426a0e7817b03608afad9cd1ac8958fd89926c0e6b/tmnt-0.7.52b20240501.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/0c/c1/44e55967533dfd836c9361842dcba5b068a6ff66ded5bed03f8030a1b80c/flwr_nightly-1.9.0.dev20240501.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [soroban]: executing diffoscope
+[2024-05-03 01:06:46] INFO root fetch - processPackages [soroban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soroban-0.5.0.tar.gz tmp/soroban-0.6.0.tar.gz --markdown 20240503/s/soroban/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-03 01:06:46] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-03 01:06:46] INFO root fetch - processPackages [certbot-filecopy-installer]: Downloading https://files.pythonhosted.org/packages/87/9b/0c7a6ee74fcee1b2e33b1ba23060ebb4f4a1f7e4be2e0a6bf598062c178d/certbot_filecopy_installer-0.9.1.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240430.tar.gz tmp/tmnt-0.7.52b20240501.tar.gz --markdown 20240503/t/tmnt/0.7.52b20240430-0.7.52b20240501/README.md --exclude *.pyd
+[2024-05-03 01:06:46] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-03 01:06:46] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240430.tar.gz tmp/flwr_nightly-1.9.0.dev20240501.tar.gz --markdown 20240503/f/flwr-nightly/1.9.0.dev20240430-1.9.0.dev20240501/README.md --exclude *.pyd
+[2024-05-03 01:06:46] INFO root fetch - processPackages [cocorum]: Downloading https://files.pythonhosted.org/packages/2a/ac/b11e2504f88b684fa591fb5f48c6b8983721b3589d32e442f65163a38f2b/cocorum-0.4.0.tar.gz
+[2024-05-03 01:06:46] INFO root fetch - processPackages [certbot-filecopy-installer]: executing diffoscope
+[2024-05-03 01:06:46] INFO root fetch - processPackages [certbot-filecopy-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot_filecopy_installer-0.9.0.tar.gz tmp/certbot_filecopy_installer-0.9.1.tar.gz --markdown 20240503/c/certbot-filecopy-installer/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-03 01:06:46] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/26/76/0072bee398e885df30a55ce0db46e3f3b6f0eef554739655eb8042c1a349/abacusai-1.2.5.tar.gz
+[2024-05-03 01:06:47] INFO root fetch - processPackages [cocorum]: executing diffoscope
+[2024-05-03 01:06:47] INFO root fetch - processPackages [cocorum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocorum-0.3.0.tar.gz tmp/cocorum-0.4.0.tar.gz --markdown 20240503/c/cocorum/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-03 01:06:47] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.5.0.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.6.0.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - main [MainThread]: End processing [soroban]: success
+[2024-05-03 01:06:47] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2024-05-03 01:06:47] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-1.2.4.tar.gz tmp/abacusai-1.2.5.tar.gz --markdown 20240503/a/abacusai/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-03 01:06:47] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240430.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240501.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-03 01:06:47] INFO root fetch - processPackages [certbot-filecopy-installer]: Remove: archive file [/home/abi/fetcher/tmp/certbot_filecopy_installer-0.9.0.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - processPackages [certbot-filecopy-installer]: Remove: archive file [/home/abi/fetcher/tmp/certbot_filecopy_installer-0.9.1.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - main [MainThread]: End processing [certbot-filecopy-installer]: success
+[2024-05-03 01:06:47] INFO root fetch - processPackages [cocorum]: Remove: archive file [/home/abi/fetcher/tmp/cocorum-0.3.0.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - processPackages [cocorum]: Remove: archive file [/home/abi/fetcher/tmp/cocorum-0.4.0.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - main [MainThread]: End processing [cocorum]: success
+[2024-05-03 01:06:47] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240430.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240501.tar.gz]
+[2024-05-03 01:06:47] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-03 01:07:05] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.4.tar.gz]
+[2024-05-03 01:07:05] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.5.tar.gz]
+[2024-05-03 01:07:05] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2024-05-03 01:07:05] INFO root fetch - main [MainThread]: Store serial: [23038486]
