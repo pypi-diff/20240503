@@ -458,3 +458,15 @@
 [2024-05-03 00:24:03] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.8.tar.gz]
 [2024-05-03 00:24:03] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-05-03 00:24:03] INFO root fetch - main [MainThread]: Store serial: [23038144]
+[2024-05-03 00:26:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038144]
+[2024-05-03 00:26:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 00:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whisperplus
+[2024-05-03 00:26:13] INFO root fetch - processPackages [whisperplus]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-03 00:26:13] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/70/48/b98603fcaa823b47f72e2a561be3983d1141e97d38c7e8375ea1ce92ca18/whisperplus-0.2.7.tar.gz
+[2024-05-03 00:26:13] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/9a/49/42da8dc1dfaa872ba8d15a9a2f7786964130a99fd933dae9f35c17cae8f2/whisperplus-0.2.8.tar.gz
+[2024-05-03 00:26:13] INFO root fetch - processPackages [whisperplus]: executing diffoscope
+[2024-05-03 00:26:13] INFO root fetch - processPackages [whisperplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisperplus-0.2.7.tar.gz tmp/whisperplus-0.2.8.tar.gz --markdown 20240503/w/whisperplus/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-03 00:26:14] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.7.tar.gz]
+[2024-05-03 00:26:14] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.8.tar.gz]
+[2024-05-03 00:26:14] INFO root fetch - main [MainThread]: End processing [whisperplus]: success
+[2024-05-03 00:26:14] INFO root fetch - main [MainThread]: Store serial: [23038146]
