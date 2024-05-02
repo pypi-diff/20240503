@@ -1423,3 +1423,24 @@
 [2024-05-03 01:22:34] INFO root fetch - processPackages [trame-vtklocal]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtklocal-0.2.0.tar.gz]
 [2024-05-03 01:22:34] INFO root fetch - main [MainThread]: End processing [trame-vtklocal]: success
 [2024-05-03 01:22:34] INFO root fetch - main [MainThread]: Store serial: [23038668]
+[2024-05-03 01:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038668]
+[2024-05-03 01:24:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 01:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-tgpt
+[2024-05-03 01:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wood-nano
+[2024-05-03 01:24:42] INFO root fetch - processPackages [wood-nano]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 01:24:42] INFO root fetch - processPackages [python-tgpt]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-05-03 01:24:43] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/42/7d/8d6b7d3a860fa53a6e7e8bec725d951fd9902480c572124d0bbe6b24521d/python_tgpt-0.6.9.tar.gz
+[2024-05-03 01:24:43] INFO root fetch - processPackages [wood-nano]: Downloading https://files.pythonhosted.org/packages/41/68/361e0ae257dddc573044a71f8c2e4bd03533653c7d91d640e2e86a6d3af4/wood_nano-0.1.0-cp39-cp39-win_amd64.whl
+[2024-05-03 01:24:43] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/8a/8a/c24f6e666a2b9ae192d875b9fef5390243b932203754f9e44fd8bd9049f0/python_tgpt-0.7.0.tar.gz
+[2024-05-03 01:24:43] INFO root fetch - processPackages [python-tgpt]: executing diffoscope
+[2024-05-03 01:24:43] INFO root fetch - processPackages [python-tgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_tgpt-0.6.9.tar.gz tmp/python_tgpt-0.7.0.tar.gz --markdown 20240503/p/python-tgpt/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-05-03 01:24:43] INFO root fetch - processPackages [wood-nano]: Downloading https://files.pythonhosted.org/packages/a9/b6/3c30542ea16fbf52989d789641d3eec7bf003d736c7b1f456ee94e77359e/wood_nano-0.1.1-cp39-cp39-macosx_12_0_x86_64.whl
+[2024-05-03 01:24:44] INFO root fetch - processPackages [wood-nano]: executing diffoscope
+[2024-05-03 01:24:44] INFO root fetch - processPackages [wood-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wood_nano-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/wood_nano-0.1.1-cp39-cp39-macosx_12_0_x86_64.whl.zip --markdown 20240503/w/wood-nano/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 01:24:44] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.6.9.tar.gz]
+[2024-05-03 01:24:44] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.7.0.tar.gz]
+[2024-05-03 01:24:44] INFO root fetch - main [MainThread]: End processing [python-tgpt]: success
+[2024-05-03 01:24:44] INFO root fetch - processPackages [wood-nano]: Remove: archive file [/home/abi/fetcher/tmp/wood_nano-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 01:24:44] INFO root fetch - processPackages [wood-nano]: Remove: archive file [/home/abi/fetcher/tmp/wood_nano-0.1.1-cp39-cp39-macosx_12_0_x86_64.whl.zip]
+[2024-05-03 01:24:44] INFO root fetch - main [MainThread]: End processing [wood-nano]: success
+[2024-05-03 01:24:44] INFO root fetch - main [MainThread]: Store serial: [23038673]
