@@ -1313,3 +1313,27 @@
 [2024-05-03 01:11:38] INFO root fetch - processPackages [rapidfuzz]: Remove: archive file [/home/abi/fetcher/tmp/rapidfuzz-3.8.1.tar.gz]
 [2024-05-03 01:11:38] INFO root fetch - main [MainThread]: End processing [rapidfuzz]: success
 [2024-05-03 01:11:38] INFO root fetch - main [MainThread]: Store serial: [23038544]
+[2024-05-03 01:13:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038544]
+[2024-05-03 01:13:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 01:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: silverback
+[2024-05-03 01:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinxbio
+[2024-05-03 01:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiotgbot
+[2024-05-03 01:13:46] WARNING root fetch - processPackages [sphinxbio]: Skipping, unable to determine old version
+[2024-05-03 01:13:46] INFO root fetch - main [MainThread]: End processing [sphinxbio] error
+[2024-05-03 01:13:46] INFO root fetch - processPackages [aiotgbot]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-03 01:13:46] INFO root fetch - processPackages [silverback]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-03 01:13:46] INFO root fetch - processPackages [aiotgbot]: Downloading https://files.pythonhosted.org/packages/2c/b4/eb1fcd2ce7e71bb09e5b555b150815f457fe43c9877f345e57ee8a732c2a/aiotgbot-0.9.5.tar.gz
+[2024-05-03 01:13:47] INFO root fetch - processPackages [silverback]: Downloading https://files.pythonhosted.org/packages/de/2b/25954032bf02f88387e5a4bb4a973978bb5b0539d8b5734f325dcf50664a/silverback-0.3.3.tar.gz
+[2024-05-03 01:13:47] INFO root fetch - processPackages [aiotgbot]: Downloading https://files.pythonhosted.org/packages/0f/85/301c585e2f01d3a250660e7afb2c7cefe9ffbc63b809bca915b8c5868450/aiotgbot-0.9.6.tar.gz
+[2024-05-03 01:13:47] INFO root fetch - processPackages [aiotgbot]: executing diffoscope
+[2024-05-03 01:13:47] INFO root fetch - processPackages [aiotgbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotgbot-0.9.5.tar.gz tmp/aiotgbot-0.9.6.tar.gz --markdown 20240503/a/aiotgbot/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-03 01:13:47] INFO root fetch - processPackages [silverback]: Downloading https://files.pythonhosted.org/packages/3e/4f/c5732709589252906ba957230377e51c695e44a950d3a045806d55785151/silverback-0.4.0.tar.gz
+[2024-05-03 01:13:47] INFO root fetch - processPackages [silverback]: executing diffoscope
+[2024-05-03 01:13:47] INFO root fetch - processPackages [silverback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silverback-0.3.3.tar.gz tmp/silverback-0.4.0.tar.gz --markdown 20240503/s/silverback/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-03 01:13:47] INFO root fetch - processPackages [aiotgbot]: Remove: archive file [/home/abi/fetcher/tmp/aiotgbot-0.9.5.tar.gz]
+[2024-05-03 01:13:47] INFO root fetch - processPackages [aiotgbot]: Remove: archive file [/home/abi/fetcher/tmp/aiotgbot-0.9.6.tar.gz]
+[2024-05-03 01:13:47] INFO root fetch - main [MainThread]: End processing [aiotgbot]: success
+[2024-05-03 01:13:48] INFO root fetch - processPackages [silverback]: Remove: archive file [/home/abi/fetcher/tmp/silverback-0.3.3.tar.gz]
+[2024-05-03 01:13:48] INFO root fetch - processPackages [silverback]: Remove: archive file [/home/abi/fetcher/tmp/silverback-0.4.0.tar.gz]
+[2024-05-03 01:13:48] INFO root fetch - main [MainThread]: End processing [silverback]: success
+[2024-05-03 01:13:48] INFO root fetch - main [MainThread]: Store serial: [23038603]
