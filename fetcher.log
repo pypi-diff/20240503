@@ -959,3 +959,51 @@
 [2024-05-03 00:55:14] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.9.0.tar.gz]
 [2024-05-03 00:55:14] INFO root fetch - main [MainThread]: End processing [prefect]: success
 [2024-05-03 00:55:14] INFO root fetch - main [MainThread]: Store serial: [23038404]
+[2024-05-03 00:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038404]
+[2024-05-03 00:57:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agt-server
+[2024-05-03 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-model-utils
+[2024-05-03 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fmcapi
+[2024-05-03 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ophyd-registry
+[2024-05-03 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morebs2
+[2024-05-03 00:57:23] INFO root fetch - processPackages [agt-server]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-03 00:57:23] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/14/c8/5fa7f075ca61048b636cb1158604e372eca0a0dabed98273293002dba621/agt_server-1.3.8.tar.gz
+[2024-05-03 00:57:23] INFO root fetch - processPackages [ophyd-registry]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-03 00:57:23] INFO root fetch - processPackages [django-model-utils]: New version: [4.5.1] Old Version: [4.5.0]
+[2024-05-03 00:57:23] INFO root fetch - processPackages [fmcapi]: New version: [20240503.0] Old Version: [20240418.0]
+[2024-05-03 00:57:23] INFO root fetch - processPackages [morebs2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:57:23] INFO root fetch - processPackages [ophyd-registry]: Downloading https://files.pythonhosted.org/packages/43/63/89c39ccff9d49ef285d68aa24ee1bb6ac939b61870ffa0b1dc0b3301b572/ophyd-registry-1.1.0.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [django-model-utils]: Downloading https://files.pythonhosted.org/packages/46/be/9a1ed09695d7997011c5c81d3ce133503281c3fabd691f848afccdecfbbe/django-model-utils-4.5.0.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [fmcapi]: Downloading https://files.pythonhosted.org/packages/e1/48/bad4ef6861a246e4af9d068fed8e1858912b372de03bc3ffc6432c13dba8/fmcapi-20240418.0.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/1f/db/70670728a8f183ac0108b9ac261beb8b3d3e4e35c9767aa1244704155dcb/agt_server-1.3.9.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [morebs2]: Downloading https://files.pythonhosted.org/packages/e2/86/40b71f4628d42b4a9db256240a4a0fb29e93e822b439500481d3f6bb435a/morebs2-0.0.8.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-05-03 00:57:24] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.3.8.tar.gz tmp/agt_server-1.3.9.tar.gz --markdown 20240503/a/agt-server/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-03 00:57:24] INFO root fetch - processPackages [ophyd-registry]: Downloading https://files.pythonhosted.org/packages/c0/fd/b59cd8f1dfb65a886c6301933eaf76dec439ae6f5b2767a8853fea9d3f05/ophyd_registry-1.2.0.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [django-model-utils]: Downloading https://files.pythonhosted.org/packages/c6/f3/77be195e7518b8a652c052cdc42e60135b56a9a460aa3bd8cb08d751c322/django_model_utils-4.5.1.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [fmcapi]: Downloading https://files.pythonhosted.org/packages/58/44/de33a3153410d3706963309488207d4a14cc84752ed987e55bcc6b9519dd/fmcapi-20240503.0.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [django-model-utils]: executing diffoscope
+[2024-05-03 00:57:24] INFO root fetch - processPackages [django-model-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-model-utils-4.5.0.tar.gz tmp/django_model_utils-4.5.1.tar.gz --markdown 20240503/d/django-model-utils/4.5.0-4.5.1/README.md --exclude *.pyd
+[2024-05-03 00:57:24] INFO root fetch - processPackages [fmcapi]: executing diffoscope
+[2024-05-03 00:57:24] INFO root fetch - processPackages [fmcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmcapi-20240418.0.tar.gz tmp/fmcapi-20240503.0.tar.gz --markdown 20240503/f/fmcapi/20240418.0-20240503.0/README.md --exclude *.pyd
+[2024-05-03 00:57:24] INFO root fetch - processPackages [ophyd-registry]: executing diffoscope
+[2024-05-03 00:57:24] INFO root fetch - processPackages [ophyd-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd-registry-1.1.0.tar.gz tmp/ophyd_registry-1.2.0.tar.gz --markdown 20240503/o/ophyd-registry/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-03 00:57:24] INFO root fetch - processPackages [morebs2]: Downloading https://files.pythonhosted.org/packages/a7/07/abb630f1fdeacea9b7d2c0b59a39aaca2c505f35ad719d9515afb8bd505a/morebs2-0.0.9.tar.gz
+[2024-05-03 00:57:24] INFO root fetch - processPackages [morebs2]: executing diffoscope
+[2024-05-03 00:57:24] INFO root fetch - processPackages [morebs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morebs2-0.0.8.tar.gz tmp/morebs2-0.0.9.tar.gz --markdown 20240503/m/morebs2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:57:25] INFO root fetch - processPackages [ophyd-registry]: Remove: archive file [/home/abi/fetcher/tmp/ophyd-registry-1.1.0.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - processPackages [ophyd-registry]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_registry-1.2.0.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - main [MainThread]: End processing [ophyd-registry]: success
+[2024-05-03 00:57:25] INFO root fetch - processPackages [django-model-utils]: Remove: archive file [/home/abi/fetcher/tmp/django-model-utils-4.5.0.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - processPackages [django-model-utils]: Remove: archive file [/home/abi/fetcher/tmp/django_model_utils-4.5.1.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - main [MainThread]: End processing [django-model-utils]: success
+[2024-05-03 00:57:25] INFO root fetch - processPackages [morebs2]: Remove: archive file [/home/abi/fetcher/tmp/morebs2-0.0.8.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - processPackages [morebs2]: Remove: archive file [/home/abi/fetcher/tmp/morebs2-0.0.9.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - main [MainThread]: End processing [morebs2]: success
+[2024-05-03 00:57:25] INFO root fetch - processPackages [fmcapi]: Remove: archive file [/home/abi/fetcher/tmp/fmcapi-20240418.0.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - processPackages [fmcapi]: Remove: archive file [/home/abi/fetcher/tmp/fmcapi-20240503.0.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - main [MainThread]: End processing [fmcapi]: success
+[2024-05-03 00:57:25] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.8.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.9.tar.gz]
+[2024-05-03 00:57:25] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-05-03 00:57:25] INFO root fetch - main [MainThread]: Store serial: [23038417]
