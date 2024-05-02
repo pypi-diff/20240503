@@ -1480,3 +1480,15 @@
 [2024-05-03 01:29:05] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.9.tar.gz]
 [2024-05-03 01:29:05] INFO root fetch - main [MainThread]: End processing [PYield]: success
 [2024-05-03 01:29:05] INFO root fetch - main [MainThread]: Store serial: [23038687]
+[2024-05-03 01:31:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038687]
+[2024-05-03 01:31:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 01:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: analogvnn
+[2024-05-03 01:31:15] INFO root fetch - processPackages [analogvnn]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-03 01:31:15] INFO root fetch - processPackages [analogvnn]: Downloading https://files.pythonhosted.org/packages/6a/0b/995ffb42d11e2e93c168959d0a5ea8ba7de61e4ed6439ed2194d45c90910/analogvnn-1.0.7.tar.gz
+[2024-05-03 01:31:15] INFO root fetch - processPackages [analogvnn]: Downloading https://files.pythonhosted.org/packages/3b/13/905fc48d535460a54f800e13a90b6c7e5a62e8c04ac3e17666bdc0cbec64/analogvnn-1.0.8.tar.gz
+[2024-05-03 01:31:16] INFO root fetch - processPackages [analogvnn]: executing diffoscope
+[2024-05-03 01:31:16] INFO root fetch - processPackages [analogvnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analogvnn-1.0.7.tar.gz tmp/analogvnn-1.0.8.tar.gz --markdown 20240503/a/analogvnn/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-03 01:31:16] INFO root fetch - processPackages [analogvnn]: Remove: archive file [/home/abi/fetcher/tmp/analogvnn-1.0.7.tar.gz]
+[2024-05-03 01:31:16] INFO root fetch - processPackages [analogvnn]: Remove: archive file [/home/abi/fetcher/tmp/analogvnn-1.0.8.tar.gz]
+[2024-05-03 01:31:16] INFO root fetch - main [MainThread]: End processing [analogvnn]: success
+[2024-05-03 01:31:16] INFO root fetch - main [MainThread]: Store serial: [23038690]
