@@ -1370,3 +1370,23 @@
 [2024-05-03 01:16:01] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0rc0.tar.gz]
 [2024-05-03 01:16:01] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
 [2024-05-03 01:16:01] INFO root fetch - main [MainThread]: Store serial: [23038634]
+[2024-05-03 01:18:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038634]
+[2024-05-03 01:18:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libsrg
+[2024-05-03 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soxs
+[2024-05-03 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stxra
+[2024-05-03 01:18:10] WARNING root fetch - processPackages [stxra]: Skipping, unable to determine old version
+[2024-05-03 01:18:10] INFO root fetch - main [MainThread]: End processing [stxra] error
+[2024-05-03 01:18:10] INFO root fetch - processPackages [libsrg]: New version: [4.4.0] Old Version: [4.3.2]
+[2024-05-03 01:18:11] INFO root fetch - processPackages [soxs]: New version: [4.8.4] Old Version: [4.8.3]
+[2024-05-03 01:18:11] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/f7/96/a00bc629d615616f505ba3b5fac19e897d019ae52bd56b1c007f0a40119e/libsrg-4.3.2-py3-none-any.whl
+[2024-05-03 01:18:11] INFO root fetch - processPackages [soxs]: Downloading https://files.pythonhosted.org/packages/b8/db/546f43573e98640d59ccaab31f7178ec06adaa94c72a74e941d2f5aa5d15/soxs-4.8.3.tar.gz
+[2024-05-03 01:18:11] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/16/1d/46476160d2311560950b9def5f1bdd672926f7061151931f7eee30ace3fa/libsrg-4.4.0.tar.gz
+[2024-05-03 01:18:11] WARNING root fetch - processPackages [soxs]: Skipping package: exceeds size limit 14185199>=10485760
+[2024-05-03 01:18:11] INFO root fetch - main [MainThread]: End processing [soxs] error
+[2024-05-03 01:18:11] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2024-05-03 01:18:11] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-4.3.2-py3-none-any.whl.zip tmp/libsrg-4.4.0.tar.gz --markdown 20240503/l/libsrg/4.3.2-4.4.0/README.md --exclude *.pyd
+[2024-05-03 01:18:12] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.3.2-py3-none-any.whl.zip]
+[2024-05-03 01:18:12] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.4.0.tar.gz]
+[2024-05-03 01:18:12] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2024-05-03 01:18:12] INFO root fetch - main [MainThread]: Store serial: [23038645]
