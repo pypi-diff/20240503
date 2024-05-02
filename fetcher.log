@@ -319,3 +319,79 @@
 [2024-05-03 00:17:16] INFO root fetch - processPackages [wisdem]: Remove: archive file [/home/abi/fetcher/tmp/wisdem-3.9.2.tar.gz]
 [2024-05-03 00:17:16] INFO root fetch - main [MainThread]: End processing [wisdem]: success
 [2024-05-03 00:17:16] INFO root fetch - main [MainThread]: Store serial: [23038085]
+[2024-05-03 00:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038085]
+[2024-05-03 00:19:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: virtool-cli
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bilby.cython
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rship-sdk
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cfdi
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agt-server
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cocoon-data
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rship-sdk
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heimdallr-py
+[2024-05-03 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kobo
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/3a/59/54682cd06bcbefd5dde8d84fb3de98d90b0b8e120a88abcece0c610e21bf/rship-sdk-0.0.8.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [bilby.cython]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-03 00:19:39] WARNING root fetch - processPackages [heimdallr-py]: Skipping, unable to determine old version
+[2024-05-03 00:19:39] INFO root fetch - main [MainThread]: End processing [heimdallr-py] error
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/3a/59/54682cd06bcbefd5dde8d84fb3de98d90b0b8e120a88abcece0c610e21bf/rship-sdk-0.0.8.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [agt-server]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-03 00:19:39] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 00:19:39] INFO root fetch - processPackages [virtool-cli]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2024-05-03 00:19:39] INFO root fetch - processPackages [kobo]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 00:19:39] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2024-05-03 00:19:39] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/e2/03/acdd2ce759ba46fd3d4908fec2c95091d80ad09dab18be18f29f9cc8f62a/rship-sdk-0.0.9.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [bilby.cython]: Downloading https://files.pythonhosted.org/packages/84/54/9f1b5f47b5c422b6d0622bd297d8d4e1c0f6c66ef5566194cc251e9c2e3c/bilby_cython-0.5.0.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [virtool-cli]: Downloading https://files.pythonhosted.org/packages/ee/74/3139991a45f732b98971405b7b2cfdd661eca6f54fc14232948412aed0eb/virtool_cli-2.0.0a8.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/e2/03/acdd2ce759ba46fd3d4908fec2c95091d80ad09dab18be18f29f9cc8f62a/rship-sdk-0.0.9.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/80/dd/491b99eab953d0bf336b867f4830f76e4580c2475e8f489cbdcf642954c8/agt_server-1.3.7.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [kobo]: Downloading https://files.pythonhosted.org/packages/0c/bf/d6419dcd8b332e85c1a7569f1ee47145970ef52a9df36f2c689b311eaad3/kobo-0.8.0.tar.bz2
+[2024-05-03 00:19:39] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/d8/7d/d99ae3e7add96c4909780286d44633880055d97463ac4470484411b34ba8/django_cfdi-2.98-py3-none-any.whl
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: executing diffoscope
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rship-sdk-0.0.8.tar.gz tmp/rship-sdk-0.0.9.tar.gz --markdown 20240503/r/rship-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: executing diffoscope
+[2024-05-03 00:19:39] INFO root fetch - processPackages [rship-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rship-sdk-0.0.8.tar.gz tmp/rship-sdk-0.0.9.tar.gz --markdown 20240503/r/rship-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:19:39] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-03 00:19:39] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240503/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 00:19:39] INFO root fetch - processPackages [virtool-cli]: Downloading https://files.pythonhosted.org/packages/0b/42/6ed6c9c5de2f061e3b27061d6fbcfd14ccbbda6786ad7bf6e5fee8a0a633/virtool_cli-2.0.0a9.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [bilby.cython]: Downloading https://files.pythonhosted.org/packages/55/45/4b4b777021ac4a31aad686a2ab9b4c8ef4e9d277e62b4b5089736a116035/bilby_cython-0.5.1.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/14/c8/5fa7f075ca61048b636cb1158604e372eca0a0dabed98273293002dba621/agt_server-1.3.8.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [kobo]: Downloading https://files.pythonhosted.org/packages/98/25/a93b2a29472229f924b3f8f32aca09f6b7545156c490bb0c8d801c261f14/kobo-0.9.0.tar.gz
+[2024-05-03 00:19:39] INFO root fetch - processPackages [bilby.cython]: executing diffoscope
+[2024-05-03 00:19:39] INFO root fetch - processPackages [bilby.cython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilby_cython-0.5.0.tar.gz tmp/bilby_cython-0.5.1.tar.gz --markdown 20240503/b/bilby.cython/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-03 00:19:39] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-05-03 00:19:39] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.3.7.tar.gz tmp/agt_server-1.3.8.tar.gz --markdown 20240503/a/agt-server/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-03 00:19:40] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/68/29/ce9ebc4855819720b4e8fb4fee0d3d7ed2dd66bd0e56db087e971e65b112/django_cfdi-2.99-py3-none-any.whl
+[2024-05-03 00:19:40] INFO root fetch - processPackages [virtool-cli]: executing diffoscope
+[2024-05-03 00:19:40] INFO root fetch - processPackages [virtool-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtool_cli-2.0.0a8.tar.gz tmp/virtool_cli-2.0.0a9.tar.gz --markdown 20240503/v/virtool-cli/2.0.0a8-2.0.0a9/README.md --exclude *.pyd
+[2024-05-03 00:19:40] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.8.tar.gz]
+[2024-05-03 00:19:40] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.9.tar.gz]
+[2024-05-03 00:19:40] INFO root fetch - main [MainThread]: End processing [rship-sdk]: success
+[2024-05-03 00:19:40] INFO root fetch - processPackages [kobo]: executing diffoscope
+[2024-05-03 00:19:40] INFO root fetch - processPackages [kobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobo-0.8.0.tar.bz2 tmp/kobo-0.9.0.tar.gz --markdown 20240503/k/kobo/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 00:19:40] INFO root fetch - main [MainThread]: End processing [rship-sdk]: success
+[2024-05-03 00:19:40] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2024-05-03 00:19:40] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20240503/d/django-cfdi/2.98-2.99/README.md --exclude *.pyd
+[2024-05-03 00:19:40] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-03 00:19:40] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-03 00:19:40] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-03 00:19:40] INFO root fetch - processPackages [virtool-cli]: Remove: archive file [/home/abi/fetcher/tmp/virtool_cli-2.0.0a8.tar.gz]
+[2024-05-03 00:19:40] INFO root fetch - processPackages [virtool-cli]: Remove: archive file [/home/abi/fetcher/tmp/virtool_cli-2.0.0a9.tar.gz]
+[2024-05-03 00:19:40] INFO root fetch - main [MainThread]: End processing [virtool-cli]: success
+[2024-05-03 00:19:41] INFO root fetch - processPackages [kobo]: Remove: archive file [/home/abi/fetcher/tmp/kobo-0.8.0.tar.bz2]
+[2024-05-03 00:19:41] INFO root fetch - processPackages [kobo]: Remove: archive file [/home/abi/fetcher/tmp/kobo-0.9.0.tar.gz]
+[2024-05-03 00:19:41] INFO root fetch - main [MainThread]: End processing [kobo]: success
+[2024-05-03 00:19:41] INFO root fetch - processPackages [bilby.cython]: Remove: archive file [/home/abi/fetcher/tmp/bilby_cython-0.5.0.tar.gz]
+[2024-05-03 00:19:41] INFO root fetch - processPackages [bilby.cython]: Remove: archive file [/home/abi/fetcher/tmp/bilby_cython-0.5.1.tar.gz]
+[2024-05-03 00:19:41] INFO root fetch - main [MainThread]: End processing [bilby.cython]: success
+[2024-05-03 00:19:41] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.7.tar.gz]
+[2024-05-03 00:19:41] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.8.tar.gz]
+[2024-05-03 00:19:41] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-05-03 00:19:42] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.98-py3-none-any.whl.zip]
+[2024-05-03 00:19:42] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
+[2024-05-03 00:19:42] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2024-05-03 00:19:42] INFO root fetch - main [MainThread]: Store serial: [23038123]
