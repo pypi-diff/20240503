@@ -470,3 +470,33 @@
 [2024-05-03 00:26:14] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.8.tar.gz]
 [2024-05-03 00:26:14] INFO root fetch - main [MainThread]: End processing [whisperplus]: success
 [2024-05-03 00:26:14] INFO root fetch - main [MainThread]: Store serial: [23038146]
+[2024-05-03 00:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038146]
+[2024-05-03 00:28:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 00:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ng-data-pipelines-sdk
+[2024-05-03 00:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agt-server
+[2024-05-03 00:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vegan
+[2024-05-03 00:28:22] INFO root fetch - processPackages [agt-server]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-03 00:28:22] INFO root fetch - processPackages [ng-data-pipelines-sdk]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-03 00:28:22] INFO root fetch - processPackages [vegan]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-03 00:28:22] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/14/c8/5fa7f075ca61048b636cb1158604e372eca0a0dabed98273293002dba621/agt_server-1.3.8.tar.gz
+[2024-05-03 00:28:23] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/b9/22/38176da2c155839b54e6bb9cdf693a0178e46fc7394533690f151f810025/vegan-2.1.4.tar.gz
+[2024-05-03 00:28:23] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/4b/09/a058515fcf566b838ba4861b936457ab47bf8a6e4b5cad0a4859964db74b/ng_data_pipelines_sdk-0.5.0.tar.gz
+[2024-05-03 00:28:23] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/1f/db/70670728a8f183ac0108b9ac261beb8b3d3e4e35c9767aa1244704155dcb/agt_server-1.3.9.tar.gz
+[2024-05-03 00:28:23] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/d2/ac/a1ecb1a4bfad10086bdcba9ca2251c732ac8001662e8bd536cf69a3ad600/ng_data_pipelines_sdk-0.6.0.tar.gz
+[2024-05-03 00:28:23] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-05-03 00:28:23] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.3.8.tar.gz tmp/agt_server-1.3.9.tar.gz --markdown 20240503/a/agt-server/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-03 00:28:23] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/24/db/92004d5698715df6bccdceb6a3e5e5e672a05da90b9368ac1b4a14553690/vegan-2.1.5.tar.gz
+[2024-05-03 00:28:23] INFO root fetch - processPackages [ng-data-pipelines-sdk]: executing diffoscope
+[2024-05-03 00:28:23] INFO root fetch - processPackages [ng-data-pipelines-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ng_data_pipelines_sdk-0.5.0.tar.gz tmp/ng_data_pipelines_sdk-0.6.0.tar.gz --markdown 20240503/n/ng-data-pipelines-sdk/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-03 00:28:23] INFO root fetch - processPackages [vegan]: executing diffoscope
+[2024-05-03 00:28:23] INFO root fetch - processPackages [vegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegan-2.1.4.tar.gz tmp/vegan-2.1.5.tar.gz --markdown 20240503/v/vegan/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-03 00:28:24] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.5.0.tar.gz]
+[2024-05-03 00:28:24] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.6.0.tar.gz]
+[2024-05-03 00:28:24] INFO root fetch - main [MainThread]: End processing [ng-data-pipelines-sdk]: success
+[2024-05-03 00:28:24] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.8.tar.gz]
+[2024-05-03 00:28:24] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.9.tar.gz]
+[2024-05-03 00:28:24] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-05-03 00:28:49] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.1.4.tar.gz]
+[2024-05-03 00:28:49] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.1.5.tar.gz]
+[2024-05-03 00:28:49] INFO root fetch - main [MainThread]: End processing [vegan]: success
+[2024-05-03 00:28:49] INFO root fetch - main [MainThread]: Store serial: [23038156]
