@@ -1171,3 +1171,29 @@
 [2024-05-03 01:01:55] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
 [2024-05-03 01:01:55] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
 [2024-05-03 01:01:55] INFO root fetch - main [MainThread]: Store serial: [23038460]
+[2024-05-03 01:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038460]
+[2024-05-03 01:04:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SQLDataModel
+[2024-05-03 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ciscoconfparse2
+[2024-05-03 01:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satlaspretrain-models
+[2024-05-03 01:04:04] INFO root fetch - processPackages [satlaspretrain-models]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-03 01:04:04] INFO root fetch - processPackages [SQLDataModel]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-03 01:04:04] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-03 01:04:04] INFO root fetch - processPackages [satlaspretrain-models]: Downloading https://files.pythonhosted.org/packages/dc/47/52d7e2f745a0c13b739478d9a24066d17a4028e0e63adcf82e0c9d3eaaf0/satlaspretrain_models-0.3.0.tar.gz
+[2024-05-03 01:04:04] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-05-03 01:04:04] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/25/32/a11124b907eb30aae2c381db9f45d8e328a3128a2015a52b928249d1fbcc/sqldatamodel-0.4.0.tar.gz
+[2024-05-03 01:04:36] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-05-03 01:04:36] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-05-03 01:04:36] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/ed/bc/90585739c4b8561671f115adbeefef755dab82af9ca3ae0324788e74815e/sqldatamodel-0.4.1.tar.gz
+[2024-05-03 01:04:36] INFO root fetch - processPackages [satlaspretrain-models]: Downloading https://files.pythonhosted.org/packages/d0/2c/4cfaf36d603d7d3cd73bd0ec7aea3fec566805ae30b63169e52099b07b0e/satlaspretrain_models-0.3.1.tar.gz
+[2024-05-03 01:04:36] INFO root fetch - processPackages [SQLDataModel]: executing diffoscope
+[2024-05-03 01:04:36] INFO root fetch - processPackages [SQLDataModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqldatamodel-0.4.0.tar.gz tmp/sqldatamodel-0.4.1.tar.gz --markdown 20240503/S/SQLDataModel/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-03 01:04:36] INFO root fetch - processPackages [satlaspretrain-models]: executing diffoscope
+[2024-05-03 01:04:36] INFO root fetch - processPackages [satlaspretrain-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satlaspretrain_models-0.3.0.tar.gz tmp/satlaspretrain_models-0.3.1.tar.gz --markdown 20240503/s/satlaspretrain-models/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-03 01:04:37] INFO root fetch - processPackages [satlaspretrain-models]: Remove: archive file [/home/abi/fetcher/tmp/satlaspretrain_models-0.3.0.tar.gz]
+[2024-05-03 01:04:37] INFO root fetch - processPackages [satlaspretrain-models]: Remove: archive file [/home/abi/fetcher/tmp/satlaspretrain_models-0.3.1.tar.gz]
+[2024-05-03 01:04:37] INFO root fetch - main [MainThread]: End processing [satlaspretrain-models]: success
+[2024-05-03 01:04:37] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/sqldatamodel-0.4.0.tar.gz]
+[2024-05-03 01:04:37] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/sqldatamodel-0.4.1.tar.gz]
+[2024-05-03 01:04:37] INFO root fetch - main [MainThread]: End processing [SQLDataModel]: success
+[2024-05-03 01:04:37] INFO root fetch - main [MainThread]: Store serial: [23038469]
