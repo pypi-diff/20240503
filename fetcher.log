@@ -1492,3 +1492,33 @@
 [2024-05-03 01:31:16] INFO root fetch - processPackages [analogvnn]: Remove: archive file [/home/abi/fetcher/tmp/analogvnn-1.0.8.tar.gz]
 [2024-05-03 01:31:16] INFO root fetch - main [MainThread]: End processing [analogvnn]: success
 [2024-05-03 01:31:16] INFO root fetch - main [MainThread]: Store serial: [23038690]
+[2024-05-03 01:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038690]
+[2024-05-03 01:33:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 01:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-core
+[2024-05-03 01:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-postgres
+[2024-05-03 01:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-tests-adapter
+[2024-05-03 01:33:24] INFO root fetch - processPackages [dbt-core]: New version: [1.8.0rc1] Old Version: [1.8.0b3]
+[2024-05-03 01:33:24] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/1a/49/88875fcf862459491867ab369aa98b58607b21ab7eaa48040737aa71898e/dbt_core-1.8.0b3.tar.gz
+[2024-05-03 01:33:24] INFO root fetch - processPackages [dbt-tests-adapter]: New version: [1.8.0rc1] Old Version: [1.8.0b2]
+[2024-05-03 01:33:24] INFO root fetch - processPackages [dbt-postgres]: New version: [1.8.0rc1] Old Version: [1.8.0b5]
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/ae/b7/879e2b6a26ae283e6132c4187dfcc356552efe43e38dbec46ccfae917ca4/dbt_tests_adapter-1.8.0b2.tar.gz
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/2f/1e/079b56e60e7a97d5f9b171c08a89708e21ebe4df98d6e52564a2fd368e88/dbt_postgres-1.8.0b5.tar.gz
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/25/a5/7e4ecf0d1fc0e7dbecdd2efe0f29db34d2ebd980e0d4ecbbe4510e4f3192/dbt_core-1.8.0rc1.tar.gz
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/94/b5/06b5e81b231ee1cc6e0c954cfb943577d6b5ded1b418c70ae21c271e443f/dbt_tests_adapter-1.8.0rc1.tar.gz
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-core]: executing diffoscope
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_core-1.8.0b3.tar.gz tmp/dbt_core-1.8.0rc1.tar.gz --markdown 20240503/d/dbt-core/1.8.0b3-1.8.0rc1/README.md --exclude *.pyd
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/77/47/f3cd6541c4373019b6f6488954d1f63e116cbc21b1ade62451bcd5e57d24/dbt_postgres-1.8.0rc1.tar.gz
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-tests-adapter]: executing diffoscope
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-tests-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_tests_adapter-1.8.0b2.tar.gz tmp/dbt_tests_adapter-1.8.0rc1.tar.gz --markdown 20240503/d/dbt-tests-adapter/1.8.0b2-1.8.0rc1/README.md --exclude *.pyd
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-postgres]: executing diffoscope
+[2024-05-03 01:33:25] INFO root fetch - processPackages [dbt-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_postgres-1.8.0b5.tar.gz tmp/dbt_postgres-1.8.0rc1.tar.gz --markdown 20240503/d/dbt-postgres/1.8.0b5-1.8.0rc1/README.md --exclude *.pyd
+[2024-05-03 01:33:26] INFO root fetch - processPackages [dbt-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_postgres-1.8.0b5.tar.gz]
+[2024-05-03 01:33:26] INFO root fetch - processPackages [dbt-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_postgres-1.8.0rc1.tar.gz]
+[2024-05-03 01:33:26] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
+[2024-05-03 01:33:26] INFO root fetch - processPackages [dbt-tests-adapter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_tests_adapter-1.8.0b2.tar.gz]
+[2024-05-03 01:33:26] INFO root fetch - processPackages [dbt-tests-adapter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_tests_adapter-1.8.0rc1.tar.gz]
+[2024-05-03 01:33:26] INFO root fetch - main [MainThread]: End processing [dbt-tests-adapter]: success
+[2024-05-03 01:33:27] INFO root fetch - processPackages [dbt-core]: Remove: archive file [/home/abi/fetcher/tmp/dbt_core-1.8.0b3.tar.gz]
+[2024-05-03 01:33:27] INFO root fetch - processPackages [dbt-core]: Remove: archive file [/home/abi/fetcher/tmp/dbt_core-1.8.0rc1.tar.gz]
+[2024-05-03 01:33:27] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
+[2024-05-03 01:33:27] INFO root fetch - main [MainThread]: Store serial: [23038700]
