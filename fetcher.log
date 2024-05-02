@@ -1727,3 +1727,33 @@
 [2024-05-03 01:51:05] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.5.0.tar.gz]
 [2024-05-03 01:51:05] INFO root fetch - main [MainThread]: End processing [geoglows]: success
 [2024-05-03 01:51:05] INFO root fetch - main [MainThread]: Store serial: [23038769]
+[2024-05-03 01:53:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038769]
+[2024-05-03 01:53:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 01:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rutificador
+[2024-05-03 01:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parcllabs
+[2024-05-03 01:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PokerNow
+[2024-05-03 01:53:14] INFO root fetch - processPackages [parcllabs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 01:53:14] INFO root fetch - processPackages [rutificador]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-03 01:53:14] INFO root fetch - processPackages [PokerNow]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-03 01:53:14] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/4b/a7/9060c070fcbeed0ac71fb0b49e67b6162c4027ec3296ac7d9595c1654294/parcllabs-0.1.8.tar.gz
+[2024-05-03 01:53:14] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/1f/73/b11777997f2635724a8aebc3a3b0c2f61e5881369925df19fa76a0934cc3/rutificador-0.1.3.tar.gz
+[2024-05-03 01:53:14] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/32/15/116b1b1acef1969e20b1dbc0bdf103c4eed2acd7cef399e80a253a5e6bb9/pokernow-0.5.6.tar.gz
+[2024-05-03 01:53:14] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/54/76/252d5d459b8fefcdb4cd8ba9124168cc37b81f5740ca09ff3e754621335b/parcllabs-0.1.9.tar.gz
+[2024-05-03 01:53:14] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/26/8a/11107c8094512dca843576559ca0b69cc67897be2c9f57b0e3dbbdfbce07/rutificador-0.1.4.tar.gz
+[2024-05-03 01:53:14] INFO root fetch - processPackages [parcllabs]: executing diffoscope
+[2024-05-03 01:53:14] INFO root fetch - processPackages [parcllabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parcllabs-0.1.8.tar.gz tmp/parcllabs-0.1.9.tar.gz --markdown 20240503/p/parcllabs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 01:53:14] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/9a/2c/26c42a6f86685b606ea27e4dd3b1ad77b7d25b1f3d62df38be018679d170/pokernow-0.5.7.tar.gz
+[2024-05-03 01:53:14] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-03 01:53:14] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.1.3.tar.gz tmp/rutificador-0.1.4.tar.gz --markdown 20240503/r/rutificador/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-03 01:53:14] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 01:53:14] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.5.6.tar.gz tmp/pokernow-0.5.7.tar.gz --markdown 20240503/P/PokerNow/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-03 01:53:15] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.3.tar.gz]
+[2024-05-03 01:53:15] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.4.tar.gz]
+[2024-05-03 01:53:15] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-03 01:53:15] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.5.6.tar.gz]
+[2024-05-03 01:53:15] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.5.7.tar.gz]
+[2024-05-03 01:53:15] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 01:53:15] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.8.tar.gz]
+[2024-05-03 01:53:15] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.9.tar.gz]
+[2024-05-03 01:53:15] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
+[2024-05-03 01:53:15] INFO root fetch - main [MainThread]: Store serial: [23038788]
