@@ -43,3 +43,46 @@
 [2024-05-03 00:01:18] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.0.tar.gz]
 [2024-05-03 00:01:18] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-05-03 00:01:18] INFO root fetch - main [MainThread]: Store serial: [23037887]
+[2024-05-03 00:03:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23037887]
+[2024-05-03 00:03:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 00:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starcatpy
+[2024-05-03 00:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sw-apm-opentelemetry-instrumentation-dbapi
+[2024-05-03 00:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rutificador
+[2024-05-03 00:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argmaxtools
+[2024-05-03 00:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rutificador
+[2024-05-03 00:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sw-apm-opentelemetry-instrumentation-wsgi
+[2024-05-03 00:03:26] INFO root fetch - processPackages [rutificador]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 00:03:26] INFO root fetch - processPackages [rutificador]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 00:03:26] WARNING root fetch - processPackages [sw-apm-opentelemetry-instrumentation-dbapi]: Skipping, unable to determine old version
+[2024-05-03 00:03:26] INFO root fetch - main [MainThread]: End processing [sw-apm-opentelemetry-instrumentation-dbapi] error
+[2024-05-03 00:03:26] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/3d/e8/b665c4cd8e04c16a6b8fabdf9078c4eaa0889cbb748bd3a9047e0e2d719a/rutificador-0.0.4.tar.gz
+[2024-05-03 00:03:26] WARNING root fetch - processPackages [sw-apm-opentelemetry-instrumentation-wsgi]: Skipping, unable to determine old version
+[2024-05-03 00:03:26] INFO root fetch - main [MainThread]: End processing [sw-apm-opentelemetry-instrumentation-wsgi] error
+[2024-05-03 00:03:26] INFO root fetch - processPackages [argmaxtools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 00:03:26] INFO root fetch - processPackages [starcatpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-03 00:03:26] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/3d/e8/b665c4cd8e04c16a6b8fabdf9078c4eaa0889cbb748bd3a9047e0e2d719a/rutificador-0.0.4.tar.gz
+[2024-05-03 00:03:26] INFO root fetch - processPackages [argmaxtools]: Downloading https://files.pythonhosted.org/packages/22/e6/7a55fb22bbe359e476c99c27b775fb10ff2cb3d59992fb03e11f7e97f4e0/argmaxtools-0.1.7.tar.gz
+[2024-05-03 00:03:26] INFO root fetch - processPackages [starcatpy]: Downloading https://files.pythonhosted.org/packages/47/6f/7ee0e8e59107b45a0a44a7b80050ea15df867bb22a32555afbc98c033bc9/starcatpy-1.0.1.tar.gz
+[2024-05-03 00:03:27] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/28/1f/bc007043b960cf9d3273b96be9c76b2073a13421a91fe42dcf699062e31f/rutificador-0.0.5.tar.gz
+[2024-05-03 00:03:27] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/28/1f/bc007043b960cf9d3273b96be9c76b2073a13421a91fe42dcf699062e31f/rutificador-0.0.5.tar.gz
+[2024-05-03 00:03:27] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-03 00:03:27] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.0.4.tar.gz tmp/rutificador-0.0.5.tar.gz --markdown 20240503/r/rutificador/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 00:03:27] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-03 00:03:27] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.0.4.tar.gz tmp/rutificador-0.0.5.tar.gz --markdown 20240503/r/rutificador/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 00:03:27] INFO root fetch - processPackages [starcatpy]: Downloading https://files.pythonhosted.org/packages/98/dc/6669088a747cf10e5d98418ac37f828733eca0173c331973235a2928e1a1/starcatpy-1.0.2.tar.gz
+[2024-05-03 00:03:27] INFO root fetch - processPackages [argmaxtools]: Downloading https://files.pythonhosted.org/packages/65/a2/85fcc036ea2ee43bf91d6f0e507f3971c5f9f77a1d7586d7068ac5b788e8/argmaxtools-0.1.8.tar.gz
+[2024-05-03 00:03:27] INFO root fetch - processPackages [starcatpy]: executing diffoscope
+[2024-05-03 00:03:27] INFO root fetch - processPackages [starcatpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starcatpy-1.0.1.tar.gz tmp/starcatpy-1.0.2.tar.gz --markdown 20240503/s/starcatpy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-03 00:03:27] INFO root fetch - processPackages [argmaxtools]: executing diffoscope
+[2024-05-03 00:03:27] INFO root fetch - processPackages [argmaxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argmaxtools-0.1.7.tar.gz tmp/argmaxtools-0.1.8.tar.gz --markdown 20240503/a/argmaxtools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 00:03:27] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.0.4.tar.gz]
+[2024-05-03 00:03:27] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.0.5.tar.gz]
+[2024-05-03 00:03:27] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-03 00:03:28] INFO root fetch - processPackages [argmaxtools]: Remove: archive file [/home/abi/fetcher/tmp/argmaxtools-0.1.7.tar.gz]
+[2024-05-03 00:03:28] INFO root fetch - processPackages [argmaxtools]: Remove: archive file [/home/abi/fetcher/tmp/argmaxtools-0.1.8.tar.gz]
+[2024-05-03 00:03:28] INFO root fetch - main [MainThread]: End processing [argmaxtools]: success
+[2024-05-03 00:03:28] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-03 00:03:28] INFO root fetch - processPackages [starcatpy]: Remove: archive file [/home/abi/fetcher/tmp/starcatpy-1.0.1.tar.gz]
+[2024-05-03 00:03:28] INFO root fetch - processPackages [starcatpy]: Remove: archive file [/home/abi/fetcher/tmp/starcatpy-1.0.2.tar.gz]
+[2024-05-03 00:03:28] INFO root fetch - main [MainThread]: End processing [starcatpy]: success
+[2024-05-03 00:03:28] INFO root fetch - main [MainThread]: Store serial: [23037906]
