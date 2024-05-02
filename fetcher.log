@@ -1772,3 +1772,24 @@
 [2024-05-03 01:55:25] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python_bridge-0.1.1.tar.gz]
 [2024-05-03 01:55:25] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
 [2024-05-03 01:55:25] INFO root fetch - main [MainThread]: Store serial: [23038803]
+[2024-05-03 01:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038803]
+[2024-05-03 01:57:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 01:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rutificador
+[2024-05-03 01:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PokerNow
+[2024-05-03 01:57:35] INFO root fetch - processPackages [PokerNow]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-03 01:57:35] INFO root fetch - processPackages [rutificador]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 01:57:35] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/9a/2c/26c42a6f86685b606ea27e4dd3b1ad77b7d25b1f3d62df38be018679d170/pokernow-0.5.7.tar.gz
+[2024-05-03 01:57:35] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/26/8a/11107c8094512dca843576559ca0b69cc67897be2c9f57b0e3dbbdfbce07/rutificador-0.1.4.tar.gz
+[2024-05-03 01:57:35] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/7c/69/a054a6a0df5ed0d3c79faec0cea3423fc9729331d146db80b6db2b17af58/pokernow-0.5.8.tar.gz
+[2024-05-03 01:57:35] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/92/c6/a5c68d6acb72e8e1eed8660ba1ef94ecf6b9ae078b8a2847d164b0bdd1ba/rutificador-0.1.5.tar.gz
+[2024-05-03 01:57:35] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 01:57:35] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.5.7.tar.gz tmp/pokernow-0.5.8.tar.gz --markdown 20240503/P/PokerNow/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-03 01:57:35] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-03 01:57:35] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.1.4.tar.gz tmp/rutificador-0.1.5.tar.gz --markdown 20240503/r/rutificador/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 01:57:36] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.5.7.tar.gz]
+[2024-05-03 01:57:36] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.5.8.tar.gz]
+[2024-05-03 01:57:36] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 01:57:36] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.4.tar.gz]
+[2024-05-03 01:57:36] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.5.tar.gz]
+[2024-05-03 01:57:36] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-03 01:57:36] INFO root fetch - main [MainThread]: Store serial: [23038808]
