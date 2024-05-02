@@ -253,3 +253,69 @@
 [2024-05-03 00:14:40] INFO root fetch - processPackages [wisdem]: Remove: archive file [/home/abi/fetcher/tmp/wisdem-3.9.2.tar.gz]
 [2024-05-03 00:14:40] INFO root fetch - main [MainThread]: End processing [wisdem]: success
 [2024-05-03 00:14:40] INFO root fetch - main [MainThread]: Store serial: [23038038]
+[2024-05-03 00:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038038]
+[2024-05-03 00:17:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wisdem
+[2024-05-03 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rship-sdk
+[2024-05-03 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xontrib-pipeliner
+[2024-05-03 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2024-05-03 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openlayer
+[2024-05-03 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jpl.edrn.ldap.sync
+[2024-05-03 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shinqlx
+[2024-05-03 00:17:07] INFO root fetch - processPackages [wisdem]: New version: [3.9.2] Old Version: [3.15.3]
+[2024-05-03 00:17:07] INFO root fetch - processPackages [shinqlx]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-03 00:17:07] INFO root fetch - processPackages [rship-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:17:07] INFO root fetch - processPackages [openlayer]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-05-03 00:17:07] INFO root fetch - processPackages [xontrib-pipeliner]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-03 00:17:07] INFO root fetch - processPackages [jpl.edrn.ldap.sync]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-03 00:17:07] INFO root fetch - processPackages [shinqlx]: Downloading https://files.pythonhosted.org/packages/e8/fd/3549c6be29d8f40a5800a2370c413c440ad0e67b53781ea654c1910b05a2/shinqlx-0.5.6.tar.gz
+[2024-05-03 00:17:07] INFO root fetch - processPackages [wisdem]: Downloading https://files.pythonhosted.org/packages/fe/c1/3578370213b82de284a402a6064972b281d6538fff778ddc3b3d8b155908/wisdem-3.15.3-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-05-03 00:17:07] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/3a/59/54682cd06bcbefd5dde8d84fb3de98d90b0b8e120a88abcece0c610e21bf/rship-sdk-0.0.8.tar.gz
+[2024-05-03 00:17:07] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-03 00:17:08] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [xontrib-pipeliner]: Downloading https://files.pythonhosted.org/packages/e8/25/846bf3186d374e2f97cc383ecde3840e819942d6f1530c9e59234eb559dd/xontrib-pipeliner-0.4.3.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [openlayer]: Downloading https://files.pythonhosted.org/packages/4c/50/69a82c49d02d9dc290ef221dd93581ab6079f168f64260b92c4a9ac7a64f/openlayer-0.1.0a8.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [jpl.edrn.ldap.sync]: Downloading https://files.pythonhosted.org/packages/2e/df/92f3891fb9654be273dceb7fab4a4e79b5207c74749526b2c9d1adead0e0/jpl.edrn.ldap.sync-2.0.1.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [shinqlx]: Downloading https://files.pythonhosted.org/packages/d4/c8/7c088d34442878955fbb4ff32914ac2b0490512a670a081ccaa2be283228/shinqlx-0.5.7.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/e2/03/acdd2ce759ba46fd3d4908fec2c95091d80ad09dab18be18f29f9cc8f62a/rship-sdk-0.0.9.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [rship-sdk]: executing diffoscope
+[2024-05-03 00:17:08] INFO root fetch - processPackages [rship-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rship-sdk-0.0.8.tar.gz tmp/rship-sdk-0.0.9.tar.gz --markdown 20240503/r/rship-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:17:08] INFO root fetch - processPackages [shinqlx]: executing diffoscope
+[2024-05-03 00:17:08] INFO root fetch - processPackages [shinqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinqlx-0.5.6.tar.gz tmp/shinqlx-0.5.7.tar.gz --markdown 20240503/s/shinqlx/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-03 00:17:08] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [wisdem]: Downloading https://files.pythonhosted.org/packages/63/9f/51d920ec46e756085defefae37961b91f277cee5c01881c6868447491c77/wisdem-3.9.2.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [jpl.edrn.ldap.sync]: Downloading https://files.pythonhosted.org/packages/6c/dc/a28f9a173aab6f6276184ca04c3d95811808dcf8ebe1be590c0697618a33/jpl_edrn_ldap_sync-2.0.2.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [xontrib-pipeliner]: Downloading https://files.pythonhosted.org/packages/08/1c/c9211be75c3c0645a6b80abdb1107d5ad86c73a0e136495b116ce0363e74/xontrib_pipeliner-0.4.4.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [openlayer]: Downloading https://files.pythonhosted.org/packages/49/07/7bb9afedb4adb5be025a41dec7de689c36b5e9d5c9680425f35447810424/openlayer-0.1.0a9.tar.gz
+[2024-05-03 00:17:08] INFO root fetch - processPackages [jpl.edrn.ldap.sync]: executing diffoscope
+[2024-05-03 00:17:08] INFO root fetch - processPackages [jpl.edrn.ldap.sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpl.edrn.ldap.sync-2.0.1.tar.gz tmp/jpl_edrn_ldap_sync-2.0.2.tar.gz --markdown 20240503/j/jpl.edrn.ldap.sync/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-03 00:17:08] INFO root fetch - processPackages [openlayer]: executing diffoscope
+[2024-05-03 00:17:08] INFO root fetch - processPackages [openlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlayer-0.1.0a8.tar.gz tmp/openlayer-0.1.0a9.tar.gz --markdown 20240503/o/openlayer/0.1.0a8-0.1.0a9/README.md --exclude *.pyd
+[2024-05-03 00:17:08] INFO root fetch - processPackages [xontrib-pipeliner]: executing diffoscope
+[2024-05-03 00:17:08] INFO root fetch - processPackages [xontrib-pipeliner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xontrib-pipeliner-0.4.3.tar.gz tmp/xontrib_pipeliner-0.4.4.tar.gz --markdown 20240503/x/xontrib-pipeliner/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-03 00:17:08] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-03 00:17:08] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240503/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-03 00:17:08] INFO root fetch - processPackages [wisdem]: executing diffoscope
+[2024-05-03 00:17:08] INFO root fetch - processPackages [wisdem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisdem-3.15.3-cp310-cp310-macosx_10_9_x86_64.whl.zip tmp/wisdem-3.9.2.tar.gz --markdown 20240503/w/wisdem/3.15.3-3.9.2/README.md --exclude *.pyd
+[2024-05-03 00:17:09] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.8.tar.gz]
+[2024-05-03 00:17:09] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.9.tar.gz]
+[2024-05-03 00:17:09] INFO root fetch - main [MainThread]: End processing [rship-sdk]: success
+[2024-05-03 00:17:09] INFO root fetch - processPackages [jpl.edrn.ldap.sync]: Remove: archive file [/home/abi/fetcher/tmp/jpl.edrn.ldap.sync-2.0.1.tar.gz]
+[2024-05-03 00:17:09] INFO root fetch - processPackages [jpl.edrn.ldap.sync]: Remove: archive file [/home/abi/fetcher/tmp/jpl_edrn_ldap_sync-2.0.2.tar.gz]
+[2024-05-03 00:17:09] INFO root fetch - main [MainThread]: End processing [jpl.edrn.ldap.sync]: success
+[2024-05-03 00:17:09] INFO root fetch - processPackages [xontrib-pipeliner]: Remove: archive file [/home/abi/fetcher/tmp/xontrib-pipeliner-0.4.3.tar.gz]
+[2024-05-03 00:17:09] INFO root fetch - processPackages [xontrib-pipeliner]: Remove: archive file [/home/abi/fetcher/tmp/xontrib_pipeliner-0.4.4.tar.gz]
+[2024-05-03 00:17:09] INFO root fetch - main [MainThread]: End processing [xontrib-pipeliner]: success
+[2024-05-03 00:17:09] INFO root fetch - processPackages [openlayer]: Remove: archive file [/home/abi/fetcher/tmp/openlayer-0.1.0a8.tar.gz]
+[2024-05-03 00:17:09] INFO root fetch - processPackages [openlayer]: Remove: archive file [/home/abi/fetcher/tmp/openlayer-0.1.0a9.tar.gz]
+[2024-05-03 00:17:09] INFO root fetch - main [MainThread]: End processing [openlayer]: success
+[2024-05-03 00:17:10] INFO root fetch - processPackages [shinqlx]: Remove: archive file [/home/abi/fetcher/tmp/shinqlx-0.5.6.tar.gz]
+[2024-05-03 00:17:10] INFO root fetch - processPackages [shinqlx]: Remove: archive file [/home/abi/fetcher/tmp/shinqlx-0.5.7.tar.gz]
+[2024-05-03 00:17:10] INFO root fetch - main [MainThread]: End processing [shinqlx]: success
+[2024-05-03 00:17:10] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-03 00:17:10] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-03 00:17:10] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-03 00:17:16] INFO root fetch - processPackages [wisdem]: Remove: archive file [/home/abi/fetcher/tmp/wisdem-3.15.3-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-05-03 00:17:16] INFO root fetch - processPackages [wisdem]: Remove: archive file [/home/abi/fetcher/tmp/wisdem-3.9.2.tar.gz]
+[2024-05-03 00:17:16] INFO root fetch - main [MainThread]: End processing [wisdem]: success
+[2024-05-03 00:17:16] INFO root fetch - main [MainThread]: Store serial: [23038085]
