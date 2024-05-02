@@ -746,3 +746,52 @@
 [2024-05-03 00:46:22] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
 [2024-05-03 00:46:22] INFO root fetch - main [MainThread]: End processing [prodvana]: success
 [2024-05-03 00:46:22] INFO root fetch - main [MainThread]: Store serial: [23038269]
+[2024-05-03 00:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038269]
+[2024-05-03 00:48:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daffodil
+[2024-05-03 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdip
+[2024-05-03 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: x4c
+[2024-05-03 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soroban
+[2024-05-03 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oursin
+[2024-05-03 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ewms-pilot
+[2024-05-03 00:48:32] INFO root fetch - processPackages [daffodil]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-03 00:48:32] INFO root fetch - processPackages [oursin]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-03 00:48:32] INFO root fetch - processPackages [x4c]: New version: [2024.5.2] Old Version: [2024.4.20]
+[2024-05-03 00:48:33] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/f9/71/2a26de14b3dd6bd912027ac18d96e94318272eed653ec07852ce4614e548/oursin-0.6.0.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [pdip]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-03 00:48:33] INFO root fetch - processPackages [x4c]: Downloading https://files.pythonhosted.org/packages/3b/57/17ac921428a12747a900a2d8a3d4c8adb8ac64478e5fb7137a4f798d558b/x4c-2024.4.20.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [daffodil]: Downloading https://files.pythonhosted.org/packages/ee/30/9e2b527795a3a4d3fbb0e1ddcf1d24c7ded6f801cd4b7107625153bda639/daffodil-0.4.2.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [soroban]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-03 00:48:33] INFO root fetch - processPackages [ewms-pilot]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 00:48:33] WARNING root fetch - processPackages [x4c]: Skipping package: exceeds size limit 91111092>=10485760
+[2024-05-03 00:48:33] INFO root fetch - main [MainThread]: End processing [x4c] error
+[2024-05-03 00:48:33] WARNING root fetch - processPackages [oursin]: Skipping package: exceeds size limit 49623294>=10485760
+[2024-05-03 00:48:33] INFO root fetch - main [MainThread]: End processing [oursin] error
+[2024-05-03 00:48:33] INFO root fetch - processPackages [pdip]: Downloading https://files.pythonhosted.org/packages/06/f3/683d5e68deee185919e923fef6ea13e129532f7f2164ce1430497ed44f91/pdip-0.6.5.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/3e/70/6380ebb75667577aedccd0e583ba6e98e35e2c76adcc6f0cf392d6a32474/soroban-0.4.0.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/43/95/b05a87092ecdc0e1832fc3275ab296f596412029cb985059d2a2878c1fcd/ewms-pilot-0.9.0.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [daffodil]: Downloading https://files.pythonhosted.org/packages/8a/b1/8cf5124055fb59c50fae5331be8a0da45c2792b66df39e3b6dead82192f4/daffodil-0.4.3.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/54/82/f496d5dd7a51736c955d412fa8390729abe39c755e045a4ee6ee1824caf4/soroban-0.5.0.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [daffodil]: executing diffoscope
+[2024-05-03 00:48:33] INFO root fetch - processPackages [daffodil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daffodil-0.4.2.tar.gz tmp/daffodil-0.4.3.tar.gz --markdown 20240503/d/daffodil/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-03 00:48:33] INFO root fetch - processPackages [soroban]: executing diffoscope
+[2024-05-03 00:48:33] INFO root fetch - processPackages [soroban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soroban-0.4.0.tar.gz tmp/soroban-0.5.0.tar.gz --markdown 20240503/s/soroban/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-03 00:48:33] INFO root fetch - processPackages [pdip]: Downloading https://files.pythonhosted.org/packages/59/2f/7b644a0a3d7d208073b72593023cff8bc9ab4d08734b2a931d64244193fa/pdip-0.6.6.tar.gz
+[2024-05-03 00:48:33] INFO root fetch - processPackages [pdip]: executing diffoscope
+[2024-05-03 00:48:33] INFO root fetch - processPackages [pdip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdip-0.6.5.tar.gz tmp/pdip-0.6.6.tar.gz --markdown 20240503/p/pdip/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-03 00:48:33] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/31/5e/f3199ae6f49710308113c59388ea3659104f15bb19828479d90db8d40a7b/ewms-pilot-0.9.1.tar.gz
+[2024-05-03 00:48:34] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2024-05-03 00:48:34] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.9.0.tar.gz tmp/ewms-pilot-0.9.1.tar.gz --markdown 20240503/e/ewms-pilot/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-03 00:48:34] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.4.0.tar.gz]
+[2024-05-03 00:48:34] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.5.0.tar.gz]
+[2024-05-03 00:48:34] INFO root fetch - main [MainThread]: End processing [soroban]: success
+[2024-05-03 00:48:34] INFO root fetch - processPackages [daffodil]: Remove: archive file [/home/abi/fetcher/tmp/daffodil-0.4.2.tar.gz]
+[2024-05-03 00:48:34] INFO root fetch - processPackages [daffodil]: Remove: archive file [/home/abi/fetcher/tmp/daffodil-0.4.3.tar.gz]
+[2024-05-03 00:48:34] INFO root fetch - main [MainThread]: End processing [daffodil]: success
+[2024-05-03 00:48:34] INFO root fetch - processPackages [ewms-pilot]: Remove: archive file [/home/abi/fetcher/tmp/ewms-pilot-0.9.0.tar.gz]
+[2024-05-03 00:48:34] INFO root fetch - processPackages [ewms-pilot]: Remove: archive file [/home/abi/fetcher/tmp/ewms-pilot-0.9.1.tar.gz]
+[2024-05-03 00:48:34] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2024-05-03 00:48:34] INFO root fetch - processPackages [pdip]: Remove: archive file [/home/abi/fetcher/tmp/pdip-0.6.5.tar.gz]
+[2024-05-03 00:48:34] INFO root fetch - processPackages [pdip]: Remove: archive file [/home/abi/fetcher/tmp/pdip-0.6.6.tar.gz]
+[2024-05-03 00:48:34] INFO root fetch - main [MainThread]: End processing [pdip]: success
+[2024-05-03 00:48:34] INFO root fetch - main [MainThread]: Store serial: [23038289]
