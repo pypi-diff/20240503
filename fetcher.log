@@ -1757,3 +1757,18 @@
 [2024-05-03 01:53:15] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.9.tar.gz]
 [2024-05-03 01:53:15] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
 [2024-05-03 01:53:15] INFO root fetch - main [MainThread]: Store serial: [23038788]
+[2024-05-03 01:55:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038788]
+[2024-05-03 01:55:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 01:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-bridge
+[2024-05-03 01:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bear-tools
+[2024-05-03 01:55:24] WARNING root fetch - processPackages [bear-tools]: Skipping, unable to determine old version
+[2024-05-03 01:55:24] INFO root fetch - main [MainThread]: End processing [bear-tools] error
+[2024-05-03 01:55:24] INFO root fetch - processPackages [python-bridge]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 01:55:24] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/ed/03/8400d7ff9d71f43d467d2e9741708413d224e1cc7d74c53413304ae0fb5c/python_bridge-0.1.0.tar.gz
+[2024-05-03 01:55:24] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/49/9b/f4fcca4c7f634d6cea5b626ed9013ab35036b2c12e46ec8ccd8178dd436b/python_bridge-0.1.1.tar.gz
+[2024-05-03 01:55:24] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-05-03 01:55:24] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_bridge-0.1.0.tar.gz tmp/python_bridge-0.1.1.tar.gz --markdown 20240503/p/python-bridge/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 01:55:25] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python_bridge-0.1.0.tar.gz]
+[2024-05-03 01:55:25] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python_bridge-0.1.1.tar.gz]
+[2024-05-03 01:55:25] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-05-03 01:55:25] INFO root fetch - main [MainThread]: Store serial: [23038803]
