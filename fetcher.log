@@ -1522,3 +1522,15 @@
 [2024-05-03 01:33:27] INFO root fetch - processPackages [dbt-core]: Remove: archive file [/home/abi/fetcher/tmp/dbt_core-1.8.0rc1.tar.gz]
 [2024-05-03 01:33:27] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
 [2024-05-03 01:33:27] INFO root fetch - main [MainThread]: Store serial: [23038700]
+[2024-05-03 01:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038700]
+[2024-05-03 01:35:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 01:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chaiverse
+[2024-05-03 01:35:36] INFO root fetch - processPackages [chaiverse]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-03 01:35:36] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/40/8f/0c28b09c5b933f63a5e9e2b50a3e8a06a87151afc8e162b2c09deedc4bf0/chaiverse-1.9.8.tar.gz
+[2024-05-03 01:35:37] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/4c/ed/6d3e89ab870b31d2281b7595f6030d767109316508a89f1d6178491348cd/chaiverse-1.9.9.tar.gz
+[2024-05-03 01:35:37] INFO root fetch - processPackages [chaiverse]: executing diffoscope
+[2024-05-03 01:35:37] INFO root fetch - processPackages [chaiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaiverse-1.9.8.tar.gz tmp/chaiverse-1.9.9.tar.gz --markdown 20240503/c/chaiverse/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-03 01:35:37] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.8.tar.gz]
+[2024-05-03 01:35:37] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.9.tar.gz]
+[2024-05-03 01:35:37] INFO root fetch - main [MainThread]: End processing [chaiverse]: success
+[2024-05-03 01:35:37] INFO root fetch - main [MainThread]: Store serial: [23038702]
