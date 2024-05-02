@@ -795,3 +795,56 @@
 [2024-05-03 00:48:34] INFO root fetch - processPackages [pdip]: Remove: archive file [/home/abi/fetcher/tmp/pdip-0.6.6.tar.gz]
 [2024-05-03 00:48:34] INFO root fetch - main [MainThread]: End processing [pdip]: success
 [2024-05-03 00:48:34] INFO root fetch - main [MainThread]: Store serial: [23038289]
+[2024-05-03 00:50:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038289]
+[2024-05-03 00:50:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 00:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chartfactor
+[2024-05-03 00:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chartfactor-jlab-ext
+[2024-05-03 00:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aesim.simba
+[2024-05-03 00:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bencode2
+[2024-05-03 00:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-core
+[2024-05-03 00:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aladdinsdk
+[2024-05-03 00:50:43] INFO root fetch - processPackages [chartfactor]: New version: [5.0.7] Old Version: [5.0.6]
+[2024-05-03 00:50:43] INFO root fetch - processPackages [langchain-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 00:50:43] INFO root fetch - processPackages [chartfactor-jlab-ext]: New version: [5.0.7] Old Version: [5.0.6]
+[2024-05-03 00:50:43] INFO root fetch - processPackages [aladdinsdk]: New version: [0.0.1a4.post0] Old Version: [0.0.1a3.post0]
+[2024-05-03 00:50:43] INFO root fetch - processPackages [aesim.simba]: New version: [2024.5.2a1] Old Version: [2024.5.1a1]
+[2024-05-03 00:50:43] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/45/70/93b61c07312c74e8c663f3800e0d76ffa6649e1a1185c06a7821e5872c02/chartfactor_jlab_ext-5.0.6.tar.gz
+[2024-05-03 00:50:43] INFO root fetch - processPackages [bencode2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:50:43] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/7b/2d/dba5c3e645758ec1bc6571a42be66a15d0c2a889c130dd1783d495f411e1/chartfactor-5.0.6.tar.gz
+[2024-05-03 00:50:43] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/cc/69/b95eb186fa3ff696ee719ed57a5e1f839c0cb3c40c82b1160696062f8b66/langchain_core-0.1.8.tar.gz
+[2024-05-03 00:50:43] INFO root fetch - processPackages [aladdinsdk]: Downloading https://files.pythonhosted.org/packages/32/fc/50d70e07501276bb558bb76a3165e46e68075564a8f7db0d3fbcec2d9bb6/aladdinsdk-0.0.1a3.post0.tar.gz
+[2024-05-03 00:50:43] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/d9/bd/dad3921730aaf9553fd1f39aa6db749deb2146909a63e657a7e55213fed1/aesim.simba-2024.5.1a1-py3-none-win_amd64.whl
+[2024-05-03 00:50:44] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 76467948>=10485760
+[2024-05-03 00:50:44] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2024-05-03 00:50:44] INFO root fetch - processPackages [bencode2]: Downloading https://files.pythonhosted.org/packages/23/f4/a28e8c52b18fc023e1b81784bbf2d9b9a8238d10dbf675853b69f64f6f8d/bencode2-0.0.8.tar.gz
+[2024-05-03 00:50:44] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/b4/9a/0a61f6319a0f2bcacf1ca638d93e6c342fb97d4ffaa3cb5f1945e8111c2e/chartfactor_jlab_ext-5.0.7.tar.gz
+[2024-05-03 00:50:44] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/7c/e2/b69897ad569da6e910bde627aba7bf63b68caaa59ac257444285fa6c5de8/chartfactor-5.0.7.tar.gz
+[2024-05-03 00:50:44] INFO root fetch - processPackages [chartfactor-jlab-ext]: executing diffoscope
+[2024-05-03 00:50:44] INFO root fetch - processPackages [chartfactor-jlab-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor_jlab_ext-5.0.6.tar.gz tmp/chartfactor_jlab_ext-5.0.7.tar.gz --markdown 20240503/c/chartfactor-jlab-ext/5.0.6-5.0.7/README.md --exclude *.pyd
+[2024-05-03 00:50:44] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/1b/97/8c742f024d6a7e8793382452545b4432130e5ac741883e6ebcd92f46fc53/langchain_core-0.1.9.tar.gz
+[2024-05-03 00:50:44] INFO root fetch - processPackages [chartfactor]: executing diffoscope
+[2024-05-03 00:50:44] INFO root fetch - processPackages [chartfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-5.0.6.tar.gz tmp/chartfactor-5.0.7.tar.gz --markdown 20240503/c/chartfactor/5.0.6-5.0.7/README.md --exclude *.pyd
+[2024-05-03 00:50:44] INFO root fetch - processPackages [aladdinsdk]: Downloading https://files.pythonhosted.org/packages/f4/24/47ac3c249c52282a95619c89a595e316a8e661c2d2d1af14d0f901dae1d2/aladdinsdk-0.0.1a4.post0-py3-none-any.whl
+[2024-05-03 00:50:44] INFO root fetch - processPackages [langchain-core]: executing diffoscope
+[2024-05-03 00:50:44] INFO root fetch - processPackages [langchain-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_core-0.1.8.tar.gz tmp/langchain_core-0.1.9.tar.gz --markdown 20240503/l/langchain-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 00:50:44] INFO root fetch - processPackages [bencode2]: Downloading https://files.pythonhosted.org/packages/0f/06/7fedfc22787eec56cd4d7da016a9d7a7aa43a4ab7e1a41b7443bdc8bf981/bencode2-0.0.9.tar.gz
+[2024-05-03 00:50:44] INFO root fetch - processPackages [aladdinsdk]: executing diffoscope
+[2024-05-03 00:50:44] INFO root fetch - processPackages [aladdinsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aladdinsdk-0.0.1a3.post0.tar.gz tmp/aladdinsdk-0.0.1a4.post0-py3-none-any.whl.zip --markdown 20240503/a/aladdinsdk/0.0.1a3.post0-0.0.1a4.post0/README.md --exclude *.pyd
+[2024-05-03 00:50:44] INFO root fetch - processPackages [bencode2]: executing diffoscope
+[2024-05-03 00:50:44] INFO root fetch - processPackages [bencode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencode2-0.0.8.tar.gz tmp/bencode2-0.0.9.tar.gz --markdown 20240503/b/bencode2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:50:45] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor_jlab_ext-5.0.6.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor_jlab_ext-5.0.7.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
+[2024-05-03 00:50:45] INFO root fetch - processPackages [aladdinsdk]: Remove: archive file [/home/abi/fetcher/tmp/aladdinsdk-0.0.1a3.post0.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - processPackages [aladdinsdk]: Remove: archive file [/home/abi/fetcher/tmp/aladdinsdk-0.0.1a4.post0-py3-none-any.whl.zip]
+[2024-05-03 00:50:45] INFO root fetch - main [MainThread]: End processing [aladdinsdk]: success
+[2024-05-03 00:50:45] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-5.0.6.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-5.0.7.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
+[2024-05-03 00:50:45] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.8.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.9.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
+[2024-05-03 00:50:45] INFO root fetch - processPackages [bencode2]: Remove: archive file [/home/abi/fetcher/tmp/bencode2-0.0.8.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - processPackages [bencode2]: Remove: archive file [/home/abi/fetcher/tmp/bencode2-0.0.9.tar.gz]
+[2024-05-03 00:50:45] INFO root fetch - main [MainThread]: End processing [bencode2]: success
+[2024-05-03 00:50:45] INFO root fetch - main [MainThread]: Store serial: [23038312]
