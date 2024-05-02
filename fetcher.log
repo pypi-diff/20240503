@@ -692,3 +692,24 @@
 [2024-05-03 00:42:01] WARNING root fetch - processPackages [mlmonitor]: Skipping package: exceeds size limit 12646381>=10485760
 [2024-05-03 00:42:01] INFO root fetch - main [MainThread]: End processing [mlmonitor] error
 [2024-05-03 00:42:01] INFO root fetch - main [MainThread]: Store serial: [23038243]
+[2024-05-03 00:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038243]
+[2024-05-03 00:44:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 00:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tqdm
+[2024-05-03 00:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chia-dev-tools
+[2024-05-03 00:44:10] INFO root fetch - processPackages [tqdm]: New version: [4.9.0] Old Version: [4.8.4]
+[2024-05-03 00:44:10] INFO root fetch - processPackages [tqdm]: Downloading https://files.pythonhosted.org/packages/64/5b/cc47ee68389ebf815ad6e2f7fe70449d0c1b02d91f01852551e3946c955e/tqdm-4.8.4.zip
+[2024-05-03 00:44:10] INFO root fetch - processPackages [chia-dev-tools]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-03 00:44:10] INFO root fetch - processPackages [chia-dev-tools]: Downloading https://files.pythonhosted.org/packages/87/f1/3775c17a2118c81e422892971ea71247c0dac099e50569f7cdd18a148f32/chia_dev_tools-1.2.3.tar.gz
+[2024-05-03 00:44:10] INFO root fetch - processPackages [tqdm]: Downloading https://files.pythonhosted.org/packages/7b/df/9471473daf56be8f04d9bc65755c4fc0ddc78c622758782bbf03a4d53d43/tqdm-4.9.0.zip
+[2024-05-03 00:44:10] INFO root fetch - processPackages [tqdm]: executing diffoscope
+[2024-05-03 00:44:10] INFO root fetch - processPackages [tqdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqdm-4.8.4.zip tmp/tqdm-4.9.0.zip --markdown 20240503/t/tqdm/4.8.4-4.9.0/README.md --exclude *.pyd
+[2024-05-03 00:44:11] INFO root fetch - processPackages [chia-dev-tools]: Downloading https://files.pythonhosted.org/packages/63/60/b7ce110b943a22b1f620304ca0e1628d89d506c8c608e49b2956000d56a4/chia_dev_tools-1.2.4.tar.gz
+[2024-05-03 00:44:11] INFO root fetch - processPackages [chia-dev-tools]: executing diffoscope
+[2024-05-03 00:44:11] INFO root fetch - processPackages [chia-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia_dev_tools-1.2.3.tar.gz tmp/chia_dev_tools-1.2.4.tar.gz --markdown 20240503/c/chia-dev-tools/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-03 00:44:11] INFO root fetch - processPackages [tqdm]: Remove: archive file [/home/abi/fetcher/tmp/tqdm-4.8.4.zip]
+[2024-05-03 00:44:11] INFO root fetch - processPackages [tqdm]: Remove: archive file [/home/abi/fetcher/tmp/tqdm-4.9.0.zip]
+[2024-05-03 00:44:11] INFO root fetch - main [MainThread]: End processing [tqdm]: success
+[2024-05-03 00:44:11] INFO root fetch - processPackages [chia-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/chia_dev_tools-1.2.3.tar.gz]
+[2024-05-03 00:44:11] INFO root fetch - processPackages [chia-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/chia_dev_tools-1.2.4.tar.gz]
+[2024-05-03 00:44:11] INFO root fetch - main [MainThread]: End processing [chia-dev-tools]: success
+[2024-05-03 00:44:11] INFO root fetch - main [MainThread]: Store serial: [23038249]
