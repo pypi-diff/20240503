@@ -1444,3 +1444,24 @@
 [2024-05-03 01:24:44] INFO root fetch - processPackages [wood-nano]: Remove: archive file [/home/abi/fetcher/tmp/wood_nano-0.1.1-cp39-cp39-macosx_12_0_x86_64.whl.zip]
 [2024-05-03 01:24:44] INFO root fetch - main [MainThread]: End processing [wood-nano]: success
 [2024-05-03 01:24:44] INFO root fetch - main [MainThread]: Store serial: [23038673]
+[2024-05-03 01:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038673]
+[2024-05-03 01:26:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 01:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idasen-ha
+[2024-05-03 01:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octoai
+[2024-05-03 01:26:53] INFO root fetch - processPackages [octoai]: New version: [1.0.0] Old Version: [0.6.0]
+[2024-05-03 01:26:53] INFO root fetch - processPackages [octoai]: Downloading https://files.pythonhosted.org/packages/a0/b4/eb1f17abef4f1758271b33add501e3fedb962f0f012616f391ca93477db3/octoai-0.6.0.tar.gz
+[2024-05-03 01:26:53] INFO root fetch - processPackages [idasen-ha]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-05-03 01:26:53] INFO root fetch - processPackages [idasen-ha]: Downloading https://files.pythonhosted.org/packages/cd/ed/b65e29561558bf01819b70d711f1054f6fb3bf154435a32e2ca51c70fe85/idasen-ha-2.5.2.tar.gz
+[2024-05-03 01:26:53] INFO root fetch - processPackages [octoai]: Downloading https://files.pythonhosted.org/packages/fc/d6/54658473c01057c55ca8830bc9ba160aa5a655a29ed35922011cc7e8d804/octoai-1.0.0.tar.gz
+[2024-05-03 01:26:53] INFO root fetch - processPackages [octoai]: executing diffoscope
+[2024-05-03 01:26:53] INFO root fetch - processPackages [octoai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoai-0.6.0.tar.gz tmp/octoai-1.0.0.tar.gz --markdown 20240503/o/octoai/0.6.0-1.0.0/README.md --exclude *.pyd
+[2024-05-03 01:26:53] INFO root fetch - processPackages [idasen-ha]: Downloading https://files.pythonhosted.org/packages/23/cd/6ef7ee676eaddc02511ad800ca02f47b0098a90a1cb0eab435e9f4d1cb34/idasen_ha-2.5.3.tar.gz
+[2024-05-03 01:26:53] INFO root fetch - processPackages [idasen-ha]: executing diffoscope
+[2024-05-03 01:26:53] INFO root fetch - processPackages [idasen-ha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idasen-ha-2.5.2.tar.gz tmp/idasen_ha-2.5.3.tar.gz --markdown 20240503/i/idasen-ha/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-05-03 01:26:54] INFO root fetch - processPackages [idasen-ha]: Remove: archive file [/home/abi/fetcher/tmp/idasen-ha-2.5.2.tar.gz]
+[2024-05-03 01:26:54] INFO root fetch - processPackages [idasen-ha]: Remove: archive file [/home/abi/fetcher/tmp/idasen_ha-2.5.3.tar.gz]
+[2024-05-03 01:26:54] INFO root fetch - main [MainThread]: End processing [idasen-ha]: success
+[2024-05-03 01:26:54] INFO root fetch - processPackages [octoai]: Remove: archive file [/home/abi/fetcher/tmp/octoai-0.6.0.tar.gz]
+[2024-05-03 01:26:54] INFO root fetch - processPackages [octoai]: Remove: archive file [/home/abi/fetcher/tmp/octoai-1.0.0.tar.gz]
+[2024-05-03 01:26:54] INFO root fetch - main [MainThread]: End processing [octoai]: success
+[2024-05-03 01:26:54] INFO root fetch - main [MainThread]: Store serial: [23038679]
