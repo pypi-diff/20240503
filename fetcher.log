@@ -1292,3 +1292,24 @@
 [2024-05-03 01:09:22] INFO root fetch - processPackages [lean]: Remove: archive file [/home/abi/fetcher/tmp/lean-1.0.99.tar.gz]
 [2024-05-03 01:09:22] INFO root fetch - main [MainThread]: End processing [lean]: success
 [2024-05-03 01:09:22] INFO root fetch - main [MainThread]: Store serial: [23038503]
+[2024-05-03 01:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038503]
+[2024-05-03 01:11:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 01:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidfuzz
+[2024-05-03 01:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mubble
+[2024-05-03 01:11:32] INFO root fetch - processPackages [rapidfuzz]: New version: [3.8.1] Old Version: [3.8.0]
+[2024-05-03 01:11:32] INFO root fetch - processPackages [mubble]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-03 01:11:32] INFO root fetch - processPackages [mubble]: Downloading https://files.pythonhosted.org/packages/59/5f/42797977c5805ba990d2ae2e80d9bb8d90de57fb9176a277ac9b429d2fb2/mubble-1.0.0.tar.gz
+[2024-05-03 01:11:32] INFO root fetch - processPackages [rapidfuzz]: Downloading https://files.pythonhosted.org/packages/fc/8e/de1d1ee1a7d80c990391385ad65b1f6d09726c2440aa43877cd0670a3308/rapidfuzz-3.8.0.tar.gz
+[2024-05-03 01:11:33] INFO root fetch - processPackages [mubble]: Downloading https://files.pythonhosted.org/packages/2e/6a/c1189e113f77b7a84dbb65a9e11dd92519a5b593e68f77591a0f0063bbf7/mubble-1.1.0.tar.gz
+[2024-05-03 01:11:33] INFO root fetch - processPackages [rapidfuzz]: Downloading https://files.pythonhosted.org/packages/2a/8b/c5b482bd99c7b4b8e6db31b707333d85f33f0c7eebb72724a1e932f3b6b1/rapidfuzz-3.8.1.tar.gz
+[2024-05-03 01:11:33] INFO root fetch - processPackages [mubble]: executing diffoscope
+[2024-05-03 01:11:33] INFO root fetch - processPackages [mubble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mubble-1.0.0.tar.gz tmp/mubble-1.1.0.tar.gz --markdown 20240503/m/mubble/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-03 01:11:33] INFO root fetch - processPackages [rapidfuzz]: executing diffoscope
+[2024-05-03 01:11:33] INFO root fetch - processPackages [rapidfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidfuzz-3.8.0.tar.gz tmp/rapidfuzz-3.8.1.tar.gz --markdown 20240503/r/rapidfuzz/3.8.0-3.8.1/README.md --exclude *.pyd
+[2024-05-03 01:11:34] INFO root fetch - processPackages [mubble]: Remove: archive file [/home/abi/fetcher/tmp/mubble-1.0.0.tar.gz]
+[2024-05-03 01:11:34] INFO root fetch - processPackages [mubble]: Remove: archive file [/home/abi/fetcher/tmp/mubble-1.1.0.tar.gz]
+[2024-05-03 01:11:34] INFO root fetch - main [MainThread]: End processing [mubble]: success
+[2024-05-03 01:11:38] INFO root fetch - processPackages [rapidfuzz]: Remove: archive file [/home/abi/fetcher/tmp/rapidfuzz-3.8.0.tar.gz]
+[2024-05-03 01:11:38] INFO root fetch - processPackages [rapidfuzz]: Remove: archive file [/home/abi/fetcher/tmp/rapidfuzz-3.8.1.tar.gz]
+[2024-05-03 01:11:38] INFO root fetch - main [MainThread]: End processing [rapidfuzz]: success
+[2024-05-03 01:11:38] INFO root fetch - main [MainThread]: Store serial: [23038544]
