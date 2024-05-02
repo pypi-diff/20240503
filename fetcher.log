@@ -1402,3 +1402,24 @@
 [2024-05-03 01:20:23] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.5.0b0.tar.gz]
 [2024-05-03 01:20:23] INFO root fetch - main [MainThread]: End processing [liminal-sdk-python]: success
 [2024-05-03 01:20:23] INFO root fetch - main [MainThread]: Store serial: [23038662]
+[2024-05-03 01:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038662]
+[2024-05-03 01:22:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 01:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2024-05-03 01:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trame-vtklocal
+[2024-05-03 01:22:33] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-03 01:22:33] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-03 01:22:33] INFO root fetch - processPackages [trame-vtklocal]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 01:22:33] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-03 01:22:33] INFO root fetch - processPackages [trame-vtklocal]: Downloading https://files.pythonhosted.org/packages/19/df/f1cb4ae15c5980928af9dd26af140de0348480ccf8eec185a8081bb143fc/trame-vtklocal-0.1.0.tar.gz
+[2024-05-03 01:22:33] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-03 01:22:33] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240503/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-03 01:22:33] INFO root fetch - processPackages [trame-vtklocal]: Downloading https://files.pythonhosted.org/packages/16/b0/fabcef58b093f0ad6a755a6433a33bb7a6ab3500b8c33a66f187d4b32e8e/trame-vtklocal-0.2.0.tar.gz
+[2024-05-03 01:22:33] INFO root fetch - processPackages [trame-vtklocal]: executing diffoscope
+[2024-05-03 01:22:33] INFO root fetch - processPackages [trame-vtklocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-vtklocal-0.1.0.tar.gz tmp/trame-vtklocal-0.2.0.tar.gz --markdown 20240503/t/trame-vtklocal/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 01:22:34] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-03 01:22:34] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-03 01:22:34] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-03 01:22:34] INFO root fetch - processPackages [trame-vtklocal]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtklocal-0.1.0.tar.gz]
+[2024-05-03 01:22:34] INFO root fetch - processPackages [trame-vtklocal]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtklocal-0.2.0.tar.gz]
+[2024-05-03 01:22:34] INFO root fetch - main [MainThread]: End processing [trame-vtklocal]: success
+[2024-05-03 01:22:34] INFO root fetch - main [MainThread]: Store serial: [23038668]
