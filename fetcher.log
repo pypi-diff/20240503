@@ -1641,3 +1641,48 @@
 [2024-05-03 01:44:36] WARNING root fetch - processPackages [mlx]: Skipping package: exceeds size limit 31967351>=10485760
 [2024-05-03 01:44:36] INFO root fetch - main [MainThread]: End processing [mlx] error
 [2024-05-03 01:44:36] INFO root fetch - main [MainThread]: Store serial: [23038734]
+[2024-05-03 01:46:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038734]
+[2024-05-03 01:46:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 01:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PokeCodePy-Library
+[2024-05-03 01:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PokerNow
+[2024-05-03 01:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: falcon-challenge
+[2024-05-03 01:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PokerNow
+[2024-05-03 01:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: armenian-latin-to-armenian-hy
+[2024-05-03 01:46:45] INFO root fetch - processPackages [PokeCodePy-Library]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-05-03 01:46:45] INFO root fetch - processPackages [PokerNow]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-03 01:46:45] INFO root fetch - processPackages [PokerNow]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-03 01:46:45] INFO root fetch - processPackages [falcon-challenge]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-03 01:46:45] INFO root fetch - processPackages [PokeCodePy-Library]: Downloading https://files.pythonhosted.org/packages/ad/cd/1108982fc4e5a23afac901c3ce464bd6a91ba6853adde0242f71a0403506/pokecodepy_library-1.0.1.tar.gz
+[2024-05-03 01:46:45] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/c5/5a/221810110bc3b931059b0bda840e0061b02afb383b92f3e8eb8eabfc27b3/pokernow-0.5.3.tar.gz
+[2024-05-03 01:46:45] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/c5/5a/221810110bc3b931059b0bda840e0061b02afb383b92f3e8eb8eabfc27b3/pokernow-0.5.3.tar.gz
+[2024-05-03 01:46:45] INFO root fetch - processPackages [armenian-latin-to-armenian-hy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 01:46:46] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/15/9f/541ad6a1fb23ddb38a272c9358f512efff9f6cf180b4780828785d0f5fcc/falcon_challenge-0.3.2.tar.gz
+[2024-05-03 01:46:46] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: fallback to get urls: [0.0.1]
+[2024-05-03 01:46:46] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: None
+[2024-05-03 01:46:46] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: None
+[2024-05-03 01:46:46] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: unable to get url for both version [0.0.1]
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokeCodePy-Library]: Downloading https://files.pythonhosted.org/packages/89/e8/a751d9529faacbd9ea27e5e701f637be24ce61bc683b1d123982fe818cf7/pokecodepy_library-1.1.1.tar.gz
+[2024-05-03 01:46:46] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: None
+[2024-05-03 01:46:46] INFO root fetch - main [MainThread]: End processing [armenian-latin-to-armenian-hy] error
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/72/e4/6eec4d0c5941c7efa5212d47c5999035d1601443912fb9ecf0a1cc328f73/pokernow-0.5.5.tar.gz
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/72/e4/6eec4d0c5941c7efa5212d47c5999035d1601443912fb9ecf0a1cc328f73/pokernow-0.5.5.tar.gz
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokeCodePy-Library]: executing diffoscope
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokeCodePy-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokecodepy_library-1.0.1.tar.gz tmp/pokecodepy_library-1.1.1.tar.gz --markdown 20240503/P/PokeCodePy-Library/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-05-03 01:46:46] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/fc/c9/dc4e03dde2bb7a070a3a918081b36c079d429aea0a1c0cdd011288e8f3de/falcon_challenge-0.3.3.tar.gz
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.5.3.tar.gz tmp/pokernow-0.5.5.tar.gz --markdown 20240503/P/PokerNow/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.5.3.tar.gz tmp/pokernow-0.5.5.tar.gz --markdown 20240503/P/PokerNow/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-03 01:46:46] INFO root fetch - processPackages [falcon-challenge]: executing diffoscope
+[2024-05-03 01:46:46] INFO root fetch - processPackages [falcon-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_challenge-0.3.2.tar.gz tmp/falcon_challenge-0.3.3.tar.gz --markdown 20240503/f/falcon-challenge/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokeCodePy-Library]: Remove: archive file [/home/abi/fetcher/tmp/pokecodepy_library-1.0.1.tar.gz]
+[2024-05-03 01:46:46] INFO root fetch - processPackages [PokeCodePy-Library]: Remove: archive file [/home/abi/fetcher/tmp/pokecodepy_library-1.1.1.tar.gz]
+[2024-05-03 01:46:46] INFO root fetch - main [MainThread]: End processing [PokeCodePy-Library]: success
+[2024-05-03 01:46:47] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.5.3.tar.gz]
+[2024-05-03 01:46:47] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.5.5.tar.gz]
+[2024-05-03 01:46:47] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 01:46:47] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 01:46:47] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.3.2.tar.gz]
+[2024-05-03 01:46:47] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.3.3.tar.gz]
+[2024-05-03 01:46:47] INFO root fetch - main [MainThread]: End processing [falcon-challenge]: success
+[2024-05-03 01:46:47] INFO root fetch - main [MainThread]: Store serial: [23038748]
