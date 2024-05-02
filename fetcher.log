@@ -1,0 +1,45 @@
+[2024-05-03 00:01:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23037866]
+[2024-05-03 00:01:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 00:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freegenius
+[2024-05-03 00:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prl-cli
+[2024-05-03 00:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qai-server
+[2024-05-03 00:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clbb-hermes
+[2024-05-03 00:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sw-apm-opentelemetry-instrumentation-asgi
+[2024-05-03 00:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaml-to-docker
+[2024-05-03 00:01:14] INFO root fetch - processPackages [clbb-hermes]: New version: [0.1.6.1] Old Version: [0.1.6.0]
+[2024-05-03 00:01:14] INFO root fetch - processPackages [freegenius]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-03 00:01:14] INFO root fetch - processPackages [clbb-hermes]: Downloading https://files.pythonhosted.org/packages/d2/e9/080fc72e1837aadfd68f7346e80554d67757e377d5782f40ef5a7c968aac/clbb_hermes-0.1.6.0.tar.gz
+[2024-05-03 00:01:14] WARNING root fetch - processPackages [yaml-to-docker]: Skipping, unable to determine old version
+[2024-05-03 00:01:14] INFO root fetch - main [MainThread]: End processing [yaml-to-docker] error
+[2024-05-03 00:01:14] INFO root fetch - processPackages [qai-server]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-03 00:01:14] WARNING root fetch - processPackages [sw-apm-opentelemetry-instrumentation-asgi]: Skipping, unable to determine old version
+[2024-05-03 00:01:14] INFO root fetch - main [MainThread]: End processing [sw-apm-opentelemetry-instrumentation-asgi] error
+[2024-05-03 00:01:14] INFO root fetch - processPackages [prl-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:01:14] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/79/45/8a84da47273fffcef544d01055c1d15b7ab2671f668d80d0b97edf5018fb/freegenius-0.1.9.tar.gz
+[2024-05-03 00:01:14] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/48/34/b5e6ad0dfc96412e9cbc0d6be7bc3ab3feaf7fab59b28c0e3874e0db21eb/qai_server-0.5.2.tar.gz
+[2024-05-03 00:01:14] INFO root fetch - processPackages [prl-cli]: Downloading https://files.pythonhosted.org/packages/81/d0/7345a096a5e899b368c315d2a2755824a8bc00b91eafa87f5140fe96adf8/prl-cli-0.0.8.tar.gz
+[2024-05-03 00:01:14] INFO root fetch - processPackages [clbb-hermes]: Downloading https://files.pythonhosted.org/packages/83/92/646edb3cca974aadfb8c32b7f26a2fbaf2623dcde2dec156ee617e581e1c/clbb_hermes-0.1.6.1.tar.gz
+[2024-05-03 00:01:14] INFO root fetch - processPackages [clbb-hermes]: executing diffoscope
+[2024-05-03 00:01:14] INFO root fetch - processPackages [clbb-hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clbb_hermes-0.1.6.0.tar.gz tmp/clbb_hermes-0.1.6.1.tar.gz --markdown 20240503/c/clbb-hermes/0.1.6.0-0.1.6.1/README.md --exclude *.pyd
+[2024-05-03 00:01:14] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/71/33/452a72b7bb4dfa0508c2cd4e009be5354de149c990e6780f4c857bbbb2bd/qai_server-0.5.3.tar.gz
+[2024-05-03 00:01:14] INFO root fetch - processPackages [prl-cli]: Downloading https://files.pythonhosted.org/packages/e3/f8/9d1b3e7c339d5ab5c2e2aef0d43d3dd497d51f3c4d123e1e137372db684c/prl-cli-0.0.9.tar.gz
+[2024-05-03 00:01:14] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/96/8a/88e00188ae8430246b76f84075594dad0eb54b6ebd8bdf9b728b6dba0bb8/freegenius-0.2.0.tar.gz
+[2024-05-03 00:01:14] INFO root fetch - processPackages [qai-server]: executing diffoscope
+[2024-05-03 00:01:14] INFO root fetch - processPackages [qai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_server-0.5.2.tar.gz tmp/qai_server-0.5.3.tar.gz --markdown 20240503/q/qai-server/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-03 00:01:15] INFO root fetch - processPackages [prl-cli]: executing diffoscope
+[2024-05-03 00:01:15] INFO root fetch - processPackages [prl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prl-cli-0.0.8.tar.gz tmp/prl-cli-0.0.9.tar.gz --markdown 20240503/p/prl-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:01:15] INFO root fetch - processPackages [clbb-hermes]: Remove: archive file [/home/abi/fetcher/tmp/clbb_hermes-0.1.6.0.tar.gz]
+[2024-05-03 00:01:15] INFO root fetch - processPackages [clbb-hermes]: Remove: archive file [/home/abi/fetcher/tmp/clbb_hermes-0.1.6.1.tar.gz]
+[2024-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [clbb-hermes]: success
+[2024-05-03 00:01:15] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.2.tar.gz]
+[2024-05-03 00:01:15] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.3.tar.gz]
+[2024-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [qai-server]: success
+[2024-05-03 00:01:15] INFO root fetch - processPackages [prl-cli]: Remove: archive file [/home/abi/fetcher/tmp/prl-cli-0.0.8.tar.gz]
+[2024-05-03 00:01:15] INFO root fetch - processPackages [prl-cli]: Remove: archive file [/home/abi/fetcher/tmp/prl-cli-0.0.9.tar.gz]
+[2024-05-03 00:01:15] INFO root fetch - main [MainThread]: End processing [prl-cli]: success
+[2024-05-03 00:01:16] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-03 00:01:16] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.1.9.tar.gz tmp/freegenius-0.2.0.tar.gz --markdown 20240503/f/freegenius/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-03 00:01:18] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.1.9.tar.gz]
+[2024-05-03 00:01:18] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.0.tar.gz]
+[2024-05-03 00:01:18] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-03 00:01:18] INFO root fetch - main [MainThread]: Store serial: [23037887]
