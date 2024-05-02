@@ -125,3 +125,33 @@
 [2024-05-03 00:05:39] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
 [2024-05-03 00:05:39] INFO root fetch - main [MainThread]: End processing [metaflow]: success
 [2024-05-03 00:05:39] INFO root fetch - main [MainThread]: Store serial: [23037918]
+[2024-05-03 00:07:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23037918]
+[2024-05-03 00:07:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 00:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usports-basketball
+[2024-05-03 00:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beta9
+[2024-05-03 00:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vtracer
+[2024-05-03 00:07:49] INFO root fetch - processPackages [beta9]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 00:07:49] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/ef/cc/70806f6e01d8b8e311af6e2e9d3a1336489db4b9009f10e521e2128084e7/beta9-0.1.7.tar.gz
+[2024-05-03 00:07:49] INFO root fetch - processPackages [usports-basketball]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-03 00:07:49] INFO root fetch - processPackages [vtracer]: New version: [0.6.11] Old Version: [0.6.10]
+[2024-05-03 00:07:49] INFO root fetch - processPackages [usports-basketball]: Downloading https://files.pythonhosted.org/packages/a6/61/aa2d32abc1914ca790cfdb415ce34e1a3133f8b347ec095d96073943ea7b/usports_basketball-0.0.3.tar.gz
+[2024-05-03 00:07:49] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/11/67/b604fdb1907c1ee8dda9654212239b97efe74c015aa742cfe9806173d4d3/beta9-0.1.8.tar.gz
+[2024-05-03 00:07:49] INFO root fetch - processPackages [vtracer]: Downloading https://files.pythonhosted.org/packages/a4/0b/be2bcafc8834eed76771a2f49291b997ea5697c4b1f0ac7d7182c7feaa05/vtracer-0.6.10.tar.gz
+[2024-05-03 00:07:49] INFO root fetch - processPackages [beta9]: executing diffoscope
+[2024-05-03 00:07:49] INFO root fetch - processPackages [beta9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beta9-0.1.7.tar.gz tmp/beta9-0.1.8.tar.gz --markdown 20240503/b/beta9/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 00:07:49] INFO root fetch - processPackages [usports-basketball]: Downloading https://files.pythonhosted.org/packages/36/02/c8f9796e2d30f3395c8b0cb59a519b96f623984bb3828b226408c52803be/usports_basketball-1.0.0.tar.gz
+[2024-05-03 00:07:49] INFO root fetch - processPackages [usports-basketball]: executing diffoscope
+[2024-05-03 00:07:49] INFO root fetch - processPackages [usports-basketball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usports_basketball-0.0.3.tar.gz tmp/usports_basketball-1.0.0.tar.gz --markdown 20240503/u/usports-basketball/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-05-03 00:07:49] INFO root fetch - processPackages [vtracer]: Downloading https://files.pythonhosted.org/packages/93/fc/d53bd2875dbcdfbbbbc8bac0f61ae3d147cc0337ba504f256f0bb8ce34d3/vtracer-0.6.11-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-05-03 00:07:50] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.7.tar.gz]
+[2024-05-03 00:07:50] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.8.tar.gz]
+[2024-05-03 00:07:50] INFO root fetch - main [MainThread]: End processing [beta9]: success
+[2024-05-03 00:07:50] INFO root fetch - processPackages [usports-basketball]: Remove: archive file [/home/abi/fetcher/tmp/usports_basketball-0.0.3.tar.gz]
+[2024-05-03 00:07:50] INFO root fetch - processPackages [usports-basketball]: Remove: archive file [/home/abi/fetcher/tmp/usports_basketball-1.0.0.tar.gz]
+[2024-05-03 00:07:50] INFO root fetch - main [MainThread]: End processing [usports-basketball]: success
+[2024-05-03 00:07:51] INFO root fetch - processPackages [vtracer]: executing diffoscope
+[2024-05-03 00:07:51] INFO root fetch - processPackages [vtracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtracer-0.6.10.tar.gz tmp/vtracer-0.6.11-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240503/v/vtracer/0.6.10-0.6.11/README.md --exclude *.pyd
+[2024-05-03 00:07:52] INFO root fetch - processPackages [vtracer]: Remove: archive file [/home/abi/fetcher/tmp/vtracer-0.6.10.tar.gz]
+[2024-05-03 00:07:52] INFO root fetch - processPackages [vtracer]: Remove: archive file [/home/abi/fetcher/tmp/vtracer-0.6.11-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-05-03 00:07:52] INFO root fetch - main [MainThread]: End processing [vtracer]: success
+[2024-05-03 00:07:52] INFO root fetch - main [MainThread]: Store serial: [23037968]
