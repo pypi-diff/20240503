@@ -681,3 +681,14 @@
 [2024-05-03 00:39:51] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.9.tar.gz]
 [2024-05-03 00:39:51] INFO root fetch - main [MainThread]: End processing [replit-river]: success
 [2024-05-03 00:39:51] INFO root fetch - main [MainThread]: Store serial: [23038221]
+[2024-05-03 00:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038221]
+[2024-05-03 00:42:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slinter
+[2024-05-03 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlmonitor
+[2024-05-03 00:42:01] INFO root fetch - processPackages [mlmonitor]: New version: [1.0.19] Old Version: [1.0.17]
+[2024-05-03 00:42:01] WARNING root fetch - processPackages [slinter]: Skipping, unable to determine old version
+[2024-05-03 00:42:01] INFO root fetch - main [MainThread]: End processing [slinter] error
+[2024-05-03 00:42:01] INFO root fetch - processPackages [mlmonitor]: Downloading https://files.pythonhosted.org/packages/8e/0e/d03aee0007bd5f6ce05642b564f9af920ae9dd81a65ddc08420a9ae1c8db/mlmonitor-1.0.17.tar.gz
+[2024-05-03 00:42:01] WARNING root fetch - processPackages [mlmonitor]: Skipping package: exceeds size limit 12646381>=10485760
+[2024-05-03 00:42:01] INFO root fetch - main [MainThread]: End processing [mlmonitor] error
+[2024-05-03 00:42:01] INFO root fetch - main [MainThread]: Store serial: [23038243]
