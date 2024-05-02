@@ -86,3 +86,42 @@
 [2024-05-03 00:03:28] INFO root fetch - processPackages [starcatpy]: Remove: archive file [/home/abi/fetcher/tmp/starcatpy-1.0.2.tar.gz]
 [2024-05-03 00:03:28] INFO root fetch - main [MainThread]: End processing [starcatpy]: success
 [2024-05-03 00:03:28] INFO root fetch - main [MainThread]: Store serial: [23037906]
+[2024-05-03 00:05:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23037906]
+[2024-05-03 00:05:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 00:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyCatFile
+[2024-05-03 00:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaflow-stubs
+[2024-05-03 00:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaflow
+[2024-05-03 00:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vectorshift
+[2024-05-03 00:05:36] INFO root fetch - processPackages [PyCatFile]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-05-03 00:05:36] INFO root fetch - processPackages [vectorshift]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 00:05:36] INFO root fetch - processPackages [metaflow-stubs]: New version: [2.11.9] Old Version: [2.11.8]
+[2024-05-03 00:05:36] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/19/f8/30073ce63414ecb9734fb4de0c0b1b182abca42748b2cf5c194e3144e6d6/pycatfile-0.9.4.tar.gz
+[2024-05-03 00:05:36] INFO root fetch - processPackages [metaflow]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-03 00:05:36] INFO root fetch - processPackages [vectorshift]: Downloading https://files.pythonhosted.org/packages/c9/8f/f3dfa446c0a69a88b8afeb8d895b5f4a1f9eb45544103dba9bf9d7d0def2/vectorshift-0.0.8.tar.gz
+[2024-05-03 00:05:37] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/de/13/ffe01e2cae343dd8025eab13d69b5d62bd71681ab061e8c36af9666a698b/metaflow-stubs-2.11.8.tar.gz
+[2024-05-03 00:05:37] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/44/4c/81a863eb61cc3eb10a21d19229d37d1cc3b50218fa45146c79e2b9122f45/metaflow-2.9.8.tar.gz
+[2024-05-03 00:05:37] INFO root fetch - processPackages [vectorshift]: Downloading https://files.pythonhosted.org/packages/22/49/d9b196a4c957dc9d7e0fbd696a923b98e05debc749ebc6b4e0218171f751/vectorshift-0.0.9.tar.gz
+[2024-05-03 00:05:37] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/08/96/4c154ca314dbb76c0bba84e70c73f3a53cd4528ee43f7ac17b54954c0b85/pycatfile-0.9.6.tar.gz
+[2024-05-03 00:05:37] INFO root fetch - processPackages [vectorshift]: executing diffoscope
+[2024-05-03 00:05:37] INFO root fetch - processPackages [vectorshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorshift-0.0.8.tar.gz tmp/vectorshift-0.0.9.tar.gz --markdown 20240503/v/vectorshift/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:05:37] INFO root fetch - processPackages [PyCatFile]: executing diffoscope
+[2024-05-03 00:05:37] INFO root fetch - processPackages [PyCatFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatfile-0.9.4.tar.gz tmp/pycatfile-0.9.6.tar.gz --markdown 20240503/P/PyCatFile/0.9.4-0.9.6/README.md --exclude *.pyd
+[2024-05-03 00:05:37] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/93/d9/ff4fdd76c5436176503c5c86034e607815e89abf05a9bced2dc60dca48a5/metaflow-stubs-2.11.9.tar.gz
+[2024-05-03 00:05:37] INFO root fetch - processPackages [metaflow-stubs]: executing diffoscope
+[2024-05-03 00:05:37] INFO root fetch - processPackages [metaflow-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-stubs-2.11.8.tar.gz tmp/metaflow-stubs-2.11.9.tar.gz --markdown 20240503/m/metaflow-stubs/2.11.8-2.11.9/README.md --exclude *.pyd
+[2024-05-03 00:05:37] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/63/60/3262d89f8512f63109d640bc0d30b7f6e64a1efeab58463d69f43d2275ad/metaflow-2.9.9.tar.gz
+[2024-05-03 00:05:37] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2024-05-03 00:05:37] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.9.8.tar.gz tmp/metaflow-2.9.9.tar.gz --markdown 20240503/m/metaflow/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-03 00:05:37] INFO root fetch - processPackages [vectorshift]: Remove: archive file [/home/abi/fetcher/tmp/vectorshift-0.0.8.tar.gz]
+[2024-05-03 00:05:38] INFO root fetch - processPackages [vectorshift]: Remove: archive file [/home/abi/fetcher/tmp/vectorshift-0.0.9.tar.gz]
+[2024-05-03 00:05:38] INFO root fetch - main [MainThread]: End processing [vectorshift]: success
+[2024-05-03 00:05:38] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.9.4.tar.gz]
+[2024-05-03 00:05:38] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.9.6.tar.gz]
+[2024-05-03 00:05:38] INFO root fetch - main [MainThread]: End processing [PyCatFile]: success
+[2024-05-03 00:05:38] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.8.tar.gz]
+[2024-05-03 00:05:38] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.9.tar.gz]
+[2024-05-03 00:05:38] INFO root fetch - main [MainThread]: End processing [metaflow-stubs]: success
+[2024-05-03 00:05:39] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.8.tar.gz]
+[2024-05-03 00:05:39] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
+[2024-05-03 00:05:39] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2024-05-03 00:05:39] INFO root fetch - main [MainThread]: Store serial: [23037918]
