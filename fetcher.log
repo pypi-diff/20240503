@@ -635,3 +635,27 @@
 [2024-05-03 00:35:30] INFO root fetch - processPackages [reponews]: Remove: archive file [/home/abi/fetcher/tmp/reponews-0.5.0.tar.gz]
 [2024-05-03 00:35:30] INFO root fetch - main [MainThread]: End processing [reponews]: success
 [2024-05-03 00:35:30] INFO root fetch - main [MainThread]: Store serial: [23038202]
+[2024-05-03 00:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038202]
+[2024-05-03 00:37:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 00:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-05-03 00:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linear-relational
+[2024-05-03 00:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaml-to-docker
+[2024-05-03 00:37:39] INFO root fetch - processPackages [linear-relational]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-03 00:37:39] WARNING root fetch - processPackages [yaml-to-docker]: Skipping, unable to determine old version
+[2024-05-03 00:37:39] INFO root fetch - main [MainThread]: End processing [yaml-to-docker] error
+[2024-05-03 00:37:39] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-03 00:37:39] INFO root fetch - processPackages [linear-relational]: Downloading https://files.pythonhosted.org/packages/a7/9b/4fec413c96bf468133bfe0d27efdba0a607f270da1e3d684657f48150003/linear_relational-0.2.1.tar.gz
+[2024-05-03 00:37:39] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-03 00:37:39] INFO root fetch - processPackages [linear-relational]: Downloading https://files.pythonhosted.org/packages/85/a2/746f90670985108e14c32d4adbf1b0ccc1086cc8a16fef241cdf6d6f210c/linear_relational-0.3.0.tar.gz
+[2024-05-03 00:37:39] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-03 00:37:39] INFO root fetch - processPackages [linear-relational]: executing diffoscope
+[2024-05-03 00:37:39] INFO root fetch - processPackages [linear-relational]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linear_relational-0.2.1.tar.gz tmp/linear_relational-0.3.0.tar.gz --markdown 20240503/l/linear-relational/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-03 00:37:39] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-03 00:37:39] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240503/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-03 00:37:40] INFO root fetch - processPackages [linear-relational]: Remove: archive file [/home/abi/fetcher/tmp/linear_relational-0.2.1.tar.gz]
+[2024-05-03 00:37:40] INFO root fetch - processPackages [linear-relational]: Remove: archive file [/home/abi/fetcher/tmp/linear_relational-0.3.0.tar.gz]
+[2024-05-03 00:37:40] INFO root fetch - main [MainThread]: End processing [linear-relational]: success
+[2024-05-03 00:37:40] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-03 00:37:40] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-03 00:37:40] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-03 00:37:40] INFO root fetch - main [MainThread]: Store serial: [23038212]
