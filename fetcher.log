@@ -1697,3 +1697,33 @@
 [2024-05-03 01:48:56] WARNING root fetch - processPackages [armenian-latin-to-armenian-hy]: None
 [2024-05-03 01:48:56] INFO root fetch - main [MainThread]: End processing [armenian-latin-to-armenian-hy] error
 [2024-05-03 01:48:56] INFO root fetch - main [MainThread]: Store serial: [23038752]
+[2024-05-03 01:50:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038752]
+[2024-05-03 01:51:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 01:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rutificador
+[2024-05-03 01:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geoglows
+[2024-05-03 01:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soroban
+[2024-05-03 01:51:04] INFO root fetch - processPackages [rutificador]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-03 01:51:04] INFO root fetch - processPackages [soroban]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-03 01:51:04] INFO root fetch - processPackages [geoglows]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-03 01:51:04] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/f2/15/aff2e59c29d3c0bb7d2bf91aca24a075ae97c4f0bd7f2a77e3269a4c4555/rutificador-0.1.2.tar.gz
+[2024-05-03 01:51:04] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/3c/5c/477f957b0eac5053d5ada09eef3ae7c0d835d877bb74a03358522434c085/soroban-0.6.0.tar.gz
+[2024-05-03 01:51:04] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/23/d0/85babea28eebf840399aaf777eb6f0cf66d8d62a876f815bfe26092fcd02/geoglows-1.4.0.tar.gz
+[2024-05-03 01:51:04] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/1f/73/b11777997f2635724a8aebc3a3b0c2f61e5881369925df19fa76a0934cc3/rutificador-0.1.3.tar.gz
+[2024-05-03 01:51:05] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-03 01:51:05] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.1.2.tar.gz tmp/rutificador-0.1.3.tar.gz --markdown 20240503/r/rutificador/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-03 01:51:05] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/85/74/d9a306f677bfdc5d67f0f1e19daffb75f002e38192c863736b9ae4ce105a/soroban-0.7.0.tar.gz
+[2024-05-03 01:51:05] INFO root fetch - processPackages [soroban]: executing diffoscope
+[2024-05-03 01:51:05] INFO root fetch - processPackages [soroban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soroban-0.6.0.tar.gz tmp/soroban-0.7.0.tar.gz --markdown 20240503/s/soroban/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-03 01:51:05] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/b4/d5/dcebff666542a44d84bfa9dc8c6164429a5beb99d4345698c90842bbc884/geoglows-1.5.0.tar.gz
+[2024-05-03 01:51:05] INFO root fetch - processPackages [geoglows]: executing diffoscope
+[2024-05-03 01:51:05] INFO root fetch - processPackages [geoglows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoglows-1.4.0.tar.gz tmp/geoglows-1.5.0.tar.gz --markdown 20240503/g/geoglows/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-03 01:51:05] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.2.tar.gz]
+[2024-05-03 01:51:05] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.3.tar.gz]
+[2024-05-03 01:51:05] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-03 01:51:05] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.6.0.tar.gz]
+[2024-05-03 01:51:05] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.7.0.tar.gz]
+[2024-05-03 01:51:05] INFO root fetch - main [MainThread]: End processing [soroban]: success
+[2024-05-03 01:51:05] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.4.0.tar.gz]
+[2024-05-03 01:51:05] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.5.0.tar.gz]
+[2024-05-03 01:51:05] INFO root fetch - main [MainThread]: End processing [geoglows]: success
+[2024-05-03 01:51:05] INFO root fetch - main [MainThread]: Store serial: [23038769]
