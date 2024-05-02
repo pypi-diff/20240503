@@ -911,3 +911,51 @@
 [2024-05-03 00:52:57] INFO root fetch - processPackages [vbl-aquarium]: Remove: archive file [/home/abi/fetcher/tmp/vbl_aquarium-0.0.9.tar.gz]
 [2024-05-03 00:52:57] INFO root fetch - main [MainThread]: End processing [vbl-aquarium]: success
 [2024-05-03 00:52:57] INFO root fetch - main [MainThread]: Store serial: [23038389]
+[2024-05-03 00:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038389]
+[2024-05-03 00:55:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 00:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prefect
+[2024-05-03 00:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oursin
+[2024-05-03 00:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-aux
+[2024-05-03 00:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-03 00:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soroban
+[2024-05-03 00:55:06] INFO root fetch - processPackages [soroban]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-03 00:55:06] INFO root fetch - processPackages [oursin]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-03 00:55:06] INFO root fetch - processPackages [prefect]: New version: [2.9.0] Old Version: [2.82]
+[2024-05-03 00:55:06] INFO root fetch - processPackages [flatpack]: New version: [3.4.8] Old Version: [3.4.7]
+[2024-05-03 00:55:06] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/3e/70/6380ebb75667577aedccd0e583ba6e98e35e2c76adcc6f0cf392d6a32474/soroban-0.4.0.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [django-aux]: New version: [0.0.9] Old Version: [0.0.85]
+[2024-05-03 00:55:06] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/b9/52/90f7c342168ab05d2954320afeb0d79c5386d4197895e40cad2c5c0449a7/oursin-0.6.2.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/20/bd/9580e89a911969805904dd984258f2250f96726fbb91373970a41c36aab3/prefect-2.82.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/db/31/f830f056bb66ce1711301380c33cd77ab3d2d79b4173169cdc4857e1414c/flatpack-3.4.7.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [django-aux]: Downloading https://files.pythonhosted.org/packages/e1/ba/001793d2ffa977820f51ecf7b47b5cf41d493dabca35d65b5f2b1ac4a80c/django_aux-0.0.85.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/54/82/f496d5dd7a51736c955d412fa8390729abe39c755e045a4ee6ee1824caf4/soroban-0.5.0.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [soroban]: executing diffoscope
+[2024-05-03 00:55:06] INFO root fetch - processPackages [soroban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soroban-0.4.0.tar.gz tmp/soroban-0.5.0.tar.gz --markdown 20240503/s/soroban/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-03 00:55:06] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/e5/05/652c3e81ca9d930286f1f372f4e985721de6e644c0d56ac0117505a29e90/oursin-0.6.3.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/52/49/e4a42ea984b987b634f492725a5484b96da5a97fda925a3d37ff0821ecae/prefect-2.9.0.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [django-aux]: Downloading https://files.pythonhosted.org/packages/f7/87/ff834263dbf515fce6cee5cb6627aed60ff1cbdd304291dc245420263330/django-aux-0.0.9.tar.gz
+[2024-05-03 00:55:06] INFO root fetch - processPackages [oursin]: executing diffoscope
+[2024-05-03 00:55:06] INFO root fetch - processPackages [oursin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oursin-0.6.2.tar.gz tmp/oursin-0.6.3.tar.gz --markdown 20240503/o/oursin/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-03 00:55:06] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-03 00:55:06] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.7.tar.gz tmp/flatpack-3.4.8.tar.gz --markdown 20240503/f/flatpack/3.4.7-3.4.8/README.md --exclude *.pyd
+[2024-05-03 00:55:06] INFO root fetch - processPackages [django-aux]: executing diffoscope
+[2024-05-03 00:55:06] INFO root fetch - processPackages [django-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_aux-0.0.85.tar.gz tmp/django-aux-0.0.9.tar.gz --markdown 20240503/d/django-aux/0.0.85-0.0.9/README.md --exclude *.pyd
+[2024-05-03 00:55:06] INFO root fetch - processPackages [prefect]: executing diffoscope
+[2024-05-03 00:55:06] INFO root fetch - processPackages [prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-2.82.tar.gz tmp/prefect-2.9.0.tar.gz --markdown 20240503/p/prefect/2.82-2.9.0/README.md --exclude *.pyd
+[2024-05-03 00:55:07] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.4.0.tar.gz]
+[2024-05-03 00:55:07] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.5.0.tar.gz]
+[2024-05-03 00:55:07] INFO root fetch - main [MainThread]: End processing [soroban]: success
+[2024-05-03 00:55:07] INFO root fetch - processPackages [oursin]: Remove: archive file [/home/abi/fetcher/tmp/oursin-0.6.2.tar.gz]
+[2024-05-03 00:55:07] INFO root fetch - processPackages [oursin]: Remove: archive file [/home/abi/fetcher/tmp/oursin-0.6.3.tar.gz]
+[2024-05-03 00:55:07] INFO root fetch - main [MainThread]: End processing [oursin]: success
+[2024-05-03 00:55:07] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.7.tar.gz]
+[2024-05-03 00:55:07] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-03 00:55:07] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-03 00:55:07] INFO root fetch - processPackages [django-aux]: Remove: archive file [/home/abi/fetcher/tmp/django_aux-0.0.85.tar.gz]
+[2024-05-03 00:55:07] INFO root fetch - processPackages [django-aux]: Remove: archive file [/home/abi/fetcher/tmp/django-aux-0.0.9.tar.gz]
+[2024-05-03 00:55:07] INFO root fetch - main [MainThread]: End processing [django-aux]: success
+[2024-05-03 00:55:14] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.82.tar.gz]
+[2024-05-03 00:55:14] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.9.0.tar.gz]
+[2024-05-03 00:55:14] INFO root fetch - main [MainThread]: End processing [prefect]: success
+[2024-05-03 00:55:14] INFO root fetch - main [MainThread]: Store serial: [23038404]
