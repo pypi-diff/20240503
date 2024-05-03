@@ -9934,3 +9934,33 @@
 [2024-05-03 07:30:57] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8934542107.tar.gz]
 [2024-05-03 07:30:57] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
 [2024-05-03 07:30:57] INFO root fetch - main [MainThread]: Store serial: [23041824]
+[2024-05-03 07:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041824]
+[2024-05-03 07:33:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaogpt
+[2024-05-03 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filesender-client
+[2024-05-03 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SiEPIC
+[2024-05-03 07:33:07] INFO root fetch - processPackages [filesender-client]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-03 07:33:07] INFO root fetch - processPackages [SiEPIC]: New version: [0.5.7] Old Version: [0.5.5]
+[2024-05-03 07:33:07] INFO root fetch - processPackages [xiaogpt]: New version: [2.70] Old Version: [2.64]
+[2024-05-03 07:33:07] INFO root fetch - processPackages [filesender-client]: Downloading https://files.pythonhosted.org/packages/1f/ad/b8447e6b6cd89227f1a32ae2a9b70afa587966db6b22e355b23f287ef9be/filesender-client-1.1.0.tar.gz
+[2024-05-03 07:33:07] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/57/49/cf93af42493d9b468fb2c258437dc1a1a6d375ffe34186535672aee12d91/xiaogpt-2.64.tar.gz
+[2024-05-03 07:33:07] INFO root fetch - processPackages [SiEPIC]: Downloading https://files.pythonhosted.org/packages/db/b0/a2e07319f33dc8307781748b35c15d26f4185fbaf2afe9c346f0de164ed7/SiEPIC-0.5.5.tar.gz
+[2024-05-03 07:33:08] INFO root fetch - processPackages [filesender-client]: Downloading https://files.pythonhosted.org/packages/18/06/b6c621dc83591e65839efd0ae529b4fb862cd014107e63fc72c3b90e48c0/filesender_client-1.2.0.tar.gz
+[2024-05-03 07:33:08] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/89/6d/e824bc466dc6d51b92c0497d942097f64da12862e3d4b02e59bbd0835b50/xiaogpt-2.70.tar.gz
+[2024-05-03 07:33:08] INFO root fetch - processPackages [SiEPIC]: Downloading https://files.pythonhosted.org/packages/78/4b/a329502e3f473070275e4762db1f8e3b3352ae0985504804c2bc362ede59/siepic-0.5.7.tar.gz
+[2024-05-03 07:33:08] INFO root fetch - processPackages [filesender-client]: executing diffoscope
+[2024-05-03 07:33:08] INFO root fetch - processPackages [filesender-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesender-client-1.1.0.tar.gz tmp/filesender_client-1.2.0.tar.gz --markdown 20240503/f/filesender-client/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-03 07:33:08] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2024-05-03 07:33:08] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-2.64.tar.gz tmp/xiaogpt-2.70.tar.gz --markdown 20240503/x/xiaogpt/2.64-2.70/README.md --exclude *.pyd
+[2024-05-03 07:33:08] INFO root fetch - processPackages [SiEPIC]: executing diffoscope
+[2024-05-03 07:33:08] INFO root fetch - processPackages [SiEPIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiEPIC-0.5.5.tar.gz tmp/siepic-0.5.7.tar.gz --markdown 20240503/S/SiEPIC/0.5.5-0.5.7/README.md --exclude *.pyd
+[2024-05-03 07:33:08] INFO root fetch - processPackages [filesender-client]: Remove: archive file [/home/abi/fetcher/tmp/filesender-client-1.1.0.tar.gz]
+[2024-05-03 07:33:08] INFO root fetch - processPackages [filesender-client]: Remove: archive file [/home/abi/fetcher/tmp/filesender_client-1.2.0.tar.gz]
+[2024-05-03 07:33:08] INFO root fetch - main [MainThread]: End processing [filesender-client]: success
+[2024-05-03 07:33:08] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.64.tar.gz]
+[2024-05-03 07:33:08] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.70.tar.gz]
+[2024-05-03 07:33:08] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2024-05-03 07:33:09] INFO root fetch - processPackages [SiEPIC]: Remove: archive file [/home/abi/fetcher/tmp/SiEPIC-0.5.5.tar.gz]
+[2024-05-03 07:33:09] INFO root fetch - processPackages [SiEPIC]: Remove: archive file [/home/abi/fetcher/tmp/siepic-0.5.7.tar.gz]
+[2024-05-03 07:33:09] INFO root fetch - main [MainThread]: End processing [SiEPIC]: success
+[2024-05-03 07:33:09] INFO root fetch - main [MainThread]: Store serial: [23041833]
