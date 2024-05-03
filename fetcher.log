@@ -19454,3 +19454,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:55:45] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b3.tar.gz]
 [2024-05-03 14:55:45] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
 [2024-05-03 14:55:45] INFO root fetch - main [MainThread]: Store serial: [23046172]
+[2024-05-03 14:58:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046172]
+[2024-05-03 14:58:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 14:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clingexplaid
+[2024-05-03 14:58:18] INFO root fetch - processPackages [clingexplaid]: New version: [1.0.9] Old Version: [1.0.10]
+[2024-05-03 14:58:18] INFO root fetch - processPackages [clingexplaid]: Downloading https://files.pythonhosted.org/packages/b5/31/0acec02a1c4b8f33f472d3b748798c3ffbd25b515d597764ccdcf16261d5/clingexplaid-1.0.10.tar.gz
+[2024-05-03 14:58:18] INFO root fetch - processPackages [clingexplaid]: Downloading https://files.pythonhosted.org/packages/5c/6d/f9e843d305549dedec23d73956ac70a244d294ad272b18a2d5f67bdf9def/clingexplaid-1.0.9.tar.gz
+[2024-05-03 14:58:18] INFO root fetch - processPackages [clingexplaid]: executing diffoscope
+[2024-05-03 14:58:18] INFO root fetch - processPackages [clingexplaid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clingexplaid-1.0.10.tar.gz tmp/clingexplaid-1.0.9.tar.gz --markdown 20240503/c/clingexplaid/1.0.10-1.0.9/README.md --exclude *.pyd
+[2024-05-03 14:58:19] INFO root fetch - processPackages [clingexplaid]: Remove: archive file [/home/abi/fetcher/tmp/clingexplaid-1.0.10.tar.gz]
+[2024-05-03 14:58:19] INFO root fetch - processPackages [clingexplaid]: Remove: archive file [/home/abi/fetcher/tmp/clingexplaid-1.0.9.tar.gz]
+[2024-05-03 14:58:19] INFO root fetch - main [MainThread]: End processing [clingexplaid]: success
+[2024-05-03 14:58:19] INFO root fetch - main [MainThread]: Store serial: [23046177]
