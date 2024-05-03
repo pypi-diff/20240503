@@ -8836,3 +8836,61 @@
 [2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-antibiotic-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_antibiotic_tax-16.0.1.0.1.1-py3-none-any.whl.zip]
 [2024-05-03 06:01:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-antibiotic-tax]: success
 [2024-05-03 06:01:29] INFO root fetch - main [MainThread]: Store serial: [23041356]
+[2024-05-03 06:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041356]
+[2024-05-03 06:03:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baram
+[2024-05-03 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-br-account-withholding
+[2024-05-03 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-br-account
+[2024-05-03 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-l10n-brazil
+[2024-05-03 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-br-fiscal
+[2024-05-03 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-spotinst
+[2024-05-03 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-l10n-brazil
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: New version: [15.0.2.2.0.2] Old Version: [15.0.2.1.1]
+[2024-05-03 06:03:38] WARNING root fetch - processPackages [odoo-addon-l10n-br-account-withholding]: Skipping, unable to determine old version
+[2024-05-03 06:03:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-account-withholding] error
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: New version: [16.0.1.9.0] Old Version: [16.0.1.8.1]
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/59/7e/2fa5556f7992a317ddeb57ab62ffbff6ed22c6298c22903806c380bfb479/odoo_addon_l10n_br_account-15.0.2.1.1-py3-none-any.whl
+[2024-05-03 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: New version: [16.0.20240502.0] Old Version: [16.0.20240325.1]
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: New version: [16.0.20240502.0] Old Version: [16.0.20240325.1]
+[2024-05-03 06:03:38] INFO root fetch - processPackages [baram]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/9a/ff/aeae7028d837f218dc1ae1e5c1a2a0b7454c8d0ef0cae1132d625dd11534/odoo_addon_l10n_br_fiscal-16.0.1.8.1-py3-none-any.whl
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/1e/9d/e6d09d0fad340df90f2b95a165b1cedc040a343a8c6a1bd2bd81be57ffcd/odoo_addon_l10n_br_account-15.0.2.2.0.2-py3-none-any.whl
+[2024-05-03 06:03:38] INFO root fetch - processPackages [baram]: Downloading https://files.pythonhosted.org/packages/6a/a3/7ab7573123f3efb5def531d9b3c5bf012e48157a14195c7f0564f1c62596/baram-0.4.4.tar.gz
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/63/3b/621fcac3e4da26362da9b95fa3995b77cd8958f5455efdd68ff68dfa67a1/odoo_addons_oca_l10n_brazil-16.0.20240325.1-py3-none-any.whl
+[2024-05-03 06:03:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/63/3b/621fcac3e4da26362da9b95fa3995b77cd8958f5455efdd68ff68dfa67a1/odoo_addons_oca_l10n_brazil-16.0.20240325.1-py3-none-any.whl
+[2024-05-03 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: executing diffoscope
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_account-15.0.2.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_account-15.0.2.2.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-br-account/15.0.2.1.1-15.0.2.2.0.2/README.md --exclude *.pyd
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/e7/1f/df19645f4430a961af7f148105e5a0d40a2e128f05890f99a5a90b42c98e/odoo_addon_l10n_br_fiscal-16.0.1.9.0-py3-none-any.whl
+[2024-05-03 06:03:39] INFO root fetch - processPackages [baram]: Downloading https://files.pythonhosted.org/packages/86/e4/4e69696c8d33ae1e7998aab27acc84d47cdcd3f77a68efd4f6f2508faeb9/baram-0.4.5.tar.gz
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/a0/01/4acfb535d6cf236bc32ddcc9ebc7de76de2948eda1cac3f3083dbca58353/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/a0/01/4acfb535d6cf236bc32ddcc9ebc7de76de2948eda1cac3f3083dbca58353/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: executing diffoscope
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_fiscal-16.0.1.8.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_fiscal-16.0.1.9.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-br-fiscal/16.0.1.8.1-16.0.1.9.0/README.md --exclude *.pyd
+[2024-05-03 06:03:39] INFO root fetch - processPackages [baram]: executing diffoscope
+[2024-05-03 06:03:39] INFO root fetch - processPackages [baram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baram-0.4.4.tar.gz tmp/baram-0.4.5.tar.gz --markdown 20240503/b/baram/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: executing diffoscope
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_brazil-16.0.20240325.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-l10n-brazil/16.0.20240325.1-16.0.20240502.0/README.md --exclude *.pyd
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: executing diffoscope
+[2024-05-03 06:03:39] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_brazil-16.0.20240325.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-l10n-brazil/16.0.20240325.1-16.0.20240502.0/README.md --exclude *.pyd
+[2024-05-03 06:03:39] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/b8/2c/aa878226c72dad7c19534c6713ae070650c0bb7480c80bb6e755f5ccfb7f/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz
+[2024-05-03 06:03:40] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_brazil-16.0.20240325.1-py3-none-any.whl.zip]
+[2024-05-03 06:03:40] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl.zip]
+[2024-05-03 06:03:40] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-brazil]: success
+[2024-05-03 06:03:40] INFO root fetch - processPackages [baram]: Remove: archive file [/home/abi/fetcher/tmp/baram-0.4.4.tar.gz]
+[2024-05-03 06:03:40] INFO root fetch - processPackages [baram]: Remove: archive file [/home/abi/fetcher/tmp/baram-0.4.5.tar.gz]
+[2024-05-03 06:03:40] INFO root fetch - main [MainThread]: End processing [baram]: success
+[2024-05-03 06:03:40] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-brazil]: success
+[2024-05-03 06:03:40] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_account-15.0.2.1.1-py3-none-any.whl.zip]
+[2024-05-03 06:03:40] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_account-15.0.2.2.0.2-py3-none-any.whl.zip]
+[2024-05-03 06:03:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-account]: success
+[2024-05-03 06:03:40] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2024-05-03 06:03:40] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz --markdown 20240503/c/cdktf-cdktf-provider-spotinst/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-03 06:03:41] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_fiscal-16.0.1.8.1-py3-none-any.whl.zip]
+[2024-05-03 06:03:41] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_fiscal-16.0.1.9.0-py3-none-any.whl.zip]
+[2024-05-03 06:03:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-fiscal]: success
+[2024-05-03 06:03:43] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2024-05-03 06:03:43] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
+[2024-05-03 06:03:43] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2024-05-03 06:03:43] INFO root fetch - main [MainThread]: Store serial: [23041372]
