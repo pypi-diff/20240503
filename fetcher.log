@@ -7070,3 +7070,45 @@
 [2024-05-03 03:57:25] INFO root fetch - processPackages [rubicon-objc]: Remove: archive file [/home/abi/fetcher/tmp/rubicon_objc-0.4.9.tar.gz]
 [2024-05-03 03:57:25] INFO root fetch - main [MainThread]: End processing [rubicon-objc]: success
 [2024-05-03 03:57:25] INFO root fetch - main [MainThread]: Store serial: [23040739]
+[2024-05-03 03:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040739]
+[2024-05-03 03:59:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudflare-cli4
+[2024-05-03 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openpipe
+[2024-05-03 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdme
+[2024-05-03 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-repeatable-iterable
+[2024-05-03 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lobbyview
+[2024-05-03 03:59:33] INFO root fetch - processPackages [pdme]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-03 03:59:33] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/fc/be/e22d61f6825b9ef64edad9b2db1e206847830a424603c4ee9687d6d67975/pdme-1.0.0.tar.gz
+[2024-05-03 03:59:34] INFO root fetch - processPackages [python-repeatable-iterable]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-03 03:59:34] INFO root fetch - processPackages [lobbyview]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-03 03:59:34] WARNING root fetch - processPackages [cloudflare-cli4]: Skipping, unable to determine old version
+[2024-05-03 03:59:34] INFO root fetch - main [MainThread]: End processing [cloudflare-cli4] error
+[2024-05-03 03:59:34] INFO root fetch - processPackages [openpipe]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-03 03:59:34] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/62/5b/546c4fbe0118ab53e6d197155e5b44234d1ab44e5a35dc7fa3b9b1dc6679/pdme-1.1.0.tar.gz
+[2024-05-03 03:59:34] INFO root fetch - processPackages [python-repeatable-iterable]: Downloading https://files.pythonhosted.org/packages/02/a7/9959da809a1eec7a797ee96bf63644f68105f116374442542416797ed78f/python_repeatable_iterable-2.1.4.tar.gz
+[2024-05-03 03:59:34] INFO root fetch - processPackages [openpipe]: Downloading https://files.pythonhosted.org/packages/aa/ac/3377b8683a6b74eeaae21b3dc176941cf8377013fa9c77bcdc422781de0d/openpipe-4.8.0.tar.gz
+[2024-05-03 03:59:34] INFO root fetch - processPackages [lobbyview]: Downloading https://files.pythonhosted.org/packages/4c/13/63f755eea1c4fca771c055784e08656ca8e295a744ae42d34e6b08c55284/lobbyview-0.0.2.tar.gz
+[2024-05-03 03:59:34] INFO root fetch - processPackages [pdme]: executing diffoscope
+[2024-05-03 03:59:34] INFO root fetch - processPackages [pdme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdme-1.0.0.tar.gz tmp/pdme-1.1.0.tar.gz --markdown 20240503/p/pdme/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-03 03:59:34] INFO root fetch - processPackages [python-repeatable-iterable]: Downloading https://files.pythonhosted.org/packages/1b/d6/73a68f5e5d60c3437c3e06ebf64772ec83a30bbddbdf06a50de1b58136a8/python_repeatable_iterable-2.1.5.tar.gz
+[2024-05-03 03:59:34] INFO root fetch - processPackages [lobbyview]: Downloading https://files.pythonhosted.org/packages/4b/89/19d483b68514421dd978259f0e38157a12b075b8211d364b5db6dedfff85/lobbyview-0.0.3.tar.gz
+[2024-05-03 03:59:34] INFO root fetch - processPackages [openpipe]: Downloading https://files.pythonhosted.org/packages/a6/f9/1cf2e6961686bb28966da0f0ea8f4e552560793512d68590908bd7306379/openpipe-4.9.0.tar.gz
+[2024-05-03 03:59:34] INFO root fetch - processPackages [openpipe]: executing diffoscope
+[2024-05-03 03:59:34] INFO root fetch - processPackages [openpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpipe-4.8.0.tar.gz tmp/openpipe-4.9.0.tar.gz --markdown 20240503/o/openpipe/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-03 03:59:34] INFO root fetch - processPackages [python-repeatable-iterable]: executing diffoscope
+[2024-05-03 03:59:34] INFO root fetch - processPackages [python-repeatable-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_repeatable_iterable-2.1.4.tar.gz tmp/python_repeatable_iterable-2.1.5.tar.gz --markdown 20240503/p/python-repeatable-iterable/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-03 03:59:34] INFO root fetch - processPackages [lobbyview]: executing diffoscope
+[2024-05-03 03:59:34] INFO root fetch - processPackages [lobbyview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lobbyview-0.0.2.tar.gz tmp/lobbyview-0.0.3.tar.gz --markdown 20240503/l/lobbyview/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-03 03:59:35] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-1.0.0.tar.gz]
+[2024-05-03 03:59:35] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-1.1.0.tar.gz]
+[2024-05-03 03:59:35] INFO root fetch - main [MainThread]: End processing [pdme]: success
+[2024-05-03 03:59:35] INFO root fetch - processPackages [lobbyview]: Remove: archive file [/home/abi/fetcher/tmp/lobbyview-0.0.2.tar.gz]
+[2024-05-03 03:59:35] INFO root fetch - processPackages [lobbyview]: Remove: archive file [/home/abi/fetcher/tmp/lobbyview-0.0.3.tar.gz]
+[2024-05-03 03:59:35] INFO root fetch - main [MainThread]: End processing [lobbyview]: success
+[2024-05-03 03:59:35] INFO root fetch - processPackages [python-repeatable-iterable]: Remove: archive file [/home/abi/fetcher/tmp/python_repeatable_iterable-2.1.4.tar.gz]
+[2024-05-03 03:59:35] INFO root fetch - processPackages [python-repeatable-iterable]: Remove: archive file [/home/abi/fetcher/tmp/python_repeatable_iterable-2.1.5.tar.gz]
+[2024-05-03 03:59:35] INFO root fetch - main [MainThread]: End processing [python-repeatable-iterable]: success
+[2024-05-03 03:59:35] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.8.0.tar.gz]
+[2024-05-03 03:59:35] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.9.0.tar.gz]
+[2024-05-03 03:59:35] INFO root fetch - main [MainThread]: End processing [openpipe]: success
+[2024-05-03 03:59:35] INFO root fetch - main [MainThread]: Store serial: [23040758]
