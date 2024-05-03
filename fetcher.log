@@ -11884,3 +11884,70 @@
 [2024-05-03 09:18:35] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.3.tar.gz]
 [2024-05-03 09:18:35] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-05-03 09:18:35] INFO root fetch - main [MainThread]: Store serial: [23042593]
+[2024-05-03 09:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042593]
+[2024-05-03 09:20:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-openweather
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: niftithings
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cosmian-kms
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-shopfloor-workstation
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superb-ai-apps
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-payment-widget-amount
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: premise
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: f2r
+[2024-05-03 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codenerix-lib
+[2024-05-03 09:20:46] INFO root fetch - processPackages [airbyte-source-openweather]: New version: [0.2.3.dev202405030718] Old Version: [0.2.3]
+[2024-05-03 09:20:46] INFO root fetch - processPackages [superb-ai-apps]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-03 09:20:46] INFO root fetch - processPackages [f2r]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-05-03 09:20:46] WARNING root fetch - processPackages [niftithings]: Skipping, unable to determine old version
+[2024-05-03 09:20:46] INFO root fetch - main [MainThread]: End processing [niftithings] error
+[2024-05-03 09:20:46] INFO root fetch - processPackages [codenerix-lib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 09:20:46] INFO root fetch - processPackages [cosmian-kms]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-05-03 09:20:46] WARNING root fetch - processPackages [odoo-addon-shopfloor-workstation]: Skipping, unable to determine old version
+[2024-05-03 09:20:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-workstation] error
+[2024-05-03 09:20:46] INFO root fetch - processPackages [odoo14-addon-account-payment-widget-amount]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-05-03 09:20:46] INFO root fetch - processPackages [premise]: New version: [2.1.0.dev4] Old Version: [2.1.0.dev3]
+[2024-05-03 09:20:46] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/4f/40/d9e9bc0c72b4a2c2ee86e012ebbb5256b144ac6e091482a8efd8d2ac3cb1/superb-ai-apps-0.0.6.tar.gz
+[2024-05-03 09:20:46] INFO root fetch - processPackages [f2r]: Downloading https://files.pythonhosted.org/packages/05/2a/4515d370fd32e11495e70ebe5bd6e57704bbcacf483dea012c1168dbda6b/f2r-2.7.0-py3-none-any.whl
+[2024-05-03 09:20:46] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/f4/4d/d6113b555e84f4eda7c0649b576dcf9ef9a372c79940d008cf0170b7b6e2/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl
+[2024-05-03 09:20:46] INFO root fetch - processPackages [odoo14-addon-account-payment-widget-amount]: Downloading https://files.pythonhosted.org/packages/6f/82/764a50a758e38ed236354dcb695059f116491fb412fc4c08928de43e4b9d/odoo14_addon_account_payment_widget_amount-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-03 09:20:46] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/07/55/cd49dd54d72558a2417a7457af70aae9f07503bce094de40bf9cd21ade7a/premise-2.1.0.dev3.tar.gz
+[2024-05-03 09:20:46] INFO root fetch - processPackages [airbyte-source-openweather]: Downloading https://files.pythonhosted.org/packages/4a/5a/d2b3031ba2f8d7daa9add8243254e6c9fe56e77c9fc66829215ee9177c40/airbyte_source_openweather-0.2.3.dev202405030718.tar.gz
+[2024-05-03 09:20:46] INFO root fetch - processPackages [codenerix-lib]: Downloading https://files.pythonhosted.org/packages/1a/89/e7e9f49267f698eebaba89b27ba07479c9fc45d24ffe87e4a7d1e6a77c9b/codenerix-lib-1.0.8.tar.gz
+[2024-05-03 09:20:46] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/a3/d7/96564d6ca24f00e432badaf4cdbaf54ec5664530a69a84187ed74a7cc680/superb-ai-apps-0.0.7.tar.gz
+[2024-05-03 09:20:46] INFO root fetch - processPackages [f2r]: Downloading https://files.pythonhosted.org/packages/88/0e/28f383f2b27bd199908569da5e21122c4f9ad08be9f3f88dca61db413e2d/f2r-2.8.0.tar.gz
+[2024-05-03 09:20:46] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 75070492>=10485760
+[2024-05-03 09:20:46] INFO root fetch - main [MainThread]: End processing [premise] error
+[2024-05-03 09:20:46] INFO root fetch - processPackages [airbyte-source-openweather]: executing diffoscope
+[2024-05-03 09:20:46] INFO root fetch - processPackages [airbyte-source-openweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_openweather-0.2.3.tar.gz tmp/airbyte_source_openweather-0.2.3.dev202405030718.tar.gz --markdown 20240503/a/airbyte-source-openweather/0.2.3-0.2.3.dev202405030718/README.md --exclude *.pyd
+[2024-05-03 09:20:46] INFO root fetch - processPackages [superb-ai-apps]: executing diffoscope
+[2024-05-03 09:20:46] INFO root fetch - processPackages [superb-ai-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb-ai-apps-0.0.6.tar.gz tmp/superb-ai-apps-0.0.7.tar.gz --markdown 20240503/s/superb-ai-apps/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-03 09:20:46] INFO root fetch - processPackages [f2r]: executing diffoscope
+[2024-05-03 09:20:46] INFO root fetch - processPackages [f2r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f2r-2.7.0-py3-none-any.whl.zip tmp/f2r-2.8.0.tar.gz --markdown 20240503/f/f2r/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-05-03 09:20:47] INFO root fetch - processPackages [codenerix-lib]: Downloading https://files.pythonhosted.org/packages/b1/40/859ccc73dbc6aca3adfd24f57c9b60dfba46bcc531b2e28f061490e08202/codenerix-lib-1.0.9.tar.gz
+[2024-05-03 09:20:47] INFO root fetch - processPackages [odoo14-addon-account-payment-widget-amount]: Downloading https://files.pythonhosted.org/packages/5d/95/682ace911fc980c323cc70b76c013e598b76285ee261be2e2cc953232211/odoo14_addon_account_payment_widget_amount-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-03 09:20:47] INFO root fetch - processPackages [codenerix-lib]: executing diffoscope
+[2024-05-03 09:20:47] INFO root fetch - processPackages [codenerix-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codenerix-lib-1.0.8.tar.gz tmp/codenerix-lib-1.0.9.tar.gz --markdown 20240503/c/codenerix-lib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 09:20:47] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/b0/23/fad1edf9bca7c2a8f6ad0ed4166cec21becfbcc7afbde957144da34013c7/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl
+[2024-05-03 09:20:47] INFO root fetch - processPackages [odoo14-addon-account-payment-widget-amount]: executing diffoscope
+[2024-05-03 09:20:47] INFO root fetch - processPackages [odoo14-addon-account-payment-widget-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_widget_amount-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_widget_amount-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-account-payment-widget-amount/14.0.1.0.1.dev8-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-05-03 09:20:47] INFO root fetch - processPackages [f2r]: Remove: archive file [/home/abi/fetcher/tmp/f2r-2.7.0-py3-none-any.whl.zip]
+[2024-05-03 09:20:47] INFO root fetch - processPackages [f2r]: Remove: archive file [/home/abi/fetcher/tmp/f2r-2.8.0.tar.gz]
+[2024-05-03 09:20:47] INFO root fetch - main [MainThread]: End processing [f2r]: success
+[2024-05-03 09:20:47] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.6.tar.gz]
+[2024-05-03 09:20:47] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.7.tar.gz]
+[2024-05-03 09:20:47] INFO root fetch - main [MainThread]: End processing [superb-ai-apps]: success
+[2024-05-03 09:20:47] INFO root fetch - processPackages [cosmian-kms]: executing diffoscope
+[2024-05-03 09:20:47] INFO root fetch - processPackages [cosmian-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl.zip tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip --markdown 20240503/c/cosmian-kms/4.9.0-4.9.1/README.md --exclude *.pyd
+[2024-05-03 09:20:47] INFO root fetch - processPackages [airbyte-source-openweather]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_openweather-0.2.3.tar.gz]
+[2024-05-03 09:20:47] INFO root fetch - processPackages [airbyte-source-openweather]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_openweather-0.2.3.dev202405030718.tar.gz]
+[2024-05-03 09:20:47] INFO root fetch - main [MainThread]: End processing [airbyte-source-openweather]: success
+[2024-05-03 09:20:47] INFO root fetch - processPackages [codenerix-lib]: Remove: archive file [/home/abi/fetcher/tmp/codenerix-lib-1.0.8.tar.gz]
+[2024-05-03 09:20:47] INFO root fetch - processPackages [codenerix-lib]: Remove: archive file [/home/abi/fetcher/tmp/codenerix-lib-1.0.9.tar.gz]
+[2024-05-03 09:20:47] INFO root fetch - main [MainThread]: End processing [codenerix-lib]: success
+[2024-05-03 09:20:47] INFO root fetch - processPackages [odoo14-addon-account-payment-widget-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_widget_amount-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-03 09:20:47] INFO root fetch - processPackages [odoo14-addon-account-payment-widget-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_widget_amount-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-03 09:20:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-widget-amount]: success
+[2024-05-03 09:20:48] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl.zip]
+[2024-05-03 09:20:48] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip]
+[2024-05-03 09:20:48] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
+[2024-05-03 09:20:48] INFO root fetch - main [MainThread]: Store serial: [23042622]
