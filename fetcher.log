@@ -7834,3 +7834,24 @@
 [2024-05-03 04:50:30] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.0.tar.gz]
 [2024-05-03 04:50:30] INFO root fetch - main [MainThread]: End processing [socketwrench]: success
 [2024-05-03 04:50:30] INFO root fetch - main [MainThread]: Store serial: [23041027]
+[2024-05-03 04:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041027]
+[2024-05-03 04:52:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws
+[2024-05-03 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repo2docs
+[2024-05-03 04:52:40] INFO root fetch - processPackages [repo2docs]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-03 04:52:40] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-03 04:52:40] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/ea/05/a0c22efd24c9ab0aab5500f2d09e1aea12756b87cfa1dd997d77d83f33ab/repo2docs-0.1.3.tar.gz
+[2024-05-03 04:52:40] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-03 04:52:40] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/ee/28/88531307c391dc86c30c53b4651896b11141a7bbc84d73cb5331af2ea2c3/repo2docs-0.1.4.tar.gz
+[2024-05-03 04:52:40] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 04:52:40] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.3.tar.gz tmp/repo2docs-0.1.4.tar.gz --markdown 20240503/r/repo2docs/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-03 04:52:41] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-03 04:52:41] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-03 04:52:41] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240503/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-03 04:52:41] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.3.tar.gz]
+[2024-05-03 04:52:41] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.4.tar.gz]
+[2024-05-03 04:52:41] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 04:52:57] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-03 04:52:57] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-03 04:52:57] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-03 04:52:57] INFO root fetch - main [MainThread]: Store serial: [23041033]
