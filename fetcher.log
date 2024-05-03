@@ -22244,3 +22244,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:46:29] INFO root fetch - processPackages [blueapi]: Remove: archive file [/home/abi/fetcher/tmp/blueapi-0.4.2a2.tar.gz]
 [2024-05-03 16:46:29] INFO root fetch - main [MainThread]: End processing [blueapi]: success
 [2024-05-03 16:46:29] INFO root fetch - main [MainThread]: Store serial: [23047335]
+[2024-05-03 16:48:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047335]
+[2024-05-03 16:48:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmx-v2-python
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ilo
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simpleboard
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optimeed
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-statement-import-online
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dkist-processing-test
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satorisynapse
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keras-nlp
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flatpack
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mns-common
+[2024-05-03 16:48:59] INFO root fetch - processPackages [ilo]: New version: [0.0.9] Old Version: [0.0.21]
+[2024-05-03 16:48:59] INFO root fetch - processPackages [keras-nlp]: New version: [0.9.3.dev0] Old Version: [0.9.3]
+[2024-05-03 16:48:59] INFO root fetch - processPackages [satorisynapse]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 16:48:59] INFO root fetch - processPackages [hmx-v2-python]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-03 16:48:59] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-03 16:49:00] WARNING root fetch - processPackages [simpleboard]: Skipping, unable to determine old version
+[2024-05-03 16:49:00] INFO root fetch - main [MainThread]: End processing [simpleboard] error
+[2024-05-03 16:49:00] INFO root fetch - processPackages [optimeed]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-05-03 16:49:00] INFO root fetch - processPackages [odoo-addon-account-statement-import-online]: New version: [16.0.1.2.2] Old Version: [16.0.1.2.1]
+[2024-05-03 16:49:00] INFO root fetch - processPackages [satorisynapse]: Downloading https://files.pythonhosted.org/packages/57/b5/3098269d2201939101e42401e55b78f5d906b3ee9b0abd06c6309b714b7e/satorisynapse-0.0.8.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [dkist-processing-test]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-03 16:49:00] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.8] Old Version: [1.0.7.7]
+[2024-05-03 16:49:00] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [ilo]: Downloading https://files.pythonhosted.org/packages/0e/8d/21d8d31449b4594bf5a5305194a9ee8c2d0c9c7b244dd55187eda3d7a1d5/ilo-0.0.21.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/83/32/20a22225dd8137c13005edaf0bb6cdfdd488c90f8a7e510791538ce36506/keras-nlp-0.9.3.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [hmx-v2-python]: Downloading https://files.pythonhosted.org/packages/c5/8f/ef1103f837e539bbf2e3601970e91fa835c766183816e7414e52b3e08972/hmx-v2-python-1.1.0.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [optimeed]: Downloading https://files.pythonhosted.org/packages/8a/4e/93ebfc06f32ecd75150127d8b35aabe7a06df5792b40bd625b582106bae9/optimeed-2.5.2.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [odoo-addon-account-statement-import-online]: Downloading https://files.pythonhosted.org/packages/70/5c/187e9fb559ae97dd3f2c43b1740379663a40bd719e74e39f7a4184a7d20c/odoo_addon_account_statement_import_online-16.0.1.2.1-py3-none-any.whl
+[2024-05-03 16:49:00] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [satorisynapse]: Downloading https://files.pythonhosted.org/packages/8b/de/461b8cb08a020ef43c8f76d9ffa4bb451855aa9fdd05c7f91b3e68128833/satorisynapse-0.0.9.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/9b/23/313208e984f1f69cf1d5a57d83ea045c2c75b6bbe6217438aea3429bbb64/dkist-processing-test-1.9.8.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/e7/01/b50dc9194aa8a9c40e6bad930825f1f6aac6e33efe0370c3e1facfd8bab8/mns_common-1.0.7.7.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [ilo]: Downloading https://files.pythonhosted.org/packages/79/7c/5036dd253f004cca41ef815b9c7858eb91b2e8b0acf1639ad811561b060b/ilo-0.0.9.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-03 16:49:00] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240503/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-03 16:49:00] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/b4/b4/77a34d094447631579707e2238a11403eb3c35511fd6eb4c97563e4a8ff0/keras-nlp-0.9.3.dev0.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [satorisynapse]: executing diffoscope
+[2024-05-03 16:49:00] INFO root fetch - processPackages [satorisynapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satorisynapse-0.0.8.tar.gz tmp/satorisynapse-0.0.9.tar.gz --markdown 20240503/s/satorisynapse/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 16:49:00] INFO root fetch - processPackages [ilo]: executing diffoscope
+[2024-05-03 16:49:00] INFO root fetch - processPackages [ilo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilo-0.0.21.tar.gz tmp/ilo-0.0.9.tar.gz --markdown 20240503/i/ilo/0.0.21-0.0.9/README.md --exclude *.pyd
+[2024-05-03 16:49:00] INFO root fetch - processPackages [hmx-v2-python]: Downloading https://files.pythonhosted.org/packages/87/12/b8a2d44748107e612318ab07a15016de90b1c53a83e4d8c6ebe11bd9d791/hmx-v2-python-1.2.0.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/f0/b4/deb9aa8c9d261f156b8b3f1e302b0cf1195b95025b572ed4d28d867e8372/mns_common-1.0.7.8.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [hmx-v2-python]: executing diffoscope
+[2024-05-03 16:49:00] INFO root fetch - processPackages [hmx-v2-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmx-v2-python-1.1.0.tar.gz tmp/hmx-v2-python-1.2.0.tar.gz --markdown 20240503/h/hmx-v2-python/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-03 16:49:00] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2024-05-03 16:49:00] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.9.3.tar.gz tmp/keras-nlp-0.9.3.dev0.tar.gz --markdown 20240503/k/keras-nlp/0.9.3-0.9.3.dev0/README.md --exclude *.pyd
+[2024-05-03 16:49:00] INFO root fetch - processPackages [odoo-addon-account-statement-import-online]: Downloading https://files.pythonhosted.org/packages/5e/d2/bce6894ecca595e310b171ae4069cfe7534ab7be67888107eb393e597ead/odoo_addon_account_statement_import_online-16.0.1.2.2-py3-none-any.whl
+[2024-05-03 16:49:00] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/06/32/b6d516328652fe461998db030584e4b356d7d650f8bdc5430649c7292072/dkist-processing-test-1.9.9.tar.gz
+[2024-05-03 16:49:00] INFO root fetch - processPackages [odoo-addon-account-statement-import-online]: executing diffoscope
+[2024-05-03 16:49:00] INFO root fetch - processPackages [odoo-addon-account-statement-import-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_online-16.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_online-16.0.1.2.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-account-statement-import-online/16.0.1.2.1-16.0.1.2.2/README.md --exclude *.pyd
+[2024-05-03 16:49:01] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-03 16:49:01] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.7.tar.gz tmp/mns_common-1.0.7.8.tar.gz --markdown 20240503/m/mns-common/1.0.7.7-1.0.7.8/README.md --exclude *.pyd
+[2024-05-03 16:49:01] INFO root fetch - processPackages [dkist-processing-test]: executing diffoscope
+[2024-05-03 16:49:01] INFO root fetch - processPackages [dkist-processing-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-test-1.9.8.tar.gz tmp/dkist-processing-test-1.9.9.tar.gz --markdown 20240503/d/dkist-processing-test/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-03 16:49:01] INFO root fetch - processPackages [optimeed]: Downloading https://files.pythonhosted.org/packages/04/cd/c9460cc6ffb637e4e1425e8de7402af2ac7debc00afd6643ecb0fd594505/optimeed-2.5.3.tar.gz
+[2024-05-03 16:49:01] INFO root fetch - processPackages [satorisynapse]: Remove: archive file [/home/abi/fetcher/tmp/satorisynapse-0.0.8.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - processPackages [satorisynapse]: Remove: archive file [/home/abi/fetcher/tmp/satorisynapse-0.0.9.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - main [MainThread]: End processing [satorisynapse]: success
+[2024-05-03 16:49:01] INFO root fetch - processPackages [ilo]: Remove: archive file [/home/abi/fetcher/tmp/ilo-0.0.21.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - processPackages [ilo]: Remove: archive file [/home/abi/fetcher/tmp/ilo-0.0.9.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - main [MainThread]: End processing [ilo]: success
+[2024-05-03 16:49:01] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-03 16:49:01] INFO root fetch - processPackages [optimeed]: executing diffoscope
+[2024-05-03 16:49:01] INFO root fetch - processPackages [optimeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimeed-2.5.2.tar.gz tmp/optimeed-2.5.3.tar.gz --markdown 20240503/o/optimeed/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-05-03 16:49:01] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.9.8.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.9.9.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - main [MainThread]: End processing [dkist-processing-test]: success
+[2024-05-03 16:49:01] INFO root fetch - processPackages [odoo-addon-account-statement-import-online]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_online-16.0.1.2.1-py3-none-any.whl.zip]
+[2024-05-03 16:49:01] INFO root fetch - processPackages [odoo-addon-account-statement-import-online]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_online-16.0.1.2.2-py3-none-any.whl.zip]
+[2024-05-03 16:49:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-online]: success
+[2024-05-03 16:49:01] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.7.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.8.tar.gz]
+[2024-05-03 16:49:01] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-03 16:49:02] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.tar.gz]
+[2024-05-03 16:49:02] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.dev0.tar.gz]
+[2024-05-03 16:49:02] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2024-05-03 16:49:02] INFO root fetch - processPackages [hmx-v2-python]: Remove: archive file [/home/abi/fetcher/tmp/hmx-v2-python-1.1.0.tar.gz]
+[2024-05-03 16:49:02] INFO root fetch - processPackages [hmx-v2-python]: Remove: archive file [/home/abi/fetcher/tmp/hmx-v2-python-1.2.0.tar.gz]
+[2024-05-03 16:49:02] INFO root fetch - main [MainThread]: End processing [hmx-v2-python]: success
+[2024-05-03 16:49:10] INFO root fetch - processPackages [optimeed]: Remove: archive file [/home/abi/fetcher/tmp/optimeed-2.5.2.tar.gz]
+[2024-05-03 16:49:10] INFO root fetch - processPackages [optimeed]: Remove: archive file [/home/abi/fetcher/tmp/optimeed-2.5.3.tar.gz]
+[2024-05-03 16:49:10] INFO root fetch - main [MainThread]: End processing [optimeed]: success
+[2024-05-03 16:49:10] INFO root fetch - main [MainThread]: Store serial: [23047371]
