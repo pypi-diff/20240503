@@ -20199,3 +20199,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:34:59] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
 [2024-05-03 15:34:59] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
 [2024-05-03 15:34:59] INFO root fetch - main [MainThread]: Store serial: [23046464]
+[2024-05-03 15:37:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046464]
+[2024-05-03 15:37:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-03 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digimat.mbio
+[2024-05-03 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trailblazer
+[2024-05-03 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parea-ai
+[2024-05-03 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spimdisasm
+[2024-05-03 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: olist-loafer
+[2024-05-03 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d3vis-ipynb
+[2024-05-03 15:37:29] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-03 15:37:29] INFO root fetch - processPackages [d3vis-ipynb]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-03 15:37:29] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 15:37:29] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-03 15:37:29] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-03 15:37:29] INFO root fetch - processPackages [olist-loafer]: New version: [6.0.0a1] Old Version: [5.0.0a1]
+[2024-05-03 15:37:29] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 15:37:29] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/9c/93/f9f64e83ce241654980ffe57ef37a67b4d3be2ad9c0e8c4fe54044c200f1/d3vis_ipynb-0.1.5.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/65/8a/e3c45d6cdbcedb650d78e916ad3a53d6a72fa3e8eb4c6ffe1da395457581/spimdisasm-1.9.1.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [olist-loafer]: Downloading https://files.pythonhosted.org/packages/3b/8f/8011d4948c64c341b59d9e272b5118096bc8950cfe2ef126c91d8078943b/olist_loafer-5.0.0a1.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-05-03 15:37:29] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240503/t/trailblazer/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-03 15:37:29] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-05-03 15:37:29] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/9c/b9/2e9a6bba345b2e7b7b5083855572449c94e53bd2ded67a2fe9fc09da5eca/d3vis_ipynb-0.2.0.tar.gz
+[2024-05-03 15:37:30] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 15:37:30] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-05-03 15:37:30] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/4f/b6/3e3fe88ecbbc893a7b39d4c1bb62693fbaa6ad1360bbb0af77a0acafca9c/spimdisasm-1.9.2.tar.gz
+[2024-05-03 15:37:30] INFO root fetch - processPackages [d3vis-ipynb]: executing diffoscope
+[2024-05-03 15:37:30] INFO root fetch - processPackages [d3vis-ipynb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3vis_ipynb-0.1.5.tar.gz tmp/d3vis_ipynb-0.2.0.tar.gz --markdown 20240503/d/d3vis-ipynb/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-03 15:37:30] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-05-03 15:37:30] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240503/p/parea-ai/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-03 15:37:30] INFO root fetch - processPackages [olist-loafer]: Downloading https://files.pythonhosted.org/packages/91/3e/8ac07ba794e3f3b220914760c04ead7acc180da8c6f17ee7ca5de0d0def0/olist_loafer-6.0.0a1.tar.gz
+[2024-05-03 15:37:30] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 15:37:30] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 15:37:30] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-05-03 15:37:30] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240503/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 15:37:30] INFO root fetch - processPackages [olist-loafer]: executing diffoscope
+[2024-05-03 15:37:30] INFO root fetch - processPackages [olist-loafer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olist_loafer-5.0.0a1.tar.gz tmp/olist_loafer-6.0.0a1.tar.gz --markdown 20240503/o/olist-loafer/5.0.0a1-6.0.0a1/README.md --exclude *.pyd
+[2024-05-03 15:37:30] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2024-05-03 15:37:30] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20240503/s/spimdisasm/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-03 15:37:30] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-05-03 15:37:30] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-05-03 15:37:30] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-05-03 15:37:30] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-05-03 15:37:30] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-05-03 15:37:30] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-05-03 15:37:31] INFO root fetch - processPackages [olist-loafer]: Remove: archive file [/home/abi/fetcher/tmp/olist_loafer-5.0.0a1.tar.gz]
+[2024-05-03 15:37:31] INFO root fetch - processPackages [olist-loafer]: Remove: archive file [/home/abi/fetcher/tmp/olist_loafer-6.0.0a1.tar.gz]
+[2024-05-03 15:37:31] INFO root fetch - main [MainThread]: End processing [olist-loafer]: success
+[2024-05-03 15:37:31] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-05-03 15:37:31] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-05-03 15:37:31] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-05-03 15:37:31] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 15:37:31] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 15:37:31] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 15:37:31] INFO root fetch - processPackages [spimdisasm]: Remove: archive file [/home/abi/fetcher/tmp/spimdisasm-1.9.1.tar.gz]
+[2024-05-03 15:37:31] INFO root fetch - processPackages [spimdisasm]: Remove: archive file [/home/abi/fetcher/tmp/spimdisasm-1.9.2.tar.gz]
+[2024-05-03 15:37:31] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2024-05-03 15:37:33] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.1.5.tar.gz]
+[2024-05-03 15:37:33] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.0.tar.gz]
+[2024-05-03 15:37:33] INFO root fetch - main [MainThread]: End processing [d3vis-ipynb]: success
+[2024-05-03 15:37:33] INFO root fetch - main [MainThread]: Store serial: [23046487]
