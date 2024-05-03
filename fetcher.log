@@ -10178,3 +10178,81 @@
 [2024-05-03 07:52:41] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.99.tar.gz]
 [2024-05-03 07:52:41] INFO root fetch - main [MainThread]: End processing [sdc-dp-helpers]: success
 [2024-05-03 07:52:41] INFO root fetch - main [MainThread]: Store serial: [23041898]
+[2024-05-03 07:54:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041898]
+[2024-05-03 07:54:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-base-tier-validation
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest_robotframework
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kkroot
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-manga-translator
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addons-oca-server-ux
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: semantic-router
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-tier-validation
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wah
+[2024-05-03 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-monkey-patches
+[2024-05-03 07:54:50] INFO root fetch - processPackages [django-monkey-patches]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-03 07:54:50] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/20/0e/531c6ac805966bb6c397f142dda97fe93f51147791700b6610207a8876a7/django_monkey_patches-3.0.2.tar.gz
+[2024-05-03 07:54:50] INFO root fetch - processPackages [pytest_robotframework]: New version: [4.1.3] Old Version: [4.1.2]
+[2024-05-03 07:54:50] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: New version: [13.0.1.9.3.dev9] Old Version: [13.0.1.9.3.dev8]
+[2024-05-03 07:54:50] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 07:54:50] WARNING root fetch - processPackages [kkroot]: Skipping, unable to determine old version
+[2024-05-03 07:54:50] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: New version: [14.0.20240502.0] Old Version: [14.0.20240418.0]
+[2024-05-03 07:54:50] INFO root fetch - main [MainThread]: End processing [kkroot] error
+[2024-05-03 07:54:50] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 07:54:50] INFO root fetch - processPackages [semantic-router]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 07:54:50] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [17.0.1.5.1.2] Old Version: [17.0.1.5.1.1]
+[2024-05-03 07:54:50] INFO root fetch - processPackages [pytest_robotframework]: Downloading https://files.pythonhosted.org/packages/4e/9a/06d7200e940a6a733d839dc43c7d25bed91c18487bde6bed13da96877f1b/pytest_robotframework-4.1.2.tar.gz
+[2024-05-03 07:54:50] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/fc/e8/c13eabdac818e98d6bca96b12acb3d2cf7dabe69b3b840fe303675d605ec/odoo13_addon_base_tier_validation-13.0.1.9.3.dev8-py3-none-any.whl
+[2024-05-03 07:54:50] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-03 07:54:50] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/0c/5b/973e9e3b1303134de2a0ccd44506e16992eb501334d995b7b6e43e8f0881/odoo14_addons_oca_server_ux-14.0.20240418.0-py3-none-any.whl
+[2024-05-03 07:54:50] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/f6/f7/78446a4d1139d6e488ede54530f90cb60b7c8be0da06d8b10364aae4f800/django_monkey_patches-3.0.3.tar.gz
+[2024-05-03 07:54:50] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/69/f5/24f7ed2376beeca68004c749ee072334bcdbcd70becd7e5549ea5773efae/semantic_router-0.0.8.tar.gz
+[2024-05-03 07:54:50] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: Downloading https://files.pythonhosted.org/packages/05/06/5197809721c4fd5c98d9d1fc881789e17b4477171ec077578706036f0c24/nonebot_plugin_manga_translator-0.2.1.tar.gz
+[2024-05-03 07:54:50] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/56/f1/54e5707b84be7467b9dcc3f4d64cf220d9a8b175ccbd115a40d28e073717/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl
+[2024-05-03 07:54:50] INFO root fetch - processPackages [django-monkey-patches]: executing diffoscope
+[2024-05-03 07:54:50] INFO root fetch - processPackages [django-monkey-patches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_monkey_patches-3.0.2.tar.gz tmp/django_monkey_patches-3.0.3.tar.gz --markdown 20240503/d/django-monkey-patches/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-03 07:54:50] INFO root fetch - processPackages [pytest_robotframework]: Downloading https://files.pythonhosted.org/packages/72/5e/2867b8a83345ac04a15a44dac0261e4734e59c6b888f8620b02d76ceb9fb/pytest_robotframework-4.1.3.tar.gz
+[2024-05-03 07:54:50] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-03 07:54:50] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/86/1d/9d0ea8df3e6bf45d59119a359368443e9907454471061826cec14813d100/odoo14_addons_oca_server_ux-14.0.20240502.0-py3-none-any.whl
+[2024-05-03 07:54:50] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/c6/e8/868f59ad8c7643feea9a25db402d4e84236189e1a9d89a4c840838be947f/semantic_router-0.0.9.tar.gz
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/72/32/6439fa8214a31a2dd1f34c69478ddd98438503b7ed359f0fd85dcd5e8f82/odoo13_addon_base_tier_validation-13.0.1.9.3.dev9-py3-none-any.whl
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/64/78/cff42998e5761f7a858fb7dd027d40b85cb82d87e122b390d7e95b76fbda/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl
+[2024-05-03 07:54:51] INFO root fetch - processPackages [pytest_robotframework]: executing diffoscope
+[2024-05-03 07:54:51] INFO root fetch - processPackages [pytest_robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_robotframework-4.1.2.tar.gz tmp/pytest_robotframework-4.1.3.tar.gz --markdown 20240503/p/pytest_robotframework/4.1.2-4.1.3/README.md --exclude *.pyd
+[2024-05-03 07:54:51] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-03 07:54:51] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240503/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: executing diffoscope
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_server_ux-14.0.20240418.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_server_ux-14.0.20240502.0-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addons-oca-server-ux/14.0.20240418.0-14.0.20240502.0/README.md --exclude *.pyd
+[2024-05-03 07:54:51] INFO root fetch - processPackages [semantic-router]: executing diffoscope
+[2024-05-03 07:54:51] INFO root fetch - processPackages [semantic-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_router-0.0.8.tar.gz tmp/semantic_router-0.0.9.tar.gz --markdown 20240503/s/semantic-router/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: executing diffoscope
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev8-py3-none-any.whl.zip tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev9-py3-none-any.whl.zip --markdown 20240503/o/odoo13-addon-base-tier-validation/13.0.1.9.3.dev8-13.0.1.9.3.dev9/README.md --exclude *.pyd
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-base-tier-validation/17.0.1.5.1.1-17.0.1.5.1.2/README.md --exclude *.pyd
+[2024-05-03 07:54:51] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: Downloading https://files.pythonhosted.org/packages/76/df/ec2534e7ba02cd5b30bd42b4b06d12b8d737be1187810d069b5a6b314c07/nonebot_plugin_manga_translator-0.2.2.tar.gz
+[2024-05-03 07:54:51] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-3.0.2.tar.gz]
+[2024-05-03 07:54:51] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-3.0.3.tar.gz]
+[2024-05-03 07:54:51] INFO root fetch - main [MainThread]: End processing [django-monkey-patches]: success
+[2024-05-03 07:54:51] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: executing diffoscope
+[2024-05-03 07:54:51] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_manga_translator-0.2.1.tar.gz tmp/nonebot_plugin_manga_translator-0.2.2.tar.gz --markdown 20240503/n/nonebot-plugin-manga-translator/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_ux-14.0.20240418.0-py3-none-any.whl.zip]
+[2024-05-03 07:54:51] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_ux-14.0.20240502.0-py3-none-any.whl.zip]
+[2024-05-03 07:54:51] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-server-ux]: success
+[2024-05-03 07:54:51] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.8.tar.gz]
+[2024-05-03 07:54:51] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.9.tar.gz]
+[2024-05-03 07:54:51] INFO root fetch - main [MainThread]: End processing [semantic-router]: success
+[2024-05-03 07:54:51] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-03 07:54:51] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-03 07:54:51] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-03 07:54:52] INFO root fetch - processPackages [pytest_robotframework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_robotframework-4.1.2.tar.gz]
+[2024-05-03 07:54:52] INFO root fetch - processPackages [pytest_robotframework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_robotframework-4.1.3.tar.gz]
+[2024-05-03 07:54:52] INFO root fetch - main [MainThread]: End processing [pytest_robotframework]: success
+[2024-05-03 07:54:52] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_manga_translator-0.2.1.tar.gz]
+[2024-05-03 07:54:52] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_manga_translator-0.2.2.tar.gz]
+[2024-05-03 07:54:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-manga-translator]: success
+[2024-05-03 07:54:52] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip]
+[2024-05-03 07:54:52] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl.zip]
+[2024-05-03 07:54:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2024-05-03 07:54:52] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev8-py3-none-any.whl.zip]
+[2024-05-03 07:54:52] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev9-py3-none-any.whl.zip]
+[2024-05-03 07:54:52] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-tier-validation]: success
+[2024-05-03 07:54:52] INFO root fetch - main [MainThread]: Store serial: [23041924]
