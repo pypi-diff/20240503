@@ -12861,3 +12861,60 @@
 [2024-05-03 10:03:18] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-05-03 10:03:18] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-05-03 10:03:18] INFO root fetch - main [MainThread]: Store serial: [23043017]
+[2024-05-03 10:05:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043017]
+[2024-05-03 10:05:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 10:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytom3d
+[2024-05-03 10:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-05-03 10:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langfun
+[2024-05-03 10:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-available
+[2024-05-03 10:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DataExtractorOEG
+[2024-05-03 10:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-nightly-cuda110
+[2024-05-03 10:05:29] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-03 10:05:29] INFO root fetch - processPackages [pytom3d]: New version: [0.0.0rc2] Old Version: [0.0.0rc1]
+[2024-05-03 10:05:29] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240502] Old Version: [0.0.2.dev20240501]
+[2024-05-03 10:05:29] INFO root fetch - processPackages [odoo-addon-stock-available]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-03 10:05:29] INFO root fetch - processPackages [pytom3d]: Downloading https://files.pythonhosted.org/packages/21/95/c51ec9ec5c1191733643d49dba5bc6cdf7ed6555af74ab3578dc740354fd/pytom3d-0.0.0rc1.tar.gz
+[2024-05-03 10:05:29] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.38.0.dev20240501] Old Version: [1.38.0.dev20240430]
+[2024-05-03 10:05:29] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.38.0.dev20240501] Old Version: [1.38.0.dev20240430]
+[2024-05-03 10:05:29] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/82/f9/ea7322cb44f859e88a1e53b26c0717099b0e230c961038cbc01a5e257cc8/langfun-0.0.2.dev20240501.tar.gz
+[2024-05-03 10:05:29] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/6f/56/74c7dd58334a52e21b8277c7dd99be27577cca3440dbb38cd94e637cfbdf/dataextractoroeg-0.4.1.tar.gz
+[2024-05-03 10:05:29] INFO root fetch - processPackages [odoo-addon-stock-available]: Downloading https://files.pythonhosted.org/packages/10/93/60a8bb9a8acb73de393fd68eda82e2a64a3dfcbd3912f1bd2a5e5a2bebb0/odoo_addon_stock_available-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-03 10:05:29] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/5c/9e/e53388fd0be2b8090008a72eba748d7a482ef07e680ffe2f0ec7a9b45df0/nvidia_dali_nightly_cuda110-1.38.0.dev20240430.tar.gz
+[2024-05-03 10:05:29] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/4b/2c/67542efa43d26a37fe6308f2d958e9fe6623693b6254287cfa150331bb65/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240430.tar.gz
+[2024-05-03 10:05:29] INFO root fetch - processPackages [pytom3d]: Downloading https://files.pythonhosted.org/packages/44/27/7c897767c8afe8264ac397931d291818720e9035c1c01e685e260f73f741/pytom3d-0.0.0rc2.tar.gz
+[2024-05-03 10:05:29] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/39/54/f8578ad7f3636e62b635a2a6a9b0be7be9eb8f06863664255e31fbb4e256/langfun-0.0.2.dev20240502.tar.gz
+[2024-05-03 10:05:29] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/d2/28/9cb089458f7123b2a7001187df468cc99ba6319bd8112c5b0852abf93da2/dataextractoroeg-0.4.2.tar.gz
+[2024-05-03 10:05:29] INFO root fetch - processPackages [odoo-addon-stock-available]: Downloading https://files.pythonhosted.org/packages/8f/9e/bd7491ac13785e2f03f956727045ef61d26f19743ac24862d520f426917c/odoo_addon_stock_available-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 10:05:29] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/91/22/e7109b996acecf6d557ce452392739f10176f447c9c87f0762e3fcb64892/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240501.tar.gz
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/3b/19/a74573944b6bc171d42fc63141fbc4b832b5d6ee0077e9dff06f7511b9fb/nvidia_dali_nightly_cuda110-1.38.0.dev20240501.tar.gz
+[2024-05-03 10:05:30] INFO root fetch - processPackages [pytom3d]: executing diffoscope
+[2024-05-03 10:05:30] INFO root fetch - processPackages [pytom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytom3d-0.0.0rc1.tar.gz tmp/pytom3d-0.0.0rc2.tar.gz --markdown 20240503/p/pytom3d/0.0.0rc1-0.0.0rc2/README.md --exclude *.pyd
+[2024-05-03 10:05:30] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-03 10:05:30] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240501.tar.gz tmp/langfun-0.0.2.dev20240502.tar.gz --markdown 20240503/l/langfun/0.0.2.dev20240501-0.0.2.dev20240502/README.md --exclude *.pyd
+[2024-05-03 10:05:30] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-03 10:05:30] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.1.tar.gz tmp/dataextractoroeg-0.4.2.tar.gz --markdown 20240503/D/DataExtractorOEG/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-03 10:05:30] INFO root fetch - processPackages [odoo-addon-stock-available]: executing diffoscope
+[2024-05-03 10:05:30] INFO root fetch - processPackages [odoo-addon-stock-available]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_available-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-stock-available/16.0.1.1.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240430.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240501.tar.gz --markdown 20240503/n/nvidia-dali-tf-plugin-nightly-cuda110/1.38.0.dev20240430-1.38.0.dev20240501/README.md --exclude *.pyd
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240430.tar.gz tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240501.tar.gz --markdown 20240503/n/nvidia-dali-nightly-cuda110/1.38.0.dev20240430-1.38.0.dev20240501/README.md --exclude *.pyd
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240430.tar.gz]
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240501.tar.gz]
+[2024-05-03 10:05:30] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240430.tar.gz]
+[2024-05-03 10:05:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240501.tar.gz]
+[2024-05-03 10:05:30] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-05-03 10:05:30] INFO root fetch - processPackages [pytom3d]: Remove: archive file [/home/abi/fetcher/tmp/pytom3d-0.0.0rc1.tar.gz]
+[2024-05-03 10:05:30] INFO root fetch - processPackages [pytom3d]: Remove: archive file [/home/abi/fetcher/tmp/pytom3d-0.0.0rc2.tar.gz]
+[2024-05-03 10:05:30] INFO root fetch - main [MainThread]: End processing [pytom3d]: success
+[2024-05-03 10:05:30] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.1.tar.gz]
+[2024-05-03 10:05:30] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.2.tar.gz]
+[2024-05-03 10:05:30] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-03 10:05:30] INFO root fetch - processPackages [odoo-addon-stock-available]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 10:05:30] INFO root fetch - processPackages [odoo-addon-stock-available]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 10:05:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available]: success
+[2024-05-03 10:05:31] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240501.tar.gz]
+[2024-05-03 10:05:31] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240502.tar.gz]
+[2024-05-03 10:05:31] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-03 10:05:31] INFO root fetch - main [MainThread]: Store serial: [23043039]
