@@ -17300,3 +17300,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:15:44] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.1.tar.gz]
 [2024-05-03 13:15:44] INFO root fetch - main [MainThread]: End processing [indi-pylibcamera]: success
 [2024-05-03 13:15:44] INFO root fetch - main [MainThread]: Store serial: [23045090]
+[2024-05-03 13:18:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045090]
+[2024-05-03 13:18:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 13:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ledger-app-clients.ethereum
+[2024-05-03 13:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jenfi-pipeline-data-app
+[2024-05-03 13:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-inoreader
+[2024-05-03 13:18:14] INFO root fetch - processPackages [jenfi-pipeline-data-app]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-03 13:18:14] INFO root fetch - processPackages [ledger-app-clients.ethereum]: New version: [0.4.1.dev71] Old Version: [0.4.1.dev36]
+[2024-05-03 13:18:14] INFO root fetch - processPackages [python-inoreader]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-03 13:18:14] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/c6/3c/e9e09ab4a7c98ce02599d323ce00cc47ed3e0dc7e04904b81257565d3efd/jenfi_pipeline_data_app-0.4.1.tar.gz
+[2024-05-03 13:18:15] INFO root fetch - processPackages [ledger-app-clients.ethereum]: Downloading https://files.pythonhosted.org/packages/78/6b/793fca32e82e33287bed1cbd56db18a925c2a78dba01dee859ff954d695f/ledger_app_clients.ethereum-0.4.1.dev36.tar.gz
+[2024-05-03 13:18:15] INFO root fetch - processPackages [python-inoreader]: Downloading https://files.pythonhosted.org/packages/a1/64/86c999da785ee52b431326700e65c650af43b7078aa26b1f6ee7f5608dea/python-inoreader-0.6.0.tar.gz
+[2024-05-03 13:18:15] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/3d/f8/17cff1aa1e6b2879964f00499f0b6487a3875b674f6fadd8c69eb8c4a802/jenfi_pipeline_data_app-0.4.2.tar.gz
+[2024-05-03 13:18:15] INFO root fetch - processPackages [jenfi-pipeline-data-app]: executing diffoscope
+[2024-05-03 13:18:15] INFO root fetch - processPackages [jenfi-pipeline-data-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenfi_pipeline_data_app-0.4.1.tar.gz tmp/jenfi_pipeline_data_app-0.4.2.tar.gz --markdown 20240503/j/jenfi-pipeline-data-app/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-03 13:18:15] INFO root fetch - processPackages [python-inoreader]: Downloading https://files.pythonhosted.org/packages/f1/5e/63d9797fdfffcf0e3637be48a47d5dc251fe852ed5c36afdc2c32800fee9/python_inoreader-0.7.0.tar.gz
+[2024-05-03 13:18:15] INFO root fetch - processPackages [ledger-app-clients.ethereum]: Downloading https://files.pythonhosted.org/packages/aa/2e/47a2392199bf94ec253b1a4335eb25cb971f798cd6e3465835d2570997db/ledger_app_clients_ethereum-0.4.1.dev71.tar.gz
+[2024-05-03 13:18:15] INFO root fetch - processPackages [python-inoreader]: executing diffoscope
+[2024-05-03 13:18:15] INFO root fetch - processPackages [python-inoreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-inoreader-0.6.0.tar.gz tmp/python_inoreader-0.7.0.tar.gz --markdown 20240503/p/python-inoreader/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-03 13:18:15] INFO root fetch - processPackages [ledger-app-clients.ethereum]: executing diffoscope
+[2024-05-03 13:18:15] INFO root fetch - processPackages [ledger-app-clients.ethereum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledger_app_clients.ethereum-0.4.1.dev36.tar.gz tmp/ledger_app_clients_ethereum-0.4.1.dev71.tar.gz --markdown 20240503/l/ledger-app-clients.ethereum/0.4.1.dev36-0.4.1.dev71/README.md --exclude *.pyd
+[2024-05-03 13:18:15] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.1.tar.gz]
+[2024-05-03 13:18:15] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.2.tar.gz]
+[2024-05-03 13:18:15] INFO root fetch - main [MainThread]: End processing [jenfi-pipeline-data-app]: success
+[2024-05-03 13:18:16] INFO root fetch - processPackages [ledger-app-clients.ethereum]: Remove: archive file [/home/abi/fetcher/tmp/ledger_app_clients.ethereum-0.4.1.dev36.tar.gz]
+[2024-05-03 13:18:16] INFO root fetch - processPackages [ledger-app-clients.ethereum]: Remove: archive file [/home/abi/fetcher/tmp/ledger_app_clients_ethereum-0.4.1.dev71.tar.gz]
+[2024-05-03 13:18:16] INFO root fetch - main [MainThread]: End processing [ledger-app-clients.ethereum]: success
+[2024-05-03 13:18:16] INFO root fetch - processPackages [python-inoreader]: Remove: archive file [/home/abi/fetcher/tmp/python-inoreader-0.6.0.tar.gz]
+[2024-05-03 13:18:16] INFO root fetch - processPackages [python-inoreader]: Remove: archive file [/home/abi/fetcher/tmp/python_inoreader-0.7.0.tar.gz]
+[2024-05-03 13:18:16] INFO root fetch - main [MainThread]: End processing [python-inoreader]: success
+[2024-05-03 13:18:16] INFO root fetch - main [MainThread]: Store serial: [23045102]
