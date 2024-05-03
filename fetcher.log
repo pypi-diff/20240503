@@ -12459,3 +12459,72 @@
 [2024-05-03 09:47:49] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
 [2024-05-03 09:47:49] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2024-05-03 09:47:49] INFO root fetch - main [MainThread]: Store serial: [23042822]
+[2024-05-03 09:49:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042822]
+[2024-05-03 09:49:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 09:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luminesce-sdk
+[2024-05-03 09:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huntflow-api-client
+[2024-05-03 09:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prcpy
+[2024-05-03 09:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotx
+[2024-05-03 09:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-kfp-task
+[2024-05-03 09:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c4t
+[2024-05-03 09:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-automatic-workflow
+[2024-05-03 09:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cj-package
+[2024-05-03 09:50:00] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 09:50:00] WARNING root fetch - processPackages [simple-kfp-task]: Skipping, unable to determine old version
+[2024-05-03 09:50:00] INFO root fetch - main [MainThread]: End processing [simple-kfp-task] error
+[2024-05-03 09:50:00] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-03 09:50:00] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [prcpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 09:50:00] INFO root fetch - processPackages [aiotx]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 09:50:00] INFO root fetch - processPackages [huntflow-api-client]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-03 09:50:00] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.7]
+[2024-05-03 09:50:00] INFO root fetch - processPackages [c4t]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-03 09:50:00] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/47/2e/45d7a68b731c6c672c17f700a152c75c44bdd53a2b300e8950d57dc9457d/prcpy-0.1.8.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/36/da/19f7f17d7a128096a2b41d80aa2aeb285685fca72025b4a58ba1c36bdeb8/aiotx-0.1.0.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/fe/a9/442667d23fd875700e680da940662246d1a734d44054980b81826ce0e2e8/huntflow_api_client-2.0.1.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/9f/54/080084559788ba91078f9ce8d3757a44fbee14f7e02f1546322f8030ddf8/odoo_addon_sale_automatic_workflow-16.0.1.0.2.7-py3-none-any.whl
+[2024-05-03 09:50:00] INFO root fetch - processPackages [c4t]: Downloading https://files.pythonhosted.org/packages/2d/58/996cf08a63cb038e4722e3ed96ef850556622ca5f2bbd6895d0c4ef9c2f1/c4t-1.4.0.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-03 09:50:00] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240503/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 09:50:00] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-03 09:50:00] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240503/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-03 09:50:00] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/d7/a8/9c67700a6c9645fa7356f3387b4be6e50e5f09efb36b80e65a1275442e24/aiotx-0.2.0.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/4a/18/32966f75128672da37e434c63c43c65552b99c9b1e3fb936657a44ddfa71/prcpy-0.1.9.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/b8/cf/bf9de010ce1b5154261db62ec4e4159850a405fbde8d433620a19842992f/huntflow_api_client-2.1.0.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-05-03 09:50:00] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-0.1.0.tar.gz tmp/aiotx-0.2.0.tar.gz --markdown 20240503/a/aiotx/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 09:50:00] INFO root fetch - processPackages [prcpy]: executing diffoscope
+[2024-05-03 09:50:00] INFO root fetch - processPackages [prcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prcpy-0.1.8.tar.gz tmp/prcpy-0.1.9.tar.gz --markdown 20240503/p/prcpy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 09:50:00] INFO root fetch - processPackages [c4t]: Downloading https://files.pythonhosted.org/packages/2f/1b/b5b34636dc9ae2871b327ad5d5ed33e16ed653ce0b552e807e980a2cb201/c4t-1.5.0.tar.gz
+[2024-05-03 09:50:00] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/ad/13/ee730ee43de5f301da85f381b893a4e55c9af336f489a3ec776a6e872155/odoo_addon_sale_automatic_workflow-16.0.1.1.0-py3-none-any.whl
+[2024-05-03 09:50:00] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2024-05-03 09:50:00] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-2.0.1.tar.gz tmp/huntflow_api_client-2.1.0.tar.gz --markdown 20240503/h/huntflow-api-client/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-03 09:50:01] INFO root fetch - processPackages [c4t]: executing diffoscope
+[2024-05-03 09:50:01] INFO root fetch - processPackages [c4t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4t-1.4.0.tar.gz tmp/c4t-1.5.0.tar.gz --markdown 20240503/c/c4t/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-03 09:50:01] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: executing diffoscope
+[2024-05-03 09:50:01] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_automatic_workflow-16.0.1.0.2.7-py3-none-any.whl.zip tmp/odoo_addon_sale_automatic_workflow-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-sale-automatic-workflow/16.0.1.0.2.7-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-03 09:50:01] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-03 09:50:01] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.1.0.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.2.0.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-05-03 09:50:01] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.8.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.9.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - main [MainThread]: End processing [prcpy]: success
+[2024-05-03 09:50:01] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-03 09:50:01] INFO root fetch - processPackages [c4t]: Remove: archive file [/home/abi/fetcher/tmp/c4t-1.4.0.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - processPackages [c4t]: Remove: archive file [/home/abi/fetcher/tmp/c4t-1.5.0.tar.gz]
+[2024-05-03 09:50:01] INFO root fetch - main [MainThread]: End processing [c4t]: success
+[2024-05-03 09:50:02] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-2.0.1.tar.gz]
+[2024-05-03 09:50:02] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-2.1.0.tar.gz]
+[2024-05-03 09:50:02] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2024-05-03 09:50:02] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_automatic_workflow-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2024-05-03 09:50:02] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_automatic_workflow-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-03 09:50:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-automatic-workflow]: success
+[2024-05-03 09:50:02] INFO root fetch - main [MainThread]: Store serial: [23042840]
