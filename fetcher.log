@@ -7574,3 +7574,15 @@
 [2024-05-03 04:27:59] INFO root fetch - processPackages [core-db]: Remove: archive file [/home/abi/fetcher/tmp/core_db-2.0.3.tar.gz]
 [2024-05-03 04:27:59] INFO root fetch - main [MainThread]: End processing [core-db]: success
 [2024-05-03 04:27:59] INFO root fetch - main [MainThread]: Store serial: [23040921]
+[2024-05-03 04:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040921]
+[2024-05-03 04:30:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 04:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mat3ra-api-examples
+[2024-05-03 04:30:09] INFO root fetch - processPackages [mat3ra-api-examples]: New version: [2024.5.3.post0] Old Version: [2024.4.3.post0]
+[2024-05-03 04:30:09] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/75/8d/ef0a8a8f914d23ef2b456f41353e09aa0902a323cafb0b30850266a5067f/mat3ra-api-examples-2024.4.3.post0.tar.gz
+[2024-05-03 04:30:10] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/d5/8f/71dd2b8a2749c4738591af81350f3811f8473a04de5587095e2d1a982de4/mat3ra_api_examples-2024.5.3.post0.tar.gz
+[2024-05-03 04:30:10] INFO root fetch - processPackages [mat3ra-api-examples]: executing diffoscope
+[2024-05-03 04:30:10] INFO root fetch - processPackages [mat3ra-api-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-api-examples-2024.4.3.post0.tar.gz tmp/mat3ra_api_examples-2024.5.3.post0.tar.gz --markdown 20240503/m/mat3ra-api-examples/2024.4.3.post0-2024.5.3.post0/README.md --exclude *.pyd
+[2024-05-03 04:30:11] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-api-examples-2024.4.3.post0.tar.gz]
+[2024-05-03 04:30:11] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_api_examples-2024.5.3.post0.tar.gz]
+[2024-05-03 04:30:11] INFO root fetch - main [MainThread]: End processing [mat3ra-api-examples]: success
+[2024-05-03 04:30:11] INFO root fetch - main [MainThread]: Store serial: [23040925]
