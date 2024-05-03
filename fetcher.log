@@ -11282,3 +11282,33 @@
 [2024-05-03 08:47:42] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
 [2024-05-03 08:47:42] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-05-03 08:47:42] INFO root fetch - main [MainThread]: Store serial: [23042305]
+[2024-05-03 08:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042305]
+[2024-05-03 08:49:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 08:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hbox
+[2024-05-03 08:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fractal-server
+[2024-05-03 08:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slurmgen
+[2024-05-03 08:49:52] INFO root fetch - processPackages [hbox]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-03 08:49:52] INFO root fetch - processPackages [slurmgen]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-03 08:49:52] INFO root fetch - processPackages [fractal-server]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-03 08:49:52] INFO root fetch - processPackages [slurmgen]: Downloading https://files.pythonhosted.org/packages/49/b9/a01529861335e1799b7ac4e4c93c371a3cb6b18779c6e580395167da6bc0/slurmgen-3.2.0.tar.gz
+[2024-05-03 08:49:52] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/ee/0a/453695272fc2a57480091f01c4c0744736edd0c8e3d2eb58172dfa265a28/hbox-0.2.4.tar.gz
+[2024-05-03 08:49:52] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/96/b1/d8c8c0503ad0343cfaad441409435ed3b2ce42a0c159999eac965d68e02d/fractal_server-2.0.2.tar.gz
+[2024-05-03 08:49:52] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/d8/2c/22bd3906d77cde4c77755034298ad2fc9fde7dc4331e2deb8452c9a14a72/hbox-0.2.5.tar.gz
+[2024-05-03 08:49:52] INFO root fetch - processPackages [slurmgen]: Downloading https://files.pythonhosted.org/packages/92/4a/374c660cd36952f73d11cc199b7e37b951e29e3e9d900b3e46261ebff060/slurmgen-3.3.0.tar.gz
+[2024-05-03 08:49:53] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-03 08:49:53] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.2.4.tar.gz tmp/hbox-0.2.5.tar.gz --markdown 20240503/h/hbox/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-03 08:49:53] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/bb/28/1150b4402b5ba75960d272e4ad0cc776b9323bf8eb15a81319a1c46b54ef/fractal_server-2.0.3.tar.gz
+[2024-05-03 08:49:53] INFO root fetch - processPackages [slurmgen]: executing diffoscope
+[2024-05-03 08:49:53] INFO root fetch - processPackages [slurmgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmgen-3.2.0.tar.gz tmp/slurmgen-3.3.0.tar.gz --markdown 20240503/s/slurmgen/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-03 08:49:53] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-05-03 08:49:53] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.2.tar.gz tmp/fractal_server-2.0.3.tar.gz --markdown 20240503/f/fractal-server/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-03 08:49:53] INFO root fetch - processPackages [slurmgen]: Remove: archive file [/home/abi/fetcher/tmp/slurmgen-3.2.0.tar.gz]
+[2024-05-03 08:49:53] INFO root fetch - processPackages [slurmgen]: Remove: archive file [/home/abi/fetcher/tmp/slurmgen-3.3.0.tar.gz]
+[2024-05-03 08:49:53] INFO root fetch - main [MainThread]: End processing [slurmgen]: success
+[2024-05-03 08:49:53] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.4.tar.gz]
+[2024-05-03 08:49:53] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.5.tar.gz]
+[2024-05-03 08:49:53] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-03 08:49:54] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.2.tar.gz]
+[2024-05-03 08:49:54] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.3.tar.gz]
+[2024-05-03 08:49:54] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-05-03 08:49:54] INFO root fetch - main [MainThread]: Store serial: [23042314]
