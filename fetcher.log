@@ -9776,3 +9776,15 @@
 [2024-05-03 07:22:13] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-03 07:22:13] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-03 07:22:13] INFO root fetch - main [MainThread]: Store serial: [23041754]
+[2024-05-03 07:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041754]
+[2024-05-03 07:24:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 07:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qgate-sln-mlrun
+[2024-05-03 07:24:22] INFO root fetch - processPackages [qgate-sln-mlrun]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 07:24:22] INFO root fetch - processPackages [qgate-sln-mlrun]: Downloading https://files.pythonhosted.org/packages/c0/ab/fea115c7fa44cca9113e0f3e77377b91717e85d47b55b08eb89890d3f6c0/qgate_sln_mlrun-0.2.1-py3-none-any.whl
+[2024-05-03 07:24:22] INFO root fetch - processPackages [qgate-sln-mlrun]: Downloading https://files.pythonhosted.org/packages/1e/e5/7e261ee58c0606b6e391fd16d146047a58b5456c169213e10e0bdff78c44/qgate_sln_mlrun-0.2.2-py3-none-any.whl
+[2024-05-03 07:24:22] INFO root fetch - processPackages [qgate-sln-mlrun]: executing diffoscope
+[2024-05-03 07:24:22] INFO root fetch - processPackages [qgate-sln-mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_sln_mlrun-0.2.1-py3-none-any.whl.zip tmp/qgate_sln_mlrun-0.2.2-py3-none-any.whl.zip --markdown 20240503/q/qgate-sln-mlrun/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 07:24:23] INFO root fetch - processPackages [qgate-sln-mlrun]: Remove: archive file [/home/abi/fetcher/tmp/qgate_sln_mlrun-0.2.1-py3-none-any.whl.zip]
+[2024-05-03 07:24:23] INFO root fetch - processPackages [qgate-sln-mlrun]: Remove: archive file [/home/abi/fetcher/tmp/qgate_sln_mlrun-0.2.2-py3-none-any.whl.zip]
+[2024-05-03 07:24:23] INFO root fetch - main [MainThread]: End processing [qgate-sln-mlrun]: success
+[2024-05-03 07:24:23] INFO root fetch - main [MainThread]: Store serial: [23041756]
