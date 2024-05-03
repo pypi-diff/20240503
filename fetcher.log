@@ -16567,3 +16567,87 @@
 [2024-05-03 12:45:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.5.tar.gz]
 [2024-05-03 12:45:25] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-05-03 12:45:25] INFO root fetch - main [MainThread]: Store serial: [23044785]
+[2024-05-03 12:47:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044785]
+[2024-05-03 12:47:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-th-account-tax-expense
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chainbench
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-margin-classification
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zippyform
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-groq
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gcp-pal
+[2024-05-03 12:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: random-file-generator
+[2024-05-03 12:47:55] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [random-file-generator]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [zippyform]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [chainbench]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-expense]: New version: [15.0.1.2.0] Old Version: [15.0.1.1.4]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [llm-groq]: New version: [0.4] Old Version: [0.3]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 12:47:55] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-03 12:47:55] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/d7/d6/89a6c3a90a6a9ec63ae63d27de4e6b7e1a8b78b640496e3ed291bb36030e/zippyform-1.4.8-py3-none-any.whl
+[2024-05-03 12:47:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 12:47:55] INFO root fetch - processPackages [random-file-generator]: Downloading https://files.pythonhosted.org/packages/77/8d/7dc209e68bb2062e232513d0ffce00d480cbd3471a7f93c380caa4cd558f/random_file_generator-0.0.1.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/16/60/854c725ab06d78331900bb34870788c505145fa0c1f77d525c4d7911e95c/chainbench-0.6.8.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Downloading https://files.pythonhosted.org/packages/75/f5/88d1820b0340382c28042580a18cf8c3be5bfb937fd7615b066c43ab4f40/odoo_addon_product_margin_classification-16.0.1.0.2-py3-none-any.whl
+[2024-05-03 12:47:56] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-expense]: Downloading https://files.pythonhosted.org/packages/f1/f4/a99a12a06b4df310a5b752df1c2786b994d6473e7e8d04f0a91c38bdcbf3/odoo_addon_l10n_th_account_tax_expense-15.0.1.1.4-py3-none-any.whl
+[2024-05-03 12:47:56] INFO root fetch - processPackages [llm-groq]: Downloading https://files.pythonhosted.org/packages/43/4b/1abee4a8146cdc4ca1550b9a0159840524ac50c0e8519e8a7d4c5b467447/llm-groq-0.3.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/b9/53/0499b1bdad8e79c84118cbf501ebb26b70c8b5b60bce463c4a8d0618fe81/gcp_pal-1.0.8.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/7d/35/a3dfe5803d393705d1159b1f1a2642bbc1518edd9ce0df79604a1596ea5d/zippyform-1.4.9-py3-none-any.whl
+[2024-05-03 12:47:56] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [zippyform]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [zippyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zippyform-1.4.8-py3-none-any.whl.zip tmp/zippyform-1.4.9-py3-none-any.whl.zip --markdown 20240503/z/zippyform/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-03 12:47:56] INFO root fetch - processPackages [random-file-generator]: Downloading https://files.pythonhosted.org/packages/b9/06/21c1c87894d2e7c5b2d67288fde48b67e39ef02913af5ed1ff3f6f171eb0/random_file_generator-0.0.2.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-03 12:47:56] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 12:47:56] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-expense]: Downloading https://files.pythonhosted.org/packages/c8/70/3ce7ae09fda14c21ffada032ee8acea4b68b3f08b299f69422e6a6bb38be/odoo_addon_l10n_th_account_tax_expense-15.0.1.2.0-py3-none-any.whl
+[2024-05-03 12:47:56] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/2e/af/f27963b24848c17767da0228f8bd9337f3625f87eec8e84e085fc33df0ad/chainbench-0.6.9.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Downloading https://files.pythonhosted.org/packages/e2/45/f667147e564456c510dd662afe39350c1c03f3ef54cbfd2a87c1168b69fa/odoo_addon_product_margin_classification-16.0.1.1.0-py3-none-any.whl
+[2024-05-03 12:47:56] INFO root fetch - processPackages [random-file-generator]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [random-file-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_file_generator-0.0.1.tar.gz tmp/random_file_generator-0.0.2.tar.gz --markdown 20240503/r/random-file-generator/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 12:47:56] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/8c/b8/2efa9600008859fa691d602891fa9c6bb228fd92cd7f0036d55241b68620/gcp_pal-1.0.9.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [llm-groq]: Downloading https://files.pythonhosted.org/packages/cd/ac/a1ba3de4f5584770f2581053ff515b64d5aee91cd45f08952bb053477a46/llm_groq-0.4.tar.gz
+[2024-05-03 12:47:56] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-expense]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-expense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax_expense-15.0.1.1.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax_expense-15.0.1.2.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-th-account-tax-expense/15.0.1.1.4-15.0.1.2.0/README.md --exclude *.pyd
+[2024-05-03 12:47:56] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_margin_classification-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_margin_classification-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-product-margin-classification/16.0.1.0.2-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-03 12:47:56] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.6.8.tar.gz tmp/chainbench-0.6.9.tar.gz --markdown 20240503/c/chainbench/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-03 12:47:56] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240503/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-03 12:47:56] INFO root fetch - processPackages [llm-groq]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [llm-groq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-groq-0.3.tar.gz tmp/llm_groq-0.4.tar.gz --markdown 20240503/l/llm-groq/0.3-0.4/README.md --exclude *.pyd
+[2024-05-03 12:47:56] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-05-03 12:47:56] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.8.tar.gz tmp/gcp_pal-1.0.9.tar.gz --markdown 20240503/g/gcp-pal/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 12:47:57] INFO root fetch - processPackages [random-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/random_file_generator-0.0.1.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [random-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/random_file_generator-0.0.2.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [random-file-generator]: success
+[2024-05-03 12:47:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 12:47:57] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.8-py3-none-any.whl.zip]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.9-py3-none-any.whl.zip]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [zippyform]: success
+[2024-05-03 12:47:57] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_expense-15.0.1.1.4-py3-none-any.whl.zip]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_expense-15.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax-expense]: success
+[2024-05-03 12:47:57] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.6.8.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.6.9.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2024-05-03 12:47:57] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_margin_classification-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_margin_classification-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-margin-classification]: success
+[2024-05-03 12:47:57] INFO root fetch - processPackages [llm-groq]: Remove: archive file [/home/abi/fetcher/tmp/llm-groq-0.3.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [llm-groq]: Remove: archive file [/home/abi/fetcher/tmp/llm_groq-0.4.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [llm-groq]: success
+[2024-05-03 12:47:57] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.8.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.9.tar.gz]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-05-03 12:47:57] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-03 12:47:57] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-03 12:47:57] INFO root fetch - main [MainThread]: Store serial: [23044809]
