@@ -10901,3 +10901,33 @@
 [2024-05-03 08:32:18] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.9.tar.gz]
 [2024-05-03 08:32:18] INFO root fetch - main [MainThread]: End processing [misc-python-utils]: success
 [2024-05-03 08:32:18] INFO root fetch - main [MainThread]: Store serial: [23042178]
+[2024-05-03 08:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042178]
+[2024-05-03 08:34:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 08:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-wms
+[2024-05-03 08:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paloalto-panorama-sdk
+[2024-05-03 08:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compress-fasttext
+[2024-05-03 08:34:28] INFO root fetch - processPackages [compress-fasttext]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 08:34:28] INFO root fetch - processPackages [paloalto-panorama-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 08:34:28] INFO root fetch - processPackages [odoo-addons-oca-wms]: New version: [16.0.20240502.2] Old Version: [16.0.20240415.0]
+[2024-05-03 08:34:29] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/f1/6e/b5773b502a0a999dc70ceb28bcc927f6d96aa0a08880f7cc6cfa3dd08742/paloalto_panorama_sdk-0.0.5.tar.gz
+[2024-05-03 08:34:29] INFO root fetch - processPackages [compress-fasttext]: Downloading https://files.pythonhosted.org/packages/09/89/086330260dc983da57003140c64b54d75653eb820a81d3d3bfb437e57003/compress-fasttext-0.1.4.tar.gz
+[2024-05-03 08:34:29] INFO root fetch - processPackages [odoo-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/e6/9a/23b0aee74f6de15ede060830bff57a2969037d5afbfafe238691538322b0/odoo_addons_oca_wms-16.0.20240415.0-py3-none-any.whl
+[2024-05-03 08:34:29] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/13/9d/2efb5a6379653d08d3cdd93cb2f417137ef7af3919e468297df2596f58ff/paloalto_panorama_sdk-0.0.6.tar.gz
+[2024-05-03 08:34:29] INFO root fetch - processPackages [compress-fasttext]: Downloading https://files.pythonhosted.org/packages/96/fd/e18217be31e60c363a5422e03f879131cdfae9b37d91bf6b55599a2e6493/compress-fasttext-0.1.5.tar.gz
+[2024-05-03 08:34:29] INFO root fetch - processPackages [paloalto-panorama-sdk]: executing diffoscope
+[2024-05-03 08:34:29] INFO root fetch - processPackages [paloalto-panorama-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paloalto_panorama_sdk-0.0.5.tar.gz tmp/paloalto_panorama_sdk-0.0.6.tar.gz --markdown 20240503/p/paloalto-panorama-sdk/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 08:34:29] INFO root fetch - processPackages [odoo-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/ee/8a/dd684fde7a3647015a1e5cfe66cc0443bfac83c638bc66c3e54c2ea257de/odoo_addons_oca_wms-16.0.20240502.2-py3-none-any.whl
+[2024-05-03 08:34:29] INFO root fetch - processPackages [compress-fasttext]: executing diffoscope
+[2024-05-03 08:34:29] INFO root fetch - processPackages [compress-fasttext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compress-fasttext-0.1.4.tar.gz tmp/compress-fasttext-0.1.5.tar.gz --markdown 20240503/c/compress-fasttext/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 08:34:29] INFO root fetch - processPackages [odoo-addons-oca-wms]: executing diffoscope
+[2024-05-03 08:34:29] INFO root fetch - processPackages [odoo-addons-oca-wms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_wms-16.0.20240415.0-py3-none-any.whl.zip tmp/odoo_addons_oca_wms-16.0.20240502.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-wms/16.0.20240415.0-16.0.20240502.2/README.md --exclude *.pyd
+[2024-05-03 08:34:30] INFO root fetch - processPackages [compress-fasttext]: Remove: archive file [/home/abi/fetcher/tmp/compress-fasttext-0.1.4.tar.gz]
+[2024-05-03 08:34:30] INFO root fetch - processPackages [compress-fasttext]: Remove: archive file [/home/abi/fetcher/tmp/compress-fasttext-0.1.5.tar.gz]
+[2024-05-03 08:34:30] INFO root fetch - main [MainThread]: End processing [compress-fasttext]: success
+[2024-05-03 08:34:30] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.5.tar.gz]
+[2024-05-03 08:34:30] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.6.tar.gz]
+[2024-05-03 08:34:30] INFO root fetch - main [MainThread]: End processing [paloalto-panorama-sdk]: success
+[2024-05-03 08:34:30] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-05-03 08:34:30] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240502.2-py3-none-any.whl.zip]
+[2024-05-03 08:34:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-wms]: success
+[2024-05-03 08:34:30] INFO root fetch - main [MainThread]: Store serial: [23042185]
