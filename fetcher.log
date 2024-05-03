@@ -23478,3 +23478,47 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 [2024-05-03 17:25:32] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.3.9.tar.gz]
 [2024-05-03 17:25:32] INFO root fetch - main [MainThread]: End processing [linopy]: success
 [2024-05-03 17:25:32] INFO root fetch - main [MainThread]: Store serial: [23047924]
+[2024-05-03 17:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047924]
+[2024-05-03 17:27:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 17:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c4m-pdk-gf180mcu
+[2024-05-03 17:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DIPEX
+[2024-05-03 17:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medcat
+[2024-05-03 17:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pimelon
+[2024-05-03 17:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flash-rwkv
+[2024-05-03 17:27:42] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev2]
+[2024-05-03 17:27:42] INFO root fetch - processPackages [medcat]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-03 17:27:42] INFO root fetch - processPackages [pimelon]: New version: [6.16.9] Old Version: [6.16.8]
+[2024-05-03 17:27:42] INFO root fetch - processPackages [flash-rwkv]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-03 17:27:42] INFO root fetch - processPackages [DIPEX]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-03 17:27:42] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Downloading https://files.pythonhosted.org/packages/0a/f9/8b217d0c5c4ae6bd97c4fdfcaf81a04af1bbd5b87704e504c9d7207cd372/c4m_pdk_gf180mcu-0.1.0.dev2.tar.gz
+[2024-05-03 17:27:42] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/16/cb/6142fdcec55e150d1efaa60838d90cf6cf7731b47fa247e983a0b34f0133/dipex-5.8.0.tar.gz
+[2024-05-03 17:27:42] INFO root fetch - processPackages [pimelon]: Downloading https://files.pythonhosted.org/packages/28/76/785ad4b63ae06af601d02ea88d732388acbbd07cd354129da390d10ce5ef/pimelon-6.16.8.tar.gz
+[2024-05-03 17:27:42] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/38/1c/9f91b0e67f62d9ab80e41e907ff79b66a1a7b1325dc2e142c316ef6bde6f/flash_rwkv-0.2.1-py3-none-any.whl
+[2024-05-03 17:27:42] INFO root fetch - processPackages [medcat]: Downloading https://files.pythonhosted.org/packages/65/92/a4a7dd78c1eeb8db0b55a519e727d11d8527e503b7a9ded8139470b7c131/medcat-1.9.2.tar.gz
+[2024-05-03 17:27:42] WARNING root fetch - processPackages [medcat]: Skipping package: exceeds size limit 10850405>=10485760
+[2024-05-03 17:27:42] INFO root fetch - main [MainThread]: End processing [medcat] error
+[2024-05-03 17:27:42] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Downloading https://files.pythonhosted.org/packages/94/8e/32b022d261c29aa985d651beefbba46d0dec5ef25ab9d3cd12aee711e465/c4m_pdk_gf180mcu-0.1.0.dev3.tar.gz
+[2024-05-03 17:27:42] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/cd/4c/82328ebd5d5963ebfdeeaf52d00f7bd4f84430a14db4719a815f97d54439/flash_rwkv-0.3.0-py3-none-any.whl
+[2024-05-03 17:27:43] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/0f/ff/c59d93b941fe8a6ed420eea3eedf5eedb14177e013aa5db012d74b5dbc75/dipex-5.9.0.tar.gz
+[2024-05-03 17:27:43] INFO root fetch - processPackages [pimelon]: Downloading https://files.pythonhosted.org/packages/f7/99/743d09f1a25dd78831b27b37b7b2aed5f4d5bb9b05295833900064ea4eab/pimelon-6.16.9.tar.gz
+[2024-05-03 17:27:43] INFO root fetch - processPackages [flash-rwkv]: executing diffoscope
+[2024-05-03 17:27:43] INFO root fetch - processPackages [flash-rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_rwkv-0.2.1-py3-none-any.whl.zip tmp/flash_rwkv-0.3.0-py3-none-any.whl.zip --markdown 20240503/f/flash-rwkv/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-03 17:27:43] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: executing diffoscope
+[2024-05-03 17:27:43] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_pdk_gf180mcu-0.1.0.dev2.tar.gz tmp/c4m_pdk_gf180mcu-0.1.0.dev3.tar.gz --markdown 20240503/c/c4m-pdk-gf180mcu/0.1.0.dev2-0.1.0.dev3/README.md --exclude *.pyd
+[2024-05-03 17:27:43] INFO root fetch - processPackages [DIPEX]: executing diffoscope
+[2024-05-03 17:27:43] INFO root fetch - processPackages [DIPEX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-5.8.0.tar.gz tmp/dipex-5.9.0.tar.gz --markdown 20240503/D/DIPEX/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-03 17:27:43] INFO root fetch - processPackages [pimelon]: executing diffoscope
+[2024-05-03 17:27:43] INFO root fetch - processPackages [pimelon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pimelon-6.16.8.tar.gz tmp/pimelon-6.16.9.tar.gz --markdown 20240503/p/pimelon/6.16.8-6.16.9/README.md --exclude *.pyd
+[2024-05-03 17:27:43] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.2.1-py3-none-any.whl.zip]
+[2024-05-03 17:27:43] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.3.0-py3-none-any.whl.zip]
+[2024-05-03 17:27:43] INFO root fetch - main [MainThread]: End processing [flash-rwkv]: success
+[2024-05-03 17:27:43] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_gf180mcu-0.1.0.dev2.tar.gz]
+[2024-05-03 17:27:43] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_gf180mcu-0.1.0.dev3.tar.gz]
+[2024-05-03 17:27:43] INFO root fetch - main [MainThread]: End processing [c4m-pdk-gf180mcu]: success
+[2024-05-03 17:27:44] INFO root fetch - processPackages [pimelon]: Remove: archive file [/home/abi/fetcher/tmp/pimelon-6.16.8.tar.gz]
+[2024-05-03 17:27:44] INFO root fetch - processPackages [pimelon]: Remove: archive file [/home/abi/fetcher/tmp/pimelon-6.16.9.tar.gz]
+[2024-05-03 17:27:44] INFO root fetch - main [MainThread]: End processing [pimelon]: success
+[2024-05-03 17:27:44] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.8.0.tar.gz]
+[2024-05-03 17:27:44] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.9.0.tar.gz]
+[2024-05-03 17:27:44] INFO root fetch - main [MainThread]: End processing [DIPEX]: success
+[2024-05-03 17:27:44] INFO root fetch - main [MainThread]: Store serial: [23047947]
