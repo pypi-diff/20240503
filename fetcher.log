@@ -13714,3 +13714,61 @@
 [2024-05-03 10:30:31] INFO root fetch - processPackages [glean-parser]: Remove: archive file [/home/abi/fetcher/tmp/glean_parser-9.0.0.tar.gz]
 [2024-05-03 10:30:31] INFO root fetch - main [MainThread]: End processing [glean-parser]: success
 [2024-05-03 10:30:31] INFO root fetch - main [MainThread]: Store serial: [23043341]
+[2024-05-03 10:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043341]
+[2024-05-03 10:32:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 10:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-extensions-encryption-vault-python
+[2024-05-03 10:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: signxai
+[2024-05-03 10:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-extensions-data-delivery-spark-py
+[2024-05-03 10:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-extensions-data-delivery-spark-py
+[2024-05-03 10:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tgcall
+[2024-05-03 10:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lakeapi2sql
+[2024-05-03 10:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whisperplus
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: New version: [1.7.0.dev1714638847] Old Version: [1.7.0.dev1714638831]
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: New version: [1.7.0.dev1714638847] Old Version: [1.7.0.dev1714638831]
+[2024-05-03 10:32:43] INFO root fetch - processPackages [signxai]: New version: [1.1.8] Old Version: [1.1.7.1]
+[2024-05-03 10:32:43] INFO root fetch - processPackages [whisperplus]: New version: [0.2.8] Old Version: [0.2.7.0.dev1]
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: New version: [1.7.0.dev1714725001] Old Version: [1.7.0.dev1714638815]
+[2024-05-03 10:32:43] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-03 10:32:43] WARNING root fetch - processPackages [tgcall]: Skipping, unable to determine old version
+[2024-05-03 10:32:43] INFO root fetch - main [MainThread]: End processing [tgcall] error
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Downloading https://files.pythonhosted.org/packages/00/ac/c300781b570612c04f72059c15e839b10e41420fe847e9a1b57832408e4a/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638831.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Downloading https://files.pythonhosted.org/packages/00/ac/c300781b570612c04f72059c15e839b10e41420fe847e9a1b57832408e4a/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638831.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/fa/cb/c72959a719aae82f924c86cbcb5345c3a3c358dfc64974584157cb7e7f19/signxai-1.1.7.1.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Downloading https://files.pythonhosted.org/packages/c5/79/5356a1ee4570105bb1e5bac3702417e906989a366b78dd96ef40fa53b93e/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638815.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/a9/10/908adcadd50eab07cff7c5efed01d455491ac24d40fdddb046ba46fa19e4/lakeapi2sql-0.8.4.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/ff/0e/957556ed896e91de460e3c99c33bd2d404c76e75ef0ec69aaf6f8325e83d/whisperplus-0.2.7.0.dev1.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Downloading https://files.pythonhosted.org/packages/27/6c/6b16b17fbac942d94094c90f258d7240ded40985391018a03173daf8df29/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638847.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/d0/a0/03792c4cac370313e9095c1c7f44ebd53f26c4d357d8a88ce2787edc2f91/lakeapi2sql-0.9.0.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Downloading https://files.pythonhosted.org/packages/27/6c/6b16b17fbac942d94094c90f258d7240ded40985391018a03173daf8df29/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638847.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/d3/07/012fe83ca3d113e1204c21fecc39c809ad71dc2c1a0c0669d89b8ec81017/signxai-1.1.8.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/9a/49/42da8dc1dfaa872ba8d15a9a2f7786964130a99fd933dae9f35c17cae8f2/whisperplus-0.2.8.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: executing diffoscope
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638831.tar.gz tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638847.tar.gz --markdown 20240503/a/aissemble-extensions-data-delivery-spark-py/1.7.0.dev1714638831-1.7.0.dev1714638847/README.md --exclude *.pyd
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Downloading https://files.pythonhosted.org/packages/c4/2d/8da153016fb8cf9f6367c9543951eb47cb15ad4584d6827e78de9d7bf69c/aissemble_extensions_encryption_vault_python-1.7.0.dev1714725001.tar.gz
+[2024-05-03 10:32:43] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2024-05-03 10:32:43] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.8.4.tar.gz tmp/lakeapi2sql-0.9.0.tar.gz --markdown 20240503/l/lakeapi2sql/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: executing diffoscope
+[2024-05-03 10:32:43] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638831.tar.gz tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638847.tar.gz --markdown 20240503/a/aissemble-extensions-data-delivery-spark-py/1.7.0.dev1714638831-1.7.0.dev1714638847/README.md --exclude *.pyd
+[2024-05-03 10:32:43] INFO root fetch - processPackages [whisperplus]: executing diffoscope
+[2024-05-03 10:32:43] INFO root fetch - processPackages [whisperplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisperplus-0.2.7.0.dev1.tar.gz tmp/whisperplus-0.2.8.tar.gz --markdown 20240503/w/whisperplus/0.2.7.0.dev1-0.2.8/README.md --exclude *.pyd
+[2024-05-03 10:32:43] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2024-05-03 10:32:43] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-1.1.7.1.tar.gz tmp/signxai-1.1.8.tar.gz --markdown 20240503/s/signxai/1.1.7.1-1.1.8/README.md --exclude *.pyd
+[2024-05-03 10:32:44] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: executing diffoscope
+[2024-05-03 10:32:44] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638815.tar.gz tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714725001.tar.gz --markdown 20240503/a/aissemble-extensions-encryption-vault-python/1.7.0.dev1714638815-1.7.0.dev1714725001/README.md --exclude *.pyd
+[2024-05-03 10:32:44] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638831.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714638847.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-data-delivery-spark-py]: success
+[2024-05-03 10:32:44] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.7.0.dev1.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.8.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - main [MainThread]: End processing [whisperplus]: success
+[2024-05-03 10:32:44] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-data-delivery-spark-py]: success
+[2024-05-03 10:32:44] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.8.4.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.9.0.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2024-05-03 10:32:44] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638815.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714725001.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-encryption-vault-python]: success
+[2024-05-03 10:32:44] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.1.7.1.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.1.8.tar.gz]
+[2024-05-03 10:32:44] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2024-05-03 10:32:44] INFO root fetch - main [MainThread]: Store serial: [23043373]
