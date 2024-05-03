@@ -23156,3 +23156,108 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 [2024-05-03 17:15:50] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.dev0.tar.gz]
 [2024-05-03 17:15:50] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2024-05-03 17:15:50] INFO root fetch - main [MainThread]: Store serial: [23047780]
+[2024-05-03 17:17:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047780]
+[2024-05-03 17:17:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openav
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygsl-lite
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faim-ipa
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastboard
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evidently
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-index-callbacks-argilla
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docusign-esign
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: usempl-plots
+[2024-05-03 17:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aedev-git-repo-manager
+[2024-05-03 17:18:00] INFO root fetch - processPackages [openav]: New version: [1.0.0a8] Old Version: [1.0.0a7]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [docusign-esign]: New version: [4.0.0rc1] Old Version: [3.9.0rc1]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [usempl-plots]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [llama-index-callbacks-argilla]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-03 17:18:00] WARNING root fetch - processPackages [fastboard]: Skipping, unable to determine old version
+[2024-05-03 17:18:00] INFO root fetch - processPackages [fastboard]: Start processing: MobileInventoryCLI
+[2024-05-03 17:18:00] INFO root fetch - main [MainThread]: End processing [fastboard] error
+[2024-05-03 17:18:00] INFO root fetch - processPackages [faim-ipa]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [pygsl-lite]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [aedev-git-repo-manager]: New version: [0.3.77] Old Version: [0.3.76]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [openav]: Downloading https://files.pythonhosted.org/packages/43/7e/ad4d7bd73cd921702458421cdd873385a8fd2509e480e421fedd63fefd56/openav-1.0.0a7.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [evidently]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [qiskit]: New version: [1.1.0rc1] Old Version: [1.0.2]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [usempl-plots]: Downloading https://files.pythonhosted.org/packages/93/39/06ebae7712658f5a6e6f9ecbe7fc65899d9f3055e4b2289b442b904c79b4/usempl-plots-0.0.3.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.82] Old Version: [0.4.81]
+[2024-05-03 17:18:00] INFO root fetch - processPackages [docusign-esign]: Downloading https://files.pythonhosted.org/packages/9a/1d/bd6330aab317a9807113e36447af83e1b5072fc546915d9fba5ec31fa5d2/docusign-esign-3.9.0rc1.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [faim-ipa]: Downloading https://files.pythonhosted.org/packages/6c/00/d50e94dfe98df75426a1d77da35fb5a94fc92c3d6fbb5ce9149783ebeda3/faim_ipa-0.3.0.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [pygsl-lite]: Downloading https://files.pythonhosted.org/packages/8e/97/6a0d0345f8effe4fcfeebb6e8b759a198458becca3c654bc0bff7c902e2d/pygsl_lite-0.1.5.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [llama-index-callbacks-argilla]: Downloading https://files.pythonhosted.org/packages/a0/24/a0124375e5f296c574b11a3bfecdadd76e2a080f912e965665dbc448606c/llama_index_callbacks_argilla-0.1.3.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [evidently]: Downloading https://files.pythonhosted.org/packages/a8/84/f04bbc9292434936bced5f8abefaced3dc6057e65a577635526d42d4ae8d/evidently-0.4.8.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [qiskit]: Downloading https://files.pythonhosted.org/packages/63/ec/f2c939f5ab27117558d7aacfd3f84e43ce67385002b88a10142b9f51b6b7/qiskit-1.0.2.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [openav]: Downloading https://files.pythonhosted.org/packages/d8/41/0559530b64c3a95ef7e32bf8d6bb4910065fd02aaaca0adf6ef51febdd5e/openav-1.0.0a8.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [aedev-git-repo-manager]: Downloading https://files.pythonhosted.org/packages/33/c8/972d3020b25538a3bfbfb52d703cddf0ff5c8e2cad9d9e445226ea519c9a/aedev_git_repo_manager-0.3.76.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/75/a0/33b549958200768a3687a41c50f78460c77bb915d20c7e13d9e9731c1559/MobileInventoryCLI-0.4.81.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [openav]: executing diffoscope
+[2024-05-03 17:18:00] INFO root fetch - processPackages [openav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openav-1.0.0a7.tar.gz tmp/openav-1.0.0a8.tar.gz --markdown 20240503/o/openav/1.0.0a7-1.0.0a8/README.md --exclude *.pyd
+[2024-05-03 17:18:00] INFO root fetch - processPackages [usempl-plots]: Downloading https://files.pythonhosted.org/packages/8b/d3/632855baac9178d57a3d0a857bada012f9a10c90ec8dee80c3798f9afacd/usempl-plots-0.0.4.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [faim-ipa]: Downloading https://files.pythonhosted.org/packages/8e/b0/b9efc1e87fbb7b938e796ab07a36c98fca264383de08f76d08bb4e819c23/faim_ipa-0.3.1.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [llama-index-callbacks-argilla]: Downloading https://files.pythonhosted.org/packages/45/ac/72f6d7b797ada05d64bdaddc8e006339c91335d2c2b21b5419c4ecc62778/llama_index_callbacks_argilla-0.1.4.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [usempl-plots]: executing diffoscope
+[2024-05-03 17:18:00] INFO root fetch - processPackages [usempl-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usempl-plots-0.0.3.tar.gz tmp/usempl-plots-0.0.4.tar.gz --markdown 20240503/u/usempl-plots/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 17:18:00] INFO root fetch - processPackages [pygsl-lite]: Downloading https://files.pythonhosted.org/packages/c9/cd/ee097c704194489b3998916582d6d1c8af33a3b7e5acc77dcd1da52da3b3/pygsl_lite-0.1.6.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [aedev-git-repo-manager]: Downloading https://files.pythonhosted.org/packages/22/ce/ca74c6c058799aee51d9f3181e3af644fc50a3e9648e8ed8f162c71c2fd8/aedev_git_repo_manager-0.3.77.tar.gz
+[2024-05-03 17:18:00] INFO root fetch - processPackages [docusign-esign]: Downloading https://files.pythonhosted.org/packages/65/7d/c686b22ddcc6a47a998b3c83be0f60759bfb205bc653f3aa03d0dcda6283/docusign-esign-4.0.0rc1.tar.gz
+[2024-05-03 17:18:01] INFO root fetch - processPackages [faim-ipa]: executing diffoscope
+[2024-05-03 17:18:01] INFO root fetch - processPackages [faim-ipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faim_ipa-0.3.0.tar.gz tmp/faim_ipa-0.3.1.tar.gz --markdown 20240503/f/faim-ipa/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-03 17:18:01] INFO root fetch - processPackages [pygsl-lite]: executing diffoscope
+[2024-05-03 17:18:01] INFO root fetch - processPackages [pygsl-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygsl_lite-0.1.5.tar.gz tmp/pygsl_lite-0.1.6.tar.gz --markdown 20240503/p/pygsl-lite/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-03 17:18:01] INFO root fetch - processPackages [llama-index-callbacks-argilla]: executing diffoscope
+[2024-05-03 17:18:01] INFO root fetch - processPackages [llama-index-callbacks-argilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_callbacks_argilla-0.1.3.tar.gz tmp/llama_index_callbacks_argilla-0.1.4.tar.gz --markdown 20240503/l/llama-index-callbacks-argilla/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-03 17:18:01] INFO root fetch - processPackages [aedev-git-repo-manager]: executing diffoscope
+[2024-05-03 17:18:01] INFO root fetch - processPackages [aedev-git-repo-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aedev_git_repo_manager-0.3.76.tar.gz tmp/aedev_git_repo_manager-0.3.77.tar.gz --markdown 20240503/a/aedev-git-repo-manager/0.3.76-0.3.77/README.md --exclude *.pyd
+[2024-05-03 17:18:01] INFO root fetch - processPackages [qiskit]: Downloading https://files.pythonhosted.org/packages/51/b7/779b2bd34182e2011c7a26449a8d41bbcc754a6ab2493025e2e791522dd2/qiskit-1.1.0rc1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-05-03 17:18:01] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/70/f2/6a1fc26b23940d1cfa992c84a912efa90bbc65881047d43ea7de5690abb5/MobileInventoryCLI-0.4.82.tar.gz
+[2024-05-03 17:18:01] INFO root fetch - processPackages [evidently]: Downloading https://files.pythonhosted.org/packages/34/78/ea88fc8fef84cca22abdaf6523318e796cf529d4f76692d12a6259c5b7c9/evidently-0.4.9.tar.gz
+[2024-05-03 17:18:01] INFO root fetch - processPackages [docusign-esign]: executing diffoscope
+[2024-05-03 17:18:01] INFO root fetch - processPackages [docusign-esign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docusign-esign-3.9.0rc1.tar.gz tmp/docusign-esign-4.0.0rc1.tar.gz --markdown 20240503/d/docusign-esign/3.9.0rc1-4.0.0rc1/README.md --exclude *.pyd
+[2024-05-03 17:18:01] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-03 17:18:01] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.81.tar.gz tmp/MobileInventoryCLI-0.4.82.tar.gz --markdown 20240503/M/MobileInventoryCLI/0.4.81-0.4.82/README.md --exclude *.pyd
+[2024-05-03 17:18:01] INFO root fetch - processPackages [qiskit]: executing diffoscope
+[2024-05-03 17:18:01] INFO root fetch - processPackages [qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-1.0.2.tar.gz tmp/qiskit-1.1.0rc1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240503/q/qiskit/1.0.2-1.1.0rc1/README.md --exclude *.pyd
+[2024-05-03 17:18:01] INFO root fetch - processPackages [openav]: Remove: archive file [/home/abi/fetcher/tmp/openav-1.0.0a7.tar.gz]
+[2024-05-03 17:18:01] INFO root fetch - processPackages [openav]: Remove: archive file [/home/abi/fetcher/tmp/openav-1.0.0a8.tar.gz]
+[2024-05-03 17:18:01] INFO root fetch - processPackages [openav]: Start processing: grid-data-models
+[2024-05-03 17:18:01] INFO root fetch - main [MainThread]: End processing [openav]: success
+[2024-05-03 17:18:01] INFO root fetch - processPackages [faim-ipa]: Remove: archive file [/home/abi/fetcher/tmp/faim_ipa-0.3.0.tar.gz]
+[2024-05-03 17:18:01] INFO root fetch - processPackages [faim-ipa]: Remove: archive file [/home/abi/fetcher/tmp/faim_ipa-0.3.1.tar.gz]
+[2024-05-03 17:18:01] INFO root fetch - main [MainThread]: End processing [faim-ipa]: success
+[2024-05-03 17:18:01] INFO root fetch - processPackages [evidently]: executing diffoscope
+[2024-05-03 17:18:01] INFO root fetch - processPackages [evidently]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evidently-0.4.8.tar.gz tmp/evidently-0.4.9.tar.gz --markdown 20240503/e/evidently/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-03 17:18:01] INFO root fetch - processPackages [grid-data-models]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-03 17:18:01] INFO root fetch - processPackages [llama-index-callbacks-argilla]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_callbacks_argilla-0.1.3.tar.gz]
+[2024-05-03 17:18:01] INFO root fetch - processPackages [llama-index-callbacks-argilla]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_callbacks_argilla-0.1.4.tar.gz]
+[2024-05-03 17:18:01] INFO root fetch - main [MainThread]: End processing [llama-index-callbacks-argilla]: success
+[2024-05-03 17:18:01] INFO root fetch - processPackages [usempl-plots]: Remove: archive file [/home/abi/fetcher/tmp/usempl-plots-0.0.3.tar.gz]
+[2024-05-03 17:18:01] INFO root fetch - processPackages [usempl-plots]: Remove: archive file [/home/abi/fetcher/tmp/usempl-plots-0.0.4.tar.gz]
+[2024-05-03 17:18:01] INFO root fetch - main [MainThread]: End processing [usempl-plots]: success
+[2024-05-03 17:18:02] INFO root fetch - processPackages [aedev-git-repo-manager]: Remove: archive file [/home/abi/fetcher/tmp/aedev_git_repo_manager-0.3.76.tar.gz]
+[2024-05-03 17:18:02] INFO root fetch - processPackages [aedev-git-repo-manager]: Remove: archive file [/home/abi/fetcher/tmp/aedev_git_repo_manager-0.3.77.tar.gz]
+[2024-05-03 17:18:02] INFO root fetch - main [MainThread]: End processing [aedev-git-repo-manager]: success
+[2024-05-03 17:18:02] INFO root fetch - processPackages [grid-data-models]: Downloading https://files.pythonhosted.org/packages/46/46/b391f8666c120da0cef44b39dc273d15f22ec84fc4a6c49435d3e1e0023c/grid_data_models-0.2.0.tar.gz
+[2024-05-03 17:18:02] INFO root fetch - processPackages [pygsl-lite]: Remove: archive file [/home/abi/fetcher/tmp/pygsl_lite-0.1.5.tar.gz]
+[2024-05-03 17:18:02] INFO root fetch - processPackages [pygsl-lite]: Remove: archive file [/home/abi/fetcher/tmp/pygsl_lite-0.1.6.tar.gz]
+[2024-05-03 17:18:02] INFO root fetch - main [MainThread]: End processing [pygsl-lite]: success
+[2024-05-03 17:18:02] INFO root fetch - processPackages [grid-data-models]: Downloading https://files.pythonhosted.org/packages/d3/3f/e9e45cee184b173b714e2b7df9576406814fc0df21c4a6cb097020a3067a/grid_data_models-0.3.0.tar.gz
+[2024-05-03 17:18:02] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.81.tar.gz]
+[2024-05-03 17:18:02] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.82.tar.gz]
+[2024-05-03 17:18:02] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-03 17:18:02] INFO root fetch - processPackages [grid-data-models]: executing diffoscope
+[2024-05-03 17:18:02] INFO root fetch - processPackages [grid-data-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grid_data_models-0.2.0.tar.gz tmp/grid_data_models-0.3.0.tar.gz --markdown 20240503/g/grid-data-models/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-03 17:18:03] INFO root fetch - processPackages [grid-data-models]: Remove: archive file [/home/abi/fetcher/tmp/grid_data_models-0.2.0.tar.gz]
+[2024-05-03 17:18:03] INFO root fetch - processPackages [grid-data-models]: Remove: archive file [/home/abi/fetcher/tmp/grid_data_models-0.3.0.tar.gz]
+[2024-05-03 17:18:03] INFO root fetch - main [MainThread]: End processing [grid-data-models]: success
+[2024-05-03 17:18:03] INFO root fetch - processPackages [qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-1.0.2.tar.gz]
+[2024-05-03 17:18:03] INFO root fetch - processPackages [qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-1.1.0rc1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-05-03 17:18:03] INFO root fetch - main [MainThread]: End processing [qiskit]: success
+[2024-05-03 17:18:10] INFO root fetch - processPackages [docusign-esign]: Remove: archive file [/home/abi/fetcher/tmp/docusign-esign-3.9.0rc1.tar.gz]
+[2024-05-03 17:18:10] INFO root fetch - processPackages [docusign-esign]: Remove: archive file [/home/abi/fetcher/tmp/docusign-esign-4.0.0rc1.tar.gz]
+[2024-05-03 17:18:10] INFO root fetch - main [MainThread]: End processing [docusign-esign]: success
+[2024-05-03 17:18:55] INFO root fetch - processPackages [evidently]: Remove: archive file [/home/abi/fetcher/tmp/evidently-0.4.8.tar.gz]
+[2024-05-03 17:18:55] INFO root fetch - processPackages [evidently]: Remove: archive file [/home/abi/fetcher/tmp/evidently-0.4.9.tar.gz]
+[2024-05-03 17:18:55] INFO root fetch - main [MainThread]: End processing [evidently]: success
+[2024-05-03 17:18:55] INFO root fetch - main [MainThread]: Store serial: [23047814]
