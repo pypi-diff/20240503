@@ -7855,3 +7855,69 @@
 [2024-05-03 04:52:57] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-03 04:52:57] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-03 04:52:57] INFO root fetch - main [MainThread]: Store serial: [23041033]
+[2024-05-03 04:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041033]
+[2024-05-03 04:55:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-agreement-rebate
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-agreement-legal
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kmport
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ratio-delta
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-dataset-converter
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-automation-oca
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: humai-tools
+[2024-05-03 04:55:06] INFO root fetch - processPackages [kmport]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-03 04:55:06] INFO root fetch - processPackages [llm-dataset-converter]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 04:55:06] INFO root fetch - processPackages [humai-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 04:55:06] INFO root fetch - processPackages [odoo-addon-automation-oca]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ratio-delta]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-03 04:55:06] INFO root fetch - processPackages [odoo-addon-agreement-rebate]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-05-03 04:55:06] INFO root fetch - processPackages [odoo-addon-agreement-legal]: New version: [16.0.2.0.0.6] Old Version: [16.0.2.0.0.5]
+[2024-05-03 04:55:06] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/07/5f/fdd706ea07c1da0d10178206ddb7c55847c3b9301a2b783deb2e1ed75771/kmport-2.1.8.tar.gz
+[2024-05-03 04:55:06] INFO root fetch - processPackages [llm-dataset-converter]: Downloading https://files.pythonhosted.org/packages/38/f2/7b09f11d3a6e12832f68fee19a5932259921a0489a9824c2eec3c3bdb15d/llm-dataset-converter-0.2.1.tar.gz
+[2024-05-03 04:55:06] INFO root fetch - processPackages [odoo-addon-automation-oca]: Downloading https://files.pythonhosted.org/packages/6d/f9/9922bc9846b1c3979dcca80aa03a16a2a72e10c9772ba522583c7d548839/odoo_addon_automation_oca-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-03 04:55:06] INFO root fetch - processPackages [humai-tools]: Downloading https://files.pythonhosted.org/packages/da/5e/b90be054045de57292a8ec8e07fa11c613f59422ab3718d39847ecee2d52/humai_tools-0.0.3.tar.gz
+[2024-05-03 04:55:06] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/cf/a6/a45040db97aabb2edc05bde1a372786067c777c4dd2decbccb1a7869e501/kmport-2.1.9.tar.gz
+[2024-05-03 04:55:06] INFO root fetch - processPackages [odoo-addon-agreement-rebate]: Downloading https://files.pythonhosted.org/packages/a4/4d/23098d97f534b48a8f6c43f2e800986fcb5b1fcb056bf89fce38c0160998/odoo_addon_agreement_rebate-16.0.1.0.1-py3-none-any.whl
+[2024-05-03 04:55:06] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Downloading https://files.pythonhosted.org/packages/ba/39/0e88b71bf8fd94ff34bc0e6d2b23c2a74e16e0da97e2d17b737f468f95d7/odoo_addon_agreement_legal-16.0.2.0.0.5-py3-none-any.whl
+[2024-05-03 04:55:06] INFO root fetch - processPackages [ratio-delta]: Downloading https://files.pythonhosted.org/packages/31/2a/d6f6943f4cbeeb7b61826119675020dd31749a39ae9ec0e202630b5eeb11/ratio_delta-1.0.1.tar.gz
+[2024-05-03 04:55:06] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2024-05-03 04:55:06] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.1.8.tar.gz tmp/kmport-2.1.9.tar.gz --markdown 20240503/k/kmport/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-03 04:55:07] INFO root fetch - processPackages [humai-tools]: Downloading https://files.pythonhosted.org/packages/1f/a0/ecc45f01f7762188fa5ceba0ef67dde82258507d7bd7a00aac2546431e30/humai_tools-0.0.4.tar.gz
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-automation-oca]: Downloading https://files.pythonhosted.org/packages/33/65/7aaae76ce95bf7839c747b78987eb1d481959d1b5761c17162d688d88a58/odoo_addon_automation_oca-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-03 04:55:07] INFO root fetch - processPackages [ratio-delta]: Downloading https://files.pythonhosted.org/packages/e0/22/7aba72a60388b18dcd64666d78bad41e7e51fb668df1f27b6ab7e463dbe7/ratio_delta-1.0.2.tar.gz
+[2024-05-03 04:55:07] INFO root fetch - processPackages [llm-dataset-converter]: Downloading https://files.pythonhosted.org/packages/e9/a6/329d9ca30f76a572af223efe3485b0aef919d825a32e7022572edf587476/llm-dataset-converter-0.2.2.tar.gz
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Downloading https://files.pythonhosted.org/packages/dc/f3/a002957e4085358f0bb4ed03798d57db5fe3b172c80790fe5cbb45e1cc00/odoo_addon_agreement_legal-16.0.2.0.0.6-py3-none-any.whl
+[2024-05-03 04:55:07] INFO root fetch - processPackages [humai-tools]: executing diffoscope
+[2024-05-03 04:55:07] INFO root fetch - processPackages [humai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humai_tools-0.0.3.tar.gz tmp/humai_tools-0.0.4.tar.gz --markdown 20240503/h/humai-tools/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-agreement-rebate]: Downloading https://files.pythonhosted.org/packages/b2/01/6e904d420972046a3df2500b4437a414c03ffe2bde82be6ed857e1beaacf/odoo_addon_agreement_rebate-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-03 04:55:07] INFO root fetch - processPackages [ratio-delta]: executing diffoscope
+[2024-05-03 04:55:07] INFO root fetch - processPackages [ratio-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratio_delta-1.0.1.tar.gz tmp/ratio_delta-1.0.2.tar.gz --markdown 20240503/r/ratio-delta/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-automation-oca]: executing diffoscope
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-automation-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_automation_oca-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_automation_oca-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-automation-oca/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-agreement-legal]: executing diffoscope
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-agreement-legal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement_legal-16.0.2.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_agreement_legal-16.0.2.0.0.6-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-agreement-legal/16.0.2.0.0.5-16.0.2.0.0.6/README.md --exclude *.pyd
+[2024-05-03 04:55:07] INFO root fetch - processPackages [llm-dataset-converter]: executing diffoscope
+[2024-05-03 04:55:07] INFO root fetch - processPackages [llm-dataset-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-dataset-converter-0.2.1.tar.gz tmp/llm-dataset-converter-0.2.2.tar.gz --markdown 20240503/l/llm-dataset-converter/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-agreement-rebate]: executing diffoscope
+[2024-05-03 04:55:07] INFO root fetch - processPackages [odoo-addon-agreement-rebate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement_rebate-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_agreement_rebate-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-agreement-rebate/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-03 04:55:07] INFO root fetch - processPackages [humai-tools]: Remove: archive file [/home/abi/fetcher/tmp/humai_tools-0.0.3.tar.gz]
+[2024-05-03 04:55:07] INFO root fetch - processPackages [humai-tools]: Remove: archive file [/home/abi/fetcher/tmp/humai_tools-0.0.4.tar.gz]
+[2024-05-03 04:55:07] INFO root fetch - main [MainThread]: End processing [humai-tools]: success
+[2024-05-03 04:55:07] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.8.tar.gz]
+[2024-05-03 04:55:07] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.9.tar.gz]
+[2024-05-03 04:55:07] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2024-05-03 04:55:08] INFO root fetch - processPackages [ratio-delta]: Remove: archive file [/home/abi/fetcher/tmp/ratio_delta-1.0.1.tar.gz]
+[2024-05-03 04:55:08] INFO root fetch - processPackages [ratio-delta]: Remove: archive file [/home/abi/fetcher/tmp/ratio_delta-1.0.2.tar.gz]
+[2024-05-03 04:55:08] INFO root fetch - main [MainThread]: End processing [ratio-delta]: success
+[2024-05-03 04:55:08] INFO root fetch - processPackages [odoo-addon-automation-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_automation_oca-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-03 04:55:08] INFO root fetch - processPackages [odoo-addon-automation-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_automation_oca-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-03 04:55:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-automation-oca]: success
+[2024-05-03 04:55:08] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_legal-16.0.2.0.0.5-py3-none-any.whl.zip]
+[2024-05-03 04:55:08] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_legal-16.0.2.0.0.6-py3-none-any.whl.zip]
+[2024-05-03 04:55:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement-legal]: success
+[2024-05-03 04:55:08] INFO root fetch - processPackages [llm-dataset-converter]: Remove: archive file [/home/abi/fetcher/tmp/llm-dataset-converter-0.2.1.tar.gz]
+[2024-05-03 04:55:08] INFO root fetch - processPackages [llm-dataset-converter]: Remove: archive file [/home/abi/fetcher/tmp/llm-dataset-converter-0.2.2.tar.gz]
+[2024-05-03 04:55:08] INFO root fetch - main [MainThread]: End processing [llm-dataset-converter]: success
+[2024-05-03 04:55:08] INFO root fetch - processPackages [odoo-addon-agreement-rebate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_rebate-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 04:55:08] INFO root fetch - processPackages [odoo-addon-agreement-rebate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_rebate-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-03 04:55:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement-rebate]: success
+[2024-05-03 04:55:08] INFO root fetch - main [MainThread]: Store serial: [23041050]
