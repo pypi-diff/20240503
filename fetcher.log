@@ -14326,3 +14326,42 @@
 [2024-05-03 10:50:56] INFO root fetch - processPackages [multi-vector-simulator]: Remove: archive file [/home/abi/fetcher/tmp/multi_vector_simulator-1.1.1rc1.tar.gz]
 [2024-05-03 10:50:56] INFO root fetch - main [MainThread]: End processing [multi-vector-simulator]: success
 [2024-05-03 10:50:56] INFO root fetch - main [MainThread]: Store serial: [23043561]
+[2024-05-03 10:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043561]
+[2024-05-03 10:53:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 10:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geneea-nlp-client
+[2024-05-03 10:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distro2sbom
+[2024-05-03 10:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rebdhuhn
+[2024-05-03 10:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ucscsdk
+[2024-05-03 10:53:11] INFO root fetch - processPackages [geneea-nlp-client]: New version: [1.4.4] Old Version: [1.4.2]
+[2024-05-03 10:53:11] INFO root fetch - processPackages [rebdhuhn]: New version: [0.2.3] Old Version: [0.0.0]
+[2024-05-03 10:53:11] INFO root fetch - processPackages [ucscsdk]: New version: [0.9.0.5] Old Version: [0.9.0.4]
+[2024-05-03 10:53:11] INFO root fetch - processPackages [distro2sbom]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-03 10:53:11] INFO root fetch - processPackages [geneea-nlp-client]: Downloading https://files.pythonhosted.org/packages/b4/47/32326529bc55f30c80f16a8164d54376d42fc11f28e24953c650188b17ca/geneea-nlp-client-1.4.2.tar.gz
+[2024-05-03 10:53:11] INFO root fetch - processPackages [rebdhuhn]: Downloading https://files.pythonhosted.org/packages/db/bb/fea76dcb2f46aa5c58511ee816d40b226b42dd0ec34fa394aea40e64e79c/rebdhuhn-0.0.0.tar.gz
+[2024-05-03 10:53:11] INFO root fetch - processPackages [distro2sbom]: Downloading https://files.pythonhosted.org/packages/31/84/ca087409ba0e3ecbf76dbe8941ffee2dff28f758673aefb4c3ccaaf905ff/distro2sbom-0.4.4-py2.py3-none-any.whl
+[2024-05-03 10:53:11] INFO root fetch - processPackages [ucscsdk]: Downloading https://files.pythonhosted.org/packages/77/71/36067a1cb5595a5199dbe70395eccb6a2cabc0b4fb1852f67e399f017297/ucscsdk-0.9.0.4.tar.gz
+[2024-05-03 10:53:12] INFO root fetch - processPackages [rebdhuhn]: Downloading https://files.pythonhosted.org/packages/f4/33/8ae5f1bcbfbe8df284f535c8a524aa655ed56cb2a20cf332c1d237397251/rebdhuhn-0.2.3.tar.gz
+[2024-05-03 10:53:12] INFO root fetch - processPackages [geneea-nlp-client]: Downloading https://files.pythonhosted.org/packages/74/35/8edf2f0deea8346162a72a56095e5596d173423ea6c5cd9b2c290ea4d63d/geneea-nlp-client-1.4.4.tar.gz
+[2024-05-03 10:53:12] INFO root fetch - processPackages [distro2sbom]: Downloading https://files.pythonhosted.org/packages/01/37/45c67271b41976b57537a350c7202c25707170674c3334e6879d1fe1cd80/distro2sbom-0.4.5-py2.py3-none-any.whl
+[2024-05-03 10:53:12] INFO root fetch - processPackages [rebdhuhn]: executing diffoscope
+[2024-05-03 10:53:12] INFO root fetch - processPackages [rebdhuhn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebdhuhn-0.0.0.tar.gz tmp/rebdhuhn-0.2.3.tar.gz --markdown 20240503/r/rebdhuhn/0.0.0-0.2.3/README.md --exclude *.pyd
+[2024-05-03 10:53:12] INFO root fetch - processPackages [geneea-nlp-client]: executing diffoscope
+[2024-05-03 10:53:12] INFO root fetch - processPackages [geneea-nlp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneea-nlp-client-1.4.2.tar.gz tmp/geneea-nlp-client-1.4.4.tar.gz --markdown 20240503/g/geneea-nlp-client/1.4.2-1.4.4/README.md --exclude *.pyd
+[2024-05-03 10:53:12] INFO root fetch - processPackages [distro2sbom]: executing diffoscope
+[2024-05-03 10:53:12] INFO root fetch - processPackages [distro2sbom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distro2sbom-0.4.4-py2.py3-none-any.whl.zip tmp/distro2sbom-0.4.5-py2.py3-none-any.whl.zip --markdown 20240503/d/distro2sbom/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-03 10:53:12] INFO root fetch - processPackages [ucscsdk]: Downloading https://files.pythonhosted.org/packages/e0/95/8ec775d9b2a5c4fa7213f4670f7493742bd56397e11223642b6b1ac829ed/ucscsdk-0.9.0.5.tar.gz
+[2024-05-03 10:53:12] INFO root fetch - processPackages [rebdhuhn]: Remove: archive file [/home/abi/fetcher/tmp/rebdhuhn-0.0.0.tar.gz]
+[2024-05-03 10:53:12] INFO root fetch - processPackages [rebdhuhn]: Remove: archive file [/home/abi/fetcher/tmp/rebdhuhn-0.2.3.tar.gz]
+[2024-05-03 10:53:12] INFO root fetch - main [MainThread]: End processing [rebdhuhn]: success
+[2024-05-03 10:53:13] INFO root fetch - processPackages [distro2sbom]: Remove: archive file [/home/abi/fetcher/tmp/distro2sbom-0.4.4-py2.py3-none-any.whl.zip]
+[2024-05-03 10:53:13] INFO root fetch - processPackages [distro2sbom]: Remove: archive file [/home/abi/fetcher/tmp/distro2sbom-0.4.5-py2.py3-none-any.whl.zip]
+[2024-05-03 10:53:13] INFO root fetch - main [MainThread]: End processing [distro2sbom]: success
+[2024-05-03 10:53:13] INFO root fetch - processPackages [ucscsdk]: executing diffoscope
+[2024-05-03 10:53:13] INFO root fetch - processPackages [ucscsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucscsdk-0.9.0.4.tar.gz tmp/ucscsdk-0.9.0.5.tar.gz --markdown 20240503/u/ucscsdk/0.9.0.4-0.9.0.5/README.md --exclude *.pyd
+[2024-05-03 10:53:13] INFO root fetch - processPackages [geneea-nlp-client]: Remove: archive file [/home/abi/fetcher/tmp/geneea-nlp-client-1.4.2.tar.gz]
+[2024-05-03 10:53:13] INFO root fetch - processPackages [geneea-nlp-client]: Remove: archive file [/home/abi/fetcher/tmp/geneea-nlp-client-1.4.4.tar.gz]
+[2024-05-03 10:53:13] INFO root fetch - main [MainThread]: End processing [geneea-nlp-client]: success
+[2024-05-03 10:53:24] INFO root fetch - processPackages [ucscsdk]: Remove: archive file [/home/abi/fetcher/tmp/ucscsdk-0.9.0.4.tar.gz]
+[2024-05-03 10:53:24] INFO root fetch - processPackages [ucscsdk]: Remove: archive file [/home/abi/fetcher/tmp/ucscsdk-0.9.0.5.tar.gz]
+[2024-05-03 10:53:24] INFO root fetch - main [MainThread]: End processing [ucscsdk]: success
+[2024-05-03 10:53:24] INFO root fetch - main [MainThread]: Store serial: [23043573]
