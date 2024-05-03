@@ -12624,3 +12624,50 @@
 [2024-05-03 09:54:26] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-03 09:54:26] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-03 09:54:26] INFO root fetch - main [MainThread]: Store serial: [23042871]
+[2024-05-03 09:56:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042871]
+[2024-05-03 09:56:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 09:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naurok.py
+[2024-05-03 09:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PREN-flawas
+[2024-05-03 09:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embykeeper
+[2024-05-03 09:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-05-03 09:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentry-relay
+[2024-05-03 09:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-scheema
+[2024-05-03 09:56:35] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 09:56:35] INFO root fetch - processPackages [embykeeper]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-03 09:56:35] WARNING root fetch - processPackages [naurok.py]: Skipping, unable to determine old version
+[2024-05-03 09:56:35] INFO root fetch - main [MainThread]: End processing [naurok.py] error
+[2024-05-03 09:56:35] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-03 09:56:35] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-03 09:56:35] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 09:56:36] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/d0/e6/4bb1ee3290f4aba08e9d6751566f039db27dba7d51553fc0681095c6a015/embykeeper-3.2.8.tar.gz
+[2024-05-03 09:56:36] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2024-05-03 09:56:36] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/60/4d/159cbe2b8256b8d7f63d0f1ab390be99aca937a58762a588cf681669d1e5/ood_detectors-0.0.5.tar.gz
+[2024-05-03 09:56:36] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/02/85/cffd52bc872be074110305f46303d258fa7478eab3eae08d86465d0653a8/embykeeper-3.2.9.tar.gz
+[2024-05-03 09:56:36] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-05-03 09:56:36] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2024-05-03 09:56:36] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-03 09:56:36] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2024-05-03 09:56:36] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-3.2.8.tar.gz tmp/embykeeper-3.2.9.tar.gz --markdown 20240503/e/embykeeper/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-03 09:56:36] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/9e/49/a250e1260cf00140ff4f75c64690e4beed9cd22f16a43eb3fe65af41bf21/ood_detectors-0.0.6.tar.gz
+[2024-05-03 09:56:36] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-05-03 09:56:36] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-03 09:56:36] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.5.tar.gz tmp/ood_detectors-0.0.6.tar.gz --markdown 20240503/o/ood_detectors/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 09:56:36] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-03 09:56:36] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240503/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 09:56:36] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-05-03 09:56:36] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240503/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-03 09:56:36] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2024-05-03 09:56:36] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2024-05-03 09:56:37] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.5.tar.gz]
+[2024-05-03 09:56:37] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.6.tar.gz]
+[2024-05-03 09:56:37] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-03 09:56:37] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.8.tar.gz]
+[2024-05-03 09:56:37] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.9.tar.gz]
+[2024-05-03 09:56:37] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2024-05-03 09:56:37] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-05-03 09:56:37] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-05-03 09:56:37] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-05-03 09:56:37] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-03 09:56:37] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-03 09:56:37] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-03 09:56:37] INFO root fetch - main [MainThread]: Store serial: [23042891]
