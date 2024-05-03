@@ -15362,3 +15362,69 @@
 [2024-05-03 11:48:00] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-05-03 11:48:00] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-05-03 11:48:00] INFO root fetch - main [MainThread]: Store serial: [23044051]
+[2024-05-03 11:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044051]
+[2024-05-03 11:50:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 11:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeodeWeb-Back
+[2024-05-03 11:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bosing
+[2024-05-03 11:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghga-event-schemas
+[2024-05-03 11:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: create-app-fastapi
+[2024-05-03 11:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glyphsets
+[2024-05-03 11:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efel
+[2024-05-03 11:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ozonetel-ai
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.122] Old Version: [0.0.121]
+[2024-05-03 11:50:30] INFO root fetch - processPackages [create-app-fastapi]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 11:50:30] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [4.1.0rc3] Old Version: [4.1.0rc2]
+[2024-05-03 11:50:30] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ghga-event-schemas]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-03 11:50:30] INFO root fetch - processPackages [glyphsets]: New version: [1.0.0] Old Version: [0.6.9]
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/21/0f/a270722479abcb8f2f8ec1f796f8d66ecdca637895eba367513f42240dd6/ozonetel-ai-0.0.121.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [bosing]: New version: [2.0.1] Old Version: [2.0.0b9]
+[2024-05-03 11:50:30] INFO root fetch - processPackages [create-app-fastapi]: Downloading https://files.pythonhosted.org/packages/98/f6/2d19ef6a32cbe348a9d37b5582d32dd0233ebd2e45183bc4d0e624dbd435/create-app-fastapi-0.0.4.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/2e/24/a6d89930da2a0a782beae637a38ecbace301ff68457804fa98b396b55da3/opengeodeweb_back-4.1.0rc2.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ghga-event-schemas]: Downloading https://files.pythonhosted.org/packages/91/04/96ffef78336c200b771ca6535b74178ed7d7178543ecf5ddea8f4d538907/ghga_event_schemas-3.1.0.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/2c/f9/121b1b45ccf2e1bd2aee0f75e6f6718ac1b1369c68ac6b26fd4c12397cdf/glyphsets-0.6.9.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/d1/17/3eaeeae5a454635c2cb360275ec07ed1db77e2ddddd434c86a80084180b0/bosing-2.0.0b9.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [create-app-fastapi]: Downloading https://files.pythonhosted.org/packages/b7/ce/666a014892a55ddd647c648a8c510504c355ca7cdb4da7d202943900b76c/create-app-fastapi-0.0.5.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/e7/ea/9474c4b471ebaaf884cec1c8d760e88d435a92844ef4bf6eddb40f8773d8/opengeodeweb_back-4.1.0rc3.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/65/0d/9e6dda836868830e49bf04387927710ede36dd6b1e9305b969787da4578a/ozonetel-ai-0.0.122.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [create-app-fastapi]: executing diffoscope
+[2024-05-03 11:50:30] INFO root fetch - processPackages [create-app-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create-app-fastapi-0.0.4.tar.gz tmp/create-app-fastapi-0.0.5.tar.gz --markdown 20240503/c/create-app-fastapi/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 11:50:30] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2024-05-03 11:50:30] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeodeweb_back-4.1.0rc2.tar.gz tmp/opengeodeweb_back-4.1.0rc3.tar.gz --markdown 20240503/O/OpenGeodeWeb-Back/4.1.0rc2-4.1.0rc3/README.md --exclude *.pyd
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ghga-event-schemas]: Downloading https://files.pythonhosted.org/packages/d4/7e/64cc99bf2cd0d84da4c4353b79a893ac7b6da709346151f80cc6203325fd/ghga_event_schemas-3.2.0.tar.gz
+[2024-05-03 11:50:30] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-05-03 11:50:30] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240503/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.121.tar.gz tmp/ozonetel-ai-0.0.122.tar.gz --markdown 20240503/o/ozonetel-ai/0.0.121-0.0.122/README.md --exclude *.pyd
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ghga-event-schemas]: executing diffoscope
+[2024-05-03 11:50:30] INFO root fetch - processPackages [ghga-event-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_event_schemas-3.1.0.tar.gz tmp/ghga_event_schemas-3.2.0.tar.gz --markdown 20240503/g/ghga-event-schemas/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-03 11:50:30] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/2d/16/f5af81786f1a63f1460bd4f19933619779bd1658ad4c4654ea676240e431/bosing-2.0.1.tar.gz
+[2024-05-03 11:50:31] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-05-03 11:50:31] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.0b9.tar.gz tmp/bosing-2.0.1.tar.gz --markdown 20240503/b/bosing/2.0.0b9-2.0.1/README.md --exclude *.pyd
+[2024-05-03 11:50:31] INFO root fetch - processPackages [create-app-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-app-fastapi-0.0.4.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - processPackages [create-app-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-app-fastapi-0.0.5.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - main [MainThread]: End processing [create-app-fastapi]: success
+[2024-05-03 11:50:31] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.1.0rc2.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.1.0rc3.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2024-05-03 11:50:31] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-05-03 11:50:31] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/9d/be/d1526237e23f798e6072e552f64da19bd1afe4bf58b3b2b1e626cd6285bf/glyphsets-1.0.0.tar.gz
+[2024-05-03 11:50:31] INFO root fetch - processPackages [ghga-event-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ghga_event_schemas-3.1.0.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - processPackages [ghga-event-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ghga_event_schemas-3.2.0.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - main [MainThread]: End processing [ghga-event-schemas]: success
+[2024-05-03 11:50:31] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.121.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.122.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-05-03 11:50:31] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b9.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.1.tar.gz]
+[2024-05-03 11:50:31] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-05-03 11:50:31] INFO root fetch - processPackages [glyphsets]: executing diffoscope
+[2024-05-03 11:50:31] INFO root fetch - processPackages [glyphsets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glyphsets-0.6.9.tar.gz tmp/glyphsets-1.0.0.tar.gz --markdown 20240503/g/glyphsets/0.6.9-1.0.0/README.md --exclude *.pyd
+[2024-05-03 11:50:34] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.9.tar.gz]
+[2024-05-03 11:50:34] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-1.0.0.tar.gz]
+[2024-05-03 11:50:34] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
+[2024-05-03 11:50:34] INFO root fetch - main [MainThread]: Store serial: [23044095]
