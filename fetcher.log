@@ -9115,3 +9115,38 @@
 [2024-05-03 06:25:37] INFO root fetch - processPackages [libluksde-python]: Remove: archive file [/home/abi/fetcher/tmp/libluksde-python-20240503.tar.gz]
 [2024-05-03 06:25:37] INFO root fetch - main [MainThread]: End processing [libluksde-python]: success
 [2024-05-03 06:25:37] INFO root fetch - main [MainThread]: Store serial: [23041449]
+[2024-05-03 06:27:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041449]
+[2024-05-03 06:27:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 06:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-llama
+[2024-05-03 06:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npc_sessions
+[2024-05-03 06:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repo2docs
+[2024-05-03 06:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-azurerm
+[2024-05-03 06:27:46] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 06:27:46] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 06:27:46] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-03 06:27:46] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 06:27:46] INFO root fetch - processPackages [npc_sessions]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-03 06:27:46] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [9.0.8] Old Version: [9.0.7]
+[2024-05-03 06:27:46] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-03 06:27:46] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 06:27:46] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/b8/93/bc9b7a7dd0ef6f49e1a89dbd69042819d6a945d3ccc9906feb172a29ba15/npc_sessions-0.0.98.tar.gz
+[2024-05-03 06:27:46] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/bf/17/c9386b4842b68525aae4b3da38fa0030881fa08061804f556c93dd424cda/cdktf-cdktf-provider-azurerm-9.0.7.tar.gz
+[2024-05-03 06:27:46] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 06:27:46] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 06:27:46] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-03 06:27:46] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240503/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 06:27:46] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 31649071>=10485760
+[2024-05-03 06:27:46] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2024-05-03 06:27:46] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/1b/65/bf57b9c6ee648973d846c99ebd5e2954d44af7aee6a3272e3710494205b1/npc_sessions-0.0.99.tar.gz
+[2024-05-03 06:27:47] INFO root fetch - processPackages [npc_sessions]: executing diffoscope
+[2024-05-03 06:27:47] INFO root fetch - processPackages [npc_sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_sessions-0.0.98.tar.gz tmp/npc_sessions-0.0.99.tar.gz --markdown 20240503/n/npc_sessions/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-03 06:27:47] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 06:27:47] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 06:27:47] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 06:27:47] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-03 06:27:47] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-03 06:27:47] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-03 06:27:47] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.98.tar.gz]
+[2024-05-03 06:27:47] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
+[2024-05-03 06:27:47] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
+[2024-05-03 06:27:47] INFO root fetch - main [MainThread]: Store serial: [23041470]
