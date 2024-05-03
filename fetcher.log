@@ -6941,3 +6941,57 @@
 [2024-05-03 03:50:52] WARNING root fetch - processPackages [nutrical]: Skipping, unable to determine old version
 [2024-05-03 03:50:52] INFO root fetch - main [MainThread]: End processing [nutrical] error
 [2024-05-03 03:50:52] INFO root fetch - main [MainThread]: Store serial: [23040678]
+[2024-05-03 03:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040678]
+[2024-05-03 03:53:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-azureiot
+[2024-05-03 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snapatac2
+[2024-05-03 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-bill-of-service
+[2024-05-03 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-bill-of-service-project
+[2024-05-03 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mom-test-py
+[2024-05-03 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PokerNow
+[2024-05-03 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-none-objects
+[2024-05-03 03:53:01] INFO root fetch - processPackages [PokerNow]: New version: [0.7.5] Old Version: [0.7.45]
+[2024-05-03 03:53:01] INFO root fetch - processPackages [mom-test-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-03 03:53:01] WARNING root fetch - processPackages [odoo14-addon-ssi-bill-of-service]: Skipping, unable to determine old version
+[2024-05-03 03:53:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-bill-of-service] error
+[2024-05-03 03:53:01] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: New version: [2.6.0] Old Version: [2.5.9]
+[2024-05-03 03:53:01] WARNING root fetch - processPackages [odoo14-addon-ssi-bill-of-service-project]: Skipping, unable to determine old version
+[2024-05-03 03:53:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-bill-of-service-project] error
+[2024-05-03 03:53:01] INFO root fetch - processPackages [python-none-objects]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-03 03:53:01] INFO root fetch - processPackages [snapatac2]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-03 03:53:01] INFO root fetch - processPackages [mom-test-py]: Downloading https://files.pythonhosted.org/packages/c5/e7/18928e0b012657b92e0839eaf324cc983c1a4909e593cda10d5a2fb04cf4/mom_test_py-1.0.1.tar.gz
+[2024-05-03 03:53:01] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/e2/d2/4eab1fdae86352d69000372d4db44dd0c8e0aa06909e37ae70711d206b9d/pokernow-0.7.45.tar.gz
+[2024-05-03 03:53:01] INFO root fetch - processPackages [python-none-objects]: Downloading https://files.pythonhosted.org/packages/6e/36/92f2c847323e946411025a7315eaab5130ca474f34fa888d2b70cd3d96af/python_none_objects-1.1.7.tar.gz
+[2024-05-03 03:53:01] INFO root fetch - processPackages [mom-test-py]: Downloading https://files.pythonhosted.org/packages/90/ce/8a13cad71966b0b7b041294661ebcdee9992790619e9a0fd0d2a773f626f/mom_test_py-1.0.2.tar.gz
+[2024-05-03 03:53:01] INFO root fetch - processPackages [snapatac2]: Downloading https://files.pythonhosted.org/packages/ee/75/7cd64d862ff75ea2673d3e25f1bf50afc157f01d22721e3b99abd8d9d05c/snapatac2-2.6.0.tar.gz
+[2024-05-03 03:53:01] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/ea/81/d75c5248beda6b572de0157fd6b09c20aa6da6f5616f8518c8fc6511d77e/pokernow-0.7.5.tar.gz
+[2024-05-03 03:53:01] INFO root fetch - processPackages [mom-test-py]: executing diffoscope
+[2024-05-03 03:53:01] INFO root fetch - processPackages [mom-test-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mom_test_py-1.0.1.tar.gz tmp/mom_test_py-1.0.2.tar.gz --markdown 20240503/m/mom-test-py/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-03 03:53:01] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: Downloading https://files.pythonhosted.org/packages/89/44/72645e2fcfb7df3a3dd8c703fd10f26e4743e37333eeee546dc5d9bf3881/adafruit-circuitpython-azureiot-2.5.9.tar.gz
+[2024-05-03 03:53:01] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 03:53:01] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.7.45.tar.gz tmp/pokernow-0.7.5.tar.gz --markdown 20240503/P/PokerNow/0.7.45-0.7.5/README.md --exclude *.pyd
+[2024-05-03 03:53:01] INFO root fetch - processPackages [snapatac2]: Downloading https://files.pythonhosted.org/packages/92/5f/5e548addc5e1a142a8966f3124053d8740e72be4d96f0d338de72cf45de8/snapatac2-2.6.1.tar.gz
+[2024-05-03 03:53:02] INFO root fetch - processPackages [python-none-objects]: Downloading https://files.pythonhosted.org/packages/8b/2b/bf2505791970b2b07ea65852888a6ad64981ec2ebe66cb2e3b76ff2ebb73/python_none_objects-1.1.8.tar.gz
+[2024-05-03 03:53:02] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: Downloading https://files.pythonhosted.org/packages/9e/46/19a2b50838f79fac5fc85b95dbe2be7dc76c9bd1f06366e2227131eaeba0/adafruit_circuitpython_azureiot-2.6.0.tar.gz
+[2024-05-03 03:53:02] INFO root fetch - processPackages [python-none-objects]: executing diffoscope
+[2024-05-03 03:53:02] INFO root fetch - processPackages [python-none-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_none_objects-1.1.7.tar.gz tmp/python_none_objects-1.1.8.tar.gz --markdown 20240503/p/python-none-objects/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-03 03:53:02] INFO root fetch - processPackages [snapatac2]: executing diffoscope
+[2024-05-03 03:53:02] INFO root fetch - processPackages [snapatac2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapatac2-2.6.0.tar.gz tmp/snapatac2-2.6.1.tar.gz --markdown 20240503/s/snapatac2/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-03 03:53:02] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: executing diffoscope
+[2024-05-03 03:53:02] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-azureiot-2.5.9.tar.gz tmp/adafruit_circuitpython_azureiot-2.6.0.tar.gz --markdown 20240503/a/adafruit-circuitpython-azureiot/2.5.9-2.6.0/README.md --exclude *.pyd
+[2024-05-03 03:53:02] INFO root fetch - processPackages [mom-test-py]: Remove: archive file [/home/abi/fetcher/tmp/mom_test_py-1.0.1.tar.gz]
+[2024-05-03 03:53:02] INFO root fetch - processPackages [mom-test-py]: Remove: archive file [/home/abi/fetcher/tmp/mom_test_py-1.0.2.tar.gz]
+[2024-05-03 03:53:02] INFO root fetch - main [MainThread]: End processing [mom-test-py]: success
+[2024-05-03 03:53:02] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.7.45.tar.gz]
+[2024-05-03 03:53:02] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.7.5.tar.gz]
+[2024-05-03 03:53:02] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 03:53:02] INFO root fetch - processPackages [python-none-objects]: Remove: archive file [/home/abi/fetcher/tmp/python_none_objects-1.1.7.tar.gz]
+[2024-05-03 03:53:02] INFO root fetch - processPackages [python-none-objects]: Remove: archive file [/home/abi/fetcher/tmp/python_none_objects-1.1.8.tar.gz]
+[2024-05-03 03:53:02] INFO root fetch - main [MainThread]: End processing [python-none-objects]: success
+[2024-05-03 03:53:03] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-azureiot-2.5.9.tar.gz]
+[2024-05-03 03:53:03] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_azureiot-2.6.0.tar.gz]
+[2024-05-03 03:53:03] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-azureiot]: success
+[2024-05-03 03:53:03] INFO root fetch - processPackages [snapatac2]: Remove: archive file [/home/abi/fetcher/tmp/snapatac2-2.6.0.tar.gz]
+[2024-05-03 03:53:03] INFO root fetch - processPackages [snapatac2]: Remove: archive file [/home/abi/fetcher/tmp/snapatac2-2.6.1.tar.gz]
+[2024-05-03 03:53:03] INFO root fetch - main [MainThread]: End processing [snapatac2]: success
+[2024-05-03 03:53:03] INFO root fetch - main [MainThread]: Store serial: [23040714]
