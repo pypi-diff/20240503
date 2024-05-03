@@ -12918,3 +12918,56 @@
 [2024-05-03 10:05:31] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240502.tar.gz]
 [2024-05-03 10:05:31] INFO root fetch - main [MainThread]: End processing [langfun]: success
 [2024-05-03 10:05:31] INFO root fetch - main [MainThread]: Store serial: [23043039]
+[2024-05-03 10:07:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043039]
+[2024-05-03 10:07:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 10:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intersight
+[2024-05-03 10:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-partner-sequence
+[2024-05-03 10:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-project-tracker
+[2024-05-03 10:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ganessa
+[2024-05-03 10:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PREN-flawas
+[2024-05-03 10:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2024-05-03 10:07:41] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 10:07:41] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-05-03 10:07:41] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-03 10:07:41] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240502] Old Version: [0.4.5.dev20240501]
+[2024-05-03 10:07:42] INFO root fetch - processPackages [intersight]: New version: [1.0.9.6484] Old Version: [1.0.9.6207]
+[2024-05-03 10:07:42] INFO root fetch - processPackages [ganessa]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-03 10:07:42] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-03 10:07:42] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5a/ab/313c61d6d9ed0d4479ef8dee1d400e73c0f00b24fa047799f4b442bf7a8a/pyglove-0.4.5.dev20240501.tar.gz
+[2024-05-03 10:07:42] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: Downloading https://files.pythonhosted.org/packages/bb/03/5ac5715ce09586b552d1350fb589b8551609dc7c68c5de821a53636465a7/odoo_addon_base_partner_sequence-16.0.1.1.0-py3-none-any.whl
+[2024-05-03 10:07:42] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-03 10:07:42] INFO root fetch - processPackages [ganessa]: Downloading https://files.pythonhosted.org/packages/0f/75/de77374a8a6af0eb692407dd694257a4b3ee4f18a9829496d7a24cc3af3b/ganessa-2.4.0-cp39-cp39-win_amd64.whl
+[2024-05-03 10:07:42] INFO root fetch - processPackages [intersight]: Downloading https://files.pythonhosted.org/packages/ff/40/daaa754993e7cb8462afdc89a9772328cc5717951e766da83fa93944e043/intersight-1.0.9.6207.tar.gz
+[2024-05-03 10:07:42] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-03 10:07:42] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-03 10:07:42] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240503/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-03 10:07:42] WARNING root fetch - processPackages [intersight]: Skipping package: exceeds size limit 16195201>=10485760
+[2024-05-03 10:07:42] INFO root fetch - main [MainThread]: End processing [intersight] error
+[2024-05-03 10:07:42] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: Downloading https://files.pythonhosted.org/packages/2d/82/f68791ed1b0db4802cc755ea894688f0ce457cfc275bd094a6cb459dc586/odoo_addon_base_partner_sequence-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-03 10:07:42] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-03 10:07:42] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/e2/13/63681c8214ad4f755356cbf0d2abdeb06c48057a9bc61944c8cd82759111/pyglove-0.4.5.dev20240502.tar.gz
+[2024-05-03 10:07:42] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: executing diffoscope
+[2024-05-03 10:07:42] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_partner_sequence-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_base_partner_sequence-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-base-partner-sequence/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-03 10:07:42] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-03 10:07:42] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240501.tar.gz tmp/pyglove-0.4.5.dev20240502.tar.gz --markdown 20240503/p/pyglove/0.4.5.dev20240501-0.4.5.dev20240502/README.md --exclude *.pyd
+[2024-05-03 10:07:42] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-03 10:07:42] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240503/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 10:07:42] INFO root fetch - processPackages [ganessa]: Downloading https://files.pythonhosted.org/packages/82/0e/fe090b629dc50ed8d81f1703bcf1fb3f1e5119b061196d8579ce7bb633c5/ganessa-2.4.1-cp39-cp39-win_amd64.whl
+[2024-05-03 10:07:43] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-03 10:07:43] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-03 10:07:43] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-03 10:07:43] INFO root fetch - processPackages [ganessa]: executing diffoscope
+[2024-05-03 10:07:43] INFO root fetch - processPackages [ganessa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ganessa-2.4.0-cp39-cp39-win_amd64.whl.zip tmp/ganessa-2.4.1-cp39-cp39-win_amd64.whl.zip --markdown 20240503/g/ganessa/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-03 10:07:43] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_partner_sequence-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-03 10:07:43] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_partner_sequence-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 10:07:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-partner-sequence]: success
+[2024-05-03 10:07:43] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-03 10:07:43] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-03 10:07:43] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-03 10:07:43] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240501.tar.gz]
+[2024-05-03 10:07:43] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240502.tar.gz]
+[2024-05-03 10:07:43] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-03 10:07:44] INFO root fetch - processPackages [ganessa]: Remove: archive file [/home/abi/fetcher/tmp/ganessa-2.4.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 10:07:44] INFO root fetch - processPackages [ganessa]: Remove: archive file [/home/abi/fetcher/tmp/ganessa-2.4.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 10:07:44] INFO root fetch - main [MainThread]: End processing [ganessa]: success
+[2024-05-03 10:07:44] INFO root fetch - main [MainThread]: Store serial: [23043064]
