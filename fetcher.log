@@ -19675,3 +19675,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:08:43] INFO root fetch - processPackages [snuba-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snuba_sdk-2.0.9-py2.py3-none-any.whl.zip]
 [2024-05-03 15:08:43] INFO root fetch - main [MainThread]: End processing [snuba-sdk]: success
 [2024-05-03 15:08:43] INFO root fetch - main [MainThread]: Store serial: [23046251]
+[2024-05-03 15:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046251]
+[2024-05-03 15:11:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forloop-modules
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logfire
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-digitalmarketplace-utils
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hippo-plot
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kywy
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: therix
+[2024-05-03 15:11:16] INFO root fetch - processPackages [hippo-plot]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 15:11:16] INFO root fetch - processPackages [logfire]: New version: [0.29.0] Old Version: [0.28.3]
+[2024-05-03 15:11:16] INFO root fetch - processPackages [forloop-modules]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-03 15:11:16] INFO root fetch - processPackages [hippo-plot]: Downloading https://files.pythonhosted.org/packages/1b/5d/46b661e63eab208990b0f517c0e431a6c4d618c0a799bf2a5ab474ad4957/hippo_plot-0.0.5.tar.gz
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc1] Old Version: [65.9.0]
+[2024-05-03 15:11:16] INFO root fetch - processPackages [kywy]: New version: [0.18.0b9] Old Version: [0.18.0b8]
+[2024-05-03 15:11:16] INFO root fetch - processPackages [therix]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-03 15:11:16] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.86] Old Version: [2.1.81]
+[2024-05-03 15:11:16] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/33/1f/821295593f8c22412ab7da316962118305420d28d478023ff3dff0700836/logfire-0.28.3.tar.gz
+[2024-05-03 15:11:16] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/4c/19/b8ab40fdb07faa1c4ebbd79d78fe9ad4442d464860a2998abf92ecd3c072/lusid_sdk-2.1.81.tar.gz
+[2024-05-03 15:11:16] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/e3/58/b581e9f1c3752ee354127a102ceb46dda9dfe9487af7e4c32cdc7ad8ce5d/ccs-digitalmarketplace-utils-65.9.0.tar.gz
+[2024-05-03 15:11:16] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/e2/4c/94b015a60ab3973cd4b5c3d2fb3e3f30266fffcdd736ee3d59312a3ce933/forloop_modules-1.0.2.tar.gz
+[2024-05-03 15:11:16] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/5a/35/d09681ca4dba675cb340afcda2294f700aa776e80bb79d04f8b902d66c14/kywy-0.18.0b8-py3-none-any.whl
+[2024-05-03 15:11:16] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/9d/b6/a44cd02de9323c87dd79238c0246e90ec24fca5ecc5d8bee0afbfa0fad90/therix-0.1.2.tar.gz
+[2024-05-03 15:11:16] INFO root fetch - processPackages [hippo-plot]: Downloading https://files.pythonhosted.org/packages/47/da/8877bbb7fc80eb45af0f9eb515ce7c7258b5fd921b3c670e35a47cdacb00/hippo_plot-0.0.6.tar.gz
+[2024-05-03 15:11:17] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/b1/57/01cba09e6db8f1a8eb3614791590759567f25b41582f6632712e62ac76e0/logfire-0.29.0.tar.gz
+[2024-05-03 15:11:17] INFO root fetch - processPackages [hippo-plot]: executing diffoscope
+[2024-05-03 15:11:17] INFO root fetch - processPackages [hippo-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippo_plot-0.0.5.tar.gz tmp/hippo_plot-0.0.6.tar.gz --markdown 20240503/h/hippo-plot/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 15:11:17] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/ee/8d/6728d23ecf123b2db3439c46d61a821a1842e8cbed0508ef21a8974be66d/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz
+[2024-05-03 15:11:17] INFO root fetch - processPackages [logfire]: executing diffoscope
+[2024-05-03 15:11:17] INFO root fetch - processPackages [logfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-0.28.3.tar.gz tmp/logfire-0.29.0.tar.gz --markdown 20240503/l/logfire/0.28.3-0.29.0/README.md --exclude *.pyd
+[2024-05-03 15:11:17] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/40/e5/a6d4fd4f0be0702e8608d7771ebc575c4a3d1efdd1e452301aabd984870a/lusid_sdk-2.1.86-py3-none-any.whl
+[2024-05-03 15:11:17] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/f5/05/ccda8ae3dc45c36fc2f33a4a870fd9d9e04d0080cf45193c65ab0efb1152/therix-0.1.3.tar.gz
+[2024-05-03 15:11:17] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/f4/5d/4f46a8e9f1f83a0cd27f3fff0a66eef502e1ce65c311d478287e2ca99409/forloop_modules-1.1.0.tar.gz
+[2024-05-03 15:11:17] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/9a/f8/24411333415c7d5a41eb0b9f0ad87d2cd2123835ebc09f94853b04aca91c/kywy-0.18.0b9-py3-none-any.whl
+[2024-05-03 15:11:17] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-05-03 15:11:17] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-65.9.0.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz --markdown 20240503/c/ccs-digitalmarketplace-utils/65.9.0-66.0.0rc1/README.md --exclude *.pyd
+[2024-05-03 15:11:17] INFO root fetch - processPackages [forloop-modules]: executing diffoscope
+[2024-05-03 15:11:17] INFO root fetch - processPackages [forloop-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forloop_modules-1.0.2.tar.gz tmp/forloop_modules-1.1.0.tar.gz --markdown 20240503/f/forloop-modules/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-03 15:11:17] INFO root fetch - processPackages [kywy]: executing diffoscope
+[2024-05-03 15:11:17] INFO root fetch - processPackages [kywy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kywy-0.18.0b8-py3-none-any.whl.zip tmp/kywy-0.18.0b9-py3-none-any.whl.zip --markdown 20240503/k/kywy/0.18.0b8-0.18.0b9/README.md --exclude *.pyd
+[2024-05-03 15:11:17] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-03 15:11:17] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.2.tar.gz tmp/therix-0.1.3.tar.gz --markdown 20240503/t/therix/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-03 15:11:17] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-03 15:11:17] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.81.tar.gz tmp/lusid_sdk-2.1.86-py3-none-any.whl.zip --markdown 20240503/l/lusid-sdk/2.1.81-2.1.86/README.md --exclude *.pyd
+[2024-05-03 15:11:17] INFO root fetch - processPackages [hippo-plot]: Remove: archive file [/home/abi/fetcher/tmp/hippo_plot-0.0.5.tar.gz]
+[2024-05-03 15:11:17] INFO root fetch - processPackages [hippo-plot]: Remove: archive file [/home/abi/fetcher/tmp/hippo_plot-0.0.6.tar.gz]
+[2024-05-03 15:11:17] INFO root fetch - main [MainThread]: End processing [hippo-plot]: success
+[2024-05-03 15:11:18] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-65.9.0.tar.gz]
+[2024-05-03 15:11:18] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz]
+[2024-05-03 15:11:18] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-05-03 15:11:18] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.28.3.tar.gz]
+[2024-05-03 15:11:18] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.29.0.tar.gz]
+[2024-05-03 15:11:18] INFO root fetch - main [MainThread]: End processing [logfire]: success
+[2024-05-03 15:11:18] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b8-py3-none-any.whl.zip]
+[2024-05-03 15:11:18] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b9-py3-none-any.whl.zip]
+[2024-05-03 15:11:18] INFO root fetch - main [MainThread]: End processing [kywy]: success
+[2024-05-03 15:11:18] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.0.2.tar.gz]
+[2024-05-03 15:11:18] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.0.tar.gz]
+[2024-05-03 15:11:18] INFO root fetch - main [MainThread]: End processing [forloop-modules]: success
+[2024-05-03 15:11:18] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.2.tar.gz]
+[2024-05-03 15:11:18] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.3.tar.gz]
+[2024-05-03 15:11:18] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-03 15:11:19] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.81.tar.gz]
+[2024-05-03 15:11:19] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.86-py3-none-any.whl.zip]
+[2024-05-03 15:11:19] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-03 15:11:19] INFO root fetch - main [MainThread]: Store serial: [23046270]
