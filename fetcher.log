@@ -7517,3 +7517,45 @@
 [2024-05-03 04:23:39] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240502.tar.gz]
 [2024-05-03 04:23:39] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-03 04:23:39] INFO root fetch - main [MainThread]: Store serial: [23040900]
+[2024-05-03 04:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040900]
+[2024-05-03 04:25:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 04:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crewai
+[2024-05-03 04:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crewai-tools
+[2024-05-03 04:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpc-obscodes
+[2024-05-03 04:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nl2flow
+[2024-05-03 04:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seppl
+[2024-05-03 04:25:48] INFO root fetch - processPackages [seppl]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-03 04:25:48] WARNING root fetch - processPackages [nl2flow]: Skipping, unable to determine old version
+[2024-05-03 04:25:48] INFO root fetch - main [MainThread]: End processing [nl2flow] error
+[2024-05-03 04:25:48] INFO root fetch - processPackages [seppl]: Downloading https://files.pythonhosted.org/packages/29/96/98c8a11a108325525a5dbee8e356132cd2cdac37c59b67aa263a63b9d814/seppl-0.2.1.tar.gz
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/5c/c1/8dc5b66424671aa58d39aff5323e19e9f80ff8f2f1496b48be44e54eb1ad/crewai_tools-0.2.1.tar.gz
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-05-03 04:25:48] INFO root fetch - processPackages [mpc-obscodes]: New version: [2024.5.3] Old Version: [2024.4.5]
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-05-03 04:25:48] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/c5/c7/026120cceb75d622414d8a5b26f0bbed6fe5ce3036fcf9be3ddab9297b6d/mpc_obscodes-2024.4.5.tar.gz
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/3b/0d/e7cf181afc79c77422fd1e2648bb9974fffbd5c0358719a9cba4012dbbdb/crewai_tools-0.2.2.tar.gz
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240503/c/crewai/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-03 04:25:48] INFO root fetch - processPackages [seppl]: Downloading https://files.pythonhosted.org/packages/ac/12/8896ecb57f77e4c54990c0502255de6afc85bd11c1befd9c9722fef86e42/seppl-0.2.2.tar.gz
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai-tools]: executing diffoscope
+[2024-05-03 04:25:48] INFO root fetch - processPackages [crewai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai_tools-0.2.1.tar.gz tmp/crewai_tools-0.2.2.tar.gz --markdown 20240503/c/crewai-tools/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 04:25:48] INFO root fetch - processPackages [seppl]: executing diffoscope
+[2024-05-03 04:25:48] INFO root fetch - processPackages [seppl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seppl-0.2.1.tar.gz tmp/seppl-0.2.2.tar.gz --markdown 20240503/s/seppl/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 04:25:48] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/df/51/ad23e9e448a1700ccc36a04a78eb75dceb9e82517cc4e116211d4a581d0b/mpc_obscodes-2024.5.3.tar.gz
+[2024-05-03 04:25:49] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2024-05-03 04:25:49] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2024.4.5.tar.gz tmp/mpc_obscodes-2024.5.3.tar.gz --markdown 20240503/m/mpc-obscodes/2024.4.5-2024.5.3/README.md --exclude *.pyd
+[2024-05-03 04:25:49] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-05-03 04:25:49] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-05-03 04:25:49] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-05-03 04:25:49] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.1.tar.gz]
+[2024-05-03 04:25:49] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.2.tar.gz]
+[2024-05-03 04:25:49] INFO root fetch - main [MainThread]: End processing [crewai-tools]: success
+[2024-05-03 04:25:49] INFO root fetch - processPackages [seppl]: Remove: archive file [/home/abi/fetcher/tmp/seppl-0.2.1.tar.gz]
+[2024-05-03 04:25:49] INFO root fetch - processPackages [seppl]: Remove: archive file [/home/abi/fetcher/tmp/seppl-0.2.2.tar.gz]
+[2024-05-03 04:25:49] INFO root fetch - main [MainThread]: End processing [seppl]: success
+[2024-05-03 04:25:49] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.4.5.tar.gz]
+[2024-05-03 04:25:49] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.5.3.tar.gz]
+[2024-05-03 04:25:49] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2024-05-03 04:25:49] INFO root fetch - main [MainThread]: Store serial: [23040916]
