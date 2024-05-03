@@ -14749,3 +14749,64 @@
 [2024-05-03 11:14:04] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
 [2024-05-03 11:14:04] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2024-05-03 11:14:04] INFO root fetch - main [MainThread]: Store serial: [23043723]
+[2024-05-03 11:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043723]
+[2024-05-03 11:16:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 11:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-03 11:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-l10n-id-taxform-faktur-pajak
+[2024-05-03 11:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-05-03 11:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mq4hemc
+[2024-05-03 11:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-05-03 11:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-viewrouter
+[2024-05-03 11:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: json-advanced
+[2024-05-03 11:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hello-world-avishek
+[2024-05-03 11:16:19] INFO root fetch - processPackages [mq4hemc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 11:16:19] INFO root fetch - processPackages [json-advanced]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-03 11:16:19] WARNING root fetch - processPackages [hello-world-avishek]: Skipping, unable to determine old version
+[2024-05-03 11:16:19] INFO root fetch - main [MainThread]: End processing [hello-world-avishek] error
+[2024-05-03 11:16:19] INFO root fetch - processPackages [odoo14-addon-ssi-l10n-id-taxform-faktur-pajak]: New version: [14.0.1.5.0] Old Version: [14.0.1.4.0]
+[2024-05-03 11:16:19] WARNING root fetch - processPackages [django-viewrouter]: Skipping, unable to determine old version
+[2024-05-03 11:16:19] INFO root fetch - main [MainThread]: End processing [django-viewrouter] error
+[2024-05-03 11:16:19] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-03 11:16:19] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/25/91/ed6b12f291733bb6f72a6a8ec54bc3b008f27f07e1ec5a1767e2aea63b96/mq4hemc-0.0.8.tar.gz
+[2024-05-03 11:16:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-03 11:16:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-03 11:16:19] INFO root fetch - processPackages [odoo14-addon-ssi-l10n-id-taxform-faktur-pajak]: Downloading https://files.pythonhosted.org/packages/da/6d/7903f775c97c3313f9d1bae2be068b8f2e5301eea4b5c5095ba24d5e4baf/odoo14_addon_ssi_l10n_id_taxform_faktur_pajak-14.0.1.4.0-py3-none-any.whl
+[2024-05-03 11:16:19] INFO root fetch - processPackages [json-advanced]: Downloading https://files.pythonhosted.org/packages/8c/94/9aaed92c1a7232ebe8311a172e8a1e8be6c026328b59c66f0bb91b9e0535/json_advanced-0.4.0.tar.gz
+[2024-05-03 11:16:19] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-03 11:16:19] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/17/ff/c305b978b3e007000fd785f4d1fac7016440237c188eb8be90a34debd419/mq4hemc-0.0.9.tar.gz
+[2024-05-03 11:16:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-03 11:16:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-03 11:16:19] INFO root fetch - processPackages [mq4hemc]: executing diffoscope
+[2024-05-03 11:16:19] INFO root fetch - processPackages [mq4hemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mq4hemc-0.0.8.tar.gz tmp/mq4hemc-0.0.9.tar.gz --markdown 20240503/m/mq4hemc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 11:16:20] INFO root fetch - processPackages [json-advanced]: Downloading https://files.pythonhosted.org/packages/ea/50/edfa3daf718041d20f69bc3da4a57f53afcc182515096bcc4880e0f8d676/json_advanced-0.5.0.tar.gz
+[2024-05-03 11:16:20] INFO root fetch - processPackages [odoo14-addon-ssi-l10n-id-taxform-faktur-pajak]: Downloading https://files.pythonhosted.org/packages/64/9b/df38784aa589d7e3a56acf6e44565fe57aee418bfea8726db66fe54b8bd3/odoo14_addon_ssi_l10n_id_taxform_faktur_pajak-14.0.1.5.0-py3-none-any.whl
+[2024-05-03 11:16:20] INFO root fetch - processPackages [json-advanced]: executing diffoscope
+[2024-05-03 11:16:20] INFO root fetch - processPackages [json-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_advanced-0.4.0.tar.gz tmp/json_advanced-0.5.0.tar.gz --markdown 20240503/j/json-advanced/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-03 11:16:20] INFO root fetch - processPackages [odoo14-addon-ssi-l10n-id-taxform-faktur-pajak]: executing diffoscope
+[2024-05-03 11:16:20] INFO root fetch - processPackages [odoo14-addon-ssi-l10n-id-taxform-faktur-pajak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_l10n_id_taxform_faktur_pajak-14.0.1.4.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_l10n_id_taxform_faktur_pajak-14.0.1.5.0-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-ssi-l10n-id-taxform-faktur-pajak/14.0.1.4.0-14.0.1.5.0/README.md --exclude *.pyd
+[2024-05-03 11:16:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-03 11:16:20] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-03 11:16:20] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-03 11:16:20] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-03 11:16:20] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240503/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-03 11:16:20] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-03 11:16:20] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240503/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-03 11:16:20] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-03 11:16:20] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240503/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-03 11:16:20] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.8.tar.gz]
+[2024-05-03 11:16:20] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.9.tar.gz]
+[2024-05-03 11:16:20] INFO root fetch - main [MainThread]: End processing [mq4hemc]: success
+[2024-05-03 11:16:20] INFO root fetch - processPackages [json-advanced]: Remove: archive file [/home/abi/fetcher/tmp/json_advanced-0.4.0.tar.gz]
+[2024-05-03 11:16:20] INFO root fetch - processPackages [json-advanced]: Remove: archive file [/home/abi/fetcher/tmp/json_advanced-0.5.0.tar.gz]
+[2024-05-03 11:16:20] INFO root fetch - main [MainThread]: End processing [json-advanced]: success
+[2024-05-03 11:16:20] INFO root fetch - processPackages [odoo14-addon-ssi-l10n-id-taxform-faktur-pajak]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_l10n_id_taxform_faktur_pajak-14.0.1.4.0-py3-none-any.whl.zip]
+[2024-05-03 11:16:20] INFO root fetch - processPackages [odoo14-addon-ssi-l10n-id-taxform-faktur-pajak]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_l10n_id_taxform_faktur_pajak-14.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-03 11:16:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-l10n-id-taxform-faktur-pajak]: success
+[2024-05-03 11:16:21] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-03 11:16:21] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-03 11:16:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-03 11:16:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-03 11:16:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-03 11:16:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-03 11:16:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-03 11:16:22] INFO root fetch - main [MainThread]: Store serial: [23043749]
