@@ -13101,3 +13101,69 @@
 [2024-05-03 10:14:26] INFO root fetch - processPackages [skt]: Remove: archive file [/home/abi/fetcher/tmp/skt-0.2.99.tar.gz]
 [2024-05-03 10:14:26] INFO root fetch - main [MainThread]: End processing [skt]: success
 [2024-05-03 10:14:26] INFO root fetch - main [MainThread]: Store serial: [23043117]
+[2024-05-03 10:16:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043117]
+[2024-05-03 10:16:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mq4hemc
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-explorer
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-core-python
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-core-python
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdfix-sdk
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-it-intrastat-statement
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pigeonpost
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-firebase-auth-fjcg
+[2024-05-03 10:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-anime-downloader
+[2024-05-03 10:16:37] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1714637767] Old Version: [1.7.0.dev1714637764]
+[2024-05-03 10:16:37] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1714637767] Old Version: [1.7.0.dev1714637764]
+[2024-05-03 10:16:37] INFO root fetch - processPackages [model-explorer]: New version: [0.0.85] Old Version: [0.0.84]
+[2024-05-03 10:16:37] INFO root fetch - processPackages [mq4hemc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 10:16:37] INFO root fetch - processPackages [pdfix-sdk]: New version: [8.0.1] Old Version: [7.3.3]
+[2024-05-03 10:16:37] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat-statement]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2024-05-03 10:16:37] INFO root fetch - processPackages [pigeonpost]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-03 10:16:37] WARNING root fetch - processPackages [nonebot-plugin-anime-downloader]: Skipping, unable to determine old version
+[2024-05-03 10:16:37] WARNING root fetch - processPackages [drf-firebase-auth-fjcg]: Skipping, unable to determine old version
+[2024-05-03 10:16:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-anime-downloader] error
+[2024-05-03 10:16:37] INFO root fetch - main [MainThread]: End processing [drf-firebase-auth-fjcg] error
+[2024-05-03 10:16:37] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/5a/64/7fb0bbaf01704b09ce6b8d308003dab7b6fe2c8e3084866767ad1ec1f673/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz
+[2024-05-03 10:16:37] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/5a/64/7fb0bbaf01704b09ce6b8d308003dab7b6fe2c8e3084866767ad1ec1f673/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz
+[2024-05-03 10:16:37] INFO root fetch - processPackages [pigeonpost]: Downloading https://files.pythonhosted.org/packages/ca/97/cb9f5841b3b74dcfe28712916e9b5ad24dab16ba10d372fb0591966592f4/pigeonpost-0.4.5.tar.gz
+[2024-05-03 10:16:37] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/25/91/ed6b12f291733bb6f72a6a8ec54bc3b008f27f07e1ec5a1767e2aea63b96/mq4hemc-0.0.8.tar.gz
+[2024-05-03 10:16:37] INFO root fetch - processPackages [pdfix-sdk]: Downloading https://files.pythonhosted.org/packages/35/ee/67d643c4e786bcd6807a610996617381312a27dcb3f6c6f988a789012cda/pdfix-sdk-7.3.3.tar.gz
+[2024-05-03 10:16:37] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat-statement]: Downloading https://files.pythonhosted.org/packages/a7/4f/3bed3ced88af9333d92c1744b096c7cd90c84eb36c35ca29d623f85f861f/odoo_addon_l10n_it_intrastat_statement-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-03 10:16:38] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/22/56/89f54df1247ff6bf7dab7091ba54df39eb3de2836e66fbc2c65688f2367c/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz
+[2024-05-03 10:16:38] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/7a/d4/1c9a629dbb4b70e33f5bfec4dfff6f2c576c4ca4d4afd7feb816240872b3/model_explorer-0.0.84.tar.gz
+[2024-05-03 10:16:38] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/22/56/89f54df1247ff6bf7dab7091ba54df39eb3de2836e66fbc2c65688f2367c/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz
+[2024-05-03 10:16:38] WARNING root fetch - processPackages [pdfix-sdk]: Skipping package: exceeds size limit 52334754>=10485760
+[2024-05-03 10:16:38] INFO root fetch - main [MainThread]: End processing [pdfix-sdk] error
+[2024-05-03 10:16:38] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-03 10:16:38] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz --markdown 20240503/a/aissemble-foundation-core-python/1.7.0.dev1714637764-1.7.0.dev1714637767/README.md --exclude *.pyd
+[2024-05-03 10:16:38] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-03 10:16:38] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz --markdown 20240503/a/aissemble-foundation-core-python/1.7.0.dev1714637764-1.7.0.dev1714637767/README.md --exclude *.pyd
+[2024-05-03 10:16:38] INFO root fetch - processPackages [pigeonpost]: Downloading https://files.pythonhosted.org/packages/bb/0c/932f7c24efb878ff5c7677098f06882316d50e09259945cee9ed7ca8231c/pigeonpost-0.4.6.tar.gz
+[2024-05-03 10:16:38] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/17/ff/c305b978b3e007000fd785f4d1fac7016440237c188eb8be90a34debd419/mq4hemc-0.0.9.tar.gz
+[2024-05-03 10:16:38] INFO root fetch - processPackages [mq4hemc]: executing diffoscope
+[2024-05-03 10:16:38] INFO root fetch - processPackages [mq4hemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mq4hemc-0.0.8.tar.gz tmp/mq4hemc-0.0.9.tar.gz --markdown 20240503/m/mq4hemc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 10:16:38] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat-statement]: Downloading https://files.pythonhosted.org/packages/14/b1/b8075d7d4568d1ca80e90e454559ee4f67d86f15dcdce701da04fa93f3b7/odoo_addon_l10n_it_intrastat_statement-16.0.1.0.1-py3-none-any.whl
+[2024-05-03 10:16:38] INFO root fetch - processPackages [pigeonpost]: executing diffoscope
+[2024-05-03 10:16:38] INFO root fetch - processPackages [pigeonpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonpost-0.4.5.tar.gz tmp/pigeonpost-0.4.6.tar.gz --markdown 20240503/p/pigeonpost/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-03 10:16:38] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat-statement]: executing diffoscope
+[2024-05-03 10:16:38] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_intrastat_statement-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_intrastat_statement-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-it-intrastat-statement/16.0.1.0.0.9-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-03 10:16:38] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/15/f5/c1e6617781a5c38ee2e8bc69b22a98562f23fc413bb1fb44917c614875e1/model_explorer-0.0.85.tar.gz
+[2024-05-03 10:16:38] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz]
+[2024-05-03 10:16:38] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz]
+[2024-05-03 10:16:38] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-03 10:16:38] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-05-03 10:16:38] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_explorer-0.0.84.tar.gz tmp/model_explorer-0.0.85.tar.gz --markdown 20240503/m/model-explorer/0.0.84-0.0.85/README.md --exclude *.pyd
+[2024-05-03 10:16:38] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-03 10:16:39] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.8.tar.gz]
+[2024-05-03 10:16:39] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.9.tar.gz]
+[2024-05-03 10:16:39] INFO root fetch - main [MainThread]: End processing [mq4hemc]: success
+[2024-05-03 10:16:39] INFO root fetch - processPackages [pigeonpost]: Remove: archive file [/home/abi/fetcher/tmp/pigeonpost-0.4.5.tar.gz]
+[2024-05-03 10:16:39] INFO root fetch - processPackages [pigeonpost]: Remove: archive file [/home/abi/fetcher/tmp/pigeonpost-0.4.6.tar.gz]
+[2024-05-03 10:16:39] INFO root fetch - main [MainThread]: End processing [pigeonpost]: success
+[2024-05-03 10:16:39] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_intrastat_statement-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-03 10:16:39] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_intrastat_statement-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 10:16:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-intrastat-statement]: success
+[2024-05-03 10:16:57] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.84.tar.gz]
+[2024-05-03 10:16:57] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.85.tar.gz]
+[2024-05-03 10:16:57] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-05-03 10:16:57] INFO root fetch - main [MainThread]: Store serial: [23043147]
