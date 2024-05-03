@@ -16123,3 +16123,69 @@
 [2024-05-03 12:28:55] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.8.6-py3-none-any.whl.zip]
 [2024-05-03 12:28:55] INFO root fetch - main [MainThread]: End processing [dara-core]: success
 [2024-05-03 12:28:55] INFO root fetch - main [MainThread]: Store serial: [23044569]
+[2024-05-03 12:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044569]
+[2024-05-03 12:31:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dara-components
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xvlib
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: romepy
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hestia-ood
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: familyoccupation
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foundationallm-config
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flatpack
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: languru
+[2024-05-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scigee
+[2024-05-03 12:31:25] WARNING root fetch - processPackages [xvlib]: Skipping, unable to determine old version
+[2024-05-03 12:31:25] INFO root fetch - main [MainThread]: End processing [xvlib] error
+[2024-05-03 12:31:25] WARNING root fetch - processPackages [foundationallm-config]: Skipping, unable to determine old version
+[2024-05-03 12:31:25] INFO root fetch - main [MainThread]: End processing [foundationallm-config] error
+[2024-05-03 12:31:25] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-03 12:31:25] WARNING root fetch - processPackages [familyoccupation]: Skipping, unable to determine old version
+[2024-05-03 12:31:25] INFO root fetch - main [MainThread]: End processing [familyoccupation] error
+[2024-05-03 12:31:25] INFO root fetch - processPackages [romepy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 12:31:25] INFO root fetch - processPackages [scigee]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 12:31:25] INFO root fetch - processPackages [dara-components]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-05-03 12:31:25] INFO root fetch - processPackages [hestia-ood]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-03 12:31:25] INFO root fetch - processPackages [languru]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-05-03 12:31:25] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-03 12:31:25] INFO root fetch - processPackages [romepy]: Downloading https://files.pythonhosted.org/packages/cd/f6/e7636faeb0ecd446e42c99f97bbb4450233f29ea72c296153a0561f44237/romepy-0.1.0.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [hestia-ood]: Downloading https://files.pythonhosted.org/packages/5e/d6/bd726d25e80f267c6d5b5c4cefddd2eba9ce255d2009847ec8df69a9b56e/hestia-ood-0.0.6.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/ed/2f/c9a7d16773259ae38e4e9f6f461c0ba132ba506c11aa6103d4146be347cf/dara_components-1.8.5-py3-none-any.whl
+[2024-05-03 12:31:26] INFO root fetch - processPackages [scigee]: Downloading https://files.pythonhosted.org/packages/05/91/256b6d815c51ea263f8a645e2ab2bd90131ca231d80df127fa71cb9b0170/scigee-0.0.8.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [languru]: Downloading https://files.pythonhosted.org/packages/bf/6d/07bdf7e3f764a6406fb3ce591c3c18bcae6de31e759cfce65dbdd1c9b530/languru-0.7.2.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [romepy]: Downloading https://files.pythonhosted.org/packages/bc/58/183fbd1cfbabbc7b0cb61a9ef5155dd4245891073ac31b9c34f92f5a5ee9/romepy-0.1.1.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [hestia-ood]: Downloading https://files.pythonhosted.org/packages/63/72/39b0c1be6dad313deb36801b16d09a567acb8c683514e2f9be4c92cf0727/hestia_ood-0.0.8.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [romepy]: executing diffoscope
+[2024-05-03 12:31:26] INFO root fetch - processPackages [romepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romepy-0.1.0.tar.gz tmp/romepy-0.1.1.tar.gz --markdown 20240503/r/romepy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 12:31:26] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-03 12:31:26] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240503/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-03 12:31:26] INFO root fetch - processPackages [scigee]: Downloading https://files.pythonhosted.org/packages/4b/13/b237023a3fad321f7d284f736f1045bd5fd6d621828d89ee0a7a09f246c7/scigee-0.0.9.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [hestia-ood]: executing diffoscope
+[2024-05-03 12:31:26] INFO root fetch - processPackages [hestia-ood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-ood-0.0.6.tar.gz tmp/hestia_ood-0.0.8.tar.gz --markdown 20240503/h/hestia-ood/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-03 12:31:26] INFO root fetch - processPackages [languru]: Downloading https://files.pythonhosted.org/packages/6f/0e/375f4553f0e0561327ca3688a728d30cd346504d3629d44f40dec395400e/languru-0.8.0.tar.gz
+[2024-05-03 12:31:26] INFO root fetch - processPackages [scigee]: executing diffoscope
+[2024-05-03 12:31:26] INFO root fetch - processPackages [scigee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scigee-0.0.8.tar.gz tmp/scigee-0.0.9.tar.gz --markdown 20240503/s/scigee/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 12:31:26] INFO root fetch - processPackages [languru]: executing diffoscope
+[2024-05-03 12:31:26] INFO root fetch - processPackages [languru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/languru-0.7.2.tar.gz tmp/languru-0.8.0.tar.gz --markdown 20240503/l/languru/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-05-03 12:31:26] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/df/c6/e227675d41b9d082c4399ca84e9d29ff0ee70f69bdda40b742adbd491460/dara_components-1.8.6-py3-none-any.whl
+[2024-05-03 12:31:27] INFO root fetch - processPackages [romepy]: Remove: archive file [/home/abi/fetcher/tmp/romepy-0.1.0.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - processPackages [romepy]: Remove: archive file [/home/abi/fetcher/tmp/romepy-0.1.1.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - main [MainThread]: End processing [romepy]: success
+[2024-05-03 12:31:27] INFO root fetch - processPackages [hestia-ood]: Remove: archive file [/home/abi/fetcher/tmp/hestia-ood-0.0.6.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - processPackages [hestia-ood]: Remove: archive file [/home/abi/fetcher/tmp/hestia_ood-0.0.8.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - main [MainThread]: End processing [hestia-ood]: success
+[2024-05-03 12:31:27] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-03 12:31:27] INFO root fetch - processPackages [scigee]: Remove: archive file [/home/abi/fetcher/tmp/scigee-0.0.8.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - processPackages [scigee]: Remove: archive file [/home/abi/fetcher/tmp/scigee-0.0.9.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - main [MainThread]: End processing [scigee]: success
+[2024-05-03 12:31:27] INFO root fetch - processPackages [dara-components]: executing diffoscope
+[2024-05-03 12:31:27] INFO root fetch - processPackages [dara-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_components-1.8.5-py3-none-any.whl.zip tmp/dara_components-1.8.6-py3-none-any.whl.zip --markdown 20240503/d/dara-components/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-05-03 12:31:27] INFO root fetch - processPackages [languru]: Remove: archive file [/home/abi/fetcher/tmp/languru-0.7.2.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - processPackages [languru]: Remove: archive file [/home/abi/fetcher/tmp/languru-0.8.0.tar.gz]
+[2024-05-03 12:31:27] INFO root fetch - main [MainThread]: End processing [languru]: success
+[2024-05-03 12:32:37] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.5-py3-none-any.whl.zip]
+[2024-05-03 12:32:37] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.6-py3-none-any.whl.zip]
+[2024-05-03 12:32:37] INFO root fetch - main [MainThread]: End processing [dara-components]: success
+[2024-05-03 12:32:37] INFO root fetch - main [MainThread]: Store serial: [23044596]
