@@ -2266,3 +2266,74 @@
 [2024-05-03 02:19:26] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
 [2024-05-03 02:19:26] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
 [2024-05-03 02:19:26] INFO root fetch - main [MainThread]: Store serial: [23038972]
+[2024-05-03 02:21:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038972]
+[2024-05-03 02:21:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 02:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: workforce
+[2024-05-03 02:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-cr-constructs
+[2024-05-03 02:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rosetta-soil
+[2024-05-03 02:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-05-03 02:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surfkit
+[2024-05-03 02:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-03 02:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PokerNow
+[2024-05-03 02:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: air-sdk-python
+[2024-05-03 02:21:34] INFO root fetch - processPackages [workforce]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 02:21:34] INFO root fetch - processPackages [PokerNow]: New version: [0.6.45] Old Version: [0.6.3]
+[2024-05-03 02:21:34] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-03 02:21:34] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-03 02:21:34] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.443] Old Version: [2.1.442]
+[2024-05-03 02:21:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-03 02:21:35] INFO root fetch - processPackages [air-sdk-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 02:21:35] INFO root fetch - processPackages [rosetta-soil]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 02:21:35] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/55/59/53be4a44d778aa9a2e2b63afe372493a11a17d0ed224ed95cc5a778fbc89/workforce-1.0.8.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/ab/b1/6105cf72247a96af8a347369131cafc13ef0514ed19e8a57f84b1a86b90c/pokernow-0.6.3.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/04/11/cf439f072f960e20cd3dfab10b71bbf1b0369817db358e90f778f912b1b9/cdk-cr-constructs-2.1.442.tar.gz
+[2024-05-03 02:21:35] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15096873>=10485760
+[2024-05-03 02:21:35] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-03 02:21:35] INFO root fetch - processPackages [rosetta-soil]: Downloading https://files.pythonhosted.org/packages/47/7b/d2b7c5f8e13de10725d88672f51e8a7e14e561ee22d0efdab0dc791d1dda/rosetta-soil-0.1.1.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/e6/7e/5025c35c624204d38d96724d6aab30af89667c1276120666cdb5711d6d67/air-sdk-python-0.9.0.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/2d/19/86805c3946865872d10ea1e4ee5d133e7a8a82b698617f1b47e9b91cb517/workforce-1.0.9.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2024-05-03 02:21:35] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.8.tar.gz tmp/workforce-1.0.9.tar.gz --markdown 20240503/w/workforce/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 02:21:35] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/62/d5/3c5088b82aca75b4789fc38003f0ce433874f2b88338f405bc0957bb97b2/pokernow-0.6.45.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240503/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-03 02:21:35] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-03 02:21:35] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240503/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-03 02:21:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240503/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-03 02:21:35] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:21:35] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.6.3.tar.gz tmp/pokernow-0.6.45.tar.gz --markdown 20240503/P/PokerNow/0.6.3-0.6.45/README.md --exclude *.pyd
+[2024-05-03 02:21:35] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/c8/bc/3a6f4f24fc59dd5729c85aa82d63b1395ca97704eb7368fe064c5f911f24/air-sdk-python-0.9.1.tar.gz
+[2024-05-03 02:21:35] INFO root fetch - processPackages [air-sdk-python]: executing diffoscope
+[2024-05-03 02:21:35] INFO root fetch - processPackages [air-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air-sdk-python-0.9.0.tar.gz tmp/air-sdk-python-0.9.1.tar.gz --markdown 20240503/a/air-sdk-python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-03 02:21:36] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.8.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.9.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2024-05-03 02:21:36] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-03 02:21:36] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-03 02:21:36] INFO root fetch - processPackages [rosetta-soil]: Downloading https://files.pythonhosted.org/packages/e3/d9/e33023203821d86aa8eed791460cedde8bc92c6611bf99990048eb490d06/rosetta_soil-0.1.2.tar.gz
+[2024-05-03 02:21:36] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.3.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.45.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:21:36] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-03 02:21:36] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.0.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.1.tar.gz]
+[2024-05-03 02:21:36] INFO root fetch - main [MainThread]: End processing [air-sdk-python]: success
+[2024-05-03 02:21:36] INFO root fetch - processPackages [rosetta-soil]: executing diffoscope
+[2024-05-03 02:21:36] INFO root fetch - processPackages [rosetta-soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-soil-0.1.1.tar.gz tmp/rosetta_soil-0.1.2.tar.gz --markdown 20240503/r/rosetta-soil/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 02:21:37] INFO root fetch - processPackages [rosetta-soil]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-soil-0.1.1.tar.gz]
+[2024-05-03 02:21:37] INFO root fetch - processPackages [rosetta-soil]: Remove: archive file [/home/abi/fetcher/tmp/rosetta_soil-0.1.2.tar.gz]
+[2024-05-03 02:21:37] INFO root fetch - main [MainThread]: End processing [rosetta-soil]: success
+[2024-05-03 02:21:37] INFO root fetch - main [MainThread]: Store serial: [23038999]
