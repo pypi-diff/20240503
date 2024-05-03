@@ -14419,3 +14419,79 @@
 [2024-05-03 10:57:58] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.9.0.tar.gz]
 [2024-05-03 10:57:58] INFO root fetch - main [MainThread]: End processing [tuxmake]: success
 [2024-05-03 10:57:58] INFO root fetch - main [MainThread]: Store serial: [23043610]
+[2024-05-03 11:00:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043610]
+[2024-05-03 11:00:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ozonetel-ai
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-pro
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runhelper
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitpoll
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runhelper
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tutbot
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lm-format-enforcer
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: affinda
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crocodeel
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.121] Old Version: [0.0.12]
+[2024-05-03 11:00:12] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 11:00:12] INFO root fetch - processPackages [crocodeel]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-03 11:00:12] INFO root fetch - processPackages [affinda]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-03 11:00:12] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/58/65/b3047c9fb6da575697f3e7b24bced34e23ef9e0b217111f6b5e126c73d81/ozonetel-ai-0.0.12.tar.gz
+[2024-05-03 11:00:12] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-05-03 11:00:12] INFO root fetch - processPackages [runhelper]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-03 11:00:12] INFO root fetch - processPackages [runhelper]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-03 11:00:12] WARNING root fetch - processPackages [tutbot]: Skipping, unable to determine old version
+[2024-05-03 11:00:12] INFO root fetch - main [MainThread]: End processing [tutbot] error
+[2024-05-03 11:00:12] INFO root fetch - processPackages [gitpoll]: New version: [1.8.1] Old Version: [1.7.0]
+[2024-05-03 11:00:12] INFO root fetch - processPackages [lm-format-enforcer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 11:00:12] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/b8/42/2d7ae0302daac690c91569d7fbb66707c626d6712fd25b8b2e92aba77435/affinda-4.8.1.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [crocodeel]: Downloading https://files.pythonhosted.org/packages/af/81/0c053614492cec8402ff90b899057537b5f46d3c493bcd45e8541cc5a7b8/crocodeel-1.0.0.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [runhelper]: Downloading https://files.pythonhosted.org/packages/58/70/3bbe6d8fd81ea1fc5cda879c236a65b84fc618dea9ef3beee74a73fab819/runhelper-0.2.2.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [runhelper]: Downloading https://files.pythonhosted.org/packages/58/70/3bbe6d8fd81ea1fc5cda879c236a65b84fc618dea9ef3beee74a73fab819/runhelper-0.2.2.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [lm-format-enforcer]: Downloading https://files.pythonhosted.org/packages/8a/bd/01f4485f47e3636e57dfee24bad759773231042a69db930b15d968682315/lm_format_enforcer-0.9.8.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [gitpoll]: Downloading https://files.pythonhosted.org/packages/eb/6f/5306be5e583315115dab7c6c572d85aa74e45896c926151e449eaeb2266c/gitpoll-1.7.0-py3-none-any.whl
+[2024-05-03 11:00:13] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/27/14/0974ffb17feb20d1870434401d523dfd68229befd4a340456b1a9f07ece3/affinda-4.9.0.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/21/0f/a270722479abcb8f2f8ec1f796f8d66ecdca637895eba367513f42240dd6/ozonetel-ai-0.0.121.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [runhelper]: Downloading https://files.pythonhosted.org/packages/3a/5f/823f9b6b73c7c6498baf2c9793d1dec2d1ac5c6e680e71af7a99300a414c/runhelper-0.2.3.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [runhelper]: Downloading https://files.pythonhosted.org/packages/3a/5f/823f9b6b73c7c6498baf2c9793d1dec2d1ac5c6e680e71af7a99300a414c/runhelper-0.2.3.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-05-03 11:00:13] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240503/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 11:00:13] INFO root fetch - processPackages [lm-format-enforcer]: Downloading https://files.pythonhosted.org/packages/2a/94/8833d38190a2393888e5f6682b3abf17a9fd32ec22d8a967c1e511b16c5a/lm_format_enforcer-0.9.9.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2024-05-03 11:00:13] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.8.1.tar.gz tmp/affinda-4.9.0.tar.gz --markdown 20240503/a/affinda/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-03 11:00:13] INFO root fetch - processPackages [gitpoll]: Downloading https://files.pythonhosted.org/packages/66/4a/2126fd0774bcd2215ec26ae3683c944143c2e75df1205ab3e2106fd7696c/gitpoll-1.8.1-py3-none-any.whl
+[2024-05-03 11:00:13] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-05-03 11:00:13] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.12.tar.gz tmp/ozonetel-ai-0.0.121.tar.gz --markdown 20240503/o/ozonetel-ai/0.0.12-0.0.121/README.md --exclude *.pyd
+[2024-05-03 11:00:13] INFO root fetch - processPackages [runhelper]: executing diffoscope
+[2024-05-03 11:00:13] INFO root fetch - processPackages [runhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runhelper-0.2.2.tar.gz tmp/runhelper-0.2.3.tar.gz --markdown 20240503/r/runhelper/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-03 11:00:13] INFO root fetch - processPackages [runhelper]: executing diffoscope
+[2024-05-03 11:00:13] INFO root fetch - processPackages [runhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runhelper-0.2.2.tar.gz tmp/runhelper-0.2.3.tar.gz --markdown 20240503/r/runhelper/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-03 11:00:13] INFO root fetch - processPackages [lm-format-enforcer]: executing diffoscope
+[2024-05-03 11:00:13] INFO root fetch - processPackages [lm-format-enforcer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_format_enforcer-0.9.8.tar.gz tmp/lm_format_enforcer-0.9.9.tar.gz --markdown 20240503/l/lm-format-enforcer/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 11:00:13] INFO root fetch - processPackages [crocodeel]: Downloading https://files.pythonhosted.org/packages/71/d7/ce3e0bfa716c3c1ab333d230dc0feeee2a9ad230a88b9cecc399c06ecde5/crocodeel-1.0.1.tar.gz
+[2024-05-03 11:00:13] INFO root fetch - processPackages [gitpoll]: executing diffoscope
+[2024-05-03 11:00:13] INFO root fetch - processPackages [gitpoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitpoll-1.7.0-py3-none-any.whl.zip tmp/gitpoll-1.8.1-py3-none-any.whl.zip --markdown 20240503/g/gitpoll/1.7.0-1.8.1/README.md --exclude *.pyd
+[2024-05-03 11:00:14] INFO root fetch - processPackages [crocodeel]: executing diffoscope
+[2024-05-03 11:00:14] INFO root fetch - processPackages [crocodeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crocodeel-1.0.0.tar.gz tmp/crocodeel-1.0.1.tar.gz --markdown 20240503/c/crocodeel/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-03 11:00:14] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-05-03 11:00:14] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.12.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.121.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-05-03 11:00:14] INFO root fetch - processPackages [lm-format-enforcer]: Remove: archive file [/home/abi/fetcher/tmp/lm_format_enforcer-0.9.8.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - processPackages [lm-format-enforcer]: Remove: archive file [/home/abi/fetcher/tmp/lm_format_enforcer-0.9.9.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - main [MainThread]: End processing [lm-format-enforcer]: success
+[2024-05-03 11:00:14] INFO root fetch - processPackages [runhelper]: Remove: archive file [/home/abi/fetcher/tmp/runhelper-0.2.2.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - processPackages [runhelper]: Remove: archive file [/home/abi/fetcher/tmp/runhelper-0.2.3.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - main [MainThread]: End processing [runhelper]: success
+[2024-05-03 11:00:14] INFO root fetch - main [MainThread]: End processing [runhelper]: success
+[2024-05-03 11:00:14] INFO root fetch - processPackages [gitpoll]: Remove: archive file [/home/abi/fetcher/tmp/gitpoll-1.7.0-py3-none-any.whl.zip]
+[2024-05-03 11:00:14] INFO root fetch - processPackages [gitpoll]: Remove: archive file [/home/abi/fetcher/tmp/gitpoll-1.8.1-py3-none-any.whl.zip]
+[2024-05-03 11:00:14] INFO root fetch - main [MainThread]: End processing [gitpoll]: success
+[2024-05-03 11:00:14] INFO root fetch - processPackages [crocodeel]: Remove: archive file [/home/abi/fetcher/tmp/crocodeel-1.0.0.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - processPackages [crocodeel]: Remove: archive file [/home/abi/fetcher/tmp/crocodeel-1.0.1.tar.gz]
+[2024-05-03 11:00:14] INFO root fetch - main [MainThread]: End processing [crocodeel]: success
+[2024-05-03 11:00:16] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.8.1.tar.gz]
+[2024-05-03 11:00:16] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.9.0.tar.gz]
+[2024-05-03 11:00:16] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2024-05-03 11:00:16] INFO root fetch - main [MainThread]: Store serial: [23043641]
