@@ -17430,3 +17430,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:23:23] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.4.4-cp312-cp312-win_amd64.whl.zip]
 [2024-05-03 13:23:23] INFO root fetch - main [MainThread]: End processing [ximu3]: success
 [2024-05-03 13:23:23] INFO root fetch - main [MainThread]: Store serial: [23045156]
+[2024-05-03 13:25:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045156]
+[2024-05-03 13:25:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 13:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffsptk
+[2024-05-03 13:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parkapi-sources
+[2024-05-03 13:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-eggplantlibrary
+[2024-05-03 13:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-serving
+[2024-05-03 13:25:54] INFO root fetch - processPackages [parkapi-sources]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-03 13:25:54] WARNING root fetch - processPackages [tf-serving]: Skipping, unable to determine old version
+[2024-05-03 13:25:54] INFO root fetch - main [MainThread]: End processing [tf-serving] error
+[2024-05-03 13:25:54] INFO root fetch - processPackages [parkapi-sources]: Downloading https://files.pythonhosted.org/packages/cb/87/f119b32d2af8e24bd284e5c9a837fb61de4761fd2ddc8eb21119fb505cb9/parkapi_sources-0.2.0.tar.gz
+[2024-05-03 13:25:54] INFO root fetch - processPackages [diffsptk]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-03 13:25:54] INFO root fetch - processPackages [robotframework-eggplantlibrary]: New version: [22.1.8] Old Version: [22.1.7]
+[2024-05-03 13:25:55] INFO root fetch - processPackages [diffsptk]: Downloading https://files.pythonhosted.org/packages/83/23/2d34aec2588ca5998d3049dcd943f9fd71bcfef95906c06a6198dab4d3e2/diffsptk-2.0.0.tar.gz
+[2024-05-03 13:25:55] INFO root fetch - processPackages [robotframework-eggplantlibrary]: Downloading https://files.pythonhosted.org/packages/c4/8b/62f59c383da1599ffc7520eaa7c0f7ea990b03583617e8b0cd5f859ee67e/robotframework-eggplantlibrary-22.1.7.tar.gz
+[2024-05-03 13:25:55] INFO root fetch - processPackages [parkapi-sources]: Downloading https://files.pythonhosted.org/packages/d8/05/dcbbf8affdd5c412559e910691f3c9f51a29c5204383107c4279340347a1/parkapi_sources-0.3.0.tar.gz
+[2024-05-03 13:25:55] INFO root fetch - processPackages [parkapi-sources]: executing diffoscope
+[2024-05-03 13:25:55] INFO root fetch - processPackages [parkapi-sources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parkapi_sources-0.2.0.tar.gz tmp/parkapi_sources-0.3.0.tar.gz --markdown 20240503/p/parkapi-sources/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-03 13:25:55] INFO root fetch - processPackages [diffsptk]: Downloading https://files.pythonhosted.org/packages/17/77/7aa0fad67962bc468b4ab58117009b2da5a89c0ddc5c5358c29c579ce167/diffsptk-2.0.1-py3-none-any.whl
+[2024-05-03 13:25:55] INFO root fetch - processPackages [robotframework-eggplantlibrary]: Downloading https://files.pythonhosted.org/packages/5e/e1/1b7e64212a73fb173a2c27beaea4aae69713e674c9f3136daf8c80d650cc/robotframework_eggplantlibrary-22.1.8.tar.gz
+[2024-05-03 13:25:55] INFO root fetch - processPackages [diffsptk]: executing diffoscope
+[2024-05-03 13:25:55] INFO root fetch - processPackages [diffsptk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffsptk-2.0.0.tar.gz tmp/diffsptk-2.0.1-py3-none-any.whl.zip --markdown 20240503/d/diffsptk/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-03 13:25:55] INFO root fetch - processPackages [robotframework-eggplantlibrary]: executing diffoscope
+[2024-05-03 13:25:55] INFO root fetch - processPackages [robotframework-eggplantlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-eggplantlibrary-22.1.7.tar.gz tmp/robotframework_eggplantlibrary-22.1.8.tar.gz --markdown 20240503/r/robotframework-eggplantlibrary/22.1.7-22.1.8/README.md --exclude *.pyd
+[2024-05-03 13:25:56] INFO root fetch - processPackages [diffsptk]: Remove: archive file [/home/abi/fetcher/tmp/diffsptk-2.0.0.tar.gz]
+[2024-05-03 13:25:56] INFO root fetch - processPackages [diffsptk]: Remove: archive file [/home/abi/fetcher/tmp/diffsptk-2.0.1-py3-none-any.whl.zip]
+[2024-05-03 13:25:56] INFO root fetch - main [MainThread]: End processing [diffsptk]: success
+[2024-05-03 13:25:56] INFO root fetch - processPackages [robotframework-eggplantlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-eggplantlibrary-22.1.7.tar.gz]
+[2024-05-03 13:25:56] INFO root fetch - processPackages [robotframework-eggplantlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_eggplantlibrary-22.1.8.tar.gz]
+[2024-05-03 13:25:56] INFO root fetch - main [MainThread]: End processing [robotframework-eggplantlibrary]: success
+[2024-05-03 13:25:56] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.2.0.tar.gz]
+[2024-05-03 13:25:56] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.3.0.tar.gz]
+[2024-05-03 13:25:56] INFO root fetch - main [MainThread]: End processing [parkapi-sources]: success
+[2024-05-03 13:25:56] INFO root fetch - main [MainThread]: Store serial: [23045167]
