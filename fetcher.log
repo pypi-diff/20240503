@@ -6867,3 +6867,24 @@
 [2024-05-03 03:40:06] WARNING root fetch - processPackages [bioseba]: Skipping, unable to determine old version
 [2024-05-03 03:40:06] INFO root fetch - main [MainThread]: End processing [bioseba] error
 [2024-05-03 03:40:06] INFO root fetch - main [MainThread]: Store serial: [23040650]
+[2024-05-03 03:42:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040650]
+[2024-05-03 03:42:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 03:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: albumentations
+[2024-05-03 03:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: param-sweeps
+[2024-05-03 03:42:15] INFO root fetch - processPackages [albumentations]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-03 03:42:15] INFO root fetch - processPackages [param-sweeps]: New version: [0.1.7rc2] Old Version: [0.1.7rc1]
+[2024-05-03 03:42:15] INFO root fetch - processPackages [albumentations]: Downloading https://files.pythonhosted.org/packages/28/d1/71ce412e010dc940966ce2adc7a998ae3c67d98ea9974565f100cdd0a2e5/albumentations-1.4.4.tar.gz
+[2024-05-03 03:42:15] INFO root fetch - processPackages [param-sweeps]: Downloading https://files.pythonhosted.org/packages/76/f4/e6687161dc7e7f267341edc059cf8d7a47158cc6d9316dcac1a9a43c4ee2/param_sweeps-0.1.7rc1.tar.gz
+[2024-05-03 03:42:16] INFO root fetch - processPackages [albumentations]: Downloading https://files.pythonhosted.org/packages/d3/1f/dba19283a16c774cc5c883457f603074a60fd531f2d7136eca1345caff1b/albumentations-1.4.5.tar.gz
+[2024-05-03 03:42:16] INFO root fetch - processPackages [param-sweeps]: Downloading https://files.pythonhosted.org/packages/ed/42/8bb6f9cabfd44b21c37ded6ee1eb0a8e55dfc0b91365ea8c55439a883aa8/param_sweeps-0.1.7rc2.tar.gz
+[2024-05-03 03:42:16] INFO root fetch - processPackages [albumentations]: executing diffoscope
+[2024-05-03 03:42:16] INFO root fetch - processPackages [albumentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/albumentations-1.4.4.tar.gz tmp/albumentations-1.4.5.tar.gz --markdown 20240503/a/albumentations/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-03 03:42:16] INFO root fetch - processPackages [param-sweeps]: executing diffoscope
+[2024-05-03 03:42:16] INFO root fetch - processPackages [param-sweeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/param_sweeps-0.1.7rc1.tar.gz tmp/param_sweeps-0.1.7rc2.tar.gz --markdown 20240503/p/param-sweeps/0.1.7rc1-0.1.7rc2/README.md --exclude *.pyd
+[2024-05-03 03:42:16] INFO root fetch - processPackages [param-sweeps]: Remove: archive file [/home/abi/fetcher/tmp/param_sweeps-0.1.7rc1.tar.gz]
+[2024-05-03 03:42:16] INFO root fetch - processPackages [param-sweeps]: Remove: archive file [/home/abi/fetcher/tmp/param_sweeps-0.1.7rc2.tar.gz]
+[2024-05-03 03:42:16] INFO root fetch - main [MainThread]: End processing [param-sweeps]: success
+[2024-05-03 03:42:17] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.4.tar.gz]
+[2024-05-03 03:42:17] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.5.tar.gz]
+[2024-05-03 03:42:17] INFO root fetch - main [MainThread]: End processing [albumentations]: success
+[2024-05-03 03:42:17] INFO root fetch - main [MainThread]: Store serial: [23040656]
