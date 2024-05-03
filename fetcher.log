@@ -8894,3 +8894,27 @@
 [2024-05-03 06:03:43] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
 [2024-05-03 06:03:43] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2024-05-03 06:03:43] INFO root fetch - main [MainThread]: Store serial: [23041372]
+[2024-05-03 06:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041372]
+[2024-05-03 06:05:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 06:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radhesh
+[2024-05-03 06:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skillpacks
+[2024-05-03 06:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-binary
+[2024-05-03 06:05:52] INFO root fetch - processPackages [skillpacks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 06:05:52] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/e5/2f/a1c43b4d509c4f512639a4b941f93a4a156c544bd2a39f3491b050d2ebbf/skillpacks-0.1.8.tar.gz
+[2024-05-03 06:05:52] WARNING root fetch - processPackages [radhesh]: Skipping, unable to determine old version
+[2024-05-03 06:05:52] INFO root fetch - main [MainThread]: End processing [radhesh] error
+[2024-05-03 06:05:52] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-03 06:05:52] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/b6/89/f0de80c844dbbf0e0a57a873f9722d300512a78e06c8ea86863eb3f8391d/skillpacks-0.1.9.tar.gz
+[2024-05-03 06:05:52] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-03 06:05:52] INFO root fetch - processPackages [skillpacks]: executing diffoscope
+[2024-05-03 06:05:52] INFO root fetch - processPackages [skillpacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillpacks-0.1.8.tar.gz tmp/skillpacks-0.1.9.tar.gz --markdown 20240503/s/skillpacks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 06:05:53] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-03 06:05:53] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-03 06:05:53] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240503/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-03 06:05:53] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.8.tar.gz]
+[2024-05-03 06:05:53] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.9.tar.gz]
+[2024-05-03 06:05:53] INFO root fetch - main [MainThread]: End processing [skillpacks]: success
+[2024-05-03 06:05:53] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-03 06:05:53] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-03 06:05:53] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-03 06:05:53] INFO root fetch - main [MainThread]: Store serial: [23041383]
