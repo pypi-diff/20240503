@@ -15079,3 +15079,60 @@
 [2024-05-03 11:30:14] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.96.0.tar.gz]
 [2024-05-03 11:30:14] INFO root fetch - main [MainThread]: End processing [packitos]: success
 [2024-05-03 11:30:14] INFO root fetch - main [MainThread]: Store serial: [23043875]
+[2024-05-03 11:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043875]
+[2024-05-03 11:32:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 11:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netspresso-trainer
+[2024-05-03 11:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqqq
+[2024-05-03 11:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parse-qwantz
+[2024-05-03 11:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotx
+[2024-05-03 11:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitpoll
+[2024-05-03 11:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: germanetpy
+[2024-05-03 11:32:43] INFO root fetch - processPackages [aiotx]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 11:32:43] INFO root fetch - processPackages [gitpoll]: New version: [1.8.1] Old Version: [1.7.0]
+[2024-05-03 11:32:43] INFO root fetch - processPackages [pyqqq]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 11:32:43] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/36/da/19f7f17d7a128096a2b41d80aa2aeb285685fca72025b4a58ba1c36bdeb8/aiotx-0.1.0.tar.gz
+[2024-05-03 11:32:43] INFO root fetch - processPackages [parse-qwantz]: New version: [2024.5.1] Old Version: [2024.4.1]
+[2024-05-03 11:32:43] INFO root fetch - processPackages [germanetpy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-03 11:32:43] INFO root fetch - processPackages [gitpoll]: Downloading https://files.pythonhosted.org/packages/eb/6f/5306be5e583315115dab7c6c572d85aa74e45896c926151e449eaeb2266c/gitpoll-1.7.0-py3-none-any.whl
+[2024-05-03 11:32:43] INFO root fetch - processPackages [netspresso-trainer]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-03 11:32:43] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/53/b9/323b7c1a39c021b4e8c1a4f8f682d4f1a89498bfc149772f8ace20886502/pyqqq-0.9.0.tar.gz
+[2024-05-03 11:32:43] INFO root fetch - processPackages [parse-qwantz]: Downloading https://files.pythonhosted.org/packages/3e/fd/22a9be53e3ef22c1c72a6ed40ebb2e1ea1325ccdbb0b01d926072584b6d0/parse_qwantz-2024.4.1.tar.gz
+[2024-05-03 11:32:43] INFO root fetch - processPackages [netspresso-trainer]: Downloading https://files.pythonhosted.org/packages/80/e8/533cfad10a42f4b523127203954ca537e44717b65362da688e3203e0de1b/netspresso_trainer-0.2.0.tar.gz
+[2024-05-03 11:32:43] INFO root fetch - processPackages [gitpoll]: Downloading https://files.pythonhosted.org/packages/66/4a/2126fd0774bcd2215ec26ae3683c944143c2e75df1205ab3e2106fd7696c/gitpoll-1.8.1-py3-none-any.whl
+[2024-05-03 11:32:43] INFO root fetch - processPackages [germanetpy]: Downloading https://files.pythonhosted.org/packages/2a/d4/c185fb3a9ef1c50ea27383d781d1b56bfed4b7a9aa6f84c520fa1e6afbc4/germanetpy-0.2.2.tar.gz
+[2024-05-03 11:32:43] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/d7/a8/9c67700a6c9645fa7356f3387b4be6e50e5f09efb36b80e65a1275442e24/aiotx-0.2.0.tar.gz
+[2024-05-03 11:32:43] INFO root fetch - processPackages [gitpoll]: executing diffoscope
+[2024-05-03 11:32:43] INFO root fetch - processPackages [gitpoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitpoll-1.7.0-py3-none-any.whl.zip tmp/gitpoll-1.8.1-py3-none-any.whl.zip --markdown 20240503/g/gitpoll/1.7.0-1.8.1/README.md --exclude *.pyd
+[2024-05-03 11:32:43] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/55/f0/1d88f0b9bb327b7d88da4913a7866e75fa22fe8161bb0370c16df9741782/pyqqq-0.9.1.tar.gz
+[2024-05-03 11:32:44] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-05-03 11:32:44] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-0.1.0.tar.gz tmp/aiotx-0.2.0.tar.gz --markdown 20240503/a/aiotx/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 11:32:44] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-03 11:32:44] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.0.tar.gz tmp/pyqqq-0.9.1.tar.gz --markdown 20240503/p/pyqqq/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-03 11:32:44] INFO root fetch - processPackages [netspresso-trainer]: Downloading https://files.pythonhosted.org/packages/37/c1/6fc304a44ef963f42364ddd0e133d73bd45340fb44ba9c4edb93eab679ad/netspresso_trainer-0.2.1.tar.gz
+[2024-05-03 11:32:44] INFO root fetch - processPackages [germanetpy]: Downloading https://files.pythonhosted.org/packages/6d/80/91e8d83418e8bc94774e1280c75dd6cdd8ffa783dc31f0e741a49eba91c0/germanetpy-0.2.3-py3-none-any.whl
+[2024-05-03 11:32:44] INFO root fetch - processPackages [parse-qwantz]: Downloading https://files.pythonhosted.org/packages/dd/55/db5d365890817743189664053381b64820abf32ecca5bc2f59f5583440c4/parse_qwantz-2024.5.1.tar.gz
+[2024-05-03 11:32:44] INFO root fetch - processPackages [germanetpy]: executing diffoscope
+[2024-05-03 11:32:44] INFO root fetch - processPackages [germanetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/germanetpy-0.2.2.tar.gz tmp/germanetpy-0.2.3-py3-none-any.whl.zip --markdown 20240503/g/germanetpy/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-03 11:32:44] INFO root fetch - processPackages [netspresso-trainer]: executing diffoscope
+[2024-05-03 11:32:44] INFO root fetch - processPackages [netspresso-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso_trainer-0.2.0.tar.gz tmp/netspresso_trainer-0.2.1.tar.gz --markdown 20240503/n/netspresso-trainer/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-03 11:32:44] INFO root fetch - processPackages [gitpoll]: Remove: archive file [/home/abi/fetcher/tmp/gitpoll-1.7.0-py3-none-any.whl.zip]
+[2024-05-03 11:32:44] INFO root fetch - processPackages [gitpoll]: Remove: archive file [/home/abi/fetcher/tmp/gitpoll-1.8.1-py3-none-any.whl.zip]
+[2024-05-03 11:32:44] INFO root fetch - main [MainThread]: End processing [gitpoll]: success
+[2024-05-03 11:32:44] INFO root fetch - processPackages [parse-qwantz]: executing diffoscope
+[2024-05-03 11:32:44] INFO root fetch - processPackages [parse-qwantz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_qwantz-2024.4.1.tar.gz tmp/parse_qwantz-2024.5.1.tar.gz --markdown 20240503/p/parse-qwantz/2024.4.1-2024.5.1/README.md --exclude *.pyd
+[2024-05-03 11:32:44] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.1.0.tar.gz]
+[2024-05-03 11:32:44] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.2.0.tar.gz]
+[2024-05-03 11:32:44] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-05-03 11:32:44] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.0.tar.gz]
+[2024-05-03 11:32:44] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.1.tar.gz]
+[2024-05-03 11:32:44] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-03 11:32:44] INFO root fetch - processPackages [germanetpy]: Remove: archive file [/home/abi/fetcher/tmp/germanetpy-0.2.2.tar.gz]
+[2024-05-03 11:32:44] INFO root fetch - processPackages [germanetpy]: Remove: archive file [/home/abi/fetcher/tmp/germanetpy-0.2.3-py3-none-any.whl.zip]
+[2024-05-03 11:32:44] INFO root fetch - main [MainThread]: End processing [germanetpy]: success
+[2024-05-03 11:32:45] INFO root fetch - processPackages [netspresso-trainer]: Remove: archive file [/home/abi/fetcher/tmp/netspresso_trainer-0.2.0.tar.gz]
+[2024-05-03 11:32:45] INFO root fetch - processPackages [netspresso-trainer]: Remove: archive file [/home/abi/fetcher/tmp/netspresso_trainer-0.2.1.tar.gz]
+[2024-05-03 11:32:45] INFO root fetch - main [MainThread]: End processing [netspresso-trainer]: success
+[2024-05-03 11:32:45] INFO root fetch - processPackages [parse-qwantz]: Remove: archive file [/home/abi/fetcher/tmp/parse_qwantz-2024.4.1.tar.gz]
+[2024-05-03 11:32:45] INFO root fetch - processPackages [parse-qwantz]: Remove: archive file [/home/abi/fetcher/tmp/parse_qwantz-2024.5.1.tar.gz]
+[2024-05-03 11:32:45] INFO root fetch - main [MainThread]: End processing [parse-qwantz]: success
+[2024-05-03 11:32:45] INFO root fetch - main [MainThread]: Store serial: [23043891]
