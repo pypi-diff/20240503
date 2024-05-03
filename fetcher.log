@@ -19406,3 +19406,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:53:10] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.5.0.tar.gz]
 [2024-05-03 14:53:10] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
 [2024-05-03 14:53:10] INFO root fetch - main [MainThread]: Store serial: [23046157]
+[2024-05-03 14:55:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046157]
+[2024-05-03 14:55:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ood_detectors
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub-core
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalhub-data
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-core]: New version: [0.4.0b3] Old Version: [0.4.0b2]
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-data]: New version: [0.4.0b3] Old Version: [0.4.0b2]
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 14:55:44] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.9] Old Version: [14.0.1.0.8]
+[2024-05-03 14:55:44] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/24/b3/b8fed2df1e164e176f2f2475b4c7e5b78450a6cc1bcc054f3f202fd3bb5f/digitalhub_core-0.4.0b2.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/a4/b6/d2b20ab3c150b182637df29743656d27a234a2bb954171fd185929384e80/digitalhub_data-0.4.0b2.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/29/36/7268bc24d8389016271fa5339775a21de8b62a9394c3f27c7da5eee932d4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/60/4d/159cbe2b8256b8d7f63d0f1ab390be99aca937a58762a588cf681669d1e5/ood_detectors-0.0.5.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/13/03/6915a3c633470c22dba4a7685251875db11ed69e963c9af3904f4c5eca93/digitalhub_data-0.4.0b3.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/9e/49/a250e1260cf00140ff4f75c64690e4beed9cd22f16a43eb3fe65af41bf21/ood_detectors-0.0.6.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/3d/55/83d2fe210ed4162df3d3033df922f8f43296acfaa5a52bd9a0cca42c1ffb/digitalhub_core-0.4.0b3.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/e2/db/60f2eaaffb9864df5bb98ea187aef4761d8a58c121f9814ea9db53e834bb/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_data-0.4.0b2.tar.gz tmp/digitalhub_data-0.4.0b3.tar.gz --markdown 20240503/d/digitalhub-data/0.4.0b2-0.4.0b3/README.md --exclude *.pyd
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-03 14:55:44] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.5.tar.gz tmp/ood_detectors-0.0.6.tar.gz --markdown 20240503/o/ood_detectors/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 14:55:44] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2024-05-03 14:55:44] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz --markdown 20240503/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.8-14.0.1.0.9/README.md --exclude *.pyd
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-05-03 14:55:44] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_core-0.4.0b2.tar.gz tmp/digitalhub_core-0.4.0b3.tar.gz --markdown 20240503/d/digitalhub-core/0.4.0b2-0.4.0b3/README.md --exclude *.pyd
+[2024-05-03 14:55:44] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 14:55:44] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 14:55:45] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2024-05-03 14:55:45] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.5.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.6.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-03 14:55:45] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b2.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b3.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-05-03 14:55:45] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 14:55:45] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b2.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b3.tar.gz]
+[2024-05-03 14:55:45] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-05-03 14:55:45] INFO root fetch - main [MainThread]: Store serial: [23046172]
