@@ -18144,3 +18144,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:56:33] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip]
 [2024-05-03 13:56:34] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
 [2024-05-03 13:56:34] INFO root fetch - main [MainThread]: Store serial: [23045478]
+[2024-05-03 13:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045478]
+[2024-05-03 13:59:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gooddata-pandas
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gooddata-dbt
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gooddata-api-client
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: romepy
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gooddata-sdk
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ramodels
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indi-pylibcamera
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aistudio-cognition
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ampel-ztf
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: speechmatics-python
+[2024-05-03 13:59:05] INFO root fetch - processPackages [gooddata-pandas]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [romepy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [indi-pylibcamera]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [gooddata-dbt]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/b4/78/c802b0dc962bb56b61f12a880d027f833c71800fd9c86fe100dcefac27a8/gooddata-pandas-1.9.0.tar.gz
+[2024-05-03 13:59:05] INFO root fetch - processPackages [indi-pylibcamera]: Downloading https://files.pythonhosted.org/packages/21/0f/e5657d86bce3761a9c8381dd6c950a7ec398ba694c448be310edb356d0db/indi_pylibcamera-2.6.0.tar.gz
+[2024-05-03 13:59:05] INFO root fetch - processPackages [aistudio-cognition]: New version: [3.5.0.1] Old Version: [3.5.0]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [speechmatics-python]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ampel-ztf]: New version: [0.9.1a0] Old Version: [0.9.0]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [gooddata-sdk]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [romepy]: Downloading https://files.pythonhosted.org/packages/cd/f6/e7636faeb0ecd446e42c99f97bbb4450233f29ea72c296153a0561f44237/romepy-0.1.0.tar.gz
+[2024-05-03 13:59:05] INFO root fetch - processPackages [gooddata-api-client]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-03 13:59:05] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-05-03 13:59:05] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/af/d2/74aa045051a6c3cdd9c60744f54e18244cd5c3685b0cfd8316ead7fb5f9f/gooddata-dbt-1.9.0.tar.gz
+[2024-05-03 13:59:05] INFO root fetch - processPackages [aistudio-cognition]: Downloading https://files.pythonhosted.org/packages/70/b9/0b85f9a0f987963065f8016faefa066fca3840e4a1fa9f546442c1abfd0c/aistudio_cognition-3.5.0.tar.gz
+[2024-05-03 13:59:05] INFO root fetch - processPackages [speechmatics-python]: Downloading https://files.pythonhosted.org/packages/28/8f/df3c4123fec7fa30ede361865129b08b962003f6ce42bc4e68bab6942e97/speechmatics-python-1.8.4.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [ampel-ztf]: Downloading https://files.pythonhosted.org/packages/7a/61/3ef95337f4996d8918d61035f11c37eaca24960c92bd5aa5e82aa4821568/ampel_ztf-0.9.0.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/f3/80/4285744ed6a565ac4ea49b7bf637e5e00d407d67abf103cc8671bd0e3261/gooddata-sdk-1.9.0.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/ab/1b/0071a38eef6ed1cb68b13e41220cddc882c9bc97969963d703a01c57a62a/gooddata-pandas-1.9.1.dev1.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/16/e7/c8ceec7d71a92b4eff603eafab900647224f57543526dbf8b1c8e453ec98/gooddata-api-client-1.9.0.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [indi-pylibcamera]: Downloading https://files.pythonhosted.org/packages/b2/06/8de0155d0a00da632bb519707d3ec65752258bd6e54b1326b7303b1c995e/indi_pylibcamera-2.6.1.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [romepy]: Downloading https://files.pythonhosted.org/packages/bc/58/183fbd1cfbabbc7b0cb61a9ef5155dd4245891073ac31b9c34f92f5a5ee9/romepy-0.1.1.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [indi-pylibcamera]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [indi-pylibcamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indi_pylibcamera-2.6.0.tar.gz tmp/indi_pylibcamera-2.6.1.tar.gz --markdown 20240503/i/indi-pylibcamera/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-pandas]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-pandas-1.9.0.tar.gz tmp/gooddata-pandas-1.9.1.dev1.tar.gz --markdown 20240503/g/gooddata-pandas/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [romepy]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [romepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romepy-0.1.0.tar.gz tmp/romepy-0.1.1.tar.gz --markdown 20240503/r/romepy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/e0/e6/aae416564ce76ca33ee9de368048118ded67271882273787e574c25abeec/gooddata-dbt-1.9.1.dev1.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240503/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/dd/ee/087b761347319baf431af47a6ea7518b52bd18f3781d48b5945cbf3d62c7/gooddata-sdk-1.9.1.dev1.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [aistudio-cognition]: Downloading https://files.pythonhosted.org/packages/8d/4b/0422ecc84fcc259a2b639a106c0efdc4957ba338c91771463f577f052dba/aistudio_cognition-3.5.0.1.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [speechmatics-python]: Downloading https://files.pythonhosted.org/packages/58/ec/0f0029e84effaacc957be5a79127177f722133664014ee39d376be9c768d/speechmatics-python-1.9.0.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [ampel-ztf]: Downloading https://files.pythonhosted.org/packages/f1/19/e297fff6330fd0891d8cedbebd8eeb6f58bb59145e44c9c9348e6ba36fd8/ampel_ztf-0.9.1a0.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-dbt]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-dbt-1.9.0.tar.gz tmp/gooddata-dbt-1.9.1.dev1.tar.gz --markdown 20240503/g/gooddata-dbt/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/15/59/ec005e63eadc0fa8eee98ed734a060dac49dd9466ae60adc2dc0097b34e3/gooddata-api-client-1.9.1.dev1.tar.gz
+[2024-05-03 13:59:06] INFO root fetch - processPackages [aistudio-cognition]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [aistudio-cognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio_cognition-3.5.0.tar.gz tmp/aistudio_cognition-3.5.0.1.tar.gz --markdown 20240503/a/aistudio-cognition/3.5.0-3.5.0.1/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-sdk]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-sdk-1.9.0.tar.gz tmp/gooddata-sdk-1.9.1.dev1.tar.gz --markdown 20240503/g/gooddata-sdk/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [speechmatics-python]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [speechmatics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechmatics-python-1.8.4.tar.gz tmp/speechmatics-python-1.9.0.tar.gz --markdown 20240503/s/speechmatics-python/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [ampel-ztf]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [ampel-ztf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampel_ztf-0.9.0.tar.gz tmp/ampel_ztf-0.9.1a0.tar.gz --markdown 20240503/a/ampel-ztf/0.9.0-0.9.1a0/README.md --exclude *.pyd
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-api-client]: executing diffoscope
+[2024-05-03 13:59:06] INFO root fetch - processPackages [gooddata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-api-client-1.9.0.tar.gz tmp/gooddata-api-client-1.9.1.dev1.tar.gz --markdown 20240503/g/gooddata-api-client/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-03 13:59:07] INFO root fetch - processPackages [romepy]: Remove: archive file [/home/abi/fetcher/tmp/romepy-0.1.0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [romepy]: Remove: archive file [/home/abi/fetcher/tmp/romepy-0.1.1.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [romepy]: Start processing: hnt-sap-gui-library
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [romepy]: success
+[2024-05-03 13:59:07] INFO root fetch - processPackages [hnt-sap-gui-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.1.dev1.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [gooddata-pandas]: Start processing: yeref
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [gooddata-pandas]: success
+[2024-05-03 13:59:07] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.1.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [indi-pylibcamera]: Start processing: my-data-quality-library
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [indi-pylibcamera]: success
+[2024-05-03 13:59:07] INFO root fetch - processPackages [hnt-sap-gui-library]: Downloading https://files.pythonhosted.org/packages/f1/96/ea209b94dc1936505f80eb77ad4daf5d4e3c0c324256748a20b13d657b82/hnt_sap_gui_library-0.0.8.tar.gz
+[2024-05-03 13:59:07] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 13:59:07] WARNING root fetch - processPackages [my-data-quality-library]: Skipping, unable to determine old version
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [my-data-quality-library] error
+[2024-05-03 13:59:07] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-05-03 13:59:07] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 13:59:07] INFO root fetch - processPackages [aistudio-cognition]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_cognition-3.5.0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [aistudio-cognition]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_cognition-3.5.0.1.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [aistudio-cognition]: success
+[2024-05-03 13:59:07] INFO root fetch - processPackages [hnt-sap-gui-library]: Downloading https://files.pythonhosted.org/packages/b4/09/37ee44f483f91eb969849cc3a42a1d99a151bac148504be6d453b8fddb4f/hnt_sap_gui_library-0.0.9.tar.gz
+[2024-05-03 13:59:07] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.1.dev1.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [gooddata-dbt]: success
+[2024-05-03 13:59:07] INFO root fetch - processPackages [speechmatics-python]: Remove: archive file [/home/abi/fetcher/tmp/speechmatics-python-1.8.4.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [speechmatics-python]: Remove: archive file [/home/abi/fetcher/tmp/speechmatics-python-1.9.0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [speechmatics-python]: success
+[2024-05-03 13:59:07] INFO root fetch - processPackages [hnt-sap-gui-library]: executing diffoscope
+[2024-05-03 13:59:07] INFO root fetch - processPackages [hnt-sap-gui-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_sap_gui_library-0.0.8.tar.gz tmp/hnt_sap_gui_library-0.0.9.tar.gz --markdown 20240503/h/hnt-sap-gui-library/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 13:59:07] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 13:59:07] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.1.dev1.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [gooddata-sdk]: success
+[2024-05-03 13:59:07] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 13:59:07] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 13:59:07] INFO root fetch - processPackages [ampel-ztf]: Remove: archive file [/home/abi/fetcher/tmp/ampel_ztf-0.9.0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - processPackages [ampel-ztf]: Remove: archive file [/home/abi/fetcher/tmp/ampel_ztf-0.9.1a0.tar.gz]
+[2024-05-03 13:59:07] INFO root fetch - main [MainThread]: End processing [ampel-ztf]: success
+[2024-05-03 13:59:08] INFO root fetch - processPackages [hnt-sap-gui-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_sap_gui_library-0.0.8.tar.gz]
+[2024-05-03 13:59:08] INFO root fetch - processPackages [hnt-sap-gui-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_sap_gui_library-0.0.9.tar.gz]
+[2024-05-03 13:59:08] INFO root fetch - main [MainThread]: End processing [hnt-sap-gui-library]: success
+[2024-05-03 13:59:08] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 13:59:08] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 13:59:08] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 13:59:13] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.0.tar.gz]
+[2024-05-03 13:59:13] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
+[2024-05-03 13:59:13] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
+[2024-05-03 13:59:13] INFO root fetch - main [MainThread]: Store serial: [23045524]
