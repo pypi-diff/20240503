@@ -11057,3 +11057,42 @@
 [2024-05-03 08:38:54] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-05-03 08:38:54] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-05-03 08:38:54] INFO root fetch - main [MainThread]: Store serial: [23042228]
+[2024-05-03 08:40:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042228]
+[2024-05-03 08:41:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibind
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moz-fluent-linter
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bopt-slf
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sybil-engine
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ibind]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 08:41:03] INFO root fetch - processPackages [sybil-engine]: New version: [7.3.3] Old Version: [7.3.2]
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/9f/0d/689231c1a5e11ceef31268edbbdb998053592105fe12d3a106f8574077cc/ibind-0.0.3.tar.gz
+[2024-05-03 08:41:03] INFO root fetch - processPackages [bopt-slf]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-03 08:41:03] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/bc/75/f5e3bdd75dfd01723ce4f7455f23ec889a4c25f4dc7ffb938d377552b713/sybil_engine-7.3.2.tar.gz
+[2024-05-03 08:41:03] INFO root fetch - processPackages [moz-fluent-linter]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-03 08:41:03] INFO root fetch - processPackages [moz-fluent-linter]: Downloading https://files.pythonhosted.org/packages/c7/a7/67ee05f7d2aa9320aaab0278f868530d6eea7be8d38b57d9a53613d7dfeb/moz-fluent-linter-0.4.5.tar.gz
+[2024-05-03 08:41:03] INFO root fetch - processPackages [bopt-slf]: Downloading https://files.pythonhosted.org/packages/b8/4a/fc24d40c32fdb1b11997bfe8768f7cbe3c8a61ca264ac64a70acc4f893c6/bopt_slf-1.0.2.tar.gz
+[2024-05-03 08:41:03] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/20/ba/0760e1d96f79229242f51f92f759877052f1fc4ca4fe9b90e35105961446/sybil_engine-7.3.3.tar.gz
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/7c/1d/e9c62be4d652456cc7c552d28afd5af4af4b7782dc70d67e735d5bce2c17/ibind-0.0.4.tar.gz
+[2024-05-03 08:41:03] INFO root fetch - processPackages [sybil-engine]: executing diffoscope
+[2024-05-03 08:41:03] INFO root fetch - processPackages [sybil-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil_engine-7.3.2.tar.gz tmp/sybil_engine-7.3.3.tar.gz --markdown 20240503/s/sybil-engine/7.3.2-7.3.3/README.md --exclude *.pyd
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ibind]: executing diffoscope
+[2024-05-03 08:41:03] INFO root fetch - processPackages [ibind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibind-0.0.3.tar.gz tmp/ibind-0.0.4.tar.gz --markdown 20240503/i/ibind/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 08:41:03] INFO root fetch - processPackages [bopt-slf]: Downloading https://files.pythonhosted.org/packages/83/94/e39736b1d477f287b8a66cdfd0639edfc524afa04ea9ddc76a870274a26b/bopt_slf-1.0.3.tar.gz
+[2024-05-03 08:41:03] INFO root fetch - processPackages [moz-fluent-linter]: Downloading https://files.pythonhosted.org/packages/92/9f/f2b4d74d98176db1e360213a04394b22a614f5e9c681499daf153a36ae09/moz_fluent_linter-0.4.6.tar.gz
+[2024-05-03 08:41:03] INFO root fetch - processPackages [bopt-slf]: executing diffoscope
+[2024-05-03 08:41:03] INFO root fetch - processPackages [bopt-slf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bopt_slf-1.0.2.tar.gz tmp/bopt_slf-1.0.3.tar.gz --markdown 20240503/b/bopt-slf/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-03 08:41:04] INFO root fetch - processPackages [moz-fluent-linter]: executing diffoscope
+[2024-05-03 08:41:04] INFO root fetch - processPackages [moz-fluent-linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moz-fluent-linter-0.4.5.tar.gz tmp/moz_fluent_linter-0.4.6.tar.gz --markdown 20240503/m/moz-fluent-linter/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-03 08:41:04] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-7.3.2.tar.gz]
+[2024-05-03 08:41:04] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-7.3.3.tar.gz]
+[2024-05-03 08:41:04] INFO root fetch - main [MainThread]: End processing [sybil-engine]: success
+[2024-05-03 08:41:04] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.3.tar.gz]
+[2024-05-03 08:41:04] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.4.tar.gz]
+[2024-05-03 08:41:04] INFO root fetch - main [MainThread]: End processing [ibind]: success
+[2024-05-03 08:41:04] INFO root fetch - processPackages [bopt-slf]: Remove: archive file [/home/abi/fetcher/tmp/bopt_slf-1.0.2.tar.gz]
+[2024-05-03 08:41:04] INFO root fetch - processPackages [bopt-slf]: Remove: archive file [/home/abi/fetcher/tmp/bopt_slf-1.0.3.tar.gz]
+[2024-05-03 08:41:04] INFO root fetch - main [MainThread]: End processing [bopt-slf]: success
+[2024-05-03 08:41:04] INFO root fetch - processPackages [moz-fluent-linter]: Remove: archive file [/home/abi/fetcher/tmp/moz-fluent-linter-0.4.5.tar.gz]
+[2024-05-03 08:41:04] INFO root fetch - processPackages [moz-fluent-linter]: Remove: archive file [/home/abi/fetcher/tmp/moz_fluent_linter-0.4.6.tar.gz]
+[2024-05-03 08:41:04] INFO root fetch - main [MainThread]: End processing [moz-fluent-linter]: success
+[2024-05-03 08:41:04] INFO root fetch - main [MainThread]: Store serial: [23042239]
