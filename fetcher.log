@@ -21010,3 +21010,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:05:27] INFO root fetch - processPackages [pyCHX]: Remove: archive file [/home/abi/fetcher/tmp/pychx-4.3.0.tar.gz]
 [2024-05-03 16:05:27] INFO root fetch - main [MainThread]: End processing [pyCHX]: success
 [2024-05-03 16:05:27] INFO root fetch - main [MainThread]: Store serial: [23046855]
+[2024-05-03 16:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046855]
+[2024-05-03 16:07:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 16:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adotestplan-to-pytestbdd
+[2024-05-03 16:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedparser
+[2024-05-03 16:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-drift
+[2024-05-03 16:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deropy
+[2024-05-03 16:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ytpb
+[2024-05-03 16:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mneflow
+[2024-05-03 16:07:56] INFO root fetch - processPackages [ytpb]: New version: [2024.5.3] Old Version: [2024.4.20]
+[2024-05-03 16:07:56] INFO root fetch - processPackages [deropy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 16:07:56] INFO root fetch - processPackages [mneflow]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-03 16:07:56] INFO root fetch - processPackages [airbyte-source-drift]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-03 16:07:56] INFO root fetch - processPackages [adotestplan-to-pytestbdd]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 16:07:56] INFO root fetch - processPackages [typedparser]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-03 16:07:56] INFO root fetch - processPackages [airbyte-source-drift]: Downloading https://files.pythonhosted.org/packages/3a/e1/134a38ae86f234c0ca8ee43cdbed7c28baf1cf1130431406a691921ef6ba/airbyte_source_drift-0.3.3.tar.gz
+[2024-05-03 16:07:56] INFO root fetch - processPackages [ytpb]: Downloading https://files.pythonhosted.org/packages/73/70/4d7983ed0c267a1fbde9ba5f86b1bf03552e935d0cb5276a23ca08526d51/ytpb-2024.4.20.tar.gz
+[2024-05-03 16:07:56] INFO root fetch - processPackages [mneflow]: Downloading https://files.pythonhosted.org/packages/e0/94/c96df6c1131b6df305e228b3291132a958324bc82ba917b18e977da4ad9a/mneflow-0.5.8.tar.gz
+[2024-05-03 16:07:56] INFO root fetch - processPackages [adotestplan-to-pytestbdd]: Downloading https://files.pythonhosted.org/packages/ba/cb/2ea81c61053901110ca9fce5df30a12fa6a2d6d6c8649a1b0bc4397a0cc7/adotestplan_to_pytestbdd-0.1.1.tar.gz
+[2024-05-03 16:07:56] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/bb/a2/7e5a00ef8acc9bfcc65a14841b774ec578a0ef32479e495ef61fd3453267/typedparser-0.9.1.tar.gz
+[2024-05-03 16:07:56] INFO root fetch - processPackages [deropy]: Downloading https://files.pythonhosted.org/packages/1a/b0/da86265ab1be44944e93486f8a5f5e7c4073d46c9bc9177ee5296452191c/deropy-0.1.1.tar.gz
+[2024-05-03 16:07:56] INFO root fetch - processPackages [airbyte-source-drift]: Downloading https://files.pythonhosted.org/packages/ed/af/369dafb7ca4d4eec8fafa0aaed0b8b4ee0b195040ba3f7da7065108be885/airbyte_source_drift-0.3.4.tar.gz
+[2024-05-03 16:07:57] INFO root fetch - processPackages [adotestplan-to-pytestbdd]: Downloading https://files.pythonhosted.org/packages/73/7c/f3b18feac713380c825220a2fc7dba9ffc67c8f25b6ffba32745dddb064f/adotestplan_to_pytestbdd-0.1.2.tar.gz
+[2024-05-03 16:07:57] INFO root fetch - processPackages [deropy]: Downloading https://files.pythonhosted.org/packages/ab/c4/6d3b57364b03c4939a7f9462b7214d5caf2f0d91089cbd1b983b54dc28f5/deropy-0.1.2.tar.gz
+[2024-05-03 16:07:57] INFO root fetch - processPackages [mneflow]: Downloading https://files.pythonhosted.org/packages/14/60/b2f0ab81377f72e989d524e2a941c8baae4366f09c4117d5bbd3516e6701/mneflow-0.5.9.tar.gz
+[2024-05-03 16:07:57] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/3e/c6/ea05111c76020512faaa03cd49ea4cfdfa5e0fe2cc403fe9674c1429e458/typedparser-0.9.2.tar.gz
+[2024-05-03 16:07:57] INFO root fetch - processPackages [airbyte-source-drift]: executing diffoscope
+[2024-05-03 16:07:57] INFO root fetch - processPackages [airbyte-source-drift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_drift-0.3.3.tar.gz tmp/airbyte_source_drift-0.3.4.tar.gz --markdown 20240503/a/airbyte-source-drift/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-03 16:07:57] INFO root fetch - processPackages [adotestplan-to-pytestbdd]: executing diffoscope
+[2024-05-03 16:07:57] INFO root fetch - processPackages [adotestplan-to-pytestbdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adotestplan_to_pytestbdd-0.1.1.tar.gz tmp/adotestplan_to_pytestbdd-0.1.2.tar.gz --markdown 20240503/a/adotestplan-to-pytestbdd/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 16:07:57] INFO root fetch - processPackages [deropy]: executing diffoscope
+[2024-05-03 16:07:57] INFO root fetch - processPackages [deropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deropy-0.1.1.tar.gz tmp/deropy-0.1.2.tar.gz --markdown 20240503/d/deropy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 16:07:57] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2024-05-03 16:07:57] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.9.1.tar.gz tmp/typedparser-0.9.2.tar.gz --markdown 20240503/t/typedparser/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-03 16:07:57] INFO root fetch - processPackages [mneflow]: executing diffoscope
+[2024-05-03 16:07:57] INFO root fetch - processPackages [mneflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mneflow-0.5.8.tar.gz tmp/mneflow-0.5.9.tar.gz --markdown 20240503/m/mneflow/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-03 16:07:57] INFO root fetch - processPackages [ytpb]: Downloading https://files.pythonhosted.org/packages/52/b0/34d6d3f471087f3219c86e6534c2848acba7896e8d7251d71477ce84209a/ytpb-2024.5.3.tar.gz
+[2024-05-03 16:07:57] INFO root fetch - processPackages [ytpb]: executing diffoscope
+[2024-05-03 16:07:57] INFO root fetch - processPackages [ytpb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytpb-2024.4.20.tar.gz tmp/ytpb-2024.5.3.tar.gz --markdown 20240503/y/ytpb/2024.4.20-2024.5.3/README.md --exclude *.pyd
+[2024-05-03 16:07:57] INFO root fetch - processPackages [adotestplan-to-pytestbdd]: Remove: archive file [/home/abi/fetcher/tmp/adotestplan_to_pytestbdd-0.1.1.tar.gz]
+[2024-05-03 16:07:57] INFO root fetch - processPackages [adotestplan-to-pytestbdd]: Remove: archive file [/home/abi/fetcher/tmp/adotestplan_to_pytestbdd-0.1.2.tar.gz]
+[2024-05-03 16:07:57] INFO root fetch - main [MainThread]: End processing [adotestplan-to-pytestbdd]: success
+[2024-05-03 16:07:57] INFO root fetch - processPackages [airbyte-source-drift]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_drift-0.3.3.tar.gz]
+[2024-05-03 16:07:57] INFO root fetch - processPackages [airbyte-source-drift]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_drift-0.3.4.tar.gz]
+[2024-05-03 16:07:57] INFO root fetch - main [MainThread]: End processing [airbyte-source-drift]: success
+[2024-05-03 16:07:57] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.9.1.tar.gz]
+[2024-05-03 16:07:57] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.9.2.tar.gz]
+[2024-05-03 16:07:57] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2024-05-03 16:07:58] INFO root fetch - processPackages [mneflow]: Remove: archive file [/home/abi/fetcher/tmp/mneflow-0.5.8.tar.gz]
+[2024-05-03 16:07:58] INFO root fetch - processPackages [mneflow]: Remove: archive file [/home/abi/fetcher/tmp/mneflow-0.5.9.tar.gz]
+[2024-05-03 16:07:58] INFO root fetch - main [MainThread]: End processing [mneflow]: success
+[2024-05-03 16:07:58] INFO root fetch - processPackages [deropy]: Remove: archive file [/home/abi/fetcher/tmp/deropy-0.1.1.tar.gz]
+[2024-05-03 16:07:58] INFO root fetch - processPackages [deropy]: Remove: archive file [/home/abi/fetcher/tmp/deropy-0.1.2.tar.gz]
+[2024-05-03 16:07:58] INFO root fetch - main [MainThread]: End processing [deropy]: success
+[2024-05-03 16:08:00] INFO root fetch - processPackages [ytpb]: Remove: archive file [/home/abi/fetcher/tmp/ytpb-2024.4.20.tar.gz]
+[2024-05-03 16:08:00] INFO root fetch - processPackages [ytpb]: Remove: archive file [/home/abi/fetcher/tmp/ytpb-2024.5.3.tar.gz]
+[2024-05-03 16:08:00] INFO root fetch - main [MainThread]: End processing [ytpb]: success
+[2024-05-03 16:08:00] INFO root fetch - main [MainThread]: Store serial: [23046875]
