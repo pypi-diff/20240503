@@ -7400,3 +7400,51 @@
 [2024-05-03 04:17:03] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.5.0-py3-none-any.whl.zip]
 [2024-05-03 04:17:03] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
 [2024-05-03 04:17:03] INFO root fetch - main [MainThread]: Store serial: [23040864]
+[2024-05-03 04:19:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040864]
+[2024-05-03 04:19:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 04:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mailslurp-client
+[2024-05-03 04:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k8sAI
+[2024-05-03 04:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-repeatable-iterable
+[2024-05-03 04:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rubpy
+[2024-05-03 04:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PublicDataReader
+[2024-05-03 04:19:12] INFO root fetch - processPackages [k8sAI]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 04:19:12] INFO root fetch - processPackages [python-repeatable-iterable]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-03 04:19:12] INFO root fetch - processPackages [k8sAI]: Downloading https://files.pythonhosted.org/packages/a7/1f/f4f719f5562f089980a88de5d94c28105dd806be86fd394ff64d3466531e/k8sai-0.1.1.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [python-repeatable-iterable]: Downloading https://files.pythonhosted.org/packages/02/a7/9959da809a1eec7a797ee96bf63644f68105f116374442542416797ed78f/python_repeatable_iterable-2.1.4.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [rubpy]: New version: [7.0.3] Old Version: [7.0.2b3]
+[2024-05-03 04:19:12] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-05-03 04:19:12] INFO root fetch - processPackages [PublicDataReader]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 04:19:12] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/74/dd/1358e9ff91fe751591ca22294bcac7a9c40c9c3db8f09bff09921fe07b0e/rubpy-7.0.2b3.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/d9/61/8c1c2030551efc9c01fc9fdd2f3e6402e116fe9f59fc9dd57e918c1c808d/PublicDataReader-1.0.8.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [python-repeatable-iterable]: Downloading https://files.pythonhosted.org/packages/1b/d6/73a68f5e5d60c3437c3e06ebf64772ec83a30bbddbdf06a50de1b58136a8/python_repeatable_iterable-2.1.5.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [k8sAI]: Downloading https://files.pythonhosted.org/packages/ad/40/ef09e0a09bf3119d82a3b3276338e4da74e5bed1f5c08d86b361923b6133/k8sai-0.1.2.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [python-repeatable-iterable]: executing diffoscope
+[2024-05-03 04:19:12] INFO root fetch - processPackages [python-repeatable-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_repeatable_iterable-2.1.4.tar.gz tmp/python_repeatable_iterable-2.1.5.tar.gz --markdown 20240503/p/python-repeatable-iterable/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-03 04:19:12] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/50/2b/a691797f37a474efc04a24aed1e30023492f67248385bf775f2612c04751/rubpy-7.0.3.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-05-03 04:19:12] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.2b3.tar.gz tmp/rubpy-7.0.3.tar.gz --markdown 20240503/r/rubpy/7.0.2b3-7.0.3/README.md --exclude *.pyd
+[2024-05-03 04:19:12] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/b6/98/4322639b4e6d25bce8bfeab944f77d37c551eb84c395a742a2bdcd8c5658/PublicDataReader-1.0.9.tar.gz
+[2024-05-03 04:19:12] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-05-03 04:19:12] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240503/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-05-03 04:19:12] INFO root fetch - processPackages [k8sAI]: executing diffoscope
+[2024-05-03 04:19:12] INFO root fetch - processPackages [k8sAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8sai-0.1.1.tar.gz tmp/k8sai-0.1.2.tar.gz --markdown 20240503/k/k8sAI/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 04:19:12] INFO root fetch - processPackages [PublicDataReader]: executing diffoscope
+[2024-05-03 04:19:12] INFO root fetch - processPackages [PublicDataReader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PublicDataReader-1.0.8.tar.gz tmp/PublicDataReader-1.0.9.tar.gz --markdown 20240503/P/PublicDataReader/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 04:19:13] INFO root fetch - processPackages [python-repeatable-iterable]: Remove: archive file [/home/abi/fetcher/tmp/python_repeatable_iterable-2.1.4.tar.gz]
+[2024-05-03 04:19:13] INFO root fetch - processPackages [python-repeatable-iterable]: Remove: archive file [/home/abi/fetcher/tmp/python_repeatable_iterable-2.1.5.tar.gz]
+[2024-05-03 04:19:13] INFO root fetch - main [MainThread]: End processing [python-repeatable-iterable]: success
+[2024-05-03 04:19:13] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.8.tar.gz]
+[2024-05-03 04:19:13] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.9.tar.gz]
+[2024-05-03 04:19:13] INFO root fetch - main [MainThread]: End processing [PublicDataReader]: success
+[2024-05-03 04:19:13] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b3.tar.gz]
+[2024-05-03 04:19:13] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.3.tar.gz]
+[2024-05-03 04:19:13] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-05-03 04:19:14] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.1.tar.gz]
+[2024-05-03 04:19:14] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.2.tar.gz]
+[2024-05-03 04:19:14] INFO root fetch - main [MainThread]: End processing [k8sAI]: success
+[2024-05-03 04:19:14] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-05-03 04:19:14] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-05-03 04:19:14] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-05-03 04:19:14] INFO root fetch - main [MainThread]: Store serial: [23040877]
