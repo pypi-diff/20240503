@@ -22603,3 +22603,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:56:59] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-05-03 16:56:59] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-05-03 16:56:59] INFO root fetch - main [MainThread]: Store serial: [23047474]
+[2024-05-03 16:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047474]
+[2024-05-03 16:59:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scicookie
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyA2Z
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fluiddyn
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livedc
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcf2seq
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: firebird-base
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aitalk
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meshlib
+[2024-05-03 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neo4py
+[2024-05-03 16:59:28] WARNING root fetch - processPackages [PyA2Z]: Skipping, unable to determine old version
+[2024-05-03 16:59:28] INFO root fetch - main [MainThread]: End processing [PyA2Z] error
+[2024-05-03 16:59:28] INFO root fetch - processPackages [scicookie]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-05-03 16:59:28] INFO root fetch - processPackages [fluiddyn]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-03 16:59:28] INFO root fetch - processPackages [neo4py]: New version: [1.1.8b0] Old Version: [1.1.7b0]
+[2024-05-03 16:59:28] INFO root fetch - processPackages [scicookie]: Downloading https://files.pythonhosted.org/packages/7a/0d/8027960cd5a40bbda2f825a03ffd6e4183424b0a36a83545bf2b192a61ed/scicookie-0.7.2.tar.gz
+[2024-05-03 16:59:28] WARNING root fetch - processPackages [livedc]: Skipping, unable to determine old version
+[2024-05-03 16:59:28] INFO root fetch - main [MainThread]: End processing [livedc] error
+[2024-05-03 16:59:28] INFO root fetch - processPackages [vcf2seq]: New version: [0.5.0a0] Old Version: [0.4.1a0]
+[2024-05-03 16:59:28] WARNING root fetch - processPackages [aitalk]: Skipping, unable to determine old version
+[2024-05-03 16:59:28] INFO root fetch - main [MainThread]: End processing [aitalk] error
+[2024-05-03 16:59:28] INFO root fetch - processPackages [firebird-base]: New version: [1.8.0] Old Version: [1.7.2]
+[2024-05-03 16:59:28] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/f5/de/884b0223b6b552cb64f093671c58108eba2118516884d1834b067f21612c/neo4py-1.1.7b0.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [meshlib]: New version: [2.4.1.114] Old Version: [2.4.0.158]
+[2024-05-03 16:59:29] INFO root fetch - processPackages [fluiddyn]: Downloading https://files.pythonhosted.org/packages/48/dc/96e43e0be1adb26c8384ea82ba64f57aa4631c7b0cc837d0472cbca4c7fe/fluiddyn-0.6.2.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [scicookie]: Downloading https://files.pythonhosted.org/packages/38/c3/b6e775d98ab11e1d4fd4ca8ae6226b968571392dc95123c61a42899c01dd/scicookie-0.8.0.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/be/6e/fd3aca1b1d72be799df4ec6313d000e7c9fc7ed513663c9999375403c497/neo4py-1.1.8b0.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [vcf2seq]: Downloading https://files.pythonhosted.org/packages/3c/c6/1bfb652650f4f623a794a184f8be9448a824b1b33c8a128423dbd56952d2/vcf2seq-0.4.1a0.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [firebird-base]: Downloading https://files.pythonhosted.org/packages/be/13/a591a6db727ace09d50af6fa72867dadc9263599d4d5be0e0ce065c84f27/firebird_base-1.7.2.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [scicookie]: executing diffoscope
+[2024-05-03 16:59:29] INFO root fetch - processPackages [scicookie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scicookie-0.7.2.tar.gz tmp/scicookie-0.8.0.tar.gz --markdown 20240503/s/scicookie/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-05-03 16:59:29] INFO root fetch - processPackages [neo4py]: executing diffoscope
+[2024-05-03 16:59:29] INFO root fetch - processPackages [neo4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4py-1.1.7b0.tar.gz tmp/neo4py-1.1.8b0.tar.gz --markdown 20240503/n/neo4py/1.1.7b0-1.1.8b0/README.md --exclude *.pyd
+[2024-05-03 16:59:29] INFO root fetch - processPackages [meshlib]: Downloading https://files.pythonhosted.org/packages/ed/65/4ef09dca3a370cbc7df753bea7ecdbe186c18ae1e54ba359a1a9d19e9eb5/meshlib-2.4.0.158-cp39-none-win_amd64.whl
+[2024-05-03 16:59:29] WARNING root fetch - processPackages [meshlib]: Skipping package: exceeds size limit 26307569>=10485760
+[2024-05-03 16:59:29] INFO root fetch - main [MainThread]: End processing [meshlib] error
+[2024-05-03 16:59:29] INFO root fetch - processPackages [fluiddyn]: Downloading https://files.pythonhosted.org/packages/b4/48/4dec2e3832d014c74abd86f99438e49c8c7101b7afe19ac4e8feb5544451/fluiddyn-0.6.3.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [firebird-base]: Downloading https://files.pythonhosted.org/packages/c4/76/c8b3f19c3594a33752421ca3890ae35170db7ed7770e7e5880ff8c4d7a72/firebird_base-1.8.0.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [fluiddyn]: executing diffoscope
+[2024-05-03 16:59:29] INFO root fetch - processPackages [fluiddyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluiddyn-0.6.2.tar.gz tmp/fluiddyn-0.6.3.tar.gz --markdown 20240503/f/fluiddyn/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-03 16:59:29] INFO root fetch - processPackages [firebird-base]: executing diffoscope
+[2024-05-03 16:59:29] INFO root fetch - processPackages [firebird-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebird_base-1.7.2.tar.gz tmp/firebird_base-1.8.0.tar.gz --markdown 20240503/f/firebird-base/1.7.2-1.8.0/README.md --exclude *.pyd
+[2024-05-03 16:59:29] INFO root fetch - processPackages [vcf2seq]: Downloading https://files.pythonhosted.org/packages/90/94/552e0f5c94ff72fe267f853192a2b833917126ad28439b28f97aaf3368b3/vcf2seq-0.5.0a0.tar.gz
+[2024-05-03 16:59:29] INFO root fetch - processPackages [neo4py]: Remove: archive file [/home/abi/fetcher/tmp/neo4py-1.1.7b0.tar.gz]
+[2024-05-03 16:59:29] INFO root fetch - processPackages [neo4py]: Remove: archive file [/home/abi/fetcher/tmp/neo4py-1.1.8b0.tar.gz]
+[2024-05-03 16:59:29] INFO root fetch - main [MainThread]: End processing [neo4py]: success
+[2024-05-03 16:59:29] INFO root fetch - processPackages [vcf2seq]: executing diffoscope
+[2024-05-03 16:59:29] INFO root fetch - processPackages [vcf2seq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcf2seq-0.4.1a0.tar.gz tmp/vcf2seq-0.5.0a0.tar.gz --markdown 20240503/v/vcf2seq/0.4.1a0-0.5.0a0/README.md --exclude *.pyd
+[2024-05-03 16:59:30] INFO root fetch - processPackages [scicookie]: Remove: archive file [/home/abi/fetcher/tmp/scicookie-0.7.2.tar.gz]
+[2024-05-03 16:59:30] INFO root fetch - processPackages [scicookie]: Remove: archive file [/home/abi/fetcher/tmp/scicookie-0.8.0.tar.gz]
+[2024-05-03 16:59:30] INFO root fetch - main [MainThread]: End processing [scicookie]: success
+[2024-05-03 16:59:30] INFO root fetch - processPackages [firebird-base]: Remove: archive file [/home/abi/fetcher/tmp/firebird_base-1.7.2.tar.gz]
+[2024-05-03 16:59:30] INFO root fetch - processPackages [firebird-base]: Remove: archive file [/home/abi/fetcher/tmp/firebird_base-1.8.0.tar.gz]
+[2024-05-03 16:59:30] INFO root fetch - main [MainThread]: End processing [firebird-base]: success
+[2024-05-03 16:59:30] INFO root fetch - processPackages [vcf2seq]: Remove: archive file [/home/abi/fetcher/tmp/vcf2seq-0.4.1a0.tar.gz]
+[2024-05-03 16:59:30] INFO root fetch - processPackages [vcf2seq]: Remove: archive file [/home/abi/fetcher/tmp/vcf2seq-0.5.0a0.tar.gz]
+[2024-05-03 16:59:30] INFO root fetch - main [MainThread]: End processing [vcf2seq]: success
+[2024-05-03 16:59:30] INFO root fetch - processPackages [fluiddyn]: Remove: archive file [/home/abi/fetcher/tmp/fluiddyn-0.6.2.tar.gz]
+[2024-05-03 16:59:30] INFO root fetch - processPackages [fluiddyn]: Remove: archive file [/home/abi/fetcher/tmp/fluiddyn-0.6.3.tar.gz]
+[2024-05-03 16:59:30] INFO root fetch - main [MainThread]: End processing [fluiddyn]: success
+[2024-05-03 16:59:30] INFO root fetch - main [MainThread]: Store serial: [23047519]
