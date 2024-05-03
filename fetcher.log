@@ -8202,3 +8202,87 @@
 [2024-05-03 05:14:42] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_cooperative-14.0.20240502.0-py3-none-any.whl.zip]
 [2024-05-03 05:14:42] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-cooperative]: success
 [2024-05-03 05:14:42] INFO root fetch - main [MainThread]: Store serial: [23041128]
+[2024-05-03 05:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041128]
+[2024-05-03 05:16:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-invoice-overdue-warn-sale
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-credit-control-dunning-fees
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptdown
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-payment-sheet-financial-risk
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-financial-risk
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bambooai
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-cv-nightly
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mom-test-py
+[2024-05-03 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reactivated
+[2024-05-03 05:16:51] INFO root fetch - processPackages [promptdown]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [mom-test-py]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-warn-sale]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [promptdown]: Downloading https://files.pythonhosted.org/packages/4f/24/55172a70f24e6c2bfc4508ad9528ec38b2206ab01b523cd5c5be5d5351b7/promptdown-0.3.0.tar.gz
+[2024-05-03 05:16:51] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [mom-test-py]: Downloading https://files.pythonhosted.org/packages/0c/c2/e28117596eb2880ac18856095958f0a548d805076ca518c1dd437c45702b/mom_test_py-1.0.4.tar.gz
+[2024-05-03 05:16:51] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: New version: [16.0.1.1.2.2] Old Version: [16.0.1.1.2.1]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2024-05-03 05:16:51] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-03 05:16:51] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-warn-sale]: Downloading https://files.pythonhosted.org/packages/84/71/31236b3c8893a59fef4355e2009d515483de46a82401b58dc4a853df2998/odoo_addon_account_invoice_overdue_warn_sale-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-03 05:16:51] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: Downloading https://files.pythonhosted.org/packages/77/83/3f368424a797b3387ab9b58fc83577f7384b4bde1a4af656c76e0b333640/odoo_addon_sale_payment_sheet_financial_risk-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-03 05:16:51] INFO root fetch - processPackages [promptdown]: Downloading https://files.pythonhosted.org/packages/71/41/7196a78aafdb6c0ede3693fe5f3c13506df7bf857c78ac60f946e8da80ef/promptdown-0.4.0.tar.gz
+[2024-05-03 05:16:51] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Downloading https://files.pythonhosted.org/packages/43/cf/8093f20f22e6eaec2b6953c947d39757fa87b30c0fc4bce20bed088a11bd/odoo_addon_sale_financial_risk-16.0.1.1.2.1-py3-none-any.whl
+[2024-05-03 05:16:51] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Downloading https://files.pythonhosted.org/packages/18/f2/f428d80c99dfa1b3e7e2caceb71dd70dbf00748fcace8988aad26dd07b85/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-03 05:16:51] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-03 05:16:51] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2024-05-03 05:16:52] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-03 05:16:52] INFO root fetch - processPackages [mom-test-py]: Downloading https://files.pythonhosted.org/packages/df/30/9efd681e3aaaf6aa4ac126c0d29d4796a8325a477f460e9b4aa4dfe63733/mom_test_py-1.0.5.tar.gz
+[2024-05-03 05:16:52] INFO root fetch - processPackages [promptdown]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [promptdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptdown-0.3.0.tar.gz tmp/promptdown-0.4.0.tar.gz --markdown 20240503/p/promptdown/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [mom-test-py]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [mom-test-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mom_test_py-1.0.4.tar.gz tmp/mom_test_py-1.0.5.tar.gz --markdown 20240503/m/mom-test-py/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-03 05:16:52] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240503/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-warn-sale]: Downloading https://files.pythonhosted.org/packages/6c/cc/006ff880a1667fb48d16e298d5b7d8bf261b8154b166c4ec3c22ced47495/odoo_addon_account_invoice_overdue_warn_sale-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: Downloading https://files.pythonhosted.org/packages/dd/ca/1ed83e1b404f969d51aa09f579abe5aea372f2a13382ed8d07326a0c9772/odoo_addon_sale_payment_sheet_financial_risk-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Downloading https://files.pythonhosted.org/packages/bb/a0/4b0bac17066699c23ce8700f697a685cdff64bb1b50f0bc24f33c6cd3c06/odoo_addon_sale_financial_risk-16.0.1.1.2.2-py3-none-any.whl
+[2024-05-03 05:16:52] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240503/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Downloading https://files.pythonhosted.org/packages/c9/ab/7e7bb4b64b8dae3e55b6fb88c5260224b0c862f46e5f8a5ee066b79664f0/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-03 05:16:52] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_financial_risk-16.0.1.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_sale_financial_risk-16.0.1.1.2.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-sale-financial-risk/16.0.1.1.2.1-16.0.1.1.2.2/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_payment_sheet_financial_risk-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_payment_sheet_financial_risk-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-sale-payment-sheet-financial-risk/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-warn-sale]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-warn-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_overdue_warn_sale-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_overdue_warn_sale-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-account-invoice-overdue-warn-sale/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-account-credit-control-dunning-fees/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2024-05-03 05:16:52] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20240503/r/reactivated/0.9.0-3.0.0a64/README.md --exclude *.pyd
+[2024-05-03 05:16:52] INFO root fetch - processPackages [promptdown]: Remove: archive file [/home/abi/fetcher/tmp/promptdown-0.3.0.tar.gz]
+[2024-05-03 05:16:52] INFO root fetch - processPackages [promptdown]: Remove: archive file [/home/abi/fetcher/tmp/promptdown-0.4.0.tar.gz]
+[2024-05-03 05:16:52] INFO root fetch - main [MainThread]: End processing [promptdown]: success
+[2024-05-03 05:16:52] INFO root fetch - processPackages [mom-test-py]: Remove: archive file [/home/abi/fetcher/tmp/mom_test_py-1.0.4.tar.gz]
+[2024-05-03 05:16:52] INFO root fetch - processPackages [mom-test-py]: Remove: archive file [/home/abi/fetcher/tmp/mom_test_py-1.0.5.tar.gz]
+[2024-05-03 05:16:52] INFO root fetch - main [MainThread]: End processing [mom-test-py]: success
+[2024-05-03 05:16:53] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-03 05:16:53] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-03 05:16:53] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-03 05:16:53] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-warn-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_overdue_warn_sale-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-03 05:16:53] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-warn-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_overdue_warn_sale-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-03 05:16:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-overdue-warn-sale]: success
+[2024-05-03 05:16:53] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk-16.0.1.1.2.1-py3-none-any.whl.zip]
+[2024-05-03 05:16:53] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk-16.0.1.1.2.2-py3-none-any.whl.zip]
+[2024-05-03 05:16:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-financial-risk]: success
+[2024-05-03 05:16:53] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-03 05:16:53] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-03 05:16:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control-dunning-fees]: success
+[2024-05-03 05:16:53] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_payment_sheet_financial_risk-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-03 05:16:53] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_payment_sheet_financial_risk-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-03 05:16:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-payment-sheet-financial-risk]: success
+[2024-05-03 05:16:53] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2024-05-03 05:16:53] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2024-05-03 05:16:53] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2024-05-03 05:16:54] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-03 05:16:54] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-03 05:16:54] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-03 05:16:54] INFO root fetch - main [MainThread]: Store serial: [23041151]
