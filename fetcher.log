@@ -9551,3 +9551,51 @@
 [2024-05-03 07:04:44] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.9.0.tar.gz]
 [2024-05-03 07:04:44] INFO root fetch - main [MainThread]: End processing [affinda]: success
 [2024-05-03 07:04:44] INFO root fetch - main [MainThread]: Store serial: [23041655]
+[2024-05-03 07:06:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041655]
+[2024-05-03 07:06:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 07:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scicookie
+[2024-05-03 07:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CachedFileDic
+[2024-05-03 07:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2024-05-03 07:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SymLinkDB
+[2024-05-03 07:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: affinda
+[2024-05-03 07:06:56] INFO root fetch - processPackages [SymLinkDB]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-03 07:06:56] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240502] Old Version: [0.1.2.dev20240501]
+[2024-05-03 07:06:56] INFO root fetch - processPackages [affinda]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-03 07:06:56] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/ad/0d/7755cf4d5dc7309deab0b263b89cc351a566249a1a8b1ce7b40eb4d2ac27/SymLinkDB-0.4.8.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [CachedFileDic]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-03 07:06:56] INFO root fetch - processPackages [scicookie]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-05-03 07:06:56] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/df/54/5b8cb2e724802b387092b2e8778b0dfd478a213906cee87fd2ce8562571b/rapid_pe-0.1.2.dev20240501.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/b8/42/2d7ae0302daac690c91569d7fbb66707c626d6712fd25b8b2e92aba77435/affinda-4.8.1.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [CachedFileDic]: Downloading https://files.pythonhosted.org/packages/b3/fe/1659f9bfea9a8b988b8785cf78ba9f71a08d0eb962b9bd9d959c1ea831ad/CachedFileDic-0.2.5.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [scicookie]: Downloading https://files.pythonhosted.org/packages/7a/0d/8027960cd5a40bbda2f825a03ffd6e4183424b0a36a83545bf2b192a61ed/scicookie-0.7.2.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/b0/75/46ceb319a19fc44644a06bd6dab78b1aa871d3905b382f43d337d2ad4f7b/SymLinkDB-0.4.9.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/27/14/0974ffb17feb20d1870434401d523dfd68229befd4a340456b1a9f07ece3/affinda-4.9.0.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/9a/a3/bcef222d66ba7b4173950fcc18d77396066c440e77cb0048fc7dcb237e09/rapid_pe-0.1.2.dev20240502.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [SymLinkDB]: executing diffoscope
+[2024-05-03 07:06:56] INFO root fetch - processPackages [SymLinkDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SymLinkDB-0.4.8.tar.gz tmp/SymLinkDB-0.4.9.tar.gz --markdown 20240503/S/SymLinkDB/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-03 07:06:56] INFO root fetch - processPackages [CachedFileDic]: Downloading https://files.pythonhosted.org/packages/f8/de/189e683c52a4512dbef5321de4f2b1819ad34b3b9a40562632a1a1352f7f/CachedFileDic-0.3.0.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-03 07:06:56] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240501.tar.gz tmp/rapid_pe-0.1.2.dev20240502.tar.gz --markdown 20240503/r/rapid-pe/0.1.2.dev20240501-0.1.2.dev20240502/README.md --exclude *.pyd
+[2024-05-03 07:06:56] INFO root fetch - processPackages [scicookie]: Downloading https://files.pythonhosted.org/packages/38/c3/b6e775d98ab11e1d4fd4ca8ae6226b968571392dc95123c61a42899c01dd/scicookie-0.8.0.tar.gz
+[2024-05-03 07:06:56] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2024-05-03 07:06:56] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.8.1.tar.gz tmp/affinda-4.9.0.tar.gz --markdown 20240503/a/affinda/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-03 07:06:57] INFO root fetch - processPackages [CachedFileDic]: executing diffoscope
+[2024-05-03 07:06:57] INFO root fetch - processPackages [CachedFileDic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CachedFileDic-0.2.5.tar.gz tmp/CachedFileDic-0.3.0.tar.gz --markdown 20240503/C/CachedFileDic/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-03 07:06:57] INFO root fetch - processPackages [scicookie]: executing diffoscope
+[2024-05-03 07:06:57] INFO root fetch - processPackages [scicookie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scicookie-0.7.2.tar.gz tmp/scicookie-0.8.0.tar.gz --markdown 20240503/s/scicookie/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-05-03 07:06:57] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.8.tar.gz]
+[2024-05-03 07:06:57] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.9.tar.gz]
+[2024-05-03 07:06:57] INFO root fetch - main [MainThread]: End processing [SymLinkDB]: success
+[2024-05-03 07:06:57] INFO root fetch - processPackages [CachedFileDic]: Remove: archive file [/home/abi/fetcher/tmp/CachedFileDic-0.2.5.tar.gz]
+[2024-05-03 07:06:57] INFO root fetch - processPackages [CachedFileDic]: Remove: archive file [/home/abi/fetcher/tmp/CachedFileDic-0.3.0.tar.gz]
+[2024-05-03 07:06:57] INFO root fetch - main [MainThread]: End processing [CachedFileDic]: success
+[2024-05-03 07:06:57] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240501.tar.gz]
+[2024-05-03 07:06:57] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240502.tar.gz]
+[2024-05-03 07:06:57] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-03 07:06:57] INFO root fetch - processPackages [scicookie]: Remove: archive file [/home/abi/fetcher/tmp/scicookie-0.7.2.tar.gz]
+[2024-05-03 07:06:57] INFO root fetch - processPackages [scicookie]: Remove: archive file [/home/abi/fetcher/tmp/scicookie-0.8.0.tar.gz]
+[2024-05-03 07:06:57] INFO root fetch - main [MainThread]: End processing [scicookie]: success
+[2024-05-03 07:06:59] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.8.1.tar.gz]
+[2024-05-03 07:06:59] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.9.0.tar.gz]
+[2024-05-03 07:06:59] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2024-05-03 07:06:59] INFO root fetch - main [MainThread]: Store serial: [23041670]
