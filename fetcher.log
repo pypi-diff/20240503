@@ -16528,3 +16528,42 @@
 [2024-05-03 12:42:52] INFO root fetch - processPackages [pypsdm]: Remove: archive file [/home/abi/fetcher/tmp/pypsdm-0.0.3.tar.gz]
 [2024-05-03 12:42:52] INFO root fetch - main [MainThread]: End processing [pypsdm]: success
 [2024-05-03 12:42:52] INFO root fetch - main [MainThread]: Store serial: [23044765]
+[2024-05-03 12:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044765]
+[2024-05-03 12:45:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 12:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQtUIkit
+[2024-05-03 12:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml4teens
+[2024-05-03 12:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: familyoccupation
+[2024-05-03 12:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyPCAD
+[2024-05-03 12:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-project-wbs
+[2024-05-03 12:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glue-utils
+[2024-05-03 12:45:23] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.8.5] Old Version: [2.8.4]
+[2024-05-03 12:45:23] WARNING root fetch - processPackages [familyoccupation]: Skipping, unable to determine old version
+[2024-05-03 12:45:23] INFO root fetch - main [MainThread]: End processing [familyoccupation] error
+[2024-05-03 12:45:23] INFO root fetch - processPackages [glue-utils]: New version: [0.2.1rc2] Old Version: [0.2.1rc1]
+[2024-05-03 12:45:23] WARNING root fetch - processPackages [ml4teens]: Skipping, unable to determine old version
+[2024-05-03 12:45:23] INFO root fetch - main [MainThread]: End processing [ml4teens] error
+[2024-05-03 12:45:23] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/dc/52/9205304eae164ea3d073a2002ca2a165a0104520b78ddd82e2d04a6c4b01/PyQtUIkit-2.8.4.tar.gz
+[2024-05-03 12:45:23] WARNING root fetch - processPackages [PyPCAD]: Skipping, unable to determine old version
+[2024-05-03 12:45:23] INFO root fetch - main [MainThread]: End processing [PyPCAD] error
+[2024-05-03 12:45:23] INFO root fetch - processPackages [odoo14-addon-project-wbs]: New version: [14.0.1.0.3.dev1] Old Version: [14.0.1.0.3]
+[2024-05-03 12:45:23] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/8a/04/8811442d08915e3c55d40e638e71139ee43555713d5c8dac0433b7af7377/glue_utils-0.2.1rc1.tar.gz
+[2024-05-03 12:45:23] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/2e/87/a57515c56bf1fbe5c4308696f2d322dc4a52c4705614cbafd60d817b7167/odoo14_addon_project_wbs-14.0.1.0.3-py3-none-any.whl
+[2024-05-03 12:45:23] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/8c/9f/05ce487490ba072602952c0e354326f345c345f1e83f9f6544355d981b17/glue_utils-0.2.1rc2.tar.gz
+[2024-05-03 12:45:23] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/ef/ff/d3e33271575c00c59722822cd13db6b76946c4fb8144f93cf509a0eb7235/PyQtUIkit-2.8.5.tar.gz
+[2024-05-03 12:45:23] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/6b/9f/698277c2a39aeb13fa2df4adfa8e52c6bc44c2654206ac3d26ed2768557a/odoo14_addon_project_wbs-14.0.1.0.3.dev1-py3-none-any.whl
+[2024-05-03 12:45:23] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-03 12:45:23] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.2.1rc1.tar.gz tmp/glue_utils-0.2.1rc2.tar.gz --markdown 20240503/g/glue-utils/0.2.1rc1-0.2.1rc2/README.md --exclude *.pyd
+[2024-05-03 12:45:24] INFO root fetch - processPackages [odoo14-addon-project-wbs]: executing diffoscope
+[2024-05-03 12:45:24] INFO root fetch - processPackages [odoo14-addon-project-wbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_wbs-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_project_wbs-14.0.1.0.3.dev1-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-project-wbs/14.0.1.0.3-14.0.1.0.3.dev1/README.md --exclude *.pyd
+[2024-05-03 12:45:24] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-05-03 12:45:24] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.8.4.tar.gz tmp/PyQtUIkit-2.8.5.tar.gz --markdown 20240503/P/PyQtUIkit/2.8.4-2.8.5/README.md --exclude *.pyd
+[2024-05-03 12:45:24] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.1rc1.tar.gz]
+[2024-05-03 12:45:24] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.1rc2.tar.gz]
+[2024-05-03 12:45:24] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-03 12:45:24] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_wbs-14.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-03 12:45:24] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_wbs-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2024-05-03 12:45:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-wbs]: success
+[2024-05-03 12:45:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.4.tar.gz]
+[2024-05-03 12:45:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.5.tar.gz]
+[2024-05-03 12:45:25] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-05-03 12:45:25] INFO root fetch - main [MainThread]: Store serial: [23044785]
