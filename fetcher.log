@@ -7487,3 +7487,33 @@
 [2024-05-03 04:21:25] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.9.tar.gz]
 [2024-05-03 04:21:25] INFO root fetch - main [MainThread]: End processing [ubo-app]: success
 [2024-05-03 04:21:25] INFO root fetch - main [MainThread]: Store serial: [23040891]
+[2024-05-03 04:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040891]
+[2024-05-03 04:23:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 04:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo2docs
+[2024-05-03 04:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monnifyease
+[2024-05-03 04:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2024-05-03 04:23:33] INFO root fetch - processPackages [repo2docs]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-03 04:23:33] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240502] Old Version: [1.2.20240501]
+[2024-05-03 04:23:34] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/d1/cf/7fd4255be13351a6fc0d464701f8f29334259e032bf224cd6d427587fd5d/repo2docs-0.1.2.tar.gz
+[2024-05-03 04:23:34] INFO root fetch - processPackages [monnifyease]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 04:23:34] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/bd/f9/70fa17f633e01078219460aeeeac6c507393f800a2a7b98ffe0e07dc5761/iam_actions-1.2.20240501.tar.gz
+[2024-05-03 04:23:34] INFO root fetch - processPackages [monnifyease]: Downloading https://files.pythonhosted.org/packages/84/cb/53e260ad7ee9b97507751c27784c18848f3bbae6275b65865e6ca7847eb0/monnifyease-0.1.0.tar.gz
+[2024-05-03 04:23:34] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/ea/05/a0c22efd24c9ab0aab5500f2d09e1aea12756b87cfa1dd997d77d83f33ab/repo2docs-0.1.3.tar.gz
+[2024-05-03 04:23:34] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/6b/a5/8fd30139f1ff4b9800b41b579095d0f6081e1ffd375fde48860bd47f44bd/iam_actions-1.2.20240502.tar.gz
+[2024-05-03 04:23:34] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 04:23:34] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.2.tar.gz tmp/repo2docs-0.1.3.tar.gz --markdown 20240503/r/repo2docs/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-03 04:23:34] INFO root fetch - processPackages [monnifyease]: Downloading https://files.pythonhosted.org/packages/31/f9/cad53a22f9fc8eeb3e136810a5ea163c4006d656dcb86381cfcf2ea5884b/monnifyease-0.2.0.tar.gz
+[2024-05-03 04:23:34] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-03 04:23:34] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240501.tar.gz tmp/iam_actions-1.2.20240502.tar.gz --markdown 20240503/i/iam-actions/1.2.20240501-1.2.20240502/README.md --exclude *.pyd
+[2024-05-03 04:23:34] INFO root fetch - processPackages [monnifyease]: executing diffoscope
+[2024-05-03 04:23:34] INFO root fetch - processPackages [monnifyease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monnifyease-0.1.0.tar.gz tmp/monnifyease-0.2.0.tar.gz --markdown 20240503/m/monnifyease/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 04:23:35] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.2.tar.gz]
+[2024-05-03 04:23:35] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.3.tar.gz]
+[2024-05-03 04:23:35] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 04:23:35] INFO root fetch - processPackages [monnifyease]: Remove: archive file [/home/abi/fetcher/tmp/monnifyease-0.1.0.tar.gz]
+[2024-05-03 04:23:35] INFO root fetch - processPackages [monnifyease]: Remove: archive file [/home/abi/fetcher/tmp/monnifyease-0.2.0.tar.gz]
+[2024-05-03 04:23:35] INFO root fetch - main [MainThread]: End processing [monnifyease]: success
+[2024-05-03 04:23:39] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240501.tar.gz]
+[2024-05-03 04:23:39] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240502.tar.gz]
+[2024-05-03 04:23:39] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-03 04:23:39] INFO root fetch - main [MainThread]: Store serial: [23040900]
