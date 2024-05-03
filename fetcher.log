@@ -15986,3 +15986,60 @@
 [2024-05-03 12:23:33] INFO root fetch - processPackages [nerpii]: Remove: archive file [/home/abi/fetcher/tmp/nerpii-0.2.3.tar.gz]
 [2024-05-03 12:23:33] INFO root fetch - main [MainThread]: End processing [nerpii]: success
 [2024-05-03 12:23:33] INFO root fetch - main [MainThread]: Store serial: [23044513]
+[2024-05-03 12:25:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044513]
+[2024-05-03 12:26:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 12:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nerpii
+[2024-05-03 12:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: giskard
+[2024-05-03 12:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imufusion
+[2024-05-03 12:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brewtils
+[2024-05-03 12:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-th-account-tax-report
+[2024-05-03 12:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: servicelayer
+[2024-05-03 12:26:02] INFO root fetch - processPackages [nerpii]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-05-03 12:26:02] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0]
+[2024-05-03 12:26:02] INFO root fetch - processPackages [brewtils]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-03 12:26:02] INFO root fetch - processPackages [giskard]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-03 12:26:02] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-05-03 12:26:03] INFO root fetch - processPackages [imufusion]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-03 12:26:03] INFO root fetch - processPackages [nerpii]: Downloading https://files.pythonhosted.org/packages/72/53/bae3c4d5fb0166a4d56f43676d0be7af3dd29b9eac02affb2667a7ea6614/nerpii-0.2.1.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Downloading https://files.pythonhosted.org/packages/b9/4e/94983718290cf3adf44ce235c3cb9a1ff2540f29b347dd354759cf22c910/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl
+[2024-05-03 12:26:03] INFO root fetch - processPackages [brewtils]: Downloading https://files.pythonhosted.org/packages/0a/3c/ede786dbe3f921c22f7d6752d811cb76904f2b448c602d76c47ad0939032/brewtils-3.8.0.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/2b/53/bb44a1997d85a99d74a28c9b79a492c7033bfb624489a4025cbd028f234d/giskard-2.9.0.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [imufusion]: Downloading https://files.pythonhosted.org/packages/b9/92/d6a87d967ca8361d89eb62c06d601da2796664311333fff2e2ea065feffb/imufusion-1.2.4.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [nerpii]: Downloading https://files.pythonhosted.org/packages/7a/23/99d0ba7152419daeda652596723136ad38cc6bd0f167c1bb334b9736f3c9/nerpii-0.2.3.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [nerpii]: executing diffoscope
+[2024-05-03 12:26:03] INFO root fetch - processPackages [nerpii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerpii-0.2.1.tar.gz tmp/nerpii-0.2.3.tar.gz --markdown 20240503/n/nerpii/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-05-03 12:26:03] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Downloading https://files.pythonhosted.org/packages/18/42/77d9857db934a409871449ea2e5175f41eb64d764f287ebd1402f9f8acac/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl
+[2024-05-03 12:26:03] INFO root fetch - processPackages [brewtils]: Downloading https://files.pythonhosted.org/packages/b5/0d/84f972a639001e3f71be5b6fb8a77e7b661435e45f0e0468079119215255/brewtils-3.9.0.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: executing diffoscope
+[2024-05-03 12:26:03] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-th-account-tax-report/16.0.1.1.0-16.0.1.2.0/README.md --exclude *.pyd
+[2024-05-03 12:26:03] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [imufusion]: Downloading https://files.pythonhosted.org/packages/87/87/f5aec50253ec7818f504b16fb8cff143fdbb2a33690b02d58f5a771f4ad0/imufusion-1.2.5.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/c2/49/ecb9132c1cb0e3f256e4397f3a82b17f9e28bbbe0d45000d94061287ed80/giskard-2.9.1.tar.gz
+[2024-05-03 12:26:03] INFO root fetch - processPackages [brewtils]: executing diffoscope
+[2024-05-03 12:26:03] INFO root fetch - processPackages [brewtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brewtils-3.8.0.tar.gz tmp/brewtils-3.9.0.tar.gz --markdown 20240503/b/brewtils/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-03 12:26:03] INFO root fetch - processPackages [imufusion]: executing diffoscope
+[2024-05-03 12:26:03] INFO root fetch - processPackages [imufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imufusion-1.2.4.tar.gz tmp/imufusion-1.2.5.tar.gz --markdown 20240503/i/imufusion/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-03 12:26:04] INFO root fetch - processPackages [nerpii]: Remove: archive file [/home/abi/fetcher/tmp/nerpii-0.2.1.tar.gz]
+[2024-05-03 12:26:04] INFO root fetch - processPackages [nerpii]: Remove: archive file [/home/abi/fetcher/tmp/nerpii-0.2.3.tar.gz]
+[2024-05-03 12:26:04] INFO root fetch - main [MainThread]: End processing [nerpii]: success
+[2024-05-03 12:26:04] INFO root fetch - processPackages [giskard]: executing diffoscope
+[2024-05-03 12:26:04] INFO root fetch - processPackages [giskard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard-2.9.0.tar.gz tmp/giskard-2.9.1.tar.gz --markdown 20240503/g/giskard/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-03 12:26:04] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-05-03 12:26:04] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240503/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-05-03 12:26:04] INFO root fetch - processPackages [imufusion]: Remove: archive file [/home/abi/fetcher/tmp/imufusion-1.2.4.tar.gz]
+[2024-05-03 12:26:04] INFO root fetch - processPackages [imufusion]: Remove: archive file [/home/abi/fetcher/tmp/imufusion-1.2.5.tar.gz]
+[2024-05-03 12:26:04] INFO root fetch - main [MainThread]: End processing [imufusion]: success
+[2024-05-03 12:26:04] INFO root fetch - processPackages [brewtils]: Remove: archive file [/home/abi/fetcher/tmp/brewtils-3.8.0.tar.gz]
+[2024-05-03 12:26:04] INFO root fetch - processPackages [brewtils]: Remove: archive file [/home/abi/fetcher/tmp/brewtils-3.9.0.tar.gz]
+[2024-05-03 12:26:04] INFO root fetch - main [MainThread]: End processing [brewtils]: success
+[2024-05-03 12:26:04] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-03 12:26:04] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-03 12:26:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax-report]: success
+[2024-05-03 12:26:04] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-05-03 12:26:04] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-05-03 12:26:04] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-05-03 12:26:05] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.9.0.tar.gz]
+[2024-05-03 12:26:05] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.9.1.tar.gz]
+[2024-05-03 12:26:05] INFO root fetch - main [MainThread]: End processing [giskard]: success
+[2024-05-03 12:26:05] INFO root fetch - main [MainThread]: Store serial: [23044545]
