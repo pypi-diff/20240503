@@ -9895,3 +9895,42 @@
 [2024-05-03 07:28:45] INFO root fetch - processPackages [sphae]: Remove: archive file [/home/abi/fetcher/tmp/sphae-1.31.tar.gz]
 [2024-05-03 07:28:45] INFO root fetch - main [MainThread]: End processing [sphae]: success
 [2024-05-03 07:28:45] INFO root fetch - main [MainThread]: Store serial: [23041813]
+[2024-05-03 07:30:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041813]
+[2024-05-03 07:30:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultima-scraper-api
+[2024-05-03 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2024-05-03 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nnfasta
+[2024-05-03 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-data-services
+[2024-05-03 07:30:55] INFO root fetch - processPackages [nnfasta]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-03 07:30:55] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.3.0] Old Version: [2024.5.2.1]
+[2024-05-03 07:30:55] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/c5/ce/ffaa0b5c5318ce25cc2a05ed4944903fd3780ccee86a01a8dfb30936d1bc/nnfasta-0.1.2.tar.gz
+[2024-05-03 07:30:55] INFO root fetch - processPackages [ultima-scraper-api]: New version: [2.2.26] Old Version: [2.2.25]
+[2024-05-03 07:30:55] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8934542107] Old Version: [2.0.0.dev8831728420]
+[2024-05-03 07:30:55] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/92/f9/2c18e0c204b4f1d94e337479e9351f292061a79ca368d3ca085b65935a90/crazy_thursday-2024.5.2.1.tar.gz
+[2024-05-03 07:30:55] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/39/55/118e0b3eb45b781bbdd46f3769a03a4a2b4605c61fe2f903e52148732345/ultima_scraper_api-2.2.25.tar.gz
+[2024-05-03 07:30:55] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/8a/dc/8c4320211f5392a50796cc1d5cf24bc99dcdb014d49098db5ece5061b91c/th2_data_services-2.0.0.dev8831728420.tar.gz
+[2024-05-03 07:30:55] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/0d/94/6bca19a9c6c6612f278c4b2069290e73c4ec9ce6b25060a5164fd320d596/nnfasta-0.1.4.tar.gz
+[2024-05-03 07:30:55] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/35/f7/c4e66ef90c9c0db9a606a4c0a91ed8fec08de6aaa995ddca33cd2649dab0/crazy_thursday-2024.5.3.0.tar.gz
+[2024-05-03 07:30:56] INFO root fetch - processPackages [nnfasta]: executing diffoscope
+[2024-05-03 07:30:56] INFO root fetch - processPackages [nnfasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnfasta-0.1.2.tar.gz tmp/nnfasta-0.1.4.tar.gz --markdown 20240503/n/nnfasta/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-03 07:30:56] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-03 07:30:56] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.2.1.tar.gz tmp/crazy_thursday-2024.5.3.0.tar.gz --markdown 20240503/c/crazy-thursday/2024.5.2.1-2024.5.3.0/README.md --exclude *.pyd
+[2024-05-03 07:30:56] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/00/b9/f82c4c350de9082daa9b31d53867b6bee431225b7b73fe3ca2c6be17a0e4/ultima_scraper_api-2.2.26.tar.gz
+[2024-05-03 07:30:56] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/46/88/26051e318c8cec55b1c6b537f4a91659c991afd114f9c8502e45ca75f8dd/th2_data_services-2.0.0.dev8934542107.tar.gz
+[2024-05-03 07:30:56] INFO root fetch - processPackages [ultima-scraper-api]: executing diffoscope
+[2024-05-03 07:30:56] INFO root fetch - processPackages [ultima-scraper-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_api-2.2.25.tar.gz tmp/ultima_scraper_api-2.2.26.tar.gz --markdown 20240503/u/ultima-scraper-api/2.2.25-2.2.26/README.md --exclude *.pyd
+[2024-05-03 07:30:56] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-03 07:30:56] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8831728420.tar.gz tmp/th2_data_services-2.0.0.dev8934542107.tar.gz --markdown 20240503/t/th2-data-services/2.0.0.dev8831728420-2.0.0.dev8934542107/README.md --exclude *.pyd
+[2024-05-03 07:30:56] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.2.tar.gz]
+[2024-05-03 07:30:56] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.4.tar.gz]
+[2024-05-03 07:30:56] INFO root fetch - main [MainThread]: End processing [nnfasta]: success
+[2024-05-03 07:30:56] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.2.1.tar.gz]
+[2024-05-03 07:30:56] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.3.0.tar.gz]
+[2024-05-03 07:30:56] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-03 07:30:57] INFO root fetch - processPackages [ultima-scraper-api]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_api-2.2.25.tar.gz]
+[2024-05-03 07:30:57] INFO root fetch - processPackages [ultima-scraper-api]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_api-2.2.26.tar.gz]
+[2024-05-03 07:30:57] INFO root fetch - main [MainThread]: End processing [ultima-scraper-api]: success
+[2024-05-03 07:30:57] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8831728420.tar.gz]
+[2024-05-03 07:30:57] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8934542107.tar.gz]
+[2024-05-03 07:30:57] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-03 07:30:57] INFO root fetch - main [MainThread]: Store serial: [23041824]
