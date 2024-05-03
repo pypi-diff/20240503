@@ -11963,3 +11963,48 @@
 [2024-05-03 09:22:57] INFO root fetch - processPackages [dicomthings]: Remove: archive file [/home/abi/fetcher/tmp/dicomthings-0.8.0.tar.gz]
 [2024-05-03 09:22:57] INFO root fetch - main [MainThread]: End processing [dicomthings]: success
 [2024-05-03 09:22:57] INFO root fetch - main [MainThread]: Store serial: [23042625]
+[2024-05-03 09:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042625]
+[2024-05-03 09:25:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cost-monitoring-construct
+[2024-05-03 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: net-input
+[2024-05-03 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eoq2
+[2024-05-03 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: custom-cytomine-client
+[2024-05-03 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cutthecrab
+[2024-05-03 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-picking-auto-create-lot
+[2024-05-03 09:25:06] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-03 09:25:06] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/e8/28/8ba19c33ff5ca6fe46c094f805535862c39b806f65eb782505d0e8f6facd/custom_cytomine_client-0.0.9.tar.gz
+[2024-05-03 09:25:06] INFO root fetch - processPackages [cost-monitoring-construct]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-03 09:25:06] INFO root fetch - processPackages [eoq2]: New version: [2.2.9] Old Version: [2.2.6]
+[2024-05-03 09:25:06] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2024-05-03 09:25:06] WARNING root fetch - processPackages [cutthecrab]: Skipping, unable to determine old version
+[2024-05-03 09:25:06] INFO root fetch - main [MainThread]: End processing [cutthecrab] error
+[2024-05-03 09:25:06] WARNING root fetch - processPackages [net-input]: Skipping, unable to determine old version
+[2024-05-03 09:25:06] INFO root fetch - main [MainThread]: End processing [net-input] error
+[2024-05-03 09:25:06] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/20/16/c1c34701b49a3cbdb07f7a0e1da9971e70dc0c3341a70861e1c922f3d7e8/cost-monitoring-construct-1.2.0.tar.gz
+[2024-05-03 09:25:06] INFO root fetch - processPackages [eoq2]: Downloading https://files.pythonhosted.org/packages/57/6e/e62ab44476da66a91daf5168772cbfd01a9ba29a1ca30fc6e3987111d3bc/eoq2-2.2.6.tar.gz
+[2024-05-03 09:25:07] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Downloading https://files.pythonhosted.org/packages/c1/28/bc783fe43095766f4867c5e23fe6af2f479fb2ed659c44341e3cb0ca7ba4/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-03 09:25:07] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/cc/bb/320f9bf61673b25dfa4972ad680816a562c4e6c0cd9c750cb3fa1298dc68/custom_cytomine_client-0.1.0.tar.gz
+[2024-05-03 09:25:07] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-05-03 09:25:07] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.9.tar.gz tmp/custom_cytomine_client-0.1.0.tar.gz --markdown 20240503/c/custom-cytomine-client/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-03 09:25:07] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/20/ab/c46181aefcb1ddef842a4c4cae831d4a40a291dcecaf09ca5e7c993e5a95/cost-monitoring-construct-1.2.1.tar.gz
+[2024-05-03 09:25:07] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Downloading https://files.pythonhosted.org/packages/ec/a9/fb3ce41276a2f668dd13d3fe63f0427b8cc0cbe2c959593eb194630047b3/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl
+[2024-05-03 09:25:07] INFO root fetch - processPackages [eoq2]: Downloading https://files.pythonhosted.org/packages/f6/d9/e7990e24511c866fc166b1b6d7b39adf769f6f28ca78a9093c7d4c4ab0cc/eoq2-2.2.9.tar.gz
+[2024-05-03 09:25:07] INFO root fetch - processPackages [cost-monitoring-construct]: executing diffoscope
+[2024-05-03 09:25:07] INFO root fetch - processPackages [cost-monitoring-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cost-monitoring-construct-1.2.0.tar.gz tmp/cost-monitoring-construct-1.2.1.tar.gz --markdown 20240503/c/cost-monitoring-construct/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-03 09:25:07] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: executing diffoscope
+[2024-05-03 09:25:07] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-stock-picking-auto-create-lot/16.0.1.0.0.9-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-03 09:25:07] INFO root fetch - processPackages [eoq2]: executing diffoscope
+[2024-05-03 09:25:07] INFO root fetch - processPackages [eoq2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eoq2-2.2.6.tar.gz tmp/eoq2-2.2.9.tar.gz --markdown 20240503/e/eoq2/2.2.6-2.2.9/README.md --exclude *.pyd
+[2024-05-03 09:25:07] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.9.tar.gz]
+[2024-05-03 09:25:07] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.1.0.tar.gz]
+[2024-05-03 09:25:07] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-05-03 09:25:08] INFO root fetch - processPackages [cost-monitoring-construct]: Remove: archive file [/home/abi/fetcher/tmp/cost-monitoring-construct-1.2.0.tar.gz]
+[2024-05-03 09:25:08] INFO root fetch - processPackages [cost-monitoring-construct]: Remove: archive file [/home/abi/fetcher/tmp/cost-monitoring-construct-1.2.1.tar.gz]
+[2024-05-03 09:25:08] INFO root fetch - main [MainThread]: End processing [cost-monitoring-construct]: success
+[2024-05-03 09:25:08] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-03 09:25:08] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 09:25:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-auto-create-lot]: success
+[2024-05-03 09:25:08] INFO root fetch - processPackages [eoq2]: Remove: archive file [/home/abi/fetcher/tmp/eoq2-2.2.6.tar.gz]
+[2024-05-03 09:25:08] INFO root fetch - processPackages [eoq2]: Remove: archive file [/home/abi/fetcher/tmp/eoq2-2.2.9.tar.gz]
+[2024-05-03 09:25:08] INFO root fetch - main [MainThread]: End processing [eoq2]: success
+[2024-05-03 09:25:08] INFO root fetch - main [MainThread]: Store serial: [23042646]
