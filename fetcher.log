@@ -2672,3 +2672,60 @@
 [2024-05-03 02:42:07] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
 [2024-05-03 02:42:07] INFO root fetch - main [MainThread]: End processing [surfkit]: success
 [2024-05-03 02:42:07] INFO root fetch - main [MainThread]: Store serial: [23039124]
+[2024-05-03 02:44:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039124]
+[2024-05-03 02:44:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 02:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spei-python
+[2024-05-03 02:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-llms-maritalk
+[2024-05-03 02:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stoobly-agent
+[2024-05-03 02:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PokerNow
+[2024-05-03 02:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapkit
+[2024-05-03 02:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zepben.protobuf
+[2024-05-03 02:44:17] INFO root fetch - processPackages [PokerNow]: New version: [0.7.5] Old Version: [0.7.15]
+[2024-05-03 02:44:17] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-03 02:44:17] INFO root fetch - processPackages [spei-python]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-03 02:44:17] INFO root fetch - processPackages [scrapkit]: New version: [2.0] Old Version: [1.7]
+[2024-05-03 02:44:17] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-05-03 02:44:17] INFO root fetch - processPackages [llama-index-llms-maritalk]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-03 02:44:17] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/50/e5/f2d048ecd5d194cccd70ca37596bc2e237a8c9f597e02f907a57d9ba1f07/pokernow-0.7.15.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [spei-python]: Downloading https://files.pythonhosted.org/packages/a8/f8/3e302eb8a5e479cad0f2133e2dcd06372d0889ea1b6e1eb5b0f91f8908dc/spei_python-0.9.1.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [scrapkit]: Downloading https://files.pythonhosted.org/packages/79/5a/4c044c64fde544b21139becc31f3d90a8e6a02556360e3f7e40b7c42cfc8/scrapkit-1.7.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [llama-index-llms-maritalk]: Downloading https://files.pythonhosted.org/packages/ca/2b/135f343c2d91716af1e66878af66a84e0ca93f48d1b0b5d814f80c78b08b/llama_index_llms_maritalk-0.1.1.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2024-05-03 02:44:17] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/ea/81/d75c5248beda6b572de0157fd6b09c20aa6da6f5616f8518c8fc6511d77e/pokernow-0.7.5.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2024-05-03 02:44:17] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20240503/s/stoobly-agent/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-03 02:44:17] INFO root fetch - processPackages [spei-python]: Downloading https://files.pythonhosted.org/packages/f6/b4/9cf335b32f0196b56b576e8f7f93821a9e1e543fc53c41cfffbfaf01dda4/spei_python-0.9.2.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [scrapkit]: Downloading https://files.pythonhosted.org/packages/8d/0a/8948c4248449d339380e4e989b42fb9ef5b26216b2eed5ed2ad063edabb2/scrapkit-2.0.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:44:17] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.7.15.tar.gz tmp/pokernow-0.7.5.tar.gz --markdown 20240503/P/PokerNow/0.7.15-0.7.5/README.md --exclude *.pyd
+[2024-05-03 02:44:17] INFO root fetch - processPackages [llama-index-llms-maritalk]: Downloading https://files.pythonhosted.org/packages/77/f3/0c060e5eeae7bee357513390a4c07eba5b790ee735cbed056f7e7a2f0825/llama_index_llms_maritalk-0.2.0.tar.gz
+[2024-05-03 02:44:17] INFO root fetch - processPackages [spei-python]: executing diffoscope
+[2024-05-03 02:44:17] INFO root fetch - processPackages [spei-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spei_python-0.9.1.tar.gz tmp/spei_python-0.9.2.tar.gz --markdown 20240503/s/spei-python/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-03 02:44:17] INFO root fetch - processPackages [scrapkit]: executing diffoscope
+[2024-05-03 02:44:17] INFO root fetch - processPackages [scrapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapkit-1.7.tar.gz tmp/scrapkit-2.0.tar.gz --markdown 20240503/s/scrapkit/1.7-2.0/README.md --exclude *.pyd
+[2024-05-03 02:44:17] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2024-05-03 02:44:18] INFO root fetch - processPackages [llama-index-llms-maritalk]: executing diffoscope
+[2024-05-03 02:44:18] INFO root fetch - processPackages [llama-index-llms-maritalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_maritalk-0.1.1.tar.gz tmp/llama_index_llms_maritalk-0.2.0.tar.gz --markdown 20240503/l/llama-index-llms-maritalk/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-03 02:44:18] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2024-05-03 02:44:18] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20240503/z/zepben.protobuf/0.9.0b2-0.9.0b3/README.md --exclude *.pyd
+[2024-05-03 02:44:18] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.7.15.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.7.5.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:44:18] INFO root fetch - processPackages [spei-python]: Remove: archive file [/home/abi/fetcher/tmp/spei_python-0.9.1.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - processPackages [spei-python]: Remove: archive file [/home/abi/fetcher/tmp/spei_python-0.9.2.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - main [MainThread]: End processing [spei-python]: success
+[2024-05-03 02:44:18] INFO root fetch - processPackages [scrapkit]: Remove: archive file [/home/abi/fetcher/tmp/scrapkit-1.7.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - processPackages [scrapkit]: Remove: archive file [/home/abi/fetcher/tmp/scrapkit-2.0.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - main [MainThread]: End processing [scrapkit]: success
+[2024-05-03 02:44:18] INFO root fetch - processPackages [llama-index-llms-maritalk]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_maritalk-0.1.1.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - processPackages [llama-index-llms-maritalk]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_maritalk-0.2.0.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - main [MainThread]: End processing [llama-index-llms-maritalk]: success
+[2024-05-03 02:44:18] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2024-05-03 02:44:18] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2024-05-03 02:44:19] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2024-05-03 02:44:19] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2024-05-03 02:44:19] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2024-05-03 02:44:19] INFO root fetch - main [MainThread]: Store serial: [23039141]
