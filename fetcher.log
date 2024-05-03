@@ -17330,3 +17330,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:18:16] INFO root fetch - processPackages [python-inoreader]: Remove: archive file [/home/abi/fetcher/tmp/python_inoreader-0.7.0.tar.gz]
 [2024-05-03 13:18:16] INFO root fetch - main [MainThread]: End processing [python-inoreader]: success
 [2024-05-03 13:18:16] INFO root fetch - main [MainThread]: Store serial: [23045102]
+[2024-05-03 13:20:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045102]
+[2024-05-03 13:20:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: femagtools
+[2024-05-03 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eis1600
+[2024-05-03 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rstms-cloudflare
+[2024-05-03 13:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlomix
+[2024-05-03 13:20:48] INFO root fetch - processPackages [rstms-cloudflare]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 13:20:48] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/73/51/67effdabdc3f2af63a955dc5b8e37ad2718a8a04de8133c9024287b4a959/rstms_cloudflare-0.1.0.tar.gz
+[2024-05-03 13:20:48] INFO root fetch - processPackages [dlomix]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-05-03 13:20:48] INFO root fetch - processPackages [eis1600]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-05-03 13:20:48] INFO root fetch - processPackages [femagtools]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-05-03 13:20:48] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/c5/c0/979ad4aca12d74176189e3ab063759f56eef002e2592bcfb09a863bc67bc/femagtools-1.6.7.tar.gz
+[2024-05-03 13:20:48] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/25/29/50ebdab6e442cec1e7f4b2f06d9cbd88567cf6e15100102513e504e80fb1/eis1600-1.6.3.tar.gz
+[2024-05-03 13:20:48] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/cc/79/352838dfa9e42c25a09cf4c7fa43390a6a99ad1dcd6735f8e6079724cf7a/rstms_cloudflare-0.1.1.tar.gz
+[2024-05-03 13:20:48] INFO root fetch - processPackages [dlomix]: Downloading https://files.pythonhosted.org/packages/2b/eb/cf2b553987d4816c2d3203bd2ccd97c51085aee0b1a970e34a4a8b9e3891/dlomix-0.0.7.tar.gz
+[2024-05-03 13:20:48] INFO root fetch - processPackages [rstms-cloudflare]: executing diffoscope
+[2024-05-03 13:20:48] INFO root fetch - processPackages [rstms-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_cloudflare-0.1.0.tar.gz tmp/rstms_cloudflare-0.1.1.tar.gz --markdown 20240503/r/rstms-cloudflare/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 13:20:48] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/d6/bc/dd1237df2bd746ed63c176de5c3fb14e979e1ef525ef31fc36a1a2a2f82a/femagtools-1.6.8.tar.gz
+[2024-05-03 13:20:48] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/df/ba/317425b5ff8a8b5f917e59cd1368a797c2f8d4c15344a2fe3c04e92f6d39/eis1600-1.6.4.tar.gz
+[2024-05-03 13:20:49] INFO root fetch - processPackages [dlomix]: Downloading https://files.pythonhosted.org/packages/9c/b2/08130150ac69403420d873d2cd717bd55c8b4032608f9e62e31de7aed3e9/dlomix-0.1.0.tar.gz
+[2024-05-03 13:20:49] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2024-05-03 13:20:49] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-1.6.3.tar.gz tmp/eis1600-1.6.4.tar.gz --markdown 20240503/e/eis1600/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-05-03 13:20:49] INFO root fetch - processPackages [femagtools]: executing diffoscope
+[2024-05-03 13:20:49] INFO root fetch - processPackages [femagtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femagtools-1.6.7.tar.gz tmp/femagtools-1.6.8.tar.gz --markdown 20240503/f/femagtools/1.6.7-1.6.8/README.md --exclude *.pyd
+[2024-05-03 13:20:49] INFO root fetch - processPackages [dlomix]: executing diffoscope
+[2024-05-03 13:20:49] INFO root fetch - processPackages [dlomix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlomix-0.0.7.tar.gz tmp/dlomix-0.1.0.tar.gz --markdown 20240503/d/dlomix/0.0.7-0.1.0/README.md --exclude *.pyd
+[2024-05-03 13:20:49] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-0.1.0.tar.gz]
+[2024-05-03 13:20:49] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-0.1.1.tar.gz]
+[2024-05-03 13:20:49] INFO root fetch - main [MainThread]: End processing [rstms-cloudflare]: success
+[2024-05-03 13:20:49] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.3.tar.gz]
+[2024-05-03 13:20:49] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.4.tar.gz]
+[2024-05-03 13:20:49] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2024-05-03 13:20:49] INFO root fetch - processPackages [dlomix]: Remove: archive file [/home/abi/fetcher/tmp/dlomix-0.0.7.tar.gz]
+[2024-05-03 13:20:49] INFO root fetch - processPackages [dlomix]: Remove: archive file [/home/abi/fetcher/tmp/dlomix-0.1.0.tar.gz]
+[2024-05-03 13:20:49] INFO root fetch - main [MainThread]: End processing [dlomix]: success
+[2024-05-03 13:20:50] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.6.7.tar.gz]
+[2024-05-03 13:20:50] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.6.8.tar.gz]
+[2024-05-03 13:20:50] INFO root fetch - main [MainThread]: End processing [femagtools]: success
+[2024-05-03 13:20:50] INFO root fetch - main [MainThread]: Store serial: [23045114]
