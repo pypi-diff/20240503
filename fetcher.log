@@ -12008,3 +12008,60 @@
 [2024-05-03 09:25:08] INFO root fetch - processPackages [eoq2]: Remove: archive file [/home/abi/fetcher/tmp/eoq2-2.2.9.tar.gz]
 [2024-05-03 09:25:08] INFO root fetch - main [MainThread]: End processing [eoq2]: success
 [2024-05-03 09:25:08] INFO root fetch - main [MainThread]: Store serial: [23042646]
+[2024-05-03 09:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042646]
+[2024-05-03 09:27:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 09:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-payment-order-notification
+[2024-05-03 09:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custom-cytomine-client
+[2024-05-03 09:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coldp
+[2024-05-03 09:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurom
+[2024-05-03 09:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: net-input
+[2024-05-03 09:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django_herobiz_ds
+[2024-05-03 09:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydatagenerator
+[2024-05-03 09:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhtml-enhanced
+[2024-05-03 09:27:17] WARNING root fetch - processPackages [net-input]: Skipping, unable to determine old version
+[2024-05-03 09:27:17] INFO root fetch - main [MainThread]: End processing [net-input] error
+[2024-05-03 09:27:17] WARNING root fetch - processPackages [coldp]: Skipping, unable to determine old version
+[2024-05-03 09:27:17] INFO root fetch - main [MainThread]: End processing [coldp] error
+[2024-05-03 09:27:17] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2024-05-03 09:27:17] INFO root fetch - processPackages [odoo-addon-account-payment-order-notification]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-03 09:27:17] WARNING root fetch - processPackages [pydatagenerator]: Skipping, unable to determine old version
+[2024-05-03 09:27:17] INFO root fetch - main [MainThread]: End processing [pydatagenerator] error
+[2024-05-03 09:27:17] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/cc/bb/320f9bf61673b25dfa4972ad680816a562c4e6c0cd9c750cb3fa1298dc68/custom_cytomine_client-0.1.0.tar.gz
+[2024-05-03 09:27:17] INFO root fetch - processPackages [odoo-addon-account-payment-order-notification]: Downloading https://files.pythonhosted.org/packages/88/5f/f32dc622e2143aafcd4864f1b7c3baf4a54cfc8cb1f9f4b03734d99dd882/odoo_addon_account_payment_order_notification-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-03 09:27:17] INFO root fetch - processPackages [neurom]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-03 09:27:17] INFO root fetch - processPackages [django_herobiz_ds]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-03 09:27:17] INFO root fetch - processPackages [pyhtml-enhanced]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-03 09:27:17] INFO root fetch - processPackages [odoo-addon-account-payment-order-notification]: Downloading https://files.pythonhosted.org/packages/9d/6a/5d4a4936cb7d389add8333d7f47d49f93b1a1b0bc3ef43f03c7a1744030b/odoo_addon_account_payment_order_notification-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-03 09:27:17] INFO root fetch - processPackages [neurom]: Downloading https://files.pythonhosted.org/packages/70/6e/6f1c2b442b8be3209d15321d68bc2624a4cb9215ef2f13f3853f97095ca1/neurom-3.2.8.tar.gz
+[2024-05-03 09:27:17] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/20/2a/3ac556b43c0a62d46da0b594619cc40794a0e001366b9c0798d70471112b/django_herobiz_ds-2.2.3.tar.gz
+[2024-05-03 09:27:17] INFO root fetch - processPackages [pyhtml-enhanced]: Downloading https://files.pythonhosted.org/packages/65/48/c9be74c779eb854c0e9c9295ff54eb2d693c914087c2b64da33f125825fe/pyhtml_enhanced-2.0.3.tar.gz
+[2024-05-03 09:27:17] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/57/3f/78a3336d407fd6e751b5a823b14899d6a41727743f9964b2519a882696e9/custom_cytomine_client-0.1.0a0.tar.gz
+[2024-05-03 09:27:17] INFO root fetch - processPackages [odoo-addon-account-payment-order-notification]: executing diffoscope
+[2024-05-03 09:27:17] INFO root fetch - processPackages [odoo-addon-account-payment-order-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order_notification-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order_notification-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-account-payment-order-notification/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-03 09:27:17] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-05-03 09:27:17] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.1.0.tar.gz tmp/custom_cytomine_client-0.1.0a0.tar.gz --markdown 20240503/c/custom-cytomine-client/0.1.0-0.1.0a0/README.md --exclude *.pyd
+[2024-05-03 09:27:18] INFO root fetch - processPackages [pyhtml-enhanced]: Downloading https://files.pythonhosted.org/packages/79/22/5cf00dbfe21b01a598039223a10cf20cb53ab3308cd83c7575e4cd52d919/pyhtml_enhanced-2.1.0.tar.gz
+[2024-05-03 09:27:18] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/20/d3/60ddc03d20d7ae71d79b29fc4e092f052bad3172eb8ba446ea97e29d26c3/django_herobiz_ds-2.2.4.tar.gz
+[2024-05-03 09:27:18] INFO root fetch - processPackages [neurom]: Downloading https://files.pythonhosted.org/packages/38/d9/7a311610b1b66e408ef4b3ee9edbed70af03245d599b3894ec9c661ccf37/neurom-3.2.9.tar.gz
+[2024-05-03 09:27:18] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.1.0.tar.gz]
+[2024-05-03 09:27:18] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.1.0a0.tar.gz]
+[2024-05-03 09:27:18] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-05-03 09:27:18] INFO root fetch - processPackages [odoo-addon-account-payment-order-notification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order_notification-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-03 09:27:18] INFO root fetch - processPackages [odoo-addon-account-payment-order-notification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order_notification-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-03 09:27:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order-notification]: success
+[2024-05-03 09:27:18] INFO root fetch - processPackages [neurom]: executing diffoscope
+[2024-05-03 09:27:18] INFO root fetch - processPackages [neurom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurom-3.2.8.tar.gz tmp/neurom-3.2.9.tar.gz --markdown 20240503/n/neurom/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-03 09:27:18] INFO root fetch - processPackages [django_herobiz_ds]: executing diffoscope
+[2024-05-03 09:27:18] INFO root fetch - processPackages [django_herobiz_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_ds-2.2.3.tar.gz tmp/django_herobiz_ds-2.2.4.tar.gz --markdown 20240503/d/django_herobiz_ds/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-03 09:27:18] INFO root fetch - processPackages [pyhtml-enhanced]: executing diffoscope
+[2024-05-03 09:27:18] INFO root fetch - processPackages [pyhtml-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtml_enhanced-2.0.3.tar.gz tmp/pyhtml_enhanced-2.1.0.tar.gz --markdown 20240503/p/pyhtml-enhanced/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-03 09:27:19] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-3.2.8.tar.gz]
+[2024-05-03 09:27:19] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-3.2.9.tar.gz]
+[2024-05-03 09:27:19] INFO root fetch - main [MainThread]: End processing [neurom]: success
+[2024-05-03 09:27:19] INFO root fetch - processPackages [pyhtml-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml_enhanced-2.0.3.tar.gz]
+[2024-05-03 09:27:19] INFO root fetch - processPackages [pyhtml-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml_enhanced-2.1.0.tar.gz]
+[2024-05-03 09:27:19] INFO root fetch - main [MainThread]: End processing [pyhtml-enhanced]: success
+[2024-05-03 09:27:20] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.3.tar.gz]
+[2024-05-03 09:27:20] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.4.tar.gz]
+[2024-05-03 09:27:20] INFO root fetch - main [MainThread]: End processing [django_herobiz_ds]: success
+[2024-05-03 09:27:20] INFO root fetch - main [MainThread]: Store serial: [23042668]
