@@ -16662,3 +16662,38 @@
 [2024-05-03 12:50:28] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 64817230>=10485760
 [2024-05-03 12:50:28] INFO root fetch - main [MainThread]: End processing [Weblate] error
 [2024-05-03 12:50:28] INFO root fetch - main [MainThread]: Store serial: [23044817]
+[2024-05-03 12:52:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044817]
+[2024-05-03 12:52:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 12:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-05-03 12:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: increff-runner
+[2024-05-03 12:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edmgr
+[2024-05-03 12:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LaueTools
+[2024-05-03 12:52:58] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-03 12:52:59] INFO root fetch - processPackages [edmgr]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-03 12:52:59] INFO root fetch - processPackages [increff-runner]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-05-03 12:52:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-03 12:52:59] INFO root fetch - processPackages [LaueTools]: New version: [3.0.97] Old Version: [3.0.96]
+[2024-05-03 12:52:59] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/af/18/6cf0137a1230407a83d98fefdf0fb7bf1cfd1961b91254ea73dbf2a18828/increff_runner-3.2.0-py3-none-any.whl
+[2024-05-03 12:52:59] INFO root fetch - processPackages [edmgr]: Downloading https://files.pythonhosted.org/packages/9d/e4/993e24a371a92b41e4eb09938dd7554dd906667b9f5fd13894befd6c6f21/edmgr-1.1.2.tar.gz
+[2024-05-03 12:52:59] INFO root fetch - processPackages [LaueTools]: Downloading https://files.pythonhosted.org/packages/25/e8/55639a881e6e7be349da25b75cc9f9861bf6631bae1c5672f8782ea33b16/LaueTools-3.0.96.tar.gz
+[2024-05-03 12:52:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-03 12:52:59] WARNING root fetch - processPackages [LaueTools]: Skipping package: exceeds size limit 53918330>=10485760
+[2024-05-03 12:52:59] INFO root fetch - main [MainThread]: End processing [LaueTools] error
+[2024-05-03 12:52:59] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/4b/68/07114a5fe87b8d57d8ec01cc9b70cc04f8066e78675d32e04027bb4e6db3/increff_runner-3.2.1-py3-none-any.whl
+[2024-05-03 12:52:59] INFO root fetch - processPackages [edmgr]: Downloading https://files.pythonhosted.org/packages/da/83/95e1d4fd29e12412383fe9e1bc6cb2e4ff21c463fa8c595aa70107aed052/edmgr-1.2.0.tar.gz
+[2024-05-03 12:52:59] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-03 12:52:59] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.2.0-py3-none-any.whl.zip tmp/increff_runner-3.2.1-py3-none-any.whl.zip --markdown 20240503/i/increff-runner/3.2.0-3.2.1/README.md --exclude *.pyd
+[2024-05-03 12:52:59] INFO root fetch - processPackages [edmgr]: executing diffoscope
+[2024-05-03 12:52:59] INFO root fetch - processPackages [edmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edmgr-1.1.2.tar.gz tmp/edmgr-1.2.0.tar.gz --markdown 20240503/e/edmgr/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-03 12:52:59] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-03 12:52:59] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240503/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-03 12:53:00] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.2.0-py3-none-any.whl.zip]
+[2024-05-03 12:53:00] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.2.1-py3-none-any.whl.zip]
+[2024-05-03 12:53:00] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-03 12:53:00] INFO root fetch - processPackages [edmgr]: Remove: archive file [/home/abi/fetcher/tmp/edmgr-1.1.2.tar.gz]
+[2024-05-03 12:53:00] INFO root fetch - processPackages [edmgr]: Remove: archive file [/home/abi/fetcher/tmp/edmgr-1.2.0.tar.gz]
+[2024-05-03 12:53:00] INFO root fetch - main [MainThread]: End processing [edmgr]: success
+[2024-05-03 12:53:00] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-03 12:53:00] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-03 12:53:00] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-03 12:53:00] INFO root fetch - main [MainThread]: Store serial: [23044828]
