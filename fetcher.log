@@ -11528,3 +11528,42 @@
 [2024-05-03 08:56:30] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240501.tar.gz]
 [2024-05-03 08:56:30] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-03 08:56:30] INFO root fetch - main [MainThread]: Store serial: [23042406]
+[2024-05-03 08:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042406]
+[2024-05-03 08:58:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 08:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hbox
+[2024-05-03 08:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astroquery
+[2024-05-03 08:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lemon8
+[2024-05-03 08:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reasoner-validator
+[2024-05-03 08:58:39] INFO root fetch - processPackages [hbox]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-03 08:58:39] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/d8/2c/22bd3906d77cde4c77755034298ad2fc9fde7dc4331e2deb8452c9a14a72/hbox-0.2.5.tar.gz
+[2024-05-03 08:58:39] INFO root fetch - processPackages [lemon8]: New version: [1.3.11] Old Version: [1.3.10]
+[2024-05-03 08:58:39] INFO root fetch - processPackages [astroquery]: New version: [0.4.dev5750] Old Version: [0.4.dev5744]
+[2024-05-03 08:58:39] INFO root fetch - processPackages [reasoner-validator]: New version: [4.1.3] Old Version: [4.1.2]
+[2024-05-03 08:58:39] INFO root fetch - processPackages [lemon8]: Downloading https://files.pythonhosted.org/packages/71/b3/d230fe15848a0976eb3a4890d55227bc7bcfa950a380df9b4096b4db7651/lemon8-1.3.10.tar.gz
+[2024-05-03 08:58:39] INFO root fetch - processPackages [astroquery]: Downloading https://files.pythonhosted.org/packages/80/fc/4ad0567df9f9283caa586681c54894ec9c6f6eb53e17e70998cd1530f071/astroquery-0.4.dev5744.tar.gz
+[2024-05-03 08:58:39] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/59/23/66cb879b376165b1ef041d1f4c963e8b3aaf9a53357a72e86bed9f6bb2c2/reasoner_validator-4.1.2.tar.gz
+[2024-05-03 08:58:39] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/3d/8f/f2b9895396b390ee95f4a17b812baa1266d381c1727ee5d88b9476f47098/hbox-0.2.6.tar.gz
+[2024-05-03 08:58:39] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-03 08:58:39] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.2.5.tar.gz tmp/hbox-0.2.6.tar.gz --markdown 20240503/h/hbox/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-03 08:58:39] INFO root fetch - processPackages [lemon8]: Downloading https://files.pythonhosted.org/packages/a5/a0/f8762e786678e852368cfff8e5a84e7c3cf8185d4ea97959d2fe569c25eb/lemon8-1.3.11.tar.gz
+[2024-05-03 08:58:40] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/64/ea/b09b44fa207de535b5037956e11b725253a13bdcf553851f37d4fcba4b38/reasoner_validator-4.1.3.tar.gz
+[2024-05-03 08:58:40] INFO root fetch - processPackages [lemon8]: executing diffoscope
+[2024-05-03 08:58:40] INFO root fetch - processPackages [lemon8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemon8-1.3.10.tar.gz tmp/lemon8-1.3.11.tar.gz --markdown 20240503/l/lemon8/1.3.10-1.3.11/README.md --exclude *.pyd
+[2024-05-03 08:58:40] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2024-05-03 08:58:40] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-4.1.2.tar.gz tmp/reasoner_validator-4.1.3.tar.gz --markdown 20240503/r/reasoner-validator/4.1.2-4.1.3/README.md --exclude *.pyd
+[2024-05-03 08:58:40] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.5.tar.gz]
+[2024-05-03 08:58:40] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.6.tar.gz]
+[2024-05-03 08:58:40] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-03 08:58:40] INFO root fetch - processPackages [lemon8]: Remove: archive file [/home/abi/fetcher/tmp/lemon8-1.3.10.tar.gz]
+[2024-05-03 08:58:40] INFO root fetch - processPackages [lemon8]: Remove: archive file [/home/abi/fetcher/tmp/lemon8-1.3.11.tar.gz]
+[2024-05-03 08:58:40] INFO root fetch - main [MainThread]: End processing [lemon8]: success
+[2024-05-03 08:58:41] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.2.tar.gz]
+[2024-05-03 08:58:41] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.3.tar.gz]
+[2024-05-03 08:58:41] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2024-05-03 08:58:41] INFO root fetch - processPackages [astroquery]: Downloading https://files.pythonhosted.org/packages/2e/c6/5a4c3831a8f8fe5714118e49506efd5a52ec2a58bee85f1a70b289f90d88/astroquery-0.4.dev5750.tar.gz
+[2024-05-03 08:58:43] INFO root fetch - processPackages [astroquery]: executing diffoscope
+[2024-05-03 08:58:43] INFO root fetch - processPackages [astroquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroquery-0.4.dev5744.tar.gz tmp/astroquery-0.4.dev5750.tar.gz --markdown 20240503/a/astroquery/0.4.dev5744-0.4.dev5750/README.md --exclude *.pyd
+[2024-05-03 08:58:49] INFO root fetch - processPackages [astroquery]: Remove: archive file [/home/abi/fetcher/tmp/astroquery-0.4.dev5744.tar.gz]
+[2024-05-03 08:58:49] INFO root fetch - processPackages [astroquery]: Remove: archive file [/home/abi/fetcher/tmp/astroquery-0.4.dev5750.tar.gz]
+[2024-05-03 08:58:49] INFO root fetch - main [MainThread]: End processing [astroquery]: success
+[2024-05-03 08:58:49] INFO root fetch - main [MainThread]: Store serial: [23042420]
