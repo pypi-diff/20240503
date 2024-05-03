@@ -9266,3 +9266,45 @@
 [2024-05-03 06:36:31] INFO root fetch - processPackages [molcas-suite]: Remove: archive file [/home/abi/fetcher/tmp/molcas_suite-1.32.0.tar.gz]
 [2024-05-03 06:36:31] INFO root fetch - main [MainThread]: End processing [molcas-suite]: success
 [2024-05-03 06:36:31] INFO root fetch - main [MainThread]: Store serial: [23041528]
+[2024-05-03 06:38:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041528]
+[2024-05-03 06:38:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 06:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ast-grep-py
+[2024-05-03 06:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MyLLM
+[2024-05-03 06:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-maintenance-request-purchase
+[2024-05-03 06:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repo2docs
+[2024-05-03 06:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-maintenance
+[2024-05-03 06:38:40] WARNING root fetch - processPackages [odoo-addon-maintenance-request-purchase]: Skipping, unable to determine old version
+[2024-05-03 06:38:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-request-purchase] error
+[2024-05-03 06:38:40] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 06:38:40] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 06:38:40] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: New version: [16.0.20240502.0] Old Version: [16.0.20240418.0]
+[2024-05-03 06:38:40] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-03 06:38:40] INFO root fetch - processPackages [ast-grep-py]: New version: [0.21.3] Old Version: [0.21.2]
+[2024-05-03 06:38:40] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/18/2b/d9bdd887a46b7d13c0538669eb135c2698606c18fc26d4f839cf5ef0917c/odoo_addons_oca_maintenance-16.0.20240418.0-py3-none-any.whl
+[2024-05-03 06:38:40] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-03 06:38:40] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 06:38:40] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/e7/c5/0b33324e57dbd0bee7db3d55aaaa7ad3fabfd72f0704307a9be779452034/ast_grep_py-0.21.2.tar.gz
+[2024-05-03 06:38:41] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 06:38:41] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 06:38:41] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-03 06:38:41] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/c3/c5/3f7591c7de1a6779b95178a6039c433bade4f0c2a4c0ccd7fb780f60d4aa/odoo_addons_oca_maintenance-16.0.20240502.0-py3-none-any.whl
+[2024-05-03 06:38:41] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/8f/60/dd7867984f281c05c9fb7ed60e345ad4412ee325782ae2d36b7cafdd80ef/ast_grep_py-0.21.3.tar.gz
+[2024-05-03 06:38:41] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-03 06:38:41] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240503/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-03 06:38:41] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: executing diffoscope
+[2024-05-03 06:38:41] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_maintenance-16.0.20240418.0-py3-none-any.whl.zip tmp/odoo_addons_oca_maintenance-16.0.20240502.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-maintenance/16.0.20240418.0-16.0.20240502.0/README.md --exclude *.pyd
+[2024-05-03 06:38:41] INFO root fetch - processPackages [ast-grep-py]: executing diffoscope
+[2024-05-03 06:38:41] INFO root fetch - processPackages [ast-grep-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_py-0.21.2.tar.gz tmp/ast_grep_py-0.21.3.tar.gz --markdown 20240503/a/ast-grep-py/0.21.2-0.21.3/README.md --exclude *.pyd
+[2024-05-03 06:38:41] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 06:38:41] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 06:38:41] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 06:38:41] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20240418.0-py3-none-any.whl.zip]
+[2024-05-03 06:38:41] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20240502.0-py3-none-any.whl.zip]
+[2024-05-03 06:38:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-maintenance]: success
+[2024-05-03 06:38:41] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-03 06:38:41] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-03 06:38:41] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-03 06:38:42] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.21.2.tar.gz]
+[2024-05-03 06:38:42] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.21.3.tar.gz]
+[2024-05-03 06:38:42] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
+[2024-05-03 06:38:42] INFO root fetch - main [MainThread]: Store serial: [23041572]
