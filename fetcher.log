@@ -15551,3 +15551,74 @@
 [2024-05-03 11:58:09] INFO root fetch - processPackages [milliman-sensi]: Remove: archive file [/home/abi/fetcher/tmp/milliman_sensi-1.1.1.tar.gz]
 [2024-05-03 11:58:09] INFO root fetch - main [MainThread]: End processing [milliman-sensi]: success
 [2024-05-03 11:58:09] INFO root fetch - main [MainThread]: Store serial: [23044150]
+[2024-05-03 12:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044150]
+[2024-05-03 12:00:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: milliman-sensi
+[2024-05-03 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pellipop
+[2024-05-03 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-manager
+[2024-05-03 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alyx-registrator
+[2024-05-03 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: singleton-package
+[2024-05-03 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdl
+[2024-05-03 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reait
+[2024-05-03 12:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hippo-plot
+[2024-05-03 12:00:38] INFO root fetch - processPackages [hippo-plot]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 12:00:38] INFO root fetch - processPackages [singleton-package]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-03 12:00:38] INFO root fetch - processPackages [milliman-sensi]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-03 12:00:38] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev3] Old Version: [0.2.0.dev2]
+[2024-05-03 12:00:38] INFO root fetch - processPackages [reait]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-03 12:00:38] INFO root fetch - processPackages [cdl]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-03 12:00:38] INFO root fetch - processPackages [pellipop]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-03 12:00:38] INFO root fetch - processPackages [hippo-plot]: Downloading https://files.pythonhosted.org/packages/bd/a1/3328bbb1879ae037600315acc4084a2e597dcb8d0ccf43c35fd2b7bddfee/hippo_plot-0.0.4.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [singleton-package]: Downloading https://files.pythonhosted.org/packages/69/95/b44f6e88fe3f31d34f50deeb9b6b009904ef544b4c7a0ef447239fc10096/singleton_package-0.3.0.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [milliman-sensi]: Downloading https://files.pythonhosted.org/packages/c0/29/1fcf7b45605f62df969475e5aa1053a94c6e3b0f27995c960f4a2442e045/milliman_sensi-1.1.0.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/25/76/613b83ba96c3500c00e108aef4ccdb13ff76c40cc71033b7de07b5cc8e6f/torch_model_manager-0.2.0.dev2.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [alyx-registrator]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 12:00:38] INFO root fetch - processPackages [reait]: Downloading https://files.pythonhosted.org/packages/7f/87/665f6bac14c5c6df45250307ae5ea8dfea541be395c67f96a141c1a7a439/reait-0.0.7.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [cdl]: Downloading https://files.pythonhosted.org/packages/9e/0e/c1df925a0ab7145b03bb6b51d342675cc4aea37d10c42ce086040dc3296b/cdl-0.9.1.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/81/fe/f0159a4b3ec475dd3120502c819dce785672776304bd23986af3834f6c8b/pellipop-0.8.5.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [singleton-package]: Downloading https://files.pythonhosted.org/packages/9f/fa/4de4232393a20c19631cab5bf3002f5a8377fc373d45e3e16765658f2fab/singleton_package-0.4.0.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [milliman-sensi]: Downloading https://files.pythonhosted.org/packages/3d/a9/0c6a9ebe75e64b7f26ff2867953618431168d222d5cfba9e13a0863e5e08/milliman_sensi-1.1.1.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [alyx-registrator]: Downloading https://files.pythonhosted.org/packages/f7/ea/9587181b463857d0b7e24ba8125e37a59dfd5f9bcccf9d3b48679c76c867/alyx_registrator-0.0.3.tar.gz
+[2024-05-03 12:00:38] WARNING root fetch - processPackages [cdl]: Skipping package: exceeds size limit 30886146>=10485760
+[2024-05-03 12:00:38] INFO root fetch - main [MainThread]: End processing [cdl] error
+[2024-05-03 12:00:38] INFO root fetch - processPackages [hippo-plot]: Downloading https://files.pythonhosted.org/packages/1b/5d/46b661e63eab208990b0f517c0e431a6c4d618c0a799bf2a5ab474ad4957/hippo_plot-0.0.5.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/58/6d/038724b4c45b407ed3ff825131ec179fc6b24fbb814a4f61b1b1f9b89181/torch_model_manager-0.2.0.dev3.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [singleton-package]: executing diffoscope
+[2024-05-03 12:00:38] INFO root fetch - processPackages [singleton-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singleton_package-0.3.0.tar.gz tmp/singleton_package-0.4.0.tar.gz --markdown 20240503/s/singleton-package/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-03 12:00:38] INFO root fetch - processPackages [milliman-sensi]: executing diffoscope
+[2024-05-03 12:00:38] INFO root fetch - processPackages [milliman-sensi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milliman_sensi-1.1.0.tar.gz tmp/milliman_sensi-1.1.1.tar.gz --markdown 20240503/m/milliman-sensi/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-03 12:00:38] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-03 12:00:38] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.dev2.tar.gz tmp/torch_model_manager-0.2.0.dev3.tar.gz --markdown 20240503/t/torch-model-manager/0.2.0.dev2-0.2.0.dev3/README.md --exclude *.pyd
+[2024-05-03 12:00:38] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/30/dc/c2e3b114ba45e818fbb97526dfdbc74b1b74cdcc1435059db4ed17e7ccb9/pellipop-0.8.6.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [reait]: Downloading https://files.pythonhosted.org/packages/0a/36/ab1b06079efd25b6853fd18daa75f12e1f5bf061d8643bf2618754056dfc/reait-0.0.9.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [hippo-plot]: executing diffoscope
+[2024-05-03 12:00:38] INFO root fetch - processPackages [hippo-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippo_plot-0.0.4.tar.gz tmp/hippo_plot-0.0.5.tar.gz --markdown 20240503/h/hippo-plot/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 12:00:38] INFO root fetch - processPackages [alyx-registrator]: Downloading https://files.pythonhosted.org/packages/c5/55/375183675926de166dc5235c0029fa72c2493e15c301bb71d0833cfa26c6/alyx_registrator-0.0.4.tar.gz
+[2024-05-03 12:00:38] INFO root fetch - processPackages [pellipop]: executing diffoscope
+[2024-05-03 12:00:38] INFO root fetch - processPackages [pellipop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pellipop-0.8.5.tar.gz tmp/pellipop-0.8.6.tar.gz --markdown 20240503/p/pellipop/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-03 12:00:39] INFO root fetch - processPackages [alyx-registrator]: executing diffoscope
+[2024-05-03 12:00:39] INFO root fetch - processPackages [alyx-registrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alyx_registrator-0.0.3.tar.gz tmp/alyx_registrator-0.0.4.tar.gz --markdown 20240503/a/alyx-registrator/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 12:00:39] INFO root fetch - processPackages [reait]: executing diffoscope
+[2024-05-03 12:00:39] INFO root fetch - processPackages [reait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reait-0.0.7.tar.gz tmp/reait-0.0.9.tar.gz --markdown 20240503/r/reait/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-03 12:00:39] INFO root fetch - processPackages [singleton-package]: Remove: archive file [/home/abi/fetcher/tmp/singleton_package-0.3.0.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - processPackages [singleton-package]: Remove: archive file [/home/abi/fetcher/tmp/singleton_package-0.4.0.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - main [MainThread]: End processing [singleton-package]: success
+[2024-05-03 12:00:39] INFO root fetch - processPackages [milliman-sensi]: Remove: archive file [/home/abi/fetcher/tmp/milliman_sensi-1.1.0.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - processPackages [milliman-sensi]: Remove: archive file [/home/abi/fetcher/tmp/milliman_sensi-1.1.1.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - main [MainThread]: End processing [milliman-sensi]: success
+[2024-05-03 12:00:39] INFO root fetch - processPackages [hippo-plot]: Remove: archive file [/home/abi/fetcher/tmp/hippo_plot-0.0.4.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - processPackages [hippo-plot]: Remove: archive file [/home/abi/fetcher/tmp/hippo_plot-0.0.5.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - main [MainThread]: End processing [hippo-plot]: success
+[2024-05-03 12:00:39] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev2.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev3.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-03 12:00:39] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.5.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.6.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - main [MainThread]: End processing [pellipop]: success
+[2024-05-03 12:00:39] INFO root fetch - processPackages [alyx-registrator]: Remove: archive file [/home/abi/fetcher/tmp/alyx_registrator-0.0.3.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - processPackages [alyx-registrator]: Remove: archive file [/home/abi/fetcher/tmp/alyx_registrator-0.0.4.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - main [MainThread]: End processing [alyx-registrator]: success
+[2024-05-03 12:00:39] INFO root fetch - processPackages [reait]: Remove: archive file [/home/abi/fetcher/tmp/reait-0.0.7.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - processPackages [reait]: Remove: archive file [/home/abi/fetcher/tmp/reait-0.0.9.tar.gz]
+[2024-05-03 12:00:39] INFO root fetch - main [MainThread]: End processing [reait]: success
+[2024-05-03 12:00:39] INFO root fetch - main [MainThread]: Store serial: [23044173]
