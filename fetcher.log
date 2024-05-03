@@ -13922,3 +13922,89 @@
 [2024-05-03 10:35:02] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.4-py3-none-any.whl.zip]
 [2024-05-03 10:35:02] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-05-03 10:35:02] INFO root fetch - main [MainThread]: Store serial: [23043426]
+[2024-05-03 10:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043426]
+[2024-05-03 10:37:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfquake
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyuptech
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anycorn
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: choc-expr
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dve-lumipy-testing
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: excel2db
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meili-sdk
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rst-budoux
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibind
+[2024-05-03 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bmsdna-sql-utils
+[2024-05-03 10:37:16] WARNING root fetch - processPackages [rst-budoux]: Skipping, unable to determine old version
+[2024-05-03 10:37:16] INFO root fetch - processPackages [rst-budoux]: Start processing: k8sAI
+[2024-05-03 10:37:16] INFO root fetch - main [MainThread]: End processing [rst-budoux] error
+[2024-05-03 10:37:16] INFO root fetch - processPackages [ibind]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 10:37:16] INFO root fetch - processPackages [k8sAI]: New version: [0.1.6] Old Version: [0.1.3]
+[2024-05-03 10:37:16] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 10:37:16] INFO root fetch - processPackages [bmsdna-sql-utils]: New version: [0.12.7] Old Version: [0.12.6]
+[2024-05-03 10:37:16] INFO root fetch - processPackages [pyuptech]: New version: [0.1.4a1] Old Version: [0.1.4a0]
+[2024-05-03 10:37:16] INFO root fetch - processPackages [excel2db]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 10:37:16] WARNING root fetch - processPackages [choc-expr]: Skipping, unable to determine old version
+[2024-05-03 10:37:16] INFO root fetch - processPackages [anycorn]: New version: [0.17.2] Old Version: [0.17.1]
+[2024-05-03 10:37:16] INFO root fetch - main [MainThread]: End processing [choc-expr] error
+[2024-05-03 10:37:16] INFO root fetch - processPackages [meili-sdk]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-05-03 10:37:16] INFO root fetch - processPackages [surfquake]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 10:37:16] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/84/da/05ccedcfe9b474ab03f91d8e54c99bdbf48d5168222e2630038acf341ea4/ibind-0.0.5.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-03 10:37:16] INFO root fetch - processPackages [k8sAI]: Downloading https://files.pythonhosted.org/packages/bc/db/16b983d1df66fb7ac4000c42f2be43c46b29c22179c0aade98463c64fc20/k8sai-0.1.3.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/df/a8/66ce4e9f74844aff1924435d68c229501c761288901626e60025762b3e19/pyuptech-0.1.4a0.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [anycorn]: Downloading https://files.pythonhosted.org/packages/87/07/b516b7211521a29ed79681c05669d67ba3a2e5729d1e8a5f43de901886fb/anycorn-0.17.1.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [excel2db]: Downloading https://files.pythonhosted.org/packages/1f/89/e3dd555ca81323fdb54a2848a387d275a3f7fcd110ac59ff574aacad5401/excel2db-0.0.4.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [surfquake]: Downloading https://files.pythonhosted.org/packages/26/fb/bc8bb22ccb08ba0ea412ec3be082256f21d7a9c854359916f9d60bb6d5f4/surfquake-0.0.5.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [meili-sdk]: Downloading https://files.pythonhosted.org/packages/d7/89/9dfcb0f2862a7bb80744f2317d226d61ea9c4929113b16268e4576ed82fc/meili-sdk-0.6.9.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/6f/81/5345540bbd75685bef08420c9d703dcfca9cea3a66c683cb8c2003e20af4/bmsdna_sql_utils-0.12.6.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-03 10:37:16] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/27/54/14e45f4864a3f9200f5b84dcac2d685574f8e1282bf3e56b9e641c397539/ibind-0.0.6.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [ibind]: executing diffoscope
+[2024-05-03 10:37:16] INFO root fetch - processPackages [ibind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibind-0.0.5.tar.gz tmp/ibind-0.0.6.tar.gz --markdown 20240503/i/ibind/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 10:37:16] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/ee/47/f5f9f942e03af830263106d61145feaca3931e3bf780cc81073e79f9a915/pyuptech-0.1.4a1.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [meili-sdk]: Downloading https://files.pythonhosted.org/packages/cd/1d/ecdbfc7b5a88f18d3170347366f448eb2023b408dc30ec19540ca8b9658e/meili-sdk-0.7.0.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-03 10:37:16] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240503/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 10:37:16] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/87/62/8ffe1118d3cb6c0dab248ff17f5a2c1abc888ee704b826eb1e7fd1aabf2a/bmsdna_sql_utils-0.12.7.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [excel2db]: Downloading https://files.pythonhosted.org/packages/2e/45/079230f3e8e4234ad31f58f06cfa5ab5038fc27cf7b856e6a9d80ce00ee4/excel2db-0.0.5.tar.gz
+[2024-05-03 10:37:16] INFO root fetch - processPackages [anycorn]: Downloading https://files.pythonhosted.org/packages/91/4e/cb18eb3c3ba08b5d2fab039d8f2d569964208bcabf2d51ec2c9e0c1d3d6e/anycorn-0.17.2.tar.gz
+[2024-05-03 10:37:16] WARNING root fetch - processPackages [surfquake]: Skipping package: exceeds size limit 15560530>=10485760
+[2024-05-03 10:37:16] INFO root fetch - main [MainThread]: End processing [surfquake] error
+[2024-05-03 10:37:17] INFO root fetch - processPackages [k8sAI]: Downloading https://files.pythonhosted.org/packages/60/b3/bf1bf23a30a82ceda38f1a2562289ba649dedb58a5fc6076a8fda3b90d8e/k8sai-0.1.6.tar.gz
+[2024-05-03 10:37:17] INFO root fetch - processPackages [pyuptech]: executing diffoscope
+[2024-05-03 10:37:17] INFO root fetch - processPackages [pyuptech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuptech-0.1.4a0.tar.gz tmp/pyuptech-0.1.4a1.tar.gz --markdown 20240503/p/pyuptech/0.1.4a0-0.1.4a1/README.md --exclude *.pyd
+[2024-05-03 10:37:17] INFO root fetch - processPackages [meili-sdk]: executing diffoscope
+[2024-05-03 10:37:17] INFO root fetch - processPackages [meili-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meili-sdk-0.6.9.tar.gz tmp/meili-sdk-0.7.0.tar.gz --markdown 20240503/m/meili-sdk/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-05-03 10:37:17] INFO root fetch - processPackages [excel2db]: executing diffoscope
+[2024-05-03 10:37:17] INFO root fetch - processPackages [excel2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel2db-0.0.4.tar.gz tmp/excel2db-0.0.5.tar.gz --markdown 20240503/e/excel2db/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 10:37:17] INFO root fetch - processPackages [anycorn]: executing diffoscope
+[2024-05-03 10:37:17] INFO root fetch - processPackages [anycorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycorn-0.17.1.tar.gz tmp/anycorn-0.17.2.tar.gz --markdown 20240503/a/anycorn/0.17.1-0.17.2/README.md --exclude *.pyd
+[2024-05-03 10:37:17] INFO root fetch - processPackages [bmsdna-sql-utils]: executing diffoscope
+[2024-05-03 10:37:17] INFO root fetch - processPackages [bmsdna-sql-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_sql_utils-0.12.6.tar.gz tmp/bmsdna_sql_utils-0.12.7.tar.gz --markdown 20240503/b/bmsdna-sql-utils/0.12.6-0.12.7/README.md --exclude *.pyd
+[2024-05-03 10:37:17] INFO root fetch - processPackages [k8sAI]: executing diffoscope
+[2024-05-03 10:37:17] INFO root fetch - processPackages [k8sAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8sai-0.1.3.tar.gz tmp/k8sai-0.1.6.tar.gz --markdown 20240503/k/k8sAI/0.1.3-0.1.6/README.md --exclude *.pyd
+[2024-05-03 10:37:17] INFO root fetch - processPackages [excel2db]: Remove: archive file [/home/abi/fetcher/tmp/excel2db-0.0.4.tar.gz]
+[2024-05-03 10:37:17] INFO root fetch - processPackages [excel2db]: Remove: archive file [/home/abi/fetcher/tmp/excel2db-0.0.5.tar.gz]
+[2024-05-03 10:37:17] INFO root fetch - main [MainThread]: End processing [excel2db]: success
+[2024-05-03 10:37:17] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.4a0.tar.gz]
+[2024-05-03 10:37:17] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.4a1.tar.gz]
+[2024-05-03 10:37:17] INFO root fetch - main [MainThread]: End processing [pyuptech]: success
+[2024-05-03 10:37:17] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.5.tar.gz]
+[2024-05-03 10:37:17] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.6.tar.gz]
+[2024-05-03 10:37:17] INFO root fetch - main [MainThread]: End processing [ibind]: success
+[2024-05-03 10:37:18] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.6.9.tar.gz]
+[2024-05-03 10:37:18] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.7.0.tar.gz]
+[2024-05-03 10:37:18] INFO root fetch - main [MainThread]: End processing [meili-sdk]: success
+[2024-05-03 10:37:18] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.6.tar.gz]
+[2024-05-03 10:37:18] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.7.tar.gz]
+[2024-05-03 10:37:18] INFO root fetch - main [MainThread]: End processing [bmsdna-sql-utils]: success
+[2024-05-03 10:37:18] INFO root fetch - processPackages [anycorn]: Remove: archive file [/home/abi/fetcher/tmp/anycorn-0.17.1.tar.gz]
+[2024-05-03 10:37:18] INFO root fetch - processPackages [anycorn]: Remove: archive file [/home/abi/fetcher/tmp/anycorn-0.17.2.tar.gz]
+[2024-05-03 10:37:18] INFO root fetch - main [MainThread]: End processing [anycorn]: success
+[2024-05-03 10:37:18] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-03 10:37:18] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-03 10:37:18] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-03 10:37:18] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.3.tar.gz]
+[2024-05-03 10:37:18] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.6.tar.gz]
+[2024-05-03 10:37:18] INFO root fetch - main [MainThread]: End processing [k8sAI]: success
+[2024-05-03 10:37:18] INFO root fetch - main [MainThread]: Store serial: [23043458]
