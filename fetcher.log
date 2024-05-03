@@ -19523,3 +19523,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:00:53] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
 [2024-05-03 15:00:53] INFO root fetch - main [MainThread]: End processing [tira]: success
 [2024-05-03 15:00:53] INFO root fetch - main [MainThread]: Store serial: [23046196]
+[2024-05-03 15:03:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046196]
+[2024-05-03 15:03:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 15:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: group-profile-remote
+[2024-05-03 15:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hhd
+[2024-05-03 15:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resolwe-bio
+[2024-05-03 15:03:25] INFO root fetch - processPackages [group-profile-remote]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 15:03:25] INFO root fetch - processPackages [hhd]: New version: [2.7.0] Old Version: [2.6.5]
+[2024-05-03 15:03:25] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/d6/33/ab096f276fe5e54500857cb3593d867c9d8078ea8c62fa953704ab27462b/group-profile-remote-0.0.8.tar.gz
+[2024-05-03 15:03:25] INFO root fetch - processPackages [hhd]: Downloading https://files.pythonhosted.org/packages/21/9c/ac90b2b3c99eaac4d84dc8c791b3f5ca842d0cfd6798a7d9beefe0c51a14/hhd-2.6.5.tar.gz
+[2024-05-03 15:03:25] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-05-03 15:03:25] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2024-05-03 15:03:25] INFO root fetch - processPackages [hhd]: Downloading https://files.pythonhosted.org/packages/bb/dd/ccd3fefdf10a03bd55b7c1d9c43c4401f192385dae91bbe24b89076858bf/hhd-2.7.0.tar.gz
+[2024-05-03 15:03:25] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/34/ee/57cb372a3197cdeb2c87926baf42fae2595983919e4f9ab179939ad1b72e/group-profile-remote-0.0.9.tar.gz
+[2024-05-03 15:03:26] INFO root fetch - processPackages [group-profile-remote]: executing diffoscope
+[2024-05-03 15:03:26] INFO root fetch - processPackages [group-profile-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group-profile-remote-0.0.8.tar.gz tmp/group-profile-remote-0.0.9.tar.gz --markdown 20240503/g/group-profile-remote/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 15:03:26] INFO root fetch - processPackages [hhd]: executing diffoscope
+[2024-05-03 15:03:26] INFO root fetch - processPackages [hhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhd-2.6.5.tar.gz tmp/hhd-2.7.0.tar.gz --markdown 20240503/h/hhd/2.6.5-2.7.0/README.md --exclude *.pyd
+[2024-05-03 15:03:26] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.8.tar.gz]
+[2024-05-03 15:03:26] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.9.tar.gz]
+[2024-05-03 15:03:26] INFO root fetch - main [MainThread]: End processing [group-profile-remote]: success
+[2024-05-03 15:03:26] INFO root fetch - processPackages [hhd]: Remove: archive file [/home/abi/fetcher/tmp/hhd-2.6.5.tar.gz]
+[2024-05-03 15:03:26] INFO root fetch - processPackages [hhd]: Remove: archive file [/home/abi/fetcher/tmp/hhd-2.7.0.tar.gz]
+[2024-05-03 15:03:26] INFO root fetch - main [MainThread]: End processing [hhd]: success
+[2024-05-03 15:03:27] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2024-05-03 15:03:30] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2024-05-03 15:03:30] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20240503/r/resolwe-bio/9.0.0a3-9.0.0a4/README.md --exclude *.pyd
+[2024-05-03 15:03:33] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2024-05-03 15:03:33] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2024-05-03 15:03:33] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2024-05-03 15:03:33] INFO root fetch - main [MainThread]: Store serial: [23046205]
