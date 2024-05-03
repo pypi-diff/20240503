@@ -17760,3 +17760,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:36:10] INFO root fetch - processPackages [sparkconnector]: Remove: archive file [/home/abi/fetcher/tmp/sparkconnector-3.0.2.tar.gz]
 [2024-05-03 13:36:10] INFO root fetch - main [MainThread]: End processing [sparkconnector]: success
 [2024-05-03 13:36:10] INFO root fetch - main [MainThread]: Store serial: [23045300]
+[2024-05-03 13:38:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045300]
+[2024-05-03 13:38:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AniMAIRE
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moexalgo
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mutation-profile
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tad-mctc
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: offlinesec-client
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: android-prober
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mybox
+[2024-05-03 13:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: argus-htmx-frontend
+[2024-05-03 13:38:42] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 13:38:42] WARNING root fetch - processPackages [android-prober]: Skipping, unable to determine old version
+[2024-05-03 13:38:42] INFO root fetch - main [MainThread]: End processing [android-prober] error
+[2024-05-03 13:38:42] INFO root fetch - processPackages [mutation-profile]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 13:38:42] INFO root fetch - processPackages [tad-mctc]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 13:38:42] WARNING root fetch - processPackages [argus-htmx-frontend]: Skipping, unable to determine old version
+[2024-05-03 13:38:42] INFO root fetch - main [MainThread]: End processing [argus-htmx-frontend] error
+[2024-05-03 13:38:42] INFO root fetch - processPackages [moexalgo]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-05-03 13:38:42] INFO root fetch - processPackages [mybox]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-03 13:38:42] INFO root fetch - processPackages [offlinesec-client]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-03 13:38:42] INFO root fetch - processPackages [AniMAIRE]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-03 13:38:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [moexalgo]: Downloading https://files.pythonhosted.org/packages/2b/a0/287d00f04334dd230d3b9bb956278593324249030dd55bc62cb28195f4ee/moexalgo-1.0.1.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [mutation-profile]: Downloading https://files.pythonhosted.org/packages/12/79/9fa7c21d02e5acbc910e888ef62dd5c9918f2720042880edc3f217c47457/mutation-profile-0.1.0.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [tad-mctc]: Downloading https://files.pythonhosted.org/packages/38/c0/ec86b2daaee36a1e77877ee2a43c832bc4e1fdab46d6e8a116616ad08a55/tad_mctc-0.1.4.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [AniMAIRE]: Downloading https://files.pythonhosted.org/packages/46/f5/c975b038f1959c16bb553710d2d409d953e59fc78791ff458ce1e9ba639e/animaire-1.1.5.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/16/f1/b37b88fa2af3d9759c4f85a7fe202d54f9a09f2b50b37753be30aba74317/offlinesec_client-1.0.9.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/29/65/f7e5845cbe2690f3fe871c9bdcfedadaee25cb7d0762c2cc9b651229690e/mybox-2.0.6.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [mutation-profile]: Downloading https://files.pythonhosted.org/packages/5f/0e/dc0d5d460ebdd0bce071eed2b2dcd29cb931b2ac933cd6a464e95d06a183/mutation-profile-0.2.0.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 13:38:42] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 13:38:42] INFO root fetch - processPackages [tad-mctc]: Downloading https://files.pythonhosted.org/packages/05/5b/8e90b6823a53b5ce45090a9ba43b20cbfa96d4fb4f7bf4c17a94803826f4/tad_mctc-0.1.5.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [AniMAIRE]: Downloading https://files.pythonhosted.org/packages/dd/db/88a870edf9dcbf9c796f0b20fd397efda5dcf45b67dad6d1ca68fe4ad528/animaire-1.1.6.tar.gz
+[2024-05-03 13:38:42] INFO root fetch - processPackages [moexalgo]: Downloading https://files.pythonhosted.org/packages/41/47/3b4c583af35f38d67418060be8d200755c5639cc4bb302477fedd9aa1451/moexalgo-2.0.0.tar.gz
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mutation-profile]: executing diffoscope
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mutation-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutation-profile-0.1.0.tar.gz tmp/mutation-profile-0.2.0.tar.gz --markdown 20240503/m/mutation-profile/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/69/72/fbaf89a82f57974f07e1e1c7727d1d0c03634367e2a715d57d02278cccf9/mybox-2.0.7.tar.gz
+[2024-05-03 13:38:43] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/01/20/71f6cbb251a7b637c279f7d8730185f6575ea6f0a54c9f8105372180dc55/offlinesec_client-1.1.0.tar.gz
+[2024-05-03 13:38:43] INFO root fetch - processPackages [tad-mctc]: executing diffoscope
+[2024-05-03 13:38:43] INFO root fetch - processPackages [tad-mctc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tad_mctc-0.1.4.tar.gz tmp/tad_mctc-0.1.5.tar.gz --markdown 20240503/t/tad-mctc/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 13:38:43] INFO root fetch - processPackages [moexalgo]: executing diffoscope
+[2024-05-03 13:38:43] INFO root fetch - processPackages [AniMAIRE]: executing diffoscope
+[2024-05-03 13:38:43] INFO root fetch - processPackages [AniMAIRE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animaire-1.1.5.tar.gz tmp/animaire-1.1.6.tar.gz --markdown 20240503/A/AniMAIRE/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-03 13:38:43] INFO root fetch - processPackages [moexalgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moexalgo-1.0.1.tar.gz tmp/moexalgo-2.0.0.tar.gz --markdown 20240503/m/moexalgo/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-05-03 13:38:43] INFO root fetch - processPackages [offlinesec-client]: executing diffoscope
+[2024-05-03 13:38:43] INFO root fetch - processPackages [offlinesec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offlinesec_client-1.0.9.tar.gz tmp/offlinesec_client-1.1.0.tar.gz --markdown 20240503/o/offlinesec-client/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-2.0.6.tar.gz tmp/mybox-2.0.7.tar.gz --markdown 20240503/m/mybox/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mutation-profile]: Remove: archive file [/home/abi/fetcher/tmp/mutation-profile-0.1.0.tar.gz]
+[2024-05-03 13:38:43] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.9.tar.gz]
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mutation-profile]: Remove: archive file [/home/abi/fetcher/tmp/mutation-profile-0.2.0.tar.gz]
+[2024-05-03 13:38:43] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.1.0.tar.gz]
+[2024-05-03 13:38:43] INFO root fetch - main [MainThread]: End processing [mutation-profile]: success
+[2024-05-03 13:38:43] INFO root fetch - main [MainThread]: End processing [offlinesec-client]: success
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.6.tar.gz]
+[2024-05-03 13:38:43] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.7.tar.gz]
+[2024-05-03 13:38:43] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2024-05-03 13:38:43] INFO root fetch - processPackages [AniMAIRE]: Remove: archive file [/home/abi/fetcher/tmp/animaire-1.1.5.tar.gz]
+[2024-05-03 13:38:43] INFO root fetch - processPackages [AniMAIRE]: Remove: archive file [/home/abi/fetcher/tmp/animaire-1.1.6.tar.gz]
+[2024-05-03 13:38:44] INFO root fetch - main [MainThread]: End processing [AniMAIRE]: success
+[2024-05-03 13:38:44] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-1.0.1.tar.gz]
+[2024-05-03 13:38:44] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-2.0.0.tar.gz]
+[2024-05-03 13:38:44] INFO root fetch - main [MainThread]: End processing [moexalgo]: success
+[2024-05-03 13:38:44] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 13:38:44] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 13:38:44] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 13:38:44] INFO root fetch - processPackages [tad-mctc]: Remove: archive file [/home/abi/fetcher/tmp/tad_mctc-0.1.4.tar.gz]
+[2024-05-03 13:38:44] INFO root fetch - processPackages [tad-mctc]: Remove: archive file [/home/abi/fetcher/tmp/tad_mctc-0.1.5.tar.gz]
+[2024-05-03 13:38:44] INFO root fetch - main [MainThread]: End processing [tad-mctc]: success
+[2024-05-03 13:38:44] INFO root fetch - main [MainThread]: Store serial: [23045331]
