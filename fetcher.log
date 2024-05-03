@@ -12671,3 +12671,100 @@
 [2024-05-03 09:56:37] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
 [2024-05-03 09:56:37] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-05-03 09:56:37] INFO root fetch - main [MainThread]: Store serial: [23042891]
+[2024-05-03 09:58:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042891]
+[2024-05-03 09:58:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: obspy
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moneymatters
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sag-py-logging-logstash
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-fs-base-multi-image
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timeseriesflattener
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-fs-product-multi-image
+[2024-05-03 09:58:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qoqo-calculator-pyo3
+[2024-05-03 09:58:47] INFO root fetch - processPackages [obspy]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [timeseriesflattener]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.1.1]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [moneymatters]: New version: [2024.5.3] Old Version: [1.0.1]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [qoqo-calculator-pyo3]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [sag-py-logging-logstash]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.1.0.9]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/13/7f/7bd4ea7dda25510d9f1f4327bf66cb41c85702c16bbae13713665d02fa5a/timeseriesflattener-2.2.0.tar.gz
+[2024-05-03 09:58:47] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240503] Old Version: [2.17.0.dev20240502]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [obspy]: Downloading https://files.pythonhosted.org/packages/4f/f8/cebf0acdfb8cd3a3c05937afd73212cf6f133b23357faced2951972cda83/obspy-1.3.1.tar.gz
+[2024-05-03 09:58:47] WARNING root fetch - processPackages [obspy]: Skipping package: exceeds size limit 16887412>=10485760
+[2024-05-03 09:58:47] INFO root fetch - processPackages [obspy]: Start processing: ml4teens
+[2024-05-03 09:58:47] INFO root fetch - main [MainThread]: End processing [obspy] error
+[2024-05-03 09:58:47] INFO root fetch - processPackages [moneymatters]: Downloading https://files.pythonhosted.org/packages/69/85/1eb0c4a759ab168a30e35e1d7dc17a06feb84a78c11848178123deaf0d33/moneymatters-1.0.1.tar.gz
+[2024-05-03 09:58:47] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: Downloading https://files.pythonhosted.org/packages/e1/fa/2dc06572e4529fd8c70b1176b1a4f8cd8d95cbf841460d7b0a0801153a54/odoo_addon_fs_product_multi_image-16.0.1.1.1-py3-none-any.whl
+[2024-05-03 09:58:47] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Downloading https://files.pythonhosted.org/packages/b4/c3/fbd364261f1c7f17d7d0b446d2a0130f5e93f3906d9bfa0e779eddddff1c/qoqo_calculator_pyo3-1.2.0.tar.gz
+[2024-05-03 09:58:47] INFO root fetch - processPackages [ml4teens]: New version: [0.1.35] Old Version: [0.1.34]
+[2024-05-03 09:58:47] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Downloading https://files.pythonhosted.org/packages/0f/c4/3fd7c8c9273d81435e2e9b48ffec1aa728954f3d144335b3c74337313e80/odoo_addon_fs_base_multi_image-16.0.1.1.0.9-py3-none-any.whl
+[2024-05-03 09:58:47] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/a5/a4/0b881c7002cabd5e9ccda52f1df3e956f2013c6d468881fe617ee9ed3a21/tf_nightly-2.17.0.dev20240502-cp39-cp39-win_amd64.whl
+[2024-05-03 09:58:47] INFO root fetch - processPackages [sag-py-logging-logstash]: Downloading https://files.pythonhosted.org/packages/a2/e5/1fb3268722288e296a2a9983a5cc9270e93721dcfecb96810424aeb2b578/sag-py-logging-logstash-2.3.8.tar.gz
+[2024-05-03 09:58:47] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-03 09:58:47] INFO root fetch - processPackages [ml4teens]: Downloading https://files.pythonhosted.org/packages/ae/fa/13bee2d6b1e26886decd26721401c929dfc391ff7dc3442bf9a523d750d1/ml4teens-0.1.34.tar.gz
+[2024-05-03 09:58:48] INFO root fetch - processPackages [moneymatters]: Downloading https://files.pythonhosted.org/packages/3c/16/cf209ef9cdb657d17abebbf372882a2455f2910a5efad1dbc4bd3bd5af41/moneymatters-2024.5.3.tar.gz
+[2024-05-03 09:58:48] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: Downloading https://files.pythonhosted.org/packages/a9/db/ae7e2bcfe3e8277f6bb08df8be3cb5dededf137538680c63bb7831f3c9bb/odoo_addon_fs_product_multi_image-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 09:58:48] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/97/32/89b06480f48f4e37e863ea72572e773f2f3df195ff8546db4ca8823e8741/tf_nightly-2.17.0.dev20240503-cp39-cp39-win_amd64.whl
+[2024-05-03 09:58:48] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Downloading https://files.pythonhosted.org/packages/89/aa/f5aba8d56ef25594d8b8e884463bfe12b1c14c2e435bc904d9992845bec5/qoqo_calculator_pyo3-1.2.1.tar.gz
+[2024-05-03 09:58:48] WARNING root fetch - processPackages [ml4teens]: Skipping package: exceeds size limit 36450338>=10485760
+[2024-05-03 09:58:48] INFO root fetch - processPackages [ml4teens]: Start processing: image2grid
+[2024-05-03 09:58:48] INFO root fetch - main [MainThread]: End processing [ml4teens] error
+[2024-05-03 09:58:48] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/1c/85/61e1d47a90ce4ace75488cdf0085a7bc65305d63691581f18ff47a7836a7/timeseriesflattener-2.2.1.tar.gz
+[2024-05-03 09:58:48] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-03 09:58:48] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Downloading https://files.pythonhosted.org/packages/f6/86/d95dd0d37abae0c23f2586ee7c29357fffdc714139004e056386b3601288/odoo_addon_fs_base_multi_image-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 09:58:48] INFO root fetch - processPackages [sag-py-logging-logstash]: Downloading https://files.pythonhosted.org/packages/3e/d7/5b2d972d0f3725c0af9322516f16ea7075191945bbc5c7466e4055269eb4/sag_py_logging_logstash-2.3.9.tar.gz
+[2024-05-03 09:58:48] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: executing diffoscope
+[2024-05-03 09:58:48] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_product_multi_image-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_fs_product_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-fs-product-multi-image/16.0.1.1.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-03 09:58:48] WARNING root fetch - processPackages [image2grid]: Skipping, unable to determine old version
+[2024-05-03 09:58:48] INFO root fetch - main [MainThread]: End processing [image2grid] error
+[2024-05-03 09:58:48] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-03 09:58:48] INFO root fetch - processPackages [moneymatters]: executing diffoscope
+[2024-05-03 09:58:48] INFO root fetch - processPackages [moneymatters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneymatters-1.0.1.tar.gz tmp/moneymatters-2024.5.3.tar.gz --markdown 20240503/m/moneymatters/1.0.1-2024.5.3/README.md --exclude *.pyd
+[2024-05-03 09:58:48] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-03 09:58:48] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240502-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240503-cp39-cp39-win_amd64.whl.zip --markdown 20240503/t/tf-nightly/2.17.0.dev20240502-2.17.0.dev20240503/README.md --exclude *.pyd
+[2024-05-03 09:58:48] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: executing diffoscope
+[2024-05-03 09:58:48] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_base_multi_image-16.0.1.1.0.9-py3-none-any.whl.zip tmp/odoo_addon_fs_base_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-fs-base-multi-image/16.0.1.1.0.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-03 09:58:48] INFO root fetch - processPackages [sag-py-logging-logstash]: executing diffoscope
+[2024-05-03 09:58:48] INFO root fetch - processPackages [sag-py-logging-logstash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-logging-logstash-2.3.8.tar.gz tmp/sag_py_logging_logstash-2.3.9.tar.gz --markdown 20240503/s/sag-py-logging-logstash/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-03 09:58:48] INFO root fetch - processPackages [qoqo-calculator-pyo3]: executing diffoscope
+[2024-05-03 09:58:48] INFO root fetch - processPackages [qoqo-calculator-pyo3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_calculator_pyo3-1.2.0.tar.gz tmp/qoqo_calculator_pyo3-1.2.1.tar.gz --markdown 20240503/q/qoqo-calculator-pyo3/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-03 09:58:48] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-03 09:58:48] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240503/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-03 09:58:48] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2024-05-03 09:58:48] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-2.2.0.tar.gz tmp/timeseriesflattener-2.2.1.tar.gz --markdown 20240503/t/timeseriesflattener/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-03 09:58:48] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240502-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 09:58:49] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240503-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 09:58:49] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-03 09:58:49] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-03 09:58:49] INFO root fetch - processPackages [sag-py-logging-logstash]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-logging-logstash-2.3.8.tar.gz]
+[2024-05-03 09:58:49] INFO root fetch - processPackages [sag-py-logging-logstash]: Remove: archive file [/home/abi/fetcher/tmp/sag_py_logging_logstash-2.3.9.tar.gz]
+[2024-05-03 09:58:49] INFO root fetch - main [MainThread]: End processing [sag-py-logging-logstash]: success
+[2024-05-03 09:58:49] INFO root fetch - processPackages [moneymatters]: Remove: archive file [/home/abi/fetcher/tmp/moneymatters-1.0.1.tar.gz]
+[2024-05-03 09:58:49] INFO root fetch - processPackages [moneymatters]: Remove: archive file [/home/abi/fetcher/tmp/moneymatters-2024.5.3.tar.gz]
+[2024-05-03 09:58:49] INFO root fetch - main [MainThread]: End processing [moneymatters]: success
+[2024-05-03 09:58:49] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_product_multi_image-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-03 09:58:49] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_product_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 09:58:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-product-multi-image]: success
+[2024-05-03 09:58:49] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-03 09:58:49] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-03 09:58:49] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-03 09:58:49] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-03 09:58:49] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240503/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-03 09:58:49] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_base_multi_image-16.0.1.1.0.9-py3-none-any.whl.zip]
+[2024-05-03 09:58:49] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_base_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 09:58:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-base-multi-image]: success
+[2024-05-03 09:58:50] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.2.0.tar.gz]
+[2024-05-03 09:58:50] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.2.1.tar.gz]
+[2024-05-03 09:58:50] INFO root fetch - main [MainThread]: End processing [qoqo-calculator-pyo3]: success
+[2024-05-03 09:58:50] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.0.tar.gz]
+[2024-05-03 09:58:50] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.1.tar.gz]
+[2024-05-03 09:58:51] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2024-05-03 09:58:51] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-03 09:58:51] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-03 09:58:51] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-03 09:58:51] INFO root fetch - main [MainThread]: Store serial: [23042956]
