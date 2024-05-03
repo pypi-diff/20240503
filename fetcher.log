@@ -8286,3 +8286,40 @@
 [2024-05-03 05:16:54] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-03 05:16:54] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-03 05:16:54] INFO root fetch - main [MainThread]: Store serial: [23041151]
+[2024-05-03 05:18:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041151]
+[2024-05-03 05:19:03] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-03 05:21:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041152]
+[2024-05-03 05:21:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 05:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourcery-nightly
+[2024-05-03 05:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2024-05-03 05:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nightly
+[2024-05-03 05:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repo2docs
+[2024-05-03 05:21:08] INFO root fetch - processPackages [repo2docs]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 05:21:08] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-03 05:21:08] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024050203] Old Version: [3.3.3.dev2024050103]
+[2024-05-03 05:21:08] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/4d/d0/2b375b39bfc41b487426295a5e0139a79293ef3c09fcdb425975b0044f21/repo2docs-0.1.7.tar.gz
+[2024-05-03 05:21:08] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 05:21:08] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-03 05:21:08] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9f/27/a31672d0b5af31f7cc241a0eb1f0a86dd4f4cd5d664acf3a575d51bbd8bf/keras_nightly-3.3.3.dev2024050103.tar.gz
+[2024-05-03 05:21:08] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-03 05:21:08] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-03 05:21:08] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-03 05:21:08] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-03 05:21:08] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 05:21:08] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-03 05:21:08] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240503/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-03 05:21:09] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/c9/5c/e1d9cca20232754775eae1b2379636f85d128bd694658a072b4e6afc5241/keras_nightly-3.3.3.dev2024050203.tar.gz
+[2024-05-03 05:21:09] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 05:21:09] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.7.tar.gz tmp/repo2docs-0.1.8.tar.gz --markdown 20240503/r/repo2docs/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 05:21:09] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-03 05:21:09] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024050103.tar.gz tmp/keras_nightly-3.3.3.dev2024050203.tar.gz --markdown 20240503/k/keras-nightly/3.3.3.dev2024050103-3.3.3.dev2024050203/README.md --exclude *.pyd
+[2024-05-03 05:21:09] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.7.tar.gz]
+[2024-05-03 05:21:09] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 05:21:09] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 05:21:09] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-03 05:21:09] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-03 05:21:09] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-03 05:21:11] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050103.tar.gz]
+[2024-05-03 05:21:11] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050203.tar.gz]
+[2024-05-03 05:21:11] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-03 05:21:11] INFO root fetch - main [MainThread]: Store serial: [23041162]
