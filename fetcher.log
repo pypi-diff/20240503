@@ -12065,3 +12065,65 @@
 [2024-05-03 09:27:20] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.4.tar.gz]
 [2024-05-03 09:27:20] INFO root fetch - main [MainThread]: End processing [django_herobiz_ds]: success
 [2024-05-03 09:27:20] INFO root fetch - main [MainThread]: Store serial: [23042668]
+[2024-05-03 09:29:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042668]
+[2024-05-03 09:29:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 09:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhtml-enhanced
+[2024-05-03 09:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fazah
+[2024-05-03 09:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_herobiz_dental
+[2024-05-03 09:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usempl-plots
+[2024-05-03 09:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: model-registry
+[2024-05-03 09:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-due-list-payment
+[2024-05-03 09:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: capymoa
+[2024-05-03 09:29:29] INFO root fetch - processPackages [pyhtml-enhanced]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-03 09:29:29] INFO root fetch - processPackages [usempl-plots]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-03 09:29:29] INFO root fetch - processPackages [fazah]: New version: [3.13] Old Version: [3.12]
+[2024-05-03 09:29:29] INFO root fetch - processPackages [django_herobiz_dental]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-03 09:29:29] INFO root fetch - processPackages [model-registry]: New version: [0.2.0a1] Old Version: [0.1.2]
+[2024-05-03 09:29:29] INFO root fetch - processPackages [pyhtml-enhanced]: Downloading https://files.pythonhosted.org/packages/65/48/c9be74c779eb854c0e9c9295ff54eb2d693c914087c2b64da33f125825fe/pyhtml_enhanced-2.0.3.tar.gz
+[2024-05-03 09:29:29] INFO root fetch - processPackages [odoo14-addon-account-due-list-payment]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2024-05-03 09:29:29] INFO root fetch - processPackages [capymoa]: New version: [0.1.1] Old Version: [0.0.0]
+[2024-05-03 09:29:29] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/73/dd/cfeb8aacc55ccc12fcba670cb39f7e05f564f7d8483403e1c83219f8bc4e/django_herobiz_dental-1.0.5.tar.gz
+[2024-05-03 09:29:29] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/78/4c/455ad293f7780dac7f3461e893784039f180b5a0abce5a324d930182b214/fazah-3.12.tar.gz
+[2024-05-03 09:29:29] INFO root fetch - processPackages [usempl-plots]: Downloading https://files.pythonhosted.org/packages/4e/1f/6d12269449e7e6ce8a0ac7de8795de4f006ce6fffea56d11319a143139d3/usempl-plots-0.0.2.tar.gz
+[2024-05-03 09:29:29] INFO root fetch - processPackages [model-registry]: Downloading https://files.pythonhosted.org/packages/d6/d4/711a802172cf8829d4f6e3adf7141f2190176c7cce3fa6b0661d86093aad/model_registry-0.1.2.tar.gz
+[2024-05-03 09:29:29] INFO root fetch - processPackages [pyhtml-enhanced]: Downloading https://files.pythonhosted.org/packages/79/22/5cf00dbfe21b01a598039223a10cf20cb53ab3308cd83c7575e4cd52d919/pyhtml_enhanced-2.1.0.tar.gz
+[2024-05-03 09:29:29] INFO root fetch - processPackages [odoo14-addon-account-due-list-payment]: Downloading https://files.pythonhosted.org/packages/fc/d2/60ce1210f2fd7ffc6547058099d1ad3eddb1a991221b9dc31681a87fbe15/odoo14_addon_account_due_list_payment-14.0.1.0.1.dev3-py3-none-any.whl
+[2024-05-03 09:29:29] INFO root fetch - processPackages [pyhtml-enhanced]: executing diffoscope
+[2024-05-03 09:29:29] INFO root fetch - processPackages [pyhtml-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtml_enhanced-2.0.3.tar.gz tmp/pyhtml_enhanced-2.1.0.tar.gz --markdown 20240503/p/pyhtml-enhanced/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-03 09:29:30] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/5e/c1/03e0b11859829ca037ecbd8d2da2da3970a8af9dd784a5620a285c38d2bb/fazah-3.13.tar.gz
+[2024-05-03 09:29:30] INFO root fetch - processPackages [usempl-plots]: Downloading https://files.pythonhosted.org/packages/93/39/06ebae7712658f5a6e6f9ecbe7fc65899d9f3055e4b2289b442b904c79b4/usempl-plots-0.0.3.tar.gz
+[2024-05-03 09:29:30] INFO root fetch - processPackages [capymoa]: Downloading https://files.pythonhosted.org/packages/40/f1/f45f3591e8b589c89888f20dfac762d5167c50ffe23971b0c87ee0a3e412/capymoa-0.1.1.tar.gz
+[2024-05-03 09:29:30] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/dc/18/8f18effd7c43677663c538a94672ef0f9e37b9bcc9ce87422e1d71764115/django_herobiz_dental-1.0.6.tar.gz
+[2024-05-03 09:29:30] INFO root fetch - processPackages [fazah]: executing diffoscope
+[2024-05-03 09:29:30] INFO root fetch - processPackages [fazah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazah-3.12.tar.gz tmp/fazah-3.13.tar.gz --markdown 20240503/f/fazah/3.12-3.13/README.md --exclude *.pyd
+[2024-05-03 09:29:30] INFO root fetch - processPackages [odoo14-addon-account-due-list-payment]: Downloading https://files.pythonhosted.org/packages/f6/ad/1a9e04c2c4526ffcc835851f40be890866887d32187f74602e4535fad3d4/odoo14_addon_account_due_list_payment-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-05-03 09:29:30] INFO root fetch - processPackages [model-registry]: Downloading https://files.pythonhosted.org/packages/7b/f9/9d810fb4e6b5ea9eab0a3d1e1ac976babc2d28783643808ff3e7c97e8fb2/model_registry-0.2.0a1.tar.gz
+[2024-05-03 09:29:30] INFO root fetch - processPackages [usempl-plots]: executing diffoscope
+[2024-05-03 09:29:30] INFO root fetch - processPackages [usempl-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usempl-plots-0.0.2.tar.gz tmp/usempl-plots-0.0.3.tar.gz --markdown 20240503/u/usempl-plots/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-03 09:29:30] INFO root fetch - processPackages [odoo14-addon-account-due-list-payment]: executing diffoscope
+[2024-05-03 09:29:30] INFO root fetch - processPackages [odoo14-addon-account-due-list-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_due_list_payment-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_account_due_list_payment-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-account-due-list-payment/14.0.1.0.1.dev3-14.0.1.0.1.dev5/README.md --exclude *.pyd
+[2024-05-03 09:29:30] INFO root fetch - processPackages [model-registry]: executing diffoscope
+[2024-05-03 09:29:30] INFO root fetch - processPackages [model-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_registry-0.1.2.tar.gz tmp/model_registry-0.2.0a1.tar.gz --markdown 20240503/m/model-registry/0.1.2-0.2.0a1/README.md --exclude *.pyd
+[2024-05-03 09:29:30] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-03 09:29:30] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-1.0.5.tar.gz tmp/django_herobiz_dental-1.0.6.tar.gz --markdown 20240503/d/django_herobiz_dental/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-03 09:29:30] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.12.tar.gz]
+[2024-05-03 09:29:30] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.13.tar.gz]
+[2024-05-03 09:29:30] INFO root fetch - main [MainThread]: End processing [fazah]: success
+[2024-05-03 09:29:30] INFO root fetch - processPackages [usempl-plots]: Remove: archive file [/home/abi/fetcher/tmp/usempl-plots-0.0.2.tar.gz]
+[2024-05-03 09:29:30] INFO root fetch - processPackages [usempl-plots]: Remove: archive file [/home/abi/fetcher/tmp/usempl-plots-0.0.3.tar.gz]
+[2024-05-03 09:29:30] INFO root fetch - main [MainThread]: End processing [usempl-plots]: success
+[2024-05-03 09:29:30] WARNING root fetch - processPackages [capymoa]: Skipping package: exceeds size limit 59957995>=10485760
+[2024-05-03 09:29:30] INFO root fetch - main [MainThread]: End processing [capymoa] error
+[2024-05-03 09:29:30] INFO root fetch - processPackages [pyhtml-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml_enhanced-2.0.3.tar.gz]
+[2024-05-03 09:29:30] INFO root fetch - processPackages [pyhtml-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml_enhanced-2.1.0.tar.gz]
+[2024-05-03 09:29:30] INFO root fetch - main [MainThread]: End processing [pyhtml-enhanced]: success
+[2024-05-03 09:29:30] INFO root fetch - processPackages [odoo14-addon-account-due-list-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_due_list_payment-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2024-05-03 09:29:30] INFO root fetch - processPackages [odoo14-addon-account-due-list-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_due_list_payment-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-05-03 09:29:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-due-list-payment]: success
+[2024-05-03 09:29:31] INFO root fetch - processPackages [model-registry]: Remove: archive file [/home/abi/fetcher/tmp/model_registry-0.1.2.tar.gz]
+[2024-05-03 09:29:31] INFO root fetch - processPackages [model-registry]: Remove: archive file [/home/abi/fetcher/tmp/model_registry-0.2.0a1.tar.gz]
+[2024-05-03 09:29:31] INFO root fetch - main [MainThread]: End processing [model-registry]: success
+[2024-05-03 09:29:32] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.5.tar.gz]
+[2024-05-03 09:29:32] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.6.tar.gz]
+[2024-05-03 09:29:32] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-03 09:29:32] INFO root fetch - main [MainThread]: Store serial: [23042687]
