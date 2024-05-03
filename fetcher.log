@@ -8986,3 +8986,18 @@
 [2024-05-03 06:14:40] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.5.0-py3-none-any.whl.zip]
 [2024-05-03 06:14:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
 [2024-05-03 06:14:40] INFO root fetch - main [MainThread]: Store serial: [23041409]
+[2024-05-03 06:16:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041409]
+[2024-05-03 06:16:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 06:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepdog
+[2024-05-03 06:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yamapan
+[2024-05-03 06:16:49] INFO root fetch - processPackages [deepdog]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-03 06:16:49] WARNING root fetch - processPackages [yamapan]: Skipping, unable to determine old version
+[2024-05-03 06:16:49] INFO root fetch - main [MainThread]: End processing [yamapan] error
+[2024-05-03 06:16:49] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/fb/c7/6b91631e42263225205e6fef2c44f7dd120e336ea81fffd651a546c3aa9a/deepdog-1.0.1.tar.gz
+[2024-05-03 06:16:49] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/5b/3e/f4dea9be5f5745651a90d331cec9d1aa047255529a970ba16df2124af5e6/deepdog-1.1.0.tar.gz
+[2024-05-03 06:16:49] INFO root fetch - processPackages [deepdog]: executing diffoscope
+[2024-05-03 06:16:49] INFO root fetch - processPackages [deepdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdog-1.0.1.tar.gz tmp/deepdog-1.1.0.tar.gz --markdown 20240503/d/deepdog/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-03 06:16:50] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-1.0.1.tar.gz]
+[2024-05-03 06:16:50] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-1.1.0.tar.gz]
+[2024-05-03 06:16:50] INFO root fetch - main [MainThread]: End processing [deepdog]: success
+[2024-05-03 06:16:50] INFO root fetch - main [MainThread]: Store serial: [23041417]
