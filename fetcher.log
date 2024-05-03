@@ -15721,3 +15721,30 @@
 [2024-05-03 12:05:45] INFO root fetch - processPackages [simple-build-dgcode]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_dgcode-1.1.4.tar.gz]
 [2024-05-03 12:05:45] INFO root fetch - main [MainThread]: End processing [simple-build-dgcode]: success
 [2024-05-03 12:05:45] INFO root fetch - main [MainThread]: Store serial: [23044249]
+[2024-05-03 12:08:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044249]
+[2024-05-03 12:08:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 12:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foundationallm-config
+[2024-05-03 12:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cai-causal-graph
+[2024-05-03 12:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundationallm-models
+[2024-05-03 12:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-keras-nightly
+[2024-05-03 12:08:13] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024050209] Old Version: [2.17.0.dev2024050109]
+[2024-05-03 12:08:13] INFO root fetch - processPackages [cai-causal-graph]: New version: [0.4.9] Old Version: [0.4.8.dev1]
+[2024-05-03 12:08:13] WARNING root fetch - processPackages [foundationallm-models]: Skipping, unable to determine old version
+[2024-05-03 12:08:13] INFO root fetch - main [MainThread]: End processing [foundationallm-models] error
+[2024-05-03 12:08:13] WARNING root fetch - processPackages [foundationallm-config]: Skipping, unable to determine old version
+[2024-05-03 12:08:13] INFO root fetch - main [MainThread]: End processing [foundationallm-config] error
+[2024-05-03 12:08:13] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/15/6e/884523e12ebc9e39bd69d0e1935ef0e299402e18204a6d0ad7bcd739de0f/tf_keras_nightly-2.17.0.dev2024050109.tar.gz
+[2024-05-03 12:08:13] INFO root fetch - processPackages [cai-causal-graph]: Downloading https://files.pythonhosted.org/packages/9d/03/333d16f8cbbd15f633cffb3837628ccdfbb211f9527b53715379829a2417/cai_causal_graph-0.4.8.dev1.tar.gz
+[2024-05-03 12:08:14] INFO root fetch - processPackages [cai-causal-graph]: Downloading https://files.pythonhosted.org/packages/27/e7/7f2bb0835c2a54ed787329a663780f92ff003de96e3b47bc7cc564954af9/cai_causal_graph-0.4.9.tar.gz
+[2024-05-03 12:08:14] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/b9/58/9ca62230b6115559e824f72a73a62d36cf83b863de10a9c6dd997f3cd6bc/tf_keras_nightly-2.17.0.dev2024050209.tar.gz
+[2024-05-03 12:08:14] INFO root fetch - processPackages [cai-causal-graph]: executing diffoscope
+[2024-05-03 12:08:14] INFO root fetch - processPackages [cai-causal-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cai_causal_graph-0.4.8.dev1.tar.gz tmp/cai_causal_graph-0.4.9.tar.gz --markdown 20240503/c/cai-causal-graph/0.4.8.dev1-0.4.9/README.md --exclude *.pyd
+[2024-05-03 12:08:14] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-03 12:08:14] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024050109.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024050209.tar.gz --markdown 20240503/t/tf-keras-nightly/2.17.0.dev2024050109-2.17.0.dev2024050209/README.md --exclude *.pyd
+[2024-05-03 12:08:14] INFO root fetch - processPackages [cai-causal-graph]: Remove: archive file [/home/abi/fetcher/tmp/cai_causal_graph-0.4.8.dev1.tar.gz]
+[2024-05-03 12:08:14] INFO root fetch - processPackages [cai-causal-graph]: Remove: archive file [/home/abi/fetcher/tmp/cai_causal_graph-0.4.9.tar.gz]
+[2024-05-03 12:08:14] INFO root fetch - main [MainThread]: End processing [cai-causal-graph]: success
+[2024-05-03 12:08:16] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050109.tar.gz]
+[2024-05-03 12:08:16] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050209.tar.gz]
+[2024-05-03 12:08:16] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-03 12:08:16] INFO root fetch - main [MainThread]: Store serial: [23044271]
