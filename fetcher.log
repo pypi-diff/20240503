@@ -11471,3 +11471,60 @@
 [2024-05-03 08:54:16] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc3.tar.gz]
 [2024-05-03 08:54:16] INFO root fetch - main [MainThread]: End processing [datumaro]: success
 [2024-05-03 08:54:16] INFO root fetch - main [MainThread]: Store serial: [23042370]
+[2024-05-03 08:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042370]
+[2024-05-03 08:56:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 08:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-05-03 08:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cramjam-cli
+[2024-05-03 08:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capymoa
+[2024-05-03 08:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrestcountries
+[2024-05-03 08:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2024-05-03 08:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PREN-flawas
+[2024-05-03 08:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odk-tools
+[2024-05-03 08:56:25] INFO root fetch - processPackages [odk-tools]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 08:56:25] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:56:25] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-03 08:56:25] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240501] Old Version: [1.33.1.dev20240430]
+[2024-05-03 08:56:25] INFO root fetch - processPackages [cramjam-cli]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2024-05-03 08:56:25] WARNING root fetch - processPackages [pyrestcountries]: Skipping, unable to determine old version
+[2024-05-03 08:56:25] INFO root fetch - main [MainThread]: End processing [pyrestcountries] error
+[2024-05-03 08:56:25] INFO root fetch - processPackages [capymoa]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-03 08:56:25] INFO root fetch - processPackages [odk-tools]: Downloading https://files.pythonhosted.org/packages/b2/fd/7ee7b16033577247617dcec1089a2b7d7f44206d873452436a6cc71a4297/odk_tools-0.1.6.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/0d/75/51ea4ea856f756183d53a37bd286d6c7578894e2fb118b44bb5ed416adac/streamlit_nightly-1.33.1.dev20240430.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [capymoa]: Downloading https://files.pythonhosted.org/packages/32/94/9dbc0403a90557d70eb7d367c0957f92d42dd345caa0db507ebd30b6b6d6/capymoa-0.0.0.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [cramjam-cli]: Downloading https://files.pythonhosted.org/packages/3c/1c/65ccfc7b3ef8d8d9de7dd426682ff3e29a169bf453a31e10b4ca260e65e5/cramjam_cli-0.2.0rc1.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [odk-tools]: Downloading https://files.pythonhosted.org/packages/41/4c/42de12782cee6066204a9ee4b7bdda14d593f062a606afca5e8069793ce3/odk_tools-0.1.7.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [capymoa]: Downloading https://files.pythonhosted.org/packages/d8/6d/96cfc7badcb8aa154d3837721e323717f3c34198b95728bfa4ff30dd743c/capymoa-0.1.0.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [odk-tools]: executing diffoscope
+[2024-05-03 08:56:26] INFO root fetch - processPackages [odk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odk_tools-0.1.6.tar.gz tmp/odk_tools-0.1.7.tar.gz --markdown 20240503/o/odk-tools/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 08:56:26] INFO root fetch - processPackages [cramjam-cli]: Downloading https://files.pythonhosted.org/packages/8a/70/319f14029e83be4266a75525ddb37a1e13a1d7005f31442b4a7475a35aa3/cramjam_cli-0.2.0rc2.tar.gz
+[2024-05-03 08:56:26] WARNING root fetch - processPackages [capymoa]: Skipping package: exceeds size limit 59956535>=10485760
+[2024-05-03 08:56:26] INFO root fetch - main [MainThread]: End processing [capymoa] error
+[2024-05-03 08:56:26] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/1e/1c/8e101d708bcfc41b5e691376968c03f7ee8b1feb03d808652a399878be1d/streamlit_nightly-1.33.1.dev20240501.tar.gz
+[2024-05-03 08:56:26] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-03 08:56:26] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240503/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:56:26] INFO root fetch - processPackages [cramjam-cli]: executing diffoscope
+[2024-05-03 08:56:26] INFO root fetch - processPackages [cramjam-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cramjam_cli-0.2.0rc1.tar.gz tmp/cramjam_cli-0.2.0rc2.tar.gz --markdown 20240503/c/cramjam-cli/0.2.0rc1-0.2.0rc2/README.md --exclude *.pyd
+[2024-05-03 08:56:26] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-03 08:56:26] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240503/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 08:56:27] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.1.6.tar.gz]
+[2024-05-03 08:56:27] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.1.7.tar.gz]
+[2024-05-03 08:56:27] INFO root fetch - main [MainThread]: End processing [odk-tools]: success
+[2024-05-03 08:56:27] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-03 08:56:27] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240430.tar.gz tmp/streamlit_nightly-1.33.1.dev20240501.tar.gz --markdown 20240503/s/streamlit-nightly/1.33.1.dev20240430-1.33.1.dev20240501/README.md --exclude *.pyd
+[2024-05-03 08:56:27] INFO root fetch - processPackages [cramjam-cli]: Remove: archive file [/home/abi/fetcher/tmp/cramjam_cli-0.2.0rc1.tar.gz]
+[2024-05-03 08:56:27] INFO root fetch - processPackages [cramjam-cli]: Remove: archive file [/home/abi/fetcher/tmp/cramjam_cli-0.2.0rc2.tar.gz]
+[2024-05-03 08:56:27] INFO root fetch - main [MainThread]: End processing [cramjam-cli]: success
+[2024-05-03 08:56:27] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-03 08:56:27] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-03 08:56:27] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-03 08:56:28] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-03 08:56:28] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-03 08:56:28] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-03 08:56:30] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240430.tar.gz]
+[2024-05-03 08:56:30] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240501.tar.gz]
+[2024-05-03 08:56:30] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-03 08:56:30] INFO root fetch - main [MainThread]: Store serial: [23042406]
