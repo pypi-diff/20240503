@@ -12576,3 +12576,51 @@
 [2024-05-03 09:52:14] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-03 09:52:14] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-03 09:52:14] INFO root fetch - main [MainThread]: Store serial: [23042856]
+[2024-05-03 09:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042856]
+[2024-05-03 09:54:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 09:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-pandas
+[2024-05-03 09:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-testing
+[2024-05-03 09:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fyle-integrations-platform-connector
+[2024-05-03 09:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teklia-nerval
+[2024-05-03 09:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jenfi-pipeline-data-app
+[2024-05-03 09:54:24] INFO root fetch - processPackages [jenfi-pipeline-data-app]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-03 09:54:24] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 09:54:24] INFO root fetch - processPackages [fyle-integrations-platform-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 09:54:24] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2024-05-03 09:54:24] INFO root fetch - processPackages [teklia-nerval]: New version: [0.3.3rc2] Old Version: [0.3.3rc1]
+[2024-05-03 09:54:24] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/6b/e3/0254d056fa15479e03da617f7b42d0c2f466e8dcd4b1399614cb2749b7c8/jenfi_pipeline_data_app-0.4.0.tar.gz
+[2024-05-03 09:54:24] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-03 09:54:24] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/52/45/e5e38ed24c1622734daa77b91cc350bf11c44695b7aaaf9671f084870c76/fyle-integrations-platform-connector-1.8.0.tar.gz
+[2024-05-03 09:54:24] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/03/b8/202f0dcea6b925b12f888fb1f2c73a6bd3229c9f1c0bd5e8d43f0ee4ebc4/abstract_pandas-0.0.0.4.tar.gz
+[2024-05-03 09:54:24] INFO root fetch - processPackages [teklia-nerval]: Downloading https://files.pythonhosted.org/packages/cc/af/4ffcea3bece16b52e9a78435d20b9ca58324bca440f166221472507728f1/teklia_nerval-0.3.3rc1.tar.gz
+[2024-05-03 09:54:24] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/c6/3c/e9e09ab4a7c98ce02599d323ce00cc47ed3e0dc7e04904b81257565d3efd/jenfi_pipeline_data_app-0.4.1.tar.gz
+[2024-05-03 09:54:24] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-03 09:54:24] INFO root fetch - processPackages [jenfi-pipeline-data-app]: executing diffoscope
+[2024-05-03 09:54:24] INFO root fetch - processPackages [jenfi-pipeline-data-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenfi_pipeline_data_app-0.4.0.tar.gz tmp/jenfi_pipeline_data_app-0.4.1.tar.gz --markdown 20240503/j/jenfi-pipeline-data-app/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-03 09:54:24] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/36/b7/465ce4439308ee6979d883cb85321e9b16831b589cab32d003181b94a325/abstract_pandas-0.0.0.5.tar.gz
+[2024-05-03 09:54:24] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-03 09:54:24] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240503/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 09:54:24] INFO root fetch - processPackages [teklia-nerval]: Downloading https://files.pythonhosted.org/packages/aa/0a/099df8b45d208900c5409076d50df244501a5495f2448df8dbf2ea51d928/teklia_nerval-0.3.3rc2.tar.gz
+[2024-05-03 09:54:25] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/f3/0e/46ba46fd9bd58f328ec9642711a0147d790cb1af6dc1c7e9f72f99a87249/fyle-integrations-platform-connector-1.9.0.tar.gz
+[2024-05-03 09:54:25] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-03 09:54:25] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.4.tar.gz tmp/abstract_pandas-0.0.0.5.tar.gz --markdown 20240503/a/abstract-pandas/0.0.0.4-0.0.0.5/README.md --exclude *.pyd
+[2024-05-03 09:54:25] INFO root fetch - processPackages [teklia-nerval]: executing diffoscope
+[2024-05-03 09:54:25] INFO root fetch - processPackages [teklia-nerval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teklia_nerval-0.3.3rc1.tar.gz tmp/teklia_nerval-0.3.3rc2.tar.gz --markdown 20240503/t/teklia-nerval/0.3.3rc1-0.3.3rc2/README.md --exclude *.pyd
+[2024-05-03 09:54:25] INFO root fetch - processPackages [fyle-integrations-platform-connector]: executing diffoscope
+[2024-05-03 09:54:25] INFO root fetch - processPackages [fyle-integrations-platform-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-integrations-platform-connector-1.8.0.tar.gz tmp/fyle-integrations-platform-connector-1.9.0.tar.gz --markdown 20240503/f/fyle-integrations-platform-connector/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-03 09:54:25] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.0.tar.gz]
+[2024-05-03 09:54:25] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.1.tar.gz]
+[2024-05-03 09:54:25] INFO root fetch - main [MainThread]: End processing [jenfi-pipeline-data-app]: success
+[2024-05-03 09:54:25] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.4.tar.gz]
+[2024-05-03 09:54:25] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.5.tar.gz]
+[2024-05-03 09:54:25] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-03 09:54:25] INFO root fetch - processPackages [teklia-nerval]: Remove: archive file [/home/abi/fetcher/tmp/teklia_nerval-0.3.3rc1.tar.gz]
+[2024-05-03 09:54:25] INFO root fetch - processPackages [teklia-nerval]: Remove: archive file [/home/abi/fetcher/tmp/teklia_nerval-0.3.3rc2.tar.gz]
+[2024-05-03 09:54:25] INFO root fetch - main [MainThread]: End processing [teklia-nerval]: success
+[2024-05-03 09:54:25] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.8.0.tar.gz]
+[2024-05-03 09:54:25] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.9.0.tar.gz]
+[2024-05-03 09:54:25] INFO root fetch - main [MainThread]: End processing [fyle-integrations-platform-connector]: success
+[2024-05-03 09:54:26] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-03 09:54:26] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-03 09:54:26] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-03 09:54:26] INFO root fetch - main [MainThread]: Store serial: [23042871]
