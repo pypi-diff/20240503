@@ -12995,3 +12995,75 @@
 [2024-05-03 10:09:56] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.9.tar.gz]
 [2024-05-03 10:09:56] INFO root fetch - main [MainThread]: End processing [vdf-io]: success
 [2024-05-03 10:09:56] INFO root fetch - main [MainThread]: Store serial: [23043075]
+[2024-05-03 10:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043075]
+[2024-05-03 10:12:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flexmin
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightningchart
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ruleminer
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elody
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HBV
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lintsampler
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PREN-flawas
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-project-tracker
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-03 10:12:07] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 10:12:07] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 10:12:07] INFO root fetch - processPackages [flexmin]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-03 10:12:07] INFO root fetch - processPackages [lightningchart]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-03 10:12:07] INFO root fetch - processPackages [HBV]: New version: [1.5.2] Old Version: [1.5.0]
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ruleminer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 10:12:07] INFO root fetch - processPackages [lintsampler]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-03 10:12:07] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-03 10:12:07] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2024-05-03 10:12:07] INFO root fetch - processPackages [flexmin]: Downloading https://files.pythonhosted.org/packages/57/39/04cfcd4ac11894e7e78db8537d6748e0e97452e28d561195275eafe5b9d6/flexmin-0.3.7.tar.gz
+[2024-05-03 10:12:07] INFO root fetch - processPackages [HBV]: Downloading https://files.pythonhosted.org/packages/a8/c1/d6f0f72c99b6593bf3e0ecb94f59391f3a7bafc6fa71661281ec10bdabb0/hbv-1.5.0.tar.gz
+[2024-05-03 10:12:07] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/bb/ab/d946e642084157192b0b95d9d29bced2fc788be57f8de699881aae183eb4/lightningchart-0.6.8-py3-none-any.whl
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/56/4a/8c1d0b0130beebde1b21925b1094dfcecbad18c00342038c0b7ad085a1e5/ruleminer-0.1.8-py2.py3-none-any.whl
+[2024-05-03 10:12:07] INFO root fetch - processPackages [lintsampler]: Downloading https://files.pythonhosted.org/packages/e7/3e/a20aaf91a871cf54edab2b9bcf9fc0b3b73d81cd73ebdaa690f920aed175/lintsampler-0.1.3.tar.gz
+[2024-05-03 10:12:07] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-05-03 10:12:07] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-03 10:12:08] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-05-03 10:12:08] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240503/e/elody/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 10:12:08] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-03 10:12:08] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-03 10:12:08] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240503/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-03 10:12:08] INFO root fetch - processPackages [HBV]: Downloading https://files.pythonhosted.org/packages/39/1c/27e5a37d050d6afb97d4b59a8d3fc25db81dffd3b24254bccbc3deaa8e4d/hbv-1.5.2.tar.gz
+[2024-05-03 10:12:08] INFO root fetch - processPackages [lintsampler]: Downloading https://files.pythonhosted.org/packages/73/1e/f09b2bee459496ae6db61931f0d7ac88add8c0611c1a69112353fda5147f/lintsampler-0.2.0.tar.gz
+[2024-05-03 10:12:08] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/42/4e/5ea94f19fc07634c633158d076ba968b988458f1ea195a51b8d4ce3883f0/ruleminer-0.1.9-py2.py3-none-any.whl
+[2024-05-03 10:12:08] WARNING root fetch - processPackages [lintsampler]: Skipping package: exceeds size limit 11846295>=10485760
+[2024-05-03 10:12:08] INFO root fetch - main [MainThread]: End processing [lintsampler] error
+[2024-05-03 10:12:08] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-03 10:12:08] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240503/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 10:12:08] INFO root fetch - processPackages [HBV]: executing diffoscope
+[2024-05-03 10:12:08] INFO root fetch - processPackages [HBV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbv-1.5.0.tar.gz tmp/hbv-1.5.2.tar.gz --markdown 20240503/H/HBV/1.5.0-1.5.2/README.md --exclude *.pyd
+[2024-05-03 10:12:08] INFO root fetch - processPackages [ruleminer]: executing diffoscope
+[2024-05-03 10:12:08] INFO root fetch - processPackages [ruleminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip --markdown 20240503/r/ruleminer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 10:12:08] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2024-05-03 10:12:08] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-05-03 10:12:08] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-05-03 10:12:08] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/b0/2a/c37c62150392b5f3f1dda4a8cca397be4b75c7128058c527957c3fec6629/lightningchart-0.6.9-py3-none-any.whl
+[2024-05-03 10:12:08] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-03 10:12:08] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-03 10:12:08] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-03 10:12:08] INFO root fetch - processPackages [flexmin]: Downloading https://files.pythonhosted.org/packages/e6/36/e990bf0f5ef76d7351818c6aab5d0b8f619a183a9d920f77eae13891934e/flexmin-0.3.9.tar.gz
+[2024-05-03 10:12:09] INFO root fetch - processPackages [lightningchart]: executing diffoscope
+[2024-05-03 10:12:09] INFO root fetch - processPackages [lightningchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningchart-0.6.8-py3-none-any.whl.zip tmp/lightningchart-0.6.9-py3-none-any.whl.zip --markdown 20240503/l/lightningchart/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-03 10:12:09] INFO root fetch - processPackages [ruleminer]: Remove: archive file [/home/abi/fetcher/tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-03 10:12:09] INFO root fetch - processPackages [ruleminer]: Remove: archive file [/home/abi/fetcher/tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-03 10:12:09] INFO root fetch - main [MainThread]: End processing [ruleminer]: success
+[2024-05-03 10:12:09] INFO root fetch - processPackages [HBV]: Remove: archive file [/home/abi/fetcher/tmp/hbv-1.5.0.tar.gz]
+[2024-05-03 10:12:09] INFO root fetch - processPackages [HBV]: Remove: archive file [/home/abi/fetcher/tmp/hbv-1.5.2.tar.gz]
+[2024-05-03 10:12:09] INFO root fetch - main [MainThread]: End processing [HBV]: success
+[2024-05-03 10:12:09] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-03 10:12:09] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-03 10:12:09] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-03 10:12:10] INFO root fetch - processPackages [flexmin]: executing diffoscope
+[2024-05-03 10:12:10] INFO root fetch - processPackages [flexmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexmin-0.3.7.tar.gz tmp/flexmin-0.3.9.tar.gz --markdown 20240503/f/flexmin/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-03 10:12:11] INFO root fetch - processPackages [lightningchart]: Remove: archive file [/home/abi/fetcher/tmp/lightningchart-0.6.8-py3-none-any.whl.zip]
+[2024-05-03 10:12:11] INFO root fetch - processPackages [lightningchart]: Remove: archive file [/home/abi/fetcher/tmp/lightningchart-0.6.9-py3-none-any.whl.zip]
+[2024-05-03 10:12:11] INFO root fetch - main [MainThread]: End processing [lightningchart]: success
+[2024-05-03 10:12:14] INFO root fetch - processPackages [flexmin]: Remove: archive file [/home/abi/fetcher/tmp/flexmin-0.3.7.tar.gz]
+[2024-05-03 10:12:14] INFO root fetch - processPackages [flexmin]: Remove: archive file [/home/abi/fetcher/tmp/flexmin-0.3.9.tar.gz]
+[2024-05-03 10:12:14] INFO root fetch - main [MainThread]: End processing [flexmin]: success
+[2024-05-03 10:12:14] INFO root fetch - main [MainThread]: Store serial: [23043097]
