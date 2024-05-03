@@ -2618,3 +2618,29 @@
 [2024-05-03 02:37:47] INFO root fetch - processPackages [mat3ra-made]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_made-2024.5.3.post0.tar.gz]
 [2024-05-03 02:37:47] INFO root fetch - main [MainThread]: End processing [mat3ra-made]: success
 [2024-05-03 02:37:47] INFO root fetch - main [MainThread]: Store serial: [23039098]
+[2024-05-03 02:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039098]
+[2024-05-03 02:39:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 02:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentdesk
+[2024-05-03 02:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rollnw
+[2024-05-03 02:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fisspy
+[2024-05-03 02:39:56] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-03 02:39:56] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/cf/ca/cd5dfbf2d07fb86e168858977c8668fdff291aaf19cf93c8ae884b0959b1/agentdesk-0.2.8.tar.gz
+[2024-05-03 02:39:56] INFO root fetch - processPackages [fisspy]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-03 02:39:56] INFO root fetch - processPackages [rollnw]: New version: [0.9.dev0] Old Version: [0.8.dev0]
+[2024-05-03 02:39:56] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/62/a1/5969e80d653e7824de3046e64c5dbe30d3d60d41dc03939952a40c187f07/fisspy-1.1.0.tar.gz
+[2024-05-03 02:39:56] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-05-03 02:39:56] INFO root fetch - processPackages [rollnw]: Downloading https://files.pythonhosted.org/packages/9a/a8/893f5e80c099abd8d03a09da95325e7159a521131b00b712e04d19d521e4/rollnw-0.8.dev0.tar.gz
+[2024-05-03 02:39:56] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-05-03 02:39:56] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.8.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240503/a/agentdesk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-03 02:39:56] WARNING root fetch - processPackages [rollnw]: Skipping package: exceeds size limit 26393268>=10485760
+[2024-05-03 02:39:56] INFO root fetch - main [MainThread]: End processing [rollnw] error
+[2024-05-03 02:39:56] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/9d/19/b2dee75bfe2d53866c19ee0e57a26e8c4db69f6b22f020326e1be9956cd4/fisspy-1.1.1.tar.gz
+[2024-05-03 02:39:57] INFO root fetch - processPackages [fisspy]: executing diffoscope
+[2024-05-03 02:39:57] INFO root fetch - processPackages [fisspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisspy-1.1.0.tar.gz tmp/fisspy-1.1.1.tar.gz --markdown 20240503/f/fisspy/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-03 02:39:57] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.8.tar.gz]
+[2024-05-03 02:39:57] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-05-03 02:39:57] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-05-03 02:39:57] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.0.tar.gz]
+[2024-05-03 02:39:57] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.1.tar.gz]
+[2024-05-03 02:39:57] INFO root fetch - main [MainThread]: End processing [fisspy]: success
+[2024-05-03 02:39:57] INFO root fetch - main [MainThread]: Store serial: [23039116]
