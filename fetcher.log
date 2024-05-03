@@ -6888,3 +6888,29 @@
 [2024-05-03 03:42:17] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.5.tar.gz]
 [2024-05-03 03:42:17] INFO root fetch - main [MainThread]: End processing [albumentations]: success
 [2024-05-03 03:42:17] INFO root fetch - main [MainThread]: Store serial: [23040656]
+[2024-05-03 03:44:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040656]
+[2024-05-03 03:44:26] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-03 03:46:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040656]
+[2024-05-03 03:46:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 03:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TreeSAK
+[2024-05-03 03:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-runtime
+[2024-05-03 03:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foodiessss
+[2024-05-03 03:46:32] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-03 03:46:32] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-03 03:46:32] WARNING root fetch - processPackages [foodiessss]: Skipping, unable to determine old version
+[2024-05-03 03:46:32] INFO root fetch - main [MainThread]: End processing [foodiessss] error
+[2024-05-03 03:46:32] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-03 03:46:32] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-03 03:46:32] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-03 03:46:32] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-03 03:46:32] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-03 03:46:32] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240503/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-03 03:46:32] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-03 03:46:32] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240503/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-03 03:46:33] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-03 03:46:33] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-03 03:46:33] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-03 03:46:33] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-03 03:46:33] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-03 03:46:33] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-03 03:46:33] INFO root fetch - main [MainThread]: Store serial: [23040666]
