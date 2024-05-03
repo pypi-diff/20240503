@@ -20265,3 +20265,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:37:33] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.0.tar.gz]
 [2024-05-03 15:37:33] INFO root fetch - main [MainThread]: End processing [d3vis-ipynb]: success
 [2024-05-03 15:37:33] INFO root fetch - main [MainThread]: Store serial: [23046487]
+[2024-05-03 15:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046487]
+[2024-05-03 15:40:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 15:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyEscoAPI
+[2024-05-03 15:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hrbdataproject
+[2024-05-03 15:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector-quantize-pytorch
+[2024-05-03 15:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystac
+[2024-05-03 15:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prometheus-eval
+[2024-05-03 15:40:01] INFO root fetch - processPackages [hrbdataproject]: New version: [1.6] Old Version: [1.5]
+[2024-05-03 15:40:01] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 15:40:01] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-03 15:40:01] INFO root fetch - processPackages [pystac]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-05-03 15:40:01] INFO root fetch - processPackages [pyEscoAPI]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-03 15:40:01] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/45/76/97e8130fc79375eb08a692959dc48753e5a368719d459e90a73871a3ce0a/vector_quantize_pytorch-1.9.8.tar.gz
+[2024-05-03 15:40:01] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/54/42/112fff76d74fa32ca9bc26a8b2dfbf13f143416063c3cb1bc0dc28456d72/prometheus_eval-0.1.8.tar.gz
+[2024-05-03 15:40:01] ERROR root fetch - processPackages [hrbdataproject]: Unable to fetch info: No such project/version 'hrbdataproject' 1.5
+[2024-05-03 15:40:01] INFO root fetch - main [MainThread]: End processing [hrbdataproject] error
+[2024-05-03 15:40:01] INFO root fetch - processPackages [pystac]: Downloading https://files.pythonhosted.org/packages/2f/02/4a4bf2aceacd8e8c293434a454a42cab75de07df3f3d15e3dbd09e901500/pystac-1.8.4.tar.gz
+[2024-05-03 15:40:01] INFO root fetch - processPackages [pyEscoAPI]: Downloading https://files.pythonhosted.org/packages/ad/e5/a734e55881aa293dd48e37503f433a5c8a4696c3a585e4e5c7966a8b313b/pyescoapi-0.0.7.tar.gz
+[2024-05-03 15:40:01] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/34/b1/750271936b6c48315424aaafb75d4e54614b3ea12a0e5ba5c3868bd576ef/vector_quantize_pytorch-1.9.9.tar.gz
+[2024-05-03 15:40:01] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/1f/fa/3f86d1fa41d5e9236ec95425ea34f4fc91624b9c4919cb8c62db3d979568/prometheus_eval-0.1.9.tar.gz
+[2024-05-03 15:40:01] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2024-05-03 15:40:01] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.9.8.tar.gz tmp/vector_quantize_pytorch-1.9.9.tar.gz --markdown 20240503/v/vector-quantize-pytorch/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-03 15:40:01] INFO root fetch - processPackages [pystac]: Downloading https://files.pythonhosted.org/packages/96/f7/add77afcfb2466fa2d28605f4f5f1a8e3126262160aea0bba4203b2e4c2e/pystac-1.9.0.tar.gz
+[2024-05-03 15:40:01] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-03 15:40:01] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.8.tar.gz tmp/prometheus_eval-0.1.9.tar.gz --markdown 20240503/p/prometheus-eval/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 15:40:02] INFO root fetch - processPackages [pyEscoAPI]: Downloading https://files.pythonhosted.org/packages/46/99/866847b02216b96ee39b0f89b170c99681c9bf7e978d18117d2b17bc8b32/pyescoapi-0.0.9.tar.gz
+[2024-05-03 15:40:02] INFO root fetch - processPackages [pystac]: executing diffoscope
+[2024-05-03 15:40:02] INFO root fetch - processPackages [pystac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystac-1.8.4.tar.gz tmp/pystac-1.9.0.tar.gz --markdown 20240503/p/pystac/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-05-03 15:40:02] INFO root fetch - processPackages [pyEscoAPI]: executing diffoscope
+[2024-05-03 15:40:02] INFO root fetch - processPackages [pyEscoAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyescoapi-0.0.7.tar.gz tmp/pyescoapi-0.0.9.tar.gz --markdown 20240503/p/pyEscoAPI/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-03 15:40:02] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.8.tar.gz]
+[2024-05-03 15:40:02] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.9.tar.gz]
+[2024-05-03 15:40:02] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
+[2024-05-03 15:40:02] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.9.8.tar.gz]
+[2024-05-03 15:40:02] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.9.9.tar.gz]
+[2024-05-03 15:40:02] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2024-05-03 15:40:02] INFO root fetch - processPackages [pyEscoAPI]: Remove: archive file [/home/abi/fetcher/tmp/pyescoapi-0.0.7.tar.gz]
+[2024-05-03 15:40:02] INFO root fetch - processPackages [pyEscoAPI]: Remove: archive file [/home/abi/fetcher/tmp/pyescoapi-0.0.9.tar.gz]
+[2024-05-03 15:40:02] INFO root fetch - main [MainThread]: End processing [pyEscoAPI]: success
+[2024-05-03 15:40:03] INFO root fetch - processPackages [pystac]: Remove: archive file [/home/abi/fetcher/tmp/pystac-1.8.4.tar.gz]
+[2024-05-03 15:40:03] INFO root fetch - processPackages [pystac]: Remove: archive file [/home/abi/fetcher/tmp/pystac-1.9.0.tar.gz]
+[2024-05-03 15:40:03] INFO root fetch - main [MainThread]: End processing [pystac]: success
+[2024-05-03 15:40:03] INFO root fetch - main [MainThread]: Store serial: [23046504]
