@@ -8528,3 +8528,63 @@
 [2024-05-03 05:44:08] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0b1.tar.gz]
 [2024-05-03 05:44:08] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-05-03 05:44:08] INFO root fetch - main [MainThread]: Store serial: [23041264]
+[2024-05-03 05:46:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041264]
+[2024-05-03 05:46:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 05:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ppvector
+[2024-05-03 05:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qai-agent
+[2024-05-03 05:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-helpdesk-mgmt-project
+[2024-05-03 05:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mvector
+[2024-05-03 05:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ppacls
+[2024-05-03 05:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fazah
+[2024-05-03 05:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macls
+[2024-05-03 05:46:18] INFO root fetch - processPackages [qai-agent]: New version: [0.5.2.3] Old Version: [0.5.2.2]
+[2024-05-03 05:46:18] INFO root fetch - processPackages [qai-agent]: Downloading https://files.pythonhosted.org/packages/c3/9e/e796e4151d9a28b8b5003421fc00d5f1ab7fbea0cfbd04aced87bb695f9e/qai_agent-0.5.2.2.tar.gz
+[2024-05-03 05:46:18] INFO root fetch - processPackages [ppvector]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-03 05:46:18] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: New version: [16.0.2.1.0.2] Old Version: [16.0.2.1.0.1]
+[2024-05-03 05:46:18] INFO root fetch - processPackages [ppacls]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-03 05:46:18] INFO root fetch - processPackages [mvector]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-03 05:46:18] WARNING root fetch - processPackages [fazah]: Skipping, unable to determine old version
+[2024-05-03 05:46:18] INFO root fetch - main [MainThread]: End processing [fazah] error
+[2024-05-03 05:46:18] INFO root fetch - processPackages [macls]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-03 05:46:18] INFO root fetch - processPackages [ppvector]: Downloading https://files.pythonhosted.org/packages/13/b9/8b88ae81795e0c01ac66e40bcf206e11ce5b9972c9044d634cbe17292d5f/ppvector-1.0.2-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/7d/7a/ae82b2a80df38ccf2652838a76e78cd5149ed5104bb01dc2cf42dff9d4cd/odoo_addon_helpdesk_mgmt_project-16.0.2.1.0.1-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [mvector]: Downloading https://files.pythonhosted.org/packages/f2/73/50f07bb758f5e5e4dbdb5eba7dc4464400dd1accbeb1a443ae2755dac64e/mvector-1.0.2-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [ppacls]: Downloading https://files.pythonhosted.org/packages/ec/c7/7d11d45cb8b926b25dbe028edb849eefb097528547224847d5cce6c0ea82/ppacls-0.4.3-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [macls]: Downloading https://files.pythonhosted.org/packages/fc/0d/a20cfe0824e066d2c61cb8d6f3f567bad7c0fefbb153d2b845d23ce7e3d4/macls-0.4.3-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [qai-agent]: Downloading https://files.pythonhosted.org/packages/f2/1e/b4a55ac4fbebc91df57804506b5b657554fc4584dd729928db1e8f56cb54/qai_agent-0.5.2.3.tar.gz
+[2024-05-03 05:46:18] INFO root fetch - processPackages [qai-agent]: executing diffoscope
+[2024-05-03 05:46:18] INFO root fetch - processPackages [qai-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_agent-0.5.2.2.tar.gz tmp/qai_agent-0.5.2.3.tar.gz --markdown 20240503/q/qai-agent/0.5.2.2-0.5.2.3/README.md --exclude *.pyd
+[2024-05-03 05:46:18] INFO root fetch - processPackages [ppvector]: Downloading https://files.pythonhosted.org/packages/61/af/edf3c37ee87df011efd8d531523196396d5c6f30bac7868ce263b7386914/ppvector-1.0.3-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [mvector]: Downloading https://files.pythonhosted.org/packages/18/46/315cd927093238e3a7688dbaf455a31f34fdef7e1673d1de1f09dc030d10/mvector-1.0.3-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/c7/1a/c365c4f0acdfda1b1e18e72a91173fd3d6826cb9f52c6790b9944811b987/odoo_addon_helpdesk_mgmt_project-16.0.2.1.0.2-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [ppacls]: Downloading https://files.pythonhosted.org/packages/88/ba/fa6acf4a4a374be5cbbd6df4b0ddb91032473c7555ba80795b4c63f38531/ppacls-0.4.4-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [macls]: Downloading https://files.pythonhosted.org/packages/2c/58/bdcd7da5de4836905ea623af26d6e6260a18cf66ccc4ccbface2b9620dde/macls-0.4.4-py3-none-any.whl
+[2024-05-03 05:46:18] INFO root fetch - processPackages [ppvector]: executing diffoscope
+[2024-05-03 05:46:18] INFO root fetch - processPackages [ppvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppvector-1.0.2-py3-none-any.whl.zip tmp/ppvector-1.0.3-py3-none-any.whl.zip --markdown 20240503/p/ppvector/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-03 05:46:18] INFO root fetch - processPackages [mvector]: executing diffoscope
+[2024-05-03 05:46:18] INFO root fetch - processPackages [mvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvector-1.0.2-py3-none-any.whl.zip tmp/mvector-1.0.3-py3-none-any.whl.zip --markdown 20240503/m/mvector/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-03 05:46:18] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: executing diffoscope
+[2024-05-03 05:46:18] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_project-16.0.2.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_project-16.0.2.1.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-helpdesk-mgmt-project/16.0.2.1.0.1-16.0.2.1.0.2/README.md --exclude *.pyd
+[2024-05-03 05:46:19] INFO root fetch - processPackages [ppacls]: executing diffoscope
+[2024-05-03 05:46:19] INFO root fetch - processPackages [ppacls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppacls-0.4.3-py3-none-any.whl.zip tmp/ppacls-0.4.4-py3-none-any.whl.zip --markdown 20240503/p/ppacls/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-03 05:46:19] INFO root fetch - processPackages [macls]: executing diffoscope
+[2024-05-03 05:46:19] INFO root fetch - processPackages [macls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macls-0.4.3-py3-none-any.whl.zip tmp/macls-0.4.4-py3-none-any.whl.zip --markdown 20240503/m/macls/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-03 05:46:19] INFO root fetch - processPackages [qai-agent]: Remove: archive file [/home/abi/fetcher/tmp/qai_agent-0.5.2.2.tar.gz]
+[2024-05-03 05:46:19] INFO root fetch - processPackages [qai-agent]: Remove: archive file [/home/abi/fetcher/tmp/qai_agent-0.5.2.3.tar.gz]
+[2024-05-03 05:46:19] INFO root fetch - main [MainThread]: End processing [qai-agent]: success
+[2024-05-03 05:46:19] INFO root fetch - processPackages [ppvector]: Remove: archive file [/home/abi/fetcher/tmp/ppvector-1.0.2-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - processPackages [ppvector]: Remove: archive file [/home/abi/fetcher/tmp/ppvector-1.0.3-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - main [MainThread]: End processing [ppvector]: success
+[2024-05-03 05:46:19] INFO root fetch - processPackages [mvector]: Remove: archive file [/home/abi/fetcher/tmp/mvector-1.0.2-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - processPackages [mvector]: Remove: archive file [/home/abi/fetcher/tmp/mvector-1.0.3-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - main [MainThread]: End processing [mvector]: success
+[2024-05-03 05:46:19] INFO root fetch - processPackages [ppacls]: Remove: archive file [/home/abi/fetcher/tmp/ppacls-0.4.3-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - processPackages [ppacls]: Remove: archive file [/home/abi/fetcher/tmp/ppacls-0.4.4-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - main [MainThread]: End processing [ppacls]: success
+[2024-05-03 05:46:19] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_project-16.0.2.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_project-16.0.2.1.0.2-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-project]: success
+[2024-05-03 05:46:19] INFO root fetch - processPackages [macls]: Remove: archive file [/home/abi/fetcher/tmp/macls-0.4.3-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - processPackages [macls]: Remove: archive file [/home/abi/fetcher/tmp/macls-0.4.4-py3-none-any.whl.zip]
+[2024-05-03 05:46:19] INFO root fetch - main [MainThread]: End processing [macls]: success
+[2024-05-03 05:46:19] INFO root fetch - main [MainThread]: Store serial: [23041282]
