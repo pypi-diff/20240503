@@ -17926,3 +17926,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:43:49] INFO root fetch - processPackages [pyFUME]: Remove: archive file [/home/abi/fetcher/tmp/pyfume-0.3.4.tar.gz]
 [2024-05-03 13:43:49] INFO root fetch - main [MainThread]: End processing [pyFUME]: success
 [2024-05-03 13:43:49] INFO root fetch - main [MainThread]: Store serial: [23045370]
+[2024-05-03 13:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045370]
+[2024-05-03 13:46:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 13:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2024-05-03 13:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Qube2
+[2024-05-03 13:46:19] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-05-03 13:46:19] INFO root fetch - processPackages [Qube2]: New version: [0.3.40] Old Version: [0.3.39]
+[2024-05-03 13:46:19] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-05-03 13:46:20] INFO root fetch - processPackages [Qube2]: Downloading https://files.pythonhosted.org/packages/46/34/13e1b82cdaceef6c65434dbe87a47ffeccf76ce4c7664eb2dccb0b959034/Qube2-0.3.39.tar.gz
+[2024-05-03 13:46:20] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-05-03 13:46:20] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-05-03 13:46:20] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240503/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-05-03 13:46:20] INFO root fetch - processPackages [Qube2]: Downloading https://files.pythonhosted.org/packages/2d/2b/63a19ee6026d44da1095a32aeeafa0289694fccee21484cc5c36f7cb83b4/Qube2-0.3.40.tar.gz
+[2024-05-03 13:46:20] INFO root fetch - processPackages [Qube2]: executing diffoscope
+[2024-05-03 13:46:20] INFO root fetch - processPackages [Qube2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Qube2-0.3.39.tar.gz tmp/Qube2-0.3.40.tar.gz --markdown 20240503/Q/Qube2/0.3.39-0.3.40/README.md --exclude *.pyd
+[2024-05-03 13:46:20] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-05-03 13:46:20] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-05-03 13:46:20] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-05-03 13:46:21] INFO root fetch - processPackages [Qube2]: Remove: archive file [/home/abi/fetcher/tmp/Qube2-0.3.39.tar.gz]
+[2024-05-03 13:46:21] INFO root fetch - processPackages [Qube2]: Remove: archive file [/home/abi/fetcher/tmp/Qube2-0.3.40.tar.gz]
+[2024-05-03 13:46:21] INFO root fetch - main [MainThread]: End processing [Qube2]: success
+[2024-05-03 13:46:21] INFO root fetch - main [MainThread]: Store serial: [23045382]
