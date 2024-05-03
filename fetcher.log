@@ -15878,3 +15878,72 @@
 [2024-05-03 12:18:24] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl.zip]
 [2024-05-03 12:18:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax-report]: success
 [2024-05-03 12:18:24] INFO root fetch - main [MainThread]: Store serial: [23044385]
+[2024-05-03 12:20:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044385]
+[2024-05-03 12:20:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 12:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: my-data-quality-library
+[2024-05-03 12:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmeter
+[2024-05-03 12:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atlantiscore
+[2024-05-03 12:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanomotif
+[2024-05-03 12:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ozonetel-ai
+[2024-05-03 12:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uuid-utils
+[2024-05-03 12:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zippyform
+[2024-05-03 12:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-devkit
+[2024-05-03 12:20:55] INFO root fetch - processPackages [zippyform]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-03 12:20:55] INFO root fetch - processPackages [uuid-utils]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-03 12:20:55] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-03 12:20:56] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.13] Old Version: [0.0.123]
+[2024-05-03 12:20:56] WARNING root fetch - processPackages [my-data-quality-library]: Skipping, unable to determine old version
+[2024-05-03 12:20:56] INFO root fetch - main [MainThread]: End processing [my-data-quality-library] error
+[2024-05-03 12:20:56] INFO root fetch - processPackages [openmeter]: New version: [1.0.0b65] Old Version: [1.0.0b64]
+[2024-05-03 12:20:56] INFO root fetch - processPackages [atlantiscore]: New version: [9.0.0] Old Version: [7.2.0]
+[2024-05-03 12:20:56] INFO root fetch - processPackages [nanomotif]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-03 12:20:56] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/d7/d6/89a6c3a90a6a9ec63ae63d27de4e6b7e1a8b78b640496e3ed291bb36030e/zippyform-1.4.8-py3-none-any.whl
+[2024-05-03 12:20:56] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/ec/f9/56487fba43c16217ac3beca43e66ae8a67865a5f8be65346530e0a145a74/nanomotif-0.2.1.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [uuid-utils]: Downloading https://files.pythonhosted.org/packages/55/a8/cc85db8b10dcbbe3212b3c6acd2e9f3c57c5f60ef8f7c5d62849bff6a6b8/uuid_utils-0.6.0.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/51/97/0ed66b947eb7371ed3f33d9501745d4bbc9b06a5cd25a6e7a6a6e7869fda/omnata_plugin_devkit-0.3.8.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/9a/52/075ff7a6e84393b6288363de80c3b031b18860e023861459e98638f56ab2/openmeter-1.0.0b64.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [atlantiscore]: Downloading https://files.pythonhosted.org/packages/60/e6/c6bae611cab17267bb1ed471cd63a5441b78cf5ee3e9c6f609d35e71b664/atlantiscore-7.2.0.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/3d/f1/3601d1dcdeabf26dfe1eb38bf2b073d0657bd4e87df60090f895cd53f57f/ozonetel-ai-0.0.123.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/7d/35/a3dfe5803d393705d1159b1f1a2642bbc1518edd9ce0df79604a1596ea5d/zippyform-1.4.9-py3-none-any.whl
+[2024-05-03 12:20:56] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/b4/96/3e0c4b7f21db85f319ca30e3fa61d2159c261316972dbad24d6db30cac64/ozonetel-ai-0.0.13.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [atlantiscore]: Downloading https://files.pythonhosted.org/packages/bc/71/3e158f62c0d9fbb3c13689a2f217482995837f0ddc1659cd78a84534214f/atlantiscore-9.0.0.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [zippyform]: executing diffoscope
+[2024-05-03 12:20:56] INFO root fetch - processPackages [zippyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zippyform-1.4.8-py3-none-any.whl.zip tmp/zippyform-1.4.9-py3-none-any.whl.zip --markdown 20240503/z/zippyform/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-03 12:20:56] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/1a/3b/0ff048dc4972e29aa350f2c5441b31d50ddcc99e04e56feffbcd9a372acf/openmeter-1.0.0b65.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [uuid-utils]: Downloading https://files.pythonhosted.org/packages/1f/ed/e03054aaed25c64c328b211b16d3e34df6287822c1b11c2747841545c963/uuid_utils-0.6.1.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-05-03 12:20:56] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.123.tar.gz tmp/ozonetel-ai-0.0.13.tar.gz --markdown 20240503/o/ozonetel-ai/0.0.123-0.0.13/README.md --exclude *.pyd
+[2024-05-03 12:20:56] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/05/26/00acb43f53fad72d614350962a4ab46ad393fce6583ee75c5dedc01385c8/omnata_plugin_devkit-0.3.9.tar.gz
+[2024-05-03 12:20:56] INFO root fetch - processPackages [atlantiscore]: executing diffoscope
+[2024-05-03 12:20:56] INFO root fetch - processPackages [atlantiscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlantiscore-7.2.0.tar.gz tmp/atlantiscore-9.0.0.tar.gz --markdown 20240503/a/atlantiscore/7.2.0-9.0.0/README.md --exclude *.pyd
+[2024-05-03 12:20:56] INFO root fetch - processPackages [uuid-utils]: executing diffoscope
+[2024-05-03 12:20:56] INFO root fetch - processPackages [uuid-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uuid_utils-0.6.0.tar.gz tmp/uuid_utils-0.6.1.tar.gz --markdown 20240503/u/uuid-utils/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-03 12:20:56] INFO root fetch - processPackages [openmeter]: executing diffoscope
+[2024-05-03 12:20:56] INFO root fetch - processPackages [openmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmeter-1.0.0b64.tar.gz tmp/openmeter-1.0.0b65.tar.gz --markdown 20240503/o/openmeter/1.0.0b64-1.0.0b65/README.md --exclude *.pyd
+[2024-05-03 12:20:57] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2024-05-03 12:20:57] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.3.8.tar.gz tmp/omnata_plugin_devkit-0.3.9.tar.gz --markdown 20240503/o/omnata-plugin-devkit/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-03 12:20:57] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.123.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.13.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-05-03 12:20:57] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/c0/c8/a208ee8d976a6cefa7fdcfdbc24854b48cae4075ff40e67a2cdc830d583b/nanomotif-0.3.0.tar.gz
+[2024-05-03 12:20:57] INFO root fetch - processPackages [atlantiscore]: Remove: archive file [/home/abi/fetcher/tmp/atlantiscore-7.2.0.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - processPackages [atlantiscore]: Remove: archive file [/home/abi/fetcher/tmp/atlantiscore-9.0.0.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - main [MainThread]: End processing [atlantiscore]: success
+[2024-05-03 12:20:57] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.8-py3-none-any.whl.zip]
+[2024-05-03 12:20:57] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.9-py3-none-any.whl.zip]
+[2024-05-03 12:20:57] INFO root fetch - main [MainThread]: End processing [zippyform]: success
+[2024-05-03 12:20:57] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b64.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b65.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - main [MainThread]: End processing [openmeter]: success
+[2024-05-03 12:20:57] INFO root fetch - processPackages [uuid-utils]: Remove: archive file [/home/abi/fetcher/tmp/uuid_utils-0.6.0.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - processPackages [uuid-utils]: Remove: archive file [/home/abi/fetcher/tmp/uuid_utils-0.6.1.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - main [MainThread]: End processing [uuid-utils]: success
+[2024-05-03 12:20:57] INFO root fetch - processPackages [nanomotif]: executing diffoscope
+[2024-05-03 12:20:57] INFO root fetch - processPackages [nanomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomotif-0.2.1.tar.gz tmp/nanomotif-0.3.0.tar.gz --markdown 20240503/n/nanomotif/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-03 12:20:57] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.8.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.9.tar.gz]
+[2024-05-03 12:20:57] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2024-05-03 12:20:59] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.2.1.tar.gz]
+[2024-05-03 12:20:59] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.3.0.tar.gz]
+[2024-05-03 12:20:59] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
+[2024-05-03 12:20:59] INFO root fetch - main [MainThread]: Store serial: [23044443]
