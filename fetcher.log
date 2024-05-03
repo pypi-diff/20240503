@@ -2337,3 +2337,50 @@
 [2024-05-03 02:21:37] INFO root fetch - processPackages [rosetta-soil]: Remove: archive file [/home/abi/fetcher/tmp/rosetta_soil-0.1.2.tar.gz]
 [2024-05-03 02:21:37] INFO root fetch - main [MainThread]: End processing [rosetta-soil]: success
 [2024-05-03 02:21:37] INFO root fetch - main [MainThread]: Store serial: [23038999]
+[2024-05-03 02:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038999]
+[2024-05-03 02:23:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 02:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi
+[2024-05-03 02:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-slim
+[2024-05-03 02:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEURON-nightly
+[2024-05-03 02:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-stock-move-delay-report
+[2024-05-03 02:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsplus
+[2024-05-03 02:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PokerNow
+[2024-05-03 02:23:46] INFO root fetch - processPackages [PokerNow]: New version: [0.6.55] Old Version: [0.6.45]
+[2024-05-03 02:23:46] INFO root fetch - processPackages [fastapi]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-05-03 02:23:46] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/62/d5/3c5088b82aca75b4789fc38003f0ce433874f2b88338f405bc0957bb97b2/pokernow-0.6.45.tar.gz
+[2024-05-03 02:23:46] WARNING root fetch - processPackages [odoo13-addon-stock-move-delay-report]: Skipping, unable to determine old version
+[2024-05-03 02:23:46] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-move-delay-report] error
+[2024-05-03 02:23:46] INFO root fetch - processPackages [dsplus]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-03 02:23:46] INFO root fetch - processPackages [fastapi-slim]: New version: [0.111.0.dev1] Old Version: [0.111.0]
+[2024-05-03 02:23:46] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev235] Old Version: [9.0a1.dev233]
+[2024-05-03 02:23:46] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/b9/ed/3f155c5f0f3a2d1bac596800be1cdd2bda38cee84b7cee7c35eecd0ddd09/fastapi-0.99.0.tar.gz
+[2024-05-03 02:23:46] INFO root fetch - processPackages [fastapi-slim]: Downloading https://files.pythonhosted.org/packages/01/57/f1b3802e817315ac4932c40dde7eea3a4b8ebbbb9dd8746e2e06abd43029/fastapi_slim-0.111.0.tar.gz
+[2024-05-03 02:23:46] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/6b/1a/d31ceb8db5653c05b9b05df17aa0a0d5be827c97d3ba36df9a6152d2fa5b/dsplus-0.4.2.tar.gz
+[2024-05-03 02:23:46] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/c5/e9/1244c31fd3d5b2faf3808665476cab68104f6fc2114cf2beecaf19cf8b67/NEURON_nightly-9.0a1.dev233-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-03 02:23:46] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 26078869>=10485760
+[2024-05-03 02:23:46] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-05-03 02:23:46] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/52/9d/0be54426ed8f74f1c24c7cc2ac30fed2c7a0a49a7ed72ee289a75cf31405/pokernow-0.6.55.tar.gz
+[2024-05-03 02:23:47] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:23:47] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.6.45.tar.gz tmp/pokernow-0.6.55.tar.gz --markdown 20240503/P/PokerNow/0.6.45-0.6.55/README.md --exclude *.pyd
+[2024-05-03 02:23:47] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/a1/5a/8a84aa073f91ae92c624686782d4e824f4d4b451a946c38b2daf3c029a97/dsplus-0.4.3.tar.gz
+[2024-05-03 02:23:47] INFO root fetch - processPackages [fastapi-slim]: Downloading https://files.pythonhosted.org/packages/a6/e4/5c1277e751264e354c6eae8c0ca33d3e834de228f63f61cd660d5d6556a4/fastapi_slim-0.111.0.dev1.tar.gz
+[2024-05-03 02:23:47] INFO root fetch - processPackages [fastapi-slim]: executing diffoscope
+[2024-05-03 02:23:47] INFO root fetch - processPackages [fastapi-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_slim-0.111.0.tar.gz tmp/fastapi_slim-0.111.0.dev1.tar.gz --markdown 20240503/f/fastapi-slim/0.111.0-0.111.0.dev1/README.md --exclude *.pyd
+[2024-05-03 02:23:47] INFO root fetch - processPackages [dsplus]: executing diffoscope
+[2024-05-03 02:23:47] INFO root fetch - processPackages [dsplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplus-0.4.2.tar.gz tmp/dsplus-0.4.3.tar.gz --markdown 20240503/d/dsplus/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-03 02:23:47] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.45.tar.gz]
+[2024-05-03 02:23:47] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.55.tar.gz]
+[2024-05-03 02:23:47] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:23:47] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/22/93/42b9998a6e28eaee90724db439e27a66b7dc6a5b9e85499add1e042141e2/fastapi-0.99.1.tar.gz
+[2024-05-03 02:23:47] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.2.tar.gz]
+[2024-05-03 02:23:47] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.3.tar.gz]
+[2024-05-03 02:23:47] INFO root fetch - main [MainThread]: End processing [dsplus]: success
+[2024-05-03 02:23:48] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2024-05-03 02:23:48] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.99.0.tar.gz tmp/fastapi-0.99.1.tar.gz --markdown 20240503/f/fastapi/0.99.0-0.99.1/README.md --exclude *.pyd
+[2024-05-03 02:23:50] INFO root fetch - processPackages [fastapi-slim]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_slim-0.111.0.tar.gz]
+[2024-05-03 02:23:50] INFO root fetch - processPackages [fastapi-slim]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_slim-0.111.0.dev1.tar.gz]
+[2024-05-03 02:23:50] INFO root fetch - main [MainThread]: End processing [fastapi-slim]: success
+[2024-05-03 02:23:55] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.0.tar.gz]
+[2024-05-03 02:23:55] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
+[2024-05-03 02:23:55] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2024-05-03 02:23:55] INFO root fetch - main [MainThread]: Store serial: [23039018]
