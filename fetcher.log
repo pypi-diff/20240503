@@ -21674,3 +21674,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:30:46] INFO root fetch - processPackages [teamdbapi]: Remove: archive file [/home/abi/fetcher/tmp/teamdbapi-3.0.0-py3-none-any.whl.zip]
 [2024-05-03 16:30:46] INFO root fetch - main [MainThread]: End processing [teamdbapi]: success
 [2024-05-03 16:30:46] INFO root fetch - main [MainThread]: Store serial: [23047086]
+[2024-05-03 16:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047086]
+[2024-05-03 16:33:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teamdbapi
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moexalgo
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kaartmaker
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fasts2
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyasic
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretaries
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyedb
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-ads-api-report-fetcher
+[2024-05-03 16:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: microchain-python
+[2024-05-03 16:33:15] INFO root fetch - processPackages [pyedb]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [moexalgo]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-05-03 16:33:15] WARNING root fetch - processPackages [fasts2]: Skipping, unable to determine old version
+[2024-05-03 16:33:15] INFO root fetch - processPackages [teamdbapi]: New version: [3.0.0] Old Version: [2.37.2]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [fasts2]: Start processing: nonebot-plugin-nai3
+[2024-05-03 16:33:15] INFO root fetch - main [MainThread]: End processing [fasts2] error
+[2024-05-03 16:33:15] INFO root fetch - processPackages [pyedb]: Downloading https://files.pythonhosted.org/packages/1d/a0/1ca6725ca5f90ba5dfa9bc42e4933336e9d92ff7a8a994a774ac663a5a4b/pyedb-0.8.1.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [kaartmaker]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [secretaries]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [moexalgo]: Downloading https://files.pythonhosted.org/packages/2b/a0/287d00f04334dd230d3b9bb956278593324249030dd55bc62cb28195f4ee/moexalgo-1.0.1.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [teamdbapi]: Downloading https://files.pythonhosted.org/packages/a3/ac/642983655d084d602300ea5a28f5e73935b37267dc29411970178fd7d0e7/teamdbapi-2.37.2.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [microchain-python]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [nonebot-plugin-nai3]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 16:33:15] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [kaartmaker]: Downloading https://files.pythonhosted.org/packages/42/1e/4e8a19430ea5e0c6df36a645bd3671ca743f533eb85a4f60c4158848fc9c/kaartmaker-0.1.3.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [secretaries]: Downloading https://files.pythonhosted.org/packages/bb/46/d7537c9227c6de3e7f6dcd09cc66d6335604b59f41307fc5a29ca11bfe3a/secretaries-0.0.1.8.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [pyedb]: Downloading https://files.pythonhosted.org/packages/94/3b/ad9e0a3052ec38d580c535c66662dd560e159c05d8418fc62c51a04ddc6f/pyedb-0.9.0.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [microchain-python]: Downloading https://files.pythonhosted.org/packages/72/7f/8f82aa178306de0d03aac74f9f9a0934ad6e79c0f1322dbcd3b4e8422e45/microchain-python-0.3.5.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [moexalgo]: Downloading https://files.pythonhosted.org/packages/41/47/3b4c583af35f38d67418060be8d200755c5639cc4bb302477fedd9aa1451/moexalgo-2.0.0.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [teamdbapi]: Downloading https://files.pythonhosted.org/packages/bf/83/a3fd861072275ae436e5728a8c32b736a071615d577bbd5b5a50442b6b41/teamdbapi-3.0.0-py3-none-any.whl
+[2024-05-03 16:33:15] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/54/96/f21c4f0b9e5e69da731bcd15f16ec79bb1ae532a9d4e835f9f1493cb8ee9/nonebot_plugin_nai3-0.1.6.tar.gz
+[2024-05-03 16:33:15] WARNING root fetch - processPackages [kaartmaker]: Skipping package: exceeds size limit 15838218>=10485760
+[2024-05-03 16:33:15] INFO root fetch - main [MainThread]: End processing [kaartmaker] error
+[2024-05-03 16:33:15] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-03 16:33:15] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-03 16:33:15] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240503/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-03 16:33:15] INFO root fetch - processPackages [moexalgo]: executing diffoscope
+[2024-05-03 16:33:15] INFO root fetch - processPackages [moexalgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moexalgo-1.0.1.tar.gz tmp/moexalgo-2.0.0.tar.gz --markdown 20240503/m/moexalgo/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-05-03 16:33:15] INFO root fetch - processPackages [pyedb]: executing diffoscope
+[2024-05-03 16:33:15] INFO root fetch - processPackages [pyedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedb-0.8.1.tar.gz tmp/pyedb-0.9.0.tar.gz --markdown 20240503/p/pyedb/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-03 16:33:15] INFO root fetch - processPackages [teamdbapi]: executing diffoscope
+[2024-05-03 16:33:15] INFO root fetch - processPackages [teamdbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamdbapi-2.37.2.tar.gz tmp/teamdbapi-3.0.0-py3-none-any.whl.zip --markdown 20240503/t/teamdbapi/2.37.2-3.0.0/README.md --exclude *.pyd
+[2024-05-03 16:33:15] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-03 16:33:15] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240503/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-03 16:33:16] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2024-05-03 16:33:16] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/5f/70/4612340dfbf1707d4cb16c1b041820152dda0715b63b3f163466850e68e0/nonebot_plugin_nai3-0.1.7.tar.gz
+[2024-05-03 16:33:16] INFO root fetch - processPackages [secretaries]: Downloading https://files.pythonhosted.org/packages/c6/59/ae6e7eff255cf7585890e4d43041382cd7a810333b4010bf97b9723f773a/secretaries-0.0.1.9.tar.gz
+[2024-05-03 16:33:16] INFO root fetch - processPackages [microchain-python]: Downloading https://files.pythonhosted.org/packages/2c/9f/e3f929ff2047fae005ea063243f7eb8c8fe8dd0b604dbae5011ce29092b3/microchain_python-0.3.6.tar.gz
+[2024-05-03 16:33:16] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2024-05-03 16:33:16] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20240503/p/pyasic/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-03 16:33:16] INFO root fetch - processPackages [microchain-python]: executing diffoscope
+[2024-05-03 16:33:16] INFO root fetch - processPackages [microchain-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microchain-python-0.3.5.tar.gz tmp/microchain_python-0.3.6.tar.gz --markdown 20240503/m/microchain-python/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-03 16:33:16] INFO root fetch - processPackages [secretaries]: executing diffoscope
+[2024-05-03 16:33:16] INFO root fetch - processPackages [secretaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretaries-0.0.1.8.tar.gz tmp/secretaries-0.0.1.9.tar.gz --markdown 20240503/s/secretaries/0.0.1.8-0.0.1.9/README.md --exclude *.pyd
+[2024-05-03 16:33:16] INFO root fetch - processPackages [nonebot-plugin-nai3]: executing diffoscope
+[2024-05-03 16:33:16] INFO root fetch - processPackages [nonebot-plugin-nai3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nai3-0.1.6.tar.gz tmp/nonebot_plugin_nai3-0.1.7.tar.gz --markdown 20240503/n/nonebot-plugin-nai3/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 16:33:16] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-1.0.1.tar.gz]
+[2024-05-03 16:33:16] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-2.0.0.tar.gz]
+[2024-05-03 16:33:16] INFO root fetch - main [MainThread]: End processing [moexalgo]: success
+[2024-05-03 16:33:16] INFO root fetch - processPackages [teamdbapi]: Remove: archive file [/home/abi/fetcher/tmp/teamdbapi-2.37.2.tar.gz]
+[2024-05-03 16:33:16] INFO root fetch - processPackages [teamdbapi]: Remove: archive file [/home/abi/fetcher/tmp/teamdbapi-3.0.0-py3-none-any.whl.zip]
+[2024-05-03 16:33:16] INFO root fetch - main [MainThread]: End processing [teamdbapi]: success
+[2024-05-03 16:33:16] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-03 16:33:16] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-03 16:33:16] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-03 16:33:16] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-03 16:33:16] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-03 16:33:16] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-03 16:33:17] INFO root fetch - processPackages [microchain-python]: Remove: archive file [/home/abi/fetcher/tmp/microchain-python-0.3.5.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - processPackages [microchain-python]: Remove: archive file [/home/abi/fetcher/tmp/microchain_python-0.3.6.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - main [MainThread]: End processing [microchain-python]: success
+[2024-05-03 16:33:17] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2024-05-03 16:33:17] INFO root fetch - processPackages [secretaries]: Remove: archive file [/home/abi/fetcher/tmp/secretaries-0.0.1.8.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - processPackages [secretaries]: Remove: archive file [/home/abi/fetcher/tmp/secretaries-0.0.1.9.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - main [MainThread]: End processing [secretaries]: success
+[2024-05-03 16:33:17] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.8.1.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.9.0.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - main [MainThread]: End processing [pyedb]: success
+[2024-05-03 16:33:17] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.6.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.7.tar.gz]
+[2024-05-03 16:33:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
+[2024-05-03 16:33:17] INFO root fetch - main [MainThread]: Store serial: [23047113]
