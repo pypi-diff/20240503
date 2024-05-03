@@ -2537,3 +2537,42 @@
 [2024-05-03 02:31:17] INFO root fetch - processPackages [dbt-core]: Remove: archive file [/home/abi/fetcher/tmp/dbt_core-1.8.0rc1.tar.gz]
 [2024-05-03 02:31:17] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
 [2024-05-03 02:31:17] INFO root fetch - main [MainThread]: Store serial: [23039074]
+[2024-05-03 02:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039074]
+[2024-05-03 02:33:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 02:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nnfasta
+[2024-05-03 02:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-05-03 02:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docsible
+[2024-05-03 02:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambot
+[2024-05-03 02:33:26] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240502] Old Version: [0.1.5.dev20240501]
+[2024-05-03 02:33:26] INFO root fetch - processPackages [nnfasta]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 02:33:26] INFO root fetch - processPackages [bambot]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-03 02:33:26] INFO root fetch - processPackages [docsible]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-03 02:33:26] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/8e/bb/0d88cb85d21059358e595b1b1709916e40b98882fb75fa8c187f9e12d7f7/aeppl_nightly-0.1.5.dev20240501.tar.gz
+[2024-05-03 02:33:26] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/b5/62/eb10ec0912a9801932e36c9b711078a89f200ef56acded624c01be5774df/nnfasta-0.1.0.tar.gz
+[2024-05-03 02:33:26] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/60/f1/10b443559134f4b3c59ae75807e9ecbca2ef49dc3afe315c43254cefb75b/bambot-0.4.1.tar.gz
+[2024-05-03 02:33:26] INFO root fetch - processPackages [docsible]: Downloading https://files.pythonhosted.org/packages/10/19/a69479fc9b0ccb2f304d00f9dac3a20a9631896561990f22d9b124d4f6b9/docsible-0.6.0.tar.gz
+[2024-05-03 02:33:26] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/15/10/7ef44f895d21f15740b42758d394659d50f7da53e0f6938f13a365d4d727/aeppl_nightly-0.1.5.dev20240502.tar.gz
+[2024-05-03 02:33:26] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/af/7c/fcb868dfc2a7dd9a7a0262671364aa844f4eca0c01b736d7174ee3b8098a/nnfasta-0.1.1.tar.gz
+[2024-05-03 02:33:26] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/ec/9b/293bc06caa91262cce3552303969a50ee2b9f7de525db890af61d4a45a40/bambot-0.4.2.tar.gz
+[2024-05-03 02:33:26] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-03 02:33:26] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240501.tar.gz tmp/aeppl_nightly-0.1.5.dev20240502.tar.gz --markdown 20240503/a/aeppl-nightly/0.1.5.dev20240501-0.1.5.dev20240502/README.md --exclude *.pyd
+[2024-05-03 02:33:26] INFO root fetch - processPackages [nnfasta]: executing diffoscope
+[2024-05-03 02:33:26] INFO root fetch - processPackages [nnfasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnfasta-0.1.0.tar.gz tmp/nnfasta-0.1.1.tar.gz --markdown 20240503/n/nnfasta/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 02:33:26] INFO root fetch - processPackages [docsible]: Downloading https://files.pythonhosted.org/packages/65/64/73a6495a47288fdc360a97e45af495aeb6b73ca270f959a5e480110a3a1c/docsible-0.6.1.tar.gz
+[2024-05-03 02:33:27] INFO root fetch - processPackages [bambot]: executing diffoscope
+[2024-05-03 02:33:27] INFO root fetch - processPackages [bambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambot-0.4.1.tar.gz tmp/bambot-0.4.2.tar.gz --markdown 20240503/b/bambot/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-03 02:33:27] INFO root fetch - processPackages [docsible]: executing diffoscope
+[2024-05-03 02:33:27] INFO root fetch - processPackages [docsible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsible-0.6.0.tar.gz tmp/docsible-0.6.1.tar.gz --markdown 20240503/d/docsible/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-03 02:33:27] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.0.tar.gz]
+[2024-05-03 02:33:27] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.1.tar.gz]
+[2024-05-03 02:33:27] INFO root fetch - main [MainThread]: End processing [nnfasta]: success
+[2024-05-03 02:33:27] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240501.tar.gz]
+[2024-05-03 02:33:27] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240502.tar.gz]
+[2024-05-03 02:33:27] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-03 02:33:27] INFO root fetch - processPackages [docsible]: Remove: archive file [/home/abi/fetcher/tmp/docsible-0.6.0.tar.gz]
+[2024-05-03 02:33:27] INFO root fetch - processPackages [docsible]: Remove: archive file [/home/abi/fetcher/tmp/docsible-0.6.1.tar.gz]
+[2024-05-03 02:33:27] INFO root fetch - main [MainThread]: End processing [docsible]: success
+[2024-05-03 02:33:27] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.4.1.tar.gz]
+[2024-05-03 02:33:27] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.4.2.tar.gz]
+[2024-05-03 02:33:27] INFO root fetch - main [MainThread]: End processing [bambot]: success
+[2024-05-03 02:33:27] INFO root fetch - main [MainThread]: Store serial: [23039086]
