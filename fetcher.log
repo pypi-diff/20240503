@@ -9150,3 +9150,50 @@
 [2024-05-03 06:27:47] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
 [2024-05-03 06:27:47] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
 [2024-05-03 06:27:47] INFO root fetch - main [MainThread]: Store serial: [23041470]
+[2024-05-03 06:29:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041470]
+[2024-05-03 06:29:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 06:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pami
+[2024-05-03 06:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-delivery-gls-asm
+[2024-05-03 06:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beta9
+[2024-05-03 06:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-pro
+[2024-05-03 06:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sturgmap
+[2024-05-03 06:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-ernie
+[2024-05-03 06:29:56] INFO root fetch - processPackages [sturgmap]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 06:29:56] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: New version: [14.0.1.7.1.dev1] Old Version: [14.0.1.7.1]
+[2024-05-03 06:29:56] INFO root fetch - processPackages [beta9]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 06:29:56] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 06:29:56] INFO root fetch - processPackages [pami]: New version: [2024.5.1.1] Old Version: [2024.5.1]
+[2024-05-03 06:29:56] WARNING root fetch - processPackages [easy-ernie]: Skipping, unable to determine old version
+[2024-05-03 06:29:56] INFO root fetch - main [MainThread]: End processing [easy-ernie] error
+[2024-05-03 06:29:56] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/88/2c/20372afda4edecdd1057f9dbda151ab1ec9857c2aa5c651ec0306a678813/odoo14_addon_delivery_gls_asm-14.0.1.7.1-py3-none-any.whl
+[2024-05-03 06:29:56] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/ef/cc/70806f6e01d8b8e311af6e2e9d3a1336489db4b9009f10e521e2128084e7/beta9-0.1.7.tar.gz
+[2024-05-03 06:29:56] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-05-03 06:29:56] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/db/ba/6e38ff7faf79c5482978affd1bc0efcf51cadaaf66362eabc4afe68e07fc/pami-2024.5.1.tar.gz
+[2024-05-03 06:29:56] INFO root fetch - processPackages [sturgmap]: Downloading https://files.pythonhosted.org/packages/56/28/9f5e16d6bb694ae57ce56f338cd9fa1da4ad5ca441b2adda979b4597af6b/sturgmap-0.0.5.tar.gz
+[2024-05-03 06:29:56] WARNING root fetch - processPackages [sturgmap]: Skipping package: exceeds size limit 15922551>=10485760
+[2024-05-03 06:29:56] INFO root fetch - main [MainThread]: End processing [sturgmap] error
+[2024-05-03 06:29:57] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-05-03 06:29:57] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/c2/18/2bdb529d7bf790784295e564606bcca64c41e9df01df304894f197505520/odoo14_addon_delivery_gls_asm-14.0.1.7.1.dev1-py3-none-any.whl
+[2024-05-03 06:29:57] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/11/67/b604fdb1907c1ee8dda9654212239b97efe74c015aa742cfe9806173d4d3/beta9-0.1.8.tar.gz
+[2024-05-03 06:29:57] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-05-03 06:29:57] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240503/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 06:29:57] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: executing diffoscope
+[2024-05-03 06:29:57] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_gls_asm-14.0.1.7.1-py3-none-any.whl.zip tmp/odoo14_addon_delivery_gls_asm-14.0.1.7.1.dev1-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-delivery-gls-asm/14.0.1.7.1-14.0.1.7.1.dev1/README.md --exclude *.pyd
+[2024-05-03 06:29:57] INFO root fetch - processPackages [beta9]: executing diffoscope
+[2024-05-03 06:29:57] INFO root fetch - processPackages [beta9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beta9-0.1.7.tar.gz tmp/beta9-0.1.8.tar.gz --markdown 20240503/b/beta9/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 06:29:57] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/3a/86/0eb8713bf44827ea90864527b6028a6fda8cff1629ab60c69025124f4b16/pami-2024.5.1.1.tar.gz
+[2024-05-03 06:29:57] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-03 06:29:57] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.5.1.tar.gz tmp/pami-2024.5.1.1.tar.gz --markdown 20240503/p/pami/2024.5.1-2024.5.1.1/README.md --exclude *.pyd
+[2024-05-03 06:29:57] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-05-03 06:29:57] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-05-03 06:29:57] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-05-03 06:29:57] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.7.tar.gz]
+[2024-05-03 06:29:57] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.8.tar.gz]
+[2024-05-03 06:29:57] INFO root fetch - main [MainThread]: End processing [beta9]: success
+[2024-05-03 06:29:57] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_gls_asm-14.0.1.7.1-py3-none-any.whl.zip]
+[2024-05-03 06:29:57] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_gls_asm-14.0.1.7.1.dev1-py3-none-any.whl.zip]
+[2024-05-03 06:29:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-gls-asm]: success
+[2024-05-03 06:29:59] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.1.tar.gz]
+[2024-05-03 06:29:59] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.1.1.tar.gz]
+[2024-05-03 06:29:59] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-03 06:29:59] INFO root fetch - main [MainThread]: Store serial: [23041498]
