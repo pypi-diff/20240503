@@ -20522,3 +20522,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:52:39] INFO root fetch - processPackages [elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch-8.9.0.tar.gz]
 [2024-05-03 15:52:39] INFO root fetch - main [MainThread]: End processing [elasticsearch]: success
 [2024-05-03 15:52:39] INFO root fetch - main [MainThread]: Store serial: [23046649]
+[2024-05-03 15:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046649]
+[2024-05-03 15:55:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lycoris-lora
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mutation-profile
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: queryandprocessdatautility
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elasticsearch8
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbgemm-gpu-nightly
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-organization-python
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-route
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easyknn
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-bank-python
+[2024-05-03 15:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensordict-nightly
+[2024-05-03 15:55:06] INFO root fetch - processPackages [lycoris-lora]: New version: [2.3.0.dev7] Old Version: [2.3.0.dev6]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [mutation-profile]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [easyknn]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/20/87/79cee21358ade743c8c3c3fcd8927b8746cb9b0a97d36c46cb0c5f3c4358/lycoris_lora-2.3.0.dev6.tar.gz
+[2024-05-03 15:55:06] INFO root fetch - processPackages [elasticsearch8]: New version: [8.9.0] Old Version: [8.8.2]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [easyknn]: Downloading https://files.pythonhosted.org/packages/13/8c/dc96d993afa3af5e5e9d24d1786f0a80eebad9fb87a1c4f74b4ad4a367d5/easyknn-0.3.1.tar.gz
+[2024-05-03 15:55:06] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-03 15:55:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-03 15:55:06] INFO root fetch - processPackages [mutation-profile]: Downloading https://files.pythonhosted.org/packages/12/79/9fa7c21d02e5acbc910e888ef62dd5c9918f2720042880edc3f217c47457/mutation-profile-0.1.0.tar.gz
+[2024-05-03 15:55:06] INFO root fetch - processPackages [elasticsearch8]: Downloading https://files.pythonhosted.org/packages/70/7b/bd5df95ba47045221fdad2391ac7092f856c780f3b82683c93f628f07eb1/elasticsearch8-8.8.2.tar.gz
+[2024-05-03 15:55:06] INFO root fetch - processPackages [flet-route]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-03 15:55:06] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/02/8e/d211c41985fac118aed04ee252a4aca3d49ba946f9f050e4063c3f23b615/fbgemm_gpu_nightly-2024.5.2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-03 15:55:06] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2024-05-03 15:55:07] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/58/7a/6f0da1bbaaec3c514a94549c5bb6d0f734a06626fdc50cd42dfbc7e64115/tensordict_nightly-2024.5.2-cp39-cp39-win_amd64.whl
+[2024-05-03 15:55:07] INFO root fetch - processPackages [easyknn]: Downloading https://files.pythonhosted.org/packages/b5/1f/471da425c409e86d64b62ad33037f84eff9aeb9f883f4972e646d55a6899/easyknn-0.4.0.tar.gz
+[2024-05-03 15:55:07] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/7a/cf/36c0d0e3328e06574f45261863154f340284bc847decdcca8479ffee8e47/lycoris_lora-2.3.0.dev7.tar.gz
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-03 15:55:07] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 209150362>=10485760
+[2024-05-03 15:55:07] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: pyfancytranslator
+[2024-05-03 15:55:07] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2024-05-03 15:55:07] ERROR root fetch - processPackages [mutation-profile]: Unable to fetch info: No such project/version 'mutation-profile' 0.1.1
+[2024-05-03 15:55:07] INFO root fetch - processPackages [mutation-profile]: Start processing: cybrid-api-id-python
+[2024-05-03 15:55:07] INFO root fetch - main [MainThread]: End processing [mutation-profile] error
+[2024-05-03 15:55:07] INFO root fetch - processPackages [flet-route]: Downloading https://files.pythonhosted.org/packages/ac/70/c4cc3f31f39a041957f6d532bc19d0d7c7f8e2d58096979103718a1bac1c/flet_route-0.3.2.tar.gz
+[2024-05-03 15:55:07] INFO root fetch - processPackages [easyknn]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [easyknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyknn-0.3.1.tar.gz tmp/easyknn-0.4.0.tar.gz --markdown 20240503/e/easyknn/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-03 15:55:07] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-2.3.0.dev6.tar.gz tmp/lycoris_lora-2.3.0.dev7.tar.gz --markdown 20240503/l/lycoris-lora/2.3.0.dev6-2.3.0.dev7/README.md --exclude *.pyd
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240503/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240503/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-03 15:55:07] INFO root fetch - processPackages [elasticsearch8]: Downloading https://files.pythonhosted.org/packages/fe/57/05e8cb06a82b3b3a42a0a9e44fbc6d5ec8766678b6fa0bb49581ebc55972/elasticsearch8-8.9.0.tar.gz
+[2024-05-03 15:55:07] WARNING root fetch - processPackages [pyfancytranslator]: Skipping, unable to determine old version
+[2024-05-03 15:55:07] INFO root fetch - main [MainThread]: End processing [pyfancytranslator] error
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-03 15:55:07] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/66/1d/7951b1b0bd23cb02523f5868526ca08a65ab66919e65fb8504b665bbffab/tensordict_nightly-2024.5.3-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-03 15:55:07] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2024-05-03 15:55:07] INFO root fetch - processPackages [flet-route]: Downloading https://files.pythonhosted.org/packages/7e/1e/9bb01265387d1d6d34f5e0f99e6e66ecced8626bb0f6fdaba5007d45018f/flet_route-0.3.3.tar.gz
+[2024-05-03 15:55:07] INFO root fetch - processPackages [elasticsearch8]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [elasticsearch8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch8-8.8.2.tar.gz tmp/elasticsearch8-8.9.0.tar.gz --markdown 20240503/e/elasticsearch8/8.8.2-8.9.0/README.md --exclude *.pyd
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-03 15:55:07] INFO root fetch - processPackages [flet-route]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [flet-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_route-0.3.2.tar.gz tmp/flet_route-0.3.3.tar.gz --markdown 20240503/f/flet-route/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-03 15:55:07] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20240503/q/queryandprocessdatautility/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240503/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-03 15:55:07] INFO root fetch - processPackages [easyknn]: Remove: archive file [/home/abi/fetcher/tmp/easyknn-0.3.1.tar.gz]
+[2024-05-03 15:55:07] INFO root fetch - processPackages [easyknn]: Remove: archive file [/home/abi/fetcher/tmp/easyknn-0.4.0.tar.gz]
+[2024-05-03 15:55:07] INFO root fetch - main [MainThread]: End processing [easyknn]: success
+[2024-05-03 15:55:07] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-03 15:55:07] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.5.2-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.3-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240503/t/tensordict-nightly/2024.5.2-2024.5.3/README.md --exclude *.pyd
+[2024-05-03 15:55:08] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-03 15:55:08] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-03 15:55:08] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-03 15:55:08] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev6.tar.gz]
+[2024-05-03 15:55:08] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev7.tar.gz]
+[2024-05-03 15:55:08] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2024-05-03 15:55:08] INFO root fetch - processPackages [flet-route]: Remove: archive file [/home/abi/fetcher/tmp/flet_route-0.3.2.tar.gz]
+[2024-05-03 15:55:08] INFO root fetch - processPackages [flet-route]: Remove: archive file [/home/abi/fetcher/tmp/flet_route-0.3.3.tar.gz]
+[2024-05-03 15:55:08] INFO root fetch - main [MainThread]: End processing [flet-route]: success
+[2024-05-03 15:55:08] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2024-05-03 15:55:08] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2024-05-03 15:55:08] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2024-05-03 15:55:09] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-03 15:55:09] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-03 15:55:09] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-03 15:55:09] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 15:55:09] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.3-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-05-03 15:55:09] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-03 15:55:09] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-03 15:55:09] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-03 15:55:09] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-03 15:55:10] INFO root fetch - processPackages [elasticsearch8]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch8-8.8.2.tar.gz]
+[2024-05-03 15:55:10] INFO root fetch - processPackages [elasticsearch8]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch8-8.9.0.tar.gz]
+[2024-05-03 15:55:10] INFO root fetch - main [MainThread]: End processing [elasticsearch8]: success
+[2024-05-03 15:55:10] INFO root fetch - main [MainThread]: Store serial: [23046691]
