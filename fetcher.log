@@ -2933,3 +2933,22 @@
 [2024-05-03 02:57:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-03 02:57:47] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-03 02:57:47] INFO root fetch - main [MainThread]: Store serial: [23039218]
+[2024-05-03 02:59:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039218]
+[2024-05-03 02:59:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 02:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PokerNow
+[2024-05-03 02:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PokerNow
+[2024-05-03 02:59:56] INFO root fetch - processPackages [PokerNow]: New version: [0.7.5] Old Version: [0.7.2655]
+[2024-05-03 02:59:56] INFO root fetch - processPackages [PokerNow]: New version: [0.7.5] Old Version: [0.7.2655]
+[2024-05-03 02:59:56] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/f1/c4/2208001b7eb4a6a648ce2c5a074654da49561456cb6ba84d3e39d4920a38/pokernow-0.7.2655.tar.gz
+[2024-05-03 02:59:56] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/f1/c4/2208001b7eb4a6a648ce2c5a074654da49561456cb6ba84d3e39d4920a38/pokernow-0.7.2655.tar.gz
+[2024-05-03 02:59:57] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/ea/81/d75c5248beda6b572de0157fd6b09c20aa6da6f5616f8518c8fc6511d77e/pokernow-0.7.5.tar.gz
+[2024-05-03 02:59:57] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/ea/81/d75c5248beda6b572de0157fd6b09c20aa6da6f5616f8518c8fc6511d77e/pokernow-0.7.5.tar.gz
+[2024-05-03 02:59:57] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:59:57] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.7.2655.tar.gz tmp/pokernow-0.7.5.tar.gz --markdown 20240503/P/PokerNow/0.7.2655-0.7.5/README.md --exclude *.pyd
+[2024-05-03 02:59:57] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:59:57] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.7.2655.tar.gz tmp/pokernow-0.7.5.tar.gz --markdown 20240503/P/PokerNow/0.7.2655-0.7.5/README.md --exclude *.pyd
+[2024-05-03 02:59:57] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.7.2655.tar.gz]
+[2024-05-03 02:59:57] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.7.5.tar.gz]
+[2024-05-03 02:59:57] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:59:57] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:59:57] INFO root fetch - main [MainThread]: Store serial: [23039225]
