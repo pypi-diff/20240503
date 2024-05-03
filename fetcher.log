@@ -13656,3 +13656,61 @@
 [2024-05-03 10:28:15] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-1.1.2-py3-none-any.whl.zip]
 [2024-05-03 10:28:15] INFO root fetch - main [MainThread]: End processing [h2o-lightwave-web]: success
 [2024-05-03 10:28:15] INFO root fetch - main [MainThread]: Store serial: [23043317]
+[2024-05-03 10:30:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043317]
+[2024-05-03 10:30:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 10:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whisperplus
+[2024-05-03 10:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glean-parser
+[2024-05-03 10:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: api-nichotined
+[2024-05-03 10:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-extensions-transform-spark-python
+[2024-05-03 10:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-extensions-transform-spark-python
+[2024-05-03 10:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-anime-downloader
+[2024-05-03 10:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-extensions-encryption-vault-python
+[2024-05-03 10:30:29] INFO root fetch - processPackages [whisperplus]: New version: [0.2.8] Old Version: [0.2.7.0.dev1]
+[2024-05-03 10:30:29] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: New version: [1.7.0.dev1714638815] Old Version: [1.7.0.dev1714638799]
+[2024-05-03 10:30:29] INFO root fetch - processPackages [api-nichotined]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 10:30:29] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: New version: [1.7.0.dev1714638778] Old Version: [1.7.0.dev1714638764]
+[2024-05-03 10:30:29] WARNING root fetch - processPackages [nonebot-plugin-anime-downloader]: Skipping, unable to determine old version
+[2024-05-03 10:30:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-anime-downloader] error
+[2024-05-03 10:30:29] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: New version: [1.7.0.dev1714638778] Old Version: [1.7.0.dev1714638764]
+[2024-05-03 10:30:29] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: Downloading https://files.pythonhosted.org/packages/04/ab/89298cf41fcff3abc2a70439cabfe8165e46c42cf3eab4627abc92d22582/aissemble_extensions_transform_spark_python-1.7.0.dev1714638764.tar.gz
+[2024-05-03 10:30:29] INFO root fetch - processPackages [glean-parser]: New version: [9.0.0] Old Version: [8.1.1]
+[2024-05-03 10:30:29] INFO root fetch - processPackages [api-nichotined]: Downloading https://files.pythonhosted.org/packages/b4/63/35db37f639aff48b5c7321ceabc78f0b7aa4bb9d1798f17645cdd2d29ff9/api-nichotined-0.1.6.tar.gz
+[2024-05-03 10:30:29] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Downloading https://files.pythonhosted.org/packages/27/aa/cc64939a0dc77a676ea54d9ed62a88cc4326b8d8d75998de3a47b5d5bfe3/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638799.tar.gz
+[2024-05-03 10:30:29] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: Downloading https://files.pythonhosted.org/packages/04/ab/89298cf41fcff3abc2a70439cabfe8165e46c42cf3eab4627abc92d22582/aissemble_extensions_transform_spark_python-1.7.0.dev1714638764.tar.gz
+[2024-05-03 10:30:29] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/ff/0e/957556ed896e91de460e3c99c33bd2d404c76e75ef0ec69aaf6f8325e83d/whisperplus-0.2.7.0.dev1.tar.gz
+[2024-05-03 10:30:29] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: Downloading https://files.pythonhosted.org/packages/ec/53/41e360ded25133f3e23d0a4be37c9e2b7f80d47a51b0f402bf851c0d8872/aissemble_extensions_transform_spark_python-1.7.0.dev1714638778.tar.gz
+[2024-05-03 10:30:29] INFO root fetch - processPackages [glean-parser]: Downloading https://files.pythonhosted.org/packages/12/73/a66d7396f529d8ea49b0d17a92608eec6469401227a7b64df6dbd1cedb9d/glean_parser-8.1.1.tar.gz
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Downloading https://files.pythonhosted.org/packages/c5/79/5356a1ee4570105bb1e5bac3702417e906989a366b78dd96ef40fa53b93e/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638815.tar.gz
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: Downloading https://files.pythonhosted.org/packages/ec/53/41e360ded25133f3e23d0a4be37c9e2b7f80d47a51b0f402bf851c0d8872/aissemble_extensions_transform_spark_python-1.7.0.dev1714638778.tar.gz
+[2024-05-03 10:30:30] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/9a/49/42da8dc1dfaa872ba8d15a9a2f7786964130a99fd933dae9f35c17cae8f2/whisperplus-0.2.8.tar.gz
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: executing diffoscope
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_transform_spark_python-1.7.0.dev1714638764.tar.gz tmp/aissemble_extensions_transform_spark_python-1.7.0.dev1714638778.tar.gz --markdown 20240503/a/aissemble-extensions-transform-spark-python/1.7.0.dev1714638764-1.7.0.dev1714638778/README.md --exclude *.pyd
+[2024-05-03 10:30:30] INFO root fetch - processPackages [api-nichotined]: Downloading https://files.pythonhosted.org/packages/ca/e8/c87770c4f9522a18da65b9966fb4fad411aac5162e09f809c29c7831ee48/api-nichotined-0.1.7.tar.gz
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: executing diffoscope
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638799.tar.gz tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638815.tar.gz --markdown 20240503/a/aissemble-extensions-encryption-vault-python/1.7.0.dev1714638799-1.7.0.dev1714638815/README.md --exclude *.pyd
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: executing diffoscope
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_transform_spark_python-1.7.0.dev1714638764.tar.gz tmp/aissemble_extensions_transform_spark_python-1.7.0.dev1714638778.tar.gz --markdown 20240503/a/aissemble-extensions-transform-spark-python/1.7.0.dev1714638764-1.7.0.dev1714638778/README.md --exclude *.pyd
+[2024-05-03 10:30:30] INFO root fetch - processPackages [whisperplus]: executing diffoscope
+[2024-05-03 10:30:30] INFO root fetch - processPackages [whisperplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisperplus-0.2.7.0.dev1.tar.gz tmp/whisperplus-0.2.8.tar.gz --markdown 20240503/w/whisperplus/0.2.7.0.dev1-0.2.8/README.md --exclude *.pyd
+[2024-05-03 10:30:30] INFO root fetch - processPackages [api-nichotined]: executing diffoscope
+[2024-05-03 10:30:30] INFO root fetch - processPackages [api-nichotined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-nichotined-0.1.6.tar.gz tmp/api-nichotined-0.1.7.tar.gz --markdown 20240503/a/api-nichotined/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 10:30:30] INFO root fetch - processPackages [glean-parser]: Downloading https://files.pythonhosted.org/packages/95/14/cc81d8f4d7bed3cbcaa2ed659b61be842f1a4f85762ce187e6281026007f/glean_parser-9.0.0.tar.gz
+[2024-05-03 10:30:30] INFO root fetch - processPackages [glean-parser]: executing diffoscope
+[2024-05-03 10:30:30] INFO root fetch - processPackages [glean-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean_parser-8.1.1.tar.gz tmp/glean_parser-9.0.0.tar.gz --markdown 20240503/g/glean-parser/8.1.1-9.0.0/README.md --exclude *.pyd
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_transform_spark_python-1.7.0.dev1714638764.tar.gz]
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-transform-spark-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_transform_spark_python-1.7.0.dev1714638778.tar.gz]
+[2024-05-03 10:30:30] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-transform-spark-python]: success
+[2024-05-03 10:30:30] INFO root fetch - processPackages [api-nichotined]: Remove: archive file [/home/abi/fetcher/tmp/api-nichotined-0.1.6.tar.gz]
+[2024-05-03 10:30:30] INFO root fetch - processPackages [api-nichotined]: Remove: archive file [/home/abi/fetcher/tmp/api-nichotined-0.1.7.tar.gz]
+[2024-05-03 10:30:30] INFO root fetch - main [MainThread]: End processing [api-nichotined]: success
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638799.tar.gz]
+[2024-05-03 10:30:30] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714638815.tar.gz]
+[2024-05-03 10:30:30] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-encryption-vault-python]: success
+[2024-05-03 10:30:30] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.7.0.dev1.tar.gz]
+[2024-05-03 10:30:30] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.8.tar.gz]
+[2024-05-03 10:30:30] INFO root fetch - main [MainThread]: End processing [whisperplus]: success
+[2024-05-03 10:30:30] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-transform-spark-python]: success
+[2024-05-03 10:30:31] INFO root fetch - processPackages [glean-parser]: Remove: archive file [/home/abi/fetcher/tmp/glean_parser-8.1.1.tar.gz]
+[2024-05-03 10:30:31] INFO root fetch - processPackages [glean-parser]: Remove: archive file [/home/abi/fetcher/tmp/glean_parser-9.0.0.tar.gz]
+[2024-05-03 10:30:31] INFO root fetch - main [MainThread]: End processing [glean-parser]: success
+[2024-05-03 10:30:31] INFO root fetch - main [MainThread]: Store serial: [23043341]
