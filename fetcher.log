@@ -20079,3 +20079,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:29:55] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-05-03 15:29:55] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-05-03 15:29:55] INFO root fetch - main [MainThread]: Store serial: [23046420]
+[2024-05-03 15:32:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046420]
+[2024-05-03 15:32:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: btpytools
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numpyimage
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: knowledgeai-client
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpbroker
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lino-cms
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mhmzx-little-paimon
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imbue
+[2024-05-03 15:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sciborg
+[2024-05-03 15:32:22] INFO root fetch - processPackages [imbue]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-03 15:32:22] INFO root fetch - processPackages [knowledgeai-client]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-03 15:32:22] INFO root fetch - processPackages [mhmzx-little-paimon]: New version: [3.0.15] Old Version: [3.0.14]
+[2024-05-03 15:32:22] INFO root fetch - processPackages [imbue]: Downloading https://files.pythonhosted.org/packages/dd/be/f7743436d1141563786b87f0879bbab1c9661a01a138a46c9b081db51ef6/imbue-1.0.0.tar.gz
+[2024-05-03 15:32:22] INFO root fetch - processPackages [lino-cms]: New version: [24.5.0] Old Version: [23.10.0]
+[2024-05-03 15:32:22] WARNING root fetch - processPackages [sciborg]: Skipping, unable to determine old version
+[2024-05-03 15:32:22] INFO root fetch - main [MainThread]: End processing [sciborg] error
+[2024-05-03 15:32:22] INFO root fetch - processPackages [btpytools]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 15:32:22] INFO root fetch - processPackages [mpbroker]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-03 15:32:22] INFO root fetch - processPackages [numpyimage]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-03 15:32:22] INFO root fetch - processPackages [cg]: New version: [60.6.3] Old Version: [60.6.1]
+[2024-05-03 15:32:23] INFO root fetch - processPackages [knowledgeai-client]: Downloading https://files.pythonhosted.org/packages/8f/b7/c053f673a07ca57ce7afb292d9bd58461d06a2fc72a14e83817b1eca5670/knowledgeai_client-0.5.1.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [lino-cms]: Downloading https://files.pythonhosted.org/packages/fd/56/d17584b97b0487c7a8d58cab4b2cd010fd04537412c353e024eb6e3e585f/lino-cms-23.10.0.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [numpyimage]: Downloading https://files.pythonhosted.org/packages/03/77/0e941f3570c34907400d2cebb5a05936a7d1bab31be8eeeb275e684945ff/numpyimage-1.1.1.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [btpytools]: Downloading https://files.pythonhosted.org/packages/07/12/a4c734a25ea7c1b3b00518b86d2cd4587efa2fb1e3b927331fa38161233c/btpytools-0.1.6.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [mpbroker]: Downloading https://files.pythonhosted.org/packages/f7/1e/5a556b514f33d3917e8237e3bbac7dd0e53a1a8b715f1c5f11680ad91efd/mpbroker-0.9.0.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [imbue]: Downloading https://files.pythonhosted.org/packages/97/c7/dfc369d6de24536fe89fd50087b6ac6bcc8394b861a400b52aa0d29974ff/imbue-2.0.0.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [mhmzx-little-paimon]: Downloading https://files.pythonhosted.org/packages/33/4f/3e120b739a694813212f4f145c72381c27f76d8ad3d33aeeec4f87e59842/mhmzx_little_paimon-3.0.14.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7b/a4/f1b4723ceb6fec3e006df88a44db07897b4e96c199bf4927fa7291ac8a59/cg-60.6.1.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [imbue]: executing diffoscope
+[2024-05-03 15:32:23] INFO root fetch - processPackages [imbue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imbue-1.0.0.tar.gz tmp/imbue-2.0.0.tar.gz --markdown 20240503/i/imbue/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-03 15:32:23] INFO root fetch - processPackages [knowledgeai-client]: Downloading https://files.pythonhosted.org/packages/86/33/c85dff997253f8b682aa85ab77bb75d604cce1258030e39de084bffd151f/knowledgeai_client-0.6.0.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [btpytools]: Downloading https://files.pythonhosted.org/packages/46/6a/bffbbc2a52b5be255381ffcc392cbeafbc97362ca07311b355857bd23e5a/btpytools-0.1.7.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [knowledgeai-client]: executing diffoscope
+[2024-05-03 15:32:23] INFO root fetch - processPackages [knowledgeai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knowledgeai_client-0.5.1.tar.gz tmp/knowledgeai_client-0.6.0.tar.gz --markdown 20240503/k/knowledgeai-client/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-03 15:32:23] INFO root fetch - processPackages [lino-cms]: Downloading https://files.pythonhosted.org/packages/63/e7/eb5241fdd6348ec801f59f82d2abf0e6ff1f0d3e7b397a92593bd07e1950/lino-cms-24.5.0.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [numpyimage]: Downloading https://files.pythonhosted.org/packages/a0/9e/c96a1dd1b3dbd89c3bdcdc68c1bbdb6fb27b6d158dc94800ba1f6967e1dc/numpyimage-1.2.0.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [mpbroker]: Downloading https://files.pythonhosted.org/packages/3b/a0/ce29073cfbc8b739a30d1660138fa81e11ad7f94658ac245adeb400de698/mpbroker-1.0.0.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [btpytools]: executing diffoscope
+[2024-05-03 15:32:23] INFO root fetch - processPackages [btpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btpytools-0.1.6.tar.gz tmp/btpytools-0.1.7.tar.gz --markdown 20240503/b/btpytools/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 15:32:23] INFO root fetch - processPackages [numpyimage]: executing diffoscope
+[2024-05-03 15:32:23] INFO root fetch - processPackages [numpyimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpyimage-1.1.1.tar.gz tmp/numpyimage-1.2.0.tar.gz --markdown 20240503/n/numpyimage/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-03 15:32:23] INFO root fetch - processPackages [lino-cms]: executing diffoscope
+[2024-05-03 15:32:23] INFO root fetch - processPackages [lino-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-cms-23.10.0.tar.gz tmp/lino-cms-24.5.0.tar.gz --markdown 20240503/l/lino-cms/23.10.0-24.5.0/README.md --exclude *.pyd
+[2024-05-03 15:32:23] INFO root fetch - processPackages [mhmzx-little-paimon]: Downloading https://files.pythonhosted.org/packages/f6/8d/c1d40e51b2495c2674a4df7968f2c10aa8eaeb714e06dafe4473923811b9/mhmzx_little_paimon-3.0.15.tar.gz
+[2024-05-03 15:32:23] INFO root fetch - processPackages [mpbroker]: executing diffoscope
+[2024-05-03 15:32:23] INFO root fetch - processPackages [mpbroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpbroker-0.9.0.tar.gz tmp/mpbroker-1.0.0.tar.gz --markdown 20240503/m/mpbroker/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-03 15:32:23] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/3f/c7/f65de66f10f61501a2cfc50da290c1d318b2cd5be04e91b02bb648b77124/cg-60.6.3.tar.gz
+[2024-05-03 15:32:24] INFO root fetch - processPackages [imbue]: Remove: archive file [/home/abi/fetcher/tmp/imbue-1.0.0.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - processPackages [imbue]: Remove: archive file [/home/abi/fetcher/tmp/imbue-2.0.0.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - main [MainThread]: End processing [imbue]: success
+[2024-05-03 15:32:24] INFO root fetch - processPackages [mhmzx-little-paimon]: executing diffoscope
+[2024-05-03 15:32:24] INFO root fetch - processPackages [mhmzx-little-paimon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mhmzx_little_paimon-3.0.14.tar.gz tmp/mhmzx_little_paimon-3.0.15.tar.gz --markdown 20240503/m/mhmzx-little-paimon/3.0.14-3.0.15/README.md --exclude *.pyd
+[2024-05-03 15:32:24] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-03 15:32:24] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.6.1.tar.gz tmp/cg-60.6.3.tar.gz --markdown 20240503/c/cg/60.6.1-60.6.3/README.md --exclude *.pyd
+[2024-05-03 15:32:24] INFO root fetch - processPackages [knowledgeai-client]: Remove: archive file [/home/abi/fetcher/tmp/knowledgeai_client-0.5.1.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - processPackages [knowledgeai-client]: Remove: archive file [/home/abi/fetcher/tmp/knowledgeai_client-0.6.0.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - main [MainThread]: End processing [knowledgeai-client]: success
+[2024-05-03 15:32:24] INFO root fetch - processPackages [btpytools]: Remove: archive file [/home/abi/fetcher/tmp/btpytools-0.1.6.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - processPackages [btpytools]: Remove: archive file [/home/abi/fetcher/tmp/btpytools-0.1.7.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - main [MainThread]: End processing [btpytools]: success
+[2024-05-03 15:32:24] INFO root fetch - processPackages [lino-cms]: Remove: archive file [/home/abi/fetcher/tmp/lino-cms-23.10.0.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - processPackages [lino-cms]: Remove: archive file [/home/abi/fetcher/tmp/lino-cms-24.5.0.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - main [MainThread]: End processing [lino-cms]: success
+[2024-05-03 15:32:24] INFO root fetch - processPackages [numpyimage]: Remove: archive file [/home/abi/fetcher/tmp/numpyimage-1.1.1.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - processPackages [numpyimage]: Remove: archive file [/home/abi/fetcher/tmp/numpyimage-1.2.0.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - main [MainThread]: End processing [numpyimage]: success
+[2024-05-03 15:32:24] INFO root fetch - processPackages [mpbroker]: Remove: archive file [/home/abi/fetcher/tmp/mpbroker-0.9.0.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - processPackages [mpbroker]: Remove: archive file [/home/abi/fetcher/tmp/mpbroker-1.0.0.tar.gz]
+[2024-05-03 15:32:24] INFO root fetch - main [MainThread]: End processing [mpbroker]: success
+[2024-05-03 15:32:25] INFO root fetch - processPackages [mhmzx-little-paimon]: Remove: archive file [/home/abi/fetcher/tmp/mhmzx_little_paimon-3.0.14.tar.gz]
+[2024-05-03 15:32:25] INFO root fetch - processPackages [mhmzx-little-paimon]: Remove: archive file [/home/abi/fetcher/tmp/mhmzx_little_paimon-3.0.15.tar.gz]
+[2024-05-03 15:32:25] INFO root fetch - main [MainThread]: End processing [mhmzx-little-paimon]: success
+[2024-05-03 15:32:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.6.1.tar.gz]
+[2024-05-03 15:32:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.6.3.tar.gz]
+[2024-05-03 15:32:28] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-03 15:32:28] INFO root fetch - main [MainThread]: Store serial: [23046447]
