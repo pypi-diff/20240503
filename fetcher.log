@@ -7705,3 +7705,18 @@
 [2024-05-03 04:43:20] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.39.tar.gz]
 [2024-05-03 04:43:20] INFO root fetch - main [MainThread]: End processing [PheTK]: success
 [2024-05-03 04:43:20] INFO root fetch - main [MainThread]: Store serial: [23040982]
+[2024-05-03 04:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040982]
+[2024-05-03 04:45:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 04:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skelescope
+[2024-05-03 04:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: computex
+[2024-05-03 04:45:31] INFO root fetch - processPackages [skelescope]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-03 04:45:31] WARNING root fetch - processPackages [computex]: Skipping, unable to determine old version
+[2024-05-03 04:45:31] INFO root fetch - main [MainThread]: End processing [computex] error
+[2024-05-03 04:45:31] INFO root fetch - processPackages [skelescope]: Downloading https://files.pythonhosted.org/packages/dc/71/4aa6805853637cebc0a47fd5978b9d9b432645a9305181f331fabccea6e7/skelescope-0.0.6.tar.gz
+[2024-05-03 04:45:32] INFO root fetch - processPackages [skelescope]: Downloading https://files.pythonhosted.org/packages/53/6f/0a7aafb1e70d1f2a8aff7319310723a6013e089f3fb8594af52b1f082cf8/skelescope-0.0.7.tar.gz
+[2024-05-03 04:45:32] INFO root fetch - processPackages [skelescope]: executing diffoscope
+[2024-05-03 04:45:32] INFO root fetch - processPackages [skelescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelescope-0.0.6.tar.gz tmp/skelescope-0.0.7.tar.gz --markdown 20240503/s/skelescope/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-03 04:46:03] INFO root fetch - processPackages [skelescope]: Remove: archive file [/home/abi/fetcher/tmp/skelescope-0.0.6.tar.gz]
+[2024-05-03 04:46:03] INFO root fetch - processPackages [skelescope]: Remove: archive file [/home/abi/fetcher/tmp/skelescope-0.0.7.tar.gz]
+[2024-05-03 04:46:03] INFO root fetch - main [MainThread]: End processing [skelescope]: success
+[2024-05-03 04:46:03] INFO root fetch - main [MainThread]: Store serial: [23040996]
