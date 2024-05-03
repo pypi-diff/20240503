@@ -19553,3 +19553,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:03:33] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
 [2024-05-03 15:03:33] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2024-05-03 15:03:33] INFO root fetch - main [MainThread]: Store serial: [23046205]
+[2024-05-03 15:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046205]
+[2024-05-03 15:06:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 15:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RL-OM
+[2024-05-03 15:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zonesmart-utils
+[2024-05-03 15:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nm-magic-wand-nightly
+[2024-05-03 15:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tutor-contrib-panorama
+[2024-05-03 15:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ETS-CookBook
+[2024-05-03 15:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: database-factory
+[2024-05-03 15:06:05] INFO root fetch - processPackages [RL-OM]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-03 15:06:05] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-03 15:06:05] INFO root fetch - processPackages [tutor-contrib-panorama]: New version: [16.2.3] Old Version: [16.2.2]
+[2024-05-03 15:06:05] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240503] Old Version: [0.2.2.20240502]
+[2024-05-03 15:06:05] INFO root fetch - processPackages [ETS-CookBook]: New version: [1.0.9a0] Old Version: [1.0.9]
+[2024-05-03 15:06:05] INFO root fetch - processPackages [database-factory]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-05-03 15:06:05] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/54/0e/1e251f32e562634fc591242baccb565e0826397773457a2e7efb89e2b31e/RL_OM-0.7.98.tar.gz
+[2024-05-03 15:06:05] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/1a/be/bcd9bba2fcc23bda06fd208861ba30579830e832f998bdbb2206fb01a266/nm_magic_wand_nightly-0.2.2.20240502-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-05-03 15:06:05] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/a9/70/36d2529fa49c559ba64043c91f2ad61081b5d2023ca9f96c18e6d1a6e030/zonesmart-utils-0.6.1.tar.gz
+[2024-05-03 15:06:05] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76878156>=10485760
+[2024-05-03 15:06:05] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-05-03 15:06:05] INFO root fetch - processPackages [tutor-contrib-panorama]: Downloading https://files.pythonhosted.org/packages/6e/8d/89f261e61880bc984d83caf349ddc6e7ce1e2e480919facd764c3d33e5ac/tutor-contrib-panorama-16.2.2.tar.gz
+[2024-05-03 15:06:05] INFO root fetch - processPackages [database-factory]: Downloading https://files.pythonhosted.org/packages/ba/9e/7c574b1297b7f65d80229cd66ce8c33124f3529709c8986bce9838191c7c/database-factory-1.0.6.tar.gz
+[2024-05-03 15:06:05] INFO root fetch - processPackages [ETS-CookBook]: Downloading https://files.pythonhosted.org/packages/43/06/29da449adb8ce838fee8a99888bfb64e05bf44cd0778e1fd409250642450/ETS_CookBook-1.0.9.tar.gz
+[2024-05-03 15:06:06] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/05/80/e201b178be17998f0db6391696dcf15f0c737015844fe222295cca5fc390/RL_OM-0.7.99.tar.gz
+[2024-05-03 15:06:06] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/80/5a/fb2ebff9252505483b2a13921d65bd2586869501f54ab8057b95ab15049d/zonesmart-utils-0.6.2.tar.gz
+[2024-05-03 15:06:06] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-03 15:06:06] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.98.tar.gz tmp/RL_OM-0.7.99.tar.gz --markdown 20240503/R/RL-OM/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-03 15:06:06] INFO root fetch - processPackages [database-factory]: Downloading https://files.pythonhosted.org/packages/33/84/ef56e8e49e4cbc631bc414eb497bd5f913c9eb89471ef8b229767f1d7cc3/database-factory-1.1.0.tar.gz
+[2024-05-03 15:06:06] INFO root fetch - processPackages [tutor-contrib-panorama]: Downloading https://files.pythonhosted.org/packages/3d/3e/7001f95632032027a0dc3112a89bc2dbafae851e08cde9b8b2e0b1e33e30/tutor_contrib_panorama-16.2.3.tar.gz
+[2024-05-03 15:06:06] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2024-05-03 15:06:06] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.6.1.tar.gz tmp/zonesmart-utils-0.6.2.tar.gz --markdown 20240503/z/zonesmart-utils/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-03 15:06:06] INFO root fetch - processPackages [database-factory]: executing diffoscope
+[2024-05-03 15:06:06] INFO root fetch - processPackages [database-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-factory-1.0.6.tar.gz tmp/database-factory-1.1.0.tar.gz --markdown 20240503/d/database-factory/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-05-03 15:06:06] INFO root fetch - processPackages [tutor-contrib-panorama]: executing diffoscope
+[2024-05-03 15:06:06] INFO root fetch - processPackages [tutor-contrib-panorama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-panorama-16.2.2.tar.gz tmp/tutor_contrib_panorama-16.2.3.tar.gz --markdown 20240503/t/tutor-contrib-panorama/16.2.2-16.2.3/README.md --exclude *.pyd
+[2024-05-03 15:06:06] INFO root fetch - processPackages [ETS-CookBook]: Downloading https://files.pythonhosted.org/packages/09/fa/90d5886284c7be6ea9ec8bc00d3c061d39084492a13408c258798891c1cf/ETS_CookBook-1.0.9a0.tar.gz
+[2024-05-03 15:06:07] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.98.tar.gz]
+[2024-05-03 15:06:07] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.99.tar.gz]
+[2024-05-03 15:06:07] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-03 15:06:07] INFO root fetch - processPackages [database-factory]: Remove: archive file [/home/abi/fetcher/tmp/database-factory-1.0.6.tar.gz]
+[2024-05-03 15:06:07] INFO root fetch - processPackages [database-factory]: Remove: archive file [/home/abi/fetcher/tmp/database-factory-1.1.0.tar.gz]
+[2024-05-03 15:06:07] INFO root fetch - main [MainThread]: End processing [database-factory]: success
+[2024-05-03 15:06:07] INFO root fetch - processPackages [tutor-contrib-panorama]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-panorama-16.2.2.tar.gz]
+[2024-05-03 15:06:07] INFO root fetch - processPackages [tutor-contrib-panorama]: Remove: archive file [/home/abi/fetcher/tmp/tutor_contrib_panorama-16.2.3.tar.gz]
+[2024-05-03 15:06:07] INFO root fetch - main [MainThread]: End processing [tutor-contrib-panorama]: success
+[2024-05-03 15:06:07] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.6.1.tar.gz]
+[2024-05-03 15:06:07] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.6.2.tar.gz]
+[2024-05-03 15:06:07] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2024-05-03 15:06:07] INFO root fetch - processPackages [ETS-CookBook]: executing diffoscope
+[2024-05-03 15:06:07] INFO root fetch - processPackages [ETS-CookBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ETS_CookBook-1.0.9.tar.gz tmp/ETS_CookBook-1.0.9a0.tar.gz --markdown 20240503/E/ETS-CookBook/1.0.9-1.0.9a0/README.md --exclude *.pyd
+[2024-05-03 15:06:08] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9.tar.gz]
+[2024-05-03 15:06:08] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9a0.tar.gz]
+[2024-05-03 15:06:08] INFO root fetch - main [MainThread]: End processing [ETS-CookBook]: success
+[2024-05-03 15:06:08] INFO root fetch - main [MainThread]: Store serial: [23046228]
