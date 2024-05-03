@@ -8659,3 +8659,33 @@
 [2024-05-03 05:52:48] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-1.1.4.tar.gz]
 [2024-05-03 05:52:48] INFO root fetch - main [MainThread]: End processing [together]: success
 [2024-05-03 05:52:48] INFO root fetch - main [MainThread]: Store serial: [23041303]
+[2024-05-03 05:54:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041303]
+[2024-05-03 05:54:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 05:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mptradelib
+[2024-05-03 05:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skillpacks
+[2024-05-03 05:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dolbaram
+[2024-05-03 05:54:57] INFO root fetch - processPackages [skillpacks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 05:54:57] INFO root fetch - processPackages [mptradelib]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-03 05:54:57] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/1e/52/cb996f044abd8b3848bcaff3cf45e2342bfc828cc98546649b77a8fc95e6/mptradelib-0.3.0.tar.gz
+[2024-05-03 05:54:57] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/e5/2f/a1c43b4d509c4f512639a4b941f93a4a156c544bd2a39f3491b050d2ebbf/skillpacks-0.1.8.tar.gz
+[2024-05-03 05:54:57] INFO root fetch - processPackages [dolbaram]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-03 05:54:57] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/b6/89/f0de80c844dbbf0e0a57a873f9722d300512a78e06c8ea86863eb3f8391d/skillpacks-0.1.9.tar.gz
+[2024-05-03 05:54:57] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/8a/6c/91d5ccbc87888ccf5da558cc0b01723d1c926be95912c5b8edcd7db76100/dolbaram-0.2.6.tar.gz
+[2024-05-03 05:54:57] INFO root fetch - processPackages [skillpacks]: executing diffoscope
+[2024-05-03 05:54:57] INFO root fetch - processPackages [skillpacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillpacks-0.1.8.tar.gz tmp/skillpacks-0.1.9.tar.gz --markdown 20240503/s/skillpacks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 05:54:57] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/95/dd/c088aa022f82d36754f501f02be77748ea7e4e74803e0c415b997e68a6d4/mptradelib-0.3.1.tar.gz
+[2024-05-03 05:54:57] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-05-03 05:54:57] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.3.0.tar.gz tmp/mptradelib-0.3.1.tar.gz --markdown 20240503/m/mptradelib/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-03 05:54:57] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/58/81/7abb29aa5d17d5d17e99a3a1837e6db62486a9733684247dcbf3e767ec83/dolbaram-0.2.7.tar.gz
+[2024-05-03 05:54:57] INFO root fetch - processPackages [dolbaram]: executing diffoscope
+[2024-05-03 05:54:57] INFO root fetch - processPackages [dolbaram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolbaram-0.2.6.tar.gz tmp/dolbaram-0.2.7.tar.gz --markdown 20240503/d/dolbaram/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-03 05:54:58] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.8.tar.gz]
+[2024-05-03 05:54:58] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.9.tar.gz]
+[2024-05-03 05:54:58] INFO root fetch - main [MainThread]: End processing [skillpacks]: success
+[2024-05-03 05:54:58] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.0.tar.gz]
+[2024-05-03 05:54:58] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.1.tar.gz]
+[2024-05-03 05:54:58] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-05-03 05:54:58] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.6.tar.gz]
+[2024-05-03 05:54:58] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.7.tar.gz]
+[2024-05-03 05:54:58] INFO root fetch - main [MainThread]: End processing [dolbaram]: success
+[2024-05-03 05:54:58] INFO root fetch - main [MainThread]: Store serial: [23041312]
