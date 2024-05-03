@@ -9788,3 +9788,54 @@
 [2024-05-03 07:24:23] INFO root fetch - processPackages [qgate-sln-mlrun]: Remove: archive file [/home/abi/fetcher/tmp/qgate_sln_mlrun-0.2.2-py3-none-any.whl.zip]
 [2024-05-03 07:24:23] INFO root fetch - main [MainThread]: End processing [qgate-sln-mlrun]: success
 [2024-05-03 07:24:23] INFO root fetch - main [MainThread]: Store serial: [23041756]
+[2024-05-03 07:26:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041756]
+[2024-05-03 07:26:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genai-apis
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kitsunekko-tools
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultima-scraper-db
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ZConfig
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-inventory
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpc-suite
+[2024-05-03 07:26:31] WARNING root fetch - processPackages [genai-apis]: Skipping, unable to determine old version
+[2024-05-03 07:26:31] INFO root fetch - main [MainThread]: End processing [genai-apis] error
+[2024-05-03 07:26:31] INFO root fetch - processPackages [hpc-suite]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-03 07:26:31] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ultima-scraper-db]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-03 07:26:31] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-03 07:26:31] INFO root fetch - processPackages [hpc-suite]: Downloading https://files.pythonhosted.org/packages/c8/c9/f51e184438ab5d1b9db9c312be98b802fd7bc6fca6ed6d9513948fb98d20/hpc-suite-1.8.1.tar.gz
+[2024-05-03 07:26:31] INFO root fetch - processPackages [kitsunekko-tools]: New version: [24.5.3.0] Old Version: [24.4.30.0]
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ZConfig]: New version: [4.1] Old Version: [4.0]
+[2024-05-03 07:26:31] INFO root fetch - processPackages [ultima-scraper-db]: Downloading https://files.pythonhosted.org/packages/ea/37/680b7c6e7a579fab9983f5d64247bf5e19feac896675ce246303c34bc8c4/ultima_scraper_db-0.3.4.tar.gz
+[2024-05-03 07:26:32] INFO root fetch - processPackages [kitsunekko-tools]: Downloading https://files.pythonhosted.org/packages/78/8d/6a77026cd192538a2e6dc8e60b40beb35a0d3b9df75d6f4d7e36a892d7ff/kitsunekko_tools-24.4.30.0.tar.gz
+[2024-05-03 07:26:32] INFO root fetch - processPackages [ZConfig]: Downloading https://files.pythonhosted.org/packages/05/1b/24f8eba7b5a51beed8eb256f08610afeddde3190475fa4f342902e4f7a0e/ZConfig-4.0.tar.gz
+[2024-05-03 07:26:32] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-03 07:26:32] INFO root fetch - processPackages [hpc-suite]: Downloading https://files.pythonhosted.org/packages/bf/6e/246a2cf01d594e74ad73c609e14c21e9b2f578b0229b99777d494894cd58/hpc-suite-1.9.0.tar.gz
+[2024-05-03 07:26:32] INFO root fetch - processPackages [hpc-suite]: executing diffoscope
+[2024-05-03 07:26:32] INFO root fetch - processPackages [hpc-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpc-suite-1.8.1.tar.gz tmp/hpc-suite-1.9.0.tar.gz --markdown 20240503/h/hpc-suite/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-03 07:26:32] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-03 07:26:32] INFO root fetch - processPackages [ultima-scraper-db]: Downloading https://files.pythonhosted.org/packages/88/f8/63d01a7b1cf775f6739a889ef86a9419dc1774c493cda43c72192817e13d/ultima_scraper_db-0.3.5.tar.gz
+[2024-05-03 07:26:32] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240503/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-03 07:26:32] INFO root fetch - processPackages [kitsunekko-tools]: Downloading https://files.pythonhosted.org/packages/bc/46/aa7cd8aca53ed2ad4d98b1e2ff11c521120723001b25822d05a4c46ff54f/kitsunekko_tools-24.5.3.0.tar.gz
+[2024-05-03 07:26:32] INFO root fetch - processPackages [ZConfig]: Downloading https://files.pythonhosted.org/packages/52/7b/76988c3d67fa27ebadbbde86d2de4e173aaf952c23a16d96c68c6d0b3028/zconfig-4.1.tar.gz
+[2024-05-03 07:26:32] INFO root fetch - processPackages [ZConfig]: executing diffoscope
+[2024-05-03 07:26:32] INFO root fetch - processPackages [ZConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZConfig-4.0.tar.gz tmp/zconfig-4.1.tar.gz --markdown 20240503/Z/ZConfig/4.0-4.1/README.md --exclude *.pyd
+[2024-05-03 07:26:32] INFO root fetch - processPackages [ultima-scraper-db]: executing diffoscope
+[2024-05-03 07:26:32] INFO root fetch - processPackages [ultima-scraper-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_db-0.3.4.tar.gz tmp/ultima_scraper_db-0.3.5.tar.gz --markdown 20240503/u/ultima-scraper-db/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-03 07:26:32] INFO root fetch - processPackages [kitsunekko-tools]: executing diffoscope
+[2024-05-03 07:26:32] INFO root fetch - processPackages [kitsunekko-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kitsunekko_tools-24.4.30.0.tar.gz tmp/kitsunekko_tools-24.5.3.0.tar.gz --markdown 20240503/k/kitsunekko-tools/24.4.30.0-24.5.3.0/README.md --exclude *.pyd
+[2024-05-03 07:26:32] INFO root fetch - processPackages [hpc-suite]: Remove: archive file [/home/abi/fetcher/tmp/hpc-suite-1.8.1.tar.gz]
+[2024-05-03 07:26:32] INFO root fetch - processPackages [hpc-suite]: Remove: archive file [/home/abi/fetcher/tmp/hpc-suite-1.9.0.tar.gz]
+[2024-05-03 07:26:32] INFO root fetch - main [MainThread]: End processing [hpc-suite]: success
+[2024-05-03 07:26:33] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-03 07:26:33] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-03 07:26:33] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-03 07:26:33] INFO root fetch - processPackages [ultima-scraper-db]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_db-0.3.4.tar.gz]
+[2024-05-03 07:26:33] INFO root fetch - processPackages [ultima-scraper-db]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_db-0.3.5.tar.gz]
+[2024-05-03 07:26:33] INFO root fetch - main [MainThread]: End processing [ultima-scraper-db]: success
+[2024-05-03 07:26:33] INFO root fetch - processPackages [kitsunekko-tools]: Remove: archive file [/home/abi/fetcher/tmp/kitsunekko_tools-24.4.30.0.tar.gz]
+[2024-05-03 07:26:33] INFO root fetch - processPackages [kitsunekko-tools]: Remove: archive file [/home/abi/fetcher/tmp/kitsunekko_tools-24.5.3.0.tar.gz]
+[2024-05-03 07:26:33] INFO root fetch - main [MainThread]: End processing [kitsunekko-tools]: success
+[2024-05-03 07:26:33] INFO root fetch - processPackages [ZConfig]: Remove: archive file [/home/abi/fetcher/tmp/ZConfig-4.0.tar.gz]
+[2024-05-03 07:26:33] INFO root fetch - processPackages [ZConfig]: Remove: archive file [/home/abi/fetcher/tmp/zconfig-4.1.tar.gz]
+[2024-05-03 07:26:33] INFO root fetch - main [MainThread]: End processing [ZConfig]: success
+[2024-05-03 07:26:33] INFO root fetch - main [MainThread]: Store serial: [23041773]
