@@ -18817,3 +18817,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:27:27] INFO root fetch - processPackages [ieugwaspy]: Remove: archive file [/home/abi/fetcher/tmp/ieugwaspy-1.0.0.tar.gz]
 [2024-05-03 14:27:27] INFO root fetch - main [MainThread]: End processing [ieugwaspy]: success
 [2024-05-03 14:27:27] INFO root fetch - main [MainThread]: Store serial: [23045807]
+[2024-05-03 14:29:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045807]
+[2024-05-03 14:29:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 14:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2024-05-03 14:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingman-openapi-server-dev
+[2024-05-03 14:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sliderule
+[2024-05-03 14:30:00] INFO root fetch - processPackages [dingman-openapi-server-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 14:30:00] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/0a/e0/a22b71c7a082395d67c3fc0251a257b5111b3d7e421ed01a12c627b3eb56/dingman-openapi-server-dev-1.0.8.tar.gz
+[2024-05-03 14:30:00] INFO root fetch - processPackages [sliderule]: New version: [4.4.0] Old Version: [4.3.2]
+[2024-05-03 14:30:00] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-05-03 14:30:00] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/e4/c2/a7a9179d9294fd9fc6405f23a2718a8df0fd29cc68a702c76645d487ab33/dingman-openapi-server-dev-1.0.9.tar.gz
+[2024-05-03 14:30:00] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/23/44/c61e2ae9ca6e522d13a7c837c5feae8f550dd9c093eaa7dfb8cc3922a5b3/sliderule-4.3.2.tar.gz
+[2024-05-03 14:30:00] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-05-03 14:30:00] INFO root fetch - processPackages [dingman-openapi-server-dev]: executing diffoscope
+[2024-05-03 14:30:00] INFO root fetch - processPackages [dingman-openapi-server-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman-openapi-server-dev-1.0.8.tar.gz tmp/dingman-openapi-server-dev-1.0.9.tar.gz --markdown 20240503/d/dingman-openapi-server-dev/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 14:30:00] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/d6/cb/44cc0c803e7efc172fb2c8d840c38642a3e249f2e6a0d85ee67dad5ff6f4/sliderule-4.4.0.tar.gz
+[2024-05-03 14:30:00] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-05-03 14:30:00] INFO root fetch - processPackages [sliderule]: executing diffoscope
+[2024-05-03 14:30:00] INFO root fetch - processPackages [sliderule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliderule-4.3.2.tar.gz tmp/sliderule-4.4.0.tar.gz --markdown 20240503/s/sliderule/4.3.2-4.4.0/README.md --exclude *.pyd
+[2024-05-03 14:30:00] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-05-03 14:30:00] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240503/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-05-03 14:30:01] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.8.tar.gz]
+[2024-05-03 14:30:01] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.9.tar.gz]
+[2024-05-03 14:30:01] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server-dev]: success
+[2024-05-03 14:30:01] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-05-03 14:30:01] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-05-03 14:30:01] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-05-03 14:30:01] INFO root fetch - processPackages [sliderule]: Remove: archive file [/home/abi/fetcher/tmp/sliderule-4.3.2.tar.gz]
+[2024-05-03 14:30:01] INFO root fetch - processPackages [sliderule]: Remove: archive file [/home/abi/fetcher/tmp/sliderule-4.4.0.tar.gz]
+[2024-05-03 14:30:01] INFO root fetch - main [MainThread]: End processing [sliderule]: success
+[2024-05-03 14:30:01] INFO root fetch - main [MainThread]: Store serial: [23045816]
