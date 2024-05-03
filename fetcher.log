@@ -10634,3 +10634,78 @@
 [2024-05-03 08:14:45] INFO root fetch - processPackages [pyswipe]: Remove: archive file [/home/abi/fetcher/tmp/pyswipe-0.9.6.tar.gz]
 [2024-05-03 08:14:45] INFO root fetch - main [MainThread]: End processing [pyswipe]: success
 [2024-05-03 08:14:45] INFO root fetch - main [MainThread]: Store serial: [23042088]
+[2024-05-03 08:16:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042088]
+[2024-05-03 08:16:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 08:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gddoc2yml
+[2024-05-03 08:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: juan-stats
+[2024-05-03 08:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-hr-utilization-report
+[2024-05-03 08:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2024-05-03 08:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-data-services
+[2024-05-03 08:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: replicate-whisper-diarization
+[2024-05-03 08:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aise-toolkit-demo
+[2024-05-03 08:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module
+[2024-05-03 08:16:54] INFO root fetch - processPackages [replicate-whisper-diarization]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-03 08:16:54] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240502] Old Version: [20240501]
+[2024-05-03 08:16:54] INFO root fetch - processPackages [juan-stats]: New version: [1.2] Old Version: [1.1]
+[2024-05-03 08:16:54] INFO root fetch - processPackages [gddoc2yml]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-03 08:16:54] INFO root fetch - processPackages [aise-toolkit-demo]: New version: [0.3] Old Version: [0.2]
+[2024-05-03 08:16:54] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240502] Old Version: [20240501]
+[2024-05-03 08:16:54] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8934542107] Old Version: [2.0.0.dev8831728420]
+[2024-05-03 08:16:54] INFO root fetch - processPackages [aise-toolkit-demo]: Downloading https://files.pythonhosted.org/packages/af/05/ae32eb2ca85aef7febe9d32bd4467d16cacfbb01856a949548c0bc8161e9/aise_toolkit_demo-0.2.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: New version: [14.0.1.0.3.dev3] Old Version: [14.0.1.0.3.dev2]
+[2024-05-03 08:16:54] INFO root fetch - processPackages [gddoc2yml]: Downloading https://files.pythonhosted.org/packages/af/d9/b4824aeb4ae47f46f779389809384ab0965708dfe4f5407af07da26e5446/gddoc2yml-0.0.1.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/09/4b/c285f004a243d54229f44af82b06ae922b2c9e5ed6a032fbc87952cf6701/fake_bpy_module_latest-20240501.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [juan-stats]: Downloading https://files.pythonhosted.org/packages/a9/fe/fe175e83736b7615a77e4222261ee2eef694f12aa45e10c66bd876e6b032/juan_stats-1.1.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/8a/dc/8c4320211f5392a50796cc1d5cf24bc99dcdb014d49098db5ece5061b91c/th2_data_services-2.0.0.dev8831728420.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/6e/7d/7d1b90a4d5e586976c5f2307e671c0674de5bf3d5223b21544ac96fec577/fake_bpy_module-20240501.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [replicate-whisper-diarization]: Downloading https://files.pythonhosted.org/packages/ef/95/a0bdcf52fe52281a60477605517b1f75bd406fb4cbd280d509721972e3eb/replicate_whisper_diarization-0.2.4.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Downloading https://files.pythonhosted.org/packages/53/fe/0002a24e966fc1fb83e52693f546787635c1c6dd89aee1022c931ef313ae/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev2-py3-none-any.whl
+[2024-05-03 08:16:54] INFO root fetch - processPackages [aise-toolkit-demo]: Downloading https://files.pythonhosted.org/packages/99/36/5820de2e8c00f150476f213135199ce584579fdb2a8e4bdd95b384f9ab79/aise_toolkit_demo-0.3.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [gddoc2yml]: Downloading https://files.pythonhosted.org/packages/f1/ea/af41aecbf82d52da476e0e4abfa0a96a606437e4839d167b70519514dbf5/gddoc2yml-0.1.0.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/46/88/26051e318c8cec55b1c6b537f4a91659c991afd114f9c8502e45ca75f8dd/th2_data_services-2.0.0.dev8934542107.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [juan-stats]: Downloading https://files.pythonhosted.org/packages/30/f9/6447b9c68e122c234320a85c4dcb2d41d21d7d09fc26090169572fd44c91/juan_stats-1.2.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [aise-toolkit-demo]: executing diffoscope
+[2024-05-03 08:16:54] INFO root fetch - processPackages [aise-toolkit-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aise_toolkit_demo-0.2.tar.gz tmp/aise_toolkit_demo-0.3.tar.gz --markdown 20240503/a/aise-toolkit-demo/0.2-0.3/README.md --exclude *.pyd
+[2024-05-03 08:16:54] INFO root fetch - processPackages [gddoc2yml]: executing diffoscope
+[2024-05-03 08:16:54] INFO root fetch - processPackages [gddoc2yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gddoc2yml-0.0.1.tar.gz tmp/gddoc2yml-0.1.0.tar.gz --markdown 20240503/g/gddoc2yml/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-03 08:16:54] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-03 08:16:54] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8831728420.tar.gz tmp/th2_data_services-2.0.0.dev8934542107.tar.gz --markdown 20240503/t/th2-data-services/2.0.0.dev8831728420-2.0.0.dev8934542107/README.md --exclude *.pyd
+[2024-05-03 08:16:54] INFO root fetch - processPackages [juan-stats]: executing diffoscope
+[2024-05-03 08:16:54] INFO root fetch - processPackages [juan-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juan_stats-1.1.tar.gz tmp/juan_stats-1.2.tar.gz --markdown 20240503/j/juan-stats/1.1-1.2/README.md --exclude *.pyd
+[2024-05-03 08:16:54] INFO root fetch - processPackages [replicate-whisper-diarization]: Downloading https://files.pythonhosted.org/packages/39/6e/b47d58eb9091a96f5b60b9656b776952c9046a6e203d638d67674cbdfb52/replicate_whisper_diarization-0.2.5.tar.gz
+[2024-05-03 08:16:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/00/0f/5839f009f2dd4d35de6a733b4dce84a54e0f8f7b78e34a9e77a3957fd65d/fake_bpy_module_latest-20240502.tar.gz
+[2024-05-03 08:16:55] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/9a/b8/e9bdd7386f2d56d70cdcff4635ec0b7c10f0c9495d5a84872a35c58a32e8/fake_bpy_module-20240502.tar.gz
+[2024-05-03 08:16:55] INFO root fetch - processPackages [replicate-whisper-diarization]: executing diffoscope
+[2024-05-03 08:16:55] INFO root fetch - processPackages [replicate-whisper-diarization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replicate_whisper_diarization-0.2.4.tar.gz tmp/replicate_whisper_diarization-0.2.5.tar.gz --markdown 20240503/r/replicate-whisper-diarization/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-03 08:16:55] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Downloading https://files.pythonhosted.org/packages/ea/69/77363fc84adb844871e94bfb4d13c7787acfda302ad528409a847b4d4142/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev3-py3-none-any.whl
+[2024-05-03 08:16:55] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-03 08:16:55] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240501.tar.gz tmp/fake_bpy_module_latest-20240502.tar.gz --markdown 20240503/f/fake-bpy-module-latest/20240501-20240502/README.md --exclude *.pyd
+[2024-05-03 08:16:55] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-03 08:16:55] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240501.tar.gz tmp/fake_bpy_module-20240502.tar.gz --markdown 20240503/f/fake-bpy-module/20240501-20240502/README.md --exclude *.pyd
+[2024-05-03 08:16:55] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: executing diffoscope
+[2024-05-03 08:16:55] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev3-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-hr-utilization-report/14.0.1.0.3.dev2-14.0.1.0.3.dev3/README.md --exclude *.pyd
+[2024-05-03 08:16:55] INFO root fetch - processPackages [aise-toolkit-demo]: Remove: archive file [/home/abi/fetcher/tmp/aise_toolkit_demo-0.2.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - processPackages [aise-toolkit-demo]: Remove: archive file [/home/abi/fetcher/tmp/aise_toolkit_demo-0.3.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - main [MainThread]: End processing [aise-toolkit-demo]: success
+[2024-05-03 08:16:55] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.0.1.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.1.0.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - main [MainThread]: End processing [gddoc2yml]: success
+[2024-05-03 08:16:55] INFO root fetch - processPackages [juan-stats]: Remove: archive file [/home/abi/fetcher/tmp/juan_stats-1.1.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - processPackages [juan-stats]: Remove: archive file [/home/abi/fetcher/tmp/juan_stats-1.2.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - main [MainThread]: End processing [juan-stats]: success
+[2024-05-03 08:16:55] INFO root fetch - processPackages [replicate-whisper-diarization]: Remove: archive file [/home/abi/fetcher/tmp/replicate_whisper_diarization-0.2.4.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - processPackages [replicate-whisper-diarization]: Remove: archive file [/home/abi/fetcher/tmp/replicate_whisper_diarization-0.2.5.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - main [MainThread]: End processing [replicate-whisper-diarization]: success
+[2024-05-03 08:16:55] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8831728420.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8934542107.tar.gz]
+[2024-05-03 08:16:55] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-03 08:16:56] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2024-05-03 08:16:56] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2024-05-03 08:16:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-utilization-report]: success
+[2024-05-03 08:17:02] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240501.tar.gz]
+[2024-05-03 08:17:02] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240502.tar.gz]
+[2024-05-03 08:17:02] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-03 08:17:02] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240501.tar.gz]
+[2024-05-03 08:17:02] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240502.tar.gz]
+[2024-05-03 08:17:02] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-03 08:17:02] INFO root fetch - main [MainThread]: Store serial: [23042115]
