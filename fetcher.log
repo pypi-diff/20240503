@@ -16651,3 +16651,14 @@
 [2024-05-03 12:47:57] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-03 12:47:57] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-03 12:47:57] INFO root fetch - main [MainThread]: Store serial: [23044809]
+[2024-05-03 12:50:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044809]
+[2024-05-03 12:50:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 12:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Weblate
+[2024-05-03 12:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foundationallm
+[2024-05-03 12:50:28] INFO root fetch - processPackages [Weblate]: New version: [5.5.3] Old Version: [5.5.2]
+[2024-05-03 12:50:28] WARNING root fetch - processPackages [foundationallm]: Skipping, unable to determine old version
+[2024-05-03 12:50:28] INFO root fetch - main [MainThread]: End processing [foundationallm] error
+[2024-05-03 12:50:28] INFO root fetch - processPackages [Weblate]: Downloading https://files.pythonhosted.org/packages/1a/82/81cde28ea80d0f9bade7481160ed79d6687d36f23743aa87158f1ab79deb/weblate-5.5.2.tar.gz
+[2024-05-03 12:50:28] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 64817230>=10485760
+[2024-05-03 12:50:28] INFO root fetch - main [MainThread]: End processing [Weblate] error
+[2024-05-03 12:50:28] INFO root fetch - main [MainThread]: Store serial: [23044817]
