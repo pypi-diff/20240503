@@ -17463,3 +17463,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:25:56] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.3.0.tar.gz]
 [2024-05-03 13:25:56] INFO root fetch - main [MainThread]: End processing [parkapi-sources]: success
 [2024-05-03 13:25:56] INFO root fetch - main [MainThread]: Store serial: [23045167]
+[2024-05-03 13:28:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045167]
+[2024-05-03 13:28:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-serving
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: precommend
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchx-nightly
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecosystem-notebooks
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-serving
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchrl-nightly
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my-data-quality-library
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flow.record
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nmk-vscode
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: google-ads-api-report-fetcher
+[2024-05-03 13:28:27] INFO root fetch - processPackages [tf-serving]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ecosystem-notebooks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 13:28:27] INFO root fetch - processPackages [tf-serving]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 13:28:27] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 13:28:27] INFO root fetch - processPackages [nmk-vscode]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-03 13:28:27] WARNING root fetch - processPackages [my-data-quality-library]: Skipping, unable to determine old version
+[2024-05-03 13:28:27] INFO root fetch - main [MainThread]: End processing [my-data-quality-library] error
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/dc/f4/15d40f4fab809fb02ae42b41428bef990398469edbd0eb4e113ff9d32c3d/ecosystem-notebooks-0.1.8.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [precommend]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-03 13:28:27] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2024-05-03 13:28:27] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-03 13:28:27] INFO root fetch - processPackages [tf-serving]: Downloading https://files.pythonhosted.org/packages/91/f1/58c392bc4d3e0f0195366357664be1731ce5935308e92e55eb3de4d3b810/tf_serving-0.1.0.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-03 13:28:27] INFO root fetch - processPackages [tf-serving]: Downloading https://files.pythonhosted.org/packages/91/f1/58c392bc4d3e0f0195366357664be1731ce5935308e92e55eb3de4d3b810/tf_serving-0.1.0.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/e4/76/e6b97e58e829cf0b3d552307dc0d92a1134e373255f33034ad9d2e782f8b/torchx_nightly-2024.5.2-py3-none-any.whl
+[2024-05-03 13:28:27] INFO root fetch - processPackages [nmk-vscode]: Downloading https://files.pythonhosted.org/packages/52/68/5f177c124a9379098c398f68a6188fcaceb767a2bf88131a17a59d09de55/nmk-vscode-0.7.0.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [precommend]: Downloading https://files.pythonhosted.org/packages/e2/31/a418444da201a01c24e361eb17a21d79395cc34b4de74912ac215b2d1fe1/precommend-0.3.0.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2024-05-03 13:28:27] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/f7/6c/c7b094e65d68d35e65bb7cec60b5f8a2f5b8eb1dcfbd0529109231dc6236/torchrl_nightly-2024.5.2-cp39-cp39-win_amd64.whl
+[2024-05-03 13:28:27] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/65/4e/cea87ee654a715c444b56f178f9c2f0b4d037ff06d0c84c8ab056ef2c4d0/ecosystem-notebooks-0.1.9.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [tf-serving]: Downloading https://files.pythonhosted.org/packages/36/62/75f84ee16282198893a481ade12270e8d5095f0f96d63949de2e4cb1a751/tf_serving-0.1.1.tar.gz
+[2024-05-03 13:28:27] INFO root fetch - processPackages [tf-serving]: Downloading https://files.pythonhosted.org/packages/36/62/75f84ee16282198893a481ade12270e8d5095f0f96d63949de2e4cb1a751/tf_serving-0.1.1.tar.gz
+[2024-05-03 13:28:28] INFO root fetch - processPackages [ecosystem-notebooks]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [ecosystem-notebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecosystem-notebooks-0.1.8.tar.gz tmp/ecosystem-notebooks-0.1.9.tar.gz --markdown 20240503/e/ecosystem-notebooks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 13:28:28] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240503/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-03 13:28:28] INFO root fetch - processPackages [tf-serving]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [tf-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_serving-0.1.0.tar.gz tmp/tf_serving-0.1.1.tar.gz --markdown 20240503/t/tf-serving/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 13:28:28] INFO root fetch - processPackages [tf-serving]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [tf-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_serving-0.1.0.tar.gz tmp/tf_serving-0.1.1.tar.gz --markdown 20240503/t/tf-serving/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 13:28:28] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/12/a7/eb3fd40b4f7892dfc83b1d235085f5c901eec1023ed6127a9de7c23c8415/torchx_nightly-2024.5.3-py3-none-any.whl
+[2024-05-03 13:28:28] INFO root fetch - processPackages [nmk-vscode]: Downloading https://files.pythonhosted.org/packages/71/d3/78e95dafdc6affb94a753ba1d8f3cf1b1b80d2a82814351370f72df4dce4/nmk_vscode-0.7.1.tar.gz
+[2024-05-03 13:28:28] INFO root fetch - processPackages [precommend]: Downloading https://files.pythonhosted.org/packages/d5/09/53958a48fe24f7db23df55542f3a71ce9746749c8db239c270734143545d/precommend-0.3.1.tar.gz
+[2024-05-03 13:28:28] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/60/30/e2abff851b9890fa243f3783830e29f1efed6f23b0572a2fcf1746babd8a/torchrl_nightly-2024.5.3-cp39-cp39-win_amd64.whl
+[2024-05-03 13:28:28] INFO root fetch - processPackages [nmk-vscode]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [nmk-vscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmk-vscode-0.7.0.tar.gz tmp/nmk_vscode-0.7.1.tar.gz --markdown 20240503/n/nmk-vscode/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-03 13:28:28] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2024-05-03 13:28:28] INFO root fetch - processPackages [precommend]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [precommend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/precommend-0.3.0.tar.gz tmp/precommend-0.3.1.tar.gz --markdown 20240503/p/precommend/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-03 13:28:28] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.2-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.3-py3-none-any.whl.zip --markdown 20240503/t/torchx-nightly/2024.5.2-2024.5.3/README.md --exclude *.pyd
+[2024-05-03 13:28:28] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20240503/f/flow.record/3.9.dev8-3.9.dev9/README.md --exclude *.pyd
+[2024-05-03 13:28:28] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-03 13:28:28] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.2-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.3-cp39-cp39-win_amd64.whl.zip --markdown 20240503/t/torchrl-nightly/2024.5.2-2024.5.3/README.md --exclude *.pyd
+[2024-05-03 13:28:29] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-03 13:28:29] INFO root fetch - processPackages [tf-serving]: Remove: archive file [/home/abi/fetcher/tmp/tf_serving-0.1.0.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - processPackages [tf-serving]: Remove: archive file [/home/abi/fetcher/tmp/tf_serving-0.1.1.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - main [MainThread]: End processing [tf-serving]: success
+[2024-05-03 13:28:29] INFO root fetch - main [MainThread]: End processing [tf-serving]: success
+[2024-05-03 13:28:29] INFO root fetch - processPackages [nmk-vscode]: Remove: archive file [/home/abi/fetcher/tmp/nmk-vscode-0.7.0.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - processPackages [nmk-vscode]: Remove: archive file [/home/abi/fetcher/tmp/nmk_vscode-0.7.1.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - main [MainThread]: End processing [nmk-vscode]: success
+[2024-05-03 13:28:29] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.8.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.9.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - main [MainThread]: End processing [ecosystem-notebooks]: success
+[2024-05-03 13:28:29] INFO root fetch - processPackages [precommend]: Remove: archive file [/home/abi/fetcher/tmp/precommend-0.3.0.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - processPackages [precommend]: Remove: archive file [/home/abi/fetcher/tmp/precommend-0.3.1.tar.gz]
+[2024-05-03 13:28:29] INFO root fetch - main [MainThread]: End processing [precommend]: success
+[2024-05-03 13:28:29] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev8-py3-none-any.whl.zip]
+[2024-05-03 13:28:29] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
+[2024-05-03 13:28:29] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2024-05-03 13:28:29] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.2-py3-none-any.whl.zip]
+[2024-05-03 13:28:29] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.3-py3-none-any.whl.zip]
+[2024-05-03 13:28:29] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-03 13:28:30] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 13:28:30] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 13:28:30] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-03 13:28:30] INFO root fetch - main [MainThread]: Store serial: [23045197]
