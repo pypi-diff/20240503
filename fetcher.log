@@ -10931,3 +10931,42 @@
 [2024-05-03 08:34:30] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240502.2-py3-none-any.whl.zip]
 [2024-05-03 08:34:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-wms]: success
 [2024-05-03 08:34:30] INFO root fetch - main [MainThread]: Store serial: [23042185]
+[2024-05-03 08:36:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042185]
+[2024-05-03 08:36:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 08:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uptrain
+[2024-05-03 08:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custom-cytomine-client
+[2024-05-03 08:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cltrier_nlp
+[2024-05-03 08:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: octoflow
+[2024-05-03 08:36:38] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:36:38] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:36:38] INFO root fetch - processPackages [cltrier_nlp]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 08:36:38] INFO root fetch - processPackages [uptrain]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-05-03 08:36:38] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/eb/97/67b2259f8b07490c98a4fdfe69831bcd836ec858f54b82f7680b3014ca34/custom_cytomine_client-0.0.8.tar.gz
+[2024-05-03 08:36:38] INFO root fetch - processPackages [cltrier_nlp]: Downloading https://files.pythonhosted.org/packages/1c/c9/1bbb1801637a4c474b99a99be51cc7cc9e0f76b535313fc3a65b2e1a212c/cltrier_nlp-0.1.4.tar.gz
+[2024-05-03 08:36:38] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-05-03 08:36:39] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/0d/90/e64aafec70d60200463855788cccf83e86d2924cbb89f836a341ba6312c2/uptrain-0.6.9.tar.gz
+[2024-05-03 08:36:39] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/e8/28/8ba19c33ff5ca6fe46c094f805535862c39b806f65eb782505d0e8f6facd/custom_cytomine_client-0.0.9.tar.gz
+[2024-05-03 08:36:39] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-05-03 08:36:39] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-05-03 08:36:39] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.8.tar.gz tmp/custom_cytomine_client-0.0.9.tar.gz --markdown 20240503/c/custom-cytomine-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:36:39] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-05-03 08:36:39] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240503/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:36:39] INFO root fetch - processPackages [cltrier_nlp]: Downloading https://files.pythonhosted.org/packages/d8/ba/91b8526e04713020f3ee86b827adbcac9a427058abbb23738efe4b48a970/cltrier_nlp-0.1.5.tar.gz
+[2024-05-03 08:36:39] INFO root fetch - processPackages [cltrier_nlp]: executing diffoscope
+[2024-05-03 08:36:39] INFO root fetch - processPackages [cltrier_nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cltrier_nlp-0.1.4.tar.gz tmp/cltrier_nlp-0.1.5.tar.gz --markdown 20240503/c/cltrier_nlp/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 08:36:39] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/e1/3e/44ea48609877c6f90cab885770dd0e40fac589b28004a001fa1b669e5942/uptrain-0.7.0.tar.gz
+[2024-05-03 08:36:39] INFO root fetch - processPackages [uptrain]: executing diffoscope
+[2024-05-03 08:36:39] INFO root fetch - processPackages [uptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptrain-0.6.9.tar.gz tmp/uptrain-0.7.0.tar.gz --markdown 20240503/u/uptrain/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-05-03 08:36:39] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.8.tar.gz]
+[2024-05-03 08:36:39] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.9.tar.gz]
+[2024-05-03 08:36:39] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-05-03 08:36:39] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-05-03 08:36:39] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-05-03 08:36:39] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-05-03 08:36:40] INFO root fetch - processPackages [cltrier_nlp]: Remove: archive file [/home/abi/fetcher/tmp/cltrier_nlp-0.1.4.tar.gz]
+[2024-05-03 08:36:40] INFO root fetch - processPackages [cltrier_nlp]: Remove: archive file [/home/abi/fetcher/tmp/cltrier_nlp-0.1.5.tar.gz]
+[2024-05-03 08:36:40] INFO root fetch - main [MainThread]: End processing [cltrier_nlp]: success
+[2024-05-03 08:36:40] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.6.9.tar.gz]
+[2024-05-03 08:36:40] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.7.0.tar.gz]
+[2024-05-03 08:36:40] INFO root fetch - main [MainThread]: End processing [uptrain]: success
+[2024-05-03 08:36:40] INFO root fetch - main [MainThread]: Store serial: [23042194]
