@@ -8181,3 +8181,24 @@
 [2024-05-03 05:12:32] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.7.tar.gz]
 [2024-05-03 05:12:32] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
 [2024-05-03 05:12:32] INFO root fetch - main [MainThread]: Store serial: [23041124]
+[2024-05-03 05:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041124]
+[2024-05-03 05:14:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-cooperative
+[2024-05-03 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-cooperative
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: New version: [14.0.20240502.0] Old Version: [14.0.20230904.0]
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo-addons-oca-cooperative]: New version: [16.0.20240502.1] Old Version: [16.0.20240419.0]
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Downloading https://files.pythonhosted.org/packages/6b/65/13b949d8f1fdeb877e4166e91281cd382853a2dbdbd95a343fe6dbdbdddf/odoo14_addons_oca_cooperative-14.0.20230904.0-py3-none-any.whl
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo-addons-oca-cooperative]: Downloading https://files.pythonhosted.org/packages/97/f0/f7bcddf7e71f8bf75dafa6fdf8e7bdfe5ce12a7c3a91ea8833754dfba19d/odoo_addons_oca_cooperative-16.0.20240419.0-py3-none-any.whl
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Downloading https://files.pythonhosted.org/packages/11/e4/dde0e85ac87cca4344162411102064f882ed908757bcb162c2ad927ef6eb/odoo14_addons_oca_cooperative-14.0.20240502.0-py3-none-any.whl
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo-addons-oca-cooperative]: Downloading https://files.pythonhosted.org/packages/3d/8e/c8042d1c973a25690f450e56b114d12ecf752aafdae2b9b778c20c260bf6/odoo_addons_oca_cooperative-16.0.20240502.1-py3-none-any.whl
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo-addons-oca-cooperative]: executing diffoscope
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo-addons-oca-cooperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_cooperative-16.0.20240419.0-py3-none-any.whl.zip tmp/odoo_addons_oca_cooperative-16.0.20240502.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-cooperative/16.0.20240419.0-16.0.20240502.1/README.md --exclude *.pyd
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: executing diffoscope
+[2024-05-03 05:14:41] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_cooperative-14.0.20230904.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_cooperative-14.0.20240502.0-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addons-oca-cooperative/14.0.20230904.0-14.0.20240502.0/README.md --exclude *.pyd
+[2024-05-03 05:14:42] INFO root fetch - processPackages [odoo-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_cooperative-16.0.20240419.0-py3-none-any.whl.zip]
+[2024-05-03 05:14:42] INFO root fetch - processPackages [odoo-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_cooperative-16.0.20240502.1-py3-none-any.whl.zip]
+[2024-05-03 05:14:42] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-cooperative]: success
+[2024-05-03 05:14:42] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_cooperative-14.0.20230904.0-py3-none-any.whl.zip]
+[2024-05-03 05:14:42] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_cooperative-14.0.20240502.0-py3-none-any.whl.zip]
+[2024-05-03 05:14:42] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-cooperative]: success
+[2024-05-03 05:14:42] INFO root fetch - main [MainThread]: Store serial: [23041128]
