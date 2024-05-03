@@ -18847,3 +18847,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:30:01] INFO root fetch - processPackages [sliderule]: Remove: archive file [/home/abi/fetcher/tmp/sliderule-4.4.0.tar.gz]
 [2024-05-03 14:30:01] INFO root fetch - main [MainThread]: End processing [sliderule]: success
 [2024-05-03 14:30:01] INFO root fetch - main [MainThread]: Store serial: [23045816]
+[2024-05-03 14:32:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045816]
+[2024-05-03 14:32:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 14:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-shortio
+[2024-05-03 14:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unico_device_setuper
+[2024-05-03 14:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-relay
+[2024-05-03 14:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfn-review-bot
+[2024-05-03 14:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odfdo
+[2024-05-03 14:32:35] INFO root fetch - processPackages [cfn-review-bot]: New version: [1!20240503.111248] Old Version: [1!20240202.133301]
+[2024-05-03 14:32:35] INFO root fetch - processPackages [cfn-review-bot]: Downloading https://files.pythonhosted.org/packages/b6/4b/28b476e81eded01b5800fbd06ff0f161721990f9d931e63166f5ae50efad/cfn-review-bot-1!20240202.133301.tar.gz
+[2024-05-03 14:32:35] INFO root fetch - processPackages [airbyte-source-shortio]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-03 14:32:35] INFO root fetch - processPackages [odfdo]: New version: [3.7.9] Old Version: [3.7.8]
+[2024-05-03 14:32:35] WARNING root fetch - processPackages [unico_device_setuper]: Skipping, unable to determine old version
+[2024-05-03 14:32:35] INFO root fetch - main [MainThread]: End processing [unico_device_setuper] error
+[2024-05-03 14:32:35] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2024-05-03 14:32:35] INFO root fetch - processPackages [airbyte-source-shortio]: Downloading https://files.pythonhosted.org/packages/99/c2/7ee0da0686378f8b568c9c3ea184b1582d3c6d588a285123f38770c3f95b/airbyte-source-shortio-0.2.0.tar.gz
+[2024-05-03 14:32:35] INFO root fetch - processPackages [odfdo]: Downloading https://files.pythonhosted.org/packages/e4/b6/adb5e66f7c070a68270cf1002346e723faef384426dffeb941b166932ee7/odfdo-3.7.8.tar.gz
+[2024-05-03 14:32:35] INFO root fetch - processPackages [cfn-review-bot]: Downloading https://files.pythonhosted.org/packages/cb/eb/0f91be90c8f3e943a997fb8cdfbf42079b3c4822231b5b919d3380811f39/cfn-review-bot-1!20240503.111248.tar.gz
+[2024-05-03 14:32:35] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2024-05-03 14:32:35] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2024-05-03 14:32:35] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2024-05-03 14:32:35] INFO root fetch - processPackages [cfn-review-bot]: executing diffoscope
+[2024-05-03 14:32:35] INFO root fetch - processPackages [cfn-review-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-review-bot-1!20240202.133301.tar.gz tmp/cfn-review-bot-1!20240503.111248.tar.gz --markdown 20240503/c/cfn-review-bot/1!20240202.133301-1!20240503.111248/README.md --exclude *.pyd
+[2024-05-03 14:32:35] INFO root fetch - processPackages [airbyte-source-shortio]: Downloading https://files.pythonhosted.org/packages/eb/89/20bcfb464fd1ff1173b6988fa89aed565cd395006aed76e4a9f1903b20a5/airbyte_source_shortio-0.2.1.tar.gz
+[2024-05-03 14:32:35] INFO root fetch - processPackages [airbyte-source-shortio]: executing diffoscope
+[2024-05-03 14:32:35] INFO root fetch - processPackages [airbyte-source-shortio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-shortio-0.2.0.tar.gz tmp/airbyte_source_shortio-0.2.1.tar.gz --markdown 20240503/a/airbyte-source-shortio/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-03 14:32:35] INFO root fetch - processPackages [odfdo]: Downloading https://files.pythonhosted.org/packages/2f/46/f1c5dbab8a56e805e11ec1b364d0269f82a8f051c111fb37b21eb7f6f5e6/odfdo-3.7.9.tar.gz
+[2024-05-03 14:32:36] INFO root fetch - processPackages [odfdo]: executing diffoscope
+[2024-05-03 14:32:36] INFO root fetch - processPackages [odfdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odfdo-3.7.8.tar.gz tmp/odfdo-3.7.9.tar.gz --markdown 20240503/o/odfdo/3.7.8-3.7.9/README.md --exclude *.pyd
+[2024-05-03 14:32:36] INFO root fetch - processPackages [cfn-review-bot]: Remove: archive file [/home/abi/fetcher/tmp/cfn-review-bot-1!20240202.133301.tar.gz]
+[2024-05-03 14:32:36] INFO root fetch - processPackages [cfn-review-bot]: Remove: archive file [/home/abi/fetcher/tmp/cfn-review-bot-1!20240503.111248.tar.gz]
+[2024-05-03 14:32:36] INFO root fetch - main [MainThread]: End processing [cfn-review-bot]: success
+[2024-05-03 14:32:36] INFO root fetch - processPackages [airbyte-source-shortio]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-shortio-0.2.0.tar.gz]
+[2024-05-03 14:32:36] INFO root fetch - processPackages [airbyte-source-shortio]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shortio-0.2.1.tar.gz]
+[2024-05-03 14:32:36] INFO root fetch - main [MainThread]: End processing [airbyte-source-shortio]: success
+[2024-05-03 14:32:36] INFO root fetch - processPackages [odfdo]: Remove: archive file [/home/abi/fetcher/tmp/odfdo-3.7.8.tar.gz]
+[2024-05-03 14:32:36] INFO root fetch - processPackages [odfdo]: Remove: archive file [/home/abi/fetcher/tmp/odfdo-3.7.9.tar.gz]
+[2024-05-03 14:32:36] INFO root fetch - main [MainThread]: End processing [odfdo]: success
+[2024-05-03 14:32:36] INFO root fetch - main [MainThread]: Store serial: [23045837]
