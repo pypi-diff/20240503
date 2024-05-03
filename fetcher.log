@@ -2964,3 +2964,15 @@
 [2024-05-03 03:02:07] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.8.tar.gz]
 [2024-05-03 03:02:07] INFO root fetch - main [MainThread]: End processing [bitpapa-pay]: success
 [2024-05-03 03:02:07] INFO root fetch - main [MainThread]: Store serial: [23039228]
+[2024-05-03 03:04:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039228]
+[2024-05-03 03:04:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 03:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thor
+[2024-05-03 03:04:15] INFO root fetch - processPackages [thor]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 03:04:15] INFO root fetch - processPackages [thor]: Downloading https://files.pythonhosted.org/packages/6b/43/3808f163005af01c7fa631ef865898b34f6aa29d074d140066ba16c6ae78/thor-0.9.8.tar.gz
+[2024-05-03 03:04:16] INFO root fetch - processPackages [thor]: Downloading https://files.pythonhosted.org/packages/d0/ca/4ed5b622a23dea82284cbe071a76f0c774adfdaa706917444e15f623bb98/thor-0.9.9.tar.gz
+[2024-05-03 03:04:16] INFO root fetch - processPackages [thor]: executing diffoscope
+[2024-05-03 03:04:16] INFO root fetch - processPackages [thor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thor-0.9.8.tar.gz tmp/thor-0.9.9.tar.gz --markdown 20240503/t/thor/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 03:04:16] INFO root fetch - processPackages [thor]: Remove: archive file [/home/abi/fetcher/tmp/thor-0.9.8.tar.gz]
+[2024-05-03 03:04:16] INFO root fetch - processPackages [thor]: Remove: archive file [/home/abi/fetcher/tmp/thor-0.9.9.tar.gz]
+[2024-05-03 03:04:16] INFO root fetch - main [MainThread]: End processing [thor]: success
+[2024-05-03 03:04:16] INFO root fetch - main [MainThread]: Store serial: [23039231]
