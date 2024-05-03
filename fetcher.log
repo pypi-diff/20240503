@@ -10378,3 +10378,41 @@
 [2024-05-03 08:03:39] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-9.1.2.tar.gz]
 [2024-05-03 08:03:39] INFO root fetch - main [MainThread]: End processing [pywikibot]: success
 [2024-05-03 08:03:39] INFO root fetch - main [MainThread]: Store serial: [23041968]
+[2024-05-03 08:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041968]
+[2024-05-03 08:05:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 08:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: juan-stats
+[2024-05-03 08:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zippyform
+[2024-05-03 08:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fazah
+[2024-05-03 08:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rottnest
+[2024-05-03 08:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: picomet
+[2024-05-03 08:05:49] INFO root fetch - processPackages [juan-stats]: New version: [1.1] Old Version: [1.0]
+[2024-05-03 08:05:49] INFO root fetch - processPackages [zippyform]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-03 08:05:49] WARNING root fetch - processPackages [fazah]: Skipping, unable to determine old version
+[2024-05-03 08:05:49] INFO root fetch - main [MainThread]: End processing [fazah] error
+[2024-05-03 08:05:49] INFO root fetch - processPackages [rottnest]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-03 08:05:49] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/3b/82/3d472939ec18b5a5106528f2b45dbc0ecf3870982be1c80e264b77169d03/zippyform-1.4.6-py3-none-any.whl
+[2024-05-03 08:05:49] INFO root fetch - processPackages [picomet]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:05:49] INFO root fetch - processPackages [juan-stats]: Downloading https://files.pythonhosted.org/packages/3e/a9/826e844b5512033a8db220178f7a42410dd50048a0f157be1607ee64d16a/juan-stats-1.0.tar.gz
+[2024-05-03 08:05:49] INFO root fetch - processPackages [rottnest]: Downloading https://files.pythonhosted.org/packages/35/07/8c1507fd52c0ef85ac051f428bca65b88d9cd470c4e8a5b67afd44e450ac/rottnest-1.3.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-03 08:05:49] INFO root fetch - processPackages [picomet]: Downloading https://files.pythonhosted.org/packages/9b/40/51e244f466eef9b5179e2942bff54871f5bf6dcd73a660f4c81d3d2f3cab/picomet-0.0.8.tar.gz
+[2024-05-03 08:05:49] WARNING root fetch - processPackages [rottnest]: Skipping package: exceeds size limit 14674404>=10485760
+[2024-05-03 08:05:49] INFO root fetch - main [MainThread]: End processing [rottnest] error
+[2024-05-03 08:05:49] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/e8/12/6b019e4587db270cad48b4bcb6e4d2f852d0abb1e48ed1008fba0464dcd7/zippyform-1.4.7-py3-none-any.whl
+[2024-05-03 08:05:50] INFO root fetch - processPackages [juan-stats]: Downloading https://files.pythonhosted.org/packages/a9/fe/fe175e83736b7615a77e4222261ee2eef694f12aa45e10c66bd876e6b032/juan_stats-1.1.tar.gz
+[2024-05-03 08:05:50] INFO root fetch - processPackages [zippyform]: executing diffoscope
+[2024-05-03 08:05:50] INFO root fetch - processPackages [zippyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zippyform-1.4.6-py3-none-any.whl.zip tmp/zippyform-1.4.7-py3-none-any.whl.zip --markdown 20240503/z/zippyform/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-03 08:05:50] INFO root fetch - processPackages [juan-stats]: executing diffoscope
+[2024-05-03 08:05:50] INFO root fetch - processPackages [juan-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juan-stats-1.0.tar.gz tmp/juan_stats-1.1.tar.gz --markdown 20240503/j/juan-stats/1.0-1.1/README.md --exclude *.pyd
+[2024-05-03 08:05:50] INFO root fetch - processPackages [picomet]: Downloading https://files.pythonhosted.org/packages/d9/c3/66cc982e5346de096998988667573cfa88816e3f34e68e680883a05e8f87/picomet-0.0.9.tar.gz
+[2024-05-03 08:05:50] INFO root fetch - processPackages [picomet]: executing diffoscope
+[2024-05-03 08:05:50] INFO root fetch - processPackages [picomet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picomet-0.0.8.tar.gz tmp/picomet-0.0.9.tar.gz --markdown 20240503/p/picomet/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:05:50] INFO root fetch - processPackages [juan-stats]: Remove: archive file [/home/abi/fetcher/tmp/juan-stats-1.0.tar.gz]
+[2024-05-03 08:05:50] INFO root fetch - processPackages [juan-stats]: Remove: archive file [/home/abi/fetcher/tmp/juan_stats-1.1.tar.gz]
+[2024-05-03 08:05:50] INFO root fetch - main [MainThread]: End processing [juan-stats]: success
+[2024-05-03 08:05:50] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.6-py3-none-any.whl.zip]
+[2024-05-03 08:05:50] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.7-py3-none-any.whl.zip]
+[2024-05-03 08:05:50] INFO root fetch - main [MainThread]: End processing [zippyform]: success
+[2024-05-03 08:05:51] INFO root fetch - processPackages [picomet]: Remove: archive file [/home/abi/fetcher/tmp/picomet-0.0.8.tar.gz]
+[2024-05-03 08:05:51] INFO root fetch - processPackages [picomet]: Remove: archive file [/home/abi/fetcher/tmp/picomet-0.0.9.tar.gz]
+[2024-05-03 08:05:51] INFO root fetch - main [MainThread]: End processing [picomet]: success
+[2024-05-03 08:05:51] INFO root fetch - main [MainThread]: Store serial: [23041979]
