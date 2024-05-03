@@ -7987,3 +7987,24 @@
 [2024-05-03 04:57:21] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.dev0.tar.gz]
 [2024-05-03 04:57:21] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2024-05-03 04:57:21] INFO root fetch - main [MainThread]: Store serial: [23041065]
+[2024-05-03 04:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041065]
+[2024-05-03 04:59:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdeper
+[2024-05-03 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicai-sdk
+[2024-05-03 04:59:30] INFO root fetch - processPackages [sdeper]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-03 04:59:30] INFO root fetch - processPackages [musicai-sdk]: New version: [0.4.0] Old Version: [0.2.0]
+[2024-05-03 04:59:30] INFO root fetch - processPackages [sdeper]: Downloading https://files.pythonhosted.org/packages/21/02/2079b7db97d9bf99eccd52d9b9df1be7ca9214cb70e7fefffcc123941afe/sdeper-1.2.0.tar.gz
+[2024-05-03 04:59:30] INFO root fetch - processPackages [musicai-sdk]: Downloading https://files.pythonhosted.org/packages/f0/11/1884c5a4ee80513c80761d4c7ab593d582ec26c93e7b3dee0df30a65273a/musicai_sdk-0.2.0.tar.gz
+[2024-05-03 04:59:30] INFO root fetch - processPackages [musicai-sdk]: Downloading https://files.pythonhosted.org/packages/0d/c6/8db2f7af1eda7693b6803a789f3064c7af4d96cfe1d8a2219057fb3c18ed/musicai_sdk-0.4.0.tar.gz
+[2024-05-03 04:59:30] INFO root fetch - processPackages [sdeper]: Downloading https://files.pythonhosted.org/packages/6e/f8/92180aa287e9002d6e43f5a6b19ede605e66b252ac6770c1d76a882208ba/sdeper-1.2.1.tar.gz
+[2024-05-03 04:59:30] INFO root fetch - processPackages [musicai-sdk]: executing diffoscope
+[2024-05-03 04:59:30] INFO root fetch - processPackages [musicai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicai_sdk-0.2.0.tar.gz tmp/musicai_sdk-0.4.0.tar.gz --markdown 20240503/m/musicai-sdk/0.2.0-0.4.0/README.md --exclude *.pyd
+[2024-05-03 04:59:31] INFO root fetch - processPackages [sdeper]: executing diffoscope
+[2024-05-03 04:59:31] INFO root fetch - processPackages [sdeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeper-1.2.0.tar.gz tmp/sdeper-1.2.1.tar.gz --markdown 20240503/s/sdeper/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-03 04:59:31] INFO root fetch - processPackages [musicai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/musicai_sdk-0.2.0.tar.gz]
+[2024-05-03 04:59:31] INFO root fetch - processPackages [musicai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/musicai_sdk-0.4.0.tar.gz]
+[2024-05-03 04:59:31] INFO root fetch - main [MainThread]: End processing [musicai-sdk]: success
+[2024-05-03 04:59:31] INFO root fetch - processPackages [sdeper]: Remove: archive file [/home/abi/fetcher/tmp/sdeper-1.2.0.tar.gz]
+[2024-05-03 04:59:31] INFO root fetch - processPackages [sdeper]: Remove: archive file [/home/abi/fetcher/tmp/sdeper-1.2.1.tar.gz]
+[2024-05-03 04:59:31] INFO root fetch - main [MainThread]: End processing [sdeper]: success
+[2024-05-03 04:59:31] INFO root fetch - main [MainThread]: Store serial: [23041071]
