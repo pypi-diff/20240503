@@ -17038,3 +17038,96 @@
 [2024-05-03 13:10:39] INFO root fetch - processPackages [PDKMaster]: Remove: archive file [/home/abi/fetcher/tmp/PDKMaster-0.9.6.tar.gz]
 [2024-05-03 13:10:39] INFO root fetch - main [MainThread]: End processing [PDKMaster]: success
 [2024-05-03 13:10:39] INFO root fetch - main [MainThread]: Store serial: [23045010]
+[2024-05-03 13:13:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045010]
+[2024-05-03 13:13:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cit-images
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indexnetwork-sdk
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cto-cli
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whisperplus
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-nightly
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pneumonia_model_package
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transstellar
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hello-world-lib
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xtdb
+[2024-05-03 13:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: brianmechanisms
+[2024-05-03 13:13:09] INFO root fetch - processPackages [whisperplus]: New version: [0.2.8] Old Version: [0.2.7.1.dev1]
+[2024-05-03 13:13:09] INFO root fetch - processPackages [brianmechanisms]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 13:13:09] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-03 13:13:09] INFO root fetch - processPackages [indexnetwork-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 13:13:09] WARNING root fetch - processPackages [cit-images]: Skipping, unable to determine old version
+[2024-05-03 13:13:09] INFO root fetch - processPackages [cit-images]: Start processing: couchdb-client
+[2024-05-03 13:13:09] INFO root fetch - main [MainThread]: End processing [cit-images] error
+[2024-05-03 13:13:09] INFO root fetch - processPackages [transstellar]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-03 13:13:09] WARNING root fetch - processPackages [hello-world-lib]: Skipping, unable to determine old version
+[2024-05-03 13:13:09] INFO root fetch - processPackages [hello-world-lib]: Start processing: glue-utils
+[2024-05-03 13:13:09] INFO root fetch - main [MainThread]: End processing [hello-world-lib] error
+[2024-05-03 13:13:09] WARNING root fetch - processPackages [pneumonia_model_package]: Skipping, unable to determine old version
+[2024-05-03 13:13:09] INFO root fetch - main [MainThread]: End processing [pneumonia_model_package] error
+[2024-05-03 13:13:09] INFO root fetch - processPackages [cto-cli]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-03 13:13:09] INFO root fetch - processPackages [xtdb]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-03 13:13:09] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-03 13:13:09] INFO root fetch - processPackages [glue-utils]: New version: [0.2.1rc3] Old Version: [0.2.1rc2]
+[2024-05-03 13:13:09] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/99/92/70cef19fc8c09d714030d32cf4f4e1e2f1daee2ba4fcfef0c4200d95b001/whisperplus-0.2.7.1.dev1.tar.gz
+[2024-05-03 13:13:09] INFO root fetch - processPackages [brianmechanisms]: Downloading https://files.pythonhosted.org/packages/f9/00/0a9d6145508f6256215686863a57c5a2a0284022b667b275b19e607e0595/brianmechanisms-0.1.0.tar.gz
+[2024-05-03 13:13:09] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/7a/d9/ae82f15188d6b01e5c0503eb584a51c00fd0caf2b0aec53a9a01079db267/indexnetwork_sdk-0.0.3.tar.gz
+[2024-05-03 13:13:09] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/8c/9f/05ce487490ba072602952c0e354326f345c345f1e83f9f6544355d981b17/glue_utils-0.2.1rc2.tar.gz
+[2024-05-03 13:13:09] INFO root fetch - processPackages [couchdb-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-03 13:13:09] INFO root fetch - processPackages [cto-cli]: Downloading https://files.pythonhosted.org/packages/e5/a0/6813dc371822b10938bccaced66b5a9a1145d8f039c749178a7a7f35ec4f/cto_cli-0.1.3.tar.gz
+[2024-05-03 13:13:09] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/c3/fb/e1cd7eb7dd2d53bd4620ea77e1e92a5a0c64af69f46d9d0e237dd309e260/transstellar-1.4.0.tar.gz
+[2024-05-03 13:13:09] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/96/4c/7f1c1511eed79e05556a9834ad0752438f73e05435ad709d603d24e6520f/xtdb-0.6.1.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [couchdb-client]: Downloading https://files.pythonhosted.org/packages/ce/fb/74cd7e45458a6b92ba84909d5adab5bf97f196fbee5bb21eb93a81571585/couchdb_client-1.0.1.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/9a/49/42da8dc1dfaa872ba8d15a9a2f7786964130a99fd933dae9f35c17cae8f2/whisperplus-0.2.8.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/82/a4/9f81284db4219081c7ea8d55270d90bd058ae77dc33a16449ad1e2294db4/indexnetwork_sdk-0.0.4.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/01/8c/bba31656ac164b2b8b1f2c405ce7d1160382e88e4f7d8034ab58cd870669/glue_utils-0.2.1rc3.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [brianmechanisms]: Downloading https://files.pythonhosted.org/packages/09/5a/bbea39eb5027b2796cdfdfbd7737d60a46d3c53a36a693f3f5949c0831bc/brianmechanisms-0.1.1.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [whisperplus]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [whisperplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisperplus-0.2.7.1.dev1.tar.gz tmp/whisperplus-0.2.8.tar.gz --markdown 20240503/w/whisperplus/0.2.7.1.dev1-0.2.8/README.md --exclude *.pyd
+[2024-05-03 13:13:10] INFO root fetch - processPackages [cto-cli]: Downloading https://files.pythonhosted.org/packages/ad/a2/a8fe7cbcabbc1b7e02cc96ec41ca253ffbd1a6b20235254148ec66577145/cto_cli-0.2.0.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/eb/86/a59982b7d886c07b35003bfcf7b61271b76d4a81ad367d3941b86210a328/transstellar-1.5.0.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-03 13:13:10] INFO root fetch - processPackages [indexnetwork-sdk]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/db/e0/93743e36a6003ebadb5366040c29b4a61dafb1253d22412ee78fa59d2f26/xtdb-0.6.2.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [indexnetwork-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexnetwork_sdk-0.0.3.tar.gz tmp/indexnetwork_sdk-0.0.4.tar.gz --markdown 20240503/i/indexnetwork-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 13:13:10] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.2.1rc2.tar.gz tmp/glue_utils-0.2.1rc3.tar.gz --markdown 20240503/g/glue-utils/0.2.1rc2-0.2.1rc3/README.md --exclude *.pyd
+[2024-05-03 13:13:10] INFO root fetch - processPackages [brianmechanisms]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [brianmechanisms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brianmechanisms-0.1.0.tar.gz tmp/brianmechanisms-0.1.1.tar.gz --markdown 20240503/b/brianmechanisms/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 13:13:10] INFO root fetch - processPackages [cto-cli]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [cto-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cto_cli-0.1.3.tar.gz tmp/cto_cli-0.2.0.tar.gz --markdown 20240503/c/cto-cli/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-03 13:13:10] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-1.4.0.tar.gz tmp/transstellar-1.5.0.tar.gz --markdown 20240503/t/transstellar/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-03 13:13:10] INFO root fetch - processPackages [xtdb]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [xtdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtdb-0.6.1.tar.gz tmp/xtdb-0.6.2.tar.gz --markdown 20240503/x/xtdb/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-03 13:13:10] INFO root fetch - processPackages [couchdb-client]: Downloading https://files.pythonhosted.org/packages/79/be/047c7d3e79b28490458cbb7c3e24fe68265cfa80d604d07dd15f6ea22068/couchdb_client-1.0.2.tar.gz
+[2024-05-03 13:13:10] INFO root fetch - processPackages [couchdb-client]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [couchdb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchdb_client-1.0.1.tar.gz tmp/couchdb_client-1.0.2.tar.gz --markdown 20240503/c/couchdb-client/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-03 13:13:10] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-03 13:13:10] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240503/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-03 13:13:11] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.1rc2.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.1rc3.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-03 13:13:11] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.3.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.4.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - main [MainThread]: End processing [indexnetwork-sdk]: success
+[2024-05-03 13:13:11] INFO root fetch - processPackages [brianmechanisms]: Remove: archive file [/home/abi/fetcher/tmp/brianmechanisms-0.1.0.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - processPackages [brianmechanisms]: Remove: archive file [/home/abi/fetcher/tmp/brianmechanisms-0.1.1.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - main [MainThread]: End processing [brianmechanisms]: success
+[2024-05-03 13:13:11] INFO root fetch - processPackages [cto-cli]: Remove: archive file [/home/abi/fetcher/tmp/cto_cli-0.1.3.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - processPackages [cto-cli]: Remove: archive file [/home/abi/fetcher/tmp/cto_cli-0.2.0.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - main [MainThread]: End processing [cto-cli]: success
+[2024-05-03 13:13:11] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.7.1.dev1.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.8.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - main [MainThread]: End processing [whisperplus]: success
+[2024-05-03 13:13:11] INFO root fetch - processPackages [couchdb-client]: Remove: archive file [/home/abi/fetcher/tmp/couchdb_client-1.0.1.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - processPackages [couchdb-client]: Remove: archive file [/home/abi/fetcher/tmp/couchdb_client-1.0.2.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - main [MainThread]: End processing [couchdb-client]: success
+[2024-05-03 13:13:11] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-1.4.0.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-1.5.0.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-03 13:13:11] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.6.1.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.6.2.tar.gz]
+[2024-05-03 13:13:11] INFO root fetch - main [MainThread]: End processing [xtdb]: success
+[2024-05-03 13:13:12] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-03 13:13:12] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-03 13:13:12] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-03 13:13:12] INFO root fetch - main [MainThread]: Store serial: [23045049]
