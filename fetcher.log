@@ -15229,3 +15229,56 @@
 [2024-05-03 11:37:49] INFO root fetch - processPackages [ebdamame]: Remove: archive file [/home/abi/fetcher/tmp/ebdamame-0.1.2.tar.gz]
 [2024-05-03 11:37:49] INFO root fetch - main [MainThread]: End processing [ebdamame]: success
 [2024-05-03 11:37:49] INFO root fetch - main [MainThread]: Store serial: [23043955]
+[2024-05-03 11:40:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043955]
+[2024-05-03 11:40:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 11:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beetl
+[2024-05-03 11:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coderfastapi
+[2024-05-03 11:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlaywrightCapture
+[2024-05-03 11:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blueetl
+[2024-05-03 11:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-stock-account-tracking
+[2024-05-03 11:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsrm
+[2024-05-03 11:40:18] INFO root fetch - processPackages [PlaywrightCapture]: New version: [1.24.7] Old Version: [1.24.6]
+[2024-05-03 11:40:18] INFO root fetch - processPackages [beetl]: New version: [0.4.3] Old Version: [0.4.1]
+[2024-05-03 11:40:18] INFO root fetch - processPackages [PlaywrightCapture]: Downloading https://files.pythonhosted.org/packages/62/eb/eeae14b9405645e6d691db258031bc18e700aabf221e43dfdf163b9601d1/playwrightcapture-1.24.6.tar.gz
+[2024-05-03 11:40:18] INFO root fetch - processPackages [blueetl]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 11:40:18] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/5a/9f/e6674115892f2a4c1ef7a117f589fbb17fc0da3ab8c40d65116742ba7a2b/beetl-0.4.1.tar.gz
+[2024-05-03 11:40:18] INFO root fetch - processPackages [jsrm]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-03 11:40:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: New version: [16.0.1.25.0] Old Version: [16.0.1.24.0]
+[2024-05-03 11:40:18] INFO root fetch - processPackages [coderfastapi]: New version: [5.0.0] Old Version: [4.2.2]
+[2024-05-03 11:40:18] INFO root fetch - processPackages [blueetl]: Downloading https://files.pythonhosted.org/packages/bc/3b/09eb2c90d9d15b3c3810e271f3b8dfc4315a9acf9f8f282b314af20d5c86/blueetl-0.9.0.tar.gz
+[2024-05-03 11:40:18] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/27/b8/de96f9ec495253addcf900c0f3d7be8cf740332a1300811325e871275838/coderfastapi-4.2.2.tar.gz
+[2024-05-03 11:40:18] INFO root fetch - processPackages [jsrm]: Downloading https://files.pythonhosted.org/packages/82/fb/c841f90ed48211041c540a44527cc26f5e8e0d49b6701a3852205f48ac1d/jsrm-0.0.6.tar.gz
+[2024-05-03 11:40:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Downloading https://files.pythonhosted.org/packages/c2/31/59fa7f507f371d59f17db7505864a5c6fce55781f46d0b37a9aa7e8ad33c/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.24.0-py3-none-any.whl
+[2024-05-03 11:40:18] INFO root fetch - processPackages [PlaywrightCapture]: Downloading https://files.pythonhosted.org/packages/63/90/47000a0271f7409cfe5dbf803e3a1d6d31b0918cc0394d33abe0e0b511f4/playwrightcapture-1.24.7.tar.gz
+[2024-05-03 11:40:18] WARNING root fetch - processPackages [blueetl]: Skipping package: exceeds size limit 10638493>=10485760
+[2024-05-03 11:40:18] INFO root fetch - main [MainThread]: End processing [blueetl] error
+[2024-05-03 11:40:18] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/04/10/3c7572796fed88f363009296c02924fbc2fb323a7be41c6f00210c01ecc3/beetl-0.4.3.tar.gz
+[2024-05-03 11:40:18] INFO root fetch - processPackages [PlaywrightCapture]: executing diffoscope
+[2024-05-03 11:40:18] INFO root fetch - processPackages [PlaywrightCapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.24.6.tar.gz tmp/playwrightcapture-1.24.7.tar.gz --markdown 20240503/P/PlaywrightCapture/1.24.6-1.24.7/README.md --exclude *.pyd
+[2024-05-03 11:40:18] INFO root fetch - processPackages [beetl]: executing diffoscope
+[2024-05-03 11:40:18] INFO root fetch - processPackages [beetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetl-0.4.1.tar.gz tmp/beetl-0.4.3.tar.gz --markdown 20240503/b/beetl/0.4.1-0.4.3/README.md --exclude *.pyd
+[2024-05-03 11:40:19] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/69/b6/1f103ee507c151f1f640b1ea7d07e5fa8651b201c28e2e4087285a4aaa51/coderfastapi-5.0.0.tar.gz
+[2024-05-03 11:40:19] INFO root fetch - processPackages [jsrm]: Downloading https://files.pythonhosted.org/packages/6f/91/bdfe7a93ba5f3274411be6d4c963f643c918b28e0296348c5bb7efd92db4/jsrm-0.0.7.tar.gz
+[2024-05-03 11:40:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Downloading https://files.pythonhosted.org/packages/30/56/b1144887def15fc6adb89c28e6e656b230ed4a350d5276975a854ccd5e79/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.25.0-py3-none-any.whl
+[2024-05-03 11:40:19] INFO root fetch - processPackages [coderfastapi]: executing diffoscope
+[2024-05-03 11:40:19] INFO root fetch - processPackages [coderfastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderfastapi-4.2.2.tar.gz tmp/coderfastapi-5.0.0.tar.gz --markdown 20240503/c/coderfastapi/4.2.2-5.0.0/README.md --exclude *.pyd
+[2024-05-03 11:40:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: executing diffoscope
+[2024-05-03 11:40:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.24.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.25.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-ro-stock-account-tracking/16.0.1.24.0-16.0.1.25.0/README.md --exclude *.pyd
+[2024-05-03 11:40:19] INFO root fetch - processPackages [jsrm]: executing diffoscope
+[2024-05-03 11:40:19] INFO root fetch - processPackages [jsrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsrm-0.0.6.tar.gz tmp/jsrm-0.0.7.tar.gz --markdown 20240503/j/jsrm/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-03 11:40:19] INFO root fetch - processPackages [PlaywrightCapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.24.6.tar.gz]
+[2024-05-03 11:40:19] INFO root fetch - processPackages [PlaywrightCapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.24.7.tar.gz]
+[2024-05-03 11:40:19] INFO root fetch - main [MainThread]: End processing [PlaywrightCapture]: success
+[2024-05-03 11:40:19] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.1.tar.gz]
+[2024-05-03 11:40:19] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.3.tar.gz]
+[2024-05-03 11:40:19] INFO root fetch - main [MainThread]: End processing [beetl]: success
+[2024-05-03 11:40:19] INFO root fetch - processPackages [coderfastapi]: Remove: archive file [/home/abi/fetcher/tmp/coderfastapi-4.2.2.tar.gz]
+[2024-05-03 11:40:19] INFO root fetch - processPackages [coderfastapi]: Remove: archive file [/home/abi/fetcher/tmp/coderfastapi-5.0.0.tar.gz]
+[2024-05-03 11:40:19] INFO root fetch - main [MainThread]: End processing [coderfastapi]: success
+[2024-05-03 11:40:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.24.0-py3-none-any.whl.zip]
+[2024-05-03 11:40:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.25.0-py3-none-any.whl.zip]
+[2024-05-03 11:40:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-tracking]: success
+[2024-05-03 11:40:20] INFO root fetch - processPackages [jsrm]: Remove: archive file [/home/abi/fetcher/tmp/jsrm-0.0.6.tar.gz]
+[2024-05-03 11:40:20] INFO root fetch - processPackages [jsrm]: Remove: archive file [/home/abi/fetcher/tmp/jsrm-0.0.7.tar.gz]
+[2024-05-03 11:40:20] INFO root fetch - main [MainThread]: End processing [jsrm]: success
+[2024-05-03 11:40:20] INFO root fetch - main [MainThread]: Store serial: [23044019]
