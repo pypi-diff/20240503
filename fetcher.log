@@ -2011,3 +2011,33 @@
 [2024-05-03 02:08:29] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240502.tar.gz]
 [2024-05-03 02:08:29] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
 [2024-05-03 02:08:29] INFO root fetch - main [MainThread]: Store serial: [23038886]
+[2024-05-03 02:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038886]
+[2024-05-03 02:10:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 02:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathologyfoundation
+[2024-05-03 02:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-common
+[2024-05-03 02:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbb-nightly
+[2024-05-03 02:10:37] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202405020009] Old Version: [4.1.7.dev202405010010]
+[2024-05-03 02:10:37] INFO root fetch - processPackages [pathologyfoundation]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-03 02:10:37] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/bc/e1/d9e7c52442926a1c41595ca8b6460f6a1e3c8e8227ad3f3f42ba52331c0f/openbb_nightly-4.1.7.dev202405010010.tar.gz
+[2024-05-03 02:10:37] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-03 02:10:37] INFO root fetch - processPackages [pathologyfoundation]: Downloading https://files.pythonhosted.org/packages/ec/ca/5052abf156155af8441779f8eca2279d49887587c8c09299997f360385e5/pathologyfoundation-0.2.2.tar.gz
+[2024-05-03 02:10:37] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-03 02:10:37] INFO root fetch - processPackages [pathologyfoundation]: Downloading https://files.pythonhosted.org/packages/40/d2/9786da4d7a51b32963f0df903983e68261e969c63be82ec1d4b96379ceee/pathologyfoundation-0.2.3.tar.gz
+[2024-05-03 02:10:38] INFO root fetch - processPackages [pathologyfoundation]: executing diffoscope
+[2024-05-03 02:10:38] INFO root fetch - processPackages [pathologyfoundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathologyfoundation-0.2.2.tar.gz tmp/pathologyfoundation-0.2.3.tar.gz --markdown 20240503/p/pathologyfoundation/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-03 02:10:38] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/82/fc/b4e514ccfae6e2f82e6293f793fdbb8656dc041c0bc534d0226622b5a55e/openbb_nightly-4.1.7.dev202405020009.tar.gz
+[2024-05-03 02:10:38] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-03 02:10:38] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-05-03 02:10:38] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202405010010.tar.gz tmp/openbb_nightly-4.1.7.dev202405020009.tar.gz --markdown 20240503/o/openbb-nightly/4.1.7.dev202405010010-4.1.7.dev202405020009/README.md --exclude *.pyd
+[2024-05-03 02:10:38] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-03 02:10:38] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240503/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-03 02:10:38] INFO root fetch - processPackages [pathologyfoundation]: Remove: archive file [/home/abi/fetcher/tmp/pathologyfoundation-0.2.2.tar.gz]
+[2024-05-03 02:10:38] INFO root fetch - processPackages [pathologyfoundation]: Remove: archive file [/home/abi/fetcher/tmp/pathologyfoundation-0.2.3.tar.gz]
+[2024-05-03 02:10:38] INFO root fetch - main [MainThread]: End processing [pathologyfoundation]: success
+[2024-05-03 02:10:39] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-03 02:10:39] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-03 02:10:39] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-03 02:10:41] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405010010.tar.gz]
+[2024-05-03 02:10:41] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405020009.tar.gz]
+[2024-05-03 02:10:41] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-05-03 02:10:41] INFO root fetch - main [MainThread]: Store serial: [23038896]
