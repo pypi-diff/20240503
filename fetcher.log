@@ -19900,3 +19900,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:19:37] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9a0.tar.gz]
 [2024-05-03 15:19:37] INFO root fetch - main [MainThread]: End processing [ETS-CookBook]: success
 [2024-05-03 15:19:37] INFO root fetch - main [MainThread]: Store serial: [23046352]
+[2024-05-03 15:22:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046352]
+[2024-05-03 15:22:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 15:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: local-rag-llm
+[2024-05-03 15:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d3vis-ipynb
+[2024-05-03 15:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parameter-sweep
+[2024-05-03 15:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipeline-ai
+[2024-05-03 15:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mptradelib
+[2024-05-03 15:22:08] INFO root fetch - processPackages [d3vis-ipynb]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 15:22:08] INFO root fetch - processPackages [mptradelib]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-03 15:22:08] INFO root fetch - processPackages [pipeline-ai]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-05-03 15:22:08] INFO root fetch - processPackages [parameter-sweep]: New version: [0.1.dev1] Old Version: [0.1.dev0]
+[2024-05-03 15:22:08] INFO root fetch - processPackages [local-rag-llm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 15:22:08] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/fa/d9/8e6659335c74ceee732d3bec9728277cd620fbbe2c2d9f7736355453731b/d3vis_ipynb-0.1.4.tar.gz
+[2024-05-03 15:22:08] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/95/dd/c088aa022f82d36754f501f02be77748ea7e4e74803e0c415b997e68a6d4/mptradelib-0.3.1.tar.gz
+[2024-05-03 15:22:08] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/ba/89/50813dc240222d72cd69806c72e75e9b16e02bd3dc78f6a6e582c627ebca/pipeline_ai-2.1.7.tar.gz
+[2024-05-03 15:22:09] INFO root fetch - processPackages [parameter-sweep]: Downloading https://files.pythonhosted.org/packages/76/1e/d976d97ed09bf64f8f4bbbaf810de7a8efd7155f2f1b538976d6485f11f0/parameter_sweep-0.1.dev0.tar.gz
+[2024-05-03 15:22:09] INFO root fetch - processPackages [local-rag-llm]: Downloading https://files.pythonhosted.org/packages/47/e5/e681fffe7011785fd7a7b6d47c68c5ed670e65e570a1209d5629101b9abf/local_rag_llm-0.0.8.tar.gz
+[2024-05-03 15:22:09] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/9c/93/f9f64e83ce241654980ffe57ef37a67b4d3be2ad9c0e8c4fe54044c200f1/d3vis_ipynb-0.1.5.tar.gz
+[2024-05-03 15:22:09] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/47/b7/45ba889178a4e0881dcd11338b82dd658bf8076a6e02ae1c94916da26abb/mptradelib-0.3.2.tar.gz
+[2024-05-03 15:22:09] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/44/97/ed6fea922c7436f09eff846a2469d158940e30fefe4968be6473b7f28fb4/pipeline_ai-2.1.8.tar.gz
+[2024-05-03 15:22:09] INFO root fetch - processPackages [d3vis-ipynb]: executing diffoscope
+[2024-05-03 15:22:09] INFO root fetch - processPackages [d3vis-ipynb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3vis_ipynb-0.1.4.tar.gz tmp/d3vis_ipynb-0.1.5.tar.gz --markdown 20240503/d/d3vis-ipynb/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 15:22:09] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-05-03 15:22:09] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.3.1.tar.gz tmp/mptradelib-0.3.2.tar.gz --markdown 20240503/m/mptradelib/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-03 15:22:09] INFO root fetch - processPackages [local-rag-llm]: Downloading https://files.pythonhosted.org/packages/50/eb/1c59a18537e299c44773c4b799d52b69bc745cf7d7b224e6fe5d71e2ab1c/local_rag_llm-0.0.9.tar.gz
+[2024-05-03 15:22:09] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2024-05-03 15:22:09] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-2.1.7.tar.gz tmp/pipeline_ai-2.1.8.tar.gz --markdown 20240503/p/pipeline-ai/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-05-03 15:22:09] INFO root fetch - processPackages [parameter-sweep]: Downloading https://files.pythonhosted.org/packages/e5/2b/54779153179766ee7e47d2453a5a43b21bbedf54ad5a53ee73042ac87604/parameter_sweep-0.1.dev1.tar.gz
+[2024-05-03 15:22:09] INFO root fetch - processPackages [local-rag-llm]: executing diffoscope
+[2024-05-03 15:22:09] INFO root fetch - processPackages [local-rag-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_rag_llm-0.0.8.tar.gz tmp/local_rag_llm-0.0.9.tar.gz --markdown 20240503/l/local-rag-llm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 15:22:09] INFO root fetch - processPackages [parameter-sweep]: executing diffoscope
+[2024-05-03 15:22:09] INFO root fetch - processPackages [parameter-sweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parameter_sweep-0.1.dev0.tar.gz tmp/parameter_sweep-0.1.dev1.tar.gz --markdown 20240503/p/parameter-sweep/0.1.dev0-0.1.dev1/README.md --exclude *.pyd
+[2024-05-03 15:22:10] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.1.tar.gz]
+[2024-05-03 15:22:10] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.2.tar.gz]
+[2024-05-03 15:22:10] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-05-03 15:22:10] INFO root fetch - processPackages [local-rag-llm]: Remove: archive file [/home/abi/fetcher/tmp/local_rag_llm-0.0.8.tar.gz]
+[2024-05-03 15:22:10] INFO root fetch - processPackages [local-rag-llm]: Remove: archive file [/home/abi/fetcher/tmp/local_rag_llm-0.0.9.tar.gz]
+[2024-05-03 15:22:10] INFO root fetch - main [MainThread]: End processing [local-rag-llm]: success
+[2024-05-03 15:22:10] INFO root fetch - processPackages [parameter-sweep]: Remove: archive file [/home/abi/fetcher/tmp/parameter_sweep-0.1.dev0.tar.gz]
+[2024-05-03 15:22:10] INFO root fetch - processPackages [parameter-sweep]: Remove: archive file [/home/abi/fetcher/tmp/parameter_sweep-0.1.dev1.tar.gz]
+[2024-05-03 15:22:10] INFO root fetch - main [MainThread]: End processing [parameter-sweep]: success
+[2024-05-03 15:22:10] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.7.tar.gz]
+[2024-05-03 15:22:10] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.8.tar.gz]
+[2024-05-03 15:22:10] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2024-05-03 15:22:11] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.1.4.tar.gz]
+[2024-05-03 15:22:11] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.1.5.tar.gz]
+[2024-05-03 15:22:11] INFO root fetch - main [MainThread]: End processing [d3vis-ipynb]: success
+[2024-05-03 15:22:11] INFO root fetch - main [MainThread]: Store serial: [23046374]
