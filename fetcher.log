@@ -14636,3 +14636,42 @@
 [2024-05-03 11:07:04] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-03 11:07:04] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-03 11:07:04] INFO root fetch - main [MainThread]: Store serial: [23043688]
+[2024-05-03 11:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043688]
+[2024-05-03 11:09:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 11:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-available-to-promise-release-block
+[2024-05-03 11:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qrkey
+[2024-05-03 11:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commits2pdf
+[2024-05-03 11:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labelle
+[2024-05-03 11:09:18] INFO root fetch - processPackages [qrkey]: New version: [0.5.1] Old Version: [0.4.4]
+[2024-05-03 11:09:18] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.2]
+[2024-05-03 11:09:18] INFO root fetch - processPackages [commits2pdf]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-03 11:09:18] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/9e/0d/4961da70cf56a4da4e03eeb4832c758842c38debfdb90cdb8bc3ec2e2a3e/qrkey-0.4.4.tar.gz
+[2024-05-03 11:09:18] INFO root fetch - processPackages [labelle]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-03 11:09:18] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/ef/1c/55c500e7c22bcc4664d5fb44dad59f1a5a2e616962c86f25bad73b7c5443/commits2pdf-1.1.8.tar.gz
+[2024-05-03 11:09:18] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Downloading https://files.pythonhosted.org/packages/79/df/f45d995622f119ed3f21da3d4d846440c445f19bc7b19141ef71c1e70853/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-03 11:09:18] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/5f/44/0731ba05a6961252355314fd2a0083730736c8c4a7484953b8b9b9f1c19e/commits2pdf-1.1.9.tar.gz
+[2024-05-03 11:09:18] INFO root fetch - processPackages [labelle]: Downloading https://files.pythonhosted.org/packages/47/bf/f9311bd152488d97379dfc3633e653c115e28d27721181b19b20b1526764/labelle-1.2.1.tar.gz
+[2024-05-03 11:09:18] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Downloading https://files.pythonhosted.org/packages/3e/25/5fa0f434962ff090fe8c92866af1c35fd764cfa05ae9164b7b761d57fe5c/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.1-py3-none-any.whl
+[2024-05-03 11:09:18] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/e1/25/6e050e4ebc4b5357bf32e52ea6a41a5aa1bd70d44e3c5b6ae495c4d088e6/qrkey-0.5.1.tar.gz
+[2024-05-03 11:09:18] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: executing diffoscope
+[2024-05-03 11:09:18] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-stock-available-to-promise-release-block/16.0.1.1.0.2-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-03 11:09:18] INFO root fetch - processPackages [commits2pdf]: executing diffoscope
+[2024-05-03 11:09:18] INFO root fetch - processPackages [commits2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commits2pdf-1.1.8.tar.gz tmp/commits2pdf-1.1.9.tar.gz --markdown 20240503/c/commits2pdf/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-03 11:09:19] INFO root fetch - processPackages [qrkey]: executing diffoscope
+[2024-05-03 11:09:19] INFO root fetch - processPackages [qrkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrkey-0.4.4.tar.gz tmp/qrkey-0.5.1.tar.gz --markdown 20240503/q/qrkey/0.4.4-0.5.1/README.md --exclude *.pyd
+[2024-05-03 11:09:19] INFO root fetch - processPackages [labelle]: Downloading https://files.pythonhosted.org/packages/ae/97/b2f02f2d75c4b673e7878f32a4db20868e2391cea94e564c281f257ac55a/labelle-1.2.2.tar.gz
+[2024-05-03 11:09:19] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-03 11:09:19] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-03 11:09:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release-block]: success
+[2024-05-03 11:09:19] INFO root fetch - processPackages [labelle]: executing diffoscope
+[2024-05-03 11:09:19] INFO root fetch - processPackages [labelle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelle-1.2.1.tar.gz tmp/labelle-1.2.2.tar.gz --markdown 20240503/l/labelle/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-03 11:09:19] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.8.tar.gz]
+[2024-05-03 11:09:19] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.9.tar.gz]
+[2024-05-03 11:09:19] INFO root fetch - main [MainThread]: End processing [commits2pdf]: success
+[2024-05-03 11:09:19] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.4.4.tar.gz]
+[2024-05-03 11:09:19] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.5.1.tar.gz]
+[2024-05-03 11:09:19] INFO root fetch - main [MainThread]: End processing [qrkey]: success
+[2024-05-03 11:09:20] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.2.1.tar.gz]
+[2024-05-03 11:09:20] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.2.2.tar.gz]
+[2024-05-03 11:09:20] INFO root fetch - main [MainThread]: End processing [labelle]: success
+[2024-05-03 11:09:20] INFO root fetch - main [MainThread]: Store serial: [23043701]
