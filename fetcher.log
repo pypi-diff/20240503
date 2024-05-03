@@ -8689,3 +8689,42 @@
 [2024-05-03 05:54:58] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.7.tar.gz]
 [2024-05-03 05:54:58] INFO root fetch - main [MainThread]: End processing [dolbaram]: success
 [2024-05-03 05:54:58] INFO root fetch - main [MainThread]: Store serial: [23041312]
+[2024-05-03 05:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041312]
+[2024-05-03 05:57:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 05:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskara
+[2024-05-03 05:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-iot-template-oca
+[2024-05-03 05:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crewai
+[2024-05-03 05:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-05-03 05:57:07] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 05:57:07] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-03 05:57:07] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-03 05:57:07] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-03 05:57:07] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-05-03 05:57:07] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-03 05:57:07] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-05-03 05:57:07] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/31/41/ea29b8628d72d495d019ab1a39113d66da56c2fe607c6771648c3716c07b/odoo_addon_iot_template_oca-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 05:57:07] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-05-03 05:57:07] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-03 05:57:07] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-05-03 05:57:07] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/ad/fe/fd6f803b441cd87184c70cbe54d9f54e6dcb44973f329364559c16229427/odoo_addon_iot_template_oca-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-03 05:57:07] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-03 05:57:07] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240503/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 05:57:07] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-03 05:57:07] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240503/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-03 05:57:07] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-05-03 05:57:07] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240503/c/crewai/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-03 05:57:07] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: executing diffoscope
+[2024-05-03 05:57:07] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_template_oca-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_iot_template_oca-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-iot-template-oca/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-03 05:57:08] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-05-03 05:57:08] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-05-03 05:57:08] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-03 05:57:08] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-05-03 05:57:08] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-05-03 05:57:08] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-05-03 05:57:08] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_template_oca-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 05:57:08] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_template_oca-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-03 05:57:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-template-oca]: success
+[2024-05-03 05:57:08] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-03 05:57:08] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-03 05:57:08] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-03 05:57:08] INFO root fetch - main [MainThread]: Store serial: [23041323]
