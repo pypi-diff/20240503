@@ -12420,3 +12420,42 @@
 [2024-05-03 09:45:37] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8934901680.tar.gz]
 [2024-05-03 09:45:37] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
 [2024-05-03 09:45:37] INFO root fetch - main [MainThread]: Store serial: [23042811]
+[2024-05-03 09:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042811]
+[2024-05-03 09:47:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 09:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services
+[2024-05-03 09:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luminesce-sdk-preview
+[2024-05-03 09:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cj-package
+[2024-05-03 09:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-global-search
+[2024-05-03 09:47:47] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 09:47:47] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8935749405] Old Version: [2.0.0.dev8934901680]
+[2024-05-03 09:47:47] INFO root fetch - processPackages [oarepo-global-search]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-03 09:47:47] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-03 09:47:47] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-03 09:47:47] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/00/40/911002c9044a9a9ab05e4139a926d572fef1ec92cc70519d84a107b807ae/th2_data_services-2.0.0.dev8934901680.tar.gz
+[2024-05-03 09:47:47] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-03 09:47:47] INFO root fetch - processPackages [oarepo-global-search]: Downloading https://files.pythonhosted.org/packages/89/04/07b4ec202a1c3a25aa922f64c8494f9349949a6eece840bc70fd7900117f/oarepo_global_search-1.0.4.tar.gz
+[2024-05-03 09:47:47] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-03 09:47:47] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-03 09:47:47] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240503/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 09:47:48] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/eb/a9/ff4531d2b68aa96037e7ce244c26a2e3f51d83beb789c97772ac84313fcc/th2_data_services-2.0.0.dev8935749405.tar.gz
+[2024-05-03 09:47:48] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-03 09:47:48] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8934901680.tar.gz tmp/th2_data_services-2.0.0.dev8935749405.tar.gz --markdown 20240503/t/th2-data-services/2.0.0.dev8934901680-2.0.0.dev8935749405/README.md --exclude *.pyd
+[2024-05-03 09:47:48] INFO root fetch - processPackages [oarepo-global-search]: Downloading https://files.pythonhosted.org/packages/a2/30/049650f4443b7020bb6f81c5163d9d676b3ca97628266421e512bf5a7141/oarepo_global_search-1.0.5.tar.gz
+[2024-05-03 09:47:48] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-03 09:47:48] INFO root fetch - processPackages [oarepo-global-search]: executing diffoscope
+[2024-05-03 09:47:48] INFO root fetch - processPackages [oarepo-global-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo_global_search-1.0.4.tar.gz tmp/oarepo_global_search-1.0.5.tar.gz --markdown 20240503/o/oarepo-global-search/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-03 09:47:48] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-03 09:47:48] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240503/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-03 09:47:48] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-03 09:47:48] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-03 09:47:48] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-03 09:47:48] INFO root fetch - processPackages [oarepo-global-search]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_global_search-1.0.4.tar.gz]
+[2024-05-03 09:47:48] INFO root fetch - processPackages [oarepo-global-search]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_global_search-1.0.5.tar.gz]
+[2024-05-03 09:47:48] INFO root fetch - main [MainThread]: End processing [oarepo-global-search]: success
+[2024-05-03 09:47:48] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8934901680.tar.gz]
+[2024-05-03 09:47:48] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8935749405.tar.gz]
+[2024-05-03 09:47:48] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-03 09:47:49] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-03 09:47:49] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-03 09:47:49] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-03 09:47:49] INFO root fetch - main [MainThread]: Store serial: [23042822]
