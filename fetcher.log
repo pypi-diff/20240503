@@ -15748,3 +15748,17 @@
 [2024-05-03 12:08:16] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050209.tar.gz]
 [2024-05-03 12:08:16] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-03 12:08:16] INFO root fetch - main [MainThread]: Store serial: [23044271]
+[2024-05-03 12:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044271]
+[2024-05-03 12:10:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: romepy
+[2024-05-03 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numerous
+[2024-05-03 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roybasiccalculator
+[2024-05-03 12:10:47] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 12:10:47] WARNING root fetch - processPackages [roybasiccalculator]: Skipping, unable to determine old version
+[2024-05-03 12:10:47] INFO root fetch - main [MainThread]: End processing [roybasiccalculator] error
+[2024-05-03 12:10:47] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-05-03 12:10:47] WARNING root fetch - processPackages [romepy]: Skipping, unable to determine old version
+[2024-05-03 12:10:47] INFO root fetch - main [MainThread]: End processing [romepy] error
+[2024-05-03 12:10:47] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-05-03 12:10:47] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-05-03 12:10:47] INFO root fetch - main [MainThread]: Store serial: [23044284]
