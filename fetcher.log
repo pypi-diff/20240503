@@ -10066,3 +10066,45 @@
 [2024-05-03 07:41:50] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.3.12.tar.gz]
 [2024-05-03 07:41:50] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
 [2024-05-03 07:41:50] INFO root fetch - main [MainThread]: Store serial: [23041867]
+[2024-05-03 07:43:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041867]
+[2024-05-03 07:43:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: juan-stats
+[2024-05-03 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-sale-workflow
+[2024-05-03 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkscreener
+[2024-05-03 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbterd
+[2024-05-03 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: siepic-ebeam-pdk
+[2024-05-03 07:43:59] WARNING root fetch - processPackages [juan-stats]: Skipping, unable to determine old version
+[2024-05-03 07:43:59] INFO root fetch - main [MainThread]: End processing [juan-stats] error
+[2024-05-03 07:43:59] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240502.318] Old Version: [0.44.20240502.317]
+[2024-05-03 07:43:59] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20240213.0] Old Version: [16.0.20240208.0]
+[2024-05-03 07:43:59] INFO root fetch - processPackages [dbterd]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-03 07:43:59] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/94/93/601f3b034188b286a6f70547ae40ac1db3bd17a2d74e88c93758a67bd910/odoo_addons_oca_sale_workflow-16.0.20240208.0-py3-none-any.whl
+[2024-05-03 07:43:59] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/0f/d9/4f2d124dbaec7bf69abe9556a24bbab5a7f3ea63fbb8224ea619edd34edf/pkscreener-0.44.20240502.317.tar.gz
+[2024-05-03 07:43:59] INFO root fetch - processPackages [siepic-ebeam-pdk]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-03 07:43:59] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/de/42/62fe02c70b3c71a3f2602e9100aaa747def8778927b35b54fc88697e317b/dbterd-1.9.1.tar.gz
+[2024-05-03 07:43:59] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/e6/9d/df5e0ce3613ec4510ce7cc5e8bcca93c415b973b0fdca158d2ea701d2a3c/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl
+[2024-05-03 07:43:59] INFO root fetch - processPackages [siepic-ebeam-pdk]: Downloading https://files.pythonhosted.org/packages/b6/15/20d7631a4a51d3123bc0ee8a8436b4bab5dba3f7d0f2710620955129a489/siepic_ebeam_pdk-0.4.7.tar.gz
+[2024-05-03 07:43:59] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2024-05-03 07:43:59] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20240208.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-sale-workflow/16.0.20240208.0-16.0.20240213.0/README.md --exclude *.pyd
+[2024-05-03 07:43:59] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/f2/14/440296ad13a45683b27400eb8cf50c2900a5918639df319533411c6a351a/pkscreener-0.44.20240502.318.tar.gz
+[2024-05-03 07:43:59] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/de/a1/1803e6626e3cfd81f8ac80737ecc470b21ccc2f8680243f6a2a96940abde/dbterd-1.9.2.tar.gz
+[2024-05-03 07:44:00] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-03 07:44:00] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240502.317.tar.gz tmp/pkscreener-0.44.20240502.318.tar.gz --markdown 20240503/p/pkscreener/0.44.20240502.317-0.44.20240502.318/README.md --exclude *.pyd
+[2024-05-03 07:44:00] INFO root fetch - processPackages [dbterd]: executing diffoscope
+[2024-05-03 07:44:00] INFO root fetch - processPackages [dbterd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbterd-1.9.1.tar.gz tmp/dbterd-1.9.2.tar.gz --markdown 20240503/d/dbterd/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-03 07:44:00] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240208.0-py3-none-any.whl.zip]
+[2024-05-03 07:44:00] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip]
+[2024-05-03 07:44:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2024-05-03 07:44:00] INFO root fetch - processPackages [dbterd]: Remove: archive file [/home/abi/fetcher/tmp/dbterd-1.9.1.tar.gz]
+[2024-05-03 07:44:00] INFO root fetch - processPackages [dbterd]: Remove: archive file [/home/abi/fetcher/tmp/dbterd-1.9.2.tar.gz]
+[2024-05-03 07:44:00] INFO root fetch - main [MainThread]: End processing [dbterd]: success
+[2024-05-03 07:44:00] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240502.317.tar.gz]
+[2024-05-03 07:44:00] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240502.318.tar.gz]
+[2024-05-03 07:44:00] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-03 07:44:01] INFO root fetch - processPackages [siepic-ebeam-pdk]: Downloading https://files.pythonhosted.org/packages/a7/86/3ed6d5d403be29b3535bcc49c992d678260df249c89d792847baa38a66c5/siepic_ebeam_pdk-0.4.8.tar.gz
+[2024-05-03 07:44:01] INFO root fetch - processPackages [siepic-ebeam-pdk]: executing diffoscope
+[2024-05-03 07:44:01] INFO root fetch - processPackages [siepic-ebeam-pdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siepic_ebeam_pdk-0.4.7.tar.gz tmp/siepic_ebeam_pdk-0.4.8.tar.gz --markdown 20240503/s/siepic-ebeam-pdk/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-03 07:44:04] INFO root fetch - processPackages [siepic-ebeam-pdk]: Remove: archive file [/home/abi/fetcher/tmp/siepic_ebeam_pdk-0.4.7.tar.gz]
+[2024-05-03 07:44:04] INFO root fetch - processPackages [siepic-ebeam-pdk]: Remove: archive file [/home/abi/fetcher/tmp/siepic_ebeam_pdk-0.4.8.tar.gz]
+[2024-05-03 07:44:04] INFO root fetch - main [MainThread]: End processing [siepic-ebeam-pdk]: success
+[2024-05-03 07:44:04] INFO root fetch - main [MainThread]: Store serial: [23041880]
