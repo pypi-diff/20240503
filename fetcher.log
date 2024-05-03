@@ -9031,3 +9031,15 @@
 [2024-05-03 06:19:00] INFO root fetch - processPackages [genmax]: Remove: archive file [/home/abi/fetcher/tmp/genmax-0.1.6.tar.gz]
 [2024-05-03 06:19:00] INFO root fetch - main [MainThread]: End processing [genmax]: success
 [2024-05-03 06:19:00] INFO root fetch - main [MainThread]: Store serial: [23041426]
+[2024-05-03 06:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041426]
+[2024-05-03 06:21:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 06:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roco
+[2024-05-03 06:21:09] INFO root fetch - processPackages [roco]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-03 06:21:09] INFO root fetch - processPackages [roco]: Downloading https://files.pythonhosted.org/packages/8a/e5/771d407bae69644bbac1ce657ebf0c010c1d76887aaabe12582bc951a0ec/roco-0.4.2.tar.gz
+[2024-05-03 06:21:09] INFO root fetch - processPackages [roco]: Downloading https://files.pythonhosted.org/packages/53/84/742918b421da56d0cc04c3fe369d8c2b8a8dd8e2f3d8caf65b0c4166e57f/roco-0.4.3.tar.gz
+[2024-05-03 06:21:09] INFO root fetch - processPackages [roco]: executing diffoscope
+[2024-05-03 06:21:09] INFO root fetch - processPackages [roco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roco-0.4.2.tar.gz tmp/roco-0.4.3.tar.gz --markdown 20240503/r/roco/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-03 06:21:10] INFO root fetch - processPackages [roco]: Remove: archive file [/home/abi/fetcher/tmp/roco-0.4.2.tar.gz]
+[2024-05-03 06:21:10] INFO root fetch - processPackages [roco]: Remove: archive file [/home/abi/fetcher/tmp/roco-0.4.3.tar.gz]
+[2024-05-03 06:21:10] INFO root fetch - main [MainThread]: End processing [roco]: success
+[2024-05-03 06:21:10] INFO root fetch - main [MainThread]: Store serial: [23041429]
