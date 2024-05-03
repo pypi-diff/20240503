@@ -9254,3 +9254,15 @@
 [2024-05-03 06:34:20] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.8.tar.gz]
 [2024-05-03 06:34:20] INFO root fetch - main [MainThread]: End processing [OZI.build]: success
 [2024-05-03 06:34:20] INFO root fetch - main [MainThread]: Store serial: [23041525]
+[2024-05-03 06:36:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041525]
+[2024-05-03 06:36:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 06:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molcas-suite
+[2024-05-03 06:36:30] INFO root fetch - processPackages [molcas-suite]: New version: [1.32.0] Old Version: [1.31.1]
+[2024-05-03 06:36:31] INFO root fetch - processPackages [molcas-suite]: Downloading https://files.pythonhosted.org/packages/f2/8b/74f079ef17eb1f0b7994a1a119d08331a73d0346fee1fb408786d45db1ed/molcas_suite-1.31.1.tar.gz
+[2024-05-03 06:36:31] INFO root fetch - processPackages [molcas-suite]: Downloading https://files.pythonhosted.org/packages/06/75/4004847288f071da960469eeeb49cd0328b735ab713e6ca6434af7078538/molcas_suite-1.32.0.tar.gz
+[2024-05-03 06:36:31] INFO root fetch - processPackages [molcas-suite]: executing diffoscope
+[2024-05-03 06:36:31] INFO root fetch - processPackages [molcas-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molcas_suite-1.31.1.tar.gz tmp/molcas_suite-1.32.0.tar.gz --markdown 20240503/m/molcas-suite/1.31.1-1.32.0/README.md --exclude *.pyd
+[2024-05-03 06:36:31] INFO root fetch - processPackages [molcas-suite]: Remove: archive file [/home/abi/fetcher/tmp/molcas_suite-1.31.1.tar.gz]
+[2024-05-03 06:36:31] INFO root fetch - processPackages [molcas-suite]: Remove: archive file [/home/abi/fetcher/tmp/molcas_suite-1.32.0.tar.gz]
+[2024-05-03 06:36:31] INFO root fetch - main [MainThread]: End processing [molcas-suite]: success
+[2024-05-03 06:36:31] INFO root fetch - main [MainThread]: Store serial: [23041528]
