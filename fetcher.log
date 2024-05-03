@@ -10503,3 +10503,51 @@
 [2024-05-03 08:10:15] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.7.3.tar.gz]
 [2024-05-03 08:10:15] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2024-05-03 08:10:15] INFO root fetch - main [MainThread]: Store serial: [23042003]
+[2024-05-03 08:12:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042003]
+[2024-05-03 08:12:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 08:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: difai
+[2024-05-03 08:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text_lloom
+[2024-05-03 08:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hue-sunrise
+[2024-05-03 08:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phonenumberslite
+[2024-05-03 08:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phonenumbers
+[2024-05-03 08:12:25] INFO root fetch - processPackages [phonenumbers]: New version: [8.9.9] Old Version: [8.9.8]
+[2024-05-03 08:12:25] INFO root fetch - processPackages [text_lloom]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-03 08:12:25] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 08:12:25] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-03 08:12:25] INFO root fetch - processPackages [phonenumberslite]: New version: [8.9.9] Old Version: [8.9.8]
+[2024-05-03 08:12:25] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/61/7b/90d90d52bf1a407405c8b13f5701c40d4ed9574fa05f456f232296b5390d/phonenumbers-8.9.8.tar.gz
+[2024-05-03 08:12:25] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/43/cd/dd428fbf3f53f6cbc54ce1602a6f925c91b5568fe35963285bd882397872/text_lloom-0.7.2.tar.gz
+[2024-05-03 08:12:25] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2024-05-03 08:12:25] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2024-05-03 08:12:25] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/2a/34/673df63018e24dd0e697c0c1d47fbaab6775c15d1798ed9e0b834b78ac65/phonenumberslite-8.9.8.tar.gz
+[2024-05-03 08:12:26] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/e0/b0/648d9e4e844c2896ce5dcc89f39edb243be8b2b218cee8aeffd2af11e829/text_lloom-0.7.3.tar.gz
+[2024-05-03 08:12:26] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2024-05-03 08:12:26] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2024-05-03 08:12:26] INFO root fetch - processPackages [text_lloom]: executing diffoscope
+[2024-05-03 08:12:26] INFO root fetch - processPackages [text_lloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_lloom-0.7.2.tar.gz tmp/text_lloom-0.7.3.tar.gz --markdown 20240503/t/text_lloom/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-03 08:12:26] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/1b/d2/a02b729fceb0f6e61adf61ac7dc258345c724815ff446e3d8204cae3e838/phonenumberslite-8.9.9.tar.gz
+[2024-05-03 08:12:26] INFO root fetch - processPackages [difai]: executing diffoscope
+[2024-05-03 08:12:26] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20240503/d/difai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 08:12:26] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2024-05-03 08:12:26] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20240503/h/hue-sunrise/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-03 08:12:26] INFO root fetch - processPackages [phonenumberslite]: executing diffoscope
+[2024-05-03 08:12:26] INFO root fetch - processPackages [phonenumberslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumberslite-8.9.8.tar.gz tmp/phonenumberslite-8.9.9.tar.gz --markdown 20240503/p/phonenumberslite/8.9.8-8.9.9/README.md --exclude *.pyd
+[2024-05-03 08:12:26] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/bc/2a/0ad24a36f6763be01df1b427f23a38456a351fdf205b0c19041499a9f82c/phonenumbers-8.9.9.tar.gz
+[2024-05-03 08:12:26] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.8.tar.gz]
+[2024-05-03 08:12:26] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.9.tar.gz]
+[2024-05-03 08:12:26] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2024-05-03 08:12:27] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2024-05-03 08:12:27] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2024-05-03 08:12:27] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2024-05-03 08:12:27] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.7.2.tar.gz]
+[2024-05-03 08:12:27] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.7.3.tar.gz]
+[2024-05-03 08:12:27] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
+[2024-05-03 08:12:27] INFO root fetch - processPackages [phonenumbers]: executing diffoscope
+[2024-05-03 08:12:27] INFO root fetch - processPackages [phonenumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumbers-8.9.8.tar.gz tmp/phonenumbers-8.9.9.tar.gz --markdown 20240503/p/phonenumbers/8.9.8-8.9.9/README.md --exclude *.pyd
+[2024-05-03 08:12:28] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.8.tar.gz]
+[2024-05-03 08:12:28] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.9.tar.gz]
+[2024-05-03 08:12:28] INFO root fetch - main [MainThread]: End processing [phonenumberslite]: success
+[2024-05-03 08:12:30] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.8.tar.gz]
+[2024-05-03 08:12:30] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
+[2024-05-03 08:12:30] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
+[2024-05-03 08:12:30] INFO root fetch - main [MainThread]: Store serial: [23042018]
