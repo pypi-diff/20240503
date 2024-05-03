@@ -17548,3 +17548,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:28:30] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.3-cp39-cp39-win_amd64.whl.zip]
 [2024-05-03 13:28:30] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-03 13:28:30] INFO root fetch - main [MainThread]: Store serial: [23045197]
+[2024-05-03 13:30:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045197]
+[2024-05-03 13:31:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 13:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LLMSmith
+[2024-05-03 13:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyegeria
+[2024-05-03 13:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytestomatio
+[2024-05-03 13:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-cnrail
+[2024-05-03 13:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osism
+[2024-05-03 13:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argus-htmx
+[2024-05-03 13:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hgraph
+[2024-05-03 13:31:01] INFO root fetch - processPackages [pytestomatio]: New version: [2.3.6] Old Version: [2.3.4]
+[2024-05-03 13:31:01] INFO root fetch - processPackages [hgraph]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-03 13:31:01] INFO root fetch - processPackages [osism]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-03 13:31:01] INFO root fetch - processPackages [pyegeria]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-03 13:31:01] WARNING root fetch - processPackages [argus-htmx]: Skipping, unable to determine old version
+[2024-05-03 13:31:01] INFO root fetch - main [MainThread]: End processing [argus-htmx] error
+[2024-05-03 13:31:01] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/ea/db/d726480d16f08f3ba3ca98691e708fe82d818373981d9f16c62f352385a6/pytestomatio-2.3.4.tar.gz
+[2024-05-03 13:31:01] INFO root fetch - processPackages [LLMSmith]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-03 13:31:01] INFO root fetch - processPackages [nonebot-plugin-cnrail]: New version: [0.2.2.post1] Old Version: [0.2.2.dev1]
+[2024-05-03 13:31:01] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/da/ad/e83b1d8661a0e583d3a8e4e301911d6797358607dad40d27057574e75081/hgraph-0.2.8.tar.gz
+[2024-05-03 13:31:01] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/d9/e4/97288db572dab148de08d6921483c28336f8657f5955abf4742e87d99ce1/osism-0.9.7.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/ec/82/0298f933f068038b58aaa0f1fe7857079706689c2266a4dacdbce7fa508c/pyegeria-0.3.5.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/09/db/cb9f35c68a610504508464ce9e2cebc5109d9f77c6f5902d64b34b7f29cc/llmsmith-0.3.0.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [nonebot-plugin-cnrail]: Downloading https://files.pythonhosted.org/packages/d8/04/7426f573e9e06a850b2c0e32d1d9c9fc34568813870577342f03fea1852d/nonebot_plugin_cnrail-0.2.2.dev1.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/ba/45/420208b69eab7337e1f9c64ca952750f281172ced93a06b8d2ee9b613892/pytestomatio-2.3.6.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/22/05/43ea3ada7d538f8592b51d36721d624366793ada729a497eaaff2db9b540/hgraph-0.2.9.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/f7/c9/7fabbdb50265b5306f0b31470c421517d434bda5f7f3f41fe3fcd98acac0/osism-0.9.8.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [pytestomatio]: executing diffoscope
+[2024-05-03 13:31:02] INFO root fetch - processPackages [pytestomatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestomatio-2.3.4.tar.gz tmp/pytestomatio-2.3.6.tar.gz --markdown 20240503/p/pytestomatio/2.3.4-2.3.6/README.md --exclude *.pyd
+[2024-05-03 13:31:02] INFO root fetch - processPackages [hgraph]: executing diffoscope
+[2024-05-03 13:31:02] INFO root fetch - processPackages [hgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgraph-0.2.8.tar.gz tmp/hgraph-0.2.9.tar.gz --markdown 20240503/h/hgraph/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-03 13:31:02] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/cf/d6/2381520c0b99b539f8dcc61c394021c026709e203800558a01333280c5c0/llmsmith-0.4.0.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/42/55/1780d641016c015646a6fc9add2cd6526d179e3ba00d812006c127db53f4/pyegeria-0.3.6.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [osism]: executing diffoscope
+[2024-05-03 13:31:02] INFO root fetch - processPackages [osism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osism-0.9.7.tar.gz tmp/osism-0.9.8.tar.gz --markdown 20240503/o/osism/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-03 13:31:02] INFO root fetch - processPackages [nonebot-plugin-cnrail]: Downloading https://files.pythonhosted.org/packages/b2/53/d7ea6828585189157bee2b7f9d5db4ce74d8f4544a5938280e2ec82e4739/nonebot_plugin_cnrail-0.2.2.post1.tar.gz
+[2024-05-03 13:31:02] INFO root fetch - processPackages [LLMSmith]: executing diffoscope
+[2024-05-03 13:31:02] INFO root fetch - processPackages [LLMSmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmsmith-0.3.0.tar.gz tmp/llmsmith-0.4.0.tar.gz --markdown 20240503/L/LLMSmith/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-03 13:31:02] INFO root fetch - processPackages [pyegeria]: executing diffoscope
+[2024-05-03 13:31:02] INFO root fetch - processPackages [pyegeria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyegeria-0.3.5.tar.gz tmp/pyegeria-0.3.6.tar.gz --markdown 20240503/p/pyegeria/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-03 13:31:02] INFO root fetch - processPackages [nonebot-plugin-cnrail]: executing diffoscope
+[2024-05-03 13:31:02] INFO root fetch - processPackages [nonebot-plugin-cnrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cnrail-0.2.2.dev1.tar.gz tmp/nonebot_plugin_cnrail-0.2.2.post1.tar.gz --markdown 20240503/n/nonebot-plugin-cnrail/0.2.2.dev1-0.2.2.post1/README.md --exclude *.pyd
+[2024-05-03 13:31:03] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.3.4.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.3.6.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - main [MainThread]: End processing [pytestomatio]: success
+[2024-05-03 13:31:03] INFO root fetch - processPackages [nonebot-plugin-cnrail]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cnrail-0.2.2.dev1.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - processPackages [nonebot-plugin-cnrail]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cnrail-0.2.2.post1.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cnrail]: success
+[2024-05-03 13:31:03] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.3.0.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.4.0.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - main [MainThread]: End processing [LLMSmith]: success
+[2024-05-03 13:31:03] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.7.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.8.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - main [MainThread]: End processing [osism]: success
+[2024-05-03 13:31:03] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.5.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.6.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - main [MainThread]: End processing [pyegeria]: success
+[2024-05-03 13:31:03] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.8.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.9.tar.gz]
+[2024-05-03 13:31:03] INFO root fetch - main [MainThread]: End processing [hgraph]: success
+[2024-05-03 13:31:03] INFO root fetch - main [MainThread]: Store serial: [23045225]
