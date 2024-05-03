@@ -2729,3 +2729,51 @@
 [2024-05-03 02:44:19] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
 [2024-05-03 02:44:19] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
 [2024-05-03 02:44:19] INFO root fetch - main [MainThread]: Store serial: [23039141]
+[2024-05-03 02:46:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039141]
+[2024-05-03 02:46:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 02:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picchick
+[2024-05-03 02:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-05-03 02:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-vector-stores-azureaisearch
+[2024-05-03 02:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snaptrade-python-sdk
+[2024-05-03 02:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-aiplatform
+[2024-05-03 02:46:28] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405020044] Old Version: [4.9.4.dev202405010044]
+[2024-05-03 02:46:28] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 02:46:28] INFO root fetch - processPackages [picchick]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-03 02:46:28] INFO root fetch - processPackages [google-cloud-aiplatform]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-03 02:46:28] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2024-05-03 02:46:28] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/4d/54/d1fcfcbcd986b59af3296aab259311d6b657cf2a698b399e7b36eddffc6f/tfds-nightly-4.9.4.dev202405010044.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: Downloading https://files.pythonhosted.org/packages/b6/45/a99e2ab95d9f6ecf7519b71250523d820af1d52315294f104111a45db00c/llama_index_vector_stores_azureaisearch-0.1.4.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [picchick]: Downloading https://files.pythonhosted.org/packages/cc/0c/962ac7d873d966cbdf6ec56d7641ce20ed017b5c2cdfc978cdc61ed327b1/picchick-0.4.0.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [google-cloud-aiplatform]: Downloading https://files.pythonhosted.org/packages/87/ed/ff22ee773fb07107589eec61c3659904016820ba5aed048a68bf3eba44a9/google-cloud-aiplatform-1.8.1.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/17/7e/10dc4e180f3ff633d28e365b45352eceb2413eeef3ad1f26d4ef6cbf84e1/tfds-nightly-4.9.4.dev202405020044.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [picchick]: Downloading https://files.pythonhosted.org/packages/31/0a/4455c6d3552b890c0f9c918eb488cca10a4f4a604d62e5df5131f941bf34/picchick-0.4.1.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: Downloading https://files.pythonhosted.org/packages/9c/36/e5701195eadd465a391dd17c552439ef568925d269cd9fba787a0032b042/llama_index_vector_stores_azureaisearch-0.1.5.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [picchick]: executing diffoscope
+[2024-05-03 02:46:29] INFO root fetch - processPackages [picchick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picchick-0.4.0.tar.gz tmp/picchick-0.4.1.tar.gz --markdown 20240503/p/picchick/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-03 02:46:29] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: executing diffoscope
+[2024-05-03 02:46:29] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_azureaisearch-0.1.4.tar.gz tmp/llama_index_vector_stores_azureaisearch-0.1.5.tar.gz --markdown 20240503/l/llama-index-vector-stores-azureaisearch/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 02:46:29] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-03 02:46:29] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405010044.tar.gz tmp/tfds-nightly-4.9.4.dev202405020044.tar.gz --markdown 20240503/t/tfds-nightly/4.9.4.dev202405010044-4.9.4.dev202405020044/README.md --exclude *.pyd
+[2024-05-03 02:46:29] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2024-05-03 02:46:29] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20240503/s/snaptrade-python-sdk/8.4.0-9.0.0/README.md --exclude *.pyd
+[2024-05-03 02:46:29] INFO root fetch - processPackages [google-cloud-aiplatform]: Downloading https://files.pythonhosted.org/packages/4d/c4/93fac91a85d9ee19de83e183b5b8980a3fe9e3a193e1a27c3574c7899c9c/google-cloud-aiplatform-1.9.0.tar.gz
+[2024-05-03 02:46:29] INFO root fetch - processPackages [google-cloud-aiplatform]: executing diffoscope
+[2024-05-03 02:46:29] INFO root fetch - processPackages [google-cloud-aiplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-aiplatform-1.8.1.tar.gz tmp/google-cloud-aiplatform-1.9.0.tar.gz --markdown 20240503/g/google-cloud-aiplatform/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-03 02:46:30] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_azureaisearch-0.1.4.tar.gz]
+[2024-05-03 02:46:30] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_azureaisearch-0.1.5.tar.gz]
+[2024-05-03 02:46:30] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-azureaisearch]: success
+[2024-05-03 02:46:30] INFO root fetch - processPackages [picchick]: Remove: archive file [/home/abi/fetcher/tmp/picchick-0.4.0.tar.gz]
+[2024-05-03 02:46:30] INFO root fetch - processPackages [picchick]: Remove: archive file [/home/abi/fetcher/tmp/picchick-0.4.1.tar.gz]
+[2024-05-03 02:46:30] INFO root fetch - main [MainThread]: End processing [picchick]: success
+[2024-05-03 02:46:31] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-8.4.0.tar.gz]
+[2024-05-03 02:46:31] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
+[2024-05-03 02:46:31] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2024-05-03 02:46:33] INFO root fetch - processPackages [google-cloud-aiplatform]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-aiplatform-1.8.1.tar.gz]
+[2024-05-03 02:46:33] INFO root fetch - processPackages [google-cloud-aiplatform]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-aiplatform-1.9.0.tar.gz]
+[2024-05-03 02:46:33] INFO root fetch - main [MainThread]: End processing [google-cloud-aiplatform]: success
+[2024-05-03 02:46:38] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405010044.tar.gz]
+[2024-05-03 02:46:38] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405020044.tar.gz]
+[2024-05-03 02:46:38] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-03 02:46:38] INFO root fetch - main [MainThread]: Store serial: [23039160]
