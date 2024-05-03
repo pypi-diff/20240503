@@ -8122,3 +8122,15 @@
 [2024-05-03 05:06:02] INFO root fetch - processPackages [clishelf]: Remove: archive file [/home/abi/fetcher/tmp/clishelf-0.2.2.tar.gz]
 [2024-05-03 05:06:02] INFO root fetch - main [MainThread]: End processing [clishelf]: success
 [2024-05-03 05:06:02] INFO root fetch - main [MainThread]: Store serial: [23041106]
+[2024-05-03 05:08:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041106]
+[2024-05-03 05:08:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 05:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskara
+[2024-05-03 05:08:11] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 05:08:11] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-05-03 05:08:11] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-05-03 05:08:11] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-03 05:08:11] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240503/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 05:08:12] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-05-03 05:08:12] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-05-03 05:08:12] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-03 05:08:12] INFO root fetch - main [MainThread]: Store serial: [23041109]
