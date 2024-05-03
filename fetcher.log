@@ -7640,3 +7640,24 @@
 [2024-05-03 04:34:33] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.9.tar.gz]
 [2024-05-03 04:34:33] INFO root fetch - main [MainThread]: End processing [llama-index-readers-web]: success
 [2024-05-03 04:34:33] INFO root fetch - main [MainThread]: Store serial: [23040953]
+[2024-05-03 04:36:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040953]
+[2024-05-03 04:36:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 04:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-monkey-patches
+[2024-05-03 04:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypcode
+[2024-05-03 04:36:41] INFO root fetch - processPackages [django-monkey-patches]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-03 04:36:41] INFO root fetch - processPackages [pypcode]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-03 04:36:42] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/20/0e/531c6ac805966bb6c397f142dda97fe93f51147791700b6610207a8876a7/django_monkey_patches-3.0.2.tar.gz
+[2024-05-03 04:36:42] INFO root fetch - processPackages [pypcode]: Downloading https://files.pythonhosted.org/packages/6b/bb/4224224e58ba7879acd88f912a840c376576a8d1b15daacc28eec81edd8d/pypcode-2.0.0.tar.gz
+[2024-05-03 04:36:42] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/f6/f7/78446a4d1139d6e488ede54530f90cb60b7c8be0da06d8b10364aae4f800/django_monkey_patches-3.0.3.tar.gz
+[2024-05-03 04:36:42] INFO root fetch - processPackages [django-monkey-patches]: executing diffoscope
+[2024-05-03 04:36:42] INFO root fetch - processPackages [django-monkey-patches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_monkey_patches-3.0.2.tar.gz tmp/django_monkey_patches-3.0.3.tar.gz --markdown 20240503/d/django-monkey-patches/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-03 04:36:42] INFO root fetch - processPackages [pypcode]: Downloading https://files.pythonhosted.org/packages/4b/5e/655b40aaa082d68c329abf91d23ca122a37798fe4f97ab5d35e987730255/pypcode-2.1.0.tar.gz
+[2024-05-03 04:36:43] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-3.0.2.tar.gz]
+[2024-05-03 04:36:43] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-3.0.3.tar.gz]
+[2024-05-03 04:36:43] INFO root fetch - main [MainThread]: End processing [django-monkey-patches]: success
+[2024-05-03 04:36:43] INFO root fetch - processPackages [pypcode]: executing diffoscope
+[2024-05-03 04:36:43] INFO root fetch - processPackages [pypcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcode-2.0.0.tar.gz tmp/pypcode-2.1.0.tar.gz --markdown 20240503/p/pypcode/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-03 04:36:50] INFO root fetch - processPackages [pypcode]: Remove: archive file [/home/abi/fetcher/tmp/pypcode-2.0.0.tar.gz]
+[2024-05-03 04:36:50] INFO root fetch - processPackages [pypcode]: Remove: archive file [/home/abi/fetcher/tmp/pypcode-2.1.0.tar.gz]
+[2024-05-03 04:36:50] INFO root fetch - main [MainThread]: End processing [pypcode]: success
+[2024-05-03 04:36:50] INFO root fetch - main [MainThread]: Store serial: [23040971]
