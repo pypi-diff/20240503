@@ -17894,3 +17894,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:41:16] INFO root fetch - processPackages [petrovisor]: Remove: archive file [/home/abi/fetcher/tmp/petrovisor-0.1.6.tar.gz]
 [2024-05-03 13:41:16] INFO root fetch - main [MainThread]: End processing [petrovisor]: success
 [2024-05-03 13:41:16] INFO root fetch - main [MainThread]: Store serial: [23045352]
+[2024-05-03 13:43:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045352]
+[2024-05-03 13:43:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 13:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: postgresql-geometry
+[2024-05-03 13:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autowsgr
+[2024-05-03 13:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyFUME
+[2024-05-03 13:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alyx-setup-utils
+[2024-05-03 13:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seviper
+[2024-05-03 13:43:47] WARNING root fetch - processPackages [alyx-setup-utils]: Skipping, unable to determine old version
+[2024-05-03 13:43:47] INFO root fetch - main [MainThread]: End processing [alyx-setup-utils] error
+[2024-05-03 13:43:47] WARNING root fetch - processPackages [postgresql-geometry]: Skipping, unable to determine old version
+[2024-05-03 13:43:47] INFO root fetch - main [MainThread]: End processing [postgresql-geometry] error
+[2024-05-03 13:43:47] INFO root fetch - processPackages [autowsgr]: New version: [0.2.2.9] Old Version: [0.2.2.8]
+[2024-05-03 13:43:47] INFO root fetch - processPackages [seviper]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 13:43:47] INFO root fetch - processPackages [pyFUME]: New version: [0.3.4] Old Version: [0.3.1]
+[2024-05-03 13:43:47] INFO root fetch - processPackages [autowsgr]: Downloading https://files.pythonhosted.org/packages/20/db/bb4942509a54b1f01fa10e10e3dca250f9cf92488729f8292657988ac8e2/autowsgr-0.2.2.8.tar.gz
+[2024-05-03 13:43:47] INFO root fetch - processPackages [seviper]: Downloading https://files.pythonhosted.org/packages/9b/72/d33228fcaee93c84e3f486e967e6bc6ae2d887630a83f07b7dd3993fbd56/seviper-0.0.3.tar.gz
+[2024-05-03 13:43:47] WARNING root fetch - processPackages [autowsgr]: Skipping package: exceeds size limit 18156638>=10485760
+[2024-05-03 13:43:47] INFO root fetch - main [MainThread]: End processing [autowsgr] error
+[2024-05-03 13:43:48] INFO root fetch - processPackages [pyFUME]: Downloading https://files.pythonhosted.org/packages/b8/66/985d6230ca113b23a678cf37ce85bce04fd75e19a6669d30c9d41c3e76fd/pyFUME-0.3.1.tar.gz
+[2024-05-03 13:43:48] INFO root fetch - processPackages [seviper]: Downloading https://files.pythonhosted.org/packages/f1/b7/9cacbbbf3b57ca5df11524d8fbe8b672deedc3e984da2d010eabe4805038/seviper-0.0.4.tar.gz
+[2024-05-03 13:43:48] INFO root fetch - processPackages [seviper]: executing diffoscope
+[2024-05-03 13:43:48] INFO root fetch - processPackages [seviper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seviper-0.0.3.tar.gz tmp/seviper-0.0.4.tar.gz --markdown 20240503/s/seviper/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 13:43:48] INFO root fetch - processPackages [pyFUME]: Downloading https://files.pythonhosted.org/packages/43/55/3ca6936da251cb56e0a1de1249c25cde6bf89b2d36ceab7cfe12fe4053ad/pyfume-0.3.4.tar.gz
+[2024-05-03 13:43:48] INFO root fetch - processPackages [pyFUME]: executing diffoscope
+[2024-05-03 13:43:48] INFO root fetch - processPackages [pyFUME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFUME-0.3.1.tar.gz tmp/pyfume-0.3.4.tar.gz --markdown 20240503/p/pyFUME/0.3.1-0.3.4/README.md --exclude *.pyd
+[2024-05-03 13:43:49] INFO root fetch - processPackages [seviper]: Remove: archive file [/home/abi/fetcher/tmp/seviper-0.0.3.tar.gz]
+[2024-05-03 13:43:49] INFO root fetch - processPackages [seviper]: Remove: archive file [/home/abi/fetcher/tmp/seviper-0.0.4.tar.gz]
+[2024-05-03 13:43:49] INFO root fetch - main [MainThread]: End processing [seviper]: success
+[2024-05-03 13:43:49] INFO root fetch - processPackages [pyFUME]: Remove: archive file [/home/abi/fetcher/tmp/pyFUME-0.3.1.tar.gz]
+[2024-05-03 13:43:49] INFO root fetch - processPackages [pyFUME]: Remove: archive file [/home/abi/fetcher/tmp/pyfume-0.3.4.tar.gz]
+[2024-05-03 13:43:49] INFO root fetch - main [MainThread]: End processing [pyFUME]: success
+[2024-05-03 13:43:49] INFO root fetch - main [MainThread]: Store serial: [23045370]
