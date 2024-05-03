@@ -17947,3 +17947,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:46:21] INFO root fetch - processPackages [Qube2]: Remove: archive file [/home/abi/fetcher/tmp/Qube2-0.3.40.tar.gz]
 [2024-05-03 13:46:21] INFO root fetch - main [MainThread]: End processing [Qube2]: success
 [2024-05-03 13:46:21] INFO root fetch - main [MainThread]: Store serial: [23045382]
+[2024-05-03 13:48:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045382]
+[2024-05-03 13:48:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 13:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jenfi-pipeline-data-app
+[2024-05-03 13:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bmsdna-sql-utils
+[2024-05-03 13:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CADET-Process
+[2024-05-03 13:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-adapter-tailchat
+[2024-05-03 13:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langroid
+[2024-05-03 13:48:52] WARNING root fetch - processPackages [nonebot-adapter-tailchat]: Skipping, unable to determine old version
+[2024-05-03 13:48:52] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-tailchat] error
+[2024-05-03 13:48:52] INFO root fetch - processPackages [bmsdna-sql-utils]: New version: [0.12.7] Old Version: [0.12.6]
+[2024-05-03 13:48:52] INFO root fetch - processPackages [jenfi-pipeline-data-app]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-03 13:48:52] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-03 13:48:52] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/6f/81/5345540bbd75685bef08420c9d703dcfca9cea3a66c683cb8c2003e20af4/bmsdna_sql_utils-0.12.6.tar.gz
+[2024-05-03 13:48:52] INFO root fetch - processPackages [CADET-Process]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 13:48:52] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-03 13:48:52] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/eb/27/04784e8dba16cad01fae6643e5e9cf37aa751d09c5e711c3adb06f4d4626/jenfi_pipeline_data_app-0.4.3.tar.gz
+[2024-05-03 13:48:52] INFO root fetch - processPackages [CADET-Process]: Downloading https://files.pythonhosted.org/packages/2f/76/728eb7d9bd7cfabbe65361ed6d10b9e6716b385d60b3e548a1433cc0a6fd/CADET-Process-0.9.0.tar.gz
+[2024-05-03 13:48:52] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/87/62/8ffe1118d3cb6c0dab248ff17f5a2c1abc888ee704b826eb1e7fd1aabf2a/bmsdna_sql_utils-0.12.7.tar.gz
+[2024-05-03 13:48:53] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-03 13:48:53] INFO root fetch - processPackages [bmsdna-sql-utils]: executing diffoscope
+[2024-05-03 13:48:53] INFO root fetch - processPackages [bmsdna-sql-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_sql_utils-0.12.6.tar.gz tmp/bmsdna_sql_utils-0.12.7.tar.gz --markdown 20240503/b/bmsdna-sql-utils/0.12.6-0.12.7/README.md --exclude *.pyd
+[2024-05-03 13:48:53] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/87/bd/03fe72e7f320669a90b84d238388ace4f71b3ca79f6054ca48f08902b2ca/jenfi_pipeline_data_app-0.4.4.tar.gz
+[2024-05-03 13:48:53] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-03 13:48:53] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240503/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-03 13:48:53] INFO root fetch - processPackages [jenfi-pipeline-data-app]: executing diffoscope
+[2024-05-03 13:48:53] INFO root fetch - processPackages [jenfi-pipeline-data-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenfi_pipeline_data_app-0.4.3.tar.gz tmp/jenfi_pipeline_data_app-0.4.4.tar.gz --markdown 20240503/j/jenfi-pipeline-data-app/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-03 13:48:53] INFO root fetch - processPackages [CADET-Process]: Downloading https://files.pythonhosted.org/packages/5e/84/798ba67b00f71ca2926d1842084d48d12c124ce681bafa6c08720d53a51a/cadet_process-0.9.1.tar.gz
+[2024-05-03 13:48:53] INFO root fetch - processPackages [CADET-Process]: executing diffoscope
+[2024-05-03 13:48:53] INFO root fetch - processPackages [CADET-Process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADET-Process-0.9.0.tar.gz tmp/cadet_process-0.9.1.tar.gz --markdown 20240503/C/CADET-Process/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-03 13:48:53] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.6.tar.gz]
+[2024-05-03 13:48:53] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.7.tar.gz]
+[2024-05-03 13:48:53] INFO root fetch - main [MainThread]: End processing [bmsdna-sql-utils]: success
+[2024-05-03 13:48:53] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.3.tar.gz]
+[2024-05-03 13:48:53] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.4.tar.gz]
+[2024-05-03 13:48:53] INFO root fetch - main [MainThread]: End processing [jenfi-pipeline-data-app]: success
+[2024-05-03 13:48:53] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-03 13:48:53] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-03 13:48:53] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-03 13:48:54] INFO root fetch - processPackages [CADET-Process]: Remove: archive file [/home/abi/fetcher/tmp/CADET-Process-0.9.0.tar.gz]
+[2024-05-03 13:48:54] INFO root fetch - processPackages [CADET-Process]: Remove: archive file [/home/abi/fetcher/tmp/cadet_process-0.9.1.tar.gz]
+[2024-05-03 13:48:54] INFO root fetch - main [MainThread]: End processing [CADET-Process]: success
+[2024-05-03 13:48:54] INFO root fetch - main [MainThread]: Store serial: [23045406]
