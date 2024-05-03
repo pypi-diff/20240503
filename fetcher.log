@@ -10138,3 +10138,20 @@
 [2024-05-03 07:46:14] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.1.tar.gz]
 [2024-05-03 07:46:14] INFO root fetch - main [MainThread]: End processing [hbox]: success
 [2024-05-03 07:46:14] INFO root fetch - main [MainThread]: Store serial: [23041888]
+[2024-05-03 07:48:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041888]
+[2024-05-03 07:48:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 07:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epimodel-sensitivity-test
+[2024-05-03 07:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Montreal-Forced-Aligner
+[2024-05-03 07:48:24] INFO root fetch - processPackages [epimodel-sensitivity-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 07:48:24] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/8e/7f/0d0d25c57a332c235ca8795a2d7c90b66a2fb95df691edb26f3e2ea592a4/epimodel_sensitivity_test-0.1.8.tar.gz
+[2024-05-03 07:48:24] INFO root fetch - processPackages [Montreal-Forced-Aligner]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-05-03 07:48:24] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/d7/d7/8b62d5443dfbe8593c57e1b827c1944ff940d9e7dcf8041f4a4ff5a17fd4/epimodel_sensitivity_test-0.1.9.tar.gz
+[2024-05-03 07:48:24] INFO root fetch - processPackages [Montreal-Forced-Aligner]: Downloading https://files.pythonhosted.org/packages/22/b1/550607de6efe5f9fb8ad969721fcec407d1b7e1e4c3caf004f3ba91045e9/montreal_forced_aligner-3.0.6.tar.gz
+[2024-05-03 07:48:24] INFO root fetch - processPackages [epimodel-sensitivity-test]: executing diffoscope
+[2024-05-03 07:48:24] INFO root fetch - processPackages [epimodel-sensitivity-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epimodel_sensitivity_test-0.1.8.tar.gz tmp/epimodel_sensitivity_test-0.1.9.tar.gz --markdown 20240503/e/epimodel-sensitivity-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 07:48:24] WARNING root fetch - processPackages [Montreal-Forced-Aligner]: Skipping package: exceeds size limit 22216097>=10485760
+[2024-05-03 07:48:24] INFO root fetch - main [MainThread]: End processing [Montreal-Forced-Aligner] error
+[2024-05-03 07:48:25] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.8.tar.gz]
+[2024-05-03 07:48:25] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.9.tar.gz]
+[2024-05-03 07:48:25] INFO root fetch - main [MainThread]: End processing [epimodel-sensitivity-test]: success
+[2024-05-03 07:48:25] INFO root fetch - main [MainThread]: Store serial: [23041894]
