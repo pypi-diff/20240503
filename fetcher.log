@@ -14714,3 +14714,38 @@
 [2024-05-03 11:11:47] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
 [2024-05-03 11:11:47] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
 [2024-05-03 11:11:47] INFO root fetch - main [MainThread]: Store serial: [23043713]
+[2024-05-03 11:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043713]
+[2024-05-03 11:14:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 11:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi
+[2024-05-03 11:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffenator2
+[2024-05-03 11:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mquad
+[2024-05-03 11:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imbue
+[2024-05-03 11:14:02] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-05-03 11:14:02] INFO root fetch - processPackages [mquad]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 11:14:02] INFO root fetch - processPackages [diffenator2]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-03 11:14:02] INFO root fetch - processPackages [imbue]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-03 11:14:02] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-05-03 11:14:02] INFO root fetch - processPackages [mquad]: Downloading https://files.pythonhosted.org/packages/4f/67/6eb008d33f54ce04df0ca0003d993ed013341911eb01d87ca4601266dbfd/mquad-0.1.7-py3-none-any.whl
+[2024-05-03 11:14:03] INFO root fetch - processPackages [diffenator2]: Downloading https://files.pythonhosted.org/packages/9e/b7/218fb6c0845cdfb66d35281508d015c0204e1c982548293e702f57923d97/diffenator2-0.3.8.tar.gz
+[2024-05-03 11:14:03] INFO root fetch - processPackages [imbue]: Downloading https://files.pythonhosted.org/packages/dd/be/f7743436d1141563786b87f0879bbab1c9661a01a138a46c9b081db51ef6/imbue-1.0.0.tar.gz
+[2024-05-03 11:14:03] WARNING root fetch - processPackages [diffenator2]: Skipping package: exceeds size limit 12908286>=10485760
+[2024-05-03 11:14:03] INFO root fetch - main [MainThread]: End processing [diffenator2] error
+[2024-05-03 11:14:03] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-05-03 11:14:03] INFO root fetch - processPackages [mquad]: Downloading https://files.pythonhosted.org/packages/18/30/6d9600df79c96f004ba31633a0cca3a5fe7a8cb3854622550e6d9b54b33c/mquad-0.1.8-py3-none-any.whl
+[2024-05-03 11:14:03] INFO root fetch - processPackages [imbue]: Downloading https://files.pythonhosted.org/packages/97/c7/dfc369d6de24536fe89fd50087b6ac6bcc8394b861a400b52aa0d29974ff/imbue-2.0.0.tar.gz
+[2024-05-03 11:14:03] INFO root fetch - processPackages [mquad]: executing diffoscope
+[2024-05-03 11:14:03] INFO root fetch - processPackages [mquad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mquad-0.1.7-py3-none-any.whl.zip tmp/mquad-0.1.8-py3-none-any.whl.zip --markdown 20240503/m/mquad/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 11:14:03] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-05-03 11:14:03] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240503/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-05-03 11:14:03] INFO root fetch - processPackages [imbue]: executing diffoscope
+[2024-05-03 11:14:03] INFO root fetch - processPackages [imbue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imbue-1.0.0.tar.gz tmp/imbue-2.0.0.tar.gz --markdown 20240503/i/imbue/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-03 11:14:04] INFO root fetch - processPackages [mquad]: Remove: archive file [/home/abi/fetcher/tmp/mquad-0.1.7-py3-none-any.whl.zip]
+[2024-05-03 11:14:04] INFO root fetch - processPackages [mquad]: Remove: archive file [/home/abi/fetcher/tmp/mquad-0.1.8-py3-none-any.whl.zip]
+[2024-05-03 11:14:04] INFO root fetch - main [MainThread]: End processing [mquad]: success
+[2024-05-03 11:14:04] INFO root fetch - processPackages [imbue]: Remove: archive file [/home/abi/fetcher/tmp/imbue-1.0.0.tar.gz]
+[2024-05-03 11:14:04] INFO root fetch - processPackages [imbue]: Remove: archive file [/home/abi/fetcher/tmp/imbue-2.0.0.tar.gz]
+[2024-05-03 11:14:04] INFO root fetch - main [MainThread]: End processing [imbue]: success
+[2024-05-03 11:14:04] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-05-03 11:14:04] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-05-03 11:14:04] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-05-03 11:14:04] INFO root fetch - main [MainThread]: Store serial: [23043723]
