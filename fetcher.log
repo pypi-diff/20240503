@@ -17989,3 +17989,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:48:54] INFO root fetch - processPackages [CADET-Process]: Remove: archive file [/home/abi/fetcher/tmp/cadet_process-0.9.1.tar.gz]
 [2024-05-03 13:48:54] INFO root fetch - main [MainThread]: End processing [CADET-Process]: success
 [2024-05-03 13:48:54] INFO root fetch - main [MainThread]: Store serial: [23045406]
+[2024-05-03 13:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045406]
+[2024-05-03 13:51:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manim-slides
+[2024-05-03 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flow.record
+[2024-05-03 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-dali
+[2024-05-03 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fs-attestation-safe-cli
+[2024-05-03 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2024-05-03 13:51:25] INFO root fetch - processPackages [python-dali]: New version: [0.9] Old Version: [0.8]
+[2024-05-03 13:51:25] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2024-05-03 13:51:25] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.9] Old Version: [14.0.1.0.8]
+[2024-05-03 13:51:25] INFO root fetch - processPackages [fs-attestation-safe-cli]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-03 13:51:25] INFO root fetch - processPackages [manim-slides]: New version: [5.1.7] Old Version: [5.1.6]
+[2024-05-03 13:51:25] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2024-05-03 13:51:25] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/29/36/7268bc24d8389016271fa5339775a21de8b62a9394c3f27c7da5eee932d4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz
+[2024-05-03 13:51:25] INFO root fetch - processPackages [python-dali]: Downloading https://files.pythonhosted.org/packages/fa/40/d2c48ab56f803eb24a9859fb7131b374c51ccb5d5449e7f2a84b4e8f19a4/python-dali-0.8.tar.gz
+[2024-05-03 13:51:26] INFO root fetch - processPackages [fs-attestation-safe-cli]: Downloading https://files.pythonhosted.org/packages/12/18/792f5db70865770877de67e3b166cdb377a9d9fe6ba7b3c5b5d32fb5105d/fs_attestation_safe_cli-1.0.2.tar.gz
+[2024-05-03 13:51:26] INFO root fetch - processPackages [manim-slides]: Downloading https://files.pythonhosted.org/packages/fd/7c/69a3d37881064a59b394e8b8f1b9539cbacd07a57c4ed489bf6f2e5080c5/manim_slides-5.1.6.tar.gz
+[2024-05-03 13:51:26] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/e2/db/60f2eaaffb9864df5bb98ea187aef4761d8a58c121f9814ea9db53e834bb/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz
+[2024-05-03 13:51:26] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2024-05-03 13:51:26] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2024-05-03 13:51:26] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz --markdown 20240503/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.8-14.0.1.0.9/README.md --exclude *.pyd
+[2024-05-03 13:51:26] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2024-05-03 13:51:26] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20240503/f/flow.record/3.9.dev8-3.9.dev9/README.md --exclude *.pyd
+[2024-05-03 13:51:26] INFO root fetch - processPackages [python-dali]: Downloading https://files.pythonhosted.org/packages/55/8c/20b88f33458d9da8853ee0d4791acae3af5fc474ebc51562201ba6541321/python-dali-0.9.tar.gz
+[2024-05-03 13:51:26] INFO root fetch - processPackages [fs-attestation-safe-cli]: Downloading https://files.pythonhosted.org/packages/9e/32/e7229c885c9d7c5c88b0b86123016829eb4bd2332afab2406be7886d5a2c/fs_attestation_safe_cli-1.0.3.tar.gz
+[2024-05-03 13:51:26] INFO root fetch - processPackages [python-dali]: executing diffoscope
+[2024-05-03 13:51:26] INFO root fetch - processPackages [python-dali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dali-0.8.tar.gz tmp/python-dali-0.9.tar.gz --markdown 20240503/p/python-dali/0.8-0.9/README.md --exclude *.pyd
+[2024-05-03 13:51:26] INFO root fetch - processPackages [manim-slides]: Downloading https://files.pythonhosted.org/packages/49/b1/e9e3a8d01d20f87e94e03bd58ab9cbd93eadc799dbce7a7ee07512f8aa59/manim_slides-5.1.7.tar.gz
+[2024-05-03 13:51:26] INFO root fetch - processPackages [fs-attestation-safe-cli]: executing diffoscope
+[2024-05-03 13:51:26] INFO root fetch - processPackages [fs-attestation-safe-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_attestation_safe_cli-1.0.2.tar.gz tmp/fs_attestation_safe_cli-1.0.3.tar.gz --markdown 20240503/f/fs-attestation-safe-cli/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-03 13:51:26] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz]
+[2024-05-03 13:51:26] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz]
+[2024-05-03 13:51:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2024-05-03 13:51:26] INFO root fetch - processPackages [manim-slides]: executing diffoscope
+[2024-05-03 13:51:26] INFO root fetch - processPackages [manim-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_slides-5.1.6.tar.gz tmp/manim_slides-5.1.7.tar.gz --markdown 20240503/m/manim-slides/5.1.6-5.1.7/README.md --exclude *.pyd
+[2024-05-03 13:51:26] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev8-py3-none-any.whl.zip]
+[2024-05-03 13:51:26] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
+[2024-05-03 13:51:26] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2024-05-03 13:51:27] INFO root fetch - processPackages [python-dali]: Remove: archive file [/home/abi/fetcher/tmp/python-dali-0.8.tar.gz]
+[2024-05-03 13:51:27] INFO root fetch - processPackages [python-dali]: Remove: archive file [/home/abi/fetcher/tmp/python-dali-0.9.tar.gz]
+[2024-05-03 13:51:27] INFO root fetch - main [MainThread]: End processing [python-dali]: success
+[2024-05-03 13:51:27] INFO root fetch - processPackages [fs-attestation-safe-cli]: Remove: archive file [/home/abi/fetcher/tmp/fs_attestation_safe_cli-1.0.2.tar.gz]
+[2024-05-03 13:51:27] INFO root fetch - processPackages [fs-attestation-safe-cli]: Remove: archive file [/home/abi/fetcher/tmp/fs_attestation_safe_cli-1.0.3.tar.gz]
+[2024-05-03 13:51:27] INFO root fetch - main [MainThread]: End processing [fs-attestation-safe-cli]: success
+[2024-05-03 13:51:27] INFO root fetch - processPackages [manim-slides]: Remove: archive file [/home/abi/fetcher/tmp/manim_slides-5.1.6.tar.gz]
+[2024-05-03 13:51:27] INFO root fetch - processPackages [manim-slides]: Remove: archive file [/home/abi/fetcher/tmp/manim_slides-5.1.7.tar.gz]
+[2024-05-03 13:51:27] INFO root fetch - main [MainThread]: End processing [manim-slides]: success
+[2024-05-03 13:51:27] INFO root fetch - main [MainThread]: Store serial: [23045425]
