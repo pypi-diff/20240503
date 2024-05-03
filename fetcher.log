@@ -10036,3 +10036,33 @@
 [2024-05-03 07:39:40] INFO root fetch - processPackages [eland]: Remove: archive file [/home/abi/fetcher/tmp/eland-8.9.0.tar.gz]
 [2024-05-03 07:39:40] INFO root fetch - main [MainThread]: End processing [eland]: success
 [2024-05-03 07:39:40] INFO root fetch - main [MainThread]: Store serial: [23041860]
+[2024-05-03 07:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041860]
+[2024-05-03 07:41:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 07:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-sale-workflow
+[2024-05-03 07:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-invoice-policy
+[2024-05-03 07:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultima-scraper-collection
+[2024-05-03 07:41:49] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.5]
+[2024-05-03 07:41:49] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Downloading https://files.pythonhosted.org/packages/d1/00/c081a015dcc5dcb63b98ada48a46c5ea16b21666c1f9839ec5b58fad261b/odoo_addon_sale_invoice_policy-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-03 07:41:49] INFO root fetch - processPackages [ultima-scraper-collection]: New version: [2.3.12] Old Version: [2.2.11]
+[2024-05-03 07:41:49] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20240213.0] Old Version: [16.0.20240208.0]
+[2024-05-03 07:41:49] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/ec/59/00ce88dba922cd268a34b9c45b15714d202d718bce64de89cf05b7eec11e/ultima_scraper_collection-2.2.11.tar.gz
+[2024-05-03 07:41:49] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/94/93/601f3b034188b286a6f70547ae40ac1db3bd17a2d74e88c93758a67bd910/odoo_addons_oca_sale_workflow-16.0.20240208.0-py3-none-any.whl
+[2024-05-03 07:41:49] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Downloading https://files.pythonhosted.org/packages/77/5b/996807b2aba8608329cc4cbbb96781090c53b7e98ec4e54c11bb89b5d65d/odoo_addon_sale_invoice_policy-16.0.2.0.0-py3-none-any.whl
+[2024-05-03 07:41:49] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: executing diffoscope
+[2024-05-03 07:41:49] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_invoice_policy-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_invoice_policy-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-sale-invoice-policy/16.0.1.0.0.5-16.0.2.0.0/README.md --exclude *.pyd
+[2024-05-03 07:41:49] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/42/97/f7e5af52e6346c9d9ff23edf921c726c7bf5bb6ce04725435ce8d134f934/ultima_scraper_collection-2.3.12.tar.gz
+[2024-05-03 07:41:49] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/e6/9d/df5e0ce3613ec4510ce7cc5e8bcca93c415b973b0fdca158d2ea701d2a3c/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl
+[2024-05-03 07:41:49] INFO root fetch - processPackages [ultima-scraper-collection]: executing diffoscope
+[2024-05-03 07:41:49] INFO root fetch - processPackages [ultima-scraper-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_collection-2.2.11.tar.gz tmp/ultima_scraper_collection-2.3.12.tar.gz --markdown 20240503/u/ultima-scraper-collection/2.2.11-2.3.12/README.md --exclude *.pyd
+[2024-05-03 07:41:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2024-05-03 07:41:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20240208.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-sale-workflow/16.0.20240208.0-16.0.20240213.0/README.md --exclude *.pyd
+[2024-05-03 07:41:50] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_invoice_policy-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-03 07:41:50] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_invoice_policy-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-03 07:41:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-invoice-policy]: success
+[2024-05-03 07:41:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240208.0-py3-none-any.whl.zip]
+[2024-05-03 07:41:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip]
+[2024-05-03 07:41:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2024-05-03 07:41:50] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.2.11.tar.gz]
+[2024-05-03 07:41:50] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.3.12.tar.gz]
+[2024-05-03 07:41:50] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
+[2024-05-03 07:41:50] INFO root fetch - main [MainThread]: Store serial: [23041867]
