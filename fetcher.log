@@ -11951,3 +11951,15 @@
 [2024-05-03 09:20:48] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip]
 [2024-05-03 09:20:48] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
 [2024-05-03 09:20:48] INFO root fetch - main [MainThread]: Store serial: [23042622]
+[2024-05-03 09:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042622]
+[2024-05-03 09:22:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 09:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dicomthings
+[2024-05-03 09:22:56] INFO root fetch - processPackages [dicomthings]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-05-03 09:22:56] INFO root fetch - processPackages [dicomthings]: Downloading https://files.pythonhosted.org/packages/51/cc/2460b4a4b96986ef0870f8950cd7ce89201ed3166a111fbf444c6be729f7/dicomthings-0.7.1.tar.gz
+[2024-05-03 09:22:57] INFO root fetch - processPackages [dicomthings]: Downloading https://files.pythonhosted.org/packages/27/c1/bef9651d81e24b3d99597580050c4d964a371abfdd91c795a605e61fc91b/dicomthings-0.8.0.tar.gz
+[2024-05-03 09:22:57] INFO root fetch - processPackages [dicomthings]: executing diffoscope
+[2024-05-03 09:22:57] INFO root fetch - processPackages [dicomthings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomthings-0.7.1.tar.gz tmp/dicomthings-0.8.0.tar.gz --markdown 20240503/d/dicomthings/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-05-03 09:22:57] INFO root fetch - processPackages [dicomthings]: Remove: archive file [/home/abi/fetcher/tmp/dicomthings-0.7.1.tar.gz]
+[2024-05-03 09:22:57] INFO root fetch - processPackages [dicomthings]: Remove: archive file [/home/abi/fetcher/tmp/dicomthings-0.8.0.tar.gz]
+[2024-05-03 09:22:57] INFO root fetch - main [MainThread]: End processing [dicomthings]: success
+[2024-05-03 09:22:57] INFO root fetch - main [MainThread]: Store serial: [23042625]
