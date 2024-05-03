@@ -11096,3 +11096,36 @@
 [2024-05-03 08:41:04] INFO root fetch - processPackages [moz-fluent-linter]: Remove: archive file [/home/abi/fetcher/tmp/moz_fluent_linter-0.4.6.tar.gz]
 [2024-05-03 08:41:04] INFO root fetch - main [MainThread]: End processing [moz-fluent-linter]: success
 [2024-05-03 08:41:04] INFO root fetch - main [MainThread]: Store serial: [23042239]
+[2024-05-03 08:43:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042239]
+[2024-05-03 08:43:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 08:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-es-aeat-mod123
+[2024-05-03 08:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-plugin-mono-repo-deps
+[2024-05-03 08:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coldp
+[2024-05-03 08:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slint
+[2024-05-03 08:43:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.0.0.1]
+[2024-05-03 08:43:13] INFO root fetch - processPackages [slint]: New version: [1.6.0a7] Old Version: [1.6.0a6]
+[2024-05-03 08:43:13] WARNING root fetch - processPackages [coldp]: Skipping, unable to determine old version
+[2024-05-03 08:43:13] INFO root fetch - main [MainThread]: End processing [coldp] error
+[2024-05-03 08:43:13] INFO root fetch - processPackages [poetry-plugin-mono-repo-deps]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-03 08:43:13] INFO root fetch - processPackages [poetry-plugin-mono-repo-deps]: Downloading https://files.pythonhosted.org/packages/4c/2b/33be19ad256f67c1550fd8334b502ea10574d53d59b58e958e392daaeba9/poetry_plugin_mono_repo_deps-0.2.0.tar.gz
+[2024-05-03 08:43:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/8f/f7/38f9d90f21326ac79793a7fa288ba9abf6898b3e7616ea8acf3f5cc3aa54/odoo_addon_l10n_es_aeat_mod123-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-03 08:43:13] INFO root fetch - processPackages [slint]: Downloading https://files.pythonhosted.org/packages/be/1e/62d2a06bcd7cdc27343d89f1ad1b31071dea1e2ff2f288413420e928d948/slint-1.6.0a6.tar.gz
+[2024-05-03 08:43:14] INFO root fetch - processPackages [poetry-plugin-mono-repo-deps]: Downloading https://files.pythonhosted.org/packages/a6/d0/daebe320e736a382e8dc86e612f3011b4de3476fc88a8823c79640da3340/poetry_plugin_mono_repo_deps-0.2.1.tar.gz
+[2024-05-03 08:43:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/03/93/6ac1deba43993671bb9840f6add3cced41f0ca8e590c4cc1ee6c1654d03e/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 08:43:14] INFO root fetch - processPackages [poetry-plugin-mono-repo-deps]: executing diffoscope
+[2024-05-03 08:43:14] INFO root fetch - processPackages [poetry-plugin-mono-repo-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_mono_repo_deps-0.2.0.tar.gz tmp/poetry_plugin_mono_repo_deps-0.2.1.tar.gz --markdown 20240503/p/poetry-plugin-mono-repo-deps/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-03 08:43:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: executing diffoscope
+[2024-05-03 08:43:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod123-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-es-aeat-mod123/16.0.2.0.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-03 08:43:14] INFO root fetch - processPackages [slint]: Downloading https://files.pythonhosted.org/packages/cf/77/812b6c6d6bcff5bf5d2d5da4d4c3c1ac09687f3ae943c6b59044b71a88bf/slint-1.6.0a7.tar.gz
+[2024-05-03 08:43:14] INFO root fetch - processPackages [slint]: executing diffoscope
+[2024-05-03 08:43:14] INFO root fetch - processPackages [slint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slint-1.6.0a6.tar.gz tmp/slint-1.6.0a7.tar.gz --markdown 20240503/s/slint/1.6.0a6-1.6.0a7/README.md --exclude *.pyd
+[2024-05-03 08:43:14] INFO root fetch - processPackages [poetry-plugin-mono-repo-deps]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_mono_repo_deps-0.2.0.tar.gz]
+[2024-05-03 08:43:14] INFO root fetch - processPackages [poetry-plugin-mono-repo-deps]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_mono_repo_deps-0.2.1.tar.gz]
+[2024-05-03 08:43:14] INFO root fetch - main [MainThread]: End processing [poetry-plugin-mono-repo-deps]: success
+[2024-05-03 08:43:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-03 08:43:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 08:43:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod123]: success
+[2024-05-03 08:43:19] INFO root fetch - processPackages [slint]: Remove: archive file [/home/abi/fetcher/tmp/slint-1.6.0a6.tar.gz]
+[2024-05-03 08:43:19] INFO root fetch - processPackages [slint]: Remove: archive file [/home/abi/fetcher/tmp/slint-1.6.0a7.tar.gz]
+[2024-05-03 08:43:19] INFO root fetch - main [MainThread]: End processing [slint]: success
+[2024-05-03 08:43:19] INFO root fetch - main [MainThread]: Store serial: [23042257]
