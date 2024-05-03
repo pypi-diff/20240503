@@ -15762,3 +15762,65 @@
 [2024-05-03 12:10:47] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
 [2024-05-03 12:10:47] INFO root fetch - main [MainThread]: End processing [numerous] error
 [2024-05-03 12:10:47] INFO root fetch - main [MainThread]: Store serial: [23044284]
+[2024-05-03 12:13:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044284]
+[2024-05-03 12:13:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multi-vector-simulator
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycrdt
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sae-lens
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpas
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: detectools
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml4teens
+[2024-05-03 12:13:18] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-03 12:13:18] INFO root fetch - processPackages [multi-vector-simulator]: New version: [1.1.1rc1] Old Version: [1.1.0rc2]
+[2024-05-03 12:13:18] INFO root fetch - processPackages [sae-lens]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ml4teens]: New version: [0.1.36] Old Version: [0.1.35]
+[2024-05-03 12:13:18] INFO root fetch - processPackages [detectools]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 12:13:18] INFO root fetch - processPackages [gpas]: New version: [1.0.1a4] Old Version: [1.0.1a3]
+[2024-05-03 12:13:18] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-03 12:13:18] INFO root fetch - processPackages [multi-vector-simulator]: Downloading https://files.pythonhosted.org/packages/dd/7d/5a65dbda4f69bebf78896ee8cc035e443ecec5a976a4f2032b75372f5816/multi-vector-simulator-1.1.0rc2.tar.gz
+[2024-05-03 12:13:18] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/46/57/68b19f7bebf30775508b9c96557b3ba8bfaa56f681aa7efa90876018b9fb/sae_lens-1.2.0.tar.gz
+[2024-05-03 12:13:18] INFO root fetch - processPackages [ml4teens]: Downloading https://files.pythonhosted.org/packages/8e/ba/c8610434a1d93b0104ab4a8d14080ce01f323d3e9d94f512bd5fb242e5c5/ml4teens-0.1.35.tar.gz
+[2024-05-03 12:13:18] INFO root fetch - processPackages [gpas]: Downloading https://files.pythonhosted.org/packages/e0/9f/4b8f37ed98be64c4bb8a3a046ac3c299a27b83052d23eabbe2781ecacde4/gpas-1.0.1a3.tar.gz
+[2024-05-03 12:13:18] INFO root fetch - processPackages [detectools]: Downloading https://files.pythonhosted.org/packages/2a/62/c23823a4ea9703900d21dc83ca279fee4f754f59c0aef557d2286a72e774/detectools-0.1.4.tar.gz
+[2024-05-03 12:13:18] WARNING root fetch - processPackages [ml4teens]: Skipping package: exceeds size limit 22454866>=10485760
+[2024-05-03 12:13:18] INFO root fetch - main [MainThread]: End processing [ml4teens] error
+[2024-05-03 12:13:18] INFO root fetch - processPackages [pycrdt]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-03 12:13:18] INFO root fetch - processPackages [multi-vector-simulator]: Downloading https://files.pythonhosted.org/packages/3d/d3/db39cba703ff517f8ba8b4da0e600d1ae5ffd518769dbce76d2b4a80da13/multi_vector_simulator-1.1.1rc1.tar.gz
+[2024-05-03 12:13:18] INFO root fetch - processPackages [multi-vector-simulator]: executing diffoscope
+[2024-05-03 12:13:18] INFO root fetch - processPackages [multi-vector-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi-vector-simulator-1.1.0rc2.tar.gz tmp/multi_vector_simulator-1.1.1rc1.tar.gz --markdown 20240503/m/multi-vector-simulator/1.1.0rc2-1.1.1rc1/README.md --exclude *.pyd
+[2024-05-03 12:13:18] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/86/03/a8c43869089290a3a0c2c1d18bb0691be114d716e8e01e62cf7f0354cb98/sae_lens-1.3.0.tar.gz
+[2024-05-03 12:13:19] INFO root fetch - processPackages [detectools]: Downloading https://files.pythonhosted.org/packages/bd/62/44e26081f2bb42e3e1e98e1d74f391c32ebcb9780c10cb50c5c1021b2d2a/detectools-0.1.5.tar.gz
+[2024-05-03 12:13:19] INFO root fetch - processPackages [pycrdt]: Downloading https://files.pythonhosted.org/packages/93/23/0799d6c98c5ba4abf174c18a0b275626e439d9c9583ce663a124bf4d53e3/pycrdt-0.8.8.tar.gz
+[2024-05-03 12:13:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-03 12:13:19] INFO root fetch - processPackages [gpas]: Downloading https://files.pythonhosted.org/packages/19/39/f2e8dfa99c1031f5bebefffa9f5f17f5e17c37041c201f7a83f53d43cb8d/gpas-1.0.1a4.tar.gz
+[2024-05-03 12:13:19] INFO root fetch - processPackages [sae-lens]: executing diffoscope
+[2024-05-03 12:13:19] INFO root fetch - processPackages [sae-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae_lens-1.2.0.tar.gz tmp/sae_lens-1.3.0.tar.gz --markdown 20240503/s/sae-lens/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-03 12:13:19] INFO root fetch - processPackages [detectools]: executing diffoscope
+[2024-05-03 12:13:19] INFO root fetch - processPackages [detectools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detectools-0.1.4.tar.gz tmp/detectools-0.1.5.tar.gz --markdown 20240503/d/detectools/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 12:13:19] INFO root fetch - processPackages [gpas]: executing diffoscope
+[2024-05-03 12:13:19] INFO root fetch - processPackages [gpas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpas-1.0.1a3.tar.gz tmp/gpas-1.0.1a4.tar.gz --markdown 20240503/g/gpas/1.0.1a3-1.0.1a4/README.md --exclude *.pyd
+[2024-05-03 12:13:19] INFO root fetch - processPackages [pycrdt]: Downloading https://files.pythonhosted.org/packages/e1/8d/1a192121bb657c5e119f3f4d64361b806fcb9423021725407252a919e987/pycrdt-0.8.9.tar.gz
+[2024-05-03 12:13:19] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-03 12:13:19] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240503/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-03 12:13:19] INFO root fetch - processPackages [pycrdt]: executing diffoscope
+[2024-05-03 12:13:19] INFO root fetch - processPackages [pycrdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrdt-0.8.8.tar.gz tmp/pycrdt-0.8.9.tar.gz --markdown 20240503/p/pycrdt/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-03 12:13:19] INFO root fetch - processPackages [detectools]: Remove: archive file [/home/abi/fetcher/tmp/detectools-0.1.4.tar.gz]
+[2024-05-03 12:13:19] INFO root fetch - processPackages [detectools]: Remove: archive file [/home/abi/fetcher/tmp/detectools-0.1.5.tar.gz]
+[2024-05-03 12:13:19] INFO root fetch - main [MainThread]: End processing [detectools]: success
+[2024-05-03 12:13:19] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-1.2.0.tar.gz]
+[2024-05-03 12:13:19] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-1.3.0.tar.gz]
+[2024-05-03 12:13:19] INFO root fetch - main [MainThread]: End processing [sae-lens]: success
+[2024-05-03 12:13:20] INFO root fetch - processPackages [gpas]: Remove: archive file [/home/abi/fetcher/tmp/gpas-1.0.1a3.tar.gz]
+[2024-05-03 12:13:20] INFO root fetch - processPackages [gpas]: Remove: archive file [/home/abi/fetcher/tmp/gpas-1.0.1a4.tar.gz]
+[2024-05-03 12:13:20] INFO root fetch - main [MainThread]: End processing [gpas]: success
+[2024-05-03 12:13:20] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.8.tar.gz]
+[2024-05-03 12:13:20] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.9.tar.gz]
+[2024-05-03 12:13:20] INFO root fetch - main [MainThread]: End processing [pycrdt]: success
+[2024-05-03 12:13:20] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-03 12:13:20] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-03 12:13:20] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-03 12:13:20] INFO root fetch - processPackages [multi-vector-simulator]: Remove: archive file [/home/abi/fetcher/tmp/multi-vector-simulator-1.1.0rc2.tar.gz]
+[2024-05-03 12:13:20] INFO root fetch - processPackages [multi-vector-simulator]: Remove: archive file [/home/abi/fetcher/tmp/multi_vector_simulator-1.1.1rc1.tar.gz]
+[2024-05-03 12:13:20] INFO root fetch - main [MainThread]: End processing [multi-vector-simulator]: success
+[2024-05-03 12:13:20] INFO root fetch - main [MainThread]: Store serial: [23044362]
