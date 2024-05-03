@@ -1976,3 +1976,38 @@
 [2024-05-03 02:06:18] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240503.422.tar.gz]
 [2024-05-03 02:06:18] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-03 02:06:18] INFO root fetch - main [MainThread]: Store serial: [23038875]
+[2024-05-03 02:08:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038875]
+[2024-05-03 02:08:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2024-05-03 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timelink
+[2024-05-03 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PokerNow
+[2024-05-03 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libsrg-apps
+[2024-05-03 02:08:27] INFO root fetch - processPackages [libsrg-apps]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-03 02:08:27] INFO root fetch - processPackages [PokerNow]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-03 02:08:27] INFO root fetch - processPackages [timelink]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-03 02:08:27] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240502] Old Version: [0.0.8.dev20240501]
+[2024-05-03 02:08:28] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/4f/82/ce03847c2c153ec7e1647bc3eccfe7351359f3257fc0caeaff11cfaa3d05/pokernow-0.5.9.win-amd64.zip
+[2024-05-03 02:08:28] INFO root fetch - processPackages [timelink]: Downloading https://files.pythonhosted.org/packages/a7/0e/979ead86bb5e80e2e5844a38078751514641065eacb34810209d5c9776f0/timelink-1.1.7.tar.gz
+[2024-05-03 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/6d/f2/0a6301e159ab2787a9f01b99b5979b88bdf99e5114c0b6d16d35f08f9377/jaxutils-nightly-0.0.8.dev20240501.tar.gz
+[2024-05-03 02:08:28] WARNING root fetch - processPackages [timelink]: Skipping package: exceeds size limit 20796766>=10485760
+[2024-05-03 02:08:28] INFO root fetch - main [MainThread]: End processing [timelink] error
+[2024-05-03 02:08:28] INFO root fetch - processPackages [libsrg-apps]: Downloading https://files.pythonhosted.org/packages/93/7f/9eca479f2670a2385ef5617f055f8b376dfe00b2a60089f76f558ae7f269/libsrg_apps-0.1.0.tar.gz
+[2024-05-03 02:08:28] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/b3/10/f05f7e3c9948d1b108fbaf32d26a6e265039b53f8367e1e2cc9e34b0d84b/pokernow-0.6.0.win-amd64.zip
+[2024-05-03 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/91/56/5a27e6df4b551b457fc862787cb46f0703ab69916c8b8f4c29f0fdde0398/jaxutils-nightly-0.0.8.dev20240502.tar.gz
+[2024-05-03 02:08:28] INFO root fetch - processPackages [libsrg-apps]: Downloading https://files.pythonhosted.org/packages/17/0c/df0e527a5fd8f4bd1d5b134572fe8bd1d0a5ee0043f57f16059fc5d89f02/libsrg_apps-1.0.0.tar.gz
+[2024-05-03 02:08:28] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:08:28] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.5.9.win-amd64.zip tmp/pokernow-0.6.0.win-amd64.zip --markdown 20240503/P/PokerNow/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-03 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-03 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240501.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240502.tar.gz --markdown 20240503/j/jaxutils-nightly/0.0.8.dev20240501-0.0.8.dev20240502/README.md --exclude *.pyd
+[2024-05-03 02:08:28] INFO root fetch - processPackages [libsrg-apps]: executing diffoscope
+[2024-05-03 02:08:28] INFO root fetch - processPackages [libsrg-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg_apps-0.1.0.tar.gz tmp/libsrg_apps-1.0.0.tar.gz --markdown 20240503/l/libsrg-apps/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-03 02:08:29] INFO root fetch - processPackages [libsrg-apps]: Remove: archive file [/home/abi/fetcher/tmp/libsrg_apps-0.1.0.tar.gz]
+[2024-05-03 02:08:29] INFO root fetch - processPackages [libsrg-apps]: Remove: archive file [/home/abi/fetcher/tmp/libsrg_apps-1.0.0.tar.gz]
+[2024-05-03 02:08:29] INFO root fetch - main [MainThread]: End processing [libsrg-apps]: success
+[2024-05-03 02:08:29] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.5.9.win-amd64.zip]
+[2024-05-03 02:08:29] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.0.win-amd64.zip]
+[2024-05-03 02:08:29] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:08:29] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240501.tar.gz]
+[2024-05-03 02:08:29] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240502.tar.gz]
+[2024-05-03 02:08:29] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-03 02:08:29] INFO root fetch - main [MainThread]: Store serial: [23038886]
