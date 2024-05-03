@@ -22478,3 +22478,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:51:51] INFO root fetch - processPackages [orjson]: Remove: archive file [/home/abi/fetcher/tmp/orjson-3.9.9.tar.gz]
 [2024-05-03 16:51:51] INFO root fetch - main [MainThread]: End processing [orjson]: success
 [2024-05-03 16:51:51] INFO root fetch - main [MainThread]: Store serial: [23047419]
+[2024-05-03 16:54:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047419]
+[2024-05-03 16:54:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 16:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-s3
+[2024-05-03 16:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nmk-github
+[2024-05-03 16:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: es-testbed
+[2024-05-03 16:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lycoris-lora
+[2024-05-03 16:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: doupand
+[2024-05-03 16:54:21] INFO root fetch - processPackages [shipyard-s3]: New version: [0.1.5a0] Old Version: [0.1.4]
+[2024-05-03 16:54:21] INFO root fetch - processPackages [lycoris-lora]: New version: [2.3.0.dev8] Old Version: [2.3.0.dev7]
+[2024-05-03 16:54:21] INFO root fetch - processPackages [nmk-github]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 16:54:21] INFO root fetch - processPackages [shipyard-s3]: Downloading https://files.pythonhosted.org/packages/97/0c/5478b2c0dc4dc33057a4dc8be509ed54ae3a3ff916f1840f6f6b96bf21f9/shipyard_s3-0.1.4.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [es-testbed]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-03 16:54:21] INFO root fetch - processPackages [doupand]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 16:54:21] INFO root fetch - processPackages [nmk-github]: Downloading https://files.pythonhosted.org/packages/ee/b3/a53eb29e7c738160c9e69db0ec726c41c7ed3b9d5e71c393d7cbc531367a/nmk-github-0.8.0.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/7a/cf/36c0d0e3328e06574f45261863154f340284bc847decdcca8479ffee8e47/lycoris_lora-2.3.0.dev7.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [nmk-github]: Downloading https://files.pythonhosted.org/packages/16/54/bd96819d1ef5883c98af8bd9dfdb4b188afe5290e161c3357fde1fda81c0/nmk-github-0.9.0.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [doupand]: Downloading https://files.pythonhosted.org/packages/22/9b/638c14b89faa09da2cbdf642623533f943d041e0fddf40efeeef5421af13/doupand-1.0.8.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [es-testbed]: Downloading https://files.pythonhosted.org/packages/49/c4/b5bc9378b2eb94b4063d1db46673f54c96a2f2dde3bb02b5593e44ed34ca/es_testbed-0.6.0.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [shipyard-s3]: Downloading https://files.pythonhosted.org/packages/d5/a2/56d3d5db10fc22b58e7e8f847ae9afcda865246db8246af850b3e46a1acd/shipyard_s3-0.1.5a0.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [nmk-github]: executing diffoscope
+[2024-05-03 16:54:21] INFO root fetch - processPackages [nmk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmk-github-0.8.0.tar.gz tmp/nmk-github-0.9.0.tar.gz --markdown 20240503/n/nmk-github/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 16:54:21] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/fd/72/d0edd03383ce2316c5371dd33d304a06c68bdf13c9c717c8ec7bc02b7be5/lycoris_lora-2.3.0.dev8.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [shipyard-s3]: executing diffoscope
+[2024-05-03 16:54:21] INFO root fetch - processPackages [shipyard-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_s3-0.1.4.tar.gz tmp/shipyard_s3-0.1.5a0.tar.gz --markdown 20240503/s/shipyard-s3/0.1.4-0.1.5a0/README.md --exclude *.pyd
+[2024-05-03 16:54:21] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2024-05-03 16:54:21] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-2.3.0.dev7.tar.gz tmp/lycoris_lora-2.3.0.dev8.tar.gz --markdown 20240503/l/lycoris-lora/2.3.0.dev7-2.3.0.dev8/README.md --exclude *.pyd
+[2024-05-03 16:54:21] INFO root fetch - processPackages [doupand]: Downloading https://files.pythonhosted.org/packages/e4/c7/69f0ef1ce7133e4ee591b6961fbf86a58805f268e1f9b5f97ea9f24b0af2/doupand-1.0.9.tar.gz
+[2024-05-03 16:54:21] INFO root fetch - processPackages [es-testbed]: Downloading https://files.pythonhosted.org/packages/5b/25/9dea7ded5666bd08b7233fe211ef273995dc626482a70304795f166272bf/es_testbed-0.7.0.tar.gz
+[2024-05-03 16:54:22] INFO root fetch - processPackages [doupand]: executing diffoscope
+[2024-05-03 16:54:22] INFO root fetch - processPackages [doupand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doupand-1.0.8.tar.gz tmp/doupand-1.0.9.tar.gz --markdown 20240503/d/doupand/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 16:54:22] INFO root fetch - processPackages [es-testbed]: executing diffoscope
+[2024-05-03 16:54:22] INFO root fetch - processPackages [es-testbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_testbed-0.6.0.tar.gz tmp/es_testbed-0.7.0.tar.gz --markdown 20240503/e/es-testbed/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-03 16:54:22] INFO root fetch - processPackages [shipyard-s3]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_s3-0.1.4.tar.gz]
+[2024-05-03 16:54:22] INFO root fetch - processPackages [shipyard-s3]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_s3-0.1.5a0.tar.gz]
+[2024-05-03 16:54:22] INFO root fetch - main [MainThread]: End processing [shipyard-s3]: success
+[2024-05-03 16:54:22] INFO root fetch - processPackages [nmk-github]: Remove: archive file [/home/abi/fetcher/tmp/nmk-github-0.8.0.tar.gz]
+[2024-05-03 16:54:22] INFO root fetch - processPackages [nmk-github]: Remove: archive file [/home/abi/fetcher/tmp/nmk-github-0.9.0.tar.gz]
+[2024-05-03 16:54:22] INFO root fetch - main [MainThread]: End processing [nmk-github]: success
+[2024-05-03 16:54:22] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev7.tar.gz]
+[2024-05-03 16:54:22] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev8.tar.gz]
+[2024-05-03 16:54:22] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2024-05-03 16:54:22] INFO root fetch - processPackages [doupand]: Remove: archive file [/home/abi/fetcher/tmp/doupand-1.0.8.tar.gz]
+[2024-05-03 16:54:22] INFO root fetch - processPackages [doupand]: Remove: archive file [/home/abi/fetcher/tmp/doupand-1.0.9.tar.gz]
+[2024-05-03 16:54:22] INFO root fetch - main [MainThread]: End processing [doupand]: success
+[2024-05-03 16:54:23] INFO root fetch - processPackages [es-testbed]: Remove: archive file [/home/abi/fetcher/tmp/es_testbed-0.6.0.tar.gz]
+[2024-05-03 16:54:23] INFO root fetch - processPackages [es-testbed]: Remove: archive file [/home/abi/fetcher/tmp/es_testbed-0.7.0.tar.gz]
+[2024-05-03 16:54:23] INFO root fetch - main [MainThread]: End processing [es-testbed]: success
+[2024-05-03 16:54:23] INFO root fetch - main [MainThread]: Store serial: [23047443]
