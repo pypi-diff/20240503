@@ -11567,3 +11567,33 @@
 [2024-05-03 08:58:49] INFO root fetch - processPackages [astroquery]: Remove: archive file [/home/abi/fetcher/tmp/astroquery-0.4.dev5750.tar.gz]
 [2024-05-03 08:58:49] INFO root fetch - main [MainThread]: End processing [astroquery]: success
 [2024-05-03 08:58:49] INFO root fetch - main [MainThread]: Store serial: [23042420]
+[2024-05-03 09:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042420]
+[2024-05-03 09:00:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genai-apis
+[2024-05-03 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hmx-v2-python-test
+[2024-05-03 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fpp-sle
+[2024-05-03 09:00:57] INFO root fetch - processPackages [genai-apis]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 09:00:58] INFO root fetch - processPackages [fpp-sle]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-03 09:00:58] INFO root fetch - processPackages [hmx-v2-python-test]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-03 09:00:58] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/ae/d7/3100f007ebe863ef1804ceeaaa1d52e487dd34c4022594c7443c8b3bf890/genai_apis-0.0.1-py3-none-any.whl
+[2024-05-03 09:00:58] INFO root fetch - processPackages [fpp-sle]: Downloading https://files.pythonhosted.org/packages/e4/bb/8ecc8b655600dd53493af1b9103cd36eba0685859b39c7cd8923a975b534/fpp_sle-0.2.3.tar.gz
+[2024-05-03 09:00:58] INFO root fetch - processPackages [hmx-v2-python-test]: Downloading https://files.pythonhosted.org/packages/11/29/008e5e071381b045846cdc50278ec9a8c4a29b3f58aea5b759427399b7a4/hmx_v2_python_test-1.2.2.tar.gz
+[2024-05-03 09:00:58] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/a5/f9/1d850dff888deff27f19c50fd51c09edb5af7103ee7cfa3f7e0a12ee1a48/genai_apis-0.0.2-py3-none-any.whl
+[2024-05-03 09:00:58] INFO root fetch - processPackages [fpp-sle]: Downloading https://files.pythonhosted.org/packages/be/fc/49780fb63eda40c74f73b8788722489c45c68ac1dc19a6dc68be2540dbab/fpp_sle-0.3.0.tar.gz
+[2024-05-03 09:00:58] INFO root fetch - processPackages [genai-apis]: executing diffoscope
+[2024-05-03 09:00:58] INFO root fetch - processPackages [genai-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genai_apis-0.0.1-py3-none-any.whl.zip tmp/genai_apis-0.0.2-py3-none-any.whl.zip --markdown 20240503/g/genai-apis/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 09:00:58] INFO root fetch - processPackages [hmx-v2-python-test]: Downloading https://files.pythonhosted.org/packages/06/ac/ac1275653b0e4a81da26d01b0da99f24d8b490ebee3084fa69816125a687/hmx_v2_python_test-1.2.3.tar.gz
+[2024-05-03 09:00:58] INFO root fetch - processPackages [fpp-sle]: executing diffoscope
+[2024-05-03 09:00:58] INFO root fetch - processPackages [fpp-sle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpp_sle-0.2.3.tar.gz tmp/fpp_sle-0.3.0.tar.gz --markdown 20240503/f/fpp-sle/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-03 09:00:58] INFO root fetch - processPackages [hmx-v2-python-test]: executing diffoscope
+[2024-05-03 09:00:58] INFO root fetch - processPackages [hmx-v2-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmx_v2_python_test-1.2.2.tar.gz tmp/hmx_v2_python_test-1.2.3.tar.gz --markdown 20240503/h/hmx-v2-python-test/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-03 09:00:59] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.1-py3-none-any.whl.zip]
+[2024-05-03 09:00:59] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.2-py3-none-any.whl.zip]
+[2024-05-03 09:00:59] INFO root fetch - main [MainThread]: End processing [genai-apis]: success
+[2024-05-03 09:00:59] INFO root fetch - processPackages [fpp-sle]: Remove: archive file [/home/abi/fetcher/tmp/fpp_sle-0.2.3.tar.gz]
+[2024-05-03 09:00:59] INFO root fetch - processPackages [fpp-sle]: Remove: archive file [/home/abi/fetcher/tmp/fpp_sle-0.3.0.tar.gz]
+[2024-05-03 09:00:59] INFO root fetch - main [MainThread]: End processing [fpp-sle]: success
+[2024-05-03 09:00:59] INFO root fetch - processPackages [hmx-v2-python-test]: Remove: archive file [/home/abi/fetcher/tmp/hmx_v2_python_test-1.2.2.tar.gz]
+[2024-05-03 09:00:59] INFO root fetch - processPackages [hmx-v2-python-test]: Remove: archive file [/home/abi/fetcher/tmp/hmx_v2_python_test-1.2.3.tar.gz]
+[2024-05-03 09:00:59] INFO root fetch - main [MainThread]: End processing [hmx-v2-python-test]: success
+[2024-05-03 09:00:59] INFO root fetch - main [MainThread]: Store serial: [23042428]
