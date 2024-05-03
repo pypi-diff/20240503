@@ -21653,3 +21653,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:28:14] INFO root fetch - processPackages [romanisim]: Remove: archive file [/home/abi/fetcher/tmp/romanisim-0.5.1.tar.gz]
 [2024-05-03 16:28:14] INFO root fetch - main [MainThread]: End processing [romanisim]: success
 [2024-05-03 16:28:14] INFO root fetch - main [MainThread]: Store serial: [23047083]
+[2024-05-03 16:30:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047083]
+[2024-05-03 16:30:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 16:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lfg-llama
+[2024-05-03 16:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teamdbapi
+[2024-05-03 16:30:44] INFO root fetch - processPackages [lfg-llama]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-03 16:30:44] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/0f/1b/929146a35d2407e1322e3bb9572dcd72cba0fcfd1e666549135dce44636c/lfg_llama-1.1.1.tar.gz
+[2024-05-03 16:30:44] INFO root fetch - processPackages [teamdbapi]: New version: [3.0.0] Old Version: [2.37.2]
+[2024-05-03 16:30:44] INFO root fetch - processPackages [teamdbapi]: Downloading https://files.pythonhosted.org/packages/a3/ac/642983655d084d602300ea5a28f5e73935b37267dc29411970178fd7d0e7/teamdbapi-2.37.2.tar.gz
+[2024-05-03 16:30:44] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/14/3a/c795dc5bb1cd37512e4170c27b5b34017040a413cf9ad99bb535de9e1a53/lfg_llama-1.1.2.tar.gz
+[2024-05-03 16:30:44] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-03 16:30:44] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.1.1.tar.gz tmp/lfg_llama-1.1.2.tar.gz --markdown 20240503/l/lfg-llama/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-03 16:30:45] INFO root fetch - processPackages [teamdbapi]: Downloading https://files.pythonhosted.org/packages/bf/83/a3fd861072275ae436e5728a8c32b736a071615d577bbd5b5a50442b6b41/teamdbapi-3.0.0-py3-none-any.whl
+[2024-05-03 16:30:45] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.1.1.tar.gz]
+[2024-05-03 16:30:45] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.1.2.tar.gz]
+[2024-05-03 16:30:45] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-03 16:30:46] INFO root fetch - processPackages [teamdbapi]: executing diffoscope
+[2024-05-03 16:30:46] INFO root fetch - processPackages [teamdbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamdbapi-2.37.2.tar.gz tmp/teamdbapi-3.0.0-py3-none-any.whl.zip --markdown 20240503/t/teamdbapi/2.37.2-3.0.0/README.md --exclude *.pyd
+[2024-05-03 16:30:46] INFO root fetch - processPackages [teamdbapi]: Remove: archive file [/home/abi/fetcher/tmp/teamdbapi-2.37.2.tar.gz]
+[2024-05-03 16:30:46] INFO root fetch - processPackages [teamdbapi]: Remove: archive file [/home/abi/fetcher/tmp/teamdbapi-3.0.0-py3-none-any.whl.zip]
+[2024-05-03 16:30:46] INFO root fetch - main [MainThread]: End processing [teamdbapi]: success
+[2024-05-03 16:30:46] INFO root fetch - main [MainThread]: Store serial: [23047086]
