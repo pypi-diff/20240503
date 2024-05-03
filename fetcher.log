@@ -16378,3 +16378,75 @@
 [2024-05-03 12:37:46] INFO root fetch - processPackages [coqui-tts-trainer]: Remove: archive file [/home/abi/fetcher/tmp/coqui_tts_trainer-0.1.1.tar.gz]
 [2024-05-03 12:37:46] INFO root fetch - main [MainThread]: End processing [coqui-tts-trainer]: success
 [2024-05-03 12:37:46] INFO root fetch - main [MainThread]: Store serial: [23044701]
+[2024-05-03 12:40:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044701]
+[2024-05-03 12:40:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argus-server
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyastroweatherio
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raugraf
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: random-file-generator
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypilot-nightly
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pico-server
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymemgpt-nightly
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openstack-flavor-manager
+[2024-05-03 12:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: buz
+[2024-05-03 12:40:17] INFO root fetch - processPackages [raugraf]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-05-03 12:40:17] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-03 12:40:17] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240502] Old Version: [1.0.0.dev20240501]
+[2024-05-03 12:40:17] INFO root fetch - processPackages [openstack-flavor-manager]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-03 12:40:17] WARNING root fetch - processPackages [pico-server]: Skipping, unable to determine old version
+[2024-05-03 12:40:17] WARNING root fetch - processPackages [random-file-generator]: Skipping, unable to determine old version
+[2024-05-03 12:40:17] INFO root fetch - main [MainThread]: End processing [pico-server] error
+[2024-05-03 12:40:17] INFO root fetch - main [MainThread]: End processing [random-file-generator] error
+[2024-05-03 12:40:17] INFO root fetch - processPackages [buz]: New version: [2.6.6rc1] Old Version: [2.6.5rc1]
+[2024-05-03 12:40:17] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.50.0.dev7] Old Version: [0.50.0.dev6]
+[2024-05-03 12:40:17] INFO root fetch - processPackages [argus-server]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-03 12:40:17] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-03 12:40:17] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/be/3e/45bc4b32d333264071ad22a62b7fd993deba7a9dfaa3df3d255fe25634d4/skypilot_nightly-1.0.0.dev20240501.tar.gz
+[2024-05-03 12:40:17] INFO root fetch - processPackages [raugraf]: Downloading https://files.pythonhosted.org/packages/2b/03/3096247b81b44206557fbc30eb2e7bbe3a6edc4c0921ac31bbc7d27a6500/raugraf-0.0.1.tar.gz
+[2024-05-03 12:40:17] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/81/03/571c0c24203f0ba82b9b821ff00f41999f414e1d3069d2539a1123211030/pyastroweatherio-0.50.0.dev6.tar.gz
+[2024-05-03 12:40:17] INFO root fetch - processPackages [argus-server]: Downloading https://files.pythonhosted.org/packages/a8/3f/7cd338049a43602d3abaa1f72e7ccf4744ffb2a796b8546079a53b76aeb3/argus-server-1.8.1.tar.gz
+[2024-05-03 12:40:17] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/ea/98/82de0fcab620fa156654cb96d07379906bd061c0f8ce764fce813b1dcb65/buz-2.6.5rc1.tar.gz
+[2024-05-03 12:40:17] INFO root fetch - processPackages [openstack-flavor-manager]: Downloading https://files.pythonhosted.org/packages/f9/65/b9eca8f6922b45f5cedb15878fd13310d66a49a266b18adb701b62b79f29/openstack-flavor-manager-0.3.0.tar.gz
+[2024-05-03 12:40:17] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-03 12:40:18] INFO root fetch - processPackages [raugraf]: Downloading https://files.pythonhosted.org/packages/77/a8/ca716cad85972f9ecf575c8e1554a90b10cf7108e079cd61abb438ae5adc/raugraf-0.0.4.tar.gz
+[2024-05-03 12:40:18] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/73/0c/03b2fdf6a05f5ba2e9c0c7b54fbd1bd9991f8dce3f79fd27ff026e4e6a4e/skypilot_nightly-1.0.0.dev20240502.tar.gz
+[2024-05-03 12:40:18] INFO root fetch - processPackages [raugraf]: executing diffoscope
+[2024-05-03 12:40:18] INFO root fetch - processPackages [raugraf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raugraf-0.0.1.tar.gz tmp/raugraf-0.0.4.tar.gz --markdown 20240503/r/raugraf/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-05-03 12:40:18] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-03 12:40:18] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240503/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-03 12:40:18] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/29/77/67d934f021f86d91046c94b0e8ec8740684e3adc1a8dc4827be60417f31f/pyastroweatherio-0.50.0.dev7.tar.gz
+[2024-05-03 12:40:18] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/89/a0/f465bad7e9c327fcf225eac1d33a32d49daf1735224e06801e3de2fed41b/buz-2.6.6rc1.tar.gz
+[2024-05-03 12:40:18] INFO root fetch - processPackages [argus-server]: Downloading https://files.pythonhosted.org/packages/be/41/c49adda62530c8c78d63f1d19411194dfd8a13596fc82aa22fd4f082c460/argus-server-1.9.0.tar.gz
+[2024-05-03 12:40:18] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-05-03 12:40:18] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.50.0.dev6.tar.gz tmp/pyastroweatherio-0.50.0.dev7.tar.gz --markdown 20240503/p/pyastroweatherio/0.50.0.dev6-0.50.0.dev7/README.md --exclude *.pyd
+[2024-05-03 12:40:18] INFO root fetch - processPackages [buz]: executing diffoscope
+[2024-05-03 12:40:18] INFO root fetch - processPackages [buz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buz-2.6.5rc1.tar.gz tmp/buz-2.6.6rc1.tar.gz --markdown 20240503/b/buz/2.6.5rc1-2.6.6rc1/README.md --exclude *.pyd
+[2024-05-03 12:40:18] INFO root fetch - processPackages [openstack-flavor-manager]: Downloading https://files.pythonhosted.org/packages/6b/c7/c86e9b9386ae8aec6bb914fb87cbee106016fffd41d7dc10bf8838ad28bd/openstack-flavor-manager-0.4.0.tar.gz
+[2024-05-03 12:40:18] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-03 12:40:18] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240501.tar.gz tmp/skypilot_nightly-1.0.0.dev20240502.tar.gz --markdown 20240503/s/skypilot-nightly/1.0.0.dev20240501-1.0.0.dev20240502/README.md --exclude *.pyd
+[2024-05-03 12:40:18] INFO root fetch - processPackages [argus-server]: executing diffoscope
+[2024-05-03 12:40:18] INFO root fetch - processPackages [argus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-server-1.8.1.tar.gz tmp/argus-server-1.9.0.tar.gz --markdown 20240503/a/argus-server/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-03 12:40:18] INFO root fetch - processPackages [openstack-flavor-manager]: executing diffoscope
+[2024-05-03 12:40:18] INFO root fetch - processPackages [openstack-flavor-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstack-flavor-manager-0.3.0.tar.gz tmp/openstack-flavor-manager-0.4.0.tar.gz --markdown 20240503/o/openstack-flavor-manager/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-03 12:40:18] INFO root fetch - processPackages [raugraf]: Remove: archive file [/home/abi/fetcher/tmp/raugraf-0.0.1.tar.gz]
+[2024-05-03 12:40:18] INFO root fetch - processPackages [raugraf]: Remove: archive file [/home/abi/fetcher/tmp/raugraf-0.0.4.tar.gz]
+[2024-05-03 12:40:18] INFO root fetch - main [MainThread]: End processing [raugraf]: success
+[2024-05-03 12:40:19] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev6.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev7.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-05-03 12:40:19] INFO root fetch - processPackages [openstack-flavor-manager]: Remove: archive file [/home/abi/fetcher/tmp/openstack-flavor-manager-0.3.0.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - processPackages [openstack-flavor-manager]: Remove: archive file [/home/abi/fetcher/tmp/openstack-flavor-manager-0.4.0.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - main [MainThread]: End processing [openstack-flavor-manager]: success
+[2024-05-03 12:40:19] INFO root fetch - processPackages [buz]: Remove: archive file [/home/abi/fetcher/tmp/buz-2.6.5rc1.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - processPackages [buz]: Remove: archive file [/home/abi/fetcher/tmp/buz-2.6.6rc1.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - main [MainThread]: End processing [buz]: success
+[2024-05-03 12:40:19] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-03 12:40:19] INFO root fetch - processPackages [argus-server]: Remove: archive file [/home/abi/fetcher/tmp/argus-server-1.8.1.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - processPackages [argus-server]: Remove: archive file [/home/abi/fetcher/tmp/argus-server-1.9.0.tar.gz]
+[2024-05-03 12:40:19] INFO root fetch - main [MainThread]: End processing [argus-server]: success
+[2024-05-03 12:40:20] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240501.tar.gz]
+[2024-05-03 12:40:20] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240502.tar.gz]
+[2024-05-03 12:40:20] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-03 12:40:20] INFO root fetch - main [MainThread]: Store serial: [23044731]
