@@ -2576,3 +2576,24 @@
 [2024-05-03 02:33:27] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.4.2.tar.gz]
 [2024-05-03 02:33:27] INFO root fetch - main [MainThread]: End processing [bambot]: success
 [2024-05-03 02:33:27] INFO root fetch - main [MainThread]: Store serial: [23039086]
+[2024-05-03 02:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039086]
+[2024-05-03 02:35:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitpapa-pay
+[2024-05-03 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PokerNow
+[2024-05-03 02:35:36] INFO root fetch - processPackages [PokerNow]: New version: [0.6.85] Old Version: [0.6.75]
+[2024-05-03 02:35:36] INFO root fetch - processPackages [bitpapa-pay]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 02:35:36] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/0d/25/03c55b171d9eaabba5dd4b0532ce50bd2ddd0e78ec2ca172e4f8d01223bc/pokernow-0.6.75.tar.gz
+[2024-05-03 02:35:36] INFO root fetch - processPackages [bitpapa-pay]: Downloading https://files.pythonhosted.org/packages/19/b0/a60ae26a2a5ac69e087ab9d9b7a44bc2efca62bd4d30bc5cb2fe560f8097/bitpapa_pay-0.1.7.tar.gz
+[2024-05-03 02:35:36] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/a7/b8/1f4e959383663192a8e50e784789d532e3293625b255b4f8c138730942b7/pokernow-0.6.85.tar.gz
+[2024-05-03 02:35:36] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:35:36] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.6.75.tar.gz tmp/pokernow-0.6.85.tar.gz --markdown 20240503/P/PokerNow/0.6.75-0.6.85/README.md --exclude *.pyd
+[2024-05-03 02:35:36] INFO root fetch - processPackages [bitpapa-pay]: Downloading https://files.pythonhosted.org/packages/51/a1/7e8922b377e3045ebc94dfcec02bfa590d4fab725480c7c0abab02232ee5/bitpapa_pay-0.1.8.tar.gz
+[2024-05-03 02:35:36] INFO root fetch - processPackages [bitpapa-pay]: executing diffoscope
+[2024-05-03 02:35:36] INFO root fetch - processPackages [bitpapa-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitpapa_pay-0.1.7.tar.gz tmp/bitpapa_pay-0.1.8.tar.gz --markdown 20240503/b/bitpapa-pay/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 02:35:37] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.75.tar.gz]
+[2024-05-03 02:35:37] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.85.tar.gz]
+[2024-05-03 02:35:37] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:35:37] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.7.tar.gz]
+[2024-05-03 02:35:37] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.8.tar.gz]
+[2024-05-03 02:35:37] INFO root fetch - main [MainThread]: End processing [bitpapa-pay]: success
+[2024-05-03 02:35:37] INFO root fetch - main [MainThread]: Store serial: [23039091]
