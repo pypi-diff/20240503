@@ -9616,3 +9616,29 @@
 [2024-05-03 07:09:10] INFO root fetch - processPackages [odoo14-addon-product-packaging-type-vendor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_packaging_type_vendor-14.0.1.0.1.dev3-py3-none-any.whl.zip]
 [2024-05-03 07:09:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-packaging-type-vendor]: success
 [2024-05-03 07:09:10] INFO root fetch - main [MainThread]: Store serial: [23041690]
+[2024-05-03 07:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041690]
+[2024-05-03 07:11:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 07:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neo4py
+[2024-05-03 07:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neo4py
+[2024-05-03 07:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neo4py
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: New version: [1.1.8b0] Old Version: [1.1.7b0]
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: New version: [1.1.8b0] Old Version: [1.1.7b0]
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: New version: [1.1.8b0] Old Version: [1.1.7b0]
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/f5/de/884b0223b6b552cb64f093671c58108eba2118516884d1834b067f21612c/neo4py-1.1.7b0.tar.gz
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/f5/de/884b0223b6b552cb64f093671c58108eba2118516884d1834b067f21612c/neo4py-1.1.7b0.tar.gz
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/f5/de/884b0223b6b552cb64f093671c58108eba2118516884d1834b067f21612c/neo4py-1.1.7b0.tar.gz
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/be/6e/fd3aca1b1d72be799df4ec6313d000e7c9fc7ed513663c9999375403c497/neo4py-1.1.8b0.tar.gz
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/be/6e/fd3aca1b1d72be799df4ec6313d000e7c9fc7ed513663c9999375403c497/neo4py-1.1.8b0.tar.gz
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/be/6e/fd3aca1b1d72be799df4ec6313d000e7c9fc7ed513663c9999375403c497/neo4py-1.1.8b0.tar.gz
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: executing diffoscope
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4py-1.1.7b0.tar.gz tmp/neo4py-1.1.8b0.tar.gz --markdown 20240503/n/neo4py/1.1.7b0-1.1.8b0/README.md --exclude *.pyd
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: executing diffoscope
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4py-1.1.7b0.tar.gz tmp/neo4py-1.1.8b0.tar.gz --markdown 20240503/n/neo4py/1.1.7b0-1.1.8b0/README.md --exclude *.pyd
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: executing diffoscope
+[2024-05-03 07:11:20] INFO root fetch - processPackages [neo4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4py-1.1.7b0.tar.gz tmp/neo4py-1.1.8b0.tar.gz --markdown 20240503/n/neo4py/1.1.7b0-1.1.8b0/README.md --exclude *.pyd
+[2024-05-03 07:11:21] INFO root fetch - processPackages [neo4py]: Remove: archive file [/home/abi/fetcher/tmp/neo4py-1.1.7b0.tar.gz]
+[2024-05-03 07:11:21] INFO root fetch - processPackages [neo4py]: Remove: archive file [/home/abi/fetcher/tmp/neo4py-1.1.8b0.tar.gz]
+[2024-05-03 07:11:21] INFO root fetch - main [MainThread]: End processing [neo4py]: success
+[2024-05-03 07:11:21] INFO root fetch - main [MainThread]: End processing [neo4py]: success
+[2024-05-03 07:11:21] INFO root fetch - main [MainThread]: End processing [neo4py]: success
+[2024-05-03 07:11:21] INFO root fetch - main [MainThread]: Store serial: [23041701]
