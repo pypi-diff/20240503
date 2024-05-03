@@ -11312,3 +11312,78 @@
 [2024-05-03 08:49:54] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.3.tar.gz]
 [2024-05-03 08:49:54] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
 [2024-05-03 08:49:54] INFO root fetch - main [MainThread]: Store serial: [23042314]
+[2024-05-03 08:51:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042314]
+[2024-05-03 08:52:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 08:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fixms
+[2024-05-03 08:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-ipython-client
+[2024-05-03 08:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-lib
+[2024-05-03 08:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-server
+[2024-05-03 08:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-bec-e2e
+[2024-05-03 08:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glue-utils
+[2024-05-03 08:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: habluetooth
+[2024-05-03 08:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-intercompany-shared-contact
+[2024-05-03 08:52:02] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-03 08:52:02] INFO root fetch - processPackages [bec-lib]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-03 08:52:02] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-03 08:52:02] INFO root fetch - processPackages [bec-server]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-03 08:52:02] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/32/25/26221a302c5d813470abbed9e469573445b2d6223cb10d5e831a1c2edcbc/pytest_bec_e2e-2.9.5.tar.gz
+[2024-05-03 08:52:02] INFO root fetch - processPackages [fixms]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-03 08:52:02] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/1c/28/ac66835e54a2a219bb2fcab250ebe5175556448adfd9731171c446d39b8a/bec_lib-2.9.5.tar.gz
+[2024-05-03 08:52:02] INFO root fetch - processPackages [glue-utils]: New version: [0.2.1rc1] Old Version: [0.2.0]
+[2024-05-03 08:52:02] INFO root fetch - processPackages [odoo14-addon-intercompany-shared-contact]: New version: [14.0.1.1.3.dev3] Old Version: [14.0.1.1.3.dev2]
+[2024-05-03 08:52:02] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-05-03 08:52:02] INFO root fetch - processPackages [habluetooth]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-03 08:52:02] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5c/a6/47395050d9ef43b8ac69afbd19752c840a326d130902d672b143eb1b2011/bec_server-2.9.5.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/ef/ec/3f650e7a24f425b373fda23a89f58ef7387f0b496a0daea724d7931cf782/fixms-0.2.6.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [odoo14-addon-intercompany-shared-contact]: Downloading https://files.pythonhosted.org/packages/c0/81/84e04800467de62e96afd62814935310061930c54bdffc0e8be929e7ecf5/odoo14_addon_intercompany_shared_contact-14.0.1.1.3.dev2-py3-none-any.whl
+[2024-05-03 08:52:03] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/dd/3e/5a5a07da24c33799044f49ef96bf055ff51edbeefaf553d7385faacdfad8/glue_utils-0.2.0.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/52/58/6a01c0215232031def0ac36fe0432d3a9980bab8829664847cd95bfcd44e/pytest_bec_e2e-2.9.6.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [habluetooth]: Downloading https://files.pythonhosted.org/packages/0f/63/583254fdca10e9084aaa73708550ccc85d9a38edc471591b0f7689e8670d/habluetooth-3.0.0.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4d/a2/f0700429367390986fd99050f855b29188048689afabf13076cd77bb4598/bec_lib-2.9.6.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/33/b7/3b469dec2efe5a33d7abfab6b9c31025e32485e7a9d400424e12cd0fd084/bec_server-2.9.6.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-05-03 08:52:03] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.9.5.tar.gz tmp/pytest_bec_e2e-2.9.6.tar.gz --markdown 20240503/p/pytest-bec-e2e/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.9.5.tar.gz tmp/bec_lib-2.9.6.tar.gz --markdown 20240503/b/bec-lib/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.9.5.tar.gz tmp/bec_server-2.9.6.tar.gz --markdown 20240503/b/bec-server/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-03 08:52:03] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/b9/83/cb56d5ebf2534e99165ba6036c1bbf8adca99aebc2e1c2507d343ef45a4a/fixms-0.2.7.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-05-03 08:52:03] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240503/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-03 08:52:03] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/8a/04/8811442d08915e3c55d40e638e71139ee43555713d5c8dac0433b7af7377/glue_utils-0.2.1rc1.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [habluetooth]: Downloading https://files.pythonhosted.org/packages/f8/a5/0ec3f0fadc6be4294589e1494d20f72faf76378ef23a4e31bc984ccc0a9e/habluetooth-3.0.1.tar.gz
+[2024-05-03 08:52:03] INFO root fetch - processPackages [fixms]: executing diffoscope
+[2024-05-03 08:52:03] INFO root fetch - processPackages [fixms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixms-0.2.6.tar.gz tmp/fixms-0.2.7.tar.gz --markdown 20240503/f/fixms/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-03 08:52:03] INFO root fetch - processPackages [odoo14-addon-intercompany-shared-contact]: Downloading https://files.pythonhosted.org/packages/56/d1/5b2eb640b220f1992728909e35fc55c9e9552e5ddeea82d7b4ce18bbbdff/odoo14_addon_intercompany_shared_contact-14.0.1.1.3.dev3-py3-none-any.whl
+[2024-05-03 08:52:03] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-03 08:52:03] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.2.0.tar.gz tmp/glue_utils-0.2.1rc1.tar.gz --markdown 20240503/g/glue-utils/0.2.0-0.2.1rc1/README.md --exclude *.pyd
+[2024-05-03 08:52:03] INFO root fetch - processPackages [habluetooth]: executing diffoscope
+[2024-05-03 08:52:03] INFO root fetch - processPackages [habluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habluetooth-3.0.0.tar.gz tmp/habluetooth-3.0.1.tar.gz --markdown 20240503/h/habluetooth/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-03 08:52:03] INFO root fetch - processPackages [odoo14-addon-intercompany-shared-contact]: executing diffoscope
+[2024-05-03 08:52:03] INFO root fetch - processPackages [odoo14-addon-intercompany-shared-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_intercompany_shared_contact-14.0.1.1.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_intercompany_shared_contact-14.0.1.1.3.dev3-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-intercompany-shared-contact/14.0.1.1.3.dev2-14.0.1.1.3.dev3/README.md --exclude *.pyd
+[2024-05-03 08:52:04] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.5.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.6.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-05-03 08:52:04] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.2.6.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.2.7.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [fixms]: success
+[2024-05-03 08:52:04] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.0.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.1rc1.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-03 08:52:04] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.5.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.6.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-05-03 08:52:04] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.5.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.6.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-05-03 08:52:04] INFO root fetch - processPackages [habluetooth]: Remove: archive file [/home/abi/fetcher/tmp/habluetooth-3.0.0.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [habluetooth]: Remove: archive file [/home/abi/fetcher/tmp/habluetooth-3.0.1.tar.gz]
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [habluetooth]: success
+[2024-05-03 08:52:04] INFO root fetch - processPackages [odoo14-addon-intercompany-shared-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_intercompany_shared_contact-14.0.1.1.3.dev2-py3-none-any.whl.zip]
+[2024-05-03 08:52:04] INFO root fetch - processPackages [odoo14-addon-intercompany-shared-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_intercompany_shared_contact-14.0.1.1.3.dev3-py3-none-any.whl.zip]
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-intercompany-shared-contact]: success
+[2024-05-03 08:52:04] INFO root fetch - main [MainThread]: Store serial: [23042337]
