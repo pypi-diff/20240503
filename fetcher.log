@@ -10348,3 +10348,33 @@
 [2024-05-03 08:01:27] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_reporting-13.0.20240503.0-py3-none-any.whl.zip]
 [2024-05-03 08:01:27] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-stock-logistics-reporting]: success
 [2024-05-03 08:01:27] INFO root fetch - main [MainThread]: Store serial: [23041959]
+[2024-05-03 08:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041959]
+[2024-05-03 08:03:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 08:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-request
+[2024-05-03 08:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywikibot
+[2024-05-03 08:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-stock-request
+[2024-05-03 08:03:37] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.7]
+[2024-05-03 08:03:37] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/11/8c/9fbd4fd236211b09082314d88b2a37814c743959b046ae8c85d5b3ebad82/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-03 08:03:37] INFO root fetch - processPackages [odoo12-addon-stock-request]: New version: [12.0.1.5.0.99.dev9] Old Version: [12.0.1.5.0.99.dev8]
+[2024-05-03 08:03:37] INFO root fetch - processPackages [pywikibot]: New version: [9.1.2] Old Version: [9.1.1]
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/81/22/374ed174abcecff46bf56f927a1e73cbb29399bb6436a66956d405cbd28f/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/3a/dc/bc42f5c4c46cdaa7720386252d0f19d321794211e108148c3930ace4cd32/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl
+[2024-05-03 08:03:38] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/fa/cc/b990849852b313fc736c985d1d58aaf7d9548b5b78d196216368ed7b7f4b/pywikibot-9.1.1.tar.gz
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-stock-request/17.0.1.0.0.7-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/ac/b2/a9bece9f7386e26cb70f57438f2ad264677d4ce0c0eaec498fc9fb40d7d2/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl
+[2024-05-03 08:03:38] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/5b/27/ea1e8f1e2e0781bfc78b27d87120ecc4da953264e7d7934075eb37ecb798/pywikibot-9.1.2.tar.gz
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo12-addon-stock-request]: executing diffoscope
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo12-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip --markdown 20240503/o/odoo12-addon-stock-request/12.0.1.5.0.99.dev8-12.0.1.5.0.99.dev9/README.md --exclude *.pyd
+[2024-05-03 08:03:38] INFO root fetch - processPackages [pywikibot]: executing diffoscope
+[2024-05-03 08:03:38] INFO root fetch - processPackages [pywikibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywikibot-9.1.1.tar.gz tmp/pywikibot-9.1.2.tar.gz --markdown 20240503/p/pywikibot/9.1.1-9.1.2/README.md --exclude *.pyd
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-03 08:03:38] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 08:03:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-03 08:03:39] INFO root fetch - processPackages [odoo12-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip]
+[2024-05-03 08:03:39] INFO root fetch - processPackages [odoo12-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip]
+[2024-05-03 08:03:39] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-request]: success
+[2024-05-03 08:03:39] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-9.1.1.tar.gz]
+[2024-05-03 08:03:39] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-9.1.2.tar.gz]
+[2024-05-03 08:03:39] INFO root fetch - main [MainThread]: End processing [pywikibot]: success
+[2024-05-03 08:03:39] INFO root fetch - main [MainThread]: Store serial: [23041968]
