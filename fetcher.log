@@ -9320,3 +9320,33 @@
 [2024-05-03 06:40:52] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
 [2024-05-03 06:40:52] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
 [2024-05-03 06:40:52] INFO root fetch - main [MainThread]: Store serial: [23041575]
+[2024-05-03 06:42:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041575]
+[2024-05-03 06:43:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 06:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo2docs
+[2024-05-03 06:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SparkleLogging
+[2024-05-03 06:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ast-grep-cli
+[2024-05-03 06:43:00] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 06:43:00] INFO root fetch - processPackages [SparkleLogging]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-03 06:43:00] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-03 06:43:00] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 06:43:00] INFO root fetch - processPackages [SparkleLogging]: Downloading https://files.pythonhosted.org/packages/2d/b8/33b3d7641a6da357cf3af08289ac2ebd8cb6960f11fb4110211190ee39e1/SparkleLogging-1.0.5.tar.gz
+[2024-05-03 06:43:00] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/f7/c2/09d75b706485bc51e9971fffe138396e852d914b4ea1ced1dcbbf9c8890e/ast_grep_cli-0.9.2.tar.gz
+[2024-05-03 06:43:00] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 06:43:00] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 06:43:00] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 06:43:00] INFO root fetch - processPackages [SparkleLogging]: Downloading https://files.pythonhosted.org/packages/e5/46/831b8afbb7672cd5129416faaeb491c876b19edfdcb0118ab2f9505d1031/SparkleLogging-1.0.6.tar.gz
+[2024-05-03 06:43:00] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/bb/5c/1c5ee896b0968132154badd72079015a1958ff352d47c5f9e74e8ce6d54e/ast_grep_cli-0.9.3.tar.gz
+[2024-05-03 06:43:00] INFO root fetch - processPackages [SparkleLogging]: executing diffoscope
+[2024-05-03 06:43:00] INFO root fetch - processPackages [SparkleLogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SparkleLogging-1.0.5.tar.gz tmp/SparkleLogging-1.0.6.tar.gz --markdown 20240503/S/SparkleLogging/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-03 06:43:00] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2024-05-03 06:43:00] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.2.tar.gz tmp/ast_grep_cli-0.9.3.tar.gz --markdown 20240503/a/ast-grep-cli/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-03 06:43:01] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 06:43:01] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 06:43:01] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 06:43:01] INFO root fetch - processPackages [SparkleLogging]: Remove: archive file [/home/abi/fetcher/tmp/SparkleLogging-1.0.5.tar.gz]
+[2024-05-03 06:43:01] INFO root fetch - processPackages [SparkleLogging]: Remove: archive file [/home/abi/fetcher/tmp/SparkleLogging-1.0.6.tar.gz]
+[2024-05-03 06:43:01] INFO root fetch - main [MainThread]: End processing [SparkleLogging]: success
+[2024-05-03 06:43:01] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.2.tar.gz]
+[2024-05-03 06:43:01] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
+[2024-05-03 06:43:01] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2024-05-03 06:43:01] INFO root fetch - main [MainThread]: Store serial: [23041583]
