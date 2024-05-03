@@ -11597,3 +11597,42 @@
 [2024-05-03 09:00:59] INFO root fetch - processPackages [hmx-v2-python-test]: Remove: archive file [/home/abi/fetcher/tmp/hmx_v2_python_test-1.2.3.tar.gz]
 [2024-05-03 09:00:59] INFO root fetch - main [MainThread]: End processing [hmx-v2-python-test]: success
 [2024-05-03 09:00:59] INFO root fetch - main [MainThread]: Store serial: [23042428]
+[2024-05-03 09:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042428]
+[2024-05-03 09:03:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ts-interface
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: constrained-linear-regression
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-nightly
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqio-nightly
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ts-interface]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-03 09:03:08] INFO root fetch - processPackages [constrained-linear-regression]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-03 09:03:08] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ts-interface]: Downloading https://files.pythonhosted.org/packages/c3/90/6d2845e3cf6bbb1b8c495459d0c488132a0f0c6b4e22bf3e397b73639d88/ts_interface-0.1.1.tar.gz
+[2024-05-03 09:03:08] INFO root fetch - processPackages [constrained-linear-regression]: Downloading https://files.pythonhosted.org/packages/8b/02/3a74ec1afcbcede0cf3d4dc89b47c554a54ea6719024c9b90660f9ac028d/constrained_linear_regression-0.0.4.tar.gz
+[2024-05-03 09:03:08] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ts-interface]: Downloading https://files.pythonhosted.org/packages/e5/f0/adbf6a95c634e9e4d65ee3ecbbc81e8cc1368300395cd630fa26c0c3fda9/ts_interface-0.1.2.tar.gz
+[2024-05-03 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ts-interface]: executing diffoscope
+[2024-05-03 09:03:08] INFO root fetch - processPackages [ts-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_interface-0.1.1.tar.gz tmp/ts_interface-0.1.2.tar.gz --markdown 20240503/t/ts-interface/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 09:03:08] INFO root fetch - processPackages [constrained-linear-regression]: Downloading https://files.pythonhosted.org/packages/f6/0b/12aa3fdadf40e1c9f1bc3a6c53ceab193c7ba01c51a7b995d2aca7fd8a78/constrained_linear_regression-0.0.5.tar.gz
+[2024-05-03 09:03:08] INFO root fetch - processPackages [constrained-linear-regression]: executing diffoscope
+[2024-05-03 09:03:08] INFO root fetch - processPackages [constrained-linear-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constrained_linear_regression-0.0.4.tar.gz tmp/constrained_linear_regression-0.0.5.tar.gz --markdown 20240503/c/constrained-linear-regression/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-03 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240503/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-03 09:03:08] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-03 09:03:09] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-03 09:03:09] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240503/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-03 09:03:09] INFO root fetch - processPackages [ts-interface]: Remove: archive file [/home/abi/fetcher/tmp/ts_interface-0.1.1.tar.gz]
+[2024-05-03 09:03:09] INFO root fetch - processPackages [ts-interface]: Remove: archive file [/home/abi/fetcher/tmp/ts_interface-0.1.2.tar.gz]
+[2024-05-03 09:03:09] INFO root fetch - main [MainThread]: End processing [ts-interface]: success
+[2024-05-03 09:03:09] INFO root fetch - processPackages [constrained-linear-regression]: Remove: archive file [/home/abi/fetcher/tmp/constrained_linear_regression-0.0.4.tar.gz]
+[2024-05-03 09:03:09] INFO root fetch - processPackages [constrained-linear-regression]: Remove: archive file [/home/abi/fetcher/tmp/constrained_linear_regression-0.0.5.tar.gz]
+[2024-05-03 09:03:09] INFO root fetch - main [MainThread]: End processing [constrained-linear-regression]: success
+[2024-05-03 09:03:09] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-03 09:03:09] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-03 09:03:09] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-03 09:03:12] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-03 09:03:12] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-03 09:03:12] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-03 09:03:12] INFO root fetch - main [MainThread]: Store serial: [23042455]
