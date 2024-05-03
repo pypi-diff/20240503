@@ -13167,3 +13167,95 @@
 [2024-05-03 10:16:57] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.85.tar.gz]
 [2024-05-03 10:16:57] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
 [2024-05-03 10:16:57] INFO root fetch - main [MainThread]: Store serial: [23043147]
+[2024-05-03 10:19:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043147]
+[2024-05-03 10:19:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-foundation-messaging-python
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-messaging-python
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cluster-experiments
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comic-parser
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-bilichat
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aissemble-foundation-model-lineage
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: binance-connector
+[2024-05-03 10:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prcpy
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1714637986] Old Version: [1.7.0.dev1714637982]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1714637986] Old Version: [1.7.0.dev1714637982]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1714637906] Old Version: [1.7.0.dev1714637905]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: New version: [1.7.0.dev1714638026] Old Version: [1.7.0.dev1714638025]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [prcpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1714637906] Old Version: [1.7.0.dev1714637905]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [comic-parser]: New version: [1.0] Old Version: [0.0.2]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [binance-connector]: New version: [3.7.0] Old Version: [3.6.0]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [cluster-experiments]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/5a/3e/22458ec4a88d01c8c95272bfea8f2d86162c62bd2d47f931a06f80205569/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/5a/3e/22458ec4a88d01c8c95272bfea8f2d86162c62bd2d47f931a06f80205569/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/7d/c8/788db297910bc46be2199996f63c3e4bd4d3c99ac0256e6a238993e88d66/aissemble_foundation_messaging_python-1.7.0.dev1714637905.tar.gz
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/93/ba/cd56bb1e14ecc9510f18890822f8a438ebb3e5a9682953bf3b9f3cd96ca8/aissemble_foundation_model_lineage-1.7.0.dev1714638025.tar.gz
+[2024-05-03 10:19:09] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/47/2e/45d7a68b731c6c672c17f700a152c75c44bdd53a2b300e8950d57dc9457d/prcpy-0.1.8.tar.gz
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/7d/c8/788db297910bc46be2199996f63c3e4bd4d3c99ac0256e6a238993e88d66/aissemble_foundation_messaging_python-1.7.0.dev1714637905.tar.gz
+[2024-05-03 10:19:09] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170549>=10485760
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Start processing: aissemble-foundation-model-lineage
+[2024-05-03 10:19:09] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-03 10:19:09] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170549>=10485760
+[2024-05-03 10:19:09] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-03 10:19:09] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: New version: [1.7.0.dev1714724343] Old Version: [1.7.0.dev1714724326]
+[2024-05-03 10:19:09] INFO root fetch - processPackages [comic-parser]: Downloading https://files.pythonhosted.org/packages/82/b1/10447f6e7b33eea90f99e6b2e48f345a98b096cffc32331c03de907f1747/comic-parser-0.0.2.tar.gz
+[2024-05-03 10:19:09] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/5f/03/8c64016f07cd05d06cfc7431563abf72b878f164205c259493e786328e54/cluster_experiments-0.9.0.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/7f/6b/806ce2d3be35b8fd27500d3157a6b7da3a281fd173c5623243d01dc6848f/binance-connector-3.6.0.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/e4/81/bf8d42380091250443684fdd6070dc10feedeee990cf4cfff901d5ad1ebe/nonebot_plugin_bilichat-5.8.1.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/99/ab/cd5ff3ecd7b9613f57a3978249035792d844a98bd411b9ad9d8fcbf02fb2/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/99/ab/cd5ff3ecd7b9613f57a3978249035792d844a98bd411b9ad9d8fcbf02fb2/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/4a/18/32966f75128672da37e434c63c43c65552b99c9b1e3fb936657a44ddfa71/prcpy-0.1.9.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/83/48/8d0c3198904b682fe589094ee05c0960f0e2c62616c53b2ff32eabd241c6/aissemble_foundation_model_lineage-1.7.0.dev1714638026.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/1e/83/08496ae7e3aa7e5b6ee1004d56da4844f36f958f2d77ef5124a5ba9106da/aissemble_foundation_model_lineage-1.7.0.dev1714724326.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz --markdown 20240503/a/aissemble-foundation-data-lineage-python/1.7.0.dev1714637982-1.7.0.dev1714637986/README.md --exclude *.pyd
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz --markdown 20240503/a/aissemble-foundation-data-lineage-python/1.7.0.dev1714637982-1.7.0.dev1714637986/README.md --exclude *.pyd
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638025.tar.gz tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638026.tar.gz --markdown 20240503/a/aissemble-foundation-model-lineage/1.7.0.dev1714638025-1.7.0.dev1714638026/README.md --exclude *.pyd
+[2024-05-03 10:19:10] INFO root fetch - processPackages [prcpy]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [prcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prcpy-0.1.8.tar.gz tmp/prcpy-0.1.9.tar.gz --markdown 20240503/p/prcpy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 10:19:10] INFO root fetch - processPackages [comic-parser]: Downloading https://files.pythonhosted.org/packages/d0/31/24ba80aebda40a8fddae6825c5021ab6978e2bb0f90e2999762ce392258d/comic_parser-1.0.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/79/1b/2879e29c43e6f62a2a1220a5fe132d28c2e5973201cee57278fe6283acf0/cluster_experiments-0.9.1.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [comic-parser]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [comic-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comic-parser-0.0.2.tar.gz tmp/comic_parser-1.0.tar.gz --markdown 20240503/c/comic-parser/0.0.2-1.0/README.md --exclude *.pyd
+[2024-05-03 10:19:10] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/fe/30/188b796592f183f7416ee503839c5771a9467387c5e26467d8bacd218364/nonebot_plugin_bilichat-5.9.0.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/0b/c7/fb8118d3ac37790e1dbd3ad3a075e39f2a7722a63665426f2575a701b5f1/binance-connector-3.7.0.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.9.0.tar.gz tmp/cluster_experiments-0.9.1.tar.gz --markdown 20240503/c/cluster-experiments/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/f2/bd/632b5c5ac7bd3e35425f562ad7d244b64ff07a96f694ef9d80dceb19c960/aissemble_foundation_model_lineage-1.7.0.dev1714724343.tar.gz
+[2024-05-03 10:19:10] INFO root fetch - processPackages [binance-connector]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [binance-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance-connector-3.6.0.tar.gz tmp/binance-connector-3.7.0.tar.gz --markdown 20240503/b/binance-connector/3.6.0-3.7.0/README.md --exclude *.pyd
+[2024-05-03 10:19:10] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.8.1.tar.gz tmp/nonebot_plugin_bilichat-5.9.0.tar.gz --markdown 20240503/n/nonebot-plugin-bilichat/5.8.1-5.9.0/README.md --exclude *.pyd
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: executing diffoscope
+[2024-05-03 10:19:10] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_lineage-1.7.0.dev1714724326.tar.gz tmp/aissemble_foundation_model_lineage-1.7.0.dev1714724343.tar.gz --markdown 20240503/a/aissemble-foundation-model-lineage/1.7.0.dev1714724326-1.7.0.dev1714724343/README.md --exclude *.pyd
+[2024-05-03 10:19:11] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-03 10:19:11] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.8.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.9.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [prcpy]: success
+[2024-05-03 10:19:11] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638025.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638026.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-lineage]: success
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-03 10:19:11] INFO root fetch - processPackages [comic-parser]: Remove: archive file [/home/abi/fetcher/tmp/comic-parser-0.0.2.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - processPackages [comic-parser]: Remove: archive file [/home/abi/fetcher/tmp/comic_parser-1.0.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [comic-parser]: success
+[2024-05-03 10:19:11] INFO root fetch - processPackages [cluster-experiments]: Remove: archive file [/home/abi/fetcher/tmp/cluster_experiments-0.9.0.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - processPackages [cluster-experiments]: Remove: archive file [/home/abi/fetcher/tmp/cluster_experiments-0.9.1.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2024-05-03 10:19:11] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1714724326.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1714724343.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-lineage]: success
+[2024-05-03 10:19:11] INFO root fetch - processPackages [binance-connector]: Remove: archive file [/home/abi/fetcher/tmp/binance-connector-3.6.0.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - processPackages [binance-connector]: Remove: archive file [/home/abi/fetcher/tmp/binance-connector-3.7.0.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [binance-connector]: success
+[2024-05-03 10:19:11] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.8.1.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.0.tar.gz]
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-05-03 10:19:11] INFO root fetch - main [MainThread]: Store serial: [23043180]
