@@ -16748,3 +16748,54 @@
 [2024-05-03 12:55:33] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240503.324.tar.gz]
 [2024-05-03 12:55:33] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-03 12:55:33] INFO root fetch - main [MainThread]: Store serial: [23044846]
+[2024-05-03 12:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044846]
+[2024-05-03 12:58:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 12:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linkai
+[2024-05-03 12:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2024-05-03 12:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dumpyara
+[2024-05-03 12:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: virtme-ng
+[2024-05-03 12:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mrp-bom-structure-report-level-1
+[2024-05-03 12:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-th-gov-purchase-request
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.9] Old Version: [14.0.1.0.8]
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-request]: New version: [15.0.2.0.0] Old Version: [15.0.1.1.1]
+[2024-05-03 12:58:05] WARNING root fetch - processPackages [odoo-addon-mrp-bom-structure-report-level-1]: Skipping, unable to determine old version
+[2024-05-03 12:58:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-structure-report-level-1] error
+[2024-05-03 12:58:05] INFO root fetch - processPackages [linkai]: New version: [0.0.6.0] Old Version: [0.0.5.0]
+[2024-05-03 12:58:05] INFO root fetch - processPackages [virtme-ng]: New version: [1.24] Old Version: [1.23]
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-request]: Downloading https://files.pythonhosted.org/packages/7e/91/5a9a72ad2c6eb7b2a56952afe85dc7cf9f417a16c5e79c12ba4d00121a90/odoo_addon_l10n_th_gov_purchase_request-15.0.1.1.1-py3-none-any.whl
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/29/36/7268bc24d8389016271fa5339775a21de8b62a9394c3f27c7da5eee932d4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz
+[2024-05-03 12:58:05] INFO root fetch - processPackages [dumpyara]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-03 12:58:05] INFO root fetch - processPackages [linkai]: Downloading https://files.pythonhosted.org/packages/7a/e9/07de6b8170aa9d104f0f8ee29bc38ebcb5bb0160e2e963a788e1c2a08b36/linkai-0.0.5.0-py3-none-any.whl
+[2024-05-03 12:58:05] INFO root fetch - processPackages [virtme-ng]: Downloading https://files.pythonhosted.org/packages/20/fc/f9418a24f167387674f59c3d3e63099b5076817c670a8861340c8cf0af81/virtme-ng-1.23.tar.gz
+[2024-05-03 12:58:05] INFO root fetch - processPackages [dumpyara]: Downloading https://files.pythonhosted.org/packages/57/7a/7d0218f4df0ca797a213e7d0ea9e12f6927606edd351016e9880f4d85a58/dumpyara-1.0.5.tar.gz
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/e2/db/60f2eaaffb9864df5bb98ea187aef4761d8a58c121f9814ea9db53e834bb/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-request]: Downloading https://files.pythonhosted.org/packages/28/77/fc24548c06646dacc2120c4a53a5b95bd8c76d7b8cd2fdc42a5a95890fd7/odoo_addon_l10n_th_gov_purchase_request-15.0.2.0.0-py3-none-any.whl
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz --markdown 20240503/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.8-14.0.1.0.9/README.md --exclude *.pyd
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-request]: executing diffoscope
+[2024-05-03 12:58:05] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_gov_purchase_request-15.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_gov_purchase_request-15.0.2.0.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-th-gov-purchase-request/15.0.1.1.1-15.0.2.0.0/README.md --exclude *.pyd
+[2024-05-03 12:58:05] INFO root fetch - processPackages [linkai]: Downloading https://files.pythonhosted.org/packages/0f/1d/1308fe70c4c5ccb75840f52dc2274f6664fd713f633625ba0a9f84363370/linkai-0.0.6.0-py3-none-any.whl
+[2024-05-03 12:58:05] INFO root fetch - processPackages [virtme-ng]: Downloading https://files.pythonhosted.org/packages/57/eb/fdb75c815977468d1b3e5b2646993600cd5dc917ae6b3a1a227753f30643/virtme-ng-1.24.tar.gz
+[2024-05-03 12:58:05] INFO root fetch - processPackages [linkai]: executing diffoscope
+[2024-05-03 12:58:05] INFO root fetch - processPackages [linkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkai-0.0.5.0-py3-none-any.whl.zip tmp/linkai-0.0.6.0-py3-none-any.whl.zip --markdown 20240503/l/linkai/0.0.5.0-0.0.6.0/README.md --exclude *.pyd
+[2024-05-03 12:58:05] INFO root fetch - processPackages [dumpyara]: Downloading https://files.pythonhosted.org/packages/b2/0f/6254a965fb98a7bee05ad286f6d5a6fbc2d53418bf36f88bc31fb1631c3d/dumpyara-1.0.6.tar.gz
+[2024-05-03 12:58:05] INFO root fetch - processPackages [virtme-ng]: executing diffoscope
+[2024-05-03 12:58:05] INFO root fetch - processPackages [virtme-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtme-ng-1.23.tar.gz tmp/virtme-ng-1.24.tar.gz --markdown 20240503/v/virtme-ng/1.23-1.24/README.md --exclude *.pyd
+[2024-05-03 12:58:05] INFO root fetch - processPackages [dumpyara]: executing diffoscope
+[2024-05-03 12:58:05] INFO root fetch - processPackages [dumpyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumpyara-1.0.5.tar.gz tmp/dumpyara-1.0.6.tar.gz --markdown 20240503/d/dumpyara/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-03 12:58:06] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz]
+[2024-05-03 12:58:06] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz]
+[2024-05-03 12:58:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2024-05-03 12:58:06] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_gov_purchase_request-15.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-03 12:58:06] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_gov_purchase_request-15.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-03 12:58:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-gov-purchase-request]: success
+[2024-05-03 12:58:06] INFO root fetch - processPackages [linkai]: Remove: archive file [/home/abi/fetcher/tmp/linkai-0.0.5.0-py3-none-any.whl.zip]
+[2024-05-03 12:58:06] INFO root fetch - processPackages [linkai]: Remove: archive file [/home/abi/fetcher/tmp/linkai-0.0.6.0-py3-none-any.whl.zip]
+[2024-05-03 12:58:06] INFO root fetch - main [MainThread]: End processing [linkai]: success
+[2024-05-03 12:58:06] INFO root fetch - processPackages [dumpyara]: Remove: archive file [/home/abi/fetcher/tmp/dumpyara-1.0.5.tar.gz]
+[2024-05-03 12:58:06] INFO root fetch - processPackages [dumpyara]: Remove: archive file [/home/abi/fetcher/tmp/dumpyara-1.0.6.tar.gz]
+[2024-05-03 12:58:06] INFO root fetch - main [MainThread]: End processing [dumpyara]: success
+[2024-05-03 12:58:08] INFO root fetch - processPackages [virtme-ng]: Remove: archive file [/home/abi/fetcher/tmp/virtme-ng-1.23.tar.gz]
+[2024-05-03 12:58:08] INFO root fetch - processPackages [virtme-ng]: Remove: archive file [/home/abi/fetcher/tmp/virtme-ng-1.24.tar.gz]
+[2024-05-03 12:58:08] INFO root fetch - main [MainThread]: End processing [virtme-ng]: success
+[2024-05-03 12:58:08] INFO root fetch - main [MainThread]: Store serial: [23044863]
