@@ -20451,3 +20451,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:50:06] INFO root fetch - processPackages [aalto-boss]: Remove: archive file [/home/abi/fetcher/tmp/aalto-boss-1.9.2.tar.gz]
 [2024-05-03 15:50:06] INFO root fetch - main [MainThread]: End processing [aalto-boss]: success
 [2024-05-03 15:50:06] INFO root fetch - main [MainThread]: Store serial: [23046579]
+[2024-05-03 15:52:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046579]
+[2024-05-03 15:52:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gym-pusht
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gym-xarm
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DrissionPage-viento
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fink-filters
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-docker-plugin
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-ephys-audio
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ALLMDEV
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyLodStorage
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elasticsearch
+[2024-05-03 15:52:35] WARNING root fetch - processPackages [gym-pusht]: Skipping, unable to determine old version
+[2024-05-03 15:52:35] INFO root fetch - main [MainThread]: End processing [gym-pusht] error
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-03 15:52:35] INFO root fetch - processPackages [elasticsearch]: New version: [8.9.0] Old Version: [8.8.2]
+[2024-05-03 15:52:35] INFO root fetch - processPackages [open-ephys-audio]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 15:52:35] WARNING root fetch - processPackages [gym-xarm]: Skipping, unable to determine old version
+[2024-05-03 15:52:35] INFO root fetch - main [MainThread]: End processing [gym-xarm] error
+[2024-05-03 15:52:35] WARNING root fetch - processPackages [DrissionPage-viento]: Skipping, unable to determine old version
+[2024-05-03 15:52:35] INFO root fetch - processPackages [netbox-docker-plugin]: New version: [1.7.0] Old Version: [1.6.2]
+[2024-05-03 15:52:35] INFO root fetch - main [MainThread]: End processing [DrissionPage-viento] error
+[2024-05-03 15:52:35] INFO root fetch - processPackages [fink-filters]: New version: [3.9] Old Version: [3.8]
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ALLMDEV]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-03 15:52:35] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/9e/49/a250e1260cf00140ff4f75c64690e4beed9cd22f16a43eb3fe65af41bf21/ood_detectors-0.0.6.tar.gz
+[2024-05-03 15:52:35] INFO root fetch - processPackages [pyLodStorage]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-03 15:52:36] INFO root fetch - processPackages [open-ephys-audio]: Downloading https://files.pythonhosted.org/packages/3e/b6/d4d5c02adcddc0c4bf0e78ab8c0f2bd1b94a55b581a3c0af1953093695be/open-ephys-audio-0.1.6.tar.gz
+[2024-05-03 15:52:36] INFO root fetch - processPackages [elasticsearch]: Downloading https://files.pythonhosted.org/packages/23/01/ce9679605aa17dfd256549480f6f05ba014e9ea5ee3594ec7fb78fe5484f/elasticsearch-8.8.2.tar.gz
+[2024-05-03 15:52:36] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/19/95/6c2f0e8a6ad6000019dca9f2de263e1be1b369d6d4e822f65c28a27a4379/netbox_docker_plugin-1.6.2.tar.gz
+[2024-05-03 15:52:36] INFO root fetch - processPackages [fink-filters]: Downloading https://files.pythonhosted.org/packages/ad/03/a1e30cd9ef3fd94bad1a3a4191fe94f321e88803bceeeb3342e49219b4af/fink-filters-3.8.tar.gz
+[2024-05-03 15:52:36] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/b6/09/fe29d59a9d5921f91d2abf97dd979ad8b9ff3cc107874c37fb9b7ef0e5ab/ALLMDEV-1.2.6-py3-none-any.whl
+[2024-05-03 15:52:36] INFO root fetch - processPackages [pyLodStorage]: Downloading https://files.pythonhosted.org/packages/4c/e3/15ad58c688ca9613afcfa8f73ab039cb5ee8a215b2780d306a423cdcc76a/pylodstorage-0.9.1.tar.gz
+[2024-05-03 15:52:36] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/12/82/33ce59f648b13e467a837f7c3fa40798f2c5d480420682b5927c39bf0e83/ood_detectors-0.0.7.tar.gz
+[2024-05-03 15:52:36] WARNING root fetch - processPackages [fink-filters]: Skipping package: exceeds size limit 10772648>=10485760
+[2024-05-03 15:52:36] INFO root fetch - main [MainThread]: End processing [fink-filters] error
+[2024-05-03 15:52:36] INFO root fetch - processPackages [open-ephys-audio]: Downloading https://files.pythonhosted.org/packages/52/0d/e6c5f6eeb1164b5345cc94f7c374a96e034d11130ec120cab54f5f8cc06c/open_ephys_audio-0.1.7.tar.gz
+[2024-05-03 15:52:36] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-03 15:52:36] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.6.tar.gz tmp/ood_detectors-0.0.7.tar.gz --markdown 20240503/o/ood_detectors/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-03 15:52:36] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/1d/ae/f2d0f9f0600535d8bd754022359b955194e5b7691e90352c57459a486b20/ALLMDEV-1.2.7-py3-none-any.whl
+[2024-05-03 15:52:36] INFO root fetch - processPackages [open-ephys-audio]: executing diffoscope
+[2024-05-03 15:52:36] INFO root fetch - processPackages [open-ephys-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-ephys-audio-0.1.6.tar.gz tmp/open_ephys_audio-0.1.7.tar.gz --markdown 20240503/o/open-ephys-audio/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 15:52:36] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/00/40/c6f4a71c1e822e1c568b9630c04add619841583514225ef34fcd6b44b6ea/netbox_docker_plugin-1.7.0.tar.gz
+[2024-05-03 15:52:36] INFO root fetch - processPackages [ALLMDEV]: executing diffoscope
+[2024-05-03 15:52:36] INFO root fetch - processPackages [ALLMDEV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALLMDEV-1.2.6-py3-none-any.whl.zip tmp/ALLMDEV-1.2.7-py3-none-any.whl.zip --markdown 20240503/A/ALLMDEV/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-03 15:52:36] INFO root fetch - processPackages [elasticsearch]: Downloading https://files.pythonhosted.org/packages/a2/c5/1c581fa51da88b0f544c65fedae612421fb13adae1cfd4ff97cf6d9c826e/elasticsearch-8.9.0.tar.gz
+[2024-05-03 15:52:36] INFO root fetch - processPackages [netbox-docker-plugin]: executing diffoscope
+[2024-05-03 15:52:36] INFO root fetch - processPackages [netbox-docker-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_docker_plugin-1.6.2.tar.gz tmp/netbox_docker_plugin-1.7.0.tar.gz --markdown 20240503/n/netbox-docker-plugin/1.6.2-1.7.0/README.md --exclude *.pyd
+[2024-05-03 15:52:36] INFO root fetch - processPackages [elasticsearch]: executing diffoscope
+[2024-05-03 15:52:36] INFO root fetch - processPackages [elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch-8.8.2.tar.gz tmp/elasticsearch-8.9.0.tar.gz --markdown 20240503/e/elasticsearch/8.8.2-8.9.0/README.md --exclude *.pyd
+[2024-05-03 15:52:36] INFO root fetch - processPackages [pyLodStorage]: Downloading https://files.pythonhosted.org/packages/fa/73/19116c570959e490c6e63cc4ed466cc8f943e9f123f6c0fb7c3f944ee193/pylodstorage-0.9.2.tar.gz
+[2024-05-03 15:52:37] INFO root fetch - processPackages [open-ephys-audio]: Remove: archive file [/home/abi/fetcher/tmp/open-ephys-audio-0.1.6.tar.gz]
+[2024-05-03 15:52:37] INFO root fetch - processPackages [open-ephys-audio]: Remove: archive file [/home/abi/fetcher/tmp/open_ephys_audio-0.1.7.tar.gz]
+[2024-05-03 15:52:37] INFO root fetch - main [MainThread]: End processing [open-ephys-audio]: success
+[2024-05-03 15:52:37] INFO root fetch - processPackages [pyLodStorage]: executing diffoscope
+[2024-05-03 15:52:37] INFO root fetch - processPackages [pyLodStorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylodstorage-0.9.1.tar.gz tmp/pylodstorage-0.9.2.tar.gz --markdown 20240503/p/pyLodStorage/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-03 15:52:37] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.6.tar.gz]
+[2024-05-03 15:52:37] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.7.tar.gz]
+[2024-05-03 15:52:37] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-03 15:52:37] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.2.6-py3-none-any.whl.zip]
+[2024-05-03 15:52:37] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.2.7-py3-none-any.whl.zip]
+[2024-05-03 15:52:37] INFO root fetch - main [MainThread]: End processing [ALLMDEV]: success
+[2024-05-03 15:52:37] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.6.2.tar.gz]
+[2024-05-03 15:52:37] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.7.0.tar.gz]
+[2024-05-03 15:52:37] INFO root fetch - main [MainThread]: End processing [netbox-docker-plugin]: success
+[2024-05-03 15:52:38] INFO root fetch - processPackages [pyLodStorage]: Remove: archive file [/home/abi/fetcher/tmp/pylodstorage-0.9.1.tar.gz]
+[2024-05-03 15:52:38] INFO root fetch - processPackages [pyLodStorage]: Remove: archive file [/home/abi/fetcher/tmp/pylodstorage-0.9.2.tar.gz]
+[2024-05-03 15:52:38] INFO root fetch - main [MainThread]: End processing [pyLodStorage]: success
+[2024-05-03 15:52:39] INFO root fetch - processPackages [elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch-8.8.2.tar.gz]
+[2024-05-03 15:52:39] INFO root fetch - processPackages [elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch-8.9.0.tar.gz]
+[2024-05-03 15:52:39] INFO root fetch - main [MainThread]: End processing [elasticsearch]: success
+[2024-05-03 15:52:39] INFO root fetch - main [MainThread]: Store serial: [23046649]
