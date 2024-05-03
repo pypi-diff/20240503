@@ -6813,3 +6813,15 @@
 [2024-05-03 03:33:36] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
 [2024-05-03 03:33:36] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
 [2024-05-03 03:33:36] INFO root fetch - main [MainThread]: Store serial: [23040420]
+[2024-05-03 03:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040420]
+[2024-05-03 03:35:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 03:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itk-ants
+[2024-05-03 03:35:44] INFO root fetch - processPackages [itk-ants]: New version: [0.4rc3] Old Version: [0.4rc2]
+[2024-05-03 03:35:45] INFO root fetch - processPackages [itk-ants]: Downloading https://files.pythonhosted.org/packages/df/a6/5d4b733532ad42c8870a32c11606fd3e434ff40d250e8be453cbfbb4ec4d/itk_ants-0.4rc2-cp39-cp39-win_amd64.whl
+[2024-05-03 03:35:45] INFO root fetch - processPackages [itk-ants]: Downloading https://files.pythonhosted.org/packages/08/db/03aa0c0a5b92624e547c19e3d173e1d50176243d2b391c9a0e2d9630898c/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl
+[2024-05-03 03:35:47] INFO root fetch - processPackages [itk-ants]: executing diffoscope
+[2024-05-03 03:35:47] INFO root fetch - processPackages [itk-ants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_ants-0.4rc2-cp39-cp39-win_amd64.whl.zip tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip --markdown 20240503/i/itk-ants/0.4rc2-0.4rc3/README.md --exclude *.pyd
+[2024-05-03 03:35:47] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.4rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 03:35:47] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 03:35:47] INFO root fetch - main [MainThread]: End processing [itk-ants]: success
+[2024-05-03 03:35:47] INFO root fetch - main [MainThread]: Store serial: [23040502]
