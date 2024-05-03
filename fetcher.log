@@ -10859,3 +10859,21 @@
 [2024-05-03 08:25:47] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
 [2024-05-03 08:25:47] INFO root fetch - main [MainThread]: End processing [moped]: success
 [2024-05-03 08:25:47] INFO root fetch - main [MainThread]: Store serial: [23042163]
+[2024-05-03 08:27:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042163]
+[2024-05-03 08:27:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 08:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmtube
+[2024-05-03 08:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fazah
+[2024-05-03 08:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformers-js-py
+[2024-05-03 08:27:57] INFO root fetch - processPackages [transformers-js-py]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-03 08:27:57] WARNING root fetch - processPackages [fazah]: Skipping, unable to determine old version
+[2024-05-03 08:27:57] INFO root fetch - main [MainThread]: End processing [fazah] error
+[2024-05-03 08:27:57] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/e9/d4/245ab3f4c5f82c00b652b8ff4b0d02cde64e88d462ead1ae460fdf5a43df/transformers_js_py-0.8.1.tar.gz
+[2024-05-03 08:27:57] WARNING root fetch - processPackages [swarmtube]: Skipping, unable to determine old version
+[2024-05-03 08:27:57] INFO root fetch - main [MainThread]: End processing [swarmtube] error
+[2024-05-03 08:27:57] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/69/a5/f53e404079de13cda9053663becf9d7e3a3351cfa3b254d9a695544db414/transformers_js_py-0.9.0.tar.gz
+[2024-05-03 08:27:58] INFO root fetch - processPackages [transformers-js-py]: executing diffoscope
+[2024-05-03 08:27:58] INFO root fetch - processPackages [transformers-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_js_py-0.8.1.tar.gz tmp/transformers_js_py-0.9.0.tar.gz --markdown 20240503/t/transformers-js-py/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-03 08:27:58] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.8.1.tar.gz]
+[2024-05-03 08:27:58] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.9.0.tar.gz]
+[2024-05-03 08:27:58] INFO root fetch - main [MainThread]: End processing [transformers-js-py]: success
+[2024-05-03 08:27:58] INFO root fetch - main [MainThread]: Store serial: [23042173]
