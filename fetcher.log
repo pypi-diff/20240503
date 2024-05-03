@@ -21766,3 +21766,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:33:17] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.7.tar.gz]
 [2024-05-03 16:33:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
 [2024-05-03 16:33:17] INFO root fetch - main [MainThread]: Store serial: [23047113]
+[2024-05-03 16:35:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047113]
+[2024-05-03 16:35:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 16:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microchain-python
+[2024-05-03 16:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-nai3
+[2024-05-03 16:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indaba-api-client
+[2024-05-03 16:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-repo-client
+[2024-05-03 16:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cim-11-CERTIC
+[2024-05-03 16:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arclet-letoderea
+[2024-05-03 16:35:46] INFO root fetch - processPackages [cim-11-CERTIC]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-03 16:35:47] INFO root fetch - processPackages [microchain-python]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-03 16:35:47] INFO root fetch - processPackages [nonebot-plugin-nai3]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 16:35:47] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/2a/4d/e825ad08b81d11e5e5584aecd2faa42cb5d2ff84fc249d1b78f17a0d0c95/cim_11_certic-0.6.3.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [microchain-python]: Downloading https://files.pythonhosted.org/packages/72/7f/8f82aa178306de0d03aac74f9f9a0934ad6e79c0f1322dbcd3b4e8422e45/microchain-python-0.3.5.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/54/96/f21c4f0b9e5e69da731bcd15f16ec79bb1ae532a9d4e835f9f1493cb8ee9/nonebot_plugin_nai3-0.1.6.tar.gz
+[2024-05-03 16:35:47] WARNING root fetch - processPackages [indaba-api-client]: Skipping, unable to determine old version
+[2024-05-03 16:35:47] INFO root fetch - main [MainThread]: End processing [indaba-api-client] error
+[2024-05-03 16:35:47] INFO root fetch - processPackages [arclet-letoderea]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-03 16:35:47] INFO root fetch - processPackages [data-repo-client]: New version: [2.56.0] Old Version: [2.55.0]
+[2024-05-03 16:35:47] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/5f/70/4612340dfbf1707d4cb16c1b041820152dda0715b63b3f163466850e68e0/nonebot_plugin_nai3-0.1.7.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [microchain-python]: Downloading https://files.pythonhosted.org/packages/2c/9f/e3f929ff2047fae005ea063243f7eb8c8fe8dd0b604dbae5011ce29092b3/microchain_python-0.3.6.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [arclet-letoderea]: Downloading https://files.pythonhosted.org/packages/1b/f6/6cc2f714fe1911e877982c4aac4e0129dc7339afc42e054248dd7ae7fa27/arclet-letoderea-0.9.0.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/c1/b6/e04bbe6ae5760003a6170c69183c7d47734b6255a399a04c852edb5c080e/data-repo-client-2.55.0.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [nonebot-plugin-nai3]: executing diffoscope
+[2024-05-03 16:35:47] INFO root fetch - processPackages [nonebot-plugin-nai3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nai3-0.1.6.tar.gz tmp/nonebot_plugin_nai3-0.1.7.tar.gz --markdown 20240503/n/nonebot-plugin-nai3/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 16:35:47] INFO root fetch - processPackages [microchain-python]: executing diffoscope
+[2024-05-03 16:35:47] INFO root fetch - processPackages [microchain-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microchain-python-0.3.5.tar.gz tmp/microchain_python-0.3.6.tar.gz --markdown 20240503/m/microchain-python/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-03 16:35:47] INFO root fetch - processPackages [arclet-letoderea]: Downloading https://files.pythonhosted.org/packages/db/9f/3293525060bc26fdffac298a9ba99b5e01e08f5de48c58b82ba55e31cb5a/arclet-letoderea-0.9.2.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/13/09/e4db65eaece93a69c52152ca4ab673638ba2f4ffe7f51e05232ae029120d/data-repo-client-2.56.0.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/63/99/b0963d46257231f6c97c7b7c73907aaeea190a7c9f743b5af8b709f0da55/cim_11_certic-0.6.4.tar.gz
+[2024-05-03 16:35:47] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-05-03 16:35:47] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.55.0.tar.gz tmp/data-repo-client-2.56.0.tar.gz --markdown 20240503/d/data-repo-client/2.55.0-2.56.0/README.md --exclude *.pyd
+[2024-05-03 16:35:47] INFO root fetch - processPackages [arclet-letoderea]: executing diffoscope
+[2024-05-03 16:35:47] INFO root fetch - processPackages [arclet-letoderea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-letoderea-0.9.0.tar.gz tmp/arclet-letoderea-0.9.2.tar.gz --markdown 20240503/a/arclet-letoderea/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-05-03 16:35:48] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.6.tar.gz]
+[2024-05-03 16:35:48] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.7.tar.gz]
+[2024-05-03 16:35:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
+[2024-05-03 16:35:48] INFO root fetch - processPackages [microchain-python]: Remove: archive file [/home/abi/fetcher/tmp/microchain-python-0.3.5.tar.gz]
+[2024-05-03 16:35:48] INFO root fetch - processPackages [microchain-python]: Remove: archive file [/home/abi/fetcher/tmp/microchain_python-0.3.6.tar.gz]
+[2024-05-03 16:35:48] INFO root fetch - main [MainThread]: End processing [microchain-python]: success
+[2024-05-03 16:35:48] INFO root fetch - processPackages [arclet-letoderea]: Remove: archive file [/home/abi/fetcher/tmp/arclet-letoderea-0.9.0.tar.gz]
+[2024-05-03 16:35:48] INFO root fetch - processPackages [arclet-letoderea]: Remove: archive file [/home/abi/fetcher/tmp/arclet-letoderea-0.9.2.tar.gz]
+[2024-05-03 16:35:48] INFO root fetch - main [MainThread]: End processing [arclet-letoderea]: success
+[2024-05-03 16:35:48] INFO root fetch - processPackages [cim-11-CERTIC]: executing diffoscope
+[2024-05-03 16:35:48] INFO root fetch - processPackages [cim-11-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_11_certic-0.6.3.tar.gz tmp/cim_11_certic-0.6.4.tar.gz --markdown 20240503/c/cim-11-CERTIC/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-03 16:35:49] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.3.tar.gz]
+[2024-05-03 16:35:49] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.4.tar.gz]
+[2024-05-03 16:35:49] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
+[2024-05-03 16:35:49] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.55.0.tar.gz]
+[2024-05-03 16:35:49] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.56.0.tar.gz]
+[2024-05-03 16:35:49] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-05-03 16:35:49] INFO root fetch - main [MainThread]: Store serial: [23047133]
