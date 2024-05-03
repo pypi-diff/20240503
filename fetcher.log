@@ -7370,3 +7370,33 @@
 [2024-05-03 04:14:51] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.5.0-py3-none-any.whl.zip]
 [2024-05-03 04:14:51] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
 [2024-05-03 04:14:51] INFO root fetch - main [MainThread]: Store serial: [23040849]
+[2024-05-03 04:16:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040849]
+[2024-05-03 04:17:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 04:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEMO-CE
+[2024-05-03 04:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repo2docs
+[2024-05-03 04:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-esp32spi
+[2024-05-03 04:17:00] INFO root fetch - processPackages [repo2docs]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 04:17:00] INFO root fetch - processPackages [NEMO-CE]: New version: [2.5.0] Old Version: [2.4.4]
+[2024-05-03 04:17:00] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/35/8c/c292f8144382635be452728ce42977e6de4e3d7580212a1d696a77914627/repo2docs-0.1.1.tar.gz
+[2024-05-03 04:17:00] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/17/b0/800ec529b3dd7701278be7e9a3ff3d04b7dc85ebf30bc821a6bfb6553337/NEMO_CE-2.4.4-py3-none-any.whl
+[2024-05-03 04:17:00] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: New version: [8.1.0] Old Version: [8.0.0]
+[2024-05-03 04:17:00] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Downloading https://files.pythonhosted.org/packages/93/9f/e24ef98309dc84a9b34cd298dda0d929cec3f9f4519de05a726509c813d3/adafruit_circuitpython_esp32spi-8.0.0.tar.gz
+[2024-05-03 04:17:00] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/d1/cf/7fd4255be13351a6fc0d464701f8f29334259e032bf224cd6d427587fd5d/repo2docs-0.1.2.tar.gz
+[2024-05-03 04:17:00] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/3d/17/e9a1d82e8171ef10ee6beb13c67d5977da835ffe8a17c3c78c16ae92f003/NEMO_CE-2.5.0-py3-none-any.whl
+[2024-05-03 04:17:00] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 04:17:00] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.1.tar.gz tmp/repo2docs-0.1.2.tar.gz --markdown 20240503/r/repo2docs/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 04:17:01] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2024-05-03 04:17:01] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-2.4.4-py3-none-any.whl.zip tmp/NEMO_CE-2.5.0-py3-none-any.whl.zip --markdown 20240503/N/NEMO-CE/2.4.4-2.5.0/README.md --exclude *.pyd
+[2024-05-03 04:17:01] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Downloading https://files.pythonhosted.org/packages/4c/9f/ddd0f7542112b77b62202b8892049090579244e0e6811b9169377de66f42/adafruit_circuitpython_esp32spi-8.1.0.tar.gz
+[2024-05-03 04:17:01] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: executing diffoscope
+[2024-05-03 04:17:01] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit_circuitpython_esp32spi-8.0.0.tar.gz tmp/adafruit_circuitpython_esp32spi-8.1.0.tar.gz --markdown 20240503/a/adafruit-circuitpython-esp32spi/8.0.0-8.1.0/README.md --exclude *.pyd
+[2024-05-03 04:17:01] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.1.tar.gz]
+[2024-05-03 04:17:01] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.2.tar.gz]
+[2024-05-03 04:17:01] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 04:17:01] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_esp32spi-8.0.0.tar.gz]
+[2024-05-03 04:17:01] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_esp32spi-8.1.0.tar.gz]
+[2024-05-03 04:17:01] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-esp32spi]: success
+[2024-05-03 04:17:03] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.4.4-py3-none-any.whl.zip]
+[2024-05-03 04:17:03] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.5.0-py3-none-any.whl.zip]
+[2024-05-03 04:17:03] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2024-05-03 04:17:03] INFO root fetch - main [MainThread]: Store serial: [23040864]
