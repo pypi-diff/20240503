@@ -10766,3 +10766,33 @@
 [2024-05-03 08:19:16] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
 [2024-05-03 08:19:16] INFO root fetch - main [MainThread]: End processing [modelbase]: success
 [2024-05-03 08:19:16] INFO root fetch - main [MainThread]: Store serial: [23042133]
+[2024-05-03 08:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042133]
+[2024-05-03 08:21:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 08:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myVTKPythonLibrary
+[2024-05-03 08:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fms-robot-plugin
+[2024-05-03 08:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seclm
+[2024-05-03 08:21:25] INFO root fetch - processPackages [myVTKPythonLibrary]: New version: [2024.5.2] Old Version: [2023.3.27]
+[2024-05-03 08:21:25] INFO root fetch - processPackages [seclm]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-03 08:21:25] INFO root fetch - processPackages [fms-robot-plugin]: New version: [0.2.2rc0] Old Version: [0.2.1rc1]
+[2024-05-03 08:21:25] INFO root fetch - processPackages [myVTKPythonLibrary]: Downloading https://files.pythonhosted.org/packages/26/08/fc756a977975b535199985fdde6d494583aedd32bd0d7ba70df24d677b9a/myVTKPythonLibrary-2023.3.27.tar.gz
+[2024-05-03 08:21:25] INFO root fetch - processPackages [seclm]: Downloading https://files.pythonhosted.org/packages/e3/7c/e515f1928a8447bda67f423f89fb9d9cc8e7efe6598ff3d541eb25d7079c/seclm-0.0.1-py3-none-any.whl
+[2024-05-03 08:21:26] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/8d/11/62d761972bb1c32634aae2003e3b399db22068897bd622a0c5c56d06712e/fms_robot_plugin-0.2.1rc1.tar.gz
+[2024-05-03 08:21:26] INFO root fetch - processPackages [seclm]: Downloading https://files.pythonhosted.org/packages/63/ce/eb0e94a51d5792cb0585509a0e0b81444fa03ced3fa6e1f754a4b34c7d6c/seclm-0.1.0.tar.gz
+[2024-05-03 08:21:26] INFO root fetch - processPackages [myVTKPythonLibrary]: Downloading https://files.pythonhosted.org/packages/db/5e/475e8df17d0d2cc0f70cca34adda8da7a0b3ef03b8d4c13bcdaa31510dbb/myvtkpythonlibrary-2024.5.2.tar.gz
+[2024-05-03 08:21:26] INFO root fetch - processPackages [seclm]: executing diffoscope
+[2024-05-03 08:21:26] INFO root fetch - processPackages [seclm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seclm-0.0.1-py3-none-any.whl.zip tmp/seclm-0.1.0.tar.gz --markdown 20240503/s/seclm/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-03 08:21:26] INFO root fetch - processPackages [myVTKPythonLibrary]: executing diffoscope
+[2024-05-03 08:21:26] INFO root fetch - processPackages [myVTKPythonLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myVTKPythonLibrary-2023.3.27.tar.gz tmp/myvtkpythonlibrary-2024.5.2.tar.gz --markdown 20240503/m/myVTKPythonLibrary/2023.3.27-2024.5.2/README.md --exclude *.pyd
+[2024-05-03 08:21:26] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/99/e1/d6459b9950703fd32fadc77194ac1e3fc78428b2e4dd0b2bc908b8591ae0/fms_robot_plugin-0.2.2rc0.tar.gz
+[2024-05-03 08:21:26] INFO root fetch - processPackages [fms-robot-plugin]: executing diffoscope
+[2024-05-03 08:21:26] INFO root fetch - processPackages [fms-robot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms_robot_plugin-0.2.1rc1.tar.gz tmp/fms_robot_plugin-0.2.2rc0.tar.gz --markdown 20240503/f/fms-robot-plugin/0.2.1rc1-0.2.2rc0/README.md --exclude *.pyd
+[2024-05-03 08:21:26] INFO root fetch - processPackages [seclm]: Remove: archive file [/home/abi/fetcher/tmp/seclm-0.0.1-py3-none-any.whl.zip]
+[2024-05-03 08:21:26] INFO root fetch - processPackages [seclm]: Remove: archive file [/home/abi/fetcher/tmp/seclm-0.1.0.tar.gz]
+[2024-05-03 08:21:26] INFO root fetch - main [MainThread]: End processing [seclm]: success
+[2024-05-03 08:21:27] INFO root fetch - processPackages [myVTKPythonLibrary]: Remove: archive file [/home/abi/fetcher/tmp/myVTKPythonLibrary-2023.3.27.tar.gz]
+[2024-05-03 08:21:27] INFO root fetch - processPackages [myVTKPythonLibrary]: Remove: archive file [/home/abi/fetcher/tmp/myvtkpythonlibrary-2024.5.2.tar.gz]
+[2024-05-03 08:21:27] INFO root fetch - main [MainThread]: End processing [myVTKPythonLibrary]: success
+[2024-05-03 08:21:27] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.2.1rc1.tar.gz]
+[2024-05-03 08:21:27] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.2.2rc0.tar.gz]
+[2024-05-03 08:21:27] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
+[2024-05-03 08:21:27] INFO root fetch - main [MainThread]: Store serial: [23042142]
