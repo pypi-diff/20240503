@@ -1832,3 +1832,57 @@
 [2024-05-03 01:59:46] INFO root fetch - processPackages [ml4xcube]: Remove: archive file [/home/abi/fetcher/tmp/ml4xcube-0.0.4.tar.gz]
 [2024-05-03 01:59:46] INFO root fetch - main [MainThread]: End processing [ml4xcube]: success
 [2024-05-03 01:59:46] INFO root fetch - main [MainThread]: Store serial: [23038825]
+[2024-05-03 02:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038825]
+[2024-05-03 02:01:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 02:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wandarr
+[2024-05-03 02:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bear-tools
+[2024-05-03 02:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octomy-common
+[2024-05-03 02:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GeoJikuu
+[2024-05-03 02:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atsdk
+[2024-05-03 02:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: es-wait
+[2024-05-03 02:01:54] INFO root fetch - processPackages [es-wait]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-03 02:01:54] INFO root fetch - processPackages [bear-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 02:01:54] INFO root fetch - processPackages [GeoJikuu]: New version: [0.27.54] Old Version: [0.27.53]
+[2024-05-03 02:01:54] INFO root fetch - processPackages [atsdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-03 02:01:54] INFO root fetch - processPackages [wandarr]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-03 02:01:54] INFO root fetch - processPackages [octomy-common]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-03 02:01:54] INFO root fetch - processPackages [bear-tools]: Downloading https://files.pythonhosted.org/packages/0b/1b/67c6b89a40d21bc02daff25fd477e5154626c63d6e6596c0291b6e1644f6/bear_tools-0.1.0.tar.gz
+[2024-05-03 02:01:54] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/64/3e/131f4d2851f0799f4e0f8b2ae17551b62dc2dd2447f44cb4fe488d40931e/es_wait-0.5.5.tar.gz
+[2024-05-03 02:01:54] INFO root fetch - processPackages [GeoJikuu]: Downloading https://files.pythonhosted.org/packages/fd/dd/33084175516aa1c5c3906c71921d85bd7cb2682f15d10ff72fe25222ecaa/geojikuu-0.27.53.tar.gz
+[2024-05-03 02:01:54] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/3a/94/52e4043c02706c5469ddde7c41ba9bac0b2f5ed6f6a215011e17bea94539/atsdk-0.2.7.tar.gz
+[2024-05-03 02:01:54] INFO root fetch - processPackages [octomy-common]: Downloading https://files.pythonhosted.org/packages/43/6b/e9c10d9675795bd9369c855c1cd27f7a5d572d053a65dd630aa1cae37743/octomy-common-2.0.8.tar.gz
+[2024-05-03 02:01:54] INFO root fetch - processPackages [wandarr]: Downloading https://files.pythonhosted.org/packages/6e/53/f3c779321fec4ae0b943b041e14cf3cb805f35a299f31e5651b4b958b84b/wandarr-1.0.7.tar.gz
+[2024-05-03 02:01:54] INFO root fetch - processPackages [bear-tools]: Downloading https://files.pythonhosted.org/packages/17/ab/42d650d2c11a4397d7642d22b98710ed2b2694ba9d288f6c619b3b83f490/bear_tools-0.1.1.tar.gz
+[2024-05-03 02:01:54] INFO root fetch - processPackages [GeoJikuu]: Downloading https://files.pythonhosted.org/packages/e2/cf/27c15e595bed757d013987021d9d31ef8428d9b5cf7b5833b0d6b645e496/geojikuu-0.27.54.tar.gz
+[2024-05-03 02:01:55] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/9b/6d/4d19e72c595c237ea1d2e28a927c4c90fd6b90d272c8cf057035405d08ea/es_wait-0.5.6.tar.gz
+[2024-05-03 02:01:55] INFO root fetch - processPackages [bear-tools]: executing diffoscope
+[2024-05-03 02:01:55] INFO root fetch - processPackages [bear-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bear_tools-0.1.0.tar.gz tmp/bear_tools-0.1.1.tar.gz --markdown 20240503/b/bear-tools/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 02:01:55] INFO root fetch - processPackages [octomy-common]: Downloading https://files.pythonhosted.org/packages/b1/f2/5a18ffa91b4f8c3fcbc3475b77eaa03236eb75d56934a24393864781ee7d/octomy-common-2.0.9.tar.gz
+[2024-05-03 02:01:55] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/71/a3/c2134f04675a35de720047245d2cd68d236e1789325393f6163f0c772ed0/atsdk-0.2.8.tar.gz
+[2024-05-03 02:01:55] INFO root fetch - processPackages [GeoJikuu]: executing diffoscope
+[2024-05-03 02:01:55] INFO root fetch - processPackages [GeoJikuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geojikuu-0.27.53.tar.gz tmp/geojikuu-0.27.54.tar.gz --markdown 20240503/G/GeoJikuu/0.27.53-0.27.54/README.md --exclude *.pyd
+[2024-05-03 02:01:55] INFO root fetch - processPackages [wandarr]: Downloading https://files.pythonhosted.org/packages/38/85/0b48a746dbc0142983340e11a78837dadde64d9125234f5fe2d968663f34/wandarr-1.0.8.tar.gz
+[2024-05-03 02:01:55] INFO root fetch - processPackages [es-wait]: executing diffoscope
+[2024-05-03 02:01:55] INFO root fetch - processPackages [es-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_wait-0.5.5.tar.gz tmp/es_wait-0.5.6.tar.gz --markdown 20240503/e/es-wait/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-03 02:01:55] WARNING root fetch - processPackages [wandarr]: Skipping package: exceeds size limit 39405317>=10485760
+[2024-05-03 02:01:55] INFO root fetch - main [MainThread]: End processing [wandarr] error
+[2024-05-03 02:01:55] INFO root fetch - processPackages [atsdk]: executing diffoscope
+[2024-05-03 02:01:55] INFO root fetch - processPackages [atsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsdk-0.2.7.tar.gz tmp/atsdk-0.2.8.tar.gz --markdown 20240503/a/atsdk/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-03 02:01:55] INFO root fetch - processPackages [octomy-common]: executing diffoscope
+[2024-05-03 02:01:55] INFO root fetch - processPackages [octomy-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octomy-common-2.0.8.tar.gz tmp/octomy-common-2.0.9.tar.gz --markdown 20240503/o/octomy-common/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-03 02:01:55] INFO root fetch - processPackages [bear-tools]: Remove: archive file [/home/abi/fetcher/tmp/bear_tools-0.1.0.tar.gz]
+[2024-05-03 02:01:55] INFO root fetch - processPackages [bear-tools]: Remove: archive file [/home/abi/fetcher/tmp/bear_tools-0.1.1.tar.gz]
+[2024-05-03 02:01:55] INFO root fetch - main [MainThread]: End processing [bear-tools]: success
+[2024-05-03 02:01:55] INFO root fetch - processPackages [GeoJikuu]: Remove: archive file [/home/abi/fetcher/tmp/geojikuu-0.27.53.tar.gz]
+[2024-05-03 02:01:55] INFO root fetch - processPackages [GeoJikuu]: Remove: archive file [/home/abi/fetcher/tmp/geojikuu-0.27.54.tar.gz]
+[2024-05-03 02:01:55] INFO root fetch - main [MainThread]: End processing [GeoJikuu]: success
+[2024-05-03 02:01:55] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.5.5.tar.gz]
+[2024-05-03 02:01:55] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.5.6.tar.gz]
+[2024-05-03 02:01:55] INFO root fetch - main [MainThread]: End processing [es-wait]: success
+[2024-05-03 02:01:55] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.7.tar.gz]
+[2024-05-03 02:01:55] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.8.tar.gz]
+[2024-05-03 02:01:55] INFO root fetch - main [MainThread]: End processing [atsdk]: success
+[2024-05-03 02:01:56] INFO root fetch - processPackages [octomy-common]: Remove: archive file [/home/abi/fetcher/tmp/octomy-common-2.0.8.tar.gz]
+[2024-05-03 02:01:56] INFO root fetch - processPackages [octomy-common]: Remove: archive file [/home/abi/fetcher/tmp/octomy-common-2.0.9.tar.gz]
+[2024-05-03 02:01:56] INFO root fetch - main [MainThread]: End processing [octomy-common]: success
+[2024-05-03 02:01:56] INFO root fetch - main [MainThread]: Store serial: [23038845]
