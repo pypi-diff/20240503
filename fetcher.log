@@ -15007,3 +15007,36 @@
 [2024-05-03 11:25:10] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-05-03 11:25:10] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-05-03 11:25:10] INFO root fetch - main [MainThread]: Store serial: [23043825]
+[2024-05-03 11:27:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043825]
+[2024-05-03 11:27:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codercore
+[2024-05-03 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello-avishek
+[2024-05-03 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-cost-analysis
+[2024-05-03 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymaginverse
+[2024-05-03 11:27:39] INFO root fetch - processPackages [hello-avishek]: New version: [2.1.5] Old Version: [0.3]
+[2024-05-03 11:27:39] INFO root fetch - processPackages [codercore]: New version: [6.0.0] Old Version: [5.0.0]
+[2024-05-03 11:27:39] WARNING root fetch - processPackages [pymaginverse]: Skipping, unable to determine old version
+[2024-05-03 11:27:39] INFO root fetch - main [MainThread]: End processing [pymaginverse] error
+[2024-05-03 11:27:39] INFO root fetch - processPackages [hello-avishek]: Downloading https://files.pythonhosted.org/packages/01/0f/fea1d2d7c7c3523dbaa0f6367312361135c905d1996372e444b41088047a/hello_avishek-0.3.tar.gz
+[2024-05-03 11:27:39] INFO root fetch - processPackages [codercore]: Downloading https://files.pythonhosted.org/packages/0d/be/0ddf95cb433988ec77e0227c40b13b3417657d57b09950eed5761bcce8c1/codercore-5.0.0.tar.gz
+[2024-05-03 11:27:39] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-03 11:27:40] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-05-03 11:27:40] INFO root fetch - processPackages [hello-avishek]: Downloading https://files.pythonhosted.org/packages/7d/ab/f602770c0d1377a01fe0007d9ad55a58a1e395425a7b318f968371e2365e/hello_avishek-2.1.5.tar.gz
+[2024-05-03 11:27:40] INFO root fetch - processPackages [codercore]: Downloading https://files.pythonhosted.org/packages/4c/24/18172e562ebc7199c61dd8ce9baf5d5c92f28333a8ed9498a0e63f5d0274/codercore-6.0.0.tar.gz
+[2024-05-03 11:27:40] INFO root fetch - processPackages [hello-avishek]: executing diffoscope
+[2024-05-03 11:27:40] INFO root fetch - processPackages [hello-avishek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_avishek-0.3.tar.gz tmp/hello_avishek-2.1.5.tar.gz --markdown 20240503/h/hello-avishek/0.3-2.1.5/README.md --exclude *.pyd
+[2024-05-03 11:27:40] INFO root fetch - processPackages [codercore]: executing diffoscope
+[2024-05-03 11:27:40] INFO root fetch - processPackages [codercore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codercore-5.0.0.tar.gz tmp/codercore-6.0.0.tar.gz --markdown 20240503/c/codercore/5.0.0-6.0.0/README.md --exclude *.pyd
+[2024-05-03 11:27:40] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-05-03 11:27:40] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-05-03 11:27:40] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240503/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-03 11:27:40] INFO root fetch - processPackages [hello-avishek]: Remove: archive file [/home/abi/fetcher/tmp/hello_avishek-0.3.tar.gz]
+[2024-05-03 11:27:40] INFO root fetch - processPackages [hello-avishek]: Remove: archive file [/home/abi/fetcher/tmp/hello_avishek-2.1.5.tar.gz]
+[2024-05-03 11:27:40] INFO root fetch - main [MainThread]: End processing [hello-avishek]: success
+[2024-05-03 11:27:41] INFO root fetch - processPackages [codercore]: Remove: archive file [/home/abi/fetcher/tmp/codercore-5.0.0.tar.gz]
+[2024-05-03 11:27:41] INFO root fetch - processPackages [codercore]: Remove: archive file [/home/abi/fetcher/tmp/codercore-6.0.0.tar.gz]
+[2024-05-03 11:27:41] INFO root fetch - main [MainThread]: End processing [codercore]: success
+[2024-05-03 11:27:41] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-05-03 11:27:41] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-05-03 11:27:41] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-05-03 11:27:41] INFO root fetch - main [MainThread]: Store serial: [23043842]
