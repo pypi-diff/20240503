@@ -9461,3 +9461,15 @@
 [2024-05-03 06:58:10] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.3.9.tar.gz]
 [2024-05-03 06:58:10] INFO root fetch - main [MainThread]: End processing [webscout]: success
 [2024-05-03 06:58:10] INFO root fetch - main [MainThread]: Store serial: [23041629]
+[2024-05-03 07:00:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041629]
+[2024-05-03 07:00:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 07:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riscv-ctg
+[2024-05-03 07:00:19] INFO root fetch - processPackages [riscv-ctg]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 07:00:19] INFO root fetch - processPackages [riscv-ctg]: Downloading https://files.pythonhosted.org/packages/32/5a/52979a76dae7f22721f85300f9e178809490e031e6a8464e3475b884f6c6/riscv_ctg-0.8.0.tar.gz
+[2024-05-03 07:00:19] INFO root fetch - processPackages [riscv-ctg]: Downloading https://files.pythonhosted.org/packages/07/3e/0313d3ef2acd900e50b7c0166e9e52d333878f461424674eb4d061e4b63b/riscv_ctg-0.9.0.tar.gz
+[2024-05-03 07:00:20] INFO root fetch - processPackages [riscv-ctg]: executing diffoscope
+[2024-05-03 07:00:20] INFO root fetch - processPackages [riscv-ctg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riscv_ctg-0.8.0.tar.gz tmp/riscv_ctg-0.9.0.tar.gz --markdown 20240503/r/riscv-ctg/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 07:00:20] INFO root fetch - processPackages [riscv-ctg]: Remove: archive file [/home/abi/fetcher/tmp/riscv_ctg-0.8.0.tar.gz]
+[2024-05-03 07:00:20] INFO root fetch - processPackages [riscv-ctg]: Remove: archive file [/home/abi/fetcher/tmp/riscv_ctg-0.9.0.tar.gz]
+[2024-05-03 07:00:20] INFO root fetch - main [MainThread]: End processing [riscv-ctg]: success
+[2024-05-03 07:00:20] INFO root fetch - main [MainThread]: Store serial: [23041632]
