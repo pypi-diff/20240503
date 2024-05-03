@@ -6914,3 +6914,24 @@
 [2024-05-03 03:46:33] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
 [2024-05-03 03:46:33] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
 [2024-05-03 03:46:33] INFO root fetch - main [MainThread]: Store serial: [23040666]
+[2024-05-03 03:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040666]
+[2024-05-03 03:48:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 03:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-03 03:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adpipsvcfuncs
+[2024-05-03 03:48:42] INFO root fetch - processPackages [adpipsvcfuncs]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 03:48:42] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev2] Old Version: [0.2.0.dev1]
+[2024-05-03 03:48:42] INFO root fetch - processPackages [adpipsvcfuncs]: Downloading https://files.pythonhosted.org/packages/45/eb/675cf8ab954e0566a0aeb4d4bff4a90304b082a44ef5b57be255ccf39268/adpipsvcfuncs-0.1.4.tar.gz
+[2024-05-03 03:48:42] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/39/89/e1d228a8873559d6109ad7534a4e1360eb86580d1eeda8724493e10c6d14/torch_model_manager-0.2.0.dev1.tar.gz
+[2024-05-03 03:48:42] INFO root fetch - processPackages [adpipsvcfuncs]: Downloading https://files.pythonhosted.org/packages/71/4e/0644d5a071a39e43d89308fa481b3305fbe11b472cf2f4fd1d50105e90e6/adpipsvcfuncs-0.1.5.tar.gz
+[2024-05-03 03:48:42] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/25/76/613b83ba96c3500c00e108aef4ccdb13ff76c40cc71033b7de07b5cc8e6f/torch_model_manager-0.2.0.dev2.tar.gz
+[2024-05-03 03:48:42] INFO root fetch - processPackages [adpipsvcfuncs]: executing diffoscope
+[2024-05-03 03:48:42] INFO root fetch - processPackages [adpipsvcfuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adpipsvcfuncs-0.1.4.tar.gz tmp/adpipsvcfuncs-0.1.5.tar.gz --markdown 20240503/a/adpipsvcfuncs/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 03:48:42] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-03 03:48:42] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.dev1.tar.gz tmp/torch_model_manager-0.2.0.dev2.tar.gz --markdown 20240503/t/torch-model-manager/0.2.0.dev1-0.2.0.dev2/README.md --exclude *.pyd
+[2024-05-03 03:48:43] INFO root fetch - processPackages [adpipsvcfuncs]: Remove: archive file [/home/abi/fetcher/tmp/adpipsvcfuncs-0.1.4.tar.gz]
+[2024-05-03 03:48:43] INFO root fetch - processPackages [adpipsvcfuncs]: Remove: archive file [/home/abi/fetcher/tmp/adpipsvcfuncs-0.1.5.tar.gz]
+[2024-05-03 03:48:43] INFO root fetch - main [MainThread]: End processing [adpipsvcfuncs]: success
+[2024-05-03 03:48:43] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev1.tar.gz]
+[2024-05-03 03:48:43] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev2.tar.gz]
+[2024-05-03 03:48:43] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-03 03:48:43] INFO root fetch - main [MainThread]: Store serial: [23040672]
