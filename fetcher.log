@@ -11387,3 +11387,87 @@
 [2024-05-03 08:52:04] INFO root fetch - processPackages [odoo14-addon-intercompany-shared-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_intercompany_shared_contact-14.0.1.1.3.dev3-py3-none-any.whl.zip]
 [2024-05-03 08:52:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-intercompany-shared-contact]: success
 [2024-05-03 08:52:04] INFO root fetch - main [MainThread]: Store serial: [23042337]
+[2024-05-03 08:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042337]
+[2024-05-03 08:54:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superb-ai-apps
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PREN-flawas
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infoworkssdk
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shopcloud-microservice
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensortrax
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datumaro
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scitbx
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mapsyncer
+[2024-05-03 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kitsunekko-tools
+[2024-05-03 08:54:13] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [kitsunekko-tools]: New version: [24.5.3.0] Old Version: [24.4.30.0]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [scitbx]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-03 08:54:13] INFO root fetch - processPackages [superb-ai-apps]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [shopcloud-microservice]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [mapsyncer]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [infoworkssdk]: New version: [4.0b3] Old Version: [4.0b2]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [kitsunekko-tools]: Downloading https://files.pythonhosted.org/packages/78/8d/6a77026cd192538a2e6dc8e60b40beb35a0d3b9df75d6f4d7e36a892d7ff/kitsunekko_tools-24.4.30.0.tar.gz
+[2024-05-03 08:54:13] INFO root fetch - processPackages [tensortrax]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [datumaro]: New version: [1.6.1rc3] Old Version: [1.6.1rc2]
+[2024-05-03 08:54:13] INFO root fetch - processPackages [scitbx]: Downloading https://files.pythonhosted.org/packages/cb/79/43705ff3a0905a4f7509500c16517885e03ac41bb834349f39dc94677928/scitbx-0.0.8.tar.gz
+[2024-05-03 08:54:13] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/4f/40/d9e9bc0c72b4a2c2ee86e012ebbb5256b144ac6e091482a8efd8d2ac3cb1/superb-ai-apps-0.0.6.tar.gz
+[2024-05-03 08:54:13] INFO root fetch - processPackages [shopcloud-microservice]: Downloading https://files.pythonhosted.org/packages/36/4a/8c3b672984271ffdf70083cb45ba038306aba5830d53c401e79b94364cd7/shopcloud-microservice-0.8.0.tar.gz
+[2024-05-03 08:54:13] INFO root fetch - processPackages [infoworkssdk]: Downloading https://files.pythonhosted.org/packages/23/0c/bc2d66386ccedaacdb5c867c1dc520f5cbbb175f151cc19c5de373ca4aa1/infoworkssdk-4.0b2.tar.gz
+[2024-05-03 08:54:13] INFO root fetch - processPackages [mapsyncer]: Downloading https://files.pythonhosted.org/packages/30/d3/d80c09e01f60203b2cd3db11b03a5d13807db53cb41026c75579e4223fc6/mapsyncer-1.0.0.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/14/75/cea3a1cba28972d7a65ffcb891f9e7fa3e7619c6fa41d912aa5cc5f8a3fe/datumaro-1.6.1rc2.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/89/90/35a2c54ede65e72fe80b04f638e7a8151b0671dbd4e55318c2de29784a04/tensortrax-0.8.5.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [kitsunekko-tools]: Downloading https://files.pythonhosted.org/packages/bc/46/aa7cd8aca53ed2ad4d98b1e2ff11c521120723001b25822d05a4c46ff54f/kitsunekko_tools-24.5.3.0.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [scitbx]: Downloading https://files.pythonhosted.org/packages/b8/ff/2e55176f8dabd4388b805375a27fd81f9b2006a4cd3d706ae0cb2aead55a/scitbx-0.0.9.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [scitbx]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [scitbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitbx-0.0.8.tar.gz tmp/scitbx-0.0.9.tar.gz --markdown 20240503/s/scitbx/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:54:14] INFO root fetch - processPackages [kitsunekko-tools]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [kitsunekko-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kitsunekko_tools-24.4.30.0.tar.gz tmp/kitsunekko_tools-24.5.3.0.tar.gz --markdown 20240503/k/kitsunekko-tools/24.4.30.0-24.5.3.0/README.md --exclude *.pyd
+[2024-05-03 08:54:14] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/a3/d7/96564d6ca24f00e432badaf4cdbaf54ec5664530a69a84187ed74a7cc680/superb-ai-apps-0.0.7.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [shopcloud-microservice]: Downloading https://files.pythonhosted.org/packages/dc/13/862cbb3365b7271c5fe616f75eab4d758880aff1320eee90ddcec032322f/shopcloud-microservice-0.9.0.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [mapsyncer]: Downloading https://files.pythonhosted.org/packages/c3/9f/5bf13b30f78d7c4be74a12abf91a552a418f56689bd476a6438dad037fea/mapsyncer-1.0.1.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [infoworkssdk]: Downloading https://files.pythonhosted.org/packages/f3/9d/9d2e622cca9b53c26cbc233d99268b4c2aaf44b8843845a5e3d2f123f61b/infoworkssdk-4.0b3.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [superb-ai-apps]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [superb-ai-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb-ai-apps-0.0.6.tar.gz tmp/superb-ai-apps-0.0.7.tar.gz --markdown 20240503/s/superb-ai-apps/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-03 08:54:14] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/d5/ee/5781c8a0fd8be11b0a4fef0fa32c022b900698e16870bf834671c45e36c3/tensortrax-0.9.0.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/41/26/b0d20bfbcf8a0d433f1734964072e2e5a3b672c5151ca7bfb4a95608796d/datumaro-1.6.1rc3.tar.gz
+[2024-05-03 08:54:14] INFO root fetch - processPackages [shopcloud-microservice]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [shopcloud-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-microservice-0.8.0.tar.gz tmp/shopcloud-microservice-0.9.0.tar.gz --markdown 20240503/s/shopcloud-microservice/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 08:54:14] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240503/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:54:14] INFO root fetch - processPackages [infoworkssdk]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [infoworkssdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infoworkssdk-4.0b2.tar.gz tmp/infoworkssdk-4.0b3.tar.gz --markdown 20240503/i/infoworkssdk/4.0b2-4.0b3/README.md --exclude *.pyd
+[2024-05-03 08:54:14] INFO root fetch - processPackages [mapsyncer]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [mapsyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapsyncer-1.0.0.tar.gz tmp/mapsyncer-1.0.1.tar.gz --markdown 20240503/m/mapsyncer/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-03 08:54:14] INFO root fetch - processPackages [tensortrax]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [tensortrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensortrax-0.8.5.tar.gz tmp/tensortrax-0.9.0.tar.gz --markdown 20240503/t/tensortrax/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-03 08:54:14] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2024-05-03 08:54:14] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.6.1rc2.tar.gz tmp/datumaro-1.6.1rc3.tar.gz --markdown 20240503/d/datumaro/1.6.1rc2-1.6.1rc3/README.md --exclude *.pyd
+[2024-05-03 08:54:15] INFO root fetch - processPackages [scitbx]: Remove: archive file [/home/abi/fetcher/tmp/scitbx-0.0.8.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - processPackages [scitbx]: Remove: archive file [/home/abi/fetcher/tmp/scitbx-0.0.9.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - main [MainThread]: End processing [scitbx]: success
+[2024-05-03 08:54:15] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.6.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.7.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - main [MainThread]: End processing [superb-ai-apps]: success
+[2024-05-03 08:54:15] INFO root fetch - processPackages [kitsunekko-tools]: Remove: archive file [/home/abi/fetcher/tmp/kitsunekko_tools-24.4.30.0.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - processPackages [kitsunekko-tools]: Remove: archive file [/home/abi/fetcher/tmp/kitsunekko_tools-24.5.3.0.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - main [MainThread]: End processing [kitsunekko-tools]: success
+[2024-05-03 08:54:15] INFO root fetch - processPackages [shopcloud-microservice]: Remove: archive file [/home/abi/fetcher/tmp/shopcloud-microservice-0.8.0.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - processPackages [shopcloud-microservice]: Remove: archive file [/home/abi/fetcher/tmp/shopcloud-microservice-0.9.0.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - main [MainThread]: End processing [shopcloud-microservice]: success
+[2024-05-03 08:54:15] INFO root fetch - processPackages [mapsyncer]: Remove: archive file [/home/abi/fetcher/tmp/mapsyncer-1.0.0.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - processPackages [mapsyncer]: Remove: archive file [/home/abi/fetcher/tmp/mapsyncer-1.0.1.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - main [MainThread]: End processing [mapsyncer]: success
+[2024-05-03 08:54:15] INFO root fetch - processPackages [infoworkssdk]: Remove: archive file [/home/abi/fetcher/tmp/infoworkssdk-4.0b2.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - processPackages [infoworkssdk]: Remove: archive file [/home/abi/fetcher/tmp/infoworkssdk-4.0b3.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - main [MainThread]: End processing [infoworkssdk]: success
+[2024-05-03 08:54:15] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.8.5.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.9.0.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - main [MainThread]: End processing [tensortrax]: success
+[2024-05-03 08:54:15] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-03 08:54:15] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-03 08:54:16] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc2.tar.gz]
+[2024-05-03 08:54:16] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc3.tar.gz]
+[2024-05-03 08:54:16] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2024-05-03 08:54:16] INFO root fetch - main [MainThread]: Store serial: [23042370]
