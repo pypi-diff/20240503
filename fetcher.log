@@ -17687,3 +17687,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:33:36] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.5.tar.gz]
 [2024-05-03 13:33:36] INFO root fetch - main [MainThread]: End processing [vital]: success
 [2024-05-03 13:33:36] INFO root fetch - main [MainThread]: Store serial: [23045261]
+[2024-05-03 13:36:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045261]
+[2024-05-03 13:36:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ndip-topaz-reduction
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nmk-doc
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: survival-predictor-model
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkconnector
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xautomata-kronos
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asyncgui-ext-clock
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-eo
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchserve-nightly
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-model-archiver-nightly
+[2024-05-03 13:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-workflow-archiver-nightly
+[2024-05-03 13:36:08] INFO root fetch - processPackages [nmk-doc]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-03 13:36:08] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-03 13:36:08] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-03 13:36:08] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-03 13:36:08] INFO root fetch - processPackages [asyncgui-ext-clock]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 13:36:08] INFO root fetch - processPackages [xautomata-kronos]: New version: [3.1.0] Old Version: [3.0.3]
+[2024-05-03 13:36:08] WARNING root fetch - processPackages [ndip-topaz-reduction]: Skipping, unable to determine old version
+[2024-05-03 13:36:08] INFO root fetch - main [MainThread]: End processing [ndip-topaz-reduction] error
+[2024-05-03 13:36:08] WARNING root fetch - processPackages [survival-predictor-model]: Skipping, unable to determine old version
+[2024-05-03 13:36:08] INFO root fetch - main [MainThread]: End processing [survival-predictor-model] error
+[2024-05-03 13:36:08] INFO root fetch - processPackages [sparkconnector]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-03 13:36:08] INFO root fetch - processPackages [pytorch-eo]: New version: [22.6.17] Old Version: [22.2.25]
+[2024-05-03 13:36:08] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/67/92/056453f58e94323bf84707de48d232f038341f6fbd0b57b0ed28af228efc/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl
+[2024-05-03 13:36:08] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/3e/07/23107402b7d0b53097552df46e172ea75e7348565ba33207130ea1b2c204/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl
+[2024-05-03 13:36:08] INFO root fetch - processPackages [nmk-doc]: Downloading https://files.pythonhosted.org/packages/cb/f4/2c2b3c79dd5e23c826664f4ab573ecfb3b8a1936fe98d4e358ddd022d6c9/nmk-doc-0.5.0.tar.gz
+[2024-05-03 13:36:08] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d0/c0/e379acd0064ddfc392673b90246ad8d3c0e35301906fc8cad541e6241751/torchserve_nightly-2024.5.1-py3-none-any.whl
+[2024-05-03 13:36:08] INFO root fetch - processPackages [asyncgui-ext-clock]: Downloading https://files.pythonhosted.org/packages/d9/44/8ca9ece07a58ca95579f5f4a1ece9a1f465377d6b2e67885d49fb66b56f0/asyncgui_ext_clock-0.1.0.tar.gz
+[2024-05-03 13:36:08] INFO root fetch - processPackages [xautomata-kronos]: Downloading https://files.pythonhosted.org/packages/d8/bb/e55b674f1e4e90a0e3bb00233e3026e83fde28d677926f35c6048d016c38/xautomata-kronos-3.0.3.tar.gz
+[2024-05-03 13:36:08] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332991>=10485760
+[2024-05-03 13:36:08] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-03 13:36:08] INFO root fetch - processPackages [sparkconnector]: Downloading https://files.pythonhosted.org/packages/f9/b3/725e1791964a1c504e2a5dfa624a01d7901922b56bbde30540daba49dcce/sparkconnector-3.0.1.tar.gz
+[2024-05-03 13:36:08] INFO root fetch - processPackages [pytorch-eo]: Downloading https://files.pythonhosted.org/packages/37/c7/3ade751935778a683ade33a21e2451b909fb7f7e6b1e4ff2cd8dd57a7e5c/pytorch_eo-22.2.25.tar.gz
+[2024-05-03 13:36:09] INFO root fetch - processPackages [nmk-doc]: Downloading https://files.pythonhosted.org/packages/a2/64/9d1dd67c616306a6ae8761c172fce505af10d0f493ef1b3b2e9184e68252/nmk_doc-0.5.1.tar.gz
+[2024-05-03 13:36:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b6/b5/d1e4a621f0376c9eaa3f019220239794f13343d9b66abad4cfb3c4eac616/torch_model_archiver_nightly-2024.5.2-py3-none-any.whl
+[2024-05-03 13:36:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d8/ea/d850bf92f2e71ce17f942c829b30eac17a29b4a9b23f04d963b992724763/torch_workflow_archiver_nightly-2024.5.2-py3-none-any.whl
+[2024-05-03 13:36:09] INFO root fetch - processPackages [asyncgui-ext-clock]: Downloading https://files.pythonhosted.org/packages/65/ab/23eb260ffb58ddffe0ffd53f713cb8679c44030baa82c19930b1d912d88d/asyncgui_ext_clock-0.2.0.tar.gz
+[2024-05-03 13:36:09] INFO root fetch - processPackages [xautomata-kronos]: Downloading https://files.pythonhosted.org/packages/e7/b6/535f2563ea0e9eda7602aecce1ea9dad37e0d3a3fd8c91cbb608cef6cbcb/xautomata_kronos-3.1.0.tar.gz
+[2024-05-03 13:36:09] INFO root fetch - processPackages [nmk-doc]: executing diffoscope
+[2024-05-03 13:36:09] INFO root fetch - processPackages [nmk-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmk-doc-0.5.0.tar.gz tmp/nmk_doc-0.5.1.tar.gz --markdown 20240503/n/nmk-doc/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-03 13:36:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-03 13:36:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.2-py3-none-any.whl.zip --markdown 20240503/t/torch-model-archiver-nightly/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-03 13:36:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-03 13:36:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.2-py3-none-any.whl.zip --markdown 20240503/t/torch-workflow-archiver-nightly/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-03 13:36:09] INFO root fetch - processPackages [xautomata-kronos]: executing diffoscope
+[2024-05-03 13:36:09] INFO root fetch - processPackages [xautomata-kronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xautomata-kronos-3.0.3.tar.gz tmp/xautomata_kronos-3.1.0.tar.gz --markdown 20240503/x/xautomata-kronos/3.0.3-3.1.0/README.md --exclude *.pyd
+[2024-05-03 13:36:09] INFO root fetch - processPackages [sparkconnector]: Downloading https://files.pythonhosted.org/packages/2c/17/a33f88e19151d8db8422469d81c553724fb1ea715a3fb5a9c2de4293b745/sparkconnector-3.0.2.tar.gz
+[2024-05-03 13:36:09] INFO root fetch - processPackages [asyncgui-ext-clock]: executing diffoscope
+[2024-05-03 13:36:09] INFO root fetch - processPackages [asyncgui-ext-clock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncgui_ext_clock-0.1.0.tar.gz tmp/asyncgui_ext_clock-0.2.0.tar.gz --markdown 20240503/a/asyncgui-ext-clock/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 13:36:09] WARNING root fetch - processPackages [pytorch-eo]: Skipping package: exceeds size limit 27051634>=10485760
+[2024-05-03 13:36:09] INFO root fetch - main [MainThread]: End processing [pytorch-eo] error
+[2024-05-03 13:36:09] INFO root fetch - processPackages [sparkconnector]: executing diffoscope
+[2024-05-03 13:36:09] INFO root fetch - processPackages [sparkconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkconnector-3.0.1.tar.gz tmp/sparkconnector-3.0.2.tar.gz --markdown 20240503/s/sparkconnector/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-05-03 13:36:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl.zip]
+[2024-05-03 13:36:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.2-py3-none-any.whl.zip]
+[2024-05-03 13:36:09] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-03 13:36:10] INFO root fetch - processPackages [xautomata-kronos]: Remove: archive file [/home/abi/fetcher/tmp/xautomata-kronos-3.0.3.tar.gz]
+[2024-05-03 13:36:10] INFO root fetch - processPackages [xautomata-kronos]: Remove: archive file [/home/abi/fetcher/tmp/xautomata_kronos-3.1.0.tar.gz]
+[2024-05-03 13:36:10] INFO root fetch - main [MainThread]: End processing [xautomata-kronos]: success
+[2024-05-03 13:36:10] INFO root fetch - processPackages [asyncgui-ext-clock]: Remove: archive file [/home/abi/fetcher/tmp/asyncgui_ext_clock-0.1.0.tar.gz]
+[2024-05-03 13:36:10] INFO root fetch - processPackages [asyncgui-ext-clock]: Remove: archive file [/home/abi/fetcher/tmp/asyncgui_ext_clock-0.2.0.tar.gz]
+[2024-05-03 13:36:10] INFO root fetch - main [MainThread]: End processing [asyncgui-ext-clock]: success
+[2024-05-03 13:36:10] INFO root fetch - processPackages [nmk-doc]: Remove: archive file [/home/abi/fetcher/tmp/nmk-doc-0.5.0.tar.gz]
+[2024-05-03 13:36:10] INFO root fetch - processPackages [nmk-doc]: Remove: archive file [/home/abi/fetcher/tmp/nmk_doc-0.5.1.tar.gz]
+[2024-05-03 13:36:10] INFO root fetch - main [MainThread]: End processing [nmk-doc]: success
+[2024-05-03 13:36:10] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl.zip]
+[2024-05-03 13:36:10] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.2-py3-none-any.whl.zip]
+[2024-05-03 13:36:10] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-03 13:36:10] INFO root fetch - processPackages [sparkconnector]: Remove: archive file [/home/abi/fetcher/tmp/sparkconnector-3.0.1.tar.gz]
+[2024-05-03 13:36:10] INFO root fetch - processPackages [sparkconnector]: Remove: archive file [/home/abi/fetcher/tmp/sparkconnector-3.0.2.tar.gz]
+[2024-05-03 13:36:10] INFO root fetch - main [MainThread]: End processing [sparkconnector]: success
+[2024-05-03 13:36:10] INFO root fetch - main [MainThread]: Store serial: [23045300]
