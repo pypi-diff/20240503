@@ -10473,3 +10473,33 @@
 [2024-05-03 08:08:02] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.7.4.dev4-py3-none-any.whl.zip]
 [2024-05-03 08:08:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
 [2024-05-03 08:08:02] INFO root fetch - main [MainThread]: Store serial: [23041994]
+[2024-05-03 08:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041994]
+[2024-05-03 08:10:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 08:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2024-05-03 08:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cycparser
+[2024-05-03 08:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysparkify
+[2024-05-03 08:10:12] INFO root fetch - processPackages [pysparkify]: New version: [0.26.4] Old Version: [0.26.3]
+[2024-05-03 08:10:12] INFO root fetch - processPackages [cycparser]: New version: [1.2.9] Old Version: [1.2.83]
+[2024-05-03 08:10:12] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-05-03 08:10:12] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/94/78/d1e89b8f25a582fabcbfa57a1000362ff619fb39162b1dc4030f9c83bf34/cycparser-1.2.83.tar.gz
+[2024-05-03 08:10:13] INFO root fetch - processPackages [pysparkify]: Downloading https://files.pythonhosted.org/packages/1e/0a/4c2b8b9c86e00b456053ed3b9fa2b4ca4d745ad289226e899e0c5124db49/pysparkify-0.26.3.tar.gz
+[2024-05-03 08:10:13] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/88/5e/d5946f8a777d36f54392dd993d8c79690ee4ea3f518e0b10bcb88e30733e/cdk-sops-secrets-1.7.2.tar.gz
+[2024-05-03 08:10:13] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/18/d8/2b7fc87b39a5c7e3e5efb3c4fba10bdea69dddbcaccc22660be5d4666496/cycparser-1.2.9.tar.gz
+[2024-05-03 08:10:13] INFO root fetch - processPackages [pysparkify]: Downloading https://files.pythonhosted.org/packages/58/f5/de054d074f226994eaea803af6d01aecbfd85b94e1d6ef1fe6b483fdf39d/pysparkify-0.26.4.tar.gz
+[2024-05-03 08:10:13] INFO root fetch - processPackages [cycparser]: executing diffoscope
+[2024-05-03 08:10:13] INFO root fetch - processPackages [cycparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycparser-1.2.83.tar.gz tmp/cycparser-1.2.9.tar.gz --markdown 20240503/c/cycparser/1.2.83-1.2.9/README.md --exclude *.pyd
+[2024-05-03 08:10:13] INFO root fetch - processPackages [pysparkify]: executing diffoscope
+[2024-05-03 08:10:13] INFO root fetch - processPackages [pysparkify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkify-0.26.3.tar.gz tmp/pysparkify-0.26.4.tar.gz --markdown 20240503/p/pysparkify/0.26.3-0.26.4/README.md --exclude *.pyd
+[2024-05-03 08:10:13] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/4e/3d/062e4b35e13c89e230e9a809feebda35fff4af55f9aaef1b7144376aacfa/cdk-sops-secrets-1.7.3.tar.gz
+[2024-05-03 08:10:14] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2024-05-03 08:10:14] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.7.2.tar.gz tmp/cdk-sops-secrets-1.7.3.tar.gz --markdown 20240503/c/cdk-sops-secrets/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-05-03 08:10:14] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.83.tar.gz]
+[2024-05-03 08:10:14] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.9.tar.gz]
+[2024-05-03 08:10:14] INFO root fetch - main [MainThread]: End processing [cycparser]: success
+[2024-05-03 08:10:14] INFO root fetch - processPackages [pysparkify]: Remove: archive file [/home/abi/fetcher/tmp/pysparkify-0.26.3.tar.gz]
+[2024-05-03 08:10:14] INFO root fetch - processPackages [pysparkify]: Remove: archive file [/home/abi/fetcher/tmp/pysparkify-0.26.4.tar.gz]
+[2024-05-03 08:10:14] INFO root fetch - main [MainThread]: End processing [pysparkify]: success
+[2024-05-03 08:10:15] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.7.2.tar.gz]
+[2024-05-03 08:10:15] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.7.3.tar.gz]
+[2024-05-03 08:10:15] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2024-05-03 08:10:15] INFO root fetch - main [MainThread]: Store serial: [23042003]
