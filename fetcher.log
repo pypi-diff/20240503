@@ -20308,3 +20308,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:40:03] INFO root fetch - processPackages [pystac]: Remove: archive file [/home/abi/fetcher/tmp/pystac-1.9.0.tar.gz]
 [2024-05-03 15:40:03] INFO root fetch - main [MainThread]: End processing [pystac]: success
 [2024-05-03 15:40:03] INFO root fetch - main [MainThread]: Store serial: [23046504]
+[2024-05-03 15:42:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046504]
+[2024-05-03 15:42:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 15:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libecalc
+[2024-05-03 15:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intersphinx_registry
+[2024-05-03 15:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybermarket-server
+[2024-05-03 15:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-03 15:42:33] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 15:42:33] INFO root fetch - processPackages [intersphinx_registry]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 15:42:33] WARNING root fetch - processPackages [cybermarket-server]: Skipping, unable to determine old version
+[2024-05-03 15:42:33] INFO root fetch - main [MainThread]: End processing [cybermarket-server] error
+[2024-05-03 15:42:33] INFO root fetch - processPackages [libecalc]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-03 15:42:33] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 15:42:33] INFO root fetch - processPackages [intersphinx_registry]: Downloading https://files.pythonhosted.org/packages/7e/89/00340da669f54841ee237996cf6c684f39932ed0a5ab6ea1f8995fe98716/intersphinx_registry-0.0.1.tar.gz
+[2024-05-03 15:42:33] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/51/a2/8520612a4baf1a899fba5e8b0ee63b32bd73c2ba905fa5d3ae5fe2a1ed90/libecalc-8.8.0.tar.gz
+[2024-05-03 15:42:33] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 28339411>=10485760
+[2024-05-03 15:42:33] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2024-05-03 15:42:33] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 15:42:33] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 15:42:33] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 15:42:33] INFO root fetch - processPackages [intersphinx_registry]: Downloading https://files.pythonhosted.org/packages/1f/1c/57113a3fe20a16f3e9f8b5894cdb55f1fcbddff89c6cb3393095e8842360/intersphinx_registry-0.0.2.tar.gz
+[2024-05-03 15:42:33] INFO root fetch - processPackages [intersphinx_registry]: executing diffoscope
+[2024-05-03 15:42:33] INFO root fetch - processPackages [intersphinx_registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intersphinx_registry-0.0.1.tar.gz tmp/intersphinx_registry-0.0.2.tar.gz --markdown 20240503/i/intersphinx_registry/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 15:42:34] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 15:42:34] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 15:42:34] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 15:42:34] INFO root fetch - processPackages [intersphinx_registry]: Remove: archive file [/home/abi/fetcher/tmp/intersphinx_registry-0.0.1.tar.gz]
+[2024-05-03 15:42:34] INFO root fetch - processPackages [intersphinx_registry]: Remove: archive file [/home/abi/fetcher/tmp/intersphinx_registry-0.0.2.tar.gz]
+[2024-05-03 15:42:34] INFO root fetch - main [MainThread]: End processing [intersphinx_registry]: success
+[2024-05-03 15:42:34] INFO root fetch - main [MainThread]: Store serial: [23046518]
