@@ -8134,3 +8134,33 @@
 [2024-05-03 05:08:12] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
 [2024-05-03 05:08:12] INFO root fetch - main [MainThread]: End processing [taskara]: success
 [2024-05-03 05:08:12] INFO root fetch - main [MainThread]: Store serial: [23041109]
+[2024-05-03 05:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041109]
+[2024-05-03 05:10:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 05:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo2docs
+[2024-05-03 05:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-05-03 05:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-llama
+[2024-05-03 05:10:20] INFO root fetch - processPackages [repo2docs]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-03 05:10:20] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 05:10:20] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/da/3d/147f30760b40880188a3eeb0f2da93aef4c331b05ac0d7363bbb250a3a37/repo2docs-0.1.5.tar.gz
+[2024-05-03 05:10:20] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-03 05:10:20] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-03 05:10:20] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-03 05:10:20] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/b7/b4/fca3875df12a436b380c31b76849f57cf5db79ba2d4c087b8f40088ee16d/repo2docs-0.1.6.tar.gz
+[2024-05-03 05:10:20] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-03 05:10:21] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-03 05:10:21] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 05:10:21] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.5.tar.gz tmp/repo2docs-0.1.6.tar.gz --markdown 20240503/r/repo2docs/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-03 05:10:21] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-03 05:10:21] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240503/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 05:10:21] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-03 05:10:21] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240503/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-03 05:10:21] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.5.tar.gz]
+[2024-05-03 05:10:21] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.6.tar.gz]
+[2024-05-03 05:10:21] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 05:10:21] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-03 05:10:21] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-03 05:10:21] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-03 05:10:21] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-03 05:10:21] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-03 05:10:21] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-03 05:10:21] INFO root fetch - main [MainThread]: Store serial: [23041118]
