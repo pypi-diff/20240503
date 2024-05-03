@@ -22526,3 +22526,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:54:23] INFO root fetch - processPackages [es-testbed]: Remove: archive file [/home/abi/fetcher/tmp/es_testbed-0.7.0.tar.gz]
 [2024-05-03 16:54:23] INFO root fetch - main [MainThread]: End processing [es-testbed]: success
 [2024-05-03 16:54:23] INFO root fetch - main [MainThread]: Store serial: [23047443]
+[2024-05-03 16:56:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047443]
+[2024-05-03 16:56:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npywx
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-nai3
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sru-queryer
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capellambse
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minivectordb
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: databricks-sdk
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toolfuse
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: beta9
+[2024-05-03 16:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: krypt
+[2024-05-03 16:56:52] INFO root fetch - processPackages [nonebot-plugin-nai3]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 16:56:52] INFO root fetch - processPackages [beta9]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 16:56:52] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-03 16:56:52] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-05-03 16:56:52] WARNING root fetch - processPackages [krypt]: Skipping, unable to determine old version
+[2024-05-03 16:56:52] INFO root fetch - main [MainThread]: End processing [krypt] error
+[2024-05-03 16:56:52] WARNING root fetch - processPackages [npywx]: Skipping, unable to determine old version
+[2024-05-03 16:56:52] INFO root fetch - main [MainThread]: End processing [npywx] error
+[2024-05-03 16:56:52] INFO root fetch - processPackages [minivectordb]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-03 16:56:52] INFO root fetch - processPackages [toolfuse]: New version: [0.1.20] Old Version: [0.1.19]
+[2024-05-03 16:56:52] INFO root fetch - processPackages [sru-queryer]: New version: [2.0.0] Old Version: [1.0.3]
+[2024-05-03 16:56:52] INFO root fetch - processPackages [databricks-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 16:56:52] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-03 16:56:52] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/ef/cc/70806f6e01d8b8e311af6e2e9d3a1336489db4b9009f10e521e2128084e7/beta9-0.1.7.tar.gz
+[2024-05-03 16:56:52] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-05-03 16:56:52] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/54/96/f21c4f0b9e5e69da731bcd15f16ec79bb1ae532a9d4e835f9f1493cb8ee9/nonebot_plugin_nai3-0.1.6.tar.gz
+[2024-05-03 16:56:52] INFO root fetch - processPackages [minivectordb]: Downloading https://files.pythonhosted.org/packages/b0/88/5698264cc9ad70948cea7d1c771dc11d9306216ac8e870e4a6c7ff5b2cf4/minivectordb-1.4.3.tar.gz
+[2024-05-03 16:56:53] WARNING root fetch - processPackages [minivectordb]: Skipping package: exceeds size limit 45077342>=10485760
+[2024-05-03 16:56:53] INFO root fetch - main [MainThread]: End processing [minivectordb] error
+[2024-05-03 16:56:53] INFO root fetch - processPackages [toolfuse]: Downloading https://files.pythonhosted.org/packages/b2/f9/0f8cc1296c88ece3535f8c74589e78efd293f600cd871a9e26685669acd4/toolfuse-0.1.19.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [sru-queryer]: Downloading https://files.pythonhosted.org/packages/35/77/aede21a7fb1c369992e3b12da63bbe38a8d5385ceb02832d068adf9a2f06/sru_queryer-1.0.3.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/11/67/b604fdb1907c1ee8dda9654212239b97efe74c015aa742cfe9806173d4d3/beta9-0.1.8.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/3c/7b/df7c97747246261c5e18eeeccd3fccd465ae8b159a2a5c45cecc6dc36bce/databricks-sdk-0.8.0.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [beta9]: executing diffoscope
+[2024-05-03 16:56:53] INFO root fetch - processPackages [beta9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beta9-0.1.7.tar.gz tmp/beta9-0.1.8.tar.gz --markdown 20240503/b/beta9/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 16:56:53] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-03 16:56:53] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240503/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-03 16:56:53] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/5f/70/4612340dfbf1707d4cb16c1b041820152dda0715b63b3f163466850e68e0/nonebot_plugin_nai3-0.1.7.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/5d/c3/807c4d744e129b1d1fa80a6966260ad471dcabc9a0bfcd53641ed512836a/databricks-sdk-0.9.0.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [toolfuse]: Downloading https://files.pythonhosted.org/packages/e1/4e/ca6f7375267ced38b8f1824e83bff7788535c67ad493d86d52d15f056876/toolfuse-0.1.20.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [nonebot-plugin-nai3]: executing diffoscope
+[2024-05-03 16:56:53] INFO root fetch - processPackages [nonebot-plugin-nai3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nai3-0.1.6.tar.gz tmp/nonebot_plugin_nai3-0.1.7.tar.gz --markdown 20240503/n/nonebot-plugin-nai3/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 16:56:53] INFO root fetch - processPackages [sru-queryer]: Downloading https://files.pythonhosted.org/packages/7c/ec/451b6acca913b72d3dcfb58746f1c3db5a276d6e077da23a54ca80b44ef9/sru_queryer-2.0.0.tar.gz
+[2024-05-03 16:56:53] INFO root fetch - processPackages [toolfuse]: executing diffoscope
+[2024-05-03 16:56:53] INFO root fetch - processPackages [toolfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolfuse-0.1.19.tar.gz tmp/toolfuse-0.1.20.tar.gz --markdown 20240503/t/toolfuse/0.1.19-0.1.20/README.md --exclude *.pyd
+[2024-05-03 16:56:53] INFO root fetch - processPackages [databricks-sdk]: executing diffoscope
+[2024-05-03 16:56:53] INFO root fetch - processPackages [databricks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-sdk-0.8.0.tar.gz tmp/databricks-sdk-0.9.0.tar.gz --markdown 20240503/d/databricks-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 16:56:53] INFO root fetch - processPackages [sru-queryer]: executing diffoscope
+[2024-05-03 16:56:53] INFO root fetch - processPackages [sru-queryer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sru_queryer-1.0.3.tar.gz tmp/sru_queryer-2.0.0.tar.gz --markdown 20240503/s/sru-queryer/1.0.3-2.0.0/README.md --exclude *.pyd
+[2024-05-03 16:56:53] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-05-03 16:56:53] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240503/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-05-03 16:56:54] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.7.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.8.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - main [MainThread]: End processing [beta9]: success
+[2024-05-03 16:56:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-03 16:56:54] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.6.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.7.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
+[2024-05-03 16:56:54] INFO root fetch - processPackages [toolfuse]: Remove: archive file [/home/abi/fetcher/tmp/toolfuse-0.1.19.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - processPackages [toolfuse]: Remove: archive file [/home/abi/fetcher/tmp/toolfuse-0.1.20.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - main [MainThread]: End processing [toolfuse]: success
+[2024-05-03 16:56:54] INFO root fetch - processPackages [sru-queryer]: Remove: archive file [/home/abi/fetcher/tmp/sru_queryer-1.0.3.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - processPackages [sru-queryer]: Remove: archive file [/home/abi/fetcher/tmp/sru_queryer-2.0.0.tar.gz]
+[2024-05-03 16:56:54] INFO root fetch - main [MainThread]: End processing [sru-queryer]: success
+[2024-05-03 16:56:55] INFO root fetch - processPackages [databricks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/databricks-sdk-0.8.0.tar.gz]
+[2024-05-03 16:56:55] INFO root fetch - processPackages [databricks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/databricks-sdk-0.9.0.tar.gz]
+[2024-05-03 16:56:55] INFO root fetch - main [MainThread]: End processing [databricks-sdk]: success
+[2024-05-03 16:56:59] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-05-03 16:56:59] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-05-03 16:56:59] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-05-03 16:56:59] INFO root fetch - main [MainThread]: Store serial: [23047474]
