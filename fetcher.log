@@ -10298,3 +10298,23 @@
 [2024-05-03 07:57:06] INFO root fetch - processPackages [libvsapm-python]: Remove: archive file [/home/abi/fetcher/tmp/libvsapm-python-20240503.tar.gz]
 [2024-05-03 07:57:06] INFO root fetch - main [MainThread]: End processing [libvsapm-python]: success
 [2024-05-03 07:57:06] INFO root fetch - main [MainThread]: Store serial: [23041940]
+[2024-05-03 07:59:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041940]
+[2024-05-03 07:59:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 07:59:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fcs-core-model-engine
+[2024-05-03 07:59:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: niel
+[2024-05-03 07:59:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digrdf
+[2024-05-03 07:59:15] INFO root fetch - processPackages [digrdf]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-03 07:59:15] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/fe/74/ccc6587336a917b7b62ab6fecc0554ff38156927fd3a1a2da7a153b702fb/digrdf-0.1.2.tar.gz
+[2024-05-03 07:59:15] WARNING root fetch - processPackages [niel]: Skipping, unable to determine old version
+[2024-05-03 07:59:15] INFO root fetch - main [MainThread]: End processing [niel] error
+[2024-05-03 07:59:15] INFO root fetch - processPackages [fcs-core-model-engine]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-03 07:59:15] INFO root fetch - processPackages [fcs-core-model-engine]: Downloading https://files.pythonhosted.org/packages/bc/3e/0ad6428b7d14e614515ba5101e2d91ba1eec8f1b4e25a359d5524fb34d33/fcs_core_model_engine-0.9.1-py3-none-win_amd64.whl
+[2024-05-03 07:59:15] WARNING root fetch - processPackages [fcs-core-model-engine]: Skipping package: exceeds size limit 25245705>=10485760
+[2024-05-03 07:59:15] INFO root fetch - main [MainThread]: End processing [fcs-core-model-engine] error
+[2024-05-03 07:59:15] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/cb/c4/8b07f8c3b52d2173258c90cc695d7f361c3cabfeb272ecfde48dcf652cd7/digrdf-0.1.3.tar.gz
+[2024-05-03 07:59:15] INFO root fetch - processPackages [digrdf]: executing diffoscope
+[2024-05-03 07:59:15] INFO root fetch - processPackages [digrdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digrdf-0.1.2.tar.gz tmp/digrdf-0.1.3.tar.gz --markdown 20240503/d/digrdf/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-03 07:59:16] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.2.tar.gz]
+[2024-05-03 07:59:16] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.3.tar.gz]
+[2024-05-03 07:59:16] INFO root fetch - main [MainThread]: End processing [digrdf]: success
+[2024-05-03 07:59:16] INFO root fetch - main [MainThread]: Store serial: [23041950]
