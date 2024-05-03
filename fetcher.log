@@ -14077,3 +14077,51 @@
 [2024-05-03 10:41:48] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.3.tar.gz]
 [2024-05-03 10:41:48] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
 [2024-05-03 10:41:48] INFO root fetch - main [MainThread]: Store serial: [23043478]
+[2024-05-03 10:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043478]
+[2024-05-03 10:44:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-project-tracker
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: group-profile-remote
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-anime-downloader
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fico
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssb-konjunk
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-03 10:44:02] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [fico]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 10:44:02] INFO root fetch - processPackages [group-profile-remote]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ssb-konjunk]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 10:44:02] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Downloading https://files.pythonhosted.org/packages/f4/51/7467b5d4c4c015f68effb24534e94598520c8fbbd760cc48e3e0d910f7ce/nonebot_plugin_anime_downloader-0.1.0.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/d6/33/ab096f276fe5e54500857cb3593d867c9d8078ea8c62fa953704ab27462b/group-profile-remote-0.0.8.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ssb-konjunk]: Downloading https://files.pythonhosted.org/packages/f8/87/c388d9bf09d3681e5daf23013420ec46d841741929759b41a24e9ba26875/ssb_konjunk-0.0.4.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [fico]: Downloading https://files.pythonhosted.org/packages/d7/ff/a31d26c9202e1cc908887def3eeaafeb55de484db5ee1d2a52ca1ae88eec/fico-0.1.0.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240503/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-03 10:44:02] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Downloading https://files.pythonhosted.org/packages/97/d9/8a250d9215ae20429cefb158f48ceab4b435236bfd991ea937d3ac139d14/nonebot_plugin_anime_downloader-0.1.1.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/34/ee/57cb372a3197cdeb2c87926baf42fae2595983919e4f9ab179939ad1b72e/group-profile-remote-0.0.9.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [ssb-konjunk]: Downloading https://files.pythonhosted.org/packages/39/b2/01f92faed27630e162d053077e3b54e8b871a1fabe659ae328d914315cc3/ssb_konjunk-0.0.5.tar.gz
+[2024-05-03 10:44:02] INFO root fetch - processPackages [fico]: Downloading https://files.pythonhosted.org/packages/84/f3/8bbdb9a24e62c25e06cbc53496b0254b50d832a9bf46db4d26a5220a4796/fico-0.1.1.tar.gz
+[2024-05-03 10:44:03] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: executing diffoscope
+[2024-05-03 10:44:03] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_anime_downloader-0.1.0.tar.gz tmp/nonebot_plugin_anime_downloader-0.1.1.tar.gz --markdown 20240503/n/nonebot-plugin-anime-downloader/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 10:44:03] INFO root fetch - processPackages [group-profile-remote]: executing diffoscope
+[2024-05-03 10:44:03] INFO root fetch - processPackages [group-profile-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group-profile-remote-0.0.8.tar.gz tmp/group-profile-remote-0.0.9.tar.gz --markdown 20240503/g/group-profile-remote/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 10:44:03] INFO root fetch - processPackages [ssb-konjunk]: executing diffoscope
+[2024-05-03 10:44:03] INFO root fetch - processPackages [ssb-konjunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_konjunk-0.0.4.tar.gz tmp/ssb_konjunk-0.0.5.tar.gz --markdown 20240503/s/ssb-konjunk/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 10:44:03] INFO root fetch - processPackages [fico]: executing diffoscope
+[2024-05-03 10:44:03] INFO root fetch - processPackages [fico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fico-0.1.0.tar.gz tmp/fico-0.1.1.tar.gz --markdown 20240503/f/fico/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 10:44:03] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-03 10:44:03] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_anime_downloader-0.1.0.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_anime_downloader-0.1.1.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-anime-downloader]: success
+[2024-05-03 10:44:03] INFO root fetch - processPackages [fico]: Remove: archive file [/home/abi/fetcher/tmp/fico-0.1.0.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - processPackages [fico]: Remove: archive file [/home/abi/fetcher/tmp/fico-0.1.1.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - main [MainThread]: End processing [fico]: success
+[2024-05-03 10:44:03] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.8.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.9.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - main [MainThread]: End processing [group-profile-remote]: success
+[2024-05-03 10:44:03] INFO root fetch - processPackages [ssb-konjunk]: Remove: archive file [/home/abi/fetcher/tmp/ssb_konjunk-0.0.4.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - processPackages [ssb-konjunk]: Remove: archive file [/home/abi/fetcher/tmp/ssb_konjunk-0.0.5.tar.gz]
+[2024-05-03 10:44:03] INFO root fetch - main [MainThread]: End processing [ssb-konjunk]: success
+[2024-05-03 10:44:03] INFO root fetch - main [MainThread]: Store serial: [23043494]
