@@ -12246,3 +12246,36 @@
 [2024-05-03 09:36:49] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-3.2.1.tar.gz]
 [2024-05-03 09:36:49] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
 [2024-05-03 09:36:49] INFO root fetch - main [MainThread]: Store serial: [23042732]
+[2024-05-03 09:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042732]
+[2024-05-03 09:38:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 09:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-node-binding
+[2024-05-03 09:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: customdboperations
+[2024-05-03 09:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zanj
+[2024-05-03 09:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fazah
+[2024-05-03 09:38:59] INFO root fetch - processPackages [fazah]: New version: [3.14] Old Version: [3.13]
+[2024-05-03 09:38:59] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1240] Old Version: [3.0.3.post1233]
+[2024-05-03 09:38:59] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/5e/c1/03e0b11859829ca037ecbd8d2da2da3970a8af9dd784a5620a285c38d2bb/fazah-3.13.tar.gz
+[2024-05-03 09:38:59] INFO root fetch - processPackages [zanj]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-03 09:38:59] WARNING root fetch - processPackages [customdboperations]: Skipping, unable to determine old version
+[2024-05-03 09:38:59] INFO root fetch - main [MainThread]: End processing [customdboperations] error
+[2024-05-03 09:38:59] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/82/d0/863ee238756920d4255c0babd28c688bfa6c41dfe3db6ea52731d5350bdb/nucliadb_node_binding-3.0.3.post1233.tar.gz
+[2024-05-03 09:38:59] INFO root fetch - processPackages [zanj]: Downloading https://files.pythonhosted.org/packages/7a/bc/f4c600332720e47926d3f1614db4774c550539a0c0c3654b5663f494713b/zanj-0.2.0.tar.gz
+[2024-05-03 09:38:59] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/2f/f8/e816f774c6d264b18238d05f74a514ef9207095b79fd5b4572a92c301d97/nucliadb_node_binding-3.0.3.post1240.tar.gz
+[2024-05-03 09:38:59] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/17/bc/676a9c17bc267a2b1ab37cffcc1ae233f71e2c2a6ae4b47b4c22e631dbf2/fazah-3.14.tar.gz
+[2024-05-03 09:39:00] INFO root fetch - processPackages [fazah]: executing diffoscope
+[2024-05-03 09:39:00] INFO root fetch - processPackages [fazah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazah-3.13.tar.gz tmp/fazah-3.14.tar.gz --markdown 20240503/f/fazah/3.13-3.14/README.md --exclude *.pyd
+[2024-05-03 09:39:00] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-03 09:39:00] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1233.tar.gz tmp/nucliadb_node_binding-3.0.3.post1240.tar.gz --markdown 20240503/n/nucliadb-node-binding/3.0.3.post1233-3.0.3.post1240/README.md --exclude *.pyd
+[2024-05-03 09:39:00] INFO root fetch - processPackages [zanj]: Downloading https://files.pythonhosted.org/packages/63/cd/25ed6f6bd433d6f619472547e729465577fc2dbb1f173ce7f21aaac0447b/zanj-0.2.1.tar.gz
+[2024-05-03 09:39:00] INFO root fetch - processPackages [zanj]: executing diffoscope
+[2024-05-03 09:39:00] INFO root fetch - processPackages [zanj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zanj-0.2.0.tar.gz tmp/zanj-0.2.1.tar.gz --markdown 20240503/z/zanj/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-03 09:39:00] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.13.tar.gz]
+[2024-05-03 09:39:00] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.14.tar.gz]
+[2024-05-03 09:39:00] INFO root fetch - main [MainThread]: End processing [fazah]: success
+[2024-05-03 09:39:00] INFO root fetch - processPackages [zanj]: Remove: archive file [/home/abi/fetcher/tmp/zanj-0.2.0.tar.gz]
+[2024-05-03 09:39:00] INFO root fetch - processPackages [zanj]: Remove: archive file [/home/abi/fetcher/tmp/zanj-0.2.1.tar.gz]
+[2024-05-03 09:39:00] INFO root fetch - main [MainThread]: End processing [zanj]: success
+[2024-05-03 09:39:01] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1233.tar.gz]
+[2024-05-03 09:39:01] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1240.tar.gz]
+[2024-05-03 09:39:01] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-03 09:39:01] INFO root fetch - main [MainThread]: Store serial: [23042764]
