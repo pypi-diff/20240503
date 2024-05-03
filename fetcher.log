@@ -17131,3 +17131,172 @@
 [2024-05-03 13:13:12] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-05-03 13:13:12] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-05-03 13:13:12] INFO root fetch - main [MainThread]: Store serial: [23045049]
+[2024-05-03 13:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045049]
+[2024-05-03 13:15:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cit-images
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-dev
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-cpp
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfn-review-bot
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accentnotifications
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: radio-code-calculator
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tree-sitter-toml
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unasync
+[2024-05-03 13:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lyrpy
+[2024-05-03 13:15:42] WARNING root fetch - processPackages [cit-images]: Skipping, unable to determine old version
+[2024-05-03 13:15:42] INFO root fetch - processPackages [cit-images]: Start processing: indi-pylibcamera
+[2024-05-03 13:15:42] INFO root fetch - main [MainThread]: End processing [cit-images] error
+[2024-05-03 13:15:42] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240502] Old Version: [2.5.0b20240501]
+[2024-05-03 13:15:42] INFO root fetch - processPackages [sbcli-dev]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-05-03 13:15:42] INFO root fetch - processPackages [radio-code-calculator]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-03 13:15:42] INFO root fetch - processPackages [cfn-review-bot]: New version: [1!20240503.111248] Old Version: [1!20240202.133301]
+[2024-05-03 13:15:42] ERROR root fetch - processPackages [tree-sitter-toml]: Unable to get metadata: No such project 'tree-sitter-toml'
+[2024-05-03 13:15:42] INFO root fetch - main [MainThread]: End processing [tree-sitter-toml] error
+[2024-05-03 13:15:42] WARNING root fetch - processPackages [lyrpy]: Skipping, unable to determine old version
+[2024-05-03 13:15:42] INFO root fetch - main [MainThread]: End processing [lyrpy] error
+[2024-05-03 13:15:42] INFO root fetch - processPackages [accentnotifications]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-03 13:15:42] INFO root fetch - processPackages [unasync]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-03 13:15:42] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240503] Old Version: [2.5.0b20240502]
+[2024-05-03 13:15:42] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/ce/5f/35befa3b32f6778dab31694eb5f59cc007f33fb1ef8e3c2a02c2529603ec/bigdl_core_cpp-2.5.0b20240501-py3-none-win_amd64.whl
+[2024-05-03 13:15:42] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/07/1b/4386904090a296da6166951302c0ea2c06f90b5c5332a78a60bf8dbe1670/sbcli_dev-2.4.9.zip
+[2024-05-03 13:15:42] INFO root fetch - processPackages [indi-pylibcamera]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-03 13:15:42] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 28078005>=10485760
+[2024-05-03 13:15:42] INFO root fetch - processPackages [unasync]: Downloading https://files.pythonhosted.org/packages/f7/ce/eaa16d97812685a14a3b04f8554c6a8ef432b9aee816c4e98dd5f3e75baa/unasync-0.5.0.tar.gz
+[2024-05-03 13:15:42] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-03 13:15:42] INFO root fetch - processPackages [cfn-review-bot]: Downloading https://files.pythonhosted.org/packages/b6/4b/28b476e81eded01b5800fbd06ff0f161721990f9d931e63166f5ae50efad/cfn-review-bot-1!20240202.133301.tar.gz
+[2024-05-03 13:15:42] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/83/a3/92b420ba7d3c94d1bc423bc326ed5046c9a26fe06833d6a2fc8b60b48f1e/bigdl_core_xe_esimd_21-2.5.0b20240502-cp39-cp39-win_amd64.whl
+[2024-05-03 13:15:43] INFO root fetch - processPackages [accentnotifications]: Downloading https://files.pythonhosted.org/packages/b2/62/7a0f0879253d9d2e0c05f96fcfd7f5d308a3dfb4b43a6e1019dc70148353/accentnotifications-0.0.7.tar.gz
+[2024-05-03 13:15:43] INFO root fetch - processPackages [radio-code-calculator]: Downloading https://files.pythonhosted.org/packages/01/70/765a015c1d3c3ec800720f7dbb8c2cd10bd85aba6c547fa17ead900fd3d2/radio_code_calculator-1.1.4.tar.gz
+[2024-05-03 13:15:43] INFO root fetch - processPackages [indi-pylibcamera]: Downloading https://files.pythonhosted.org/packages/21/0f/e5657d86bce3761a9c8381dd6c950a7ec398ba694c448be310edb356d0db/indi_pylibcamera-2.6.0.tar.gz
+[2024-05-03 13:15:43] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/9b/44/180b37317d0acf10437eb03da9504def4b2b810b21b20b308044104feca4/sbcli_dev-2.5.0.zip
+[2024-05-03 13:15:43] INFO root fetch - processPackages [unasync]: Downloading https://files.pythonhosted.org/packages/28/4e/735dbc0885ca197bcd80a2479ca24035627e2e768c784261fc7f1b8d7600/unasync-0.6.0.tar.gz
+[2024-05-03 13:15:43] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-03 13:15:43] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.4.9.zip tmp/sbcli_dev-2.5.0.zip --markdown 20240503/s/sbcli-dev/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-05-03 13:15:43] INFO root fetch - processPackages [cfn-review-bot]: Downloading https://files.pythonhosted.org/packages/cb/eb/0f91be90c8f3e943a997fb8cdfbf42079b3c4822231b5b919d3380811f39/cfn-review-bot-1!20240503.111248.tar.gz
+[2024-05-03 13:15:43] INFO root fetch - processPackages [accentnotifications]: Downloading https://files.pythonhosted.org/packages/eb/22/97a2779e18d0fcfba98bbd1465a33e3d5609beaa236d75ecd343c95de5df/accentnotifications-0.0.9.tar.gz
+[2024-05-03 13:15:43] INFO root fetch - processPackages [radio-code-calculator]: Downloading https://files.pythonhosted.org/packages/f0/9a/7d353a67a2f9abda042fa2fd3de533636c26ffbd7fad774148e3efb2c019/radio_code_calculator-1.1.5.tar.gz
+[2024-05-03 13:15:43] INFO root fetch - processPackages [unasync]: executing diffoscope
+[2024-05-03 13:15:43] INFO root fetch - processPackages [unasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unasync-0.5.0.tar.gz tmp/unasync-0.6.0.tar.gz --markdown 20240503/u/unasync/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-03 13:15:43] INFO root fetch - processPackages [accentnotifications]: executing diffoscope
+[2024-05-03 13:15:43] INFO root fetch - processPackages [accentnotifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accentnotifications-0.0.7.tar.gz tmp/accentnotifications-0.0.9.tar.gz --markdown 20240503/a/accentnotifications/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-03 13:15:43] INFO root fetch - processPackages [cfn-review-bot]: executing diffoscope
+[2024-05-03 13:15:43] INFO root fetch - processPackages [cfn-review-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-review-bot-1!20240202.133301.tar.gz tmp/cfn-review-bot-1!20240503.111248.tar.gz --markdown 20240503/c/cfn-review-bot/1!20240202.133301-1!20240503.111248/README.md --exclude *.pyd
+[2024-05-03 13:15:43] INFO root fetch - processPackages [radio-code-calculator]: executing diffoscope
+[2024-05-03 13:15:43] INFO root fetch - processPackages [radio-code-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radio_code_calculator-1.1.4.tar.gz tmp/radio_code_calculator-1.1.5.tar.gz --markdown 20240503/r/radio-code-calculator/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-03 13:15:43] INFO root fetch - processPackages [indi-pylibcamera]: Downloading https://files.pythonhosted.org/packages/b2/06/8de0155d0a00da632bb519707d3ec65752258bd6e54b1326b7303b1c995e/indi_pylibcamera-2.6.1.tar.gz
+[2024-05-03 13:15:43] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/df/8b/a8b5a988336daeffe255014c20facade63b00cad7c61de85d935333ab902/bigdl_core_xe_esimd_21-2.5.0b20240503-cp311-cp311-win_amd64.whl
+[2024-05-03 13:15:43] INFO root fetch - processPackages [indi-pylibcamera]: executing diffoscope
+[2024-05-03 13:15:43] INFO root fetch - processPackages [indi-pylibcamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indi_pylibcamera-2.6.0.tar.gz tmp/indi_pylibcamera-2.6.1.tar.gz --markdown 20240503/i/indi-pylibcamera/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-03 13:15:43] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-03 13:15:43] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240502-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240503-cp311-cp311-win_amd64.whl.zip --markdown 20240503/b/bigdl-core-xe-esimd-21/2.5.0b20240502-2.5.0b20240503/README.md --exclude *.pyd
+[2024-05-03 13:15:44] INFO root fetch - processPackages [accentnotifications]: Remove: archive file [/home/abi/fetcher/tmp/accentnotifications-0.0.7.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - processPackages [accentnotifications]: Remove: archive file [/home/abi/fetcher/tmp/accentnotifications-0.0.9.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - main [MainThread]: End processing [accentnotifications]: success
+[2024-05-03 13:15:44] INFO root fetch - processPackages [unasync]: Remove: archive file [/home/abi/fetcher/tmp/unasync-0.5.0.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - processPackages [unasync]: Remove: archive file [/home/abi/fetcher/tmp/unasync-0.6.0.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - main [MainThread]: End processing [unasync]: success
+[2024-05-03 13:15:44] INFO root fetch - processPackages [radio-code-calculator]: Remove: archive file [/home/abi/fetcher/tmp/radio_code_calculator-1.1.4.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - processPackages [radio-code-calculator]: Remove: archive file [/home/abi/fetcher/tmp/radio_code_calculator-1.1.5.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - main [MainThread]: End processing [radio-code-calculator]: success
+[2024-05-03 13:15:44] INFO root fetch - processPackages [cfn-review-bot]: Remove: archive file [/home/abi/fetcher/tmp/cfn-review-bot-1!20240202.133301.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - processPackages [cfn-review-bot]: Remove: archive file [/home/abi/fetcher/tmp/cfn-review-bot-1!20240503.111248.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - main [MainThread]: End processing [cfn-review-bot]: success
+[2024-05-03 13:15:44] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.9.zip]
+[2024-05-03 13:15:44] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.5.0.zip]
+[2024-05-03 13:15:44] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-03 13:15:44] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-03T13:15:43+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140483078659472)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140483212877312)
+
+[2024-05-03 13:15:44] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-03 13:15:44] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.0.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.1.tar.gz]
+[2024-05-03 13:15:44] INFO root fetch - main [MainThread]: End processing [indi-pylibcamera]: success
+[2024-05-03 13:15:44] INFO root fetch - main [MainThread]: Store serial: [23045090]
