@@ -18069,3 +18069,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:54:00] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.6.1.tar.gz]
 [2024-05-03 13:54:00] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
 [2024-05-03 13:54:00] INFO root fetch - main [MainThread]: Store serial: [23045443]
+[2024-05-03 13:56:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045443]
+[2024-05-03 13:56:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmsis-stream
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: survival-predictor-model
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyrpy
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdreftidy
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orion-nais
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-invoice-line-sequence
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazurite
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: knowsmore
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gooddata-fdw
+[2024-05-03 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gooddata-pandas
+[2024-05-03 13:56:32] INFO root fetch - processPackages [lyrpy]: New version: [2024.0.2] Old Version: [2024.0.1]
+[2024-05-03 13:56:32] INFO root fetch - processPackages [survival-predictor-model]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 13:56:32] WARNING root fetch - processPackages [odoo-addon-account-invoice-line-sequence]: Skipping, unable to determine old version
+[2024-05-03 13:56:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-line-sequence] error
+[2024-05-03 13:56:32] INFO root fetch - processPackages [orion-nais]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-03 13:56:32] WARNING root fetch - processPackages [lazurite]: Skipping, unable to determine old version
+[2024-05-03 13:56:32] INFO root fetch - main [MainThread]: End processing [lazurite] error
+[2024-05-03 13:56:32] INFO root fetch - processPackages [knowsmore]: New version: [0.1.38] Old Version: [0.1.37]
+[2024-05-03 13:56:32] WARNING root fetch - processPackages [mdreftidy]: Skipping, unable to determine old version
+[2024-05-03 13:56:32] INFO root fetch - main [MainThread]: End processing [mdreftidy] error
+[2024-05-03 13:56:32] INFO root fetch - processPackages [cmsis-stream]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-03 13:56:32] INFO root fetch - processPackages [gooddata-fdw]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-03 13:56:32] INFO root fetch - processPackages [gooddata-pandas]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-03 13:56:32] INFO root fetch - processPackages [lyrpy]: Downloading https://files.pythonhosted.org/packages/81/57/55f9cd4f13defaf536d1db1a98b839a1ed6c90af3c57a1fa37b4ec0abdd3/lyrpy-2024.0.1.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [survival-predictor-model]: Downloading https://files.pythonhosted.org/packages/9e/18/b330e4a8977dc19dae6e458a198414a78f2cab51de2150d581880e28f1b1/survival_predictor_model-0.0.1.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [orion-nais]: Downloading https://files.pythonhosted.org/packages/c4/1e/7a3e45da18c7f141b36f0c02f75d89a9f09ba88901860c74a904654f16c8/orion_nais-0.1.2.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [knowsmore]: Downloading https://files.pythonhosted.org/packages/c0/4f/7546b8a47b26e0cc5488be9ad7e4fedb9a3e76b27e6ee0d285440df88f39/knowsmore-0.1.37.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b9/28/f38218f2a95f4af219e9b95ddcc6904d9b9766d24b663b44ff4c5a206b8d/cmsis_stream-1.9.1-py3-none-any.whl
+[2024-05-03 13:56:32] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/b4/78/c802b0dc962bb56b61f12a880d027f833c71800fd9c86fe100dcefac27a8/gooddata-pandas-1.9.0.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/0d/f0/c213876dffbc5d7f680c82e829333e573a9c9bf577c78eca5d58b89e2fe1/gooddata-fdw-1.9.0.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [lyrpy]: Downloading https://files.pythonhosted.org/packages/7d/3e/1c14bed999fa0ef33770021292973a223833b23679007c1465acbc3408b8/lyrpy-2024.0.2.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [survival-predictor-model]: Downloading https://files.pythonhosted.org/packages/2b/76/ccc7c404091a8584cee1218a7c48b75027152edd2baf33c8002a10b2c864/survival_predictor_model-0.0.2.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [orion-nais]: Downloading https://files.pythonhosted.org/packages/bc/30/8d6c05fe9a14f081a30eaa06b4d383b7cc3932b178e8ce1c4f6f7520b525/orion_nais-0.2.0.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [knowsmore]: Downloading https://files.pythonhosted.org/packages/6d/d8/fa5ff0414268807448807329e09d03a4dc4d81c9a522d8e21c9df77d4f97/knowsmore-0.1.38.tar.gz
+[2024-05-03 13:56:32] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b2/66/0d1e34c99fc8cbcab3c6e39ea3afccb5712e15ffb480b0b617395533814b/cmsis_stream-1.9.2-py3-none-any.whl
+[2024-05-03 13:56:32] INFO root fetch - processPackages [lyrpy]: executing diffoscope
+[2024-05-03 13:56:32] INFO root fetch - processPackages [lyrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrpy-2024.0.1.tar.gz tmp/lyrpy-2024.0.2.tar.gz --markdown 20240503/l/lyrpy/2024.0.1-2024.0.2/README.md --exclude *.pyd
+[2024-05-03 13:56:32] INFO root fetch - processPackages [orion-nais]: executing diffoscope
+[2024-05-03 13:56:32] INFO root fetch - processPackages [orion-nais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orion_nais-0.1.2.tar.gz tmp/orion_nais-0.2.0.tar.gz --markdown 20240503/o/orion-nais/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-03 13:56:32] INFO root fetch - processPackages [survival-predictor-model]: executing diffoscope
+[2024-05-03 13:56:32] INFO root fetch - processPackages [survival-predictor-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survival_predictor_model-0.0.1.tar.gz tmp/survival_predictor_model-0.0.2.tar.gz --markdown 20240503/s/survival-predictor-model/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 13:56:32] INFO root fetch - processPackages [knowsmore]: executing diffoscope
+[2024-05-03 13:56:32] INFO root fetch - processPackages [knowsmore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knowsmore-0.1.37.tar.gz tmp/knowsmore-0.1.38.tar.gz --markdown 20240503/k/knowsmore/0.1.37-0.1.38/README.md --exclude *.pyd
+[2024-05-03 13:56:32] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/a4/d2/aeb676c03fdd16fbb3e449ffdd81aada198350d7bb06985452ed7d890502/gooddata-fdw-1.9.1.dev1.tar.gz
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/ab/1b/0071a38eef6ed1cb68b13e41220cddc882c9bc97969963d703a01c57a62a/gooddata-pandas-1.9.1.dev1.tar.gz
+[2024-05-03 13:56:33] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2024-05-03 13:56:33] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip --markdown 20240503/c/cmsis-stream/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-pandas]: executing diffoscope
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-pandas-1.9.0.tar.gz tmp/gooddata-pandas-1.9.1.dev1.tar.gz --markdown 20240503/g/gooddata-pandas/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-fdw]: executing diffoscope
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-fdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-fdw-1.9.0.tar.gz tmp/gooddata-fdw-1.9.1.dev1.tar.gz --markdown 20240503/g/gooddata-fdw/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-03 13:56:33] INFO root fetch - processPackages [orion-nais]: Remove: archive file [/home/abi/fetcher/tmp/orion_nais-0.1.2.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - processPackages [orion-nais]: Remove: archive file [/home/abi/fetcher/tmp/orion_nais-0.2.0.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - main [MainThread]: End processing [orion-nais]: success
+[2024-05-03 13:56:33] INFO root fetch - processPackages [lyrpy]: Remove: archive file [/home/abi/fetcher/tmp/lyrpy-2024.0.1.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - processPackages [lyrpy]: Remove: archive file [/home/abi/fetcher/tmp/lyrpy-2024.0.2.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - main [MainThread]: End processing [lyrpy]: success
+[2024-05-03 13:56:33] INFO root fetch - processPackages [survival-predictor-model]: Remove: archive file [/home/abi/fetcher/tmp/survival_predictor_model-0.0.1.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - processPackages [survival-predictor-model]: Remove: archive file [/home/abi/fetcher/tmp/survival_predictor_model-0.0.2.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - main [MainThread]: End processing [survival-predictor-model]: success
+[2024-05-03 13:56:33] INFO root fetch - processPackages [knowsmore]: Remove: archive file [/home/abi/fetcher/tmp/knowsmore-0.1.37.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - processPackages [knowsmore]: Remove: archive file [/home/abi/fetcher/tmp/knowsmore-0.1.38.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - main [MainThread]: End processing [knowsmore]: success
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.0.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.1.dev1.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - main [MainThread]: End processing [gooddata-pandas]: success
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.0.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.1.dev1.tar.gz]
+[2024-05-03 13:56:33] INFO root fetch - main [MainThread]: End processing [gooddata-fdw]: success
+[2024-05-03 13:56:33] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip]
+[2024-05-03 13:56:33] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip]
+[2024-05-03 13:56:34] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2024-05-03 13:56:34] INFO root fetch - main [MainThread]: Store serial: [23045478]
