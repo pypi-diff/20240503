@@ -14008,3 +14008,33 @@
 [2024-05-03 10:37:18] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.6.tar.gz]
 [2024-05-03 10:37:18] INFO root fetch - main [MainThread]: End processing [k8sAI]: success
 [2024-05-03 10:37:18] INFO root fetch - main [MainThread]: Store serial: [23043458]
+[2024-05-03 10:39:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043458]
+[2024-05-03 10:39:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shelxfile
+[2024-05-03 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-testing
+[2024-05-03 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangoldp-energiepartagee
+[2024-05-03 10:39:31] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 10:39:31] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-03 10:39:31] INFO root fetch - processPackages [shelxfile]: New version: [9] Old Version: [8]
+[2024-05-03 10:39:31] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-03 10:39:31] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-03 10:39:31] INFO root fetch - processPackages [shelxfile]: Downloading https://files.pythonhosted.org/packages/3d/d2/c43140a5deb0ce10c9cb116249454aff1ef6b247557484181234622a42bc/shelxfile-8.tar.gz
+[2024-05-03 10:39:31] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-03 10:39:32] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-03 10:39:32] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240503/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 10:39:32] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-03 10:39:32] INFO root fetch - processPackages [shelxfile]: Downloading https://files.pythonhosted.org/packages/86/14/a6fa935fdff30b3b6e435a827bf3bff3bd7d56cc6f396be51842668b79fe/shelxfile-9.tar.gz
+[2024-05-03 10:39:32] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-03 10:39:32] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240503/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-03 10:39:32] INFO root fetch - processPackages [shelxfile]: executing diffoscope
+[2024-05-03 10:39:32] INFO root fetch - processPackages [shelxfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelxfile-8.tar.gz tmp/shelxfile-9.tar.gz --markdown 20240503/s/shelxfile/8-9/README.md --exclude *.pyd
+[2024-05-03 10:39:33] INFO root fetch - processPackages [shelxfile]: Remove: archive file [/home/abi/fetcher/tmp/shelxfile-8.tar.gz]
+[2024-05-03 10:39:33] INFO root fetch - processPackages [shelxfile]: Remove: archive file [/home/abi/fetcher/tmp/shelxfile-9.tar.gz]
+[2024-05-03 10:39:33] INFO root fetch - main [MainThread]: End processing [shelxfile]: success
+[2024-05-03 10:39:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-03 10:39:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-03 10:39:33] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-03 10:39:33] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-03 10:39:33] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-03 10:39:33] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-03 10:39:33] INFO root fetch - main [MainThread]: Store serial: [23043467]
