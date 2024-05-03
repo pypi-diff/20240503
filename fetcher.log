@@ -10838,3 +10838,24 @@
 [2024-05-03 08:23:37] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/basiclibrary_py-0.6.9.tar.gz]
 [2024-05-03 08:23:37] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
 [2024-05-03 08:23:37] INFO root fetch - main [MainThread]: Store serial: [23042157]
+[2024-05-03 08:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042157]
+[2024-05-03 08:25:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 08:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moped
+[2024-05-03 08:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-d2
+[2024-05-03 08:25:46] INFO root fetch - processPackages [py-d2]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-03 08:25:46] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2024-05-03 08:25:46] INFO root fetch - processPackages [py-d2]: Downloading https://files.pythonhosted.org/packages/a7/e2/714e0fe4746847abd18c69953d7af5f1fd9e6f3c5e0d8f6ee6ba9631e642/py_d2-1.0.0.tar.gz
+[2024-05-03 08:25:46] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2024-05-03 08:25:47] INFO root fetch - processPackages [py-d2]: Downloading https://files.pythonhosted.org/packages/9d/dc/afcf4ac8e1ab9e0556edf30d878c1553a5620c7d2b3e98b0d8be9e8a5bce/py_d2-1.0.1.tar.gz
+[2024-05-03 08:25:47] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2024-05-03 08:25:47] INFO root fetch - processPackages [py-d2]: executing diffoscope
+[2024-05-03 08:25:47] INFO root fetch - processPackages [py-d2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_d2-1.0.0.tar.gz tmp/py_d2-1.0.1.tar.gz --markdown 20240503/p/py-d2/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-03 08:25:47] INFO root fetch - processPackages [moped]: executing diffoscope
+[2024-05-03 08:25:47] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20240503/m/moped/1.9.9-1rc1/README.md --exclude *.pyd
+[2024-05-03 08:25:47] INFO root fetch - processPackages [py-d2]: Remove: archive file [/home/abi/fetcher/tmp/py_d2-1.0.0.tar.gz]
+[2024-05-03 08:25:47] INFO root fetch - processPackages [py-d2]: Remove: archive file [/home/abi/fetcher/tmp/py_d2-1.0.1.tar.gz]
+[2024-05-03 08:25:47] INFO root fetch - main [MainThread]: End processing [py-d2]: success
+[2024-05-03 08:25:47] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2024-05-03 08:25:47] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2024-05-03 08:25:47] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2024-05-03 08:25:47] INFO root fetch - main [MainThread]: Store serial: [23042163]
