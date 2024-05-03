@@ -7169,3 +7169,45 @@
 [2024-05-03 04:03:55] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.dev0.tar.gz]
 [2024-05-03 04:03:55] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2024-05-03 04:03:55] INFO root fetch - main [MainThread]: Store serial: [23040781]
+[2024-05-03 04:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040781]
+[2024-05-03 04:06:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 04:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo2docs
+[2024-05-03 04:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oncall-slackbot
+[2024-05-03 04:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudflare-cli4
+[2024-05-03 04:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutrical
+[2024-05-03 04:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-bill-of-service-work-log
+[2024-05-03 04:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digrdf
+[2024-05-03 04:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wedding
+[2024-05-03 04:06:04] WARNING root fetch - processPackages [wedding]: Skipping, unable to determine old version
+[2024-05-03 04:06:04] INFO root fetch - main [MainThread]: End processing [wedding] error
+[2024-05-03 04:06:04] INFO root fetch - processPackages [oncall-slackbot]: New version: [1.337] Old Version: [1.332]
+[2024-05-03 04:06:04] INFO root fetch - processPackages [cloudflare-cli4]: New version: [2.19.4.post1] Old Version: [2.19.4]
+[2024-05-03 04:06:04] WARNING root fetch - processPackages [repo2docs]: Skipping, unable to determine old version
+[2024-05-03 04:06:04] INFO root fetch - main [MainThread]: End processing [repo2docs] error
+[2024-05-03 04:06:04] INFO root fetch - processPackages [oncall-slackbot]: Downloading https://files.pythonhosted.org/packages/2d/2c/c712ee036b1a0d5ec0b40aac09537f5fa6aad9314c2b4e950dc9b5577761/oncall-slackbot-1.332.tar.gz
+[2024-05-03 04:06:04] INFO root fetch - processPackages [nutrical]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 04:06:04] WARNING root fetch - processPackages [odoo14-addon-ssi-bill-of-service-work-log]: Skipping, unable to determine old version
+[2024-05-03 04:06:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-bill-of-service-work-log] error
+[2024-05-03 04:06:04] WARNING root fetch - processPackages [digrdf]: Skipping, unable to determine old version
+[2024-05-03 04:06:04] INFO root fetch - main [MainThread]: End processing [digrdf] error
+[2024-05-03 04:06:04] INFO root fetch - processPackages [cloudflare-cli4]: Downloading https://files.pythonhosted.org/packages/82/ce/b0dbc0d6f45dad7e0417b0fcb90042558bc2478b88ed89d93d0dfed8898d/cloudflare_cli4-2.19.4.tar.gz
+[2024-05-03 04:06:05] INFO root fetch - processPackages [oncall-slackbot]: Downloading https://files.pythonhosted.org/packages/67/a7/f5970122b5580d64b55988719c4f52d0fd476b8ca22c018e6a436286bac4/oncall-slackbot-1.337.tar.gz
+[2024-05-03 04:06:05] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/36/6d/575979f695c9babe03becb56561345dbd3bd9a9b22cf033f51a4a187d99b/nutrical-0.0.1.tar.gz
+[2024-05-03 04:06:05] INFO root fetch - processPackages [oncall-slackbot]: executing diffoscope
+[2024-05-03 04:06:05] INFO root fetch - processPackages [oncall-slackbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oncall-slackbot-1.332.tar.gz tmp/oncall-slackbot-1.337.tar.gz --markdown 20240503/o/oncall-slackbot/1.332-1.337/README.md --exclude *.pyd
+[2024-05-03 04:06:05] INFO root fetch - processPackages [cloudflare-cli4]: Downloading https://files.pythonhosted.org/packages/f5/ea/9a8655d2c539d3cb6fa04a34888460a1f6a5cbf40c3808592f72e9360c78/cloudflare_cli4-2.19.4.post1.tar.gz
+[2024-05-03 04:06:05] INFO root fetch - processPackages [cloudflare-cli4]: executing diffoscope
+[2024-05-03 04:06:05] INFO root fetch - processPackages [cloudflare-cli4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare_cli4-2.19.4.tar.gz tmp/cloudflare_cli4-2.19.4.post1.tar.gz --markdown 20240503/c/cloudflare-cli4/2.19.4-2.19.4.post1/README.md --exclude *.pyd
+[2024-05-03 04:06:05] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/2f/4a/d528e4264d672f09618ee016304e732f143fc98659510ba87757a60ff258/nutrical-0.0.2.tar.gz
+[2024-05-03 04:06:05] INFO root fetch - processPackages [nutrical]: executing diffoscope
+[2024-05-03 04:06:05] INFO root fetch - processPackages [nutrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutrical-0.0.1.tar.gz tmp/nutrical-0.0.2.tar.gz --markdown 20240503/n/nutrical/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 04:06:05] INFO root fetch - processPackages [oncall-slackbot]: Remove: archive file [/home/abi/fetcher/tmp/oncall-slackbot-1.332.tar.gz]
+[2024-05-03 04:06:05] INFO root fetch - processPackages [oncall-slackbot]: Remove: archive file [/home/abi/fetcher/tmp/oncall-slackbot-1.337.tar.gz]
+[2024-05-03 04:06:05] INFO root fetch - main [MainThread]: End processing [oncall-slackbot]: success
+[2024-05-03 04:06:05] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.1.tar.gz]
+[2024-05-03 04:06:05] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.2.tar.gz]
+[2024-05-03 04:06:05] INFO root fetch - main [MainThread]: End processing [nutrical]: success
+[2024-05-03 04:06:06] INFO root fetch - processPackages [cloudflare-cli4]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare_cli4-2.19.4.tar.gz]
+[2024-05-03 04:06:06] INFO root fetch - processPackages [cloudflare-cli4]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare_cli4-2.19.4.post1.tar.gz]
+[2024-05-03 04:06:06] INFO root fetch - main [MainThread]: End processing [cloudflare-cli4]: success
+[2024-05-03 04:06:06] INFO root fetch - main [MainThread]: Store serial: [23040801]
