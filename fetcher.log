@@ -21986,3 +21986,158 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:41:08] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-2.0.1.tar.gz]
 [2024-05-03 16:41:08] INFO root fetch - main [MainThread]: End processing [moexalgo]: success
 [2024-05-03 16:41:08] INFO root fetch - main [MainThread]: Store serial: [23047197]
+[2024-05-03 16:43:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047197]
+[2024-05-03 16:43:38] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: patent-client
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tlparse
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expmonkey
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edgegap-api
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgegap-settings
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backend_flit
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imgparallel
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xlineparse
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edgegap-scheduling
+[2024-05-03 16:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edgegap-database
+[2024-05-03 16:43:38] INFO root fetch - processPackages [tlparse]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-03 16:43:38] INFO root fetch - processPackages [edgegap-api]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-03 16:43:38] INFO root fetch - processPackages [edgegap-settings]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-03 16:43:38] INFO root fetch - processPackages [edgegap-database]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-03 16:43:38] INFO root fetch - processPackages [edgegap-scheduling]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-03 16:43:38] INFO root fetch - processPackages [patent-client]: New version: [5.0.3] Old Version: [5.0.2]
+[2024-05-03 16:43:38] INFO root fetch - processPackages [expmonkey]: New version: [0.0.35] Old Version: [0.0.34]
+[2024-05-03 16:43:38] WARNING root fetch - processPackages [xlineparse]: Skipping, unable to determine old version
+[2024-05-03 16:43:38] INFO root fetch - processPackages [xlineparse]: Start processing: edgegap-consul
+[2024-05-03 16:43:38] INFO root fetch - main [MainThread]: End processing [xlineparse] error
+[2024-05-03 16:43:38] WARNING root fetch - processPackages [backend_flit]: Skipping, unable to determine old version
+[2024-05-03 16:43:38] INFO root fetch - processPackages [backend_flit]: Start processing: senseport
+[2024-05-03 16:43:38] WARNING root fetch - processPackages [imgparallel]: Skipping, unable to determine old version
+[2024-05-03 16:43:38] INFO root fetch - main [MainThread]: End processing [backend_flit] error
+[2024-05-03 16:43:38] INFO root fetch - processPackages [imgparallel]: Start processing: edgegap-service
+[2024-05-03 16:43:38] INFO root fetch - processPackages [tlparse]: Downloading https://files.pythonhosted.org/packages/35/03/174d547b3ccdd3b04eb335a607d5c40007b1d0a3f1fa1647a1e4319a9b00/tlparse-0.3.6.tar.gz
+[2024-05-03 16:43:38] INFO root fetch - main [MainThread]: End processing [imgparallel] error
+[2024-05-03 16:43:38] INFO root fetch - processPackages [edgegap-api]: Downloading https://files.pythonhosted.org/packages/f5/1f/82dfe5ffd96f6361a204c05160762fb6b73c1caf57e3436889984b65db2b/edgegap_api-1.5.0.tar.gz
+[2024-05-03 16:43:38] INFO root fetch - processPackages [edgegap-database]: Downloading https://files.pythonhosted.org/packages/50/c3/a2b48110392da08f077846742797285b14ccad0f9916ea28d1fd57fa9729/edgegap_database-1.5.0.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: Downloading https://files.pythonhosted.org/packages/8e/65/95ff5334fea7b9c8706a896922077027f29211137a8e017471193f0f1c9f/edgegap_settings-1.5.0.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-scheduling]: Downloading https://files.pythonhosted.org/packages/81/a9/27e8e441ab1f8c14d59f6869130f86c88e8b1f41071f9ecc7b65c46e9645/edgegap_scheduling-1.5.0.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-consul]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-03 16:43:39] WARNING root fetch - processPackages [senseport]: Skipping, unable to determine old version
+[2024-05-03 16:43:39] INFO root fetch - processPackages [senseport]: Start processing: edgegap-settings
+[2024-05-03 16:43:39] INFO root fetch - main [MainThread]: End processing [senseport] error
+[2024-05-03 16:43:39] INFO root fetch - processPackages [patent-client]: Downloading https://files.pythonhosted.org/packages/2b/69/0229b495dd4cf5e024199ad3db55d5e5dd2441fb5273d513bca560c079eb/patent_client-5.0.2.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-service]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-consul]: Downloading https://files.pythonhosted.org/packages/b2/95/532dbc0a061b56322bc6b5444a7fa8aaca1931d53bfa3d0ffc8023de20f9/edgegap_consul-1.5.0.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [expmonkey]: Downloading https://files.pythonhosted.org/packages/5c/9e/17c9db0b90a01610414709ce89c9d8a0b65237d54c7399aa03538b2d6e9b/expmonkey-0.0.34.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-service]: Downloading https://files.pythonhosted.org/packages/ba/fc/26cacb7f3034847a0749be8c952ee07cacebb22023664849d0afb29e3f8a/edgegap_service-1.5.0.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-api]: Downloading https://files.pythonhosted.org/packages/5e/93/6d06b7a7ac3407b471aab79c65ca4989e17ac700653f8c32c82a88459c5b/edgegap_api-1.5.1.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [tlparse]: Downloading https://files.pythonhosted.org/packages/b1/9f/84459ac6f0623acadc83a6d9888fe93fd68968346f1b9589165ba329a76c/tlparse-0.3.7.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: Downloading https://files.pythonhosted.org/packages/4d/ab/002c5b4c2a059e1e5abaf6b7a8e88d826520c5c6cffe21cbb0610b872419/edgegap_settings-1.5.2.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-api]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_api-1.5.0.tar.gz tmp/edgegap_api-1.5.1.tar.gz --markdown 20240503/e/edgegap-api/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-database]: Downloading https://files.pythonhosted.org/packages/37/7a/54439bf08e8ea5a6cd4ff7bd53c49391883f709e0fc3e12d6db881c61445/edgegap_database-1.5.1.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [tlparse]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [tlparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlparse-0.3.6.tar.gz tmp/tlparse-0.3.7.tar.gz --markdown 20240503/t/tlparse/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-scheduling]: Downloading https://files.pythonhosted.org/packages/a7/0c/43851789114845f7086e0fb08a82c8e8fb8bd25f03ced9aa18c5edb2e073/edgegap_scheduling-1.5.1.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: Downloading https://files.pythonhosted.org/packages/c0/ee/414286b0e2a8bc5b88e39435a5d17a0d50f13bf1a94226c38252698f3948/edgegap_settings-1.5.1.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [expmonkey]: Downloading https://files.pythonhosted.org/packages/96/25/b7d9ed0fb11d755270e3160d65a8829f9e5cad3472227e22c45871ca176d/expmonkey-0.0.35.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-consul]: Downloading https://files.pythonhosted.org/packages/37/c8/8b2f16155f39e27d440c9124525999ba9e5db2a6f5fb7023ab93044252eb/edgegap_consul-1.5.1.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-database]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_database-1.5.0.tar.gz tmp/edgegap_database-1.5.1.tar.gz --markdown 20240503/e/edgegap-database/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-scheduling]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-scheduling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_scheduling-1.5.0.tar.gz tmp/edgegap_scheduling-1.5.1.tar.gz --markdown 20240503/e/edgegap-scheduling/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_settings-1.5.0.tar.gz tmp/edgegap_settings-1.5.1.tar.gz --markdown 20240503/e/edgegap-settings/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-service]: Downloading https://files.pythonhosted.org/packages/d8/d0/c3b679006c6143ecf99bb50a9043e6b40f14c6a1d6c5ec9c82f9d0148c33/edgegap_service-1.5.1.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [expmonkey]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [expmonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expmonkey-0.0.34.tar.gz tmp/expmonkey-0.0.35.tar.gz --markdown 20240503/e/expmonkey/0.0.34-0.0.35/README.md --exclude *.pyd
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: Downloading https://files.pythonhosted.org/packages/b6/30/9d3b08f9912d0cb5874873fbc42442f7429277f97a4239aa9d338c186072/edgegap_settings-1.5.3.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-consul]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_consul-1.5.0.tar.gz tmp/edgegap_consul-1.5.1.tar.gz --markdown 20240503/e/edgegap-consul/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-03 16:43:39] INFO root fetch - processPackages [patent-client]: Downloading https://files.pythonhosted.org/packages/ce/e9/2b534992ad31505c3a25440f40925e22bd26b3dc76fa7cc41edb5be5934a/patent_client-5.0.3.tar.gz
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-service]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_service-1.5.0.tar.gz tmp/edgegap_service-1.5.1.tar.gz --markdown 20240503/e/edgegap-service/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: executing diffoscope
+[2024-05-03 16:43:39] INFO root fetch - processPackages [edgegap-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_settings-1.5.2.tar.gz tmp/edgegap_settings-1.5.3.tar.gz --markdown 20240503/e/edgegap-settings/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-api]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_api-1.5.0.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-api]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_api-1.5.1.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-api]: Start processing: edgegap-logging
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [edgegap-api]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-logging]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-database]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_database-1.5.0.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-database]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_database-1.5.1.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-database]: Start processing: edgegap-migrate
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [edgegap-database]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.6.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.7.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [tlparse]: Start processing: edgegap-api
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [tlparse]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-migrate]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [patent-client]: executing diffoscope
+[2024-05-03 16:43:40] INFO root fetch - processPackages [patent-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patent_client-5.0.2.tar.gz tmp/patent_client-5.0.3.tar.gz --markdown 20240503/p/patent-client/5.0.2-5.0.3/README.md --exclude *.pyd
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-logging]: Downloading https://files.pythonhosted.org/packages/a7/8b/ea3180aaf720732a9d4ab94777e238434866a15ed2ebbd3b6a1a9ff434d8/edgegap_logging-1.5.0.tar.gz
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-api]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-consul]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_consul-1.5.0.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-consul]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_consul-1.5.1.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-consul]: Start processing: xsuite
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [edgegap-consul]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-settings]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_settings-1.5.0.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-settings]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_settings-1.5.1.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-settings]: Start processing: gridworks-proactor
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [edgegap-settings]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-settings]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_settings-1.5.2.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-settings]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_settings-1.5.3.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-settings]: Start processing: nucliadb-admin-assets
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [edgegap-settings]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_scheduling-1.5.0.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_scheduling-1.5.1.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [edgegap-scheduling]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [xsuite]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-service]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_service-1.5.0.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-service]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_service-1.5.1.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [edgegap-service]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [expmonkey]: Remove: archive file [/home/abi/fetcher/tmp/expmonkey-0.0.34.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [expmonkey]: Remove: archive file [/home/abi/fetcher/tmp/expmonkey-0.0.35.tar.gz]
+[2024-05-03 16:43:40] INFO root fetch - main [MainThread]: End processing [expmonkey]: success
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-api]: Downloading https://files.pythonhosted.org/packages/b2/84/cf5aee80cb04bb8a5d5257edfa06c039f423ac10676f0b3a5813117f634d/edgegap_api-1.5.2.tar.gz
+[2024-05-03 16:43:40] INFO root fetch - processPackages [gridworks-proactor]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-migrate]: Downloading https://files.pythonhosted.org/packages/e9/b0/a82e30a756cddf6624b5af329e1fcfb05950c32eeca4cb4b1b7e62fe3b21/edgegap_migrate-1.5.0.tar.gz
+[2024-05-03 16:43:40] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1528] Old Version: [1.0.0.post1524]
+[2024-05-03 16:43:40] INFO root fetch - processPackages [edgegap-logging]: Downloading https://files.pythonhosted.org/packages/50/b3/e1738dd4550194b03b93017cbec63fb87e6514e2310cb2079a701c0a1f55/edgegap_logging-1.5.1.tar.gz
+[2024-05-03 16:43:40] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/12/65/2fad6bd67ebbe8bd5e90864b3789fafdb39d03a1f934b50ee2e8919cab49/xsuite-0.9.2-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-03 16:43:41] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/a6/d6/1ebabace0b9dfcbc1bbf7610d80d320159941e3f6eaa9666e8481b7f0541/gridworks_proactor-0.4.3.tar.gz
+[2024-05-03 16:43:41] WARNING root fetch - processPackages [xsuite]: Skipping package: exceeds size limit 11608202>=10485760
+[2024-05-03 16:43:41] INFO root fetch - main [MainThread]: End processing [xsuite] error
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-logging]: executing diffoscope
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_logging-1.5.0.tar.gz tmp/edgegap_logging-1.5.1.tar.gz --markdown 20240503/e/edgegap-logging/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-api]: Downloading https://files.pythonhosted.org/packages/8d/29/acd3799d116b313c4fa5ec587e1dd87fcb47e456ee6f49de08daf3b6815a/edgegap_api-1.5.3.tar.gz
+[2024-05-03 16:43:41] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/98/72/85f5076dca102597853b640ba7a18f7267b3fc6e8375a609b4b80b673037/nucliadb_admin_assets-1.0.0.post1524-py3-none-any.whl
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-migrate]: Downloading https://files.pythonhosted.org/packages/e7/fb/daa3c1c95590220ccafa209215e00d491112e9c8453c9979a69af220bb85/edgegap_migrate-1.5.1.tar.gz
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-api]: executing diffoscope
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_api-1.5.2.tar.gz tmp/edgegap_api-1.5.3.tar.gz --markdown 20240503/e/edgegap-api/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-migrate]: executing diffoscope
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_migrate-1.5.0.tar.gz tmp/edgegap_migrate-1.5.1.tar.gz --markdown 20240503/e/edgegap-migrate/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-03 16:43:41] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/9a/5a/34efa0716505ff77a81a67195faff595f05e679c05b97239efc1f7bcb014/gridworks_proactor-0.4.4.tar.gz
+[2024-05-03 16:43:41] INFO root fetch - processPackages [gridworks-proactor]: executing diffoscope
+[2024-05-03 16:43:41] INFO root fetch - processPackages [gridworks-proactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_proactor-0.4.3.tar.gz tmp/gridworks_proactor-0.4.4.tar.gz --markdown 20240503/g/gridworks-proactor/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-03 16:43:41] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/b3/f1/557dcdad4fd72d3a62e06f714370e44dcfb790cb248d6410b7bbfe58b3b6/nucliadb_admin_assets-1.0.0.post1528-py3-none-any.whl
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-logging]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_logging-1.5.0.tar.gz]
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-logging]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_logging-1.5.1.tar.gz]
+[2024-05-03 16:43:41] INFO root fetch - main [MainThread]: End processing [edgegap-logging]: success
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-api]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_api-1.5.2.tar.gz]
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-api]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_api-1.5.3.tar.gz]
+[2024-05-03 16:43:41] INFO root fetch - main [MainThread]: End processing [edgegap-api]: success
+[2024-05-03 16:43:41] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-03 16:43:41] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1524-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1528-py3-none-any.whl.zip --markdown 20240503/n/nucliadb-admin-assets/1.0.0.post1524-1.0.0.post1528/README.md --exclude *.pyd
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_migrate-1.5.0.tar.gz]
+[2024-05-03 16:43:41] INFO root fetch - processPackages [edgegap-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_migrate-1.5.1.tar.gz]
+[2024-05-03 16:43:41] INFO root fetch - main [MainThread]: End processing [edgegap-migrate]: success
+[2024-05-03 16:43:42] INFO root fetch - processPackages [gridworks-proactor]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_proactor-0.4.3.tar.gz]
+[2024-05-03 16:43:42] INFO root fetch - processPackages [gridworks-proactor]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_proactor-0.4.4.tar.gz]
+[2024-05-03 16:43:42] INFO root fetch - main [MainThread]: End processing [gridworks-proactor]: success
+[2024-05-03 16:43:44] INFO root fetch - processPackages [patent-client]: Remove: archive file [/home/abi/fetcher/tmp/patent_client-5.0.2.tar.gz]
+[2024-05-03 16:43:44] INFO root fetch - processPackages [patent-client]: Remove: archive file [/home/abi/fetcher/tmp/patent_client-5.0.3.tar.gz]
+[2024-05-03 16:43:44] INFO root fetch - main [MainThread]: End processing [patent-client]: success
+[2024-05-03 16:43:55] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1524-py3-none-any.whl.zip]
+[2024-05-03 16:43:55] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1528-py3-none-any.whl.zip]
+[2024-05-03 16:43:55] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-03 16:43:55] INFO root fetch - main [MainThread]: Store serial: [23047282]
