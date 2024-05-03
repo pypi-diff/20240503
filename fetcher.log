@@ -12165,3 +12165,54 @@
 [2024-05-03 09:32:18] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl.zip]
 [2024-05-03 09:32:18] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2024-05-03 09:32:18] INFO root fetch - main [MainThread]: Store serial: [23042705]
+[2024-05-03 09:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042705]
+[2024-05-03 09:34:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 09:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudfoundry-client
+[2024-05-03 09:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edu-rdm-integration
+[2024-05-03 09:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: banks
+[2024-05-03 09:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-kfp-task
+[2024-05-03 09:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbtof
+[2024-05-03 09:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zippyform
+[2024-05-03 09:34:35] INFO root fetch - processPackages [cloudfoundry-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 09:34:35] INFO root fetch - processPackages [zippyform]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-05-03 09:34:35] INFO root fetch - processPackages [edu-rdm-integration]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-03 09:34:35] WARNING root fetch - processPackages [simple-kfp-task]: Skipping, unable to determine old version
+[2024-05-03 09:34:35] INFO root fetch - main [MainThread]: End processing [simple-kfp-task] error
+[2024-05-03 09:34:35] INFO root fetch - processPackages [cloudfoundry-client]: Downloading https://files.pythonhosted.org/packages/20/9d/99e5d890e6765de459205dc09268f793312a5677c6c6c01fe5bdfcd3cfd0/cloudfoundry-client-1.8.0.tar.gz
+[2024-05-03 09:34:35] INFO root fetch - processPackages [banks]: New version: [0.4.1] Old Version: [0.3.1]
+[2024-05-03 09:34:35] INFO root fetch - processPackages [nbtof]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-03 09:34:35] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/e8/12/6b019e4587db270cad48b4bcb6e4d2f852d0abb1e48ed1008fba0464dcd7/zippyform-1.4.7-py3-none-any.whl
+[2024-05-03 09:34:35] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/4f/50/bc6d12f1e22ce386953af66d2b58fd3b70337c140333f2b541929f0cde26/edu-rdm-integration-3.1.0.tar.gz
+[2024-05-03 09:34:36] INFO root fetch - processPackages [banks]: Downloading https://files.pythonhosted.org/packages/09/76/be16b1adad77e2157734c9df9cb88168850ad2b4ee0b1d0393a60de58a4c/banks-0.3.1.tar.gz
+[2024-05-03 09:34:36] INFO root fetch - processPackages [cloudfoundry-client]: Downloading https://files.pythonhosted.org/packages/55/78/4daaeca27bd3ade38295a089555f453630d5f2b13180002f6f74c5807c43/cloudfoundry-client-1.9.0.tar.gz
+[2024-05-03 09:34:36] INFO root fetch - processPackages [nbtof]: Downloading https://files.pythonhosted.org/packages/70/90/820d3d2b32e8a7472eb57c186dc907383ccee5c355cf6796fda2e4c4ef28/nbtof-0.0.4.tar.gz
+[2024-05-03 09:34:36] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/d7/d6/89a6c3a90a6a9ec63ae63d27de4e6b7e1a8b78b640496e3ed291bb36030e/zippyform-1.4.8-py3-none-any.whl
+[2024-05-03 09:34:36] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/c5/07/90713619f3ebea5bb6f49ba9751f65f8c178390215a5e170db981ae5939d/edu-rdm-integration-3.2.0.tar.gz
+[2024-05-03 09:34:36] INFO root fetch - processPackages [cloudfoundry-client]: executing diffoscope
+[2024-05-03 09:34:36] INFO root fetch - processPackages [cloudfoundry-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudfoundry-client-1.8.0.tar.gz tmp/cloudfoundry-client-1.9.0.tar.gz --markdown 20240503/c/cloudfoundry-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-03 09:34:36] INFO root fetch - processPackages [banks]: Downloading https://files.pythonhosted.org/packages/90/6a/b22f62cd3902cdfd8e795054d95b1da21cc84cfc3b8135d968a05293fee5/banks-0.4.1.tar.gz
+[2024-05-03 09:34:36] INFO root fetch - processPackages [zippyform]: executing diffoscope
+[2024-05-03 09:34:36] INFO root fetch - processPackages [zippyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zippyform-1.4.7-py3-none-any.whl.zip tmp/zippyform-1.4.8-py3-none-any.whl.zip --markdown 20240503/z/zippyform/1.4.7-1.4.8/README.md --exclude *.pyd
+[2024-05-03 09:34:36] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2024-05-03 09:34:36] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu-rdm-integration-3.1.0.tar.gz tmp/edu-rdm-integration-3.2.0.tar.gz --markdown 20240503/e/edu-rdm-integration/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-03 09:34:36] INFO root fetch - processPackages [nbtof]: Downloading https://files.pythonhosted.org/packages/d8/28/91dcaef10f05e5e2522ade06ae713355d1de96b9e57b1788c162c06b48dd/nbtof-0.0.6.tar.gz
+[2024-05-03 09:34:36] INFO root fetch - processPackages [banks]: executing diffoscope
+[2024-05-03 09:34:36] INFO root fetch - processPackages [banks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banks-0.3.1.tar.gz tmp/banks-0.4.1.tar.gz --markdown 20240503/b/banks/0.3.1-0.4.1/README.md --exclude *.pyd
+[2024-05-03 09:34:36] INFO root fetch - processPackages [nbtof]: executing diffoscope
+[2024-05-03 09:34:36] INFO root fetch - processPackages [nbtof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbtof-0.0.4.tar.gz tmp/nbtof-0.0.6.tar.gz --markdown 20240503/n/nbtof/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-03 09:34:37] INFO root fetch - processPackages [cloudfoundry-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudfoundry-client-1.8.0.tar.gz]
+[2024-05-03 09:34:37] INFO root fetch - processPackages [cloudfoundry-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudfoundry-client-1.9.0.tar.gz]
+[2024-05-03 09:34:37] INFO root fetch - main [MainThread]: End processing [cloudfoundry-client]: success
+[2024-05-03 09:34:37] INFO root fetch - processPackages [banks]: Remove: archive file [/home/abi/fetcher/tmp/banks-0.3.1.tar.gz]
+[2024-05-03 09:34:37] INFO root fetch - processPackages [banks]: Remove: archive file [/home/abi/fetcher/tmp/banks-0.4.1.tar.gz]
+[2024-05-03 09:34:37] INFO root fetch - main [MainThread]: End processing [banks]: success
+[2024-05-03 09:34:37] INFO root fetch - processPackages [nbtof]: Remove: archive file [/home/abi/fetcher/tmp/nbtof-0.0.4.tar.gz]
+[2024-05-03 09:34:37] INFO root fetch - processPackages [nbtof]: Remove: archive file [/home/abi/fetcher/tmp/nbtof-0.0.6.tar.gz]
+[2024-05-03 09:34:37] INFO root fetch - main [MainThread]: End processing [nbtof]: success
+[2024-05-03 09:34:37] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.7-py3-none-any.whl.zip]
+[2024-05-03 09:34:37] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.8-py3-none-any.whl.zip]
+[2024-05-03 09:34:37] INFO root fetch - main [MainThread]: End processing [zippyform]: success
+[2024-05-03 09:34:37] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-3.1.0.tar.gz]
+[2024-05-03 09:34:37] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-3.2.0.tar.gz]
+[2024-05-03 09:34:37] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2024-05-03 09:34:37] INFO root fetch - main [MainThread]: Store serial: [23042724]
