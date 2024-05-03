@@ -23352,3 +23352,81 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 [2024-05-03 17:21:10] INFO root fetch - main [MainThread]: End processing [julearn]: success
 [2024-05-03 17:21:10] INFO root fetch - main [MainThread]: End processing [julearn]: success
 [2024-05-03 17:21:10] INFO root fetch - main [MainThread]: Store serial: [23047853]
+[2024-05-03 17:23:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047853]
+[2024-05-03 17:23:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinecone
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-synapse
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: i18nice
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livedc
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invoice-pdfgen
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypolyline
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansys-openapi-common
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mal-simulator
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-synapse
+[2024-05-03 17:23:19] WARNING root fetch - processPackages [livedc]: Skipping, unable to determine old version
+[2024-05-03 17:23:19] INFO root fetch - main [MainThread]: End processing [livedc] error
+[2024-05-03 17:23:19] INFO root fetch - processPackages [pinecone]: New version: [4.0.0] Old Version: [0.1.0]
+[2024-05-03 17:23:19] INFO root fetch - processPackages [i18nice]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 17:23:19] WARNING root fetch - processPackages [mal-simulator]: Skipping, unable to determine old version
+[2024-05-03 17:23:19] INFO root fetch - main [MainThread]: End processing [mal-simulator] error
+[2024-05-03 17:23:19] INFO root fetch - processPackages [invoice-pdfgen]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ansys-openapi-common]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-03 17:23:19] INFO root fetch - processPackages [dbt-synapse]: New version: [1.8.0rc3] Old Version: [1.8.0rc2]
+[2024-05-03 17:23:19] INFO root fetch - processPackages [dbt-synapse]: New version: [1.8.0rc3] Old Version: [1.8.0rc2]
+[2024-05-03 17:23:19] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-03 17:23:19] INFO root fetch - processPackages [pypolyline]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-03 17:23:19] WARNING root fetch - processPackages [pinecone]: fallback to get urls: [0.1.0]
+[2024-05-03 17:23:19] WARNING root fetch - processPackages [pinecone]: None
+[2024-05-03 17:23:19] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/72/30/8ac9dd93101ad6c35138f312d618a7bff5d5e807d324ce8bf90e59f750ea/i18nice-0.9.0.tar.gz
+[2024-05-03 17:23:19] WARNING root fetch - processPackages [pinecone]: None
+[2024-05-03 17:23:19] INFO root fetch - processPackages [invoice-pdfgen]: Downloading https://files.pythonhosted.org/packages/2f/90/30409a99e63fdb638670eb342cef799ce82f9174a3385bf453cc7d3eb9e1/invoice_pdfgen-1.1.0.tar.gz
+[2024-05-03 17:23:19] WARNING root fetch - processPackages [pinecone]: unable to get url for both version [0.1.0]
+[2024-05-03 17:23:19] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-05-03 17:23:19] INFO root fetch - processPackages [ansys-openapi-common]: Downloading https://files.pythonhosted.org/packages/aa/da/d8f8298d608b1f4604af3e87f8d4ec6a6ce16d08dffbb76e192972fb987e/ansys_openapi_common-2.0.1.tar.gz
+[2024-05-03 17:23:19] INFO root fetch - processPackages [dbt-synapse]: Downloading https://files.pythonhosted.org/packages/93/7c/f3cb6758bc0ea10d16369031a433423ec61ad6d1c652a49bdf8dd43653df/dbt-synapse-1.8.0rc2.tar.gz
+[2024-05-03 17:23:19] INFO root fetch - processPackages [dbt-synapse]: Downloading https://files.pythonhosted.org/packages/93/7c/f3cb6758bc0ea10d16369031a433423ec61ad6d1c652a49bdf8dd43653df/dbt-synapse-1.8.0rc2.tar.gz
+[2024-05-03 17:23:20] WARNING root fetch - processPackages [pinecone]: None
+[2024-05-03 17:23:20] INFO root fetch - main [MainThread]: End processing [pinecone] error
+[2024-05-03 17:23:20] INFO root fetch - processPackages [pypolyline]: Downloading https://files.pythonhosted.org/packages/ec/1c/a7508eb49789a13e2ebbbef7c56887ced14d76b4d1398f00f2b43c842b7e/pypolyline-0.3.5.tar.gz
+[2024-05-03 17:23:20] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/68/c5/dcb5bd7276acea371082b954fc1eda7db083c48caee940fb73b784c62397/i18nice-0.9.1.tar.gz
+[2024-05-03 17:23:20] INFO root fetch - processPackages [invoice-pdfgen]: Downloading https://files.pythonhosted.org/packages/4d/1f/444ec5ddf0ebfcc0cb9e19eda96801a58b1cd308a263eaa2b9464ff44d64/invoice_pdfgen-1.2.0.tar.gz
+[2024-05-03 17:23:20] INFO root fetch - processPackages [ansys-openapi-common]: Downloading https://files.pythonhosted.org/packages/9e/f3/7e7975a2b10621bd841e98c8c783e66b204922e1e5e11d75fc01fa125bd8/ansys_openapi_common-2.0.2.tar.gz
+[2024-05-03 17:23:20] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-05-03 17:23:20] INFO root fetch - processPackages [invoice-pdfgen]: executing diffoscope
+[2024-05-03 17:23:20] INFO root fetch - processPackages [invoice-pdfgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoice_pdfgen-1.1.0.tar.gz tmp/invoice_pdfgen-1.2.0.tar.gz --markdown 20240503/i/invoice-pdfgen/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-03 17:23:20] INFO root fetch - processPackages [i18nice]: executing diffoscope
+[2024-05-03 17:23:20] INFO root fetch - processPackages [i18nice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i18nice-0.9.0.tar.gz tmp/i18nice-0.9.1.tar.gz --markdown 20240503/i/i18nice/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-03 17:23:20] INFO root fetch - processPackages [dbt-synapse]: Downloading https://files.pythonhosted.org/packages/bb/2e/536a17b909afb095ba431b0ae0ac01f743bff6f1a9d7178f049c9fdbf119/dbt_synapse-1.8.0rc3.tar.gz
+[2024-05-03 17:23:20] INFO root fetch - processPackages [dbt-synapse]: Downloading https://files.pythonhosted.org/packages/bb/2e/536a17b909afb095ba431b0ae0ac01f743bff6f1a9d7178f049c9fdbf119/dbt_synapse-1.8.0rc3.tar.gz
+[2024-05-03 17:23:20] INFO root fetch - processPackages [pypolyline]: Downloading https://files.pythonhosted.org/packages/d6/55/65943613181e153b0483d2402df67631e0265c37872740f2bea891ac061b/pypolyline-0.3.6.tar.gz
+[2024-05-03 17:23:20] INFO root fetch - processPackages [ansys-openapi-common]: executing diffoscope
+[2024-05-03 17:23:20] INFO root fetch - processPackages [ansys-openapi-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_openapi_common-2.0.1.tar.gz tmp/ansys_openapi_common-2.0.2.tar.gz --markdown 20240503/a/ansys-openapi-common/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-03 17:23:20] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-05-03 17:23:20] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240503/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-03 17:23:20] INFO root fetch - processPackages [dbt-synapse]: executing diffoscope
+[2024-05-03 17:23:20] INFO root fetch - processPackages [dbt-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-synapse-1.8.0rc2.tar.gz tmp/dbt_synapse-1.8.0rc3.tar.gz --markdown 20240503/d/dbt-synapse/1.8.0rc2-1.8.0rc3/README.md --exclude *.pyd
+[2024-05-03 17:23:20] INFO root fetch - processPackages [dbt-synapse]: executing diffoscope
+[2024-05-03 17:23:20] INFO root fetch - processPackages [dbt-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-synapse-1.8.0rc2.tar.gz tmp/dbt_synapse-1.8.0rc3.tar.gz --markdown 20240503/d/dbt-synapse/1.8.0rc2-1.8.0rc3/README.md --exclude *.pyd
+[2024-05-03 17:23:20] INFO root fetch - processPackages [pypolyline]: executing diffoscope
+[2024-05-03 17:23:20] INFO root fetch - processPackages [pypolyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypolyline-0.3.5.tar.gz tmp/pypolyline-0.3.6.tar.gz --markdown 20240503/p/pypolyline/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-03 17:23:21] INFO root fetch - processPackages [invoice-pdfgen]: Remove: archive file [/home/abi/fetcher/tmp/invoice_pdfgen-1.1.0.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - processPackages [invoice-pdfgen]: Remove: archive file [/home/abi/fetcher/tmp/invoice_pdfgen-1.2.0.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [invoice-pdfgen]: success
+[2024-05-03 17:23:21] INFO root fetch - processPackages [ansys-openapi-common]: Remove: archive file [/home/abi/fetcher/tmp/ansys_openapi_common-2.0.1.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - processPackages [ansys-openapi-common]: Remove: archive file [/home/abi/fetcher/tmp/ansys_openapi_common-2.0.2.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [ansys-openapi-common]: success
+[2024-05-03 17:23:21] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.9.0.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.9.1.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [i18nice]: success
+[2024-05-03 17:23:21] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-05-03 17:23:21] INFO root fetch - processPackages [pypolyline]: Remove: archive file [/home/abi/fetcher/tmp/pypolyline-0.3.5.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - processPackages [pypolyline]: Remove: archive file [/home/abi/fetcher/tmp/pypolyline-0.3.6.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [pypolyline]: success
+[2024-05-03 17:23:21] INFO root fetch - processPackages [dbt-synapse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-synapse-1.8.0rc2.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - processPackages [dbt-synapse]: Remove: archive file [/home/abi/fetcher/tmp/dbt_synapse-1.8.0rc3.tar.gz]
+[2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [dbt-synapse]: success
+[2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [dbt-synapse]: success
+[2024-05-03 17:23:21] INFO root fetch - main [MainThread]: Store serial: [23047910]
