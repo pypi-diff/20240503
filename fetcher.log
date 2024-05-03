@@ -22141,3 +22141,106 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:43:55] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1528-py3-none-any.whl.zip]
 [2024-05-03 16:43:55] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-03 16:43:55] INFO root fetch - main [MainThread]: Store serial: [23047282]
+[2024-05-03 16:46:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047282]
+[2024-05-03 16:46:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-identity-sdk
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-readers-azstorage-blob
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-invoice-refund-link
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c4m-pdk-sky130
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: energyquantified
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hqq
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nndp
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nndp
+[2024-05-03 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unquad
+[2024-05-03 16:46:26] INFO root fetch - processPackages [energyquantified]: New version: [0.9.1] Old Version: [0.9]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [c4m-pdk-sky130]: New version: [0.2.2.post1] Old Version: [0.2.2]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [hqq]: New version: [0.1.7.post1] Old Version: [0.1.7]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [energyquantified]: Downloading https://files.pythonhosted.org/packages/9f/5c/db10bc6af8a8471b06ee11f462f9b6cc8b7929ace63fb798c0bd9b3cf45d/energyquantified-0.9.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.4.3]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [nndp]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [nndp]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [llama-index-readers-azstorage-blob]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [unquad]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 16:46:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [c4m-pdk-sky130]: Downloading https://files.pythonhosted.org/packages/4c/e2/3cdae25bef6c69392f04bcd1663ffe86fba5325490870f936cefed5ccf9c/c4m_pdk_sky130-0.2.2.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [nndp]: Downloading https://files.pythonhosted.org/packages/54/2b/13ba4104478be7d4fe1a11fee905366f169e414dc808f60702406d0b27e2/nndp-0.0.9.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [nndp]: Downloading https://files.pythonhosted.org/packages/54/2b/13ba4104478be7d4fe1a11fee905366f169e414dc808f60702406d0b27e2/nndp-0.0.9.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [hqq]: Downloading https://files.pythonhosted.org/packages/d4/e7/243017b6ae7c9a91b0cb5f179d5dce28df9fafe7bdba08a459ad42561b97/hqq-0.1.7.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/95/f8/f35ef4942db1a8485d194a94feb6f6e540b90d694e278e755fba9af58e13/odoo_addon_account_invoice_refund_link-16.0.1.0.4.3-py3-none-any.whl
+[2024-05-03 16:46:26] INFO root fetch - processPackages [llama-index-readers-azstorage-blob]: Downloading https://files.pythonhosted.org/packages/79/a2/d090c1fc1f57cd1033f013e09860ec0639d06d3793e990f882654c94195c/llama_index_readers_azstorage_blob-0.1.4.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [unquad]: Downloading https://files.pythonhosted.org/packages/2a/06/be6ec53ce5e275f28af0658fdc47e8de8813b21fab24c037aa9a3d718de5/unquad-0.0.1.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [energyquantified]: Downloading https://files.pythonhosted.org/packages/ac/35/3b55cb438139a3d3206db613045e5c2caec911384ede40bf6987893059f9/energyquantified-0.9.1.tar.gz
+[2024-05-03 16:46:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-03 16:46:26] WARNING root fetch - processPackages [unquad]: Skipping package: exceeds size limit 29124514>=10485760
+[2024-05-03 16:46:26] INFO root fetch - processPackages [unquad]: Start processing: servicing
+[2024-05-03 16:46:26] INFO root fetch - main [MainThread]: End processing [unquad] error
+[2024-05-03 16:46:27] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240503/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240503/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [c4m-pdk-sky130]: Downloading https://files.pythonhosted.org/packages/1d/fe/f2610b055fb12fec004288104933f8434e940a431c4951225269c53c276f/c4m_pdk_sky130-0.2.2.post1.tar.gz
+[2024-05-03 16:46:27] INFO root fetch - processPackages [energyquantified]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [energyquantified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyquantified-0.9.tar.gz tmp/energyquantified-0.9.1.tar.gz --markdown 20240503/e/energyquantified/0.9-0.9.1/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [hqq]: Downloading https://files.pythonhosted.org/packages/d7/b1/a2d09b74252a8e62daa8a76330be0773fde85d6e8016973c7ec2e7568985/hqq-0.1.7.post1.tar.gz
+[2024-05-03 16:46:27] INFO root fetch - processPackages [servicing]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 16:46:27] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/08/c6/1305240a72607431cc0141fdc3d8c08022e361a2091a1e6f3a5059207859/odoo_addon_account_invoice_refund_link-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 16:46:27] INFO root fetch - processPackages [nndp]: Downloading https://files.pythonhosted.org/packages/41/39/59302e675fd88794d646415a66240d5f22b7e3eeec63993cf482d85e2364/nndp-0.1.0.tar.gz
+[2024-05-03 16:46:27] INFO root fetch - processPackages [nndp]: Downloading https://files.pythonhosted.org/packages/41/39/59302e675fd88794d646415a66240d5f22b7e3eeec63993cf482d85e2364/nndp-0.1.0.tar.gz
+[2024-05-03 16:46:27] INFO root fetch - processPackages [llama-index-readers-azstorage-blob]: Downloading https://files.pythonhosted.org/packages/a5/6a/e0a934deee569b3c432e60338d701a09804b237a04c40795eee669f01b3d/llama_index_readers_azstorage_blob-0.1.5.tar.gz
+[2024-05-03 16:46:27] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.4.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_refund_link-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-account-invoice-refund-link/16.0.1.0.4.3-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [hqq]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [hqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hqq-0.1.7.tar.gz tmp/hqq-0.1.7.post1.tar.gz --markdown 20240503/h/hqq/0.1.7-0.1.7.post1/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/60/d6/d7fd839db6a4261202a9fa56a606058091ceaa58a7f201f0b9829cea8e76/servicing-0.0.8.tar.gz
+[2024-05-03 16:46:27] INFO root fetch - processPackages [llama-index-readers-azstorage-blob]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [llama-index-readers-azstorage-blob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_azstorage_blob-0.1.4.tar.gz tmp/llama_index_readers_azstorage_blob-0.1.5.tar.gz --markdown 20240503/l/llama-index-readers-azstorage-blob/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [nndp]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [nndp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nndp-0.0.9.tar.gz tmp/nndp-0.1.0.tar.gz --markdown 20240503/n/nndp/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [nndp]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [nndp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nndp-0.0.9.tar.gz tmp/nndp-0.1.0.tar.gz --markdown 20240503/n/nndp/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/75/77/0b02dfaf760bc4567d3f5e6ba015912a61baf1d45e750eb34f8e6a7a4da1/servicing-0.0.9.tar.gz
+[2024-05-03 16:46:27] INFO root fetch - processPackages [servicing]: executing diffoscope
+[2024-05-03 16:46:27] INFO root fetch - processPackages [servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicing-0.0.8.tar.gz tmp/servicing-0.0.9.tar.gz --markdown 20240503/s/servicing/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 16:46:27] INFO root fetch - processPackages [energyquantified]: Remove: archive file [/home/abi/fetcher/tmp/energyquantified-0.9.tar.gz]
+[2024-05-03 16:46:27] INFO root fetch - processPackages [energyquantified]: Remove: archive file [/home/abi/fetcher/tmp/energyquantified-0.9.1.tar.gz]
+[2024-05-03 16:46:27] INFO root fetch - processPackages [energyquantified]: Start processing: blueapi
+[2024-05-03 16:46:27] INFO root fetch - main [MainThread]: End processing [energyquantified]: success
+[2024-05-03 16:46:28] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-03 16:46:28] INFO root fetch - processPackages [blueapi]: New version: [0.4.2a2] Old Version: [0.4.2a1]
+[2024-05-03 16:46:28] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-03 16:46:28] INFO root fetch - processPackages [nndp]: Remove: archive file [/home/abi/fetcher/tmp/nndp-0.0.9.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - processPackages [llama-index-readers-azstorage-blob]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_azstorage_blob-0.1.4.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - processPackages [nndp]: Remove: archive file [/home/abi/fetcher/tmp/nndp-0.1.0.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - processPackages [llama-index-readers-azstorage-blob]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_azstorage_blob-0.1.5.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - main [MainThread]: End processing [llama-index-readers-azstorage-blob]: success
+[2024-05-03 16:46:28] INFO root fetch - main [MainThread]: End processing [nndp]: success
+[2024-05-03 16:46:28] INFO root fetch - processPackages [c4m-pdk-sky130]: executing diffoscope
+[2024-05-03 16:46:28] INFO root fetch - processPackages [c4m-pdk-sky130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_pdk_sky130-0.2.2.tar.gz tmp/c4m_pdk_sky130-0.2.2.post1.tar.gz --markdown 20240503/c/c4m-pdk-sky130/0.2.2-0.2.2.post1/README.md --exclude *.pyd
+[2024-05-03 16:46:28] INFO root fetch - processPackages [blueapi]: Downloading https://files.pythonhosted.org/packages/c6/fc/dd63cca2cb045f322fe85948173a14d0e408bedc931ccd76ed1a0822bde5/blueapi-0.4.2a1.tar.gz
+[2024-05-03 16:46:28] INFO root fetch - processPackages [hqq]: Remove: archive file [/home/abi/fetcher/tmp/hqq-0.1.7.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - processPackages [hqq]: Remove: archive file [/home/abi/fetcher/tmp/hqq-0.1.7.post1.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - main [MainThread]: End processing [hqq]: success
+[2024-05-03 16:46:28] INFO root fetch - main [MainThread]: End processing [nndp]: success
+[2024-05-03 16:46:28] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.8.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.9.tar.gz]
+[2024-05-03 16:46:28] INFO root fetch - main [MainThread]: End processing [servicing]: success
+[2024-05-03 16:46:28] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.4.3-py3-none-any.whl.zip]
+[2024-05-03 16:46:28] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_link-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 16:46:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-refund-link]: success
+[2024-05-03 16:46:28] INFO root fetch - processPackages [blueapi]: Downloading https://files.pythonhosted.org/packages/e8/36/3176c574db8198087d8418dd3b6888e52f11fbbc7e50d0c5dfbfccc18013/blueapi-0.4.2a2.tar.gz
+[2024-05-03 16:46:28] INFO root fetch - processPackages [blueapi]: executing diffoscope
+[2024-05-03 16:46:28] INFO root fetch - processPackages [blueapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapi-0.4.2a1.tar.gz tmp/blueapi-0.4.2a2.tar.gz --markdown 20240503/b/blueapi/0.4.2a1-0.4.2a2/README.md --exclude *.pyd
+[2024-05-03 16:46:29] INFO root fetch - processPackages [c4m-pdk-sky130]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_sky130-0.2.2.tar.gz]
+[2024-05-03 16:46:29] INFO root fetch - processPackages [c4m-pdk-sky130]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_sky130-0.2.2.post1.tar.gz]
+[2024-05-03 16:46:29] INFO root fetch - main [MainThread]: End processing [c4m-pdk-sky130]: success
+[2024-05-03 16:46:29] INFO root fetch - processPackages [blueapi]: Remove: archive file [/home/abi/fetcher/tmp/blueapi-0.4.2a1.tar.gz]
+[2024-05-03 16:46:29] INFO root fetch - processPackages [blueapi]: Remove: archive file [/home/abi/fetcher/tmp/blueapi-0.4.2a2.tar.gz]
+[2024-05-03 16:46:29] INFO root fetch - main [MainThread]: End processing [blueapi]: success
+[2024-05-03 16:46:29] INFO root fetch - main [MainThread]: Store serial: [23047335]
