@@ -14977,3 +14977,33 @@
 [2024-05-03 11:22:39] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.6.post1.tar.gz]
 [2024-05-03 11:22:39] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
 [2024-05-03 11:22:39] INFO root fetch - main [MainThread]: Store serial: [23043816]
+[2024-05-03 11:25:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043816]
+[2024-05-03 11:25:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 11:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json-advanced
+[2024-05-03 11:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tbp-nightly
+[2024-05-03 11:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glue-utils
+[2024-05-03 11:25:07] INFO root fetch - processPackages [glue-utils]: New version: [0.2.1rc1] Old Version: [0.2.0]
+[2024-05-03 11:25:07] INFO root fetch - processPackages [json-advanced]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-03 11:25:07] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-05-03 11:25:07] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/dd/3e/5a5a07da24c33799044f49ef96bf055ff51edbeefaf553d7385faacdfad8/glue_utils-0.2.0.tar.gz
+[2024-05-03 11:25:07] INFO root fetch - processPackages [json-advanced]: Downloading https://files.pythonhosted.org/packages/8c/94/9aaed92c1a7232ebe8311a172e8a1e8be6c026328b59c66f0bb91b9e0535/json_advanced-0.4.0.tar.gz
+[2024-05-03 11:25:07] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-05-03 11:25:07] INFO root fetch - processPackages [json-advanced]: Downloading https://files.pythonhosted.org/packages/ea/50/edfa3daf718041d20f69bc3da4a57f53afcc182515096bcc4880e0f8d676/json_advanced-0.5.0.tar.gz
+[2024-05-03 11:25:07] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/8a/04/8811442d08915e3c55d40e638e71139ee43555713d5c8dac0433b7af7377/glue_utils-0.2.1rc1.tar.gz
+[2024-05-03 11:25:07] INFO root fetch - processPackages [json-advanced]: executing diffoscope
+[2024-05-03 11:25:07] INFO root fetch - processPackages [json-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_advanced-0.4.0.tar.gz tmp/json_advanced-0.5.0.tar.gz --markdown 20240503/j/json-advanced/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-03 11:25:07] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-03 11:25:07] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.2.0.tar.gz tmp/glue_utils-0.2.1rc1.tar.gz --markdown 20240503/g/glue-utils/0.2.0-0.2.1rc1/README.md --exclude *.pyd
+[2024-05-03 11:25:07] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-05-03 11:25:08] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-05-03 11:25:08] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240503/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-05-03 11:25:08] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.0.tar.gz]
+[2024-05-03 11:25:08] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.1rc1.tar.gz]
+[2024-05-03 11:25:08] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-03 11:25:08] INFO root fetch - processPackages [json-advanced]: Remove: archive file [/home/abi/fetcher/tmp/json_advanced-0.4.0.tar.gz]
+[2024-05-03 11:25:08] INFO root fetch - processPackages [json-advanced]: Remove: archive file [/home/abi/fetcher/tmp/json_advanced-0.5.0.tar.gz]
+[2024-05-03 11:25:08] INFO root fetch - main [MainThread]: End processing [json-advanced]: success
+[2024-05-03 11:25:10] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-05-03 11:25:10] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-05-03 11:25:10] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-05-03 11:25:10] INFO root fetch - main [MainThread]: Store serial: [23043825]
