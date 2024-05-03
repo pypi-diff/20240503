@@ -8945,3 +8945,24 @@
 [2024-05-03 06:10:19] INFO root fetch - processPackages [xnote-web]: Remove: archive file [/home/abi/fetcher/tmp/xnote-web-0.1.0.tar.gz]
 [2024-05-03 06:10:19] INFO root fetch - main [MainThread]: End processing [xnote-web]: success
 [2024-05-03 06:10:19] INFO root fetch - main [MainThread]: Store serial: [23041393]
+[2024-05-03 06:12:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041393]
+[2024-05-03 06:12:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: self-stats
+[2024-05-03 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandera
+[2024-05-03 06:12:28] INFO root fetch - processPackages [self-stats]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 06:12:28] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-03 06:12:28] INFO root fetch - processPackages [self-stats]: Downloading https://files.pythonhosted.org/packages/79/8a/887f6a7f166c46ace72fd90d5646bf655e04407e42f054b8d3e71052cd75/self_stats-0.1.0.tar.gz
+[2024-05-03 06:12:28] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/b0/0e/d435a4c20c8ca9269ca2ccf44f3bb98ee85b9fc9fbfda8f1952cfc2b9c43/pandera-0.8.1.tar.gz
+[2024-05-03 06:12:29] INFO root fetch - processPackages [self-stats]: Downloading https://files.pythonhosted.org/packages/1e/ce/716813414e5b055a148e417992343b75fcc92771ccb75dbde35259d1f548/self_stats-0.1.1.tar.gz
+[2024-05-03 06:12:29] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/0b/8f/199b2d6886d40d20c9382c189d0b40c6118c2df6f0df21e9e78ab886aaea/pandera-0.9.0.tar.gz
+[2024-05-03 06:12:29] INFO root fetch - processPackages [self-stats]: executing diffoscope
+[2024-05-03 06:12:29] INFO root fetch - processPackages [self-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/self_stats-0.1.0.tar.gz tmp/self_stats-0.1.1.tar.gz --markdown 20240503/s/self-stats/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 06:12:29] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2024-05-03 06:12:29] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20240503/p/pandera/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-03 06:12:29] INFO root fetch - processPackages [self-stats]: Remove: archive file [/home/abi/fetcher/tmp/self_stats-0.1.0.tar.gz]
+[2024-05-03 06:12:29] INFO root fetch - processPackages [self-stats]: Remove: archive file [/home/abi/fetcher/tmp/self_stats-0.1.1.tar.gz]
+[2024-05-03 06:12:29] INFO root fetch - main [MainThread]: End processing [self-stats]: success
+[2024-05-03 06:12:30] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.8.1.tar.gz]
+[2024-05-03 06:12:30] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
+[2024-05-03 06:12:30] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2024-05-03 06:12:30] INFO root fetch - main [MainThread]: Store serial: [23041399]
