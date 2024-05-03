@@ -15282,3 +15282,24 @@
 [2024-05-03 11:40:20] INFO root fetch - processPackages [jsrm]: Remove: archive file [/home/abi/fetcher/tmp/jsrm-0.0.7.tar.gz]
 [2024-05-03 11:40:20] INFO root fetch - main [MainThread]: End processing [jsrm]: success
 [2024-05-03 11:40:20] INFO root fetch - main [MainThread]: Store serial: [23044019]
+[2024-05-03 11:42:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044019]
+[2024-05-03 11:42:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 11:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vital
+[2024-05-03 11:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hsfs
+[2024-05-03 11:42:48] INFO root fetch - processPackages [vital]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-03 11:42:48] INFO root fetch - processPackages [hsfs]: New version: [3.7.6] Old Version: [3.7.5]
+[2024-05-03 11:42:48] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/a2/a4/832733cdc741b8a11cd41b361cb5c71fb5787735a4607e8924d660b98fd4/vital-2.1.3.tar.gz
+[2024-05-03 11:42:48] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/81/0c/31412b90481733d430a538343d4aca0bc9a732bddb17f481eaa68e918b9f/hsfs-3.7.5.tar.gz
+[2024-05-03 11:42:49] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/56/80/165c955b8db1e262d980823ee8b638b8486aea7a15c08d21a983f9adaa45/hsfs-3.7.6.tar.gz
+[2024-05-03 11:42:49] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/4d/71/6df83a13aca4c814f89698c7322cbffc4e6753fbe399b4c29b41d5384dee/vital-2.1.4.tar.gz
+[2024-05-03 11:42:49] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2024-05-03 11:42:49] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.7.5.tar.gz tmp/hsfs-3.7.6.tar.gz --markdown 20240503/h/hsfs/3.7.5-3.7.6/README.md --exclude *.pyd
+[2024-05-03 11:42:49] INFO root fetch - processPackages [vital]: executing diffoscope
+[2024-05-03 11:42:49] INFO root fetch - processPackages [vital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-2.1.3.tar.gz tmp/vital-2.1.4.tar.gz --markdown 20240503/v/vital/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-03 11:42:50] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.7.5.tar.gz]
+[2024-05-03 11:42:50] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.7.6.tar.gz]
+[2024-05-03 11:42:50] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2024-05-03 11:42:50] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.3.tar.gz]
+[2024-05-03 11:42:50] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.4.tar.gz]
+[2024-05-03 11:42:50] INFO root fetch - main [MainThread]: End processing [vital]: success
+[2024-05-03 11:42:50] INFO root fetch - main [MainThread]: Store serial: [23044025]
