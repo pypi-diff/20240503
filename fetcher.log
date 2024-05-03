@@ -18037,3 +18037,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:51:27] INFO root fetch - processPackages [manim-slides]: Remove: archive file [/home/abi/fetcher/tmp/manim_slides-5.1.7.tar.gz]
 [2024-05-03 13:51:27] INFO root fetch - main [MainThread]: End processing [manim-slides]: success
 [2024-05-03 13:51:27] INFO root fetch - main [MainThread]: Store serial: [23045425]
+[2024-05-03 13:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045425]
+[2024-05-03 13:53:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 13:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoMLApp
+[2024-05-03 13:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rp
+[2024-05-03 13:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zonesmart-utils-fork
+[2024-05-03 13:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calldict
+[2024-05-03 13:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taskwarrior_flow
+[2024-05-03 13:53:58] WARNING root fetch - processPackages [AutoMLApp]: Skipping, unable to determine old version
+[2024-05-03 13:53:58] INFO root fetch - main [MainThread]: End processing [AutoMLApp] error
+[2024-05-03 13:53:58] WARNING root fetch - processPackages [taskwarrior_flow]: Skipping, unable to determine old version
+[2024-05-03 13:53:58] INFO root fetch - main [MainThread]: End processing [taskwarrior_flow] error
+[2024-05-03 13:53:58] INFO root fetch - processPackages [calldict]: New version: [0.7] Old Version: [0.6]
+[2024-05-03 13:53:58] INFO root fetch - processPackages [zonesmart-utils-fork]: New version: [0.6.1] Old Version: [0.5.9.9]
+[2024-05-03 13:53:58] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-05-03 13:53:59] INFO root fetch - processPackages [calldict]: Downloading https://files.pythonhosted.org/packages/0d/7b/4b9cbd8b85b4220772a650e3f9796431a283b581b606c0c2b9280724c7f3/calldict-0.6.tar.gz
+[2024-05-03 13:53:59] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-05-03 13:53:59] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/c7/9f/2ff32de4eacc484eb5a9007534d13156a1b1a1a9c62233775741db20c020/zonesmart-utils-fork-0.5.9.9.tar.gz
+[2024-05-03 13:53:59] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-05-03 13:53:59] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-05-03 13:53:59] INFO root fetch - processPackages [calldict]: Downloading https://files.pythonhosted.org/packages/4a/ab/70db7c724daaee4674cbaa7af0de257ab23ca0e6dede2f5692db6eebf00e/calldict-0.7.tar.gz
+[2024-05-03 13:53:59] INFO root fetch - processPackages [zonesmart-utils-fork]: Downloading https://files.pythonhosted.org/packages/f6/2f/a86e2480034a177d3e7ad541dce0943a674586d00f1ff7b1d6ce4757981d/zonesmart-utils-fork-0.6.1.tar.gz
+[2024-05-03 13:53:59] INFO root fetch - processPackages [calldict]: executing diffoscope
+[2024-05-03 13:53:59] INFO root fetch - processPackages [calldict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calldict-0.6.tar.gz tmp/calldict-0.7.tar.gz --markdown 20240503/c/calldict/0.6-0.7/README.md --exclude *.pyd
+[2024-05-03 13:53:59] INFO root fetch - processPackages [zonesmart-utils-fork]: executing diffoscope
+[2024-05-03 13:53:59] INFO root fetch - processPackages [zonesmart-utils-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-fork-0.5.9.9.tar.gz tmp/zonesmart-utils-fork-0.6.1.tar.gz --markdown 20240503/z/zonesmart-utils-fork/0.5.9.9-0.6.1/README.md --exclude *.pyd
+[2024-05-03 13:54:00] INFO root fetch - processPackages [calldict]: Remove: archive file [/home/abi/fetcher/tmp/calldict-0.6.tar.gz]
+[2024-05-03 13:54:00] INFO root fetch - processPackages [calldict]: Remove: archive file [/home/abi/fetcher/tmp/calldict-0.7.tar.gz]
+[2024-05-03 13:54:00] INFO root fetch - main [MainThread]: End processing [calldict]: success
+[2024-05-03 13:54:00] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.5.9.9.tar.gz]
+[2024-05-03 13:54:00] INFO root fetch - processPackages [zonesmart-utils-fork]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-fork-0.6.1.tar.gz]
+[2024-05-03 13:54:00] INFO root fetch - main [MainThread]: End processing [zonesmart-utils-fork]: success
+[2024-05-03 13:54:00] INFO root fetch - main [MainThread]: Store serial: [23045443]
