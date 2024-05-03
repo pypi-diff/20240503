@@ -10318,3 +10318,33 @@
 [2024-05-03 07:59:16] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.3.tar.gz]
 [2024-05-03 07:59:16] INFO root fetch - main [MainThread]: End processing [digrdf]: success
 [2024-05-03 07:59:16] INFO root fetch - main [MainThread]: Store serial: [23041950]
+[2024-05-03 08:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041950]
+[2024-05-03 08:01:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 08:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nnfasta
+[2024-05-03 08:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addons-oca-stock-logistics-reporting
+[2024-05-03 08:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: replicate-whisper-diarization
+[2024-05-03 08:01:26] INFO root fetch - processPackages [replicate-whisper-diarization]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-03 08:01:26] INFO root fetch - processPackages [nnfasta]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 08:01:26] INFO root fetch - processPackages [replicate-whisper-diarization]: Downloading https://files.pythonhosted.org/packages/5d/37/d8b320f3d96a11163de51d6b8f508de999df3f8700a9c68d11fc3cd13a86/replicate_whisper_diarization-0.2.3.tar.gz
+[2024-05-03 08:01:26] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-reporting]: New version: [13.0.20240503.0] Old Version: [13.0.20221212.0]
+[2024-05-03 08:01:26] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/0d/94/6bca19a9c6c6612f278c4b2069290e73c4ec9ce6b25060a5164fd320d596/nnfasta-0.1.4.tar.gz
+[2024-05-03 08:01:26] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-reporting]: Downloading https://files.pythonhosted.org/packages/d5/cd/4e4d0a9481c283e423643adf94ae064e34f45934010960674dc2fdba4464/odoo13_addons_oca_stock_logistics_reporting-13.0.20221212.0-py3-none-any.whl
+[2024-05-03 08:01:26] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/ef/99/1d750b80c5cac5fcb5963bdcf5b68bd9aa0e8f2144f29bf2a76d6b8eec58/nnfasta-0.1.5.tar.gz
+[2024-05-03 08:01:26] INFO root fetch - processPackages [replicate-whisper-diarization]: Downloading https://files.pythonhosted.org/packages/ef/95/a0bdcf52fe52281a60477605517b1f75bd406fb4cbd280d509721972e3eb/replicate_whisper_diarization-0.2.4.tar.gz
+[2024-05-03 08:01:26] INFO root fetch - processPackages [nnfasta]: executing diffoscope
+[2024-05-03 08:01:26] INFO root fetch - processPackages [nnfasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnfasta-0.1.4.tar.gz tmp/nnfasta-0.1.5.tar.gz --markdown 20240503/n/nnfasta/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 08:01:26] INFO root fetch - processPackages [replicate-whisper-diarization]: executing diffoscope
+[2024-05-03 08:01:26] INFO root fetch - processPackages [replicate-whisper-diarization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replicate_whisper_diarization-0.2.3.tar.gz tmp/replicate_whisper_diarization-0.2.4.tar.gz --markdown 20240503/r/replicate-whisper-diarization/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-03 08:01:27] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-reporting]: Downloading https://files.pythonhosted.org/packages/cc/ce/4bd0c85a14b1256ed9e96e9ff88eab4f09209ac4785951622e03a4b49d8b/odoo13_addons_oca_stock_logistics_reporting-13.0.20240503.0-py3-none-any.whl
+[2024-05-03 08:01:27] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-reporting]: executing diffoscope
+[2024-05-03 08:01:27] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_stock_logistics_reporting-13.0.20221212.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_stock_logistics_reporting-13.0.20240503.0-py3-none-any.whl.zip --markdown 20240503/o/odoo13-addons-oca-stock-logistics-reporting/13.0.20221212.0-13.0.20240503.0/README.md --exclude *.pyd
+[2024-05-03 08:01:27] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.4.tar.gz]
+[2024-05-03 08:01:27] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.5.tar.gz]
+[2024-05-03 08:01:27] INFO root fetch - main [MainThread]: End processing [nnfasta]: success
+[2024-05-03 08:01:27] INFO root fetch - processPackages [replicate-whisper-diarization]: Remove: archive file [/home/abi/fetcher/tmp/replicate_whisper_diarization-0.2.3.tar.gz]
+[2024-05-03 08:01:27] INFO root fetch - processPackages [replicate-whisper-diarization]: Remove: archive file [/home/abi/fetcher/tmp/replicate_whisper_diarization-0.2.4.tar.gz]
+[2024-05-03 08:01:27] INFO root fetch - main [MainThread]: End processing [replicate-whisper-diarization]: success
+[2024-05-03 08:01:27] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_reporting-13.0.20221212.0-py3-none-any.whl.zip]
+[2024-05-03 08:01:27] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_reporting-13.0.20240503.0-py3-none-any.whl.zip]
+[2024-05-03 08:01:27] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-stock-logistics-reporting]: success
+[2024-05-03 08:01:27] INFO root fetch - main [MainThread]: Store serial: [23041959]
