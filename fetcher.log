@@ -19466,3 +19466,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:58:19] INFO root fetch - processPackages [clingexplaid]: Remove: archive file [/home/abi/fetcher/tmp/clingexplaid-1.0.9.tar.gz]
 [2024-05-03 14:58:19] INFO root fetch - main [MainThread]: End processing [clingexplaid]: success
 [2024-05-03 14:58:19] INFO root fetch - main [MainThread]: Store serial: [23046177]
+[2024-05-03 15:00:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046177]
+[2024-05-03 15:00:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 15:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fourdigits-cli
+[2024-05-03 15:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fei-crypto
+[2024-05-03 15:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pluma-analysis
+[2024-05-03 15:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: documentdataextraction
+[2024-05-03 15:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modpoll
+[2024-05-03 15:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tira
+[2024-05-03 15:00:51] INFO root fetch - processPackages [fei-crypto]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-03 15:00:51] INFO root fetch - processPackages [fei-crypto]: Downloading https://files.pythonhosted.org/packages/1b/a3/2cb8c912bcd3852e0ed7d1a62ede519b32abf12312e1739cceaa3a3bb00d/fei_crypto-0.2.3.tar.gz
+[2024-05-03 15:00:51] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-03 15:00:51] INFO root fetch - processPackages [fourdigits-cli]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-03 15:00:51] INFO root fetch - processPackages [pluma-analysis]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-03 15:00:51] INFO root fetch - processPackages [modpoll]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-03 15:00:51] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-03 15:00:51] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/91/d4/395059379da81b0097120b14199bf9d08b58fe6a42081931dd3768d01147/documentdataextraction-0.0.98-py3-none-any.whl
+[2024-05-03 15:00:51] INFO root fetch - processPackages [fourdigits-cli]: Downloading https://files.pythonhosted.org/packages/16/41/db6981d2fc66cae9e922055d6e0c18606f2f380b4ca154a8881498c4c472/fourdigits-cli-1.8.1.tar.gz
+[2024-05-03 15:00:51] INFO root fetch - processPackages [pluma-analysis]: Downloading https://files.pythonhosted.org/packages/bb/a0/d9541e32385a1204045b920a1147b50a59bededc6d3cf0e7bf9c7a2c1867/pluma_analysis-0.5.0.tar.gz
+[2024-05-03 15:00:51] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-05-03 15:00:51] INFO root fetch - processPackages [modpoll]: Downloading https://files.pythonhosted.org/packages/66/82/3176ae5f74f0338c71bf236a4bf5ca16a7d8322960100d5fc30fa213f0e0/modpoll-0.7.1.tar.gz
+[2024-05-03 15:00:51] INFO root fetch - processPackages [fei-crypto]: Downloading https://files.pythonhosted.org/packages/fe/66/fbbadade27f0a96d5d5137ddbfe5e888af2c37ba7098b8744e062b14785c/fei_crypto-0.2.4.tar.gz
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fei-crypto]: executing diffoscope
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fei-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fei_crypto-0.2.3.tar.gz tmp/fei_crypto-0.2.4.tar.gz --markdown 20240503/f/fei-crypto/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fourdigits-cli]: Downloading https://files.pythonhosted.org/packages/68/33/2623cebfa506c7ac87ce9c3d4f7ce25b4d4d50a8948eb74f8e8a04046ce3/fourdigits-cli-1.9.0.tar.gz
+[2024-05-03 15:00:52] INFO root fetch - processPackages [pluma-analysis]: Downloading https://files.pythonhosted.org/packages/49/55/50ae2dc9971d25dd3f8689289b5a708ef72fe15ddb5613c5110e7e6d2912/pluma_analysis-0.6.0.tar.gz
+[2024-05-03 15:00:52] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/15/1f/63b3b236f216e99363d439f8ca05b6dc0272a6348ceb25404c98bd9ce282/documentdataextraction-0.0.99-py3-none-any.whl
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fourdigits-cli]: executing diffoscope
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fourdigits-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fourdigits-cli-1.8.1.tar.gz tmp/fourdigits-cli-1.9.0.tar.gz --markdown 20240503/f/fourdigits-cli/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-03 15:00:52] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-05-03 15:00:52] INFO root fetch - processPackages [modpoll]: Downloading https://files.pythonhosted.org/packages/91/35/df3c6dd6b291f628e6eb49dfdaba518b48cc16d74a302ac5520d067db098/modpoll-0.7.2.tar.gz
+[2024-05-03 15:00:52] INFO root fetch - processPackages [pluma-analysis]: executing diffoscope
+[2024-05-03 15:00:52] INFO root fetch - processPackages [pluma-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluma_analysis-0.5.0.tar.gz tmp/pluma_analysis-0.6.0.tar.gz --markdown 20240503/p/pluma-analysis/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-03 15:00:52] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-05-03 15:00:52] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240503/t/tira/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-03 15:00:52] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2024-05-03 15:00:52] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.98-py3-none-any.whl.zip tmp/documentdataextraction-0.0.99-py3-none-any.whl.zip --markdown 20240503/d/documentdataextraction/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-03 15:00:52] INFO root fetch - processPackages [modpoll]: executing diffoscope
+[2024-05-03 15:00:52] INFO root fetch - processPackages [modpoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modpoll-0.7.1.tar.gz tmp/modpoll-0.7.2.tar.gz --markdown 20240503/m/modpoll/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fourdigits-cli]: Remove: archive file [/home/abi/fetcher/tmp/fourdigits-cli-1.8.1.tar.gz]
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fourdigits-cli]: Remove: archive file [/home/abi/fetcher/tmp/fourdigits-cli-1.9.0.tar.gz]
+[2024-05-03 15:00:52] INFO root fetch - main [MainThread]: End processing [fourdigits-cli]: success
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fei-crypto]: Remove: archive file [/home/abi/fetcher/tmp/fei_crypto-0.2.3.tar.gz]
+[2024-05-03 15:00:52] INFO root fetch - processPackages [fei-crypto]: Remove: archive file [/home/abi/fetcher/tmp/fei_crypto-0.2.4.tar.gz]
+[2024-05-03 15:00:52] INFO root fetch - main [MainThread]: End processing [fei-crypto]: success
+[2024-05-03 15:00:52] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.98-py3-none-any.whl.zip]
+[2024-05-03 15:00:52] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.99-py3-none-any.whl.zip]
+[2024-05-03 15:00:52] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2024-05-03 15:00:53] INFO root fetch - processPackages [modpoll]: Remove: archive file [/home/abi/fetcher/tmp/modpoll-0.7.1.tar.gz]
+[2024-05-03 15:00:53] INFO root fetch - processPackages [modpoll]: Remove: archive file [/home/abi/fetcher/tmp/modpoll-0.7.2.tar.gz]
+[2024-05-03 15:00:53] INFO root fetch - main [MainThread]: End processing [modpoll]: success
+[2024-05-03 15:00:53] INFO root fetch - processPackages [pluma-analysis]: Remove: archive file [/home/abi/fetcher/tmp/pluma_analysis-0.5.0.tar.gz]
+[2024-05-03 15:00:53] INFO root fetch - processPackages [pluma-analysis]: Remove: archive file [/home/abi/fetcher/tmp/pluma_analysis-0.6.0.tar.gz]
+[2024-05-03 15:00:53] INFO root fetch - main [MainThread]: End processing [pluma-analysis]: success
+[2024-05-03 15:00:53] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-05-03 15:00:53] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-05-03 15:00:53] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-05-03 15:00:53] INFO root fetch - main [MainThread]: Store serial: [23046196]
