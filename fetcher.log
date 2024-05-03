@@ -14038,3 +14038,42 @@
 [2024-05-03 10:39:33] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-03 10:39:33] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-03 10:39:33] INFO root fetch - main [MainThread]: Store serial: [23043467]
+[2024-05-03 10:41:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043467]
+[2024-05-03 10:41:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 10:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weld-deps
+[2024-05-03 10:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomodo
+[2024-05-03 10:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argilla-llama-index
+[2024-05-03 10:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cim-11-CERTIC
+[2024-05-03 10:41:46] INFO root fetch - processPackages [cim-11-CERTIC]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-03 10:41:46] INFO root fetch - processPackages [weld-deps]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-03 10:41:46] INFO root fetch - processPackages [tomodo]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-03 10:41:46] INFO root fetch - processPackages [argilla-llama-index]: New version: [1.0.0] Old Version: [0.0.1a0]
+[2024-05-03 10:41:46] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/5b/8f/1a4129e22c4823de56e02f280b9e2a5903966388e7a1516b4e54efb9aff3/cim_11_certic-0.6.2.tar.gz
+[2024-05-03 10:41:46] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/69/d8/8ff310c471ed222bb68529b10fccc839205d91eb5cab1186e089aa03f58a/weld_deps-0.6.2.tar.gz
+[2024-05-03 10:41:46] INFO root fetch - processPackages [tomodo]: Downloading https://files.pythonhosted.org/packages/9c/73/57d460f4ebdff595d983e7f9a32bfd62d0aedb2c1ee1cf5a9da6d4c7cd2e/tomodo-1.0.4.tar.gz
+[2024-05-03 10:41:46] INFO root fetch - processPackages [argilla-llama-index]: Downloading https://files.pythonhosted.org/packages/d5/9c/61b0a7b1176dfacce6855a836a590b0e6f9b1bb64451016d456edf9c6ae8/argilla_llama_index-0.0.1a0.tar.gz
+[2024-05-03 10:41:46] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/4e/30/6b21f7a681149c2490f9141d53d210da37f864b3dafc1961e3c38347db58/weld_deps-0.6.3.tar.gz
+[2024-05-03 10:41:46] INFO root fetch - processPackages [tomodo]: Downloading https://files.pythonhosted.org/packages/bc/2c/0bec8af34827abaa29803a96df49efe071ee475cd6563eaf1019124ea2ab/tomodo-1.1.0.tar.gz
+[2024-05-03 10:41:46] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-05-03 10:41:46] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.6.2.tar.gz tmp/weld_deps-0.6.3.tar.gz --markdown 20240503/w/weld-deps/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-03 10:41:46] INFO root fetch - processPackages [tomodo]: executing diffoscope
+[2024-05-03 10:41:46] INFO root fetch - processPackages [tomodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomodo-1.0.4.tar.gz tmp/tomodo-1.1.0.tar.gz --markdown 20240503/t/tomodo/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-03 10:41:47] INFO root fetch - processPackages [argilla-llama-index]: Downloading https://files.pythonhosted.org/packages/5c/72/f2b44a11345ec069c241ee7a2fc7b17ce81a54df5603a55aeac20554cb6d/argilla_llama_index-1.0.0.tar.gz
+[2024-05-03 10:41:47] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/2a/4d/e825ad08b81d11e5e5584aecd2faa42cb5d2ff84fc249d1b78f17a0d0c95/cim_11_certic-0.6.3.tar.gz
+[2024-05-03 10:41:47] INFO root fetch - processPackages [argilla-llama-index]: executing diffoscope
+[2024-05-03 10:41:47] INFO root fetch - processPackages [argilla-llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla_llama_index-0.0.1a0.tar.gz tmp/argilla_llama_index-1.0.0.tar.gz --markdown 20240503/a/argilla-llama-index/0.0.1a0-1.0.0/README.md --exclude *.pyd
+[2024-05-03 10:41:47] INFO root fetch - processPackages [tomodo]: Remove: archive file [/home/abi/fetcher/tmp/tomodo-1.0.4.tar.gz]
+[2024-05-03 10:41:47] INFO root fetch - processPackages [tomodo]: Remove: archive file [/home/abi/fetcher/tmp/tomodo-1.1.0.tar.gz]
+[2024-05-03 10:41:47] INFO root fetch - main [MainThread]: End processing [tomodo]: success
+[2024-05-03 10:41:47] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.6.2.tar.gz]
+[2024-05-03 10:41:47] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.6.3.tar.gz]
+[2024-05-03 10:41:47] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-05-03 10:41:47] INFO root fetch - processPackages [cim-11-CERTIC]: executing diffoscope
+[2024-05-03 10:41:47] INFO root fetch - processPackages [cim-11-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_11_certic-0.6.2.tar.gz tmp/cim_11_certic-0.6.3.tar.gz --markdown 20240503/c/cim-11-CERTIC/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-03 10:41:47] INFO root fetch - processPackages [argilla-llama-index]: Remove: archive file [/home/abi/fetcher/tmp/argilla_llama_index-0.0.1a0.tar.gz]
+[2024-05-03 10:41:47] INFO root fetch - processPackages [argilla-llama-index]: Remove: archive file [/home/abi/fetcher/tmp/argilla_llama_index-1.0.0.tar.gz]
+[2024-05-03 10:41:47] INFO root fetch - main [MainThread]: End processing [argilla-llama-index]: success
+[2024-05-03 10:41:48] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.2.tar.gz]
+[2024-05-03 10:41:48] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.3.tar.gz]
+[2024-05-03 10:41:48] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
+[2024-05-03 10:41:48] INFO root fetch - main [MainThread]: Store serial: [23043478]
