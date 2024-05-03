@@ -19606,3 +19606,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:06:08] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9a0.tar.gz]
 [2024-05-03 15:06:08] INFO root fetch - main [MainThread]: End processing [ETS-CookBook]: success
 [2024-05-03 15:06:08] INFO root fetch - main [MainThread]: Store serial: [23046228]
+[2024-05-03 15:08:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046228]
+[2024-05-03 15:08:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 15:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dknovautils
+[2024-05-03 15:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-dry-run
+[2024-05-03 15:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub-ml
+[2024-05-03 15:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cost-monitoring-construct
+[2024-05-03 15:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snuba-sdk
+[2024-05-03 15:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hrbdataproject
+[2024-05-03 15:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smsfusion
+[2024-05-03 15:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tira
+[2024-05-03 15:08:41] WARNING root fetch - processPackages [hrbdataproject]: Skipping, unable to determine old version
+[2024-05-03 15:08:41] INFO root fetch - main [MainThread]: End processing [hrbdataproject] error
+[2024-05-03 15:08:41] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.4.0b3] Old Version: [0.4.0b2]
+[2024-05-03 15:08:41] INFO root fetch - processPackages [cost-monitoring-construct]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-03 15:08:41] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-03 15:08:41] INFO root fetch - processPackages [snuba-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-03 15:08:41] INFO root fetch - processPackages [dbt-dry-run]: New version: [0.7.7] Old Version: [0.7.5]
+[2024-05-03 15:08:41] INFO root fetch - processPackages [smsfusion]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-03 15:08:41] INFO root fetch - processPackages [dknovautils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-03 15:08:41] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/11/5f/ca213e3b240b50d7df89e5f20af652407b8a230f774a93f5f96623045754/digitalhub_ml-0.4.0b2.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/20/16/c1c34701b49a3cbdb07f7a0e1da9971e70dc0c3341a70861e1c922f3d7e8/cost-monitoring-construct-1.2.0.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [snuba-sdk]: Downloading https://files.pythonhosted.org/packages/99/40/c3c380ec8f1ae5f417badb9c629e16d7013ae13607ba7355c9ba2a01c66a/snuba_sdk-2.0.8-py2.py3-none-any.whl
+[2024-05-03 15:08:41] INFO root fetch - processPackages [smsfusion]: Downloading https://files.pythonhosted.org/packages/87/ea/6d5c20a7bae4ad6b9e724b1412ff0ee0e98eaa025f90599a11957ef842af/smsfusion-0.2.0-py3-none-any.whl
+[2024-05-03 15:08:41] INFO root fetch - processPackages [dbt-dry-run]: Downloading https://files.pythonhosted.org/packages/e1/79/0942ee8f7963a2784895f83cea7a1d4d741c3be89addc871757fd12cd2b7/dbt_dry_run-0.7.5.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/5d/40/3aa6dc0713919570a5de2de45fb9628566350c0cda9f344e1c8e2fd9c58b/dknovautils-0.2.8.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/e6/d9/9a3e08b0683390fc7c1aa6d2d6b2ac69817d3ae493df9a43d1f2ca47eb0e/digitalhub_ml-0.4.0b3.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/20/ab/c46181aefcb1ddef842a4c4cae831d4a40a291dcecaf09ca5e7c993e5a95/cost-monitoring-construct-1.2.1.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-05-03 15:08:41] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240503/t/tira/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-03 15:08:41] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-05-03 15:08:41] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.4.0b2.tar.gz tmp/digitalhub_ml-0.4.0b3.tar.gz --markdown 20240503/d/digitalhub-ml/0.4.0b2-0.4.0b3/README.md --exclude *.pyd
+[2024-05-03 15:08:41] INFO root fetch - processPackages [cost-monitoring-construct]: executing diffoscope
+[2024-05-03 15:08:41] INFO root fetch - processPackages [cost-monitoring-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cost-monitoring-construct-1.2.0.tar.gz tmp/cost-monitoring-construct-1.2.1.tar.gz --markdown 20240503/c/cost-monitoring-construct/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-03 15:08:41] INFO root fetch - processPackages [smsfusion]: Downloading https://files.pythonhosted.org/packages/ad/ea/973acd1fce45566a6e6bb882f47d8f951e85aa81aa973bb6a95d7facd8b3/smsfusion-0.3.0-py3-none-any.whl
+[2024-05-03 15:08:41] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/0e/53/a876751d299130f7983380ab69a0e7ef084aa32d849228d41250913731f6/dknovautils-0.2.9.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [snuba-sdk]: Downloading https://files.pythonhosted.org/packages/cd/d9/21a959c5d365f9eb6b89be1e804972b260235a12df2bf5a238046aba4900/snuba_sdk-2.0.9-py2.py3-none-any.whl
+[2024-05-03 15:08:41] INFO root fetch - processPackages [dbt-dry-run]: Downloading https://files.pythonhosted.org/packages/0e/28/a32b88f426ea4c9bf10755c8ab93accfcef7fcc19db38a797ad7da040c1c/dbt_dry_run-0.7.7.tar.gz
+[2024-05-03 15:08:41] INFO root fetch - processPackages [smsfusion]: executing diffoscope
+[2024-05-03 15:08:41] INFO root fetch - processPackages [smsfusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smsfusion-0.2.0-py3-none-any.whl.zip tmp/smsfusion-0.3.0-py3-none-any.whl.zip --markdown 20240503/s/smsfusion/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-03 15:08:41] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2024-05-03 15:08:41] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.2.8.tar.gz tmp/dknovautils-0.2.9.tar.gz --markdown 20240503/d/dknovautils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-03 15:08:42] INFO root fetch - processPackages [dbt-dry-run]: executing diffoscope
+[2024-05-03 15:08:42] INFO root fetch - processPackages [dbt-dry-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_dry_run-0.7.5.tar.gz tmp/dbt_dry_run-0.7.7.tar.gz --markdown 20240503/d/dbt-dry-run/0.7.5-0.7.7/README.md --exclude *.pyd
+[2024-05-03 15:08:42] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b2.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b3.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-05-03 15:08:42] INFO root fetch - processPackages [cost-monitoring-construct]: Remove: archive file [/home/abi/fetcher/tmp/cost-monitoring-construct-1.2.0.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - processPackages [cost-monitoring-construct]: Remove: archive file [/home/abi/fetcher/tmp/cost-monitoring-construct-1.2.1.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - main [MainThread]: End processing [cost-monitoring-construct]: success
+[2024-05-03 15:08:42] INFO root fetch - processPackages [smsfusion]: Remove: archive file [/home/abi/fetcher/tmp/smsfusion-0.2.0-py3-none-any.whl.zip]
+[2024-05-03 15:08:42] INFO root fetch - processPackages [smsfusion]: Remove: archive file [/home/abi/fetcher/tmp/smsfusion-0.3.0-py3-none-any.whl.zip]
+[2024-05-03 15:08:42] INFO root fetch - main [MainThread]: End processing [smsfusion]: success
+[2024-05-03 15:08:42] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.8.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.9.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2024-05-03 15:08:42] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-05-03 15:08:42] INFO root fetch - processPackages [dbt-dry-run]: Remove: archive file [/home/abi/fetcher/tmp/dbt_dry_run-0.7.5.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - processPackages [dbt-dry-run]: Remove: archive file [/home/abi/fetcher/tmp/dbt_dry_run-0.7.7.tar.gz]
+[2024-05-03 15:08:42] INFO root fetch - main [MainThread]: End processing [dbt-dry-run]: success
+[2024-05-03 15:08:43] INFO root fetch - processPackages [snuba-sdk]: executing diffoscope
+[2024-05-03 15:08:43] INFO root fetch - processPackages [snuba-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snuba_sdk-2.0.8-py2.py3-none-any.whl.zip tmp/snuba_sdk-2.0.9-py2.py3-none-any.whl.zip --markdown 20240503/s/snuba-sdk/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-03 15:08:43] INFO root fetch - processPackages [snuba-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snuba_sdk-2.0.8-py2.py3-none-any.whl.zip]
+[2024-05-03 15:08:43] INFO root fetch - processPackages [snuba-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snuba_sdk-2.0.9-py2.py3-none-any.whl.zip]
+[2024-05-03 15:08:43] INFO root fetch - main [MainThread]: End processing [snuba-sdk]: success
+[2024-05-03 15:08:43] INFO root fetch - main [MainThread]: Store serial: [23046251]
