@@ -14675,3 +14675,42 @@
 [2024-05-03 11:09:20] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.2.2.tar.gz]
 [2024-05-03 11:09:20] INFO root fetch - main [MainThread]: End processing [labelle]: success
 [2024-05-03 11:09:20] INFO root fetch - main [MainThread]: Store serial: [23043701]
+[2024-05-03 11:11:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043701]
+[2024-05-03 11:11:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyland
+[2024-05-03 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tui-dsmt
+[2024-05-03 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_forms_plus
+[2024-05-03 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DiffeRT
+[2024-05-03 11:11:35] INFO root fetch - processPackages [easyland]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-03 11:11:35] INFO root fetch - processPackages [django_forms_plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 11:11:36] INFO root fetch - processPackages [tui-dsmt]: New version: [202405030903] Old Version: [202405011337]
+[2024-05-03 11:11:36] INFO root fetch - processPackages [DiffeRT]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 11:11:36] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/29/44/d60281479ee026197e0fa1fdab65167d8d64009b030d72fdc609c2d44036/easyland-0.7.1.tar.gz
+[2024-05-03 11:11:36] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/30/94/4d63485519d12545df5b3f817c19d249a2fb004b61ce6e74cb0ad3dfc275/tui_dsmt-202405011337-py3-none-any.whl
+[2024-05-03 11:11:36] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/17/0e/f79e56cbbdc79f927f3c0a84be419ffe6da4dae45bde17f62e4a9620af0f/django_forms_plus-0.8.0.tar.gz
+[2024-05-03 11:11:36] INFO root fetch - processPackages [DiffeRT]: Downloading https://files.pythonhosted.org/packages/c0/f4/e5cdadbe11f51673dc81081fea6e1bfa140c7487214fa43784a1aefb1859/DiffeRT-0.0.8.tar.gz
+[2024-05-03 11:11:36] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/51/09/3f9dc395b24072fec50151867a353411255ac39ee69774b77bc9f513b062/easyland-0.7.2.tar.gz
+[2024-05-03 11:11:36] INFO root fetch - processPackages [easyland]: executing diffoscope
+[2024-05-03 11:11:36] INFO root fetch - processPackages [easyland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyland-0.7.1.tar.gz tmp/easyland-0.7.2.tar.gz --markdown 20240503/e/easyland/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-03 11:11:36] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/b8/6d/6e048d6ef80363fb3fe5ba19689476ab43c42496fe7e7de11b33a4e7817d/tui_dsmt-202405030903.tar.gz
+[2024-05-03 11:11:36] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-05-03 11:11:36] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202405011337-py3-none-any.whl.zip tmp/tui_dsmt-202405030903.tar.gz --markdown 20240503/t/tui-dsmt/202405011337-202405030903/README.md --exclude *.pyd
+[2024-05-03 11:11:36] INFO root fetch - processPackages [DiffeRT]: Downloading https://files.pythonhosted.org/packages/12/b3/af5f23b0e4a2c04da5b0aff65519323b88ad0c7f5e517bfb3d6266a76467/DiffeRT-0.0.9.tar.gz
+[2024-05-03 11:11:36] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/54/f3/c85ac8ce94145bb3872c12320f60f50e48053a66266349c0d4cbf452a9dd/django_forms_plus-0.9.0.tar.gz
+[2024-05-03 11:11:37] INFO root fetch - processPackages [DiffeRT]: executing diffoscope
+[2024-05-03 11:11:37] INFO root fetch - processPackages [DiffeRT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DiffeRT-0.0.8.tar.gz tmp/DiffeRT-0.0.9.tar.gz --markdown 20240503/D/DiffeRT/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 11:11:37] INFO root fetch - processPackages [django_forms_plus]: executing diffoscope
+[2024-05-03 11:11:37] INFO root fetch - processPackages [django_forms_plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_forms_plus-0.8.0.tar.gz tmp/django_forms_plus-0.9.0.tar.gz --markdown 20240503/d/django_forms_plus/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 11:11:37] INFO root fetch - processPackages [easyland]: Remove: archive file [/home/abi/fetcher/tmp/easyland-0.7.1.tar.gz]
+[2024-05-03 11:11:37] INFO root fetch - processPackages [easyland]: Remove: archive file [/home/abi/fetcher/tmp/easyland-0.7.2.tar.gz]
+[2024-05-03 11:11:37] INFO root fetch - main [MainThread]: End processing [easyland]: success
+[2024-05-03 11:11:37] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405011337-py3-none-any.whl.zip]
+[2024-05-03 11:11:37] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405030903.tar.gz]
+[2024-05-03 11:11:37] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-05-03 11:11:37] INFO root fetch - processPackages [DiffeRT]: Remove: archive file [/home/abi/fetcher/tmp/DiffeRT-0.0.8.tar.gz]
+[2024-05-03 11:11:37] INFO root fetch - processPackages [DiffeRT]: Remove: archive file [/home/abi/fetcher/tmp/DiffeRT-0.0.9.tar.gz]
+[2024-05-03 11:11:37] INFO root fetch - main [MainThread]: End processing [DiffeRT]: success
+[2024-05-03 11:11:47] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.8.0.tar.gz]
+[2024-05-03 11:11:47] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
+[2024-05-03 11:11:47] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
+[2024-05-03 11:11:47] INFO root fetch - main [MainThread]: Store serial: [23043713]
