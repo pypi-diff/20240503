@@ -18258,3 +18258,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:59:13] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
 [2024-05-03 13:59:13] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
 [2024-05-03 13:59:13] INFO root fetch - main [MainThread]: Store serial: [23045524]
+[2024-05-03 14:01:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045524]
+[2024-05-03 14:01:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 14:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vital
+[2024-05-03 14:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: survival-predictor-model
+[2024-05-03 14:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phiflow
+[2024-05-03 14:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe-esimd
+[2024-05-03 14:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nmk-github
+[2024-05-03 14:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jubtools
+[2024-05-03 14:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlord
+[2024-05-03 14:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragon-baseline
+[2024-05-03 14:01:44] INFO root fetch - processPackages [survival-predictor-model]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 14:01:44] INFO root fetch - processPackages [vital]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-05-03 14:01:44] INFO root fetch - processPackages [nmk-github]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 14:01:44] INFO root fetch - processPackages [survival-predictor-model]: Downloading https://files.pythonhosted.org/packages/9e/18/b330e4a8977dc19dae6e458a198414a78f2cab51de2150d581880e28f1b1/survival_predictor_model-0.0.1.tar.gz
+[2024-05-03 14:01:44] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240503] Old Version: [2.5.0b20240502]
+[2024-05-03 14:01:44] INFO root fetch - processPackages [streamlord]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-03 14:01:44] INFO root fetch - processPackages [dragon-baseline]: New version: [0.2.0] Old Version: [0.1]
+[2024-05-03 14:01:44] INFO root fetch - processPackages [jubtools]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-03 14:01:44] INFO root fetch - processPackages [phiflow]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-03 14:01:44] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/59/bb/2c78a5b732d6f04d4f2ebcc37cc9898cdfa260e451c9e27143d96357f412/vital-2.1.5.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/f4/9b/c34d935bbc87c048a8fa8bd133390777176d789e4461fedf6a8d133d9226/bigdl_core_xe_esimd-2.5.0b20240502-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-03 14:01:45] INFO root fetch - processPackages [nmk-github]: Downloading https://files.pythonhosted.org/packages/ee/b3/a53eb29e7c738160c9e69db0ec726c41c7ed3b9d5e71c393d7cbc531367a/nmk-github-0.8.0.tar.gz
+[2024-05-03 14:01:45] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61871660>=10485760
+[2024-05-03 14:01:45] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-05-03 14:01:45] INFO root fetch - processPackages [phiflow]: Downloading https://files.pythonhosted.org/packages/af/30/79c9e4e2c128b73f31262b8458b7755c277b99ffab1bd8bd59a5217443ef/phiflow-2.5.3.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [jubtools]: Downloading https://files.pythonhosted.org/packages/b4/6b/4a69e04f2186ff670c94e6e7e25c76acba72a91600d270e612ad4f5de738/jubtools-0.2.1.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [survival-predictor-model]: Downloading https://files.pythonhosted.org/packages/2b/76/ccc7c404091a8584cee1218a7c48b75027152edd2baf33c8002a10b2c864/survival_predictor_model-0.0.2.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [streamlord]: Downloading https://files.pythonhosted.org/packages/e5/5e/42d9b790cd7267d03c180a8af3b0d38ea9b0ca5d74988e0ab88138a8d49f/streamlord-0.1.1.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [dragon-baseline]: Downloading https://files.pythonhosted.org/packages/63/e9/a627bd06d367e2e6d1b29896ab83203df8e10816c4f1efb44b7d1eb51c40/dragon_baseline-0.1.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/9f/62/f21de19948c018a9afb2ed96999948d4d59ba270a6ba060bf5de25e691cc/vital-2.1.6.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [survival-predictor-model]: executing diffoscope
+[2024-05-03 14:01:45] INFO root fetch - processPackages [survival-predictor-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survival_predictor_model-0.0.1.tar.gz tmp/survival_predictor_model-0.0.2.tar.gz --markdown 20240503/s/survival-predictor-model/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 14:01:45] INFO root fetch - processPackages [nmk-github]: Downloading https://files.pythonhosted.org/packages/16/54/bd96819d1ef5883c98af8bd9dfdb4b188afe5290e161c3357fde1fda81c0/nmk-github-0.9.0.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [vital]: executing diffoscope
+[2024-05-03 14:01:45] INFO root fetch - processPackages [vital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-2.1.5.tar.gz tmp/vital-2.1.6.tar.gz --markdown 20240503/v/vital/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-05-03 14:01:45] INFO root fetch - processPackages [jubtools]: Downloading https://files.pythonhosted.org/packages/a4/ab/d944a4b16f52547a8d5143a6d14b7b806fe547c3cbe8156794154c409a03/jubtools-0.3.0.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [phiflow]: Downloading https://files.pythonhosted.org/packages/f1/0c/26aa5cf804ef427ccc1c34149244494bf238d838e511c1b6cd7defc43609/phiflow-2.5.4.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [streamlord]: Downloading https://files.pythonhosted.org/packages/4f/a1/f154dc240402b562d6a688c00e400ff8fa5174135336cf5dc10a6716f1f8/streamlord-0.2.0.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [nmk-github]: executing diffoscope
+[2024-05-03 14:01:45] INFO root fetch - processPackages [nmk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmk-github-0.8.0.tar.gz tmp/nmk-github-0.9.0.tar.gz --markdown 20240503/n/nmk-github/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 14:01:45] INFO root fetch - processPackages [dragon-baseline]: Downloading https://files.pythonhosted.org/packages/0c/6e/a078522884b73bc41f20f0b9b35703a95012b92cc5cdff31b1c822c7bd22/dragon_baseline-0.2.0.tar.gz
+[2024-05-03 14:01:45] INFO root fetch - processPackages [jubtools]: executing diffoscope
+[2024-05-03 14:01:45] INFO root fetch - processPackages [jubtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jubtools-0.2.1.tar.gz tmp/jubtools-0.3.0.tar.gz --markdown 20240503/j/jubtools/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-03 14:01:45] INFO root fetch - processPackages [phiflow]: executing diffoscope
+[2024-05-03 14:01:45] INFO root fetch - processPackages [phiflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiflow-2.5.3.tar.gz tmp/phiflow-2.5.4.tar.gz --markdown 20240503/p/phiflow/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-03 14:01:45] INFO root fetch - processPackages [streamlord]: executing diffoscope
+[2024-05-03 14:01:45] INFO root fetch - processPackages [streamlord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlord-0.1.1.tar.gz tmp/streamlord-0.2.0.tar.gz --markdown 20240503/s/streamlord/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-03 14:01:45] INFO root fetch - processPackages [dragon-baseline]: executing diffoscope
+[2024-05-03 14:01:45] INFO root fetch - processPackages [dragon-baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragon_baseline-0.1.tar.gz tmp/dragon_baseline-0.2.0.tar.gz --markdown 20240503/d/dragon-baseline/0.1-0.2.0/README.md --exclude *.pyd
+[2024-05-03 14:01:46] INFO root fetch - processPackages [survival-predictor-model]: Remove: archive file [/home/abi/fetcher/tmp/survival_predictor_model-0.0.1.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - processPackages [survival-predictor-model]: Remove: archive file [/home/abi/fetcher/tmp/survival_predictor_model-0.0.2.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - main [MainThread]: End processing [survival-predictor-model]: success
+[2024-05-03 14:01:46] INFO root fetch - processPackages [nmk-github]: Remove: archive file [/home/abi/fetcher/tmp/nmk-github-0.8.0.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - processPackages [nmk-github]: Remove: archive file [/home/abi/fetcher/tmp/nmk-github-0.9.0.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - main [MainThread]: End processing [nmk-github]: success
+[2024-05-03 14:01:46] INFO root fetch - processPackages [jubtools]: Remove: archive file [/home/abi/fetcher/tmp/jubtools-0.2.1.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - processPackages [jubtools]: Remove: archive file [/home/abi/fetcher/tmp/jubtools-0.3.0.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - main [MainThread]: End processing [jubtools]: success
+[2024-05-03 14:01:46] INFO root fetch - processPackages [streamlord]: Remove: archive file [/home/abi/fetcher/tmp/streamlord-0.1.1.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - processPackages [streamlord]: Remove: archive file [/home/abi/fetcher/tmp/streamlord-0.2.0.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - main [MainThread]: End processing [streamlord]: success
+[2024-05-03 14:01:46] INFO root fetch - processPackages [phiflow]: Remove: archive file [/home/abi/fetcher/tmp/phiflow-2.5.3.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - processPackages [phiflow]: Remove: archive file [/home/abi/fetcher/tmp/phiflow-2.5.4.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - main [MainThread]: End processing [phiflow]: success
+[2024-05-03 14:01:46] INFO root fetch - processPackages [dragon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/dragon_baseline-0.1.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - processPackages [dragon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/dragon_baseline-0.2.0.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - main [MainThread]: End processing [dragon-baseline]: success
+[2024-05-03 14:01:46] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.5.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.6.tar.gz]
+[2024-05-03 14:01:46] INFO root fetch - main [MainThread]: End processing [vital]: success
+[2024-05-03 14:01:46] INFO root fetch - main [MainThread]: Store serial: [23045547]
