@@ -6825,3 +6825,39 @@
 [2024-05-03 03:35:47] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip]
 [2024-05-03 03:35:47] INFO root fetch - main [MainThread]: End processing [itk-ants]: success
 [2024-05-03 03:35:47] INFO root fetch - main [MainThread]: Store serial: [23040502]
+[2024-05-03 03:37:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040502]
+[2024-05-03 03:37:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 03:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-05-03 03:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyroltrilinos
+[2024-05-03 03:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zettel-org
+[2024-05-03 03:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydockerhub
+[2024-05-03 03:37:56] INFO root fetch - processPackages [zettel-org]: New version: [0.7.0] Old Version: [0.6.4]
+[2024-05-03 03:37:56] INFO root fetch - processPackages [zettel-org]: Downloading https://files.pythonhosted.org/packages/8b/da/c4884dbcc49187acefb6d1c3788415fbf8ac0f2c82786b3334558e99c7ee/zettel_org-0.6.4.tar.gz
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pydockerhub]: New version: [1.2.1] Old Version: [1.0.0]
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pyroltrilinos]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pydockerhub]: Downloading https://files.pythonhosted.org/packages/e1/41/44f98046c5d00e8c487de0a28cf0e046c23072da6fe74fc61573f7d081c1/pydockerhub-1.0.0.tar.gz
+[2024-05-03 03:37:56] INFO root fetch - processPackages [zettel-org]: Downloading https://files.pythonhosted.org/packages/b1/7f/3af468ace93bb326be1e6e5bc1f751358e8475cde99710a88f411cdebf73/zettel_org-0.7.0.tar.gz
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pyroltrilinos]: Downloading https://files.pythonhosted.org/packages/b8/a1/35b9579ada8b6b7cb9e50c5aefa786b330f0ed97addecac0a4d8a79d214d/pyroltrilinos-0.5.0.tar.gz
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-03 03:37:56] INFO root fetch - processPackages [zettel-org]: executing diffoscope
+[2024-05-03 03:37:56] INFO root fetch - processPackages [zettel-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zettel_org-0.6.4.tar.gz tmp/zettel_org-0.7.0.tar.gz --markdown 20240503/z/zettel-org/0.6.4-0.7.0/README.md --exclude *.pyd
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pydockerhub]: Downloading https://files.pythonhosted.org/packages/ab/4e/df039663a0fa009816e943f5fa49271a2fb336a60ce47a3b805e5eac4e4c/pydockerhub-1.2.1.tar.gz
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pydockerhub]: executing diffoscope
+[2024-05-03 03:37:56] INFO root fetch - processPackages [pydockerhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydockerhub-1.0.0.tar.gz tmp/pydockerhub-1.2.1.tar.gz --markdown 20240503/p/pydockerhub/1.0.0-1.2.1/README.md --exclude *.pyd
+[2024-05-03 03:37:57] INFO root fetch - processPackages [pyroltrilinos]: Downloading https://files.pythonhosted.org/packages/6d/29/3046f5ccf17db3c74c11c565212051863d62ea56718ccd94e2bcd7b0251a/pyroltrilinos-0.5.1-pp38-pypy38_pp73-manylinux_2_28_x86_64.whl
+[2024-05-03 03:37:57] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-03 03:37:57] WARNING root fetch - processPackages [pyroltrilinos]: Skipping package: exceeds size limit 19011102>=10485760
+[2024-05-03 03:37:57] INFO root fetch - main [MainThread]: End processing [pyroltrilinos] error
+[2024-05-03 03:37:57] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-03 03:37:57] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240503/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-03 03:37:57] INFO root fetch - processPackages [pydockerhub]: Remove: archive file [/home/abi/fetcher/tmp/pydockerhub-1.0.0.tar.gz]
+[2024-05-03 03:37:57] INFO root fetch - processPackages [pydockerhub]: Remove: archive file [/home/abi/fetcher/tmp/pydockerhub-1.2.1.tar.gz]
+[2024-05-03 03:37:57] INFO root fetch - main [MainThread]: End processing [pydockerhub]: success
+[2024-05-03 03:37:57] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel_org-0.6.4.tar.gz]
+[2024-05-03 03:37:57] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel_org-0.7.0.tar.gz]
+[2024-05-03 03:37:57] INFO root fetch - main [MainThread]: End processing [zettel-org]: success
+[2024-05-03 03:37:58] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 03:37:58] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 03:37:58] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-03 03:37:58] INFO root fetch - main [MainThread]: Store serial: [23040592]
