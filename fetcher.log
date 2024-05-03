@@ -8439,3 +8439,23 @@
 [2024-05-03 05:36:17] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.8.0.tar.gz]
 [2024-05-03 05:36:17] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
 [2024-05-03 05:36:17] INFO root fetch - main [MainThread]: Store serial: [23041216]
+[2024-05-03 05:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041216]
+[2024-05-03 05:38:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protolint-bin
+[2024-05-03 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbix-refresh
+[2024-05-03 05:38:26] INFO root fetch - processPackages [pbix-refresh]: New version: [0.5.3] Old Version: [0.4.30]
+[2024-05-03 05:38:26] INFO root fetch - processPackages [protolint-bin]: New version: [0.49.7] Old Version: [0.49.6]
+[2024-05-03 05:38:26] INFO root fetch - processPackages [protolint-bin]: Downloading https://files.pythonhosted.org/packages/6c/7e/d5c1b3bb89a5f3f9be51f5f1109b22bebc7f59c9a56765da0ddf29c5ff6d/protolint_bin-0.49.6-py2.py3-none-win_arm64.whl
+[2024-05-03 05:38:26] INFO root fetch - processPackages [pbix-refresh]: Downloading https://files.pythonhosted.org/packages/48/67/4f020fe2b3acd2defb47883f2fe82154865df7e2d77b08ed9c46294563dd/pbix_refresh-0.4.30.tar.gz
+[2024-05-03 05:38:26] INFO root fetch - processPackages [pbix-refresh]: Downloading https://files.pythonhosted.org/packages/25/b0/92685a535717e94eb87e89677f2b43e7ce87372d4e7e58850cf5ba82254e/pbix_refresh-0.5.3.tar.gz
+[2024-05-03 05:38:26] INFO root fetch - processPackages [pbix-refresh]: executing diffoscope
+[2024-05-03 05:38:26] INFO root fetch - processPackages [pbix-refresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbix_refresh-0.4.30.tar.gz tmp/pbix_refresh-0.5.3.tar.gz --markdown 20240503/p/pbix-refresh/0.4.30-0.5.3/README.md --exclude *.pyd
+[2024-05-03 05:38:27] INFO root fetch - processPackages [pbix-refresh]: Remove: archive file [/home/abi/fetcher/tmp/pbix_refresh-0.4.30.tar.gz]
+[2024-05-03 05:38:27] INFO root fetch - processPackages [pbix-refresh]: Remove: archive file [/home/abi/fetcher/tmp/pbix_refresh-0.5.3.tar.gz]
+[2024-05-03 05:38:27] INFO root fetch - main [MainThread]: End processing [pbix-refresh]: success
+[2024-05-03 05:38:28] INFO root fetch - processPackages [protolint-bin]: Downloading https://files.pythonhosted.org/packages/09/49/6672318952f080a4b5921291ed12817caaea2034e7437652f108c771c553/protolint_bin-0.49.7-py2.py3-none-win_arm64.whl
+[2024-05-03 05:38:29] INFO root fetch - processPackages [protolint-bin]: executing diffoscope
+[2024-05-03 05:38:29] INFO root fetch - processPackages [protolint-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protolint_bin-0.49.6-py2.py3-none-win_arm64.whl.zip tmp/protolint_bin-0.49.7-py2.py3-none-win_arm64.whl.zip --markdown 20240503/p/protolint-bin/0.49.6-0.49.7/README.md --exclude *.pyd
+[2024-05-03 05:41:29] ERROR root fetch - processPackages [protolint-bin]: Timeout during execution of pkgdiff
+[2024-05-03 05:41:29] INFO root fetch - main [MainThread]: End processing [protolint-bin] error
+[2024-05-03 05:41:29] INFO root fetch - main [MainThread]: Store serial: [23041227]
