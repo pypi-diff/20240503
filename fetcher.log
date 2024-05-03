@@ -2092,3 +2092,105 @@
 [2024-05-03 02:12:53] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
 [2024-05-03 02:12:53] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
 [2024-05-03 02:12:53] INFO root fetch - main [MainThread]: Store serial: [23038914]
+[2024-05-03 02:14:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038914]
+[2024-05-03 02:15:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-upload-dbs
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speakeasy-client-sdk-python
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrw
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-events-notify
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-gitlab-runner
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-ignite
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-nag
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mercoa
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-common
+[2024-05-03 02:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-skylight
+[2024-05-03 02:15:03] INFO root fetch - processPackages [datasette-upload-dbs]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [nrw]: New version: [0.7] Old Version: [0.6]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [mercoa]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240503] Old Version: [0.6.0.dev20240502]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.7.0] Old Version: [5.6.9]
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [datasette-upload-dbs]: Downloading https://files.pythonhosted.org/packages/a1/26/d7690bc3fc58fd33051eb293a1b0ee36f1a4b1cc0b41fce5b7adc7583f00/datasette-upload-dbs-0.3.1.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [nrw]: Downloading https://files.pythonhosted.org/packages/78/7d/2a297ba907b96988f97c134607348d2973bb0c4b1b651c3f06a9f2b8414b/nrw-0.6.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/45/0c/f8a2fe7b49b8bf09dcfa0fb92899526c96225c7922ad1238ba8ba1e58e29/pytorch-ignite-0.6.0.dev20240502.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/ae/30/68f7ba4a130a1373087581bb9a9d87371c28db2348c270a6479cc30cc6bb/mercoa-0.3.7.tar.gz
+[2024-05-03 02:15:03] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/01/54/7938caffd4c9a58fb606d95fba8ff4e66dd8b38724588964f4fa2d838dd6/speakeasy-client-sdk-python-5.6.9.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [datasette-upload-dbs]: Downloading https://files.pythonhosted.org/packages/50/ce/36a5c48ce583978c2e2c8ad5818c78a4372aa3f7f899a9f67d522abf62ad/datasette_upload_dbs-0.3.2.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240503/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [nrw]: Downloading https://files.pythonhosted.org/packages/c2/c1/104affa815b5d6873568af36b73900b4d10c4f85a484d5f1bc8d55b78cd3/nrw-0.7.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [datasette-upload-dbs]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [datasette-upload-dbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-upload-dbs-0.3.1.tar.gz tmp/datasette_upload_dbs-0.3.2.tar.gz --markdown 20240503/d/datasette-upload-dbs/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240503/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240503/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/db/27/4cfdb72f7de5c77ed105b87b00be1a079da871884e593a4e1fda32b27062/pytorch-ignite-0.6.0.dev20240503.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/e1/d6/5e808a9446b56e867fbcbc2a15ede9094baadc6308b0e5a814e653dba2ce/mercoa-0.3.8.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/b4/6b/e1c272afbd840f9c9602c2fac63d135448d884d1a83342c5d9647802e233/speakeasy-client-sdk-python-5.7.0.tar.gz
+[2024-05-03 02:15:04] INFO root fetch - processPackages [nrw]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [nrw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrw-0.6.tar.gz tmp/nrw-0.7.tar.gz --markdown 20240503/n/nrw/0.6-0.7/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240503/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240502.tar.gz tmp/pytorch-ignite-0.6.0.dev20240503.tar.gz --markdown 20240503/p/pytorch-ignite/0.6.0.dev20240502-0.6.0.dev20240503/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.3.7.tar.gz tmp/mercoa-0.3.8.tar.gz --markdown 20240503/m/mercoa/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.6.9.tar.gz tmp/speakeasy-client-sdk-python-5.7.0.tar.gz --markdown 20240503/s/speakeasy-client-sdk-python/5.6.9-5.7.0/README.md --exclude *.pyd
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-03 02:15:04] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240503/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Start processing: PokerNow
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-03 02:15:05] INFO root fetch - processPackages [PokerNow]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [datasette-upload-dbs]: Remove: archive file [/home/abi/fetcher/tmp/datasette-upload-dbs-0.3.1.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [datasette-upload-dbs]: Remove: archive file [/home/abi/fetcher/tmp/datasette_upload_dbs-0.3.2.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [datasette-upload-dbs]: success
+[2024-05-03 02:15:05] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/5f/dc/4da992f91eed6fcd7dd6d347ca39dc39efb80aad4ce471bec15ed7b32c8c/pokernow-0.6.1.tar.gz
+[2024-05-03 02:15:05] INFO root fetch - processPackages [nrw]: Remove: archive file [/home/abi/fetcher/tmp/nrw-0.6.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [nrw]: Remove: archive file [/home/abi/fetcher/tmp/nrw-0.7.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [nrw]: success
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-03 02:15:05] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/18/3e/d187882f3577336a997c00235831e3e5f2e792d60508a8c604725b4b74a1/pokernow-0.6.2.tar.gz
+[2024-05-03 02:15:05] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240502.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240503.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-03 02:15:05] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:15:05] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.6.1.tar.gz tmp/pokernow-0.6.2.tar.gz --markdown 20240503/P/PokerNow/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-03 02:15:05] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.9.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.7.0.tar.gz]
+[2024-05-03 02:15:05] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-05-03 02:15:06] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.3.7.tar.gz]
+[2024-05-03 02:15:06] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.3.8.tar.gz]
+[2024-05-03 02:15:06] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2024-05-03 02:15:06] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.1.tar.gz]
+[2024-05-03 02:15:06] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.2.tar.gz]
+[2024-05-03 02:15:06] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:15:06] INFO root fetch - main [MainThread]: Store serial: [23038946]
