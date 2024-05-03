@@ -8349,3 +8349,15 @@
 [2024-05-03 05:25:26] INFO root fetch - processPackages [Epate]: Remove: archive file [/home/abi/fetcher/tmp/epate-1.1.0.tar.gz]
 [2024-05-03 05:25:26] INFO root fetch - main [MainThread]: End processing [Epate]: success
 [2024-05-03 05:25:26] INFO root fetch - main [MainThread]: Store serial: [23041175]
+[2024-05-03 05:27:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041175]
+[2024-05-03 05:27:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 05:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo2docs
+[2024-05-03 05:27:35] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 05:27:35] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 05:27:36] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 05:27:36] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 05:27:36] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 05:27:36] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 05:27:36] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 05:27:36] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 05:27:36] INFO root fetch - main [MainThread]: Store serial: [23041178]
