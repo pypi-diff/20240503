@@ -23561,3 +23561,72 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 [2024-05-03 17:29:57] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-05-03 17:29:57] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-05-03 17:29:57] INFO root fetch - main [MainThread]: Store serial: [23047962]
+[2024-05-03 17:32:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047962]
+[2024-05-03 17:32:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 17:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalene
+[2024-05-03 17:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-05-03 17:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rutificador
+[2024-05-03 17:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cocorum
+[2024-05-03 17:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: All-in-one-chay
+[2024-05-03 17:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: itwinai
+[2024-05-03 17:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spotflow-device
+[2024-05-03 17:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: helper-for-maxi
+[2024-05-03 17:32:07] INFO root fetch - processPackages [cocorum]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-03 17:32:07] INFO root fetch - processPackages [helper-for-maxi]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-03 17:32:07] INFO root fetch - processPackages [cocorum]: Downloading https://files.pythonhosted.org/packages/dd/c9/8ce1955d07788e552f36959b3cbe790bba537fc29775e73ab4e29a950c8d/cocorum-0.3.0.tar.gz
+[2024-05-03 17:32:07] INFO root fetch - processPackages [All-in-one-chay]: New version: [3.0.0] Old Version: [2.4.9]
+[2024-05-03 17:32:07] INFO root fetch - processPackages [helper-for-maxi]: Downloading https://files.pythonhosted.org/packages/27/14/98a01a62eaac5ac71a87b8fb548182dc30f586a9ceacb97a3d412564265d/helper_for_maxi-1.1.5.tar.gz
+[2024-05-03 17:32:07] INFO root fetch - processPackages [rutificador]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-05-03 17:32:07] WARNING root fetch - processPackages [itwinai]: Skipping, unable to determine old version
+[2024-05-03 17:32:07] INFO root fetch - main [MainThread]: End processing [itwinai] error
+[2024-05-03 17:32:07] INFO root fetch - processPackages [spotflow-device]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-03 17:32:07] INFO root fetch - processPackages [scalene]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-03 17:32:07] INFO root fetch - processPackages [phidata]: New version: [2.3.90] Old Version: [2.3.9]
+[2024-05-03 17:32:07] INFO root fetch - processPackages [cocorum]: Downloading https://files.pythonhosted.org/packages/2a/ac/b11e2504f88b684fa591fb5f48c6b8983721b3589d32e442f65163a38f2b/cocorum-0.4.0.tar.gz
+[2024-05-03 17:32:07] INFO root fetch - processPackages [All-in-one-chay]: Downloading https://files.pythonhosted.org/packages/f6/64/9f4149cb879b6e087b7c007722d9bc43bc07476e21c1087278f04273f59e/all_in_one_chay-2.4.9.tar.gz
+[2024-05-03 17:32:07] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/a3/c0/4051d04c954ff870cadde24dd366c452e6464a6f6729452b4e6931d4dab1/rutificador-0.1.6.tar.gz
+[2024-05-03 17:32:07] INFO root fetch - processPackages [spotflow-device]: Downloading https://files.pythonhosted.org/packages/1f/67/38819780b3166301f1fb0ca55cccb113c4c4bc811756a00257260cf3285f/spotflow_device-2.0.1-cp37-abi3-win_amd64.whl
+[2024-05-03 17:32:07] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/51/63/c5ed33bf592cd65cdcb90c64ded88ab6bc7786db2184c64f6484d61e92d0/phidata-2.3.9.tar.gz
+[2024-05-03 17:32:07] INFO root fetch - processPackages [scalene]: Downloading https://files.pythonhosted.org/packages/43/ab/45ca7943477f8627b0d15cea1f42afda402436027789df3a57c1015fc12f/scalene-1.5.8.tar.gz
+[2024-05-03 17:32:07] INFO root fetch - processPackages [helper-for-maxi]: Downloading https://files.pythonhosted.org/packages/93/53/396f0903622cdb6f29ecdd257e0c9b7e59ac3c55c27dbba99fb402cf8749/helper_for_maxi-1.1.6.tar.gz
+[2024-05-03 17:32:07] INFO root fetch - processPackages [cocorum]: executing diffoscope
+[2024-05-03 17:32:07] INFO root fetch - processPackages [cocorum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocorum-0.3.0.tar.gz tmp/cocorum-0.4.0.tar.gz --markdown 20240503/c/cocorum/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-03 17:32:08] INFO root fetch - processPackages [helper-for-maxi]: executing diffoscope
+[2024-05-03 17:32:08] INFO root fetch - processPackages [helper-for-maxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helper_for_maxi-1.1.5.tar.gz tmp/helper_for_maxi-1.1.6.tar.gz --markdown 20240503/h/helper-for-maxi/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-03 17:32:08] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/2f/5e/a43ff640a1a39a429beb74dcfdd9fd3ff555e83d2abcfb76c8bfb167592a/rutificador-0.2.0.tar.gz
+[2024-05-03 17:32:08] INFO root fetch - processPackages [All-in-one-chay]: Downloading https://files.pythonhosted.org/packages/e4/4a/c3fedae8372cc8454b4306fb6cc7515f79737b95f2d3c6c4fed9b47ba186/all_in_one_chay-3.0.0.tar.gz
+[2024-05-03 17:32:08] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-03 17:32:08] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.1.6.tar.gz tmp/rutificador-0.2.0.tar.gz --markdown 20240503/r/rutificador/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-05-03 17:32:08] INFO root fetch - processPackages [All-in-one-chay]: executing diffoscope
+[2024-05-03 17:32:08] INFO root fetch - processPackages [All-in-one-chay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/all_in_one_chay-2.4.9.tar.gz tmp/all_in_one_chay-3.0.0.tar.gz --markdown 20240503/A/All-in-one-chay/2.4.9-3.0.0/README.md --exclude *.pyd
+[2024-05-03 17:32:08] INFO root fetch - processPackages [spotflow-device]: Downloading https://files.pythonhosted.org/packages/e1/92/8864641db0266d3120d2e927da534a97591a33e353d7afaf2e8cfeedec00/spotflow_device-2.0.2-cp37-abi3-win_amd64.whl
+[2024-05-03 17:32:08] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/57/89/3585732b22edfa6b826c434bcead229aa83e70c91e0774498bf0bb128afd/phidata-2.3.90.tar.gz
+[2024-05-03 17:32:08] INFO root fetch - processPackages [cocorum]: Remove: archive file [/home/abi/fetcher/tmp/cocorum-0.3.0.tar.gz]
+[2024-05-03 17:32:08] INFO root fetch - processPackages [cocorum]: Remove: archive file [/home/abi/fetcher/tmp/cocorum-0.4.0.tar.gz]
+[2024-05-03 17:32:08] INFO root fetch - main [MainThread]: End processing [cocorum]: success
+[2024-05-03 17:32:08] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-03 17:32:08] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.9.tar.gz tmp/phidata-2.3.90.tar.gz --markdown 20240503/p/phidata/2.3.9-2.3.90/README.md --exclude *.pyd
+[2024-05-03 17:32:08] INFO root fetch - processPackages [helper-for-maxi]: Remove: archive file [/home/abi/fetcher/tmp/helper_for_maxi-1.1.5.tar.gz]
+[2024-05-03 17:32:08] INFO root fetch - processPackages [helper-for-maxi]: Remove: archive file [/home/abi/fetcher/tmp/helper_for_maxi-1.1.6.tar.gz]
+[2024-05-03 17:32:08] INFO root fetch - main [MainThread]: End processing [helper-for-maxi]: success
+[2024-05-03 17:32:08] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.1.6.tar.gz]
+[2024-05-03 17:32:08] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.2.0.tar.gz]
+[2024-05-03 17:32:08] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-03 17:32:08] INFO root fetch - processPackages [scalene]: Downloading https://files.pythonhosted.org/packages/f8/9b/a4972cc34e6598ce0b7f3c270fea0a0e7e79bf309825885d831897377729/scalene-1.5.9.tar.gz
+[2024-05-03 17:32:08] INFO root fetch - processPackages [All-in-one-chay]: Remove: archive file [/home/abi/fetcher/tmp/all_in_one_chay-2.4.9.tar.gz]
+[2024-05-03 17:32:08] INFO root fetch - processPackages [All-in-one-chay]: Remove: archive file [/home/abi/fetcher/tmp/all_in_one_chay-3.0.0.tar.gz]
+[2024-05-03 17:32:08] INFO root fetch - main [MainThread]: End processing [All-in-one-chay]: success
+[2024-05-03 17:32:08] INFO root fetch - processPackages [spotflow-device]: executing diffoscope
+[2024-05-03 17:32:08] INFO root fetch - processPackages [spotflow-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotflow_device-2.0.1-cp37-abi3-win_amd64.whl.zip tmp/spotflow_device-2.0.2-cp37-abi3-win_amd64.whl.zip --markdown 20240503/s/spotflow-device/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-03 17:32:09] INFO root fetch - processPackages [spotflow-device]: Remove: archive file [/home/abi/fetcher/tmp/spotflow_device-2.0.1-cp37-abi3-win_amd64.whl.zip]
+[2024-05-03 17:32:09] INFO root fetch - processPackages [spotflow-device]: Remove: archive file [/home/abi/fetcher/tmp/spotflow_device-2.0.2-cp37-abi3-win_amd64.whl.zip]
+[2024-05-03 17:32:09] INFO root fetch - main [MainThread]: End processing [spotflow-device]: success
+[2024-05-03 17:32:10] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
+[2024-05-03 17:32:10] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.90.tar.gz]
+[2024-05-03 17:32:10] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-03 17:32:11] INFO root fetch - processPackages [scalene]: executing diffoscope
+[2024-05-03 17:32:11] INFO root fetch - processPackages [scalene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalene-1.5.8.tar.gz tmp/scalene-1.5.9.tar.gz --markdown 20240503/s/scalene/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-03 17:32:13] INFO root fetch - processPackages [scalene]: Remove: archive file [/home/abi/fetcher/tmp/scalene-1.5.8.tar.gz]
+[2024-05-03 17:32:13] INFO root fetch - processPackages [scalene]: Remove: archive file [/home/abi/fetcher/tmp/scalene-1.5.9.tar.gz]
+[2024-05-03 17:32:13] INFO root fetch - main [MainThread]: End processing [scalene]: success
+[2024-05-03 17:32:13] INFO root fetch - main [MainThread]: Store serial: [23048010]
