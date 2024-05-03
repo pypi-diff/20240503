@@ -15622,3 +15622,42 @@
 [2024-05-03 12:00:39] INFO root fetch - processPackages [reait]: Remove: archive file [/home/abi/fetcher/tmp/reait-0.0.9.tar.gz]
 [2024-05-03 12:00:39] INFO root fetch - main [MainThread]: End processing [reait]: success
 [2024-05-03 12:00:39] INFO root fetch - main [MainThread]: Store serial: [23044173]
+[2024-05-03 12:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044173]
+[2024-05-03 12:03:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 12:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vital
+[2024-05-03 12:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-05-03 12:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codercore
+[2024-05-03 12:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-03 12:03:09] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev4] Old Version: [0.2.0.dev3]
+[2024-05-03 12:03:09] INFO root fetch - processPackages [vital]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-03 12:03:09] INFO root fetch - processPackages [codercore]: New version: [6.0.0] Old Version: [5.0.0]
+[2024-05-03 12:03:09] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-03 12:03:09] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/58/6d/038724b4c45b407ed3ff825131ec179fc6b24fbb814a4f61b1b1f9b89181/torch_model_manager-0.2.0.dev3.tar.gz
+[2024-05-03 12:03:09] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/a2/a4/832733cdc741b8a11cd41b361cb5c71fb5787735a4607e8924d660b98fd4/vital-2.1.3.tar.gz
+[2024-05-03 12:03:09] INFO root fetch - processPackages [codercore]: Downloading https://files.pythonhosted.org/packages/0d/be/0ddf95cb433988ec77e0227c40b13b3417657d57b09950eed5761bcce8c1/codercore-5.0.0.tar.gz
+[2024-05-03 12:03:09] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-03 12:03:09] INFO root fetch - processPackages [codercore]: Downloading https://files.pythonhosted.org/packages/4c/24/18172e562ebc7199c61dd8ce9baf5d5c92f28333a8ed9498a0e63f5d0274/codercore-6.0.0.tar.gz
+[2024-05-03 12:03:09] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/4d/71/6df83a13aca4c814f89698c7322cbffc4e6753fbe399b4c29b41d5384dee/vital-2.1.4.tar.gz
+[2024-05-03 12:03:10] INFO root fetch - processPackages [codercore]: executing diffoscope
+[2024-05-03 12:03:10] INFO root fetch - processPackages [codercore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codercore-5.0.0.tar.gz tmp/codercore-6.0.0.tar.gz --markdown 20240503/c/codercore/5.0.0-6.0.0/README.md --exclude *.pyd
+[2024-05-03 12:03:10] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/82/22/6a85294e4a28228f61fd4e4305ae14847311528bca0b4a9df434c2f8211a/torch_model_manager-0.2.0.dev4.tar.gz
+[2024-05-03 12:03:10] INFO root fetch - processPackages [vital]: executing diffoscope
+[2024-05-03 12:03:10] INFO root fetch - processPackages [vital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-2.1.3.tar.gz tmp/vital-2.1.4.tar.gz --markdown 20240503/v/vital/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-03 12:03:10] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-03 12:03:10] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-03 12:03:10] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.dev3.tar.gz tmp/torch_model_manager-0.2.0.dev4.tar.gz --markdown 20240503/t/torch-model-manager/0.2.0.dev3-0.2.0.dev4/README.md --exclude *.pyd
+[2024-05-03 12:03:10] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-03 12:03:10] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240503/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 12:03:10] INFO root fetch - processPackages [codercore]: Remove: archive file [/home/abi/fetcher/tmp/codercore-5.0.0.tar.gz]
+[2024-05-03 12:03:10] INFO root fetch - processPackages [codercore]: Remove: archive file [/home/abi/fetcher/tmp/codercore-6.0.0.tar.gz]
+[2024-05-03 12:03:10] INFO root fetch - main [MainThread]: End processing [codercore]: success
+[2024-05-03 12:03:10] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev3.tar.gz]
+[2024-05-03 12:03:10] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev4.tar.gz]
+[2024-05-03 12:03:10] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-03 12:03:11] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.3.tar.gz]
+[2024-05-03 12:03:11] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.4.tar.gz]
+[2024-05-03 12:03:11] INFO root fetch - main [MainThread]: End processing [vital]: success
+[2024-05-03 12:03:11] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-03 12:03:11] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-03 12:03:11] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-03 12:03:11] INFO root fetch - main [MainThread]: Store serial: [23044183]
