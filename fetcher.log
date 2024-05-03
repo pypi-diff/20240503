@@ -18948,3 +18948,128 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:37:43] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.9.tar.gz]
 [2024-05-03 14:37:43] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
 [2024-05-03 14:37:43] INFO root fetch - main [MainThread]: Store serial: [23045863]
+[2024-05-03 14:40:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045863]
+[2024-05-03 14:40:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forcys
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astroscrappy
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: praisonai-tools
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gravitino
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-testing-platform
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cwsgiutils
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yeref
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: my-data-quality-library
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-ssm-juggle
+[2024-05-03 14:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-shipment-advice
+[2024-05-03 14:40:13] INFO root fetch - processPackages [praisonai-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 14:40:13] WARNING root fetch - processPackages [my-data-quality-library]: Skipping, unable to determine old version
+[2024-05-03 14:40:13] INFO root fetch - processPackages [my-data-quality-library]: Start processing: tensorcircuit-nightly
+[2024-05-03 14:40:13] INFO root fetch - main [MainThread]: End processing [my-data-quality-library] error
+[2024-05-03 14:40:14] INFO root fetch - processPackages [forcys]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [astroscrappy]: New version: [1.2.0] Old Version: [1.1.dev228]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [aws-ssm-juggle]: New version: [24.5.2] Old Version: [24.5.1]
+[2024-05-03 14:40:14] WARNING root fetch - processPackages [gravitino]: Skipping, unable to determine old version
+[2024-05-03 14:40:14] INFO root fetch - processPackages [gravitino]: Start processing: sbcli-dev
+[2024-05-03 14:40:14] INFO root fetch - main [MainThread]: End processing [gravitino] error
+[2024-05-03 14:40:14] INFO root fetch - processPackages [odoo14-addon-shipment-advice]: New version: [14.0.2.3.0] Old Version: [14.0.2.2.0]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [sbcli-dev]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [forcys]: Downloading https://files.pythonhosted.org/packages/d9/53/c09228e74585d14c602d27a4e8ab1689766dc5e6fb510e713115bb6e508b/forcys-0.1.2.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [praisonai-tools]: Downloading https://files.pythonhosted.org/packages/33/9f/13eeff08842e85422b4645071d179f2ac9b83d2ac2e79b4a0d19c1738689/praisonai_tools-0.0.1.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-03 14:40:14] WARNING root fetch - processPackages [astroscrappy]: fallback to get urls: [1.1.dev228]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/9b/44/180b37317d0acf10437eb03da9504def4b2b810b21b20b308044104feca4/sbcli_dev-2.5.0.zip
+[2024-05-03 14:40:14] WARNING root fetch - processPackages [astroscrappy]: None
+[2024-05-03 14:40:14] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/13/c0/2c43229baf5c5d1024e8c2fc2eae4c001df0c1d55edf0f062e69cd614df7/aws_ssm_juggle-24.5.1.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [odoo14-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/f7/f0/520b0be49e6bbef899e9da4847126248ff1ed14a59dc419c44c330097d18/odoo14_addon_shipment_advice-14.0.2.2.0-py3-none-any.whl
+[2024-05-03 14:40:14] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/96/7d3df28f50cc4d409b3729c541cb56bfd959e667a76ebc41e27a2d33774e/raga-testing-platform-1.1.7.tar.gz
+[2024-05-03 14:40:14] WARNING root fetch - processPackages [astroscrappy]: None
+[2024-05-03 14:40:14] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-05-03 14:40:14] WARNING root fetch - processPackages [astroscrappy]: unable to get url for both version [1.1.dev228]
+[2024-05-03 14:40:14] WARNING root fetch - processPackages [astroscrappy]: None
+[2024-05-03 14:40:14] INFO root fetch - processPackages [astroscrappy]: Start processing: cdo-sdk-python
+[2024-05-03 14:40:14] INFO root fetch - main [MainThread]: End processing [astroscrappy] error
+[2024-05-03 14:40:14] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-03 14:40:14] INFO root fetch - processPackages [praisonai-tools]: Downloading https://files.pythonhosted.org/packages/d7/b4/874d038d2764cbe21f360132c791e45dc9cc6a8eebb2e216795954d940c8/praisonai_tools-0.0.2.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/1f/07/4517cda9c7f88e98a69a337f9bdb78564925c55b541ed15dbeab9774eba1/aws_ssm_juggle-24.5.2.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 14:40:14] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 14:40:14] INFO root fetch - processPackages [odoo14-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/fe/40/714630a71f6c61b918f2fe386cafbcae194f8115a4f8635e30a5b8ca8bd8/odoo14_addon_shipment_advice-14.0.2.3.0-py3-none-any.whl
+[2024-05-03 14:40:14] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/f3/0c/cf8081496c50df535dc7d62d57017bb420067952060b63e9833e6d7e35ae/raga-testing-platform-1.1.8.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [forcys]: Downloading https://files.pythonhosted.org/packages/d8/a5/54bf9b088feda7281f91b74bb0d986b6747c7c299f8e4bb3c38712064ef9/forcys-0.1.3.tar.gz
+[2024-05-03 14:40:14] INFO root fetch - processPackages [praisonai-tools]: executing diffoscope
+[2024-05-03 14:40:14] INFO root fetch - processPackages [praisonai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/praisonai_tools-0.0.1.tar.gz tmp/praisonai_tools-0.0.2.tar.gz --markdown 20240503/p/praisonai-tools/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 14:40:14] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-03 14:40:14] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240503/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-03 14:40:14] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/f3/e4/e7787bb2e4d5f1cb11dcf8c366693d15e5cec6302142c98987a4b524e5af/sbcli_dev-2.5.1.zip
+[2024-05-03 14:40:14] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-05-03 14:40:15] INFO root fetch - processPackages [forcys]: executing diffoscope
+[2024-05-03 14:40:15] INFO root fetch - processPackages [forcys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forcys-0.1.2.tar.gz tmp/forcys-0.1.3.tar.gz --markdown 20240503/f/forcys/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-03 14:40:15] INFO root fetch - processPackages [aws-ssm-juggle]: executing diffoscope
+[2024-05-03 14:40:15] INFO root fetch - processPackages [aws-ssm-juggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ssm_juggle-24.5.1.tar.gz tmp/aws_ssm_juggle-24.5.2.tar.gz --markdown 20240503/a/aws-ssm-juggle/24.5.1-24.5.2/README.md --exclude *.pyd
+[2024-05-03 14:40:15] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2024-05-03 14:40:15] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.1.7.tar.gz tmp/raga-testing-platform-1.1.8.tar.gz --markdown 20240503/r/raga-testing-platform/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-03 14:40:15] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-03 14:40:15] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.5.0.zip tmp/sbcli_dev-2.5.1.zip --markdown 20240503/s/sbcli-dev/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-03 14:40:15] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-03 14:40:15] INFO root fetch - processPackages [odoo14-addon-shipment-advice]: executing diffoscope
+[2024-05-03 14:40:15] INFO root fetch - processPackages [odoo14-addon-shipment-advice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shipment_advice-14.0.2.2.0-py3-none-any.whl.zip tmp/odoo14_addon_shipment_advice-14.0.2.3.0-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-shipment-advice/14.0.2.2.0-14.0.2.3.0/README.md --exclude *.pyd
+[2024-05-03 14:40:15] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-05-03 14:40:15] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240503/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-05-03 14:40:15] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-03 14:40:15] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240503/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-03 14:40:15] INFO root fetch - processPackages [praisonai-tools]: Remove: archive file [/home/abi/fetcher/tmp/praisonai_tools-0.0.1.tar.gz]
+[2024-05-03 14:40:15] INFO root fetch - processPackages [praisonai-tools]: Remove: archive file [/home/abi/fetcher/tmp/praisonai_tools-0.0.2.tar.gz]
+[2024-05-03 14:40:15] INFO root fetch - processPackages [praisonai-tools]: Start processing: pyedb
+[2024-05-03 14:40:15] INFO root fetch - main [MainThread]: End processing [praisonai-tools]: success
+[2024-05-03 14:40:15] INFO root fetch - processPackages [pyedb]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-03 14:40:15] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.5.1.tar.gz]
+[2024-05-03 14:40:15] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.5.2.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [aws-ssm-juggle]: Start processing: metatensor-torch
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle]: success
+[2024-05-03 14:40:16] INFO root fetch - processPackages [forcys]: Remove: archive file [/home/abi/fetcher/tmp/forcys-0.1.2.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [forcys]: Remove: archive file [/home/abi/fetcher/tmp/forcys-0.1.3.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [forcys]: success
+[2024-05-03 14:40:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 14:40:16] INFO root fetch - processPackages [metatensor-torch]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [pyedb]: Downloading https://files.pythonhosted.org/packages/1d/a0/1ca6725ca5f90ba5dfa9bc42e4933336e9d92ff7a8a994a774ac663a5a4b/pyedb-0.8.1.tar.gz
+[2024-05-03 14:40:16] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.7.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2024-05-03 14:40:16] INFO root fetch - processPackages [odoo14-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shipment_advice-14.0.2.2.0-py3-none-any.whl.zip]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [odoo14-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shipment_advice-14.0.2.3.0-py3-none-any.whl.zip]
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shipment-advice]: success
+[2024-05-03 14:40:16] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [metatensor-torch]: Downloading https://files.pythonhosted.org/packages/27/60/b39447a0a8d1e5a35911ee26f89fbdf0451cd4672aa7918aefbc96c56189/metatensor-torch-0.4.0.tar.gz
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-03 14:40:16] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-05-03 14:40:16] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.5.0.zip]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.5.1.zip]
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-03 14:40:16] INFO root fetch - processPackages [pyedb]: Downloading https://files.pythonhosted.org/packages/94/3b/ad9e0a3052ec38d580c535c66662dd560e159c05d8418fc62c51a04ddc6f/pyedb-0.9.0.tar.gz
+[2024-05-03 14:40:16] INFO root fetch - processPackages [metatensor-torch]: Downloading https://files.pythonhosted.org/packages/d0/da/a14eaa1f2ab85cc129a78eb052a07cb64d9932cdd22d60e1f0d55a6b5195/metatensor_torch-0.5.0.tar.gz
+[2024-05-03 14:40:16] INFO root fetch - processPackages [pyedb]: executing diffoscope
+[2024-05-03 14:40:16] INFO root fetch - processPackages [pyedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedb-0.8.1.tar.gz tmp/pyedb-0.9.0.tar.gz --markdown 20240503/p/pyedb/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-03 14:40:16] INFO root fetch - processPackages [metatensor-torch]: executing diffoscope
+[2024-05-03 14:40:16] INFO root fetch - processPackages [metatensor-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metatensor-torch-0.4.0.tar.gz tmp/metatensor_torch-0.5.0.tar.gz --markdown 20240503/m/metatensor-torch/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-03 14:40:16] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-03 14:40:16] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-03 14:40:17] INFO root fetch - processPackages [metatensor-torch]: Remove: archive file [/home/abi/fetcher/tmp/metatensor-torch-0.4.0.tar.gz]
+[2024-05-03 14:40:17] INFO root fetch - processPackages [metatensor-torch]: Remove: archive file [/home/abi/fetcher/tmp/metatensor_torch-0.5.0.tar.gz]
+[2024-05-03 14:40:17] INFO root fetch - main [MainThread]: End processing [metatensor-torch]: success
+[2024-05-03 14:40:17] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.8.1.tar.gz]
+[2024-05-03 14:40:17] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.9.0.tar.gz]
+[2024-05-03 14:40:17] INFO root fetch - main [MainThread]: End processing [pyedb]: success
+[2024-05-03 14:40:17] INFO root fetch - main [MainThread]: Store serial: [23045952]
