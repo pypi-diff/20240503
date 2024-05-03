@@ -7661,3 +7661,17 @@
 [2024-05-03 04:36:50] INFO root fetch - processPackages [pypcode]: Remove: archive file [/home/abi/fetcher/tmp/pypcode-2.1.0.tar.gz]
 [2024-05-03 04:36:50] INFO root fetch - main [MainThread]: End processing [pypcode]: success
 [2024-05-03 04:36:50] INFO root fetch - main [MainThread]: Store serial: [23040971]
+[2024-05-03 04:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040971]
+[2024-05-03 04:39:01] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-03 04:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040971]
+[2024-05-03 04:41:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 04:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-account-financial-tools
+[2024-05-03 04:41:07] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: New version: [14.0.20240502.0] Old Version: [14.0.20240216.0]
+[2024-05-03 04:41:08] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/04/93/3f2e156b21cb59748f7452a84d084a9e225c8a3901b8e931a358ef897ad2/odoo14_addons_oca_account_financial_tools-14.0.20240216.0-py3-none-any.whl
+[2024-05-03 04:41:08] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/0d/d4/c89b9911853a85a4e09e8e9278276bb6bedc25131f6e2df7b1c475889a05/odoo14_addons_oca_account_financial_tools-14.0.20240502.0-py3-none-any.whl
+[2024-05-03 04:41:08] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: executing diffoscope
+[2024-05-03 04:41:08] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_account_financial_tools-14.0.20240216.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_account_financial_tools-14.0.20240502.0-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addons-oca-account-financial-tools/14.0.20240216.0-14.0.20240502.0/README.md --exclude *.pyd
+[2024-05-03 04:41:09] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_financial_tools-14.0.20240216.0-py3-none-any.whl.zip]
+[2024-05-03 04:41:09] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_financial_tools-14.0.20240502.0-py3-none-any.whl.zip]
+[2024-05-03 04:41:09] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-account-financial-tools]: success
+[2024-05-03 04:41:09] INFO root fetch - main [MainThread]: Store serial: [23040973]
