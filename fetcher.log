@@ -17832,3 +17832,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:38:44] INFO root fetch - processPackages [tad-mctc]: Remove: archive file [/home/abi/fetcher/tmp/tad_mctc-0.1.5.tar.gz]
 [2024-05-03 13:38:44] INFO root fetch - main [MainThread]: End processing [tad-mctc]: success
 [2024-05-03 13:38:44] INFO root fetch - main [MainThread]: Store serial: [23045331]
+[2024-05-03 13:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045331]
+[2024-05-03 13:41:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 13:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-yeedu-operator
+[2024-05-03 13:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xbooster
+[2024-05-03 13:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-21
+[2024-05-03 13:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petrovisor
+[2024-05-03 13:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glue-utils
+[2024-05-03 13:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xenon-fuse
+[2024-05-03 13:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ara-tools
+[2024-05-03 13:41:14] INFO root fetch - processPackages [xenon-fuse]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-03 13:41:14] INFO root fetch - processPackages [xbooster]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 13:41:14] INFO root fetch - processPackages [glue-utils]: New version: [0.2.1rc4] Old Version: [0.2.1rc3]
+[2024-05-03 13:41:14] INFO root fetch - processPackages [ara-tools]: New version: [0.1.4.9] Old Version: [0.1.4.7]
+[2024-05-03 13:41:14] INFO root fetch - processPackages [airflow-yeedu-operator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 13:41:14] INFO root fetch - processPackages [petrovisor]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-03 13:41:14] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240503] Old Version: [2.5.0b20240502]
+[2024-05-03 13:41:15] INFO root fetch - processPackages [xenon-fuse]: Downloading https://files.pythonhosted.org/packages/a5/4b/21e1b33f0e0e8a8325e2234a4033d9f085276068d0dabf599049233201c4/xenon_fuse-1.2.1.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [petrovisor]: Downloading https://files.pythonhosted.org/packages/f4/b7/09193434d6df6b9ee51127035fcf15bb9f34c6c1eb469861a9c6b9f52f52/petrovisor-0.1.5.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [xbooster]: Downloading https://files.pythonhosted.org/packages/c6/25/7860c05f568e1d8a08f0d61be6a93538b9110253afa5ebeda97c82e0487e/xbooster-0.1.0.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/01/8c/bba31656ac164b2b8b1f2c405ce7d1160382e88e4f7d8034ab58cd870669/glue_utils-0.2.1rc3.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/80/8f/9968afb5472a320998dee622c502cf62ed86f5f9d125ce7f137fee8e177f/airflow-yeedu-operator-1.0.8.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [ara-tools]: Downloading https://files.pythonhosted.org/packages/61/c2/1f3d69fc991264dd1e6328b3883195ba6fa6d5e6dfe12f30bfb63b1a821a/ara-tools-0.1.4.7.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/28/72/5dd693ddaffdffc143f115b527f750e648297325b82a5a56ccad1af5926f/bigdl_core_xe_21-2.5.0b20240502-cp39-cp39-win_amd64.whl
+[2024-05-03 13:41:15] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28998870>=10485760
+[2024-05-03 13:41:15] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-03 13:41:15] INFO root fetch - processPackages [xenon-fuse]: Downloading https://files.pythonhosted.org/packages/b8/aa/d9bf900bdadca43664701fbfbe0663f9fcaaba2593f6d0409693d44be171/xenon_fuse-1.2.2.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [xbooster]: Downloading https://files.pythonhosted.org/packages/d6/a4/233a207a696c2286189fb9e81ea931a1fd09d7ec29488e06fa1a9cfb543a/xbooster-0.2.0.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/c4/c4/68d34ec0cd56a90294897fb3d8b06516d04450bfdd4e4840fe2a38dffdac/glue_utils-0.2.1rc4.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [petrovisor]: Downloading https://files.pythonhosted.org/packages/1f/81/cb8f9c98c7771fd1d6c1bff7e2f78bdaaf3678c799959ec43f6a1c329188/petrovisor-0.1.6.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/14/2e/01a5f1457c6bc383beb14de928fc4afc1863a7cb7c239645729c6ecc71e1/airflow_yeedu_operator-1.0.9-py3-none-any.whl
+[2024-05-03 13:41:15] INFO root fetch - processPackages [xenon-fuse]: executing diffoscope
+[2024-05-03 13:41:15] INFO root fetch - processPackages [xenon-fuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenon_fuse-1.2.1.tar.gz tmp/xenon_fuse-1.2.2.tar.gz --markdown 20240503/x/xenon-fuse/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-03 13:41:15] INFO root fetch - processPackages [ara-tools]: Downloading https://files.pythonhosted.org/packages/7c/e1/03c26e41f4232ed77de9425e2c3c556446e754b88575d02b10b992988c26/ara-tools-0.1.4.9.tar.gz
+[2024-05-03 13:41:15] INFO root fetch - processPackages [xbooster]: executing diffoscope
+[2024-05-03 13:41:15] INFO root fetch - processPackages [xbooster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbooster-0.1.0.tar.gz tmp/xbooster-0.2.0.tar.gz --markdown 20240503/x/xbooster/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 13:41:15] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-03 13:41:15] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.2.1rc3.tar.gz tmp/glue_utils-0.2.1rc4.tar.gz --markdown 20240503/g/glue-utils/0.2.1rc3-0.2.1rc4/README.md --exclude *.pyd
+[2024-05-03 13:41:15] INFO root fetch - processPackages [petrovisor]: executing diffoscope
+[2024-05-03 13:41:15] INFO root fetch - processPackages [petrovisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrovisor-0.1.5.tar.gz tmp/petrovisor-0.1.6.tar.gz --markdown 20240503/p/petrovisor/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-03 13:41:15] INFO root fetch - processPackages [airflow-yeedu-operator]: executing diffoscope
+[2024-05-03 13:41:15] INFO root fetch - processPackages [airflow-yeedu-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-yeedu-operator-1.0.8.tar.gz tmp/airflow_yeedu_operator-1.0.9-py3-none-any.whl.zip --markdown 20240503/a/airflow-yeedu-operator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 13:41:15] INFO root fetch - processPackages [ara-tools]: executing diffoscope
+[2024-05-03 13:41:15] INFO root fetch - processPackages [ara-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara-tools-0.1.4.7.tar.gz tmp/ara-tools-0.1.4.9.tar.gz --markdown 20240503/a/ara-tools/0.1.4.7-0.1.4.9/README.md --exclude *.pyd
+[2024-05-03 13:41:16] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.1rc3.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.1rc4.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-03 13:41:16] INFO root fetch - processPackages [xbooster]: Remove: archive file [/home/abi/fetcher/tmp/xbooster-0.1.0.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - processPackages [xbooster]: Remove: archive file [/home/abi/fetcher/tmp/xbooster-0.2.0.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - main [MainThread]: End processing [xbooster]: success
+[2024-05-03 13:41:16] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow-yeedu-operator-1.0.8.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow_yeedu_operator-1.0.9-py3-none-any.whl.zip]
+[2024-05-03 13:41:16] INFO root fetch - main [MainThread]: End processing [airflow-yeedu-operator]: success
+[2024-05-03 13:41:16] INFO root fetch - processPackages [ara-tools]: Remove: archive file [/home/abi/fetcher/tmp/ara-tools-0.1.4.7.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - processPackages [ara-tools]: Remove: archive file [/home/abi/fetcher/tmp/ara-tools-0.1.4.9.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - main [MainThread]: End processing [ara-tools]: success
+[2024-05-03 13:41:16] INFO root fetch - processPackages [xenon-fuse]: Remove: archive file [/home/abi/fetcher/tmp/xenon_fuse-1.2.1.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - processPackages [xenon-fuse]: Remove: archive file [/home/abi/fetcher/tmp/xenon_fuse-1.2.2.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - main [MainThread]: End processing [xenon-fuse]: success
+[2024-05-03 13:41:16] INFO root fetch - processPackages [petrovisor]: Remove: archive file [/home/abi/fetcher/tmp/petrovisor-0.1.5.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - processPackages [petrovisor]: Remove: archive file [/home/abi/fetcher/tmp/petrovisor-0.1.6.tar.gz]
+[2024-05-03 13:41:16] INFO root fetch - main [MainThread]: End processing [petrovisor]: success
+[2024-05-03 13:41:16] INFO root fetch - main [MainThread]: Store serial: [23045352]
