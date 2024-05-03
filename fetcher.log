@@ -13067,3 +13067,37 @@
 [2024-05-03 10:12:14] INFO root fetch - processPackages [flexmin]: Remove: archive file [/home/abi/fetcher/tmp/flexmin-0.3.9.tar.gz]
 [2024-05-03 10:12:14] INFO root fetch - main [MainThread]: End processing [flexmin]: success
 [2024-05-03 10:12:14] INFO root fetch - main [MainThread]: Store serial: [23043097]
+[2024-05-03 10:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043097]
+[2024-05-03 10:14:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metas-unclib
+[2024-05-03 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edulib-core
+[2024-05-03 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linktest
+[2024-05-03 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skt
+[2024-05-03 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: subscript
+[2024-05-03 10:14:25] INFO root fetch - processPackages [linktest]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-03 10:14:25] WARNING root fetch - processPackages [edulib-core]: Skipping, unable to determine old version
+[2024-05-03 10:14:25] INFO root fetch - main [MainThread]: End processing [edulib-core] error
+[2024-05-03 10:14:25] INFO root fetch - processPackages [metas-unclib]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-05-03 10:14:25] INFO root fetch - processPackages [subscript]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-03 10:14:25] INFO root fetch - processPackages [skt]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-03 10:14:25] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/b7/81/a9dcb0186f1926694ec74c3da25871873967315749ae2a42662528c2cdc3/linktest-2.6.8.tar.gz
+[2024-05-03 10:14:25] INFO root fetch - processPackages [metas-unclib]: Downloading https://files.pythonhosted.org/packages/45/3e/52187c6fb99519afe16c6630aee27d1868d21f940054bedea79f3893ad43/metas_unclib-2.8.1-py2.py3-none-win_amd64.whl
+[2024-05-03 10:14:25] INFO root fetch - processPackages [skt]: Downloading https://files.pythonhosted.org/packages/74/43/9052fe4355c02780ac918f4c26799cc9336b604319781b34f3e873ad96a6/skt-0.2.98.tar.gz
+[2024-05-03 10:14:25] INFO root fetch - processPackages [subscript]: Downloading https://files.pythonhosted.org/packages/93/a0/e9b91f05a001260b8a50be45661b978ddd1846dde6fcf6c90cf73824d760/subscript-1.4.0.tar.gz
+[2024-05-03 10:14:25] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/27/a8/2c35f89487f5a414d0387a0912157da6451fc7d805f4eb4bdb7f2d6b006a/linktest-2.6.9.tar.gz
+[2024-05-03 10:14:25] WARNING root fetch - processPackages [metas-unclib]: Skipping package: exceeds size limit 28758015>=10485760
+[2024-05-03 10:14:25] INFO root fetch - main [MainThread]: End processing [metas-unclib] error
+[2024-05-03 10:14:25] WARNING root fetch - processPackages [subscript]: Skipping package: exceeds size limit 21677070>=10485760
+[2024-05-03 10:14:25] INFO root fetch - main [MainThread]: End processing [subscript] error
+[2024-05-03 10:14:25] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-03 10:14:25] INFO root fetch - processPackages [skt]: Downloading https://files.pythonhosted.org/packages/89/b9/757a1029d29d52164ac68aecb63a09cdf4aaad49a232d54a931e9816ee05/skt-0.2.99.tar.gz
+[2024-05-03 10:14:25] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.6.8.tar.gz tmp/linktest-2.6.9.tar.gz --markdown 20240503/l/linktest/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-03 10:14:26] INFO root fetch - processPackages [skt]: executing diffoscope
+[2024-05-03 10:14:26] INFO root fetch - processPackages [skt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skt-0.2.98.tar.gz tmp/skt-0.2.99.tar.gz --markdown 20240503/s/skt/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-03 10:14:26] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.8.tar.gz]
+[2024-05-03 10:14:26] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.9.tar.gz]
+[2024-05-03 10:14:26] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-03 10:14:26] INFO root fetch - processPackages [skt]: Remove: archive file [/home/abi/fetcher/tmp/skt-0.2.98.tar.gz]
+[2024-05-03 10:14:26] INFO root fetch - processPackages [skt]: Remove: archive file [/home/abi/fetcher/tmp/skt-0.2.99.tar.gz]
+[2024-05-03 10:14:26] INFO root fetch - main [MainThread]: End processing [skt]: success
+[2024-05-03 10:14:26] INFO root fetch - main [MainThread]: Store serial: [23043117]
