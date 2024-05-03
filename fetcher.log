@@ -22936,3 +22936,108 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 
 [2024-05-03 17:08:17] INFO root fetch - main [MainThread]: End processing [robotframework-testnotify] error
 [2024-05-03 17:08:17] INFO root fetch - main [MainThread]: Store serial: [23047658]
+[2024-05-03 17:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047658]
+[2024-05-03 17:10:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-testnotify
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipex-llm
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krypt
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypanasonic
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchaug
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-Core
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AudioAugmentor
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: homematicip
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovs
+[2024-05-03 17:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nmk-python
+[2024-05-03 17:10:27] INFO root fetch - processPackages [robotframework-testnotify]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [pypanasonic]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240502] Old Version: [2.1.0b20240501]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [nmk-python]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [AudioAugmentor]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [robotframework-testnotify]: Downloading https://files.pythonhosted.org/packages/01/24/6dd7c5abd2ab8e9dd836cd77ae904471cdbb04a3fe3e6ae67790348b9ebd/robotframework_testnotify-1.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [torchaug]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-03 17:10:28] WARNING root fetch - processPackages [krypt]: Skipping, unable to determine old version
+[2024-05-03 17:10:28] INFO root fetch - processPackages [krypt]: Start processing: taskara
+[2024-05-03 17:10:28] INFO root fetch - main [MainThread]: End processing [krypt] error
+[2024-05-03 17:10:28] INFO root fetch - processPackages [pypanasonic]: Downloading https://files.pythonhosted.org/packages/06/96/52296b46d880a792ab1320c7ead60b05186bbe69aa1995e66c76e98e48b5/pypanasonic-0.0.5.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/80/63/415e9e173a154f47f8802569bac3e75f172c0abda7f63524ed6345e17f28/ipex_llm-2.1.0b20240501-py3-none-win_amd64.whl
+[2024-05-03 17:10:28] INFO root fetch - processPackages [ovs]: New version: [3.1.2] Old Version: [3.0.6]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [OpenFisca-Core]: New version: [9.1.0] Old Version: [9.0.2]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [AudioAugmentor]: Downloading https://files.pythonhosted.org/packages/41/2c/fdc3bb01adb794a208744747d63ef647c074a44ee675591f01b495dd2071/AudioAugmentor-0.0.5.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [homematicip]: New version: [1.1.0.post1.dev15] Old Version: [1.1.0]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [nmk-python]: Downloading https://files.pythonhosted.org/packages/4e/b8/91f94205d50ffe0c567c24e3d02e5e9f6a7b61dd55ed04ee08e19005f296/nmk-python-0.8.3.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 17:10:28] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [torchaug]: Downloading https://files.pythonhosted.org/packages/59/f3/a950cae6384e38bbcc52ee52b4ba2b33be33ae62240770df0f3ed9e15950/torchaug-0.4.2.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [ovs]: Downloading https://files.pythonhosted.org/packages/cb/6c/f3286af80bd6a667fd144e41cce845f6f8f901ea814f299e1afcc8f62e92/ovs-3.0.6.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [robotframework-testnotify]: Downloading https://files.pythonhosted.org/packages/42/56/2863057f8b7289564a494f46bd46320fe7686bfcada7e887280a6dad2727/robotframework-testnotify-1.1.0.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [pypanasonic]: Downloading https://files.pythonhosted.org/packages/71/94/4f481dad087b599e1068a1b9d487ec1005b97027d318e51d53e21eae9c1f/pypanasonic-0.0.6.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [OpenFisca-Core]: Downloading https://files.pythonhosted.org/packages/e6/0b/a63085e3a4ecf0c1e5bd24630551ce0e0843787457ffac478fa371957b59/OpenFisca_Core-9.0.2-py2-none-any.whl
+[2024-05-03 17:10:28] INFO root fetch - processPackages [nmk-python]: Downloading https://files.pythonhosted.org/packages/7a/a7/f5811827f140eb7104bccd57d1e9378ce3e9e7bb3fd3e1f4ff4bcbdfbfed/nmk-python-0.9.0.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/3f/9d/31ea0d2574184bc10d0f1b207c108267b35bb5fe08d61b5e2683ecce437d/homematicip-1.1.0.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [AudioAugmentor]: Downloading https://files.pythonhosted.org/packages/9a/f0/03a3f0043b6575fd2dee035571c0a8246b01892632ac507790f06e6943ea/audioaugmentor-0.0.6.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [pypanasonic]: executing diffoscope
+[2024-05-03 17:10:28] INFO root fetch - processPackages [pypanasonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypanasonic-0.0.5.tar.gz tmp/pypanasonic-0.0.6.tar.gz --markdown 20240503/p/pypanasonic/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 17:10:28] INFO root fetch - processPackages [robotframework-testnotify]: executing diffoscope
+[2024-05-03 17:10:28] INFO root fetch - processPackages [robotframework-testnotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_testnotify-1.tar.gz tmp/robotframework-testnotify-1.1.0.tar.gz --markdown 20240503/r/robotframework-testnotify/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-03 17:10:28] INFO root fetch - processPackages [nmk-python]: executing diffoscope
+[2024-05-03 17:10:28] INFO root fetch - processPackages [nmk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmk-python-0.8.3.tar.gz tmp/nmk-python-0.9.0.tar.gz --markdown 20240503/n/nmk-python/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-03 17:10:28] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [AudioAugmentor]: executing diffoscope
+[2024-05-03 17:10:28] INFO root fetch - processPackages [AudioAugmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AudioAugmentor-0.0.5.tar.gz tmp/audioaugmentor-0.0.6.tar.gz --markdown 20240503/A/AudioAugmentor/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 17:10:28] INFO root fetch - processPackages [ovs]: Downloading https://files.pythonhosted.org/packages/52/a2/3a8e6c21e926560599018a4a3d721f17bf4c01705a9d75365952098ce3f6/ovs-3.1.2.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [torchaug]: Downloading https://files.pythonhosted.org/packages/37/47/e77664ecfa7d912a4306367391a3c4aee1cfda10f27c2e08e0da0ffbfe76/torchaug-0.5.0.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-03 17:10:28] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240503/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 17:10:28] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/74/4d/c2c36b6867e9ff19b5d477480a90cf416e3bae15d5f1cdde6b18e2aaa340/ipex_llm-2.1.0b20240502-py3-none-win_amd64.whl
+[2024-05-03 17:10:28] INFO root fetch - processPackages [ovs]: executing diffoscope
+[2024-05-03 17:10:28] INFO root fetch - processPackages [ovs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovs-3.0.6.tar.gz tmp/ovs-3.1.2.tar.gz --markdown 20240503/o/ovs/3.0.6-3.1.2/README.md --exclude *.pyd
+[2024-05-03 17:10:28] INFO root fetch - processPackages [OpenFisca-Core]: Downloading https://files.pythonhosted.org/packages/9a/1e/ea587e6227625ec43769d66eba77da071548d6687b8309ab71a77e62974a/OpenFisca_Core-9.1.0-py2-none-any.whl
+[2024-05-03 17:10:28] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/3b/98/a898c48db332190fb36701b2139b85d5c2df448169e124d85cbd64f28e6a/homematicip-1.1.0.post1.dev15.tar.gz
+[2024-05-03 17:10:28] INFO root fetch - processPackages [torchaug]: executing diffoscope
+[2024-05-03 17:10:28] INFO root fetch - processPackages [torchaug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchaug-0.4.2.tar.gz tmp/torchaug-0.5.0.tar.gz --markdown 20240503/t/torchaug/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-03 17:10:29] INFO root fetch - processPackages [homematicip]: executing diffoscope
+[2024-05-03 17:10:29] INFO root fetch - processPackages [OpenFisca-Core]: executing diffoscope
+[2024-05-03 17:10:29] INFO root fetch - processPackages [homematicip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homematicip-1.1.0.tar.gz tmp/homematicip-1.1.0.post1.dev15.tar.gz --markdown 20240503/h/homematicip/1.1.0-1.1.0.post1.dev15/README.md --exclude *.pyd
+[2024-05-03 17:10:29] INFO root fetch - processPackages [OpenFisca-Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_Core-9.0.2-py2-none-any.whl.zip tmp/OpenFisca_Core-9.1.0-py2-none-any.whl.zip --markdown 20240503/O/OpenFisca-Core/9.0.2-9.1.0/README.md --exclude *.pyd
+[2024-05-03 17:10:29] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-03 17:10:29] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240501-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240502-py3-none-win_amd64.whl.zip --markdown 20240503/i/ipex-llm/2.1.0b20240501-2.1.0b20240502/README.md --exclude *.pyd
+[2024-05-03 17:10:29] INFO root fetch - processPackages [robotframework-testnotify]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_testnotify-1.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - processPackages [robotframework-testnotify]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-testnotify-1.1.0.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - processPackages [robotframework-testnotify]: Start processing: OpenGeodeWeb-Viewer
+[2024-05-03 17:10:29] INFO root fetch - main [MainThread]: End processing [robotframework-testnotify]: success
+[2024-05-03 17:10:29] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: New version: [0.1.2rc1] Old Version: [0.1.1rc2]
+[2024-05-03 17:10:29] INFO root fetch - processPackages [nmk-python]: Remove: archive file [/home/abi/fetcher/tmp/nmk-python-0.8.3.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - processPackages [nmk-python]: Remove: archive file [/home/abi/fetcher/tmp/nmk-python-0.9.0.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - main [MainThread]: End processing [nmk-python]: success
+[2024-05-03 17:10:29] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: Downloading https://files.pythonhosted.org/packages/5a/c4/1987926bc7f6c9adebbf25406631c5674b0c90035c214ab2a24b79571c07/OpenGeodeWeb-Viewer-0.1.1rc2.tar.gz
+[2024-05-03 17:10:29] INFO root fetch - processPackages [pypanasonic]: Remove: archive file [/home/abi/fetcher/tmp/pypanasonic-0.0.5.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - processPackages [pypanasonic]: Remove: archive file [/home/abi/fetcher/tmp/pypanasonic-0.0.6.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - main [MainThread]: End processing [pypanasonic]: success
+[2024-05-03 17:10:29] INFO root fetch - processPackages [AudioAugmentor]: Remove: archive file [/home/abi/fetcher/tmp/AudioAugmentor-0.0.5.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - processPackages [AudioAugmentor]: Remove: archive file [/home/abi/fetcher/tmp/audioaugmentor-0.0.6.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - main [MainThread]: End processing [AudioAugmentor]: success
+[2024-05-03 17:10:29] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-05-03 17:10:29] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-03 17:10:29] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: Downloading https://files.pythonhosted.org/packages/31/c5/5f0006fdac88077c0e406782f824676230e99675c0b1bc615366462ec9e7/opengeodeweb_viewer-0.1.2rc1.tar.gz
+[2024-05-03 17:10:29] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: executing diffoscope
+[2024-05-03 17:10:29] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeodeWeb-Viewer-0.1.1rc2.tar.gz tmp/opengeodeweb_viewer-0.1.2rc1.tar.gz --markdown 20240503/O/OpenGeodeWeb-Viewer/0.1.1rc2-0.1.2rc1/README.md --exclude *.pyd
+[2024-05-03 17:10:30] INFO root fetch - processPackages [ovs]: Remove: archive file [/home/abi/fetcher/tmp/ovs-3.0.6.tar.gz]
+[2024-05-03 17:10:30] INFO root fetch - processPackages [ovs]: Remove: archive file [/home/abi/fetcher/tmp/ovs-3.1.2.tar.gz]
+[2024-05-03 17:10:30] INFO root fetch - main [MainThread]: End processing [ovs]: success
+[2024-05-03 17:10:30] INFO root fetch - processPackages [torchaug]: Remove: archive file [/home/abi/fetcher/tmp/torchaug-0.4.2.tar.gz]
+[2024-05-03 17:10:30] INFO root fetch - processPackages [torchaug]: Remove: archive file [/home/abi/fetcher/tmp/torchaug-0.5.0.tar.gz]
+[2024-05-03 17:10:30] INFO root fetch - main [MainThread]: End processing [torchaug]: success
+[2024-05-03 17:10:30] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.0.tar.gz]
+[2024-05-03 17:10:30] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.0.post1.dev15.tar.gz]
+[2024-05-03 17:10:30] INFO root fetch - main [MainThread]: End processing [homematicip]: success
+[2024-05-03 17:10:30] INFO root fetch - processPackages [OpenFisca-Core]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_Core-9.0.2-py2-none-any.whl.zip]
+[2024-05-03 17:10:30] INFO root fetch - processPackages [OpenFisca-Core]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_Core-9.1.0-py2-none-any.whl.zip]
+[2024-05-03 17:10:30] INFO root fetch - main [MainThread]: End processing [OpenFisca-Core]: success
+[2024-05-03 17:10:30] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Viewer-0.1.1rc2.tar.gz]
+[2024-05-03 17:10:30] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_viewer-0.1.2rc1.tar.gz]
+[2024-05-03 17:10:30] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Viewer]: success
+[2024-05-03 17:10:57] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240501-py3-none-win_amd64.whl.zip]
+[2024-05-03 17:10:57] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240502-py3-none-win_amd64.whl.zip]
+[2024-05-03 17:10:57] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-03 17:10:57] INFO root fetch - main [MainThread]: Store serial: [23047728]
