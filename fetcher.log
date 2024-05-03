@@ -23261,3 +23261,94 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 [2024-05-03 17:18:55] INFO root fetch - processPackages [evidently]: Remove: archive file [/home/abi/fetcher/tmp/evidently-0.4.9.tar.gz]
 [2024-05-03 17:18:55] INFO root fetch - main [MainThread]: End processing [evidently]: success
 [2024-05-03 17:18:55] INFO root fetch - main [MainThread]: Store serial: [23047814]
+[2024-05-03 17:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047814]
+[2024-05-03 17:21:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c4m-pdk-ihpsg13g2
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: julearn
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slipcover
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-repair
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nmk-github
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nextline-alert
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: julearn
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-place
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mq4hemc
+[2024-05-03 17:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: helper-for-maxi
+[2024-05-03 17:21:07] INFO root fetch - processPackages [julearn]: New version: [0.3.2.dev78] Old Version: [0.3.2.dev61]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [data-place]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [mq4hemc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [helper-for-maxi]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [nmk-github]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [julearn]: New version: [0.3.2.dev78] Old Version: [0.3.2.dev61]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: New version: [0.0.2.post1] Old Version: [0.0.2]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/36/4e/313a55fa41df618a529f93ffa58aacafc72efcf3e937a8a442dd7815de3f/julearn-0.3.2.dev61.tar.gz
+[2024-05-03 17:21:07] INFO root fetch - processPackages [nextline-alert]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [slipcover]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 17:21:07] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/25/91/ed6b12f291733bb6f72a6a8ec54bc3b008f27f07e1ec5a1767e2aea63b96/mq4hemc-0.0.8.tar.gz
+[2024-05-03 17:21:07] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/36/4e/313a55fa41df618a529f93ffa58aacafc72efcf3e937a8a442dd7815de3f/julearn-0.3.2.dev61.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [data-place]: Downloading https://files.pythonhosted.org/packages/10/f5/56f177cde3cf7da3dfdf9a26f4cf064a75bac7ce2f97ca8ea8390cb921d6/data-place-0.2.4.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [nmk-github]: Downloading https://files.pythonhosted.org/packages/ee/b3/a53eb29e7c738160c9e69db0ec726c41c7ed3b9d5e71c393d7cbc531367a/nmk-github-0.8.0.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [helper-for-maxi]: Downloading https://files.pythonhosted.org/packages/b3/3b/b8b8e69b9f2a309ded38a8d9ac9bf70e29e33c07a49b3aabb57292821eba/helper_for_maxi-1.1.4.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: Downloading https://files.pythonhosted.org/packages/db/61/8f42cfbcd672b6db726bc1d0283e25c70d1a7668152a3c46e5804f13b9f7/c4m_pdk_ihpsg13g2-0.0.2.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [nextline-alert]: Downloading https://files.pythonhosted.org/packages/00/5d/1b4cee1b996bf6927823b5692e5e3060236d8a7f1135598d6a881c3d97b1/nextline_alert-0.1.3.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [slipcover]: Downloading https://files.pythonhosted.org/packages/22/88/9101ef8c2f63a1a13d4df4d3ca2762f255dc00a65c6703aa5257325404b2/slipcover-1.0.8.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/17/ff/c305b978b3e007000fd785f4d1fac7016440237c188eb8be90a34debd419/mq4hemc-0.0.9.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/f3/ee/8e49e8bb311e6c07d6191a430dcd794d7fba83b869a978efd21f5a62c42e/julearn-0.3.2.dev78.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [nmk-github]: Downloading https://files.pythonhosted.org/packages/16/54/bd96819d1ef5883c98af8bd9dfdb4b188afe5290e161c3357fde1fda81c0/nmk-github-0.9.0.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/f3/ee/8e49e8bb311e6c07d6191a430dcd794d7fba83b869a978efd21f5a62c42e/julearn-0.3.2.dev78.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [data-place]: Downloading https://files.pythonhosted.org/packages/d5/d4/7f675f97ea2e126a0dff4e281e6665f5eb853787ad552f51bf43e33039f7/data-place-0.2.5.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [mq4hemc]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [mq4hemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mq4hemc-0.0.8.tar.gz tmp/mq4hemc-0.0.9.tar.gz --markdown 20240503/m/mq4hemc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: Downloading https://files.pythonhosted.org/packages/1a/6e/6c7c643f0c94ed110ea6f21a3a1cbc21c4be427967bd43c84e574483e51b/c4m_pdk_ihpsg13g2-0.0.2.post1.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [nmk-github]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [nmk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmk-github-0.8.0.tar.gz tmp/nmk-github-0.9.0.tar.gz --markdown 20240503/n/nmk-github/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [helper-for-maxi]: Downloading https://files.pythonhosted.org/packages/27/14/98a01a62eaac5ac71a87b8fb548182dc30f586a9ceacb97a3d412564265d/helper_for_maxi-1.1.5.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [data-place]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [data-place]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-place-0.2.4.tar.gz tmp/data-place-0.2.5.tar.gz --markdown 20240503/d/data-place/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [julearn]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [julearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julearn-0.3.2.dev61.tar.gz tmp/julearn-0.3.2.dev78.tar.gz --markdown 20240503/j/julearn/0.3.2.dev61-0.3.2.dev78/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [slipcover]: Downloading https://files.pythonhosted.org/packages/6c/4a/c177bdb55a3d4755b0a1e0551125a7eb75b1ea7e975258718f4a019950f2/slipcover-1.0.9.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_pdk_ihpsg13g2-0.0.2.tar.gz tmp/c4m_pdk_ihpsg13g2-0.0.2.post1.tar.gz --markdown 20240503/c/c4m-pdk-ihpsg13g2/0.0.2-0.0.2.post1/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [julearn]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [julearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julearn-0.3.2.dev61.tar.gz tmp/julearn-0.3.2.dev78.tar.gz --markdown 20240503/j/julearn/0.3.2.dev61-0.3.2.dev78/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240503/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [nextline-alert]: Downloading https://files.pythonhosted.org/packages/41/6d/48f840c8216fbd296a2d66dab0dbde11b40347a5fa8d1c054961a6c57729/nextline_alert-0.1.4.tar.gz
+[2024-05-03 17:21:08] INFO root fetch - processPackages [helper-for-maxi]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [helper-for-maxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helper_for_maxi-1.1.4.tar.gz tmp/helper_for_maxi-1.1.5.tar.gz --markdown 20240503/h/helper-for-maxi/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [slipcover]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [slipcover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slipcover-1.0.8.tar.gz tmp/slipcover-1.0.9.tar.gz --markdown 20240503/s/slipcover/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 17:21:08] INFO root fetch - processPackages [nextline-alert]: executing diffoscope
+[2024-05-03 17:21:08] INFO root fetch - processPackages [nextline-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextline_alert-0.1.3.tar.gz tmp/nextline_alert-0.1.4.tar.gz --markdown 20240503/n/nextline-alert/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-03 17:21:09] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.8.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.9.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - main [MainThread]: End processing [mq4hemc]: success
+[2024-05-03 17:21:09] INFO root fetch - processPackages [nmk-github]: Remove: archive file [/home/abi/fetcher/tmp/nmk-github-0.8.0.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - processPackages [nmk-github]: Remove: archive file [/home/abi/fetcher/tmp/nmk-github-0.9.0.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - main [MainThread]: End processing [nmk-github]: success
+[2024-05-03 17:21:09] INFO root fetch - processPackages [data-place]: Remove: archive file [/home/abi/fetcher/tmp/data-place-0.2.4.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - processPackages [data-place]: Remove: archive file [/home/abi/fetcher/tmp/data-place-0.2.5.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - main [MainThread]: End processing [data-place]: success
+[2024-05-03 17:21:09] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_ihpsg13g2-0.0.2.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_ihpsg13g2-0.0.2.post1.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - main [MainThread]: End processing [c4m-pdk-ihpsg13g2]: success
+[2024-05-03 17:21:09] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-05-03 17:21:09] INFO root fetch - processPackages [nextline-alert]: Remove: archive file [/home/abi/fetcher/tmp/nextline_alert-0.1.3.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - processPackages [nextline-alert]: Remove: archive file [/home/abi/fetcher/tmp/nextline_alert-0.1.4.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - main [MainThread]: End processing [nextline-alert]: success
+[2024-05-03 17:21:09] INFO root fetch - processPackages [helper-for-maxi]: Remove: archive file [/home/abi/fetcher/tmp/helper_for_maxi-1.1.4.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - processPackages [helper-for-maxi]: Remove: archive file [/home/abi/fetcher/tmp/helper_for_maxi-1.1.5.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - main [MainThread]: End processing [helper-for-maxi]: success
+[2024-05-03 17:21:09] INFO root fetch - processPackages [slipcover]: Remove: archive file [/home/abi/fetcher/tmp/slipcover-1.0.8.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - processPackages [slipcover]: Remove: archive file [/home/abi/fetcher/tmp/slipcover-1.0.9.tar.gz]
+[2024-05-03 17:21:09] INFO root fetch - main [MainThread]: End processing [slipcover]: success
+[2024-05-03 17:21:10] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.2.dev61.tar.gz]
+[2024-05-03 17:21:10] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.2.dev78.tar.gz]
+[2024-05-03 17:21:10] INFO root fetch - main [MainThread]: End processing [julearn]: success
+[2024-05-03 17:21:10] INFO root fetch - main [MainThread]: End processing [julearn]: success
+[2024-05-03 17:21:10] INFO root fetch - main [MainThread]: Store serial: [23047853]
