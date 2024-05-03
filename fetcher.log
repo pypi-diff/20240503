@@ -9684,3 +9684,42 @@
 [2024-05-03 07:13:35] INFO root fetch - processPackages [phonopy]: Remove: archive file [/home/abi/fetcher/tmp/phonopy-2.9.3.tar.gz]
 [2024-05-03 07:13:35] INFO root fetch - main [MainThread]: End processing [phonopy]: success
 [2024-05-03 07:13:35] INFO root fetch - main [MainThread]: Store serial: [23041726]
+[2024-05-03 07:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041726]
+[2024-05-03 07:15:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 07:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neo4py
+[2024-05-03 07:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hbox
+[2024-05-03 07:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repo2docs
+[2024-05-03 07:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: file-ops-suite
+[2024-05-03 07:15:44] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 07:15:44] INFO root fetch - processPackages [neo4py]: New version: [1.1.8b0] Old Version: [1.1.7b0]
+[2024-05-03 07:15:44] INFO root fetch - processPackages [hbox]: New version: [0.1.20] Old Version: [0.1.2]
+[2024-05-03 07:15:44] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/f5/de/884b0223b6b552cb64f093671c58108eba2118516884d1834b067f21612c/neo4py-1.1.7b0.tar.gz
+[2024-05-03 07:15:44] INFO root fetch - processPackages [file-ops-suite]: New version: [0.0.9] Old Version: [0.0.10]
+[2024-05-03 07:15:44] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/d9/1e/d6c044d1dd876f640fd8080c0d80bf9c1d753b6ae9fc1d5040d28b71f52c/hbox-0.1.2.tar.gz
+[2024-05-03 07:15:44] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 07:15:44] INFO root fetch - processPackages [file-ops-suite]: Downloading https://files.pythonhosted.org/packages/d0/b7/63a577fa4f2ca7d4b632f8d226c6b9248292ef3ff377cef6b5b3462b5f4c/file_ops_suite-0.0.10-py3-none-any.whl
+[2024-05-03 07:15:44] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/be/6e/fd3aca1b1d72be799df4ec6313d000e7c9fc7ed513663c9999375403c497/neo4py-1.1.8b0.tar.gz
+[2024-05-03 07:15:44] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 07:15:44] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/c7/f7/ef029a41f3192c99d2856852eadcefb2b3ca2596be8a2721bb962137c374/hbox-0.1.20.tar.gz
+[2024-05-03 07:15:44] INFO root fetch - processPackages [neo4py]: executing diffoscope
+[2024-05-03 07:15:44] INFO root fetch - processPackages [neo4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4py-1.1.7b0.tar.gz tmp/neo4py-1.1.8b0.tar.gz --markdown 20240503/n/neo4py/1.1.7b0-1.1.8b0/README.md --exclude *.pyd
+[2024-05-03 07:15:44] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 07:15:44] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 07:15:44] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-03 07:15:44] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.1.2.tar.gz tmp/hbox-0.1.20.tar.gz --markdown 20240503/h/hbox/0.1.2-0.1.20/README.md --exclude *.pyd
+[2024-05-03 07:15:45] INFO root fetch - processPackages [file-ops-suite]: Downloading https://files.pythonhosted.org/packages/ed/19/8a676312d3115fe2f0bd2a3b7661bf4b5d5286dd634b2fdfb129d48ccbf0/file_ops_suite-0.0.9.tar.gz
+[2024-05-03 07:15:45] INFO root fetch - processPackages [file-ops-suite]: executing diffoscope
+[2024-05-03 07:15:45] INFO root fetch - processPackages [file-ops-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_ops_suite-0.0.10-py3-none-any.whl.zip tmp/file_ops_suite-0.0.9.tar.gz --markdown 20240503/f/file-ops-suite/0.0.10-0.0.9/README.md --exclude *.pyd
+[2024-05-03 07:15:45] INFO root fetch - processPackages [neo4py]: Remove: archive file [/home/abi/fetcher/tmp/neo4py-1.1.7b0.tar.gz]
+[2024-05-03 07:15:45] INFO root fetch - processPackages [neo4py]: Remove: archive file [/home/abi/fetcher/tmp/neo4py-1.1.8b0.tar.gz]
+[2024-05-03 07:15:45] INFO root fetch - main [MainThread]: End processing [neo4py]: success
+[2024-05-03 07:15:45] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 07:15:45] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 07:15:45] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 07:15:45] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.2.tar.gz]
+[2024-05-03 07:15:45] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.20.tar.gz]
+[2024-05-03 07:15:45] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-03 07:15:45] INFO root fetch - processPackages [file-ops-suite]: Remove: archive file [/home/abi/fetcher/tmp/file_ops_suite-0.0.10-py3-none-any.whl.zip]
+[2024-05-03 07:15:45] INFO root fetch - processPackages [file-ops-suite]: Remove: archive file [/home/abi/fetcher/tmp/file_ops_suite-0.0.9.tar.gz]
+[2024-05-03 07:15:45] INFO root fetch - main [MainThread]: End processing [file-ops-suite]: success
+[2024-05-03 07:15:45] INFO root fetch - main [MainThread]: Store serial: [23041737]
