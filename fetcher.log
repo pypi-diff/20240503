@@ -20031,3 +20031,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:27:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.6.tar.gz]
 [2024-05-03 15:27:25] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-05-03 15:27:25] INFO root fetch - main [MainThread]: Store serial: [23046407]
+[2024-05-03 15:29:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046407]
+[2024-05-03 15:29:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 15:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-mailing
+[2024-05-03 15:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: giza-osiris
+[2024-05-03 15:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2024-05-03 15:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: documentdataextraction
+[2024-05-03 15:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuo-netease
+[2024-05-03 15:29:54] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-03 15:29:54] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-03 15:29:54] INFO root fetch - processPackages [fuo-netease]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-03 15:29:54] INFO root fetch - processPackages [giza-osiris]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-03 15:29:54] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/91/d4/395059379da81b0097120b14199bf9d08b58fe6a42081931dd3768d01147/documentdataextraction-0.0.98-py3-none-any.whl
+[2024-05-03 15:29:54] INFO root fetch - processPackages [django-mailing]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 15:29:54] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-03 15:29:54] INFO root fetch - processPackages [giza-osiris]: Downloading https://files.pythonhosted.org/packages/a4/8f/da160cbcd03b0f24a3d49d1ef7f975eb9535c1dcba760f35b3797f9c6319/giza_osiris-0.2.7.tar.gz
+[2024-05-03 15:29:54] INFO root fetch - processPackages [django-mailing]: Downloading https://files.pythonhosted.org/packages/e2/41/93677370d3abe1baedf2edcf1e9d62e40cd5aad73c3ef2d770acaa4acdab/django-mailing-0.2.1.tar.gz
+[2024-05-03 15:29:54] INFO root fetch - processPackages [fuo-netease]: Downloading https://files.pythonhosted.org/packages/4d/c3/b4f17a4ae4cec55354c3294556557575049de23e97001fd645637d6d4ff2/fuo_netease-1.0.1.tar.gz
+[2024-05-03 15:29:54] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/15/1f/63b3b236f216e99363d439f8ca05b6dc0272a6348ceb25404c98bd9ce282/documentdataextraction-0.0.99-py3-none-any.whl
+[2024-05-03 15:29:54] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-03 15:29:54] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-03 15:29:54] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240503/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-03 15:29:54] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2024-05-03 15:29:54] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.98-py3-none-any.whl.zip tmp/documentdataextraction-0.0.99-py3-none-any.whl.zip --markdown 20240503/d/documentdataextraction/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-03 15:29:54] INFO root fetch - processPackages [django-mailing]: Downloading https://files.pythonhosted.org/packages/c2/bf/aa059648740819b598e56215a0838c50f112fcbc852319e5c7eac40bafe3/django_mailing-0.2.2.tar.gz
+[2024-05-03 15:29:54] INFO root fetch - processPackages [fuo-netease]: Downloading https://files.pythonhosted.org/packages/81/60/ba24560a1ed68ba6ca0b3239217f01ef83bf1aeb94980dad44fb93bdb43a/fuo_netease-1.0.2.tar.gz
+[2024-05-03 15:29:54] INFO root fetch - processPackages [giza-osiris]: Downloading https://files.pythonhosted.org/packages/64/7c/36ab4cf5e8a66f350dee2d2c98984d051f5ecea81e6e996b7682a39e3702/giza_osiris-0.2.8.tar.gz
+[2024-05-03 15:29:54] INFO root fetch - processPackages [django-mailing]: executing diffoscope
+[2024-05-03 15:29:54] INFO root fetch - processPackages [django-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mailing-0.2.1.tar.gz tmp/django_mailing-0.2.2.tar.gz --markdown 20240503/d/django-mailing/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 15:29:55] INFO root fetch - processPackages [giza-osiris]: executing diffoscope
+[2024-05-03 15:29:55] INFO root fetch - processPackages [giza-osiris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giza_osiris-0.2.7.tar.gz tmp/giza_osiris-0.2.8.tar.gz --markdown 20240503/g/giza-osiris/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-03 15:29:55] INFO root fetch - processPackages [fuo-netease]: executing diffoscope
+[2024-05-03 15:29:55] INFO root fetch - processPackages [fuo-netease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuo_netease-1.0.1.tar.gz tmp/fuo_netease-1.0.2.tar.gz --markdown 20240503/f/fuo-netease/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-03 15:29:55] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.98-py3-none-any.whl.zip]
+[2024-05-03 15:29:55] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.99-py3-none-any.whl.zip]
+[2024-05-03 15:29:55] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2024-05-03 15:29:55] INFO root fetch - processPackages [django-mailing]: Remove: archive file [/home/abi/fetcher/tmp/django-mailing-0.2.1.tar.gz]
+[2024-05-03 15:29:55] INFO root fetch - processPackages [django-mailing]: Remove: archive file [/home/abi/fetcher/tmp/django_mailing-0.2.2.tar.gz]
+[2024-05-03 15:29:55] INFO root fetch - main [MainThread]: End processing [django-mailing]: success
+[2024-05-03 15:29:55] INFO root fetch - processPackages [giza-osiris]: Remove: archive file [/home/abi/fetcher/tmp/giza_osiris-0.2.7.tar.gz]
+[2024-05-03 15:29:55] INFO root fetch - processPackages [giza-osiris]: Remove: archive file [/home/abi/fetcher/tmp/giza_osiris-0.2.8.tar.gz]
+[2024-05-03 15:29:55] INFO root fetch - main [MainThread]: End processing [giza-osiris]: success
+[2024-05-03 15:29:55] INFO root fetch - processPackages [fuo-netease]: Remove: archive file [/home/abi/fetcher/tmp/fuo_netease-1.0.1.tar.gz]
+[2024-05-03 15:29:55] INFO root fetch - processPackages [fuo-netease]: Remove: archive file [/home/abi/fetcher/tmp/fuo_netease-1.0.2.tar.gz]
+[2024-05-03 15:29:55] INFO root fetch - main [MainThread]: End processing [fuo-netease]: success
+[2024-05-03 15:29:55] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-03 15:29:55] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-03 15:29:55] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-03 15:29:55] INFO root fetch - main [MainThread]: Store serial: [23046420]
