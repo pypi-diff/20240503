@@ -19983,3 +19983,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:24:45] INFO root fetch - processPackages [aalto-boss]: Remove: archive file [/home/abi/fetcher/tmp/aalto-boss-1.9.2.tar.gz]
 [2024-05-03 15:24:45] INFO root fetch - main [MainThread]: End processing [aalto-boss]: success
 [2024-05-03 15:24:45] INFO root fetch - main [MainThread]: Store serial: [23046388]
+[2024-05-03 15:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046388]
+[2024-05-03 15:27:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 15:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zdaemon
+[2024-05-03 15:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: x-transformers
+[2024-05-03 15:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-flex-report
+[2024-05-03 15:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQtUIkit
+[2024-05-03 15:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: praisonAI
+[2024-05-03 15:27:23] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.8.6] Old Version: [2.8.5]
+[2024-05-03 15:27:23] INFO root fetch - processPackages [django-flex-report]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-03 15:27:23] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-03 15:27:23] INFO root fetch - processPackages [praisonAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 15:27:23] INFO root fetch - processPackages [zdaemon]: New version: [5.1] Old Version: [5.0]
+[2024-05-03 15:27:23] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/ef/ff/d3e33271575c00c59722822cd13db6b76946c4fb8144f93cf509a0eb7235/PyQtUIkit-2.8.5.tar.gz
+[2024-05-03 15:27:23] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/02/93/20f32abbd684f543cb22768d0d4606f99c37b4695c47a41d3fce87e9c6ff/django-flex-report-0.7.8.tar.gz
+[2024-05-03 15:27:23] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2024-05-03 15:27:23] INFO root fetch - processPackages [praisonAI]: Downloading https://files.pythonhosted.org/packages/4a/fb/058fc12e29483448272d9940d30499b97a17a6242de0ac970dd58acf105a/praisonai-0.0.8.tar.gz
+[2024-05-03 15:27:23] INFO root fetch - processPackages [zdaemon]: Downloading https://files.pythonhosted.org/packages/54/da/19b9bf471923dbebcb7b9a915739542b44e7386352d7ce49678b8ae59614/zdaemon-5.0.tar.gz
+[2024-05-03 15:27:23] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/70/5e/69fad62600926ae8fae2e542a4ef912e2fa998c69fac46276b978e8710a1/django-flex-report-0.7.9.tar.gz
+[2024-05-03 15:27:23] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2024-05-03 15:27:23] INFO root fetch - processPackages [praisonAI]: Downloading https://files.pythonhosted.org/packages/c1/ff/1216187b9c3ca8bf85cfb1da01ce373803da39a7a92617344964436e42d3/praisonai-0.0.9.tar.gz
+[2024-05-03 15:27:24] INFO root fetch - processPackages [django-flex-report]: executing diffoscope
+[2024-05-03 15:27:24] INFO root fetch - processPackages [django-flex-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-flex-report-0.7.8.tar.gz tmp/django-flex-report-0.7.9.tar.gz --markdown 20240503/d/django-flex-report/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-03 15:27:24] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2024-05-03 15:27:24] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20240503/x/x-transformers/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-03 15:27:24] INFO root fetch - processPackages [praisonAI]: executing diffoscope
+[2024-05-03 15:27:24] INFO root fetch - processPackages [praisonAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/praisonai-0.0.8.tar.gz tmp/praisonai-0.0.9.tar.gz --markdown 20240503/p/praisonAI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 15:27:24] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/24/b2/b2ba0854f4c8cc5cecea93167b9c7ce3b1b8dd8fe038f39b2a8ac51d7714/PyQtUIkit-2.8.6.tar.gz
+[2024-05-03 15:27:24] INFO root fetch - processPackages [zdaemon]: Downloading https://files.pythonhosted.org/packages/1b/8f/d2e2748ab114b577b10889873cb370f7faf3ace5ce9b9b36a450452a2bd5/zdaemon-5.1.tar.gz
+[2024-05-03 15:27:24] INFO root fetch - processPackages [zdaemon]: executing diffoscope
+[2024-05-03 15:27:24] INFO root fetch - processPackages [zdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdaemon-5.0.tar.gz tmp/zdaemon-5.1.tar.gz --markdown 20240503/z/zdaemon/5.0-5.1/README.md --exclude *.pyd
+[2024-05-03 15:27:24] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-05-03 15:27:24] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.8.5.tar.gz tmp/PyQtUIkit-2.8.6.tar.gz --markdown 20240503/P/PyQtUIkit/2.8.5-2.8.6/README.md --exclude *.pyd
+[2024-05-03 15:27:24] INFO root fetch - processPackages [praisonAI]: Remove: archive file [/home/abi/fetcher/tmp/praisonai-0.0.8.tar.gz]
+[2024-05-03 15:27:24] INFO root fetch - processPackages [praisonAI]: Remove: archive file [/home/abi/fetcher/tmp/praisonai-0.0.9.tar.gz]
+[2024-05-03 15:27:24] INFO root fetch - main [MainThread]: End processing [praisonAI]: success
+[2024-05-03 15:27:24] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.7.8.tar.gz]
+[2024-05-03 15:27:24] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.7.9.tar.gz]
+[2024-05-03 15:27:24] INFO root fetch - main [MainThread]: End processing [django-flex-report]: success
+[2024-05-03 15:27:24] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.1.tar.gz]
+[2024-05-03 15:27:24] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.2.tar.gz]
+[2024-05-03 15:27:24] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2024-05-03 15:27:25] INFO root fetch - processPackages [zdaemon]: Remove: archive file [/home/abi/fetcher/tmp/zdaemon-5.0.tar.gz]
+[2024-05-03 15:27:25] INFO root fetch - processPackages [zdaemon]: Remove: archive file [/home/abi/fetcher/tmp/zdaemon-5.1.tar.gz]
+[2024-05-03 15:27:25] INFO root fetch - main [MainThread]: End processing [zdaemon]: success
+[2024-05-03 15:27:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.5.tar.gz]
+[2024-05-03 15:27:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.6.tar.gz]
+[2024-05-03 15:27:25] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-05-03 15:27:25] INFO root fetch - main [MainThread]: Store serial: [23046407]
