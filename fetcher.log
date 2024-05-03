@@ -7136,3 +7136,36 @@
 [2024-05-03 04:01:45] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.9.tar.gz]
 [2024-05-03 04:01:45] INFO root fetch - main [MainThread]: End processing [packyak-aws-cdk]: success
 [2024-05-03 04:01:45] INFO root fetch - main [MainThread]: Store serial: [23040769]
+[2024-05-03 04:03:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040769]
+[2024-05-03 04:03:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: desgld
+[2024-05-03 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudflare-cli4
+[2024-05-03 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nlp
+[2024-05-03 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FastSnake
+[2024-05-03 04:03:53] WARNING root fetch - processPackages [cloudflare-cli4]: Skipping, unable to determine old version
+[2024-05-03 04:03:53] INFO root fetch - main [MainThread]: End processing [cloudflare-cli4] error
+[2024-05-03 04:03:53] INFO root fetch - processPackages [desgld]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 04:03:53] INFO root fetch - processPackages [FastSnake]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-03 04:03:53] INFO root fetch - processPackages [keras-nlp]: New version: [0.9.3.dev0] Old Version: [0.9.3]
+[2024-05-03 04:03:54] INFO root fetch - processPackages [desgld]: Downloading https://files.pythonhosted.org/packages/56/53/73b32ab21fe31a10095dd9adb1698017ef4c38252c12f540ce8484672ac4/desgld-0.1.1.tar.gz
+[2024-05-03 04:03:54] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/83/32/20a22225dd8137c13005edaf0bb6cdfdd488c90f8a7e510791538ce36506/keras-nlp-0.9.3.tar.gz
+[2024-05-03 04:03:54] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/4e/39/3975e123076085cab12818bfdb5453f139c02ec8e1ab8b44b6aa19b34e48/fastsnake-1.4.8.tar.gz
+[2024-05-03 04:03:54] INFO root fetch - processPackages [desgld]: Downloading https://files.pythonhosted.org/packages/7f/72/afc0a4eef8f35af18026462fdf9c14a588845ab485ebac0cf6262d8bc063/desgld-0.1.2.tar.gz
+[2024-05-03 04:03:54] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/ba/f6/2239174616fa357132ef7f9a94eb64ac1b356e4f1d96dd885ccf70181298/fastsnake-1.4.9.tar.gz
+[2024-05-03 04:03:54] INFO root fetch - processPackages [desgld]: executing diffoscope
+[2024-05-03 04:03:54] INFO root fetch - processPackages [desgld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desgld-0.1.1.tar.gz tmp/desgld-0.1.2.tar.gz --markdown 20240503/d/desgld/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 04:03:54] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/b4/b4/77a34d094447631579707e2238a11403eb3c35511fd6eb4c97563e4a8ff0/keras-nlp-0.9.3.dev0.tar.gz
+[2024-05-03 04:03:54] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-05-03 04:03:54] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.4.8.tar.gz tmp/fastsnake-1.4.9.tar.gz --markdown 20240503/F/FastSnake/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-03 04:03:54] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2024-05-03 04:03:54] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.9.3.tar.gz tmp/keras-nlp-0.9.3.dev0.tar.gz --markdown 20240503/k/keras-nlp/0.9.3-0.9.3.dev0/README.md --exclude *.pyd
+[2024-05-03 04:03:55] INFO root fetch - processPackages [desgld]: Remove: archive file [/home/abi/fetcher/tmp/desgld-0.1.1.tar.gz]
+[2024-05-03 04:03:55] INFO root fetch - processPackages [desgld]: Remove: archive file [/home/abi/fetcher/tmp/desgld-0.1.2.tar.gz]
+[2024-05-03 04:03:55] INFO root fetch - main [MainThread]: End processing [desgld]: success
+[2024-05-03 04:03:55] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.8.tar.gz]
+[2024-05-03 04:03:55] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.9.tar.gz]
+[2024-05-03 04:03:55] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-05-03 04:03:55] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.tar.gz]
+[2024-05-03 04:03:55] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.dev0.tar.gz]
+[2024-05-03 04:03:55] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2024-05-03 04:03:55] INFO root fetch - main [MainThread]: Store serial: [23040781]
