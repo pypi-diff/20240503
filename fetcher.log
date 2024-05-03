@@ -16906,3 +16906,96 @@
 [2024-05-03 13:05:20] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.2.tar.gz]
 [2024-05-03 13:05:20] INFO root fetch - main [MainThread]: End processing [squlearn]: success
 [2024-05-03 13:05:20] INFO root fetch - main [MainThread]: Store serial: [23044911]
+[2024-05-03 13:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044911]
+[2024-05-03 13:07:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_forms_plus
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-data-quality-library
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unacatlib
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hhnk-threedi-tools
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pathurl
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snapquery
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rl4co
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: muko
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygpt-net
+[2024-05-03 13:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: differt-core
+[2024-05-03 13:07:53] INFO root fetch - processPackages [django_forms_plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 13:07:53] WARNING root fetch - processPackages [my-data-quality-library]: Skipping, unable to determine old version
+[2024-05-03 13:07:53] INFO root fetch - processPackages [my-data-quality-library]: Start processing: pyastroweatherio
+[2024-05-03 13:07:53] INFO root fetch - main [MainThread]: End processing [my-data-quality-library] error
+[2024-05-03 13:07:53] INFO root fetch - processPackages [muko]: New version: [2.4] Old Version: [2.39]
+[2024-05-03 13:07:53] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.50.0.dev7] Old Version: [0.50.0.dev6]
+[2024-05-03 13:07:53] INFO root fetch - processPackages [pygpt-net]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-03 13:07:53] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/17/0e/f79e56cbbdc79f927f3c0a84be419ffe6da4dae45bde17f62e4a9620af0f/django_forms_plus-0.8.0.tar.gz
+[2024-05-03 13:07:53] WARNING root fetch - processPackages [snapquery]: Skipping, unable to determine old version
+[2024-05-03 13:07:53] INFO root fetch - processPackages [snapquery]: Start processing: nonebot-adapter-tailchat
+[2024-05-03 13:07:53] INFO root fetch - main [MainThread]: End processing [snapquery] error
+[2024-05-03 13:07:53] INFO root fetch - processPackages [unacatlib]: New version: [0.0.78] Old Version: [0.0.77]
+[2024-05-03 13:07:53] INFO root fetch - processPackages [hhnk-threedi-tools]: New version: [2024.1] Old Version: [2023.4]
+[2024-05-03 13:07:53] INFO root fetch - processPackages [pathurl]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-03 13:07:53] INFO root fetch - processPackages [rl4co]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-03 13:07:53] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/3f/a5/e8f5058acfafc1871addbc234824c7de29c85a773f15421f650a22a1bffb/muko-2.39-py3-none-any.whl
+[2024-05-03 13:07:53] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a2/51/eab8c08ccf8061d3c9a0a64e34850f09c2f311fb768c293d3683b097b0a1/pygpt_net-2.2.8.tar.gz
+[2024-05-03 13:07:53] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/81/03/571c0c24203f0ba82b9b821ff00f41999f414e1d3069d2539a1123211030/pyastroweatherio-0.50.0.dev6.tar.gz
+[2024-05-03 13:07:53] INFO root fetch - processPackages [differt-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 13:07:54] WARNING root fetch - processPackages [nonebot-adapter-tailchat]: Skipping, unable to determine old version
+[2024-05-03 13:07:54] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-tailchat] error
+[2024-05-03 13:07:54] INFO root fetch - processPackages [hhnk-threedi-tools]: Downloading https://files.pythonhosted.org/packages/3b/5f/1a648cad7afdb7c28e050b3dbb7388a40ec840135e4d9457eb8968fd5c45/hhnk-threedi-tools-2023.4.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/0e/66/c0879e37f5c9e662a9646d319e3b56db38b87d65da7a7b371effbe4b58b3/unacatlib-0.0.77-py2.py3-none-any.whl
+[2024-05-03 13:07:54] INFO root fetch - processPackages [rl4co]: Downloading https://files.pythonhosted.org/packages/76/17/690313bdd3b5d2e070ae2eb8f31a5608e96dee23abe29449f63973b4f9b1/rl4co-0.3.3.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pathurl]: Downloading https://files.pythonhosted.org/packages/ed/20/8712de7350e053e561e2a5dca3e4cff58b0fa57d244dc81916671541d425/pathurl-0.6.0.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/54/f3/c85ac8ce94145bb3872c12320f60f50e48053a66266349c0d4cbf452a9dd/django_forms_plus-0.9.0.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/e4/69/42cc0ba4f986662991ab57db9abc8dd5ff4e55c29239bbda9c777a048c24/differt_core-0.0.4.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/29/77/67d934f021f86d91046c94b0e8ec8740684e3adc1a8dc4827be60417f31f/pyastroweatherio-0.50.0.dev7.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/de/3c/c1b9b0a4eca98a77ab54cd4e86123d7b50af858eedf46224f645ed3dca7c/muko-2.4-py3-none-any.whl
+[2024-05-03 13:07:54] INFO root fetch - processPackages [django_forms_plus]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [django_forms_plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_forms_plus-0.8.0.tar.gz tmp/django_forms_plus-0.9.0.tar.gz --markdown 20240503/d/django_forms_plus/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.50.0.dev6.tar.gz tmp/pyastroweatherio-0.50.0.dev7.tar.gz --markdown 20240503/p/pyastroweatherio/0.50.0.dev6-0.50.0.dev7/README.md --exclude *.pyd
+[2024-05-03 13:07:54] INFO root fetch - processPackages [rl4co]: Downloading https://files.pythonhosted.org/packages/56/83/b753f5f3252653769759da93207e3a46faaad1c2810b29d75f6311e2a629/rl4co-0.4.0.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pathurl]: Downloading https://files.pythonhosted.org/packages/de/df/0af8d45f5e3b50561691b5fc8965febab95adec15fc1f4edd9acc312f2ab/pathurl-0.7.0.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/0e/b1/8cc8212969cb7b07cb815a7505bd8e8189f9debf7c23eefc9b41af349760/unacatlib-0.0.78-py2.py3-none-any.whl
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/9a/6b/ef19dace2478125566a1c01459255b7c5ee6d85a70cc2501323506c14e6a/pygpt_net-2.2.9.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/7e/2e/c1f08a4b067761ed3426efef6d591fc3ff90eb23fb16be8d10e4f35ab3e6/differt_core-0.0.5.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [hhnk-threedi-tools]: Downloading https://files.pythonhosted.org/packages/a4/3a/b6d3952a7d098b41810219a816fbb2e99dafceb9afae61c9e5fdededab61/hhnk_threedi_tools-2024.1.tar.gz
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pathurl]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pathurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathurl-0.6.0.tar.gz tmp/pathurl-0.7.0.tar.gz --markdown 20240503/p/pathurl/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-03 13:07:54] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.39-py3-none-any.whl.zip tmp/muko-2.4-py3-none-any.whl.zip --markdown 20240503/m/muko/2.39-2.4/README.md --exclude *.pyd
+[2024-05-03 13:07:54] INFO root fetch - processPackages [rl4co]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [rl4co]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl4co-0.3.3.tar.gz tmp/rl4co-0.4.0.tar.gz --markdown 20240503/r/rl4co/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-03 13:07:54] INFO root fetch - processPackages [differt-core]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [differt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/differt_core-0.0.4.tar.gz tmp/differt_core-0.0.5.tar.gz --markdown 20240503/d/differt-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 13:07:54] INFO root fetch - processPackages [unacatlib]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [unacatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unacatlib-0.0.77-py2.py3-none-any.whl.zip tmp/unacatlib-0.0.78-py2.py3-none-any.whl.zip --markdown 20240503/u/unacatlib/0.0.77-0.0.78/README.md --exclude *.pyd
+[2024-05-03 13:07:54] INFO root fetch - processPackages [hhnk-threedi-tools]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [hhnk-threedi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhnk-threedi-tools-2023.4.tar.gz tmp/hhnk_threedi_tools-2024.1.tar.gz --markdown 20240503/h/hhnk-threedi-tools/2023.4-2024.1/README.md --exclude *.pyd
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-05-03 13:07:54] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.2.8.tar.gz tmp/pygpt_net-2.2.9.tar.gz --markdown 20240503/p/pygpt-net/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-03 13:07:55] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev6.tar.gz]
+[2024-05-03 13:07:55] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev7.tar.gz]
+[2024-05-03 13:07:55] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-05-03 13:07:55] INFO root fetch - processPackages [pathurl]: Remove: archive file [/home/abi/fetcher/tmp/pathurl-0.6.0.tar.gz]
+[2024-05-03 13:07:55] INFO root fetch - processPackages [pathurl]: Remove: archive file [/home/abi/fetcher/tmp/pathurl-0.7.0.tar.gz]
+[2024-05-03 13:07:55] INFO root fetch - main [MainThread]: End processing [pathurl]: success
+[2024-05-03 13:07:55] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.4.tar.gz]
+[2024-05-03 13:07:55] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.5.tar.gz]
+[2024-05-03 13:07:55] INFO root fetch - main [MainThread]: End processing [differt-core]: success
+[2024-05-03 13:07:56] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.77-py2.py3-none-any.whl.zip]
+[2024-05-03 13:07:56] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.78-py2.py3-none-any.whl.zip]
+[2024-05-03 13:07:56] INFO root fetch - main [MainThread]: End processing [unacatlib]: success
+[2024-05-03 13:07:56] INFO root fetch - processPackages [rl4co]: Remove: archive file [/home/abi/fetcher/tmp/rl4co-0.3.3.tar.gz]
+[2024-05-03 13:07:56] INFO root fetch - processPackages [rl4co]: Remove: archive file [/home/abi/fetcher/tmp/rl4co-0.4.0.tar.gz]
+[2024-05-03 13:07:56] INFO root fetch - main [MainThread]: End processing [rl4co]: success
+[2024-05-03 13:07:58] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.8.tar.gz]
+[2024-05-03 13:07:58] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.9.tar.gz]
+[2024-05-03 13:07:58] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-05-03 13:07:59] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.39-py3-none-any.whl.zip]
+[2024-05-03 13:07:59] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.4-py3-none-any.whl.zip]
+[2024-05-03 13:07:59] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-05-03 13:07:59] INFO root fetch - processPackages [hhnk-threedi-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk-threedi-tools-2023.4.tar.gz]
+[2024-05-03 13:07:59] INFO root fetch - processPackages [hhnk-threedi-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk_threedi_tools-2024.1.tar.gz]
+[2024-05-03 13:07:59] INFO root fetch - main [MainThread]: End processing [hhnk-threedi-tools]: success
+[2024-05-03 13:08:05] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.8.0.tar.gz]
+[2024-05-03 13:08:05] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
+[2024-05-03 13:08:05] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
+[2024-05-03 13:08:05] INFO root fetch - main [MainThread]: Store serial: [23044963]
