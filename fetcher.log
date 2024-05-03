@@ -8164,3 +8164,20 @@
 [2024-05-03 05:10:21] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
 [2024-05-03 05:10:21] INFO root fetch - main [MainThread]: End processing [surfkit]: success
 [2024-05-03 05:10:21] INFO root fetch - main [MainThread]: Store serial: [23041118]
+[2024-05-03 05:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041118]
+[2024-05-03 05:12:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 05:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geojp
+[2024-05-03 05:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repo2docs
+[2024-05-03 05:12:31] INFO root fetch - processPackages [repo2docs]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 05:12:31] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/b7/b4/fca3875df12a436b380c31b76849f57cf5db79ba2d4c087b8f40088ee16d/repo2docs-0.1.6.tar.gz
+[2024-05-03 05:12:31] INFO root fetch - processPackages [geojp]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 05:12:31] INFO root fetch - processPackages [geojp]: Downloading https://files.pythonhosted.org/packages/07/1f/c9f580109825ad2404cf59c11ef28b60a2eb4f93934c5063a305d7bfc97a/geojp-0.0.5.tar.gz
+[2024-05-03 05:12:32] WARNING root fetch - processPackages [geojp]: Skipping package: exceeds size limit 27823197>=10485760
+[2024-05-03 05:12:32] INFO root fetch - main [MainThread]: End processing [geojp] error
+[2024-05-03 05:12:32] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/4d/d0/2b375b39bfc41b487426295a5e0139a79293ef3c09fcdb425975b0044f21/repo2docs-0.1.7.tar.gz
+[2024-05-03 05:12:32] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 05:12:32] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.6.tar.gz tmp/repo2docs-0.1.7.tar.gz --markdown 20240503/r/repo2docs/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 05:12:32] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.6.tar.gz]
+[2024-05-03 05:12:32] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.7.tar.gz]
+[2024-05-03 05:12:32] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 05:12:32] INFO root fetch - main [MainThread]: Store serial: [23041124]
