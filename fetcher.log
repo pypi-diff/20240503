@@ -14576,3 +14576,63 @@
 [2024-05-03 11:04:47] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240502.tar.gz]
 [2024-05-03 11:04:47] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
 [2024-05-03 11:04:47] INFO root fetch - main [MainThread]: Store serial: [23043670]
+[2024-05-03 11:06:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043670]
+[2024-05-03 11:07:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 11:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.multimodal
+[2024-05-03 11:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.timeseries
+[2024-05-03 11:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon
+[2024-05-03 11:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcmtools
+[2024-05-03 11:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-05-03 11:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wirepas-networktool-messaging
+[2024-05-03 11:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-available-to-promise-release-block
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240502] Old Version: [1.1.1b20240501]
+[2024-05-03 11:07:02] WARNING root fetch - processPackages [vcmtools]: Skipping, unable to determine old version
+[2024-05-03 11:07:02] INFO root fetch - main [MainThread]: End processing [vcmtools] error
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240502] Old Version: [1.1.1b20240501]
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240502] Old Version: [1.1.1b20240501]
+[2024-05-03 11:07:02] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-03 11:07:02] INFO root fetch - processPackages [wirepas-networktool-messaging]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/23/c9/36a9d32ed2ca61dcf5c6c525944ab32a7287d0a4ace34a33f7eb2786a8be/autogluon-1.1.1b20240501.tar.gz
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/43/6c/48eb866e93d79b8904c934fa47ab470a98ac448161237fcf62fdc8002ecb/autogluon.multimodal-1.1.1b20240501.tar.gz
+[2024-05-03 11:07:02] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.2]
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/12/ab/a4af165d2feb0fe29685a0731a56ef3c8b6fec12a2b5ec20e4f25eb7abb4/autogluon.timeseries-1.1.1b20240501.tar.gz
+[2024-05-03 11:07:02] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-03 11:07:02] INFO root fetch - processPackages [wirepas-networktool-messaging]: Downloading https://files.pythonhosted.org/packages/95/4d/8515bcf861df0bbeb1668fee47be0cbc9a6dd7414f7311310587373abee3/wirepas_networktool_messaging-4.4.0.tar.gz
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/f7/77/657b16bb59001cc0f0619992d7ee31a80e5a21684a44f1178abcfbe9d0f0/autogluon-1.1.1b20240502.tar.gz
+[2024-05-03 11:07:02] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Downloading https://files.pythonhosted.org/packages/79/df/f45d995622f119ed3f21da3d4d846440c445f19bc7b19141ef71c1e70853/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/f1/72/f42e467daa4a879223c9d9d91ec16d186f1b4812abcbccfda2bc555201ac/autogluon.multimodal-1.1.1b20240502.tar.gz
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/02/42/fd4633f1b21da6402b23dbb6e0d087515012222aba71444ae2d7beb293c5/autogluon.timeseries-1.1.1b20240502.tar.gz
+[2024-05-03 11:07:02] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240501.tar.gz tmp/autogluon-1.1.1b20240502.tar.gz --markdown 20240503/a/autogluon/1.1.1b20240501-1.1.1b20240502/README.md --exclude *.pyd
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240501.tar.gz tmp/autogluon.multimodal-1.1.1b20240502.tar.gz --markdown 20240503/a/autogluon.multimodal/1.1.1b20240501-1.1.1b20240502/README.md --exclude *.pyd
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-03 11:07:02] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240501.tar.gz tmp/autogluon.timeseries-1.1.1b20240502.tar.gz --markdown 20240503/a/autogluon.timeseries/1.1.1b20240501-1.1.1b20240502/README.md --exclude *.pyd
+[2024-05-03 11:07:02] INFO root fetch - processPackages [wirepas-networktool-messaging]: Downloading https://files.pythonhosted.org/packages/26/f0/cac70e6c010686e406fa4076fc34ecd8d0d1f2c533f2451e6340afebc7c1/wirepas_networktool_messaging-4.4.1.tar.gz
+[2024-05-03 11:07:02] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-03 11:07:02] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240503/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-03 11:07:02] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Downloading https://files.pythonhosted.org/packages/3e/25/5fa0f434962ff090fe8c92866af1c35fd764cfa05ae9164b7b761d57fe5c/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.1-py3-none-any.whl
+[2024-05-03 11:07:03] INFO root fetch - processPackages [wirepas-networktool-messaging]: executing diffoscope
+[2024-05-03 11:07:03] INFO root fetch - processPackages [wirepas-networktool-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wirepas_networktool_messaging-4.4.0.tar.gz tmp/wirepas_networktool_messaging-4.4.1.tar.gz --markdown 20240503/w/wirepas-networktool-messaging/4.4.0-4.4.1/README.md --exclude *.pyd
+[2024-05-03 11:07:03] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: executing diffoscope
+[2024-05-03 11:07:03] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-stock-available-to-promise-release-block/16.0.1.1.0.2-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-03 11:07:03] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240501.tar.gz]
+[2024-05-03 11:07:03] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240502.tar.gz]
+[2024-05-03 11:07:03] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-03 11:07:03] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240501.tar.gz]
+[2024-05-03 11:07:03] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240502.tar.gz]
+[2024-05-03 11:07:03] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-03 11:07:03] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-03 11:07:03] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-03 11:07:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release-block]: success
+[2024-05-03 11:07:03] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240501.tar.gz]
+[2024-05-03 11:07:03] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240502.tar.gz]
+[2024-05-03 11:07:03] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-03 11:07:03] INFO root fetch - processPackages [wirepas-networktool-messaging]: Remove: archive file [/home/abi/fetcher/tmp/wirepas_networktool_messaging-4.4.0.tar.gz]
+[2024-05-03 11:07:03] INFO root fetch - processPackages [wirepas-networktool-messaging]: Remove: archive file [/home/abi/fetcher/tmp/wirepas_networktool_messaging-4.4.1.tar.gz]
+[2024-05-03 11:07:03] INFO root fetch - main [MainThread]: End processing [wirepas-networktool-messaging]: success
+[2024-05-03 11:07:04] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-03 11:07:04] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-03 11:07:04] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-03 11:07:04] INFO root fetch - main [MainThread]: Store serial: [23043688]
