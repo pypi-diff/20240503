@@ -15136,3 +15136,33 @@
 [2024-05-03 11:32:45] INFO root fetch - processPackages [parse-qwantz]: Remove: archive file [/home/abi/fetcher/tmp/parse_qwantz-2024.5.1.tar.gz]
 [2024-05-03 11:32:45] INFO root fetch - main [MainThread]: End processing [parse-qwantz]: success
 [2024-05-03 11:32:45] INFO root fetch - main [MainThread]: Store serial: [23043891]
+[2024-05-03 11:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043891]
+[2024-05-03 11:35:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 11:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netsome
+[2024-05-03 11:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-loki-clientv2
+[2024-05-03 11:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iinfer
+[2024-05-03 11:35:14] INFO root fetch - processPackages [netsome]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-03 11:35:14] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/c3/c3/abe2c774857735bb5841fa4358fac28b2774cf708f98e47a3951fb972e09/netsome-0.3.7.tar.gz
+[2024-05-03 11:35:14] INFO root fetch - processPackages [python-loki-clientv2]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-03 11:35:14] INFO root fetch - processPackages [iinfer]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-03 11:35:15] INFO root fetch - processPackages [python-loki-clientv2]: Downloading https://files.pythonhosted.org/packages/83/91/862acc6fb544db2b0a7725a17865eabb9b4e81214f13a193fc3a5666ac1d/python_loki_clientv2-0.1.5.tar.gz
+[2024-05-03 11:35:15] INFO root fetch - processPackages [iinfer]: Downloading https://files.pythonhosted.org/packages/85/e8/c985fb5eedcbb5e7c15eb8cb120a46a81064def5312b050b60d1f71ca227/iinfer-0.7.0.tar.gz
+[2024-05-03 11:35:15] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/25/bd/d0110b6a47b40d5737f8b22bdc3ba7a13f2ef58e2fd2496f009716391e98/netsome-0.3.8.tar.gz
+[2024-05-03 11:35:15] INFO root fetch - processPackages [netsome]: executing diffoscope
+[2024-05-03 11:35:15] INFO root fetch - processPackages [netsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsome-0.3.7.tar.gz tmp/netsome-0.3.8.tar.gz --markdown 20240503/n/netsome/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-03 11:35:15] INFO root fetch - processPackages [python-loki-clientv2]: Downloading https://files.pythonhosted.org/packages/cd/a0/b6bb11a0b5f126acf6d17ece184d7f1032ff10f3421263b390e42e26e419/python_loki_clientv2-0.1.6.tar.gz
+[2024-05-03 11:35:15] INFO root fetch - processPackages [iinfer]: Downloading https://files.pythonhosted.org/packages/09/fc/ee48c30715da598966c936a39d9bafb426e1880b7c053c32ea8e79c41c59/iinfer-0.7.1.tar.gz
+[2024-05-03 11:35:15] INFO root fetch - processPackages [python-loki-clientv2]: executing diffoscope
+[2024-05-03 11:35:15] INFO root fetch - processPackages [python-loki-clientv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_loki_clientv2-0.1.5.tar.gz tmp/python_loki_clientv2-0.1.6.tar.gz --markdown 20240503/p/python-loki-clientv2/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-03 11:35:15] INFO root fetch - processPackages [iinfer]: executing diffoscope
+[2024-05-03 11:35:15] INFO root fetch - processPackages [iinfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iinfer-0.7.0.tar.gz tmp/iinfer-0.7.1.tar.gz --markdown 20240503/i/iinfer/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-03 11:35:15] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.7.tar.gz]
+[2024-05-03 11:35:15] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.8.tar.gz]
+[2024-05-03 11:35:15] INFO root fetch - main [MainThread]: End processing [netsome]: success
+[2024-05-03 11:35:16] INFO root fetch - processPackages [python-loki-clientv2]: Remove: archive file [/home/abi/fetcher/tmp/python_loki_clientv2-0.1.5.tar.gz]
+[2024-05-03 11:35:16] INFO root fetch - processPackages [python-loki-clientv2]: Remove: archive file [/home/abi/fetcher/tmp/python_loki_clientv2-0.1.6.tar.gz]
+[2024-05-03 11:35:16] INFO root fetch - main [MainThread]: End processing [python-loki-clientv2]: success
+[2024-05-03 11:35:17] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.7.0.tar.gz]
+[2024-05-03 11:35:17] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.7.1.tar.gz]
+[2024-05-03 11:35:17] INFO root fetch - main [MainThread]: End processing [iinfer]: success
+[2024-05-03 11:35:17] INFO root fetch - main [MainThread]: Store serial: [23043903]
