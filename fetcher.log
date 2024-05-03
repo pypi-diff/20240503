@@ -2777,3 +2777,15 @@
 [2024-05-03 02:46:38] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405020044.tar.gz]
 [2024-05-03 02:46:38] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-03 02:46:38] INFO root fetch - main [MainThread]: Store serial: [23039160]
+[2024-05-03 02:48:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039160]
+[2024-05-03 02:48:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 02:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-llama
+[2024-05-03 02:48:47] INFO root fetch - processPackages [easy-llama]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 02:48:47] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/1a/91/c1bfe1639dae2e115e4f2c2e42340773ea2a9aff37899c768612d44a4218/easy_llama-0.1.7.tar.gz
+[2024-05-03 02:48:48] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-03 02:48:48] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-03 02:48:48] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.7.tar.gz tmp/easy_llama-0.1.8.tar.gz --markdown 20240503/e/easy-llama/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 02:48:48] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.7.tar.gz]
+[2024-05-03 02:48:48] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-03 02:48:48] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-03 02:48:48] INFO root fetch - main [MainThread]: Store serial: [23039163]
