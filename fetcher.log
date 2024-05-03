@@ -22773,3 +22773,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 17:03:52] INFO root fetch - processPackages [ovs]: Remove: archive file [/home/abi/fetcher/tmp/ovs-3.1.2.tar.gz]
 [2024-05-03 17:03:52] INFO root fetch - main [MainThread]: End processing [ovs]: success
 [2024-05-03 17:03:52] INFO root fetch - main [MainThread]: Store serial: [23047568]
+[2024-05-03 17:05:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047568]
+[2024-05-03 17:06:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beetl
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-nightly-cuda120
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kitab
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-drive-sdk-preview
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-drive-sdk
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: invoice-pdfgen
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypanasonic
+[2024-05-03 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mmisp-lib
+[2024-05-03 17:06:02] INFO root fetch - processPackages [beetl]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-03 17:06:02] WARNING root fetch - processPackages [invoice-pdfgen]: Skipping, unable to determine old version
+[2024-05-03 17:06:02] INFO root fetch - main [MainThread]: End processing [invoice-pdfgen] error
+[2024-05-03 17:06:02] INFO root fetch - processPackages [mmisp-lib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 17:06:02] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-03 17:06:02] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.38.0.dev20240502] Old Version: [1.38.0.dev20240501]
+[2024-05-03 17:06:02] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/f8/6f/fb30bd0055c9eefd4c22dc547fadd80bbfa82445486f251c553e2fcb717d/beetl-0.4.5.tar.gz
+[2024-05-03 17:06:02] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/b8/e3/d65041702f768e10801e5175ac78ce073b21cbb3d61171304ca5fa3536c1/mmisp_lib-0.1.1.tar.gz
+[2024-05-03 17:06:02] INFO root fetch - processPackages [kitab]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-05-03 17:06:02] INFO root fetch - processPackages [pypanasonic]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 17:06:02] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.38.0.dev20240502] Old Version: [1.38.0.dev20240501]
+[2024-05-03 17:06:02] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/92/60/decf0711268db2bfcdb83725688627829c4ebd8a9e0266b5cdf26d8d314c/lusid_drive_sdk-2.1.8.tar.gz
+[2024-05-03 17:06:02] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-05-03 17:06:03] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/bf/27/8c201a39d1f73c9c369c8719cdc9d9a560460893ae5b0a835340ac997ec9/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240501.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [pypanasonic]: Downloading https://files.pythonhosted.org/packages/06/96/52296b46d880a792ab1320c7ead60b05186bbe69aa1995e66c76e98e48b5/pypanasonic-0.0.5.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [kitab]: Downloading https://files.pythonhosted.org/packages/16/d5/7d83edc69f586056597af1030e2b1b234716cf4749ccd11c08c0eeb18577/kitab-0.0.22.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/3a/1c/fb158a10734166d241d9861e543e33e2a39bed636bb9ba0d2a21c37d075b/nvidia_dali_nightly_cuda120-1.38.0.dev20240501.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/9c/21/2bc7c2f4a88ea4186d6bb581b0de48f5118c4c40406113d542273c930957/lusid_drive_sdk-2.1.9.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/81/7c/da3a68c5418c8b22d47de9fec78a580d6b25506e748d0b174aada7098ab8/beetl-0.4.6.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/97/1c/4e913e768876f89d5dae4f488799233b478d6765370f6e835b9ee4e5d5c3/mmisp_lib-0.1.2.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-05-03 17:06:03] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.8.tar.gz tmp/lusid_drive_sdk-2.1.9.tar.gz --markdown 20240503/l/lusid-drive-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-03 17:06:03] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/81/e8/709b899fe613e5b9f71d1a30d5b68f3e5b502af2f0342dd073d82118aad1/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240502.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [beetl]: executing diffoscope
+[2024-05-03 17:06:03] INFO root fetch - processPackages [beetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetl-0.4.5.tar.gz tmp/beetl-0.4.6.tar.gz --markdown 20240503/b/beetl/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-03 17:06:03] INFO root fetch - processPackages [mmisp-lib]: executing diffoscope
+[2024-05-03 17:06:03] INFO root fetch - processPackages [mmisp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmisp_lib-0.1.1.tar.gz tmp/mmisp_lib-0.1.2.tar.gz --markdown 20240503/m/mmisp-lib/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 17:06:03] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/0f/05/de2d4388dcf4e81e006cb79cc0c07fa98ba0fc0d653d0cf74b974ab2262e/nvidia_dali_nightly_cuda120-1.38.0.dev20240502.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [pypanasonic]: Downloading https://files.pythonhosted.org/packages/71/94/4f481dad087b599e1068a1b9d487ec1005b97027d318e51d53e21eae9c1f/pypanasonic-0.0.6.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [kitab]: Downloading https://files.pythonhosted.org/packages/de/b0/5bcfc3c4f5aac254535c437244068c981cab448cad0f76037baff14de5cc/kitab-0.0.23.tar.gz
+[2024-05-03 17:06:03] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-03 17:06:03] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240501.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240502.tar.gz --markdown 20240503/n/nvidia-dali-tf-plugin-nightly-cuda120/1.38.0.dev20240501-1.38.0.dev20240502/README.md --exclude *.pyd
+[2024-05-03 17:06:03] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-05-03 17:06:03] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240501.tar.gz tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240502.tar.gz --markdown 20240503/n/nvidia-dali-nightly-cuda120/1.38.0.dev20240501-1.38.0.dev20240502/README.md --exclude *.pyd
+[2024-05-03 17:06:03] INFO root fetch - processPackages [pypanasonic]: executing diffoscope
+[2024-05-03 17:06:03] INFO root fetch - processPackages [pypanasonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypanasonic-0.0.5.tar.gz tmp/pypanasonic-0.0.6.tar.gz --markdown 20240503/p/pypanasonic/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 17:06:03] INFO root fetch - processPackages [kitab]: executing diffoscope
+[2024-05-03 17:06:03] INFO root fetch - processPackages [kitab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kitab-0.0.22.tar.gz tmp/kitab-0.0.23.tar.gz --markdown 20240503/k/kitab/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-05-03 17:06:04] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.5.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.6.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - main [MainThread]: End processing [beetl]: success
+[2024-05-03 17:06:04] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.8.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.9.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-05-03 17:06:04] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2024-05-03 17:06:04] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20240503/l/lusid-drive-sdk-preview/0.1.95-0.1.96/README.md --exclude *.pyd
+[2024-05-03 17:06:04] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.1.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.2.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - main [MainThread]: End processing [mmisp-lib]: success
+[2024-05-03 17:06:04] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240501.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240502.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-03 17:06:04] INFO root fetch - processPackages [pypanasonic]: Remove: archive file [/home/abi/fetcher/tmp/pypanasonic-0.0.5.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - processPackages [pypanasonic]: Remove: archive file [/home/abi/fetcher/tmp/pypanasonic-0.0.6.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - main [MainThread]: End processing [pypanasonic]: success
+[2024-05-03 17:06:04] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240501.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240502.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-05-03 17:06:04] INFO root fetch - processPackages [kitab]: Remove: archive file [/home/abi/fetcher/tmp/kitab-0.0.22.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - processPackages [kitab]: Remove: archive file [/home/abi/fetcher/tmp/kitab-0.0.23.tar.gz]
+[2024-05-03 17:06:04] INFO root fetch - main [MainThread]: End processing [kitab]: success
+[2024-05-03 17:06:05] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.95.tar.gz]
+[2024-05-03 17:06:05] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
+[2024-05-03 17:06:05] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2024-05-03 17:06:05] INFO root fetch - main [MainThread]: Store serial: [23047607]
