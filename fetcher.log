@@ -9058,3 +9058,60 @@
 [2024-05-03 06:23:20] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.3.tar.gz]
 [2024-05-03 06:23:20] INFO root fetch - main [MainThread]: End processing [ibind]: success
 [2024-05-03 06:23:20] INFO root fetch - main [MainThread]: Store serial: [23041434]
+[2024-05-03 06:25:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041434]
+[2024-05-03 06:25:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 06:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-payment-receipt-report
+[2024-05-03 06:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libluksde-python
+[2024-05-03 06:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bringg-sdk
+[2024-05-03 06:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-stock-report
+[2024-05-03 06:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: core-pro
+[2024-05-03 06:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-openai
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-payment-receipt-report]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0.1]
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: New version: [17.0.1.1.0] Old Version: [16.0.6.13.0]
+[2024-05-03 06:25:29] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 06:25:29] INFO root fetch - processPackages [langchain-openai]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-03 06:25:29] INFO root fetch - processPackages [bringg-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-payment-receipt-report]: Downloading https://files.pythonhosted.org/packages/db/f4/dd34130b80486f5fad64dc70592032b6258d07eab2832b7611044a8d6f1f/odoo_addon_l10n_ro_payment_receipt_report-16.0.1.2.0.1-py3-none-any.whl
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/e4/f7/ea3be7d43702fbb0fae8e93b5c70a43d7793b1c3ad3adb7a6a74ffb128be/odoo_addon_l10n_ro_stock_report-16.0.6.13.0-py3-none-any.whl
+[2024-05-03 06:25:29] INFO root fetch - processPackages [libluksde-python]: New version: [20240503] Old Version: [20240114]
+[2024-05-03 06:25:29] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-05-03 06:25:29] INFO root fetch - processPackages [bringg-sdk]: Downloading https://files.pythonhosted.org/packages/1e/91/a21c92e573c452f89c22ccbf87f8add53023e5bf3f426fa63d89ff6c4825/bringg_sdk-1.0.0.tar.gz
+[2024-05-03 06:25:29] INFO root fetch - processPackages [langchain-openai]: Downloading https://files.pythonhosted.org/packages/76/60/a1d3534115c35fb3e0955df61556fab064f2a7e501bb00bda0e4af240ee0/langchain_openai-0.1.5.tar.gz
+[2024-05-03 06:25:29] INFO root fetch - processPackages [libluksde-python]: Downloading https://files.pythonhosted.org/packages/54/a1/205a26e1a9a5c98926883b2b24575d82c797618358f0d12ccfe1cc9224b6/libluksde-python-20240114.tar.gz
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-payment-receipt-report]: Downloading https://files.pythonhosted.org/packages/d2/a3/4416775839f09721e5bee0c45264e0f27900d33380a10f4f2cf0039b229e/odoo_addon_l10n_ro_payment_receipt_report-16.0.1.3.0-py3-none-any.whl
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/69/76/5ab2a2809a786a9d49987ae61b4a6b9f92544e2b4424df8d2f9dea34d73a/odoo_addon_l10n_ro_stock_report-17.0.1.1.0-py3-none-any.whl
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-payment-receipt-report]: executing diffoscope
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-payment-receipt-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_payment_receipt_report-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_payment_receipt_report-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-ro-payment-receipt-report/16.0.1.2.0.1-16.0.1.3.0/README.md --exclude *.pyd
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: executing diffoscope
+[2024-05-03 06:25:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_report-16.0.6.13.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_report-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-ro-stock-report/16.0.6.13.0-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-03 06:25:29] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-05-03 06:25:29] INFO root fetch - processPackages [bringg-sdk]: Downloading https://files.pythonhosted.org/packages/fd/9b/94f9ca2b4a31a8d365096e133e9fe3c2558f2f849f9332e91077e635ddd9/bringg_sdk-1.0.1.tar.gz
+[2024-05-03 06:25:29] INFO root fetch - processPackages [langchain-openai]: Downloading https://files.pythonhosted.org/packages/54/c8/2cbd1be94a5ff28c761ad1b00b3ed20e808fdee152d71dabe42bbbe89a1c/langchain_openai-0.1.6.tar.gz
+[2024-05-03 06:25:29] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-05-03 06:25:29] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240503/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 06:25:29] INFO root fetch - processPackages [bringg-sdk]: executing diffoscope
+[2024-05-03 06:25:29] INFO root fetch - processPackages [bringg-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bringg_sdk-1.0.0.tar.gz tmp/bringg_sdk-1.0.1.tar.gz --markdown 20240503/b/bringg-sdk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-03 06:25:30] INFO root fetch - processPackages [langchain-openai]: executing diffoscope
+[2024-05-03 06:25:30] INFO root fetch - processPackages [langchain-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_openai-0.1.5.tar.gz tmp/langchain_openai-0.1.6.tar.gz --markdown 20240503/l/langchain-openai/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-03 06:25:30] INFO root fetch - processPackages [libluksde-python]: Downloading https://files.pythonhosted.org/packages/2d/6c/a09e3c33171504eed2ab94e8ce077572e0cb29ecef7c0fef0185fb739d1e/libluksde-python-20240503.tar.gz
+[2024-05-03 06:25:30] INFO root fetch - processPackages [libluksde-python]: executing diffoscope
+[2024-05-03 06:25:30] INFO root fetch - processPackages [libluksde-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libluksde-python-20240114.tar.gz tmp/libluksde-python-20240503.tar.gz --markdown 20240503/l/libluksde-python/20240114-20240503/README.md --exclude *.pyd
+[2024-05-03 06:25:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-payment-receipt-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_payment_receipt_report-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-03 06:25:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-payment-receipt-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_payment_receipt_report-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-03 06:25:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-payment-receipt-report]: success
+[2024-05-03 06:25:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-16.0.6.13.0-py3-none-any.whl.zip]
+[2024-05-03 06:25:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-03 06:25:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-report]: success
+[2024-05-03 06:25:30] INFO root fetch - processPackages [langchain-openai]: Remove: archive file [/home/abi/fetcher/tmp/langchain_openai-0.1.5.tar.gz]
+[2024-05-03 06:25:30] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-05-03 06:25:30] INFO root fetch - processPackages [langchain-openai]: Remove: archive file [/home/abi/fetcher/tmp/langchain_openai-0.1.6.tar.gz]
+[2024-05-03 06:25:30] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-05-03 06:25:30] INFO root fetch - main [MainThread]: End processing [langchain-openai]: success
+[2024-05-03 06:25:30] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-05-03 06:25:30] INFO root fetch - processPackages [bringg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bringg_sdk-1.0.0.tar.gz]
+[2024-05-03 06:25:30] INFO root fetch - processPackages [bringg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bringg_sdk-1.0.1.tar.gz]
+[2024-05-03 06:25:30] INFO root fetch - main [MainThread]: End processing [bringg-sdk]: success
+[2024-05-03 06:25:37] INFO root fetch - processPackages [libluksde-python]: Remove: archive file [/home/abi/fetcher/tmp/libluksde-python-20240114.tar.gz]
+[2024-05-03 06:25:37] INFO root fetch - processPackages [libluksde-python]: Remove: archive file [/home/abi/fetcher/tmp/libluksde-python-20240503.tar.gz]
+[2024-05-03 06:25:37] INFO root fetch - main [MainThread]: End processing [libluksde-python]: success
+[2024-05-03 06:25:37] INFO root fetch - main [MainThread]: Store serial: [23041449]
