@@ -18368,3 +18368,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:04:18] INFO root fetch - processPackages [mango-agents-assume]: Remove: archive file [/home/abi/fetcher/tmp/mango_agents_assume-1.1.4.post1.tar.gz]
 [2024-05-03 14:04:18] INFO root fetch - main [MainThread]: End processing [mango-agents-assume]: success
 [2024-05-03 14:04:18] INFO root fetch - main [MainThread]: Store serial: [23045561]
+[2024-05-03 14:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045561]
+[2024-05-03 14:06:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlord
+[2024-05-03 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2024-05-03 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nettigo-air-monitor
+[2024-05-03 14:06:50] INFO root fetch - processPackages [streamlord]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-03 14:06:50] INFO root fetch - processPackages [nettigo-air-monitor]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-03 14:06:50] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-03 14:06:50] INFO root fetch - processPackages [streamlord]: Downloading https://files.pythonhosted.org/packages/4f/a1/f154dc240402b562d6a688c00e400ff8fa5174135336cf5dc10a6716f1f8/streamlord-0.2.0.tar.gz
+[2024-05-03 14:06:50] INFO root fetch - processPackages [nettigo-air-monitor]: Downloading https://files.pythonhosted.org/packages/ab/69/483bb9a041f85d5ffb304b547dad91f068cd33d1a56d55cf0719a3e03b5e/nettigo_air_monitor-3.0.0.tar.gz
+[2024-05-03 14:06:51] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-05-03 14:06:51] INFO root fetch - processPackages [streamlord]: Downloading https://files.pythonhosted.org/packages/49/ff/e76145165a86d209438c254b018676484816c7c1f63058c1a505388a0f39/streamlord-0.2.1.tar.gz
+[2024-05-03 14:06:51] INFO root fetch - processPackages [streamlord]: executing diffoscope
+[2024-05-03 14:06:51] INFO root fetch - processPackages [streamlord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlord-0.2.0.tar.gz tmp/streamlord-0.2.1.tar.gz --markdown 20240503/s/streamlord/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-03 14:06:51] INFO root fetch - processPackages [nettigo-air-monitor]: Downloading https://files.pythonhosted.org/packages/d3/2f/f8e4a0d578d240c67fd3caaaf9a4b9fc07c943075fe121780e322356329e/nettigo_air_monitor-3.0.1.tar.gz
+[2024-05-03 14:06:51] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-05-03 14:06:51] INFO root fetch - processPackages [nettigo-air-monitor]: executing diffoscope
+[2024-05-03 14:06:51] INFO root fetch - processPackages [nettigo-air-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nettigo_air_monitor-3.0.0.tar.gz tmp/nettigo_air_monitor-3.0.1.tar.gz --markdown 20240503/n/nettigo-air-monitor/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-03 14:06:51] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-03 14:06:51] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240503/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-03 14:06:51] INFO root fetch - processPackages [streamlord]: Remove: archive file [/home/abi/fetcher/tmp/streamlord-0.2.0.tar.gz]
+[2024-05-03 14:06:51] INFO root fetch - processPackages [streamlord]: Remove: archive file [/home/abi/fetcher/tmp/streamlord-0.2.1.tar.gz]
+[2024-05-03 14:06:51] INFO root fetch - main [MainThread]: End processing [streamlord]: success
+[2024-05-03 14:06:51] INFO root fetch - processPackages [nettigo-air-monitor]: Remove: archive file [/home/abi/fetcher/tmp/nettigo_air_monitor-3.0.0.tar.gz]
+[2024-05-03 14:06:51] INFO root fetch - processPackages [nettigo-air-monitor]: Remove: archive file [/home/abi/fetcher/tmp/nettigo_air_monitor-3.0.1.tar.gz]
+[2024-05-03 14:06:51] INFO root fetch - main [MainThread]: End processing [nettigo-air-monitor]: success
+[2024-05-03 14:06:52] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-05-03 14:06:52] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-05-03 14:06:52] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-03 14:06:52] INFO root fetch - main [MainThread]: Store serial: [23045573]
