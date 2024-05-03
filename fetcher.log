@@ -18329,3 +18329,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:01:46] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.6.tar.gz]
 [2024-05-03 14:01:46] INFO root fetch - main [MainThread]: End processing [vital]: success
 [2024-05-03 14:01:46] INFO root fetch - main [MainThread]: Store serial: [23045547]
+[2024-05-03 14:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045547]
+[2024-05-03 14:04:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 14:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDhelper
+[2024-05-03 14:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazurite
+[2024-05-03 14:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-anime-downloader
+[2024-05-03 14:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mango-agents-assume
+[2024-05-03 14:04:17] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-03 14:04:17] INFO root fetch - processPackages [TDhelper]: New version: [2.7.7] Old Version: [2.7.6]
+[2024-05-03 14:04:17] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Downloading https://files.pythonhosted.org/packages/8b/8d/f7eee44a83b90e69014943d08be539f772d29d99637b05da1faca07a1d0f/nonebot_plugin_anime_downloader-0.1.2.tar.gz
+[2024-05-03 14:04:17] INFO root fetch - processPackages [mango-agents-assume]: New version: [1.1.4.post1] Old Version: [1.1.3.post2]
+[2024-05-03 14:04:17] INFO root fetch - processPackages [lazurite]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 14:04:17] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/8f/f5/00d10c19651ed2a9aaa5f0595210fcd6665f19291fd9359a0b4096a7d9fd/TDhelper-2.7.6.tar.gz
+[2024-05-03 14:04:17] INFO root fetch - processPackages [lazurite]: Downloading https://files.pythonhosted.org/packages/a4/9b/000f79a0acf94e04dd3e2fbc8154256994300948d8aae61cdebd7bce18c5/lazurite-0.1.0.tar.gz
+[2024-05-03 14:04:17] INFO root fetch - processPackages [mango-agents-assume]: Downloading https://files.pythonhosted.org/packages/cc/c6/bc4ac28578aa50c2c87ba74672e39959c837631320cbecb04b7156706396/mango_agents_assume-1.1.3.post2.tar.gz
+[2024-05-03 14:04:17] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/e1/ef/beac5325d4769a9ebce648685bb1962915cc6f522df526ab8800b25b763e/TDhelper-2.7.7.tar.gz
+[2024-05-03 14:04:17] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Downloading https://files.pythonhosted.org/packages/e7/92/fe20ee48308a29e3e204740f2f1cbb720d91b50db5612bfe101c7d768ee2/nonebot_plugin_anime_downloader-0.1.3.tar.gz
+[2024-05-03 14:04:17] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2024-05-03 14:04:17] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.7.6.tar.gz tmp/TDhelper-2.7.7.tar.gz --markdown 20240503/T/TDhelper/2.7.6-2.7.7/README.md --exclude *.pyd
+[2024-05-03 14:04:17] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: executing diffoscope
+[2024-05-03 14:04:17] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_anime_downloader-0.1.2.tar.gz tmp/nonebot_plugin_anime_downloader-0.1.3.tar.gz --markdown 20240503/n/nonebot-plugin-anime-downloader/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-03 14:04:17] INFO root fetch - processPackages [lazurite]: Downloading https://files.pythonhosted.org/packages/de/cc/70e1a5a90e433db39ad1089d06d45d7641652ec801a71ab253c536cffd89/lazurite-0.1.1.tar.gz
+[2024-05-03 14:04:18] INFO root fetch - processPackages [lazurite]: executing diffoscope
+[2024-05-03 14:04:18] INFO root fetch - processPackages [lazurite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazurite-0.1.0.tar.gz tmp/lazurite-0.1.1.tar.gz --markdown 20240503/l/lazurite/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 14:04:18] INFO root fetch - processPackages [mango-agents-assume]: Downloading https://files.pythonhosted.org/packages/65/fb/a2e346d73b4309ba5bfe56712c772fd9a568a57e9724f494e1cee1111001/mango_agents_assume-1.1.4.post1.tar.gz
+[2024-05-03 14:04:18] INFO root fetch - processPackages [mango-agents-assume]: executing diffoscope
+[2024-05-03 14:04:18] INFO root fetch - processPackages [mango-agents-assume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_agents_assume-1.1.3.post2.tar.gz tmp/mango_agents_assume-1.1.4.post1.tar.gz --markdown 20240503/m/mango-agents-assume/1.1.3.post2-1.1.4.post1/README.md --exclude *.pyd
+[2024-05-03 14:04:18] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_anime_downloader-0.1.2.tar.gz]
+[2024-05-03 14:04:18] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_anime_downloader-0.1.3.tar.gz]
+[2024-05-03 14:04:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-anime-downloader]: success
+[2024-05-03 14:04:18] INFO root fetch - processPackages [lazurite]: Remove: archive file [/home/abi/fetcher/tmp/lazurite-0.1.0.tar.gz]
+[2024-05-03 14:04:18] INFO root fetch - processPackages [lazurite]: Remove: archive file [/home/abi/fetcher/tmp/lazurite-0.1.1.tar.gz]
+[2024-05-03 14:04:18] INFO root fetch - main [MainThread]: End processing [lazurite]: success
+[2024-05-03 14:04:18] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.7.6.tar.gz]
+[2024-05-03 14:04:18] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.7.7.tar.gz]
+[2024-05-03 14:04:18] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2024-05-03 14:04:18] INFO root fetch - processPackages [mango-agents-assume]: Remove: archive file [/home/abi/fetcher/tmp/mango_agents_assume-1.1.3.post2.tar.gz]
+[2024-05-03 14:04:18] INFO root fetch - processPackages [mango-agents-assume]: Remove: archive file [/home/abi/fetcher/tmp/mango_agents_assume-1.1.4.post1.tar.gz]
+[2024-05-03 14:04:18] INFO root fetch - main [MainThread]: End processing [mango-agents-assume]: success
+[2024-05-03 14:04:18] INFO root fetch - main [MainThread]: Store serial: [23045561]
