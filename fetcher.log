@@ -20619,3 +20619,138 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:55:10] INFO root fetch - processPackages [elasticsearch8]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch8-8.9.0.tar.gz]
 [2024-05-03 15:55:10] INFO root fetch - main [MainThread]: End processing [elasticsearch8]: success
 [2024-05-03 15:55:10] INFO root fetch - main [MainThread]: Store serial: [23046691]
+[2024-05-03 15:57:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046691]
+[2024-05-03 15:57:38] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unico_device_setuper
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-large-image
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aqora-cli
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk-preview
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: girder-large-image-annotation
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anemoi-dataset
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-converter
+[2024-05-03 15:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-tasks
+[2024-05-03 15:57:38] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-03 15:57:38] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-03 15:57:38] INFO root fetch - processPackages [unico_device_setuper]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 15:57:38] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-03 15:57:38] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-03 15:57:38] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-03 15:57:38] INFO root fetch - processPackages [aqora-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 15:57:38] WARNING root fetch - processPackages [anemoi-dataset]: Skipping, unable to determine old version
+[2024-05-03 15:57:38] INFO root fetch - processPackages [anemoi-dataset]: Start processing: large-image-source-bioformats
+[2024-05-03 15:57:38] INFO root fetch - main [MainThread]: End processing [anemoi-dataset] error
+[2024-05-03 15:57:39] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.86] Old Version: [2.1.81]
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-03 15:57:39] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/d2/92/d072fa606a4761eb667b0efc0ba4137c9f9b34386f41757c597cdeff49d5/large-image-tasks-1.9.1.dev6.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [unico_device_setuper]: Downloading https://files.pythonhosted.org/packages/20/40/5dbb236a0b434380d8e184a21d8becf9dc32a76b96aea0c6e2f2718b1dd8/unico_device_setuper-0.1.0.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [aqora-cli]: Downloading https://files.pythonhosted.org/packages/e3/78/852ebf4bfa86346947575c017d14c3eb1e7dce505bc70ddc8181bb836cf5/aqora_cli-0.1.8.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/9f/7d/764189c337fd7a890bec6278bb2e1d065d51af7f06726f3d00b6d3836aa4/large-image-source-bioformats-1.9.1.dev6.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/4c/19/b8ab40fdb07faa1c4ebbd79d78fe9ad4442d464860a2998abf92ecd3c072/lusid_sdk-2.1.81.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/59/66/7de5976597497ff75f76e9d1e817dc755ed82ff85669b1f9613d1b27c9e8/large-image-tasks-1.9.1.dev8.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/be/b1/457ea10f23a8022b9045522623e3c24789e308b80800b4fd679928bb7cf8/large-image-source-bioformats-1.9.1.dev8.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20240503/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 15:57:39] INFO root fetch - processPackages [unico_device_setuper]: Downloading https://files.pythonhosted.org/packages/8c/bb/b41fa1c36f52d1e7e9398db1d921ef9edfd292e8fc58ef99f4b6b1117193/unico_device_setuper-0.2.0.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2024-05-03 15:57:39] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20240503/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20240503/l/large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20240503/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2024-05-03 15:57:39] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20240503/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 15:57:39] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2024-05-03 15:57:39] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20240503/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 15:57:39] INFO root fetch - processPackages [unico_device_setuper]: executing diffoscope
+[2024-05-03 15:57:39] INFO root fetch - processPackages [unico_device_setuper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unico_device_setuper-0.1.0.tar.gz tmp/unico_device_setuper-0.2.0.tar.gz --markdown 20240503/u/unico_device_setuper/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 15:57:39] INFO root fetch - processPackages [aqora-cli]: Downloading https://files.pythonhosted.org/packages/ef/58/11e52164a10e8c7e6d60343bd48fdd441be4d871f46cb1a58ec53052f47f/aqora_cli-0.1.9.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-03 15:57:39] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/67/16/0206ff0565e1d112f5a6a55c68dbb0dff160ed8d99f2210d93c9bb15a39f/lusid_sdk-2.1.86.tar.gz
+[2024-05-03 15:57:40] INFO root fetch - processPackages [aqora-cli]: executing diffoscope
+[2024-05-03 15:57:40] INFO root fetch - processPackages [aqora-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqora_cli-0.1.8.tar.gz tmp/aqora_cli-0.1.9.tar.gz --markdown 20240503/a/aqora-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 15:57:40] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-03 15:57:40] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-03 15:57:40] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.81.tar.gz tmp/lusid_sdk-2.1.86.tar.gz --markdown 20240503/l/lusid-sdk/2.1.81-2.1.86/README.md --exclude *.pyd
+[2024-05-03 15:57:40] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240503/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev6.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev8.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-tasks]: Start processing: PVNet
+[2024-05-03 15:57:40] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-converter]: Start processing: large-image-source-deepzoom
+[2024-05-03 15:57:40] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/16/46/821666cfb4c3a315b4ccc86d7ba529a1af49e4581bbd8b7ca8e1cb5fa4ba/large-image-source-deepzoom-1.9.1.dev6.tar.gz
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-source-bioformats]: Start processing: dandi
+[2024-05-03 15:57:40] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image]: Start processing: large-image-source-dicom
+[2024-05-03 15:57:40] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2024-05-03 15:57:40] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [girder-large-image]: Start processing: pyfancytranslator
+[2024-05-03 15:57:40] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2024-05-03 15:57:40] INFO root fetch - processPackages [unico_device_setuper]: Remove: archive file [/home/abi/fetcher/tmp/unico_device_setuper-0.1.0.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [unico_device_setuper]: Remove: archive file [/home/abi/fetcher/tmp/unico_device_setuper-0.2.0.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2024-05-03 15:57:40] INFO root fetch - main [MainThread]: End processing [unico_device_setuper]: success
+[2024-05-03 15:57:40] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2024-05-03 15:57:40] WARNING root fetch - processPackages [pyfancytranslator]: Skipping, unable to determine old version
+[2024-05-03 15:57:40] INFO root fetch - main [MainThread]: End processing [pyfancytranslator] error
+[2024-05-03 15:57:40] INFO root fetch - processPackages [dandi]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 15:57:40] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-05-03 15:57:40] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/1f/75/67d4e66af91c90873acb456f65871c79b18f4690638c624ddd6f22d8dc5c/large-image-source-deepzoom-1.9.1.dev8.tar.gz
+[2024-05-03 15:57:41] INFO root fetch - processPackages [aqora-cli]: Remove: archive file [/home/abi/fetcher/tmp/aqora_cli-0.1.8.tar.gz]
+[2024-05-03 15:57:41] INFO root fetch - processPackages [aqora-cli]: Remove: archive file [/home/abi/fetcher/tmp/aqora_cli-0.1.9.tar.gz]
+[2024-05-03 15:57:41] INFO root fetch - main [MainThread]: End processing [aqora-cli]: success
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20240503/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-dicom]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-05-03 15:57:41] INFO root fetch - processPackages [dandi]: Downloading https://files.pythonhosted.org/packages/45/27/7481f61f2dfd6bc781deb746db15788de5602cb62c74a83165382937191d/dandi-0.8.0.tar.gz
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/d0/79/e3da9b4de9a6fa4efb8ed085e7b9ce05c15e60887115faf689aa31dc0378/large-image-source-dicom-1.28.2.dev6.tar.gz
+[2024-05-03 15:57:41] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/0c/a6/5c9e2e7611fee745adc820c60a8c1048bdee373b6da1f5507e41779de11f/large-image-source-dicom-1.28.2.dev8.tar.gz
+[2024-05-03 15:57:41] INFO root fetch - processPackages [dandi]: Downloading https://files.pythonhosted.org/packages/1a/6e/a8fc23e1e42d580ca6c094970f6eb6a25451f7c10e89e7c7db12ef039482/dandi-0.9.0.tar.gz
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-dicom]: executing diffoscope
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dicom-1.28.2.dev6.tar.gz tmp/large-image-source-dicom-1.28.2.dev8.tar.gz --markdown 20240503/l/large-image-source-dicom/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-05-03 15:57:41] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-05-03 15:57:41] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240503/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz]
+[2024-05-03 15:57:41] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz]
+[2024-05-03 15:57:41] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2024-05-03 15:57:41] INFO root fetch - processPackages [dandi]: executing diffoscope
+[2024-05-03 15:57:41] INFO root fetch - processPackages [dandi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dandi-0.8.0.tar.gz tmp/dandi-0.9.0.tar.gz --markdown 20240503/d/dandi/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 15:57:42] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.28.2.dev6.tar.gz]
+[2024-05-03 15:57:42] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.28.2.dev8.tar.gz]
+[2024-05-03 15:57:42] INFO root fetch - main [MainThread]: End processing [large-image-source-dicom]: success
+[2024-05-03 15:57:42] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-05-03 15:57:42] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-05-03 15:57:42] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-05-03 15:57:42] INFO root fetch - processPackages [dandi]: Remove: archive file [/home/abi/fetcher/tmp/dandi-0.8.0.tar.gz]
+[2024-05-03 15:57:42] INFO root fetch - processPackages [dandi]: Remove: archive file [/home/abi/fetcher/tmp/dandi-0.9.0.tar.gz]
+[2024-05-03 15:57:42] INFO root fetch - main [MainThread]: End processing [dandi]: success
+[2024-05-03 15:57:44] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.81.tar.gz]
+[2024-05-03 15:57:44] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.86.tar.gz]
+[2024-05-03 15:57:44] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-03 15:57:54] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-03 15:57:54] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-03 15:57:54] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-03 15:57:54] INFO root fetch - main [MainThread]: Store serial: [23046753]
