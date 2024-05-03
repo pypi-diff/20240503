@@ -2858,3 +2858,45 @@
 [2024-05-03 02:53:28] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-03 02:53:28] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-03 02:53:28] INFO root fetch - main [MainThread]: Store serial: [23039184]
+[2024-05-03 02:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039184]
+[2024-05-03 02:55:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2024-05-03 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samplics
+[2024-05-03 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teams-ai-azml
+[2024-05-03 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-json-patch-rules
+[2024-05-03 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynwb
+[2024-05-03 02:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PokerNow
+[2024-05-03 02:55:36] INFO root fetch - processPackages [PokerNow]: New version: [0.7.5] Old Version: [0.7.265]
+[2024-05-03 02:55:36] WARNING root fetch - processPackages [python-json-patch-rules]: Skipping, unable to determine old version
+[2024-05-03 02:55:36] INFO root fetch - main [MainThread]: End processing [python-json-patch-rules] error
+[2024-05-03 02:55:36] INFO root fetch - processPackages [samplics]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-03 02:55:36] INFO root fetch - processPackages [pynwb]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-05-03 02:55:36] WARNING root fetch - processPackages [teams-ai-azml]: Skipping, unable to determine old version
+[2024-05-03 02:55:36] INFO root fetch - main [MainThread]: End processing [teams-ai-azml] error
+[2024-05-03 02:55:36] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-03 02:55:36] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/d4/46/cade2b2f5a0c2f4039f3eb961de9a82bd6442adac02f48c87dfca69b5e1e/pokernow-0.7.265.tar.gz
+[2024-05-03 02:55:36] INFO root fetch - processPackages [samplics]: Downloading https://files.pythonhosted.org/packages/a4/7a/9cd4eed3c3a2111fff30cad618c56110f76d61b56c292d0111ee8d08bc51/samplics-0.4.8.tar.gz
+[2024-05-03 02:55:36] INFO root fetch - processPackages [pynwb]: Downloading https://files.pythonhosted.org/packages/b7/30/0e4b2d0037c11f0d0b0fa177627d7f59e352ab0978d450e39ec9d0ecb468/pynwb-2.6.0.tar.gz
+[2024-05-03 02:55:36] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/ea/81/d75c5248beda6b572de0157fd6b09c20aa6da6f5616f8518c8fc6511d77e/pokernow-0.7.5.tar.gz
+[2024-05-03 02:55:36] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-03 02:55:36] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:55:36] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.7.265.tar.gz tmp/pokernow-0.7.5.tar.gz --markdown 20240503/P/PokerNow/0.7.265-0.7.5/README.md --exclude *.pyd
+[2024-05-03 02:55:37] INFO root fetch - processPackages [samplics]: Downloading https://files.pythonhosted.org/packages/42/67/c6a99665b2bd68cfc8c8e6e17ef105a2ecac8f85657b496c4f1fdba81f24/samplics-0.4.9.tar.gz
+[2024-05-03 02:55:37] INFO root fetch - processPackages [pynwb]: Downloading https://files.pythonhosted.org/packages/cb/bc/bc02bc80d6b1853a0fe8c373ae4f26484f958844fe1db78053871b764c66/pynwb-2.7.0.tar.gz
+[2024-05-03 02:55:37] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-03 02:55:37] WARNING root fetch - processPackages [pynwb]: Skipping package: exceeds size limit 34777057>=10485760
+[2024-05-03 02:55:37] INFO root fetch - main [MainThread]: End processing [pynwb] error
+[2024-05-03 02:55:37] INFO root fetch - processPackages [samplics]: executing diffoscope
+[2024-05-03 02:55:37] INFO root fetch - processPackages [samplics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samplics-0.4.8.tar.gz tmp/samplics-0.4.9.tar.gz --markdown 20240503/s/samplics/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-03 02:55:37] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-03 02:55:37] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240503/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-03 02:55:37] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.7.265.tar.gz]
+[2024-05-03 02:55:37] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.7.5.tar.gz]
+[2024-05-03 02:55:37] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:55:37] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-03 02:55:37] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-03 02:55:37] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-03 02:55:37] INFO root fetch - processPackages [samplics]: Remove: archive file [/home/abi/fetcher/tmp/samplics-0.4.8.tar.gz]
+[2024-05-03 02:55:37] INFO root fetch - processPackages [samplics]: Remove: archive file [/home/abi/fetcher/tmp/samplics-0.4.9.tar.gz]
+[2024-05-03 02:55:37] INFO root fetch - main [MainThread]: End processing [samplics]: success
+[2024-05-03 02:55:37] INFO root fetch - main [MainThread]: Store serial: [23039205]
