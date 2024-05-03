@@ -1886,3 +1886,33 @@
 [2024-05-03 02:01:56] INFO root fetch - processPackages [octomy-common]: Remove: archive file [/home/abi/fetcher/tmp/octomy-common-2.0.9.tar.gz]
 [2024-05-03 02:01:56] INFO root fetch - main [MainThread]: End processing [octomy-common]: success
 [2024-05-03 02:01:56] INFO root fetch - main [MainThread]: Store serial: [23038845]
+[2024-05-03 02:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038845]
+[2024-05-03 02:04:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 02:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinxbio
+[2024-05-03 02:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Leonardo-Ai-SDK
+[2024-05-03 02:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxscript
+[2024-05-03 02:04:04] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240502] Old Version: [0.1.0.dev20240501]
+[2024-05-03 02:04:04] INFO root fetch - processPackages [sphinxbio]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 02:04:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.9] Old Version: [5.3.8]
+[2024-05-03 02:04:04] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/f3/47/f32c99a5663dd3a09915790a919f42ac13332ab4ea911b7e8a473832381b/onnxscript-0.1.0.dev20240501.tar.gz
+[2024-05-03 02:04:04] INFO root fetch - processPackages [sphinxbio]: Downloading https://files.pythonhosted.org/packages/b3/55/26d805a01b2669b72eec52d30b0c1fa9b5ac0c4ed3b67f90b248da5675aa/sphinxbio-0.1.0.tar.gz
+[2024-05-03 02:04:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/54/45/70289314d3e96098cab891f9bfe97c370802711ae8f997aca8ca42b12165/Leonardo-Ai-SDK-5.3.8.tar.gz
+[2024-05-03 02:04:04] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/d0/bb/9054befd847f2879690ca145a18a731df7a9f1c9ab6e5554e6ab185b5fc7/onnxscript-0.1.0.dev20240502.tar.gz
+[2024-05-03 02:04:04] INFO root fetch - processPackages [sphinxbio]: Downloading https://files.pythonhosted.org/packages/f2/0c/69abaa8ceb7cbfc419c2bdd82f2330c4739730fcd305ab8c8f2362eb13ce/sphinxbio-0.1.1.tar.gz
+[2024-05-03 02:04:04] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-03 02:04:04] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240501.tar.gz tmp/onnxscript-0.1.0.dev20240502.tar.gz --markdown 20240503/o/onnxscript/0.1.0.dev20240501-0.1.0.dev20240502/README.md --exclude *.pyd
+[2024-05-03 02:04:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/20/49/e04f264f7b4e5c94cd9cca08b2789aeaf4d272788a790eb98a2980a82bab/Leonardo-Ai-SDK-5.3.9.tar.gz
+[2024-05-03 02:04:05] INFO root fetch - processPackages [sphinxbio]: executing diffoscope
+[2024-05-03 02:04:05] INFO root fetch - processPackages [sphinxbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxbio-0.1.0.tar.gz tmp/sphinxbio-0.1.1.tar.gz --markdown 20240503/s/sphinxbio/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 02:04:05] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-05-03 02:04:05] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.3.8.tar.gz tmp/Leonardo-Ai-SDK-5.3.9.tar.gz --markdown 20240503/L/Leonardo-Ai-SDK/5.3.8-5.3.9/README.md --exclude *.pyd
+[2024-05-03 02:04:05] INFO root fetch - processPackages [sphinxbio]: Remove: archive file [/home/abi/fetcher/tmp/sphinxbio-0.1.0.tar.gz]
+[2024-05-03 02:04:05] INFO root fetch - processPackages [sphinxbio]: Remove: archive file [/home/abi/fetcher/tmp/sphinxbio-0.1.1.tar.gz]
+[2024-05-03 02:04:05] INFO root fetch - main [MainThread]: End processing [sphinxbio]: success
+[2024-05-03 02:04:05] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.8.tar.gz]
+[2024-05-03 02:04:05] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.9.tar.gz]
+[2024-05-03 02:04:05] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-05-03 02:04:05] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240501.tar.gz]
+[2024-05-03 02:04:05] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240502.tar.gz]
+[2024-05-03 02:04:05] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-03 02:04:05] INFO root fetch - main [MainThread]: Store serial: [23038854]
