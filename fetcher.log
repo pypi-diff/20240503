@@ -7804,3 +7804,33 @@
 [2024-05-03 04:48:20] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.0a3.tar.gz]
 [2024-05-03 04:48:20] INFO root fetch - main [MainThread]: End processing [RocketSim]: success
 [2024-05-03 04:48:20] INFO root fetch - main [MainThread]: Store serial: [23041018]
+[2024-05-03 04:50:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041018]
+[2024-05-03 04:50:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 04:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-order-invoicing-grouping-criteria
+[2024-05-03 04:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-partner-invoicing-mode-monthly
+[2024-05-03 04:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socketwrench
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.1.5]
+[2024-05-03 04:50:29] INFO root fetch - processPackages [socketwrench]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Downloading https://files.pythonhosted.org/packages/9d/d3/e968352dba238494a3dcb9808b6ba387e44383604f545b8fa12d6f1a5d3e/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: Downloading https://files.pythonhosted.org/packages/da/03/8746966ba631f75cac504f87156fc8a397a87cfd3d34d3a808225c07c1e4/odoo_addon_partner_invoicing_mode_monthly-16.0.1.0.1.5-py3-none-any.whl
+[2024-05-03 04:50:29] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/2b/d1/5da489a110ab548e8353214649e2ef2dba323da700a79617b5267130a66f/socketwrench-1.7.0.tar.gz
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: Downloading https://files.pythonhosted.org/packages/25/5a/fc91e51d52d4ba89592585c079c29d846d21111500102910d7a6e3cc7692/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0-py3-none-any.whl
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Downloading https://files.pythonhosted.org/packages/45/ac/8525a1ee5657f94cc40ffc932b90be14bdf90fda498382cd753d8f000f48/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: executing diffoscope
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_invoicing_mode_monthly-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-partner-invoicing-mode-monthly/16.0.1.0.1.5-16.0.2.0.0/README.md --exclude *.pyd
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: executing diffoscope
+[2024-05-03 04:50:29] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-sale-order-invoicing-grouping-criteria/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-03 04:50:30] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/e0/e3/6f910566ccd6fdd257ac6d93dd1da6d0b4ca04965fdca10a5c75caa76055/socketwrench-1.8.0.tar.gz
+[2024-05-03 04:50:30] INFO root fetch - processPackages [socketwrench]: executing diffoscope
+[2024-05-03 04:50:30] INFO root fetch - processPackages [socketwrench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketwrench-1.7.0.tar.gz tmp/socketwrench-1.8.0.tar.gz --markdown 20240503/s/socketwrench/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-03 04:50:30] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-03 04:50:30] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-03 04:50:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-invoicing-grouping-criteria]: success
+[2024-05-03 04:50:30] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_invoicing_mode_monthly-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-05-03 04:50:30] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-03 04:50:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-invoicing-mode-monthly]: success
+[2024-05-03 04:50:30] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.7.0.tar.gz]
+[2024-05-03 04:50:30] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.0.tar.gz]
+[2024-05-03 04:50:30] INFO root fetch - main [MainThread]: End processing [socketwrench]: success
+[2024-05-03 04:50:30] INFO root fetch - main [MainThread]: Store serial: [23041027]
