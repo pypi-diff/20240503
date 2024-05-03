@@ -7289,3 +7289,36 @@
 [2024-05-03 04:10:26] INFO root fetch - processPackages [ec2-gazua]: Remove: archive file [/home/abi/fetcher/tmp/ec2-gazua-0.1.0.tar.gz]
 [2024-05-03 04:10:26] INFO root fetch - main [MainThread]: End processing [ec2-gazua]: success
 [2024-05-03 04:10:26] INFO root fetch - main [MainThread]: Store serial: [23040825]
+[2024-05-03 04:12:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040825]
+[2024-05-03 04:12:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 04:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitpapa-pay
+[2024-05-03 04:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-none-objects
+[2024-05-03 04:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sprice
+[2024-05-03 04:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiogtrans
+[2024-05-03 04:12:35] INFO root fetch - processPackages [python-none-objects]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-03 04:12:35] INFO root fetch - processPackages [bitpapa-pay]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 04:12:35] INFO root fetch - processPackages [python-none-objects]: Downloading https://files.pythonhosted.org/packages/6e/36/92f2c847323e946411025a7315eaab5130ca474f34fa888d2b70cd3d96af/python_none_objects-1.1.7.tar.gz
+[2024-05-03 04:12:35] WARNING root fetch - processPackages [sprice]: Skipping, unable to determine old version
+[2024-05-03 04:12:35] INFO root fetch - main [MainThread]: End processing [sprice] error
+[2024-05-03 04:12:35] INFO root fetch - processPackages [bitpapa-pay]: Downloading https://files.pythonhosted.org/packages/51/a1/7e8922b377e3045ebc94dfcec02bfa590d4fab725480c7c0abab02232ee5/bitpapa_pay-0.1.8.tar.gz
+[2024-05-03 04:12:35] INFO root fetch - processPackages [aiogtrans]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-03 04:12:35] INFO root fetch - processPackages [python-none-objects]: Downloading https://files.pythonhosted.org/packages/8b/2b/bf2505791970b2b07ea65852888a6ad64981ec2ebe66cb2e3b76ff2ebb73/python_none_objects-1.1.8.tar.gz
+[2024-05-03 04:12:35] INFO root fetch - processPackages [aiogtrans]: Downloading https://files.pythonhosted.org/packages/04/56/7f5f8c1345bfb4e7a1fc755a7291951ec6ba34a82971cd2a5adb11635fb6/aiogtrans-1.1.5.tar.gz
+[2024-05-03 04:12:35] INFO root fetch - processPackages [python-none-objects]: executing diffoscope
+[2024-05-03 04:12:35] INFO root fetch - processPackages [python-none-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_none_objects-1.1.7.tar.gz tmp/python_none_objects-1.1.8.tar.gz --markdown 20240503/p/python-none-objects/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-03 04:12:35] INFO root fetch - processPackages [bitpapa-pay]: Downloading https://files.pythonhosted.org/packages/8c/14/d47089f55c06bf1921d7f4b0bd8dd269f839e5172e1d3fcf750b86c842b0/bitpapa_pay-0.1.9.tar.gz
+[2024-05-03 04:12:35] INFO root fetch - processPackages [bitpapa-pay]: executing diffoscope
+[2024-05-03 04:12:35] INFO root fetch - processPackages [bitpapa-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitpapa_pay-0.1.8.tar.gz tmp/bitpapa_pay-0.1.9.tar.gz --markdown 20240503/b/bitpapa-pay/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 04:12:35] INFO root fetch - processPackages [aiogtrans]: Downloading https://files.pythonhosted.org/packages/3a/60/e054900c5f92a31d82d0da9abfaffda7348a291e0d9289d74ada4bdaf8c9/aiogtrans-1.1.6.tar.gz
+[2024-05-03 04:12:36] INFO root fetch - processPackages [python-none-objects]: Remove: archive file [/home/abi/fetcher/tmp/python_none_objects-1.1.7.tar.gz]
+[2024-05-03 04:12:36] INFO root fetch - processPackages [python-none-objects]: Remove: archive file [/home/abi/fetcher/tmp/python_none_objects-1.1.8.tar.gz]
+[2024-05-03 04:12:36] INFO root fetch - main [MainThread]: End processing [python-none-objects]: success
+[2024-05-03 04:12:36] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.8.tar.gz]
+[2024-05-03 04:12:36] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.9.tar.gz]
+[2024-05-03 04:12:36] INFO root fetch - main [MainThread]: End processing [bitpapa-pay]: success
+[2024-05-03 04:12:36] INFO root fetch - processPackages [aiogtrans]: executing diffoscope
+[2024-05-03 04:12:36] INFO root fetch - processPackages [aiogtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogtrans-1.1.5.tar.gz tmp/aiogtrans-1.1.6.tar.gz --markdown 20240503/a/aiogtrans/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-03 04:12:36] INFO root fetch - processPackages [aiogtrans]: Remove: archive file [/home/abi/fetcher/tmp/aiogtrans-1.1.5.tar.gz]
+[2024-05-03 04:12:36] INFO root fetch - processPackages [aiogtrans]: Remove: archive file [/home/abi/fetcher/tmp/aiogtrans-1.1.6.tar.gz]
+[2024-05-03 04:12:36] INFO root fetch - main [MainThread]: End processing [aiogtrans]: success
+[2024-05-03 04:12:36] INFO root fetch - main [MainThread]: Store serial: [23040836]
