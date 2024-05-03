@@ -13576,3 +13576,83 @@
 [2024-05-03 10:25:57] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.3.tar.gz]
 [2024-05-03 10:25:57] INFO root fetch - main [MainThread]: End processing [k8sAI]: success
 [2024-05-03 10:25:57] INFO root fetch - main [MainThread]: Store serial: [23043293]
+[2024-05-03 10:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043293]
+[2024-05-03 10:28:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: k8sAI
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2o-wave-university
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: h2o-lightwave
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filesender-client
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h2o-lightwave-web
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-cjk404
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weld-deps
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2024-05-03 10:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whisperplus
+[2024-05-03 10:28:09] INFO root fetch - processPackages [k8sAI]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [filesender-client]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [whisperplus]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [h2o-lightwave]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [h2o-lightwave-web]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [wagtail-cjk404]: New version: [24.5.1] Old Version: [23.7.1]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [weld-deps]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [h2o-wave-university]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.9] Old Version: [14.0.1.0.8]
+[2024-05-03 10:28:09] INFO root fetch - processPackages [filesender-client]: Downloading https://files.pythonhosted.org/packages/1f/ad/b8447e6b6cd89227f1a32ae2a9b70afa587966db6b22e355b23f287ef9be/filesender-client-1.1.0.tar.gz
+[2024-05-03 10:28:09] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/70/48/b98603fcaa823b47f72e2a561be3983d1141e97d38c7e8375ea1ce92ca18/whisperplus-0.2.7.tar.gz
+[2024-05-03 10:28:09] INFO root fetch - processPackages [k8sAI]: Downloading https://files.pythonhosted.org/packages/61/b4/1640294b52289a0312ef9dd90be3c28964b73ffc941241ce12201b62014a/k8sai-0.1.4.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/10/89/fbc31a2f394920b6e9dab5ac7a2ff59dce81fc22a61945c98f9e85abc75a/h2o_lightwave-1.1.1-py3-none-any.whl
+[2024-05-03 10:28:10] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/aa/b5/5a47f4b127807ef2e648766796d3d435b46a08d1395be7bb576b8572b42c/h2o_lightwave_web-1.1.1-py3-none-any.whl
+[2024-05-03 10:28:10] INFO root fetch - processPackages [wagtail-cjk404]: Downloading https://files.pythonhosted.org/packages/5b/68/ce3b2133ca7304feca1088b2ee0e1050ed3de00783f7e3fbccc5187bec0c/wagtail-cjk404-23.7.1.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [h2o-wave-university]: Downloading https://files.pythonhosted.org/packages/ce/86/48220a04419fda0a552384cee8ee7498fec1056d5dbf4b422f13d1aef77a/h2o_wave_university-1.1.1-py3-none-any.whl
+[2024-05-03 10:28:10] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/69/d8/8ff310c471ed222bb68529b10fccc839205d91eb5cab1186e089aa03f58a/weld_deps-0.6.2.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/29/36/7268bc24d8389016271fa5339775a21de8b62a9394c3f27c7da5eee932d4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [filesender-client]: Downloading https://files.pythonhosted.org/packages/18/06/b6c621dc83591e65839efd0ae529b4fb862cd014107e63fc72c3b90e48c0/filesender_client-1.2.0.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/9a/49/42da8dc1dfaa872ba8d15a9a2f7786964130a99fd933dae9f35c17cae8f2/whisperplus-0.2.8.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [filesender-client]: executing diffoscope
+[2024-05-03 10:28:10] INFO root fetch - processPackages [filesender-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesender-client-1.1.0.tar.gz tmp/filesender_client-1.2.0.tar.gz --markdown 20240503/f/filesender-client/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-03 10:28:10] INFO root fetch - processPackages [whisperplus]: executing diffoscope
+[2024-05-03 10:28:10] INFO root fetch - processPackages [whisperplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisperplus-0.2.7.tar.gz tmp/whisperplus-0.2.8.tar.gz --markdown 20240503/w/whisperplus/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-03 10:28:10] INFO root fetch - processPackages [k8sAI]: Downloading https://files.pythonhosted.org/packages/15/aa/27466b1036335f29a0cc0280f76df56187d50697953627a7777583ed0f0c/k8sai-0.1.5.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/4e/30/6b21f7a681149c2490f9141d53d210da37f864b3dafc1961e3c38347db58/weld_deps-0.6.3.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/71/00/93672a122e03c2034422b3a473b227996f6ceeeae77a32aae2a087dde5b4/h2o_lightwave-1.1.2-py3-none-any.whl
+[2024-05-03 10:28:10] INFO root fetch - processPackages [wagtail-cjk404]: Downloading https://files.pythonhosted.org/packages/53/10/cc8cbefc7793b600eff911f0a7f296b479e5b20f2b21d2de9573cf7b02da/wagtail_cjk404-24.5.1.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-05-03 10:28:10] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.6.2.tar.gz tmp/weld_deps-0.6.3.tar.gz --markdown 20240503/w/weld-deps/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-03 10:28:10] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/e2/db/60f2eaaffb9864df5bb98ea187aef4761d8a58c121f9814ea9db53e834bb/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz
+[2024-05-03 10:28:10] INFO root fetch - processPackages [k8sAI]: executing diffoscope
+[2024-05-03 10:28:10] INFO root fetch - processPackages [k8sAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8sai-0.1.4.tar.gz tmp/k8sai-0.1.5.tar.gz --markdown 20240503/k/k8sAI/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 10:28:10] INFO root fetch - processPackages [wagtail-cjk404]: executing diffoscope
+[2024-05-03 10:28:10] INFO root fetch - processPackages [wagtail-cjk404]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cjk404-23.7.1.tar.gz tmp/wagtail_cjk404-24.5.1.tar.gz --markdown 20240503/w/wagtail-cjk404/23.7.1-24.5.1/README.md --exclude *.pyd
+[2024-05-03 10:28:10] INFO root fetch - processPackages [h2o-lightwave]: executing diffoscope
+[2024-05-03 10:28:10] INFO root fetch - processPackages [h2o-lightwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave-1.1.1-py3-none-any.whl.zip tmp/h2o_lightwave-1.1.2-py3-none-any.whl.zip --markdown 20240503/h/h2o-lightwave/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-03 10:28:10] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2024-05-03 10:28:10] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz --markdown 20240503/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.8-14.0.1.0.9/README.md --exclude *.pyd
+[2024-05-03 10:28:11] WARNING root fetch - processPackages [h2o-wave-university]: Skipping package: exceeds size limit 12938366>=10485760
+[2024-05-03 10:28:11] INFO root fetch - main [MainThread]: End processing [h2o-wave-university] error
+[2024-05-03 10:28:11] INFO root fetch - processPackages [filesender-client]: Remove: archive file [/home/abi/fetcher/tmp/filesender-client-1.1.0.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - processPackages [filesender-client]: Remove: archive file [/home/abi/fetcher/tmp/filesender_client-1.2.0.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - main [MainThread]: End processing [filesender-client]: success
+[2024-05-03 10:28:11] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.7.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.2.8.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - main [MainThread]: End processing [whisperplus]: success
+[2024-05-03 10:28:11] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.6.2.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.6.3.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-05-03 10:28:11] INFO root fetch - processPackages [h2o-lightwave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave-1.1.1-py3-none-any.whl.zip]
+[2024-05-03 10:28:11] INFO root fetch - processPackages [h2o-lightwave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave-1.1.2-py3-none-any.whl.zip]
+[2024-05-03 10:28:11] INFO root fetch - main [MainThread]: End processing [h2o-lightwave]: success
+[2024-05-03 10:28:11] INFO root fetch - processPackages [wagtail-cjk404]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjk404-23.7.1.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - processPackages [wagtail-cjk404]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_cjk404-24.5.1.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - main [MainThread]: End processing [wagtail-cjk404]: success
+[2024-05-03 10:28:11] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2024-05-03 10:28:11] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/cb/c6/100419bfe41ee3a9d7beb07aa9e6d90a896a665d6c66ff7010f2daac4a75/h2o_lightwave_web-1.1.2-py3-none-any.whl
+[2024-05-03 10:28:11] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.4.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.5.tar.gz]
+[2024-05-03 10:28:11] INFO root fetch - main [MainThread]: End processing [k8sAI]: success
+[2024-05-03 10:28:12] INFO root fetch - processPackages [h2o-lightwave-web]: executing diffoscope
+[2024-05-03 10:28:12] INFO root fetch - processPackages [h2o-lightwave-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave_web-1.1.1-py3-none-any.whl.zip tmp/h2o_lightwave_web-1.1.2-py3-none-any.whl.zip --markdown 20240503/h/h2o-lightwave-web/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-03 10:28:15] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-1.1.1-py3-none-any.whl.zip]
+[2024-05-03 10:28:15] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-1.1.2-py3-none-any.whl.zip]
+[2024-05-03 10:28:15] INFO root fetch - main [MainThread]: End processing [h2o-lightwave-web]: success
+[2024-05-03 10:28:15] INFO root fetch - main [MainThread]: Store serial: [23043317]
