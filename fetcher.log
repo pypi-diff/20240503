@@ -19782,3 +19782,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:14:29] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-03 15:14:29] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-03 15:14:29] INFO root fetch - main [MainThread]: Store serial: [23046289]
+[2024-05-03 15:16:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046289]
+[2024-05-03 15:17:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 15:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencti-excel-uploader
+[2024-05-03 15:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apconfig
+[2024-05-03 15:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: annet
+[2024-05-03 15:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amsdal
+[2024-05-03 15:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prpy
+[2024-05-03 15:17:00] INFO root fetch - processPackages [prpy]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-03 15:17:00] INFO root fetch - processPackages [apconfig]: New version: [0.0.108] Old Version: [0.0.107]
+[2024-05-03 15:17:00] WARNING root fetch - processPackages [opencti-excel-uploader]: Skipping, unable to determine old version
+[2024-05-03 15:17:00] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader] error
+[2024-05-03 15:17:00] INFO root fetch - processPackages [amsdal]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 15:17:00] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-05-03 15:17:00] INFO root fetch - processPackages [prpy]: Downloading https://files.pythonhosted.org/packages/cd/ec/0e5b0d273795a4666e61542df3108110873648db01af8a7630e918f00dcc/prpy-0.2.4.tar.gz
+[2024-05-03 15:17:00] INFO root fetch - processPackages [apconfig]: Downloading https://files.pythonhosted.org/packages/67/87/b35215ca95f19ed17c4f93db3c9c29a7ca4f71a640878ce211a6a0929b6a/apconfig-0.0.107.tar.gz
+[2024-05-03 15:17:00] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/c5/7e/d8caacf06082489ad7348f2b62b27958c5a7bf09511f0f8430f8e2ca2c4d/amsdal-0.1.8-cp311-cp311-win_amd64.whl
+[2024-05-03 15:17:00] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-05-03 15:17:01] INFO root fetch - processPackages [apconfig]: Downloading https://files.pythonhosted.org/packages/42/60/1396e3b2e14cdcc3080b35bc80d9e67cf0f6bbc79368bc787095f1704e3d/apconfig-0.0.108.tar.gz
+[2024-05-03 15:17:01] INFO root fetch - processPackages [prpy]: Downloading https://files.pythonhosted.org/packages/3e/25/2c9b5f8b8c4300dc357b98ca1d2c597d163f12d2d8c5b0fa1cf1a4f47155/prpy-0.2.5.tar.gz
+[2024-05-03 15:17:01] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/fc/51/0edf43ba12347c41ea640f7efb7f415b15b212483248e0b0a4c490b716f2/amsdal-0.1.9-cp311-cp311-win_amd64.whl
+[2024-05-03 15:17:01] INFO root fetch - processPackages [apconfig]: executing diffoscope
+[2024-05-03 15:17:01] INFO root fetch - processPackages [apconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apconfig-0.0.107.tar.gz tmp/apconfig-0.0.108.tar.gz --markdown 20240503/a/apconfig/0.0.107-0.0.108/README.md --exclude *.pyd
+[2024-05-03 15:17:01] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-05-03 15:17:01] INFO root fetch - processPackages [prpy]: executing diffoscope
+[2024-05-03 15:17:01] INFO root fetch - processPackages [prpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prpy-0.2.4.tar.gz tmp/prpy-0.2.5.tar.gz --markdown 20240503/p/prpy/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-03 15:17:01] INFO root fetch - processPackages [amsdal]: executing diffoscope
+[2024-05-03 15:17:01] INFO root fetch - processPackages [amsdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal-0.1.8-cp311-cp311-win_amd64.whl.zip tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip --markdown 20240503/a/amsdal/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 15:17:01] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-05-03 15:17:01] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240503/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-05-03 15:17:01] INFO root fetch - processPackages [apconfig]: Remove: archive file [/home/abi/fetcher/tmp/apconfig-0.0.107.tar.gz]
+[2024-05-03 15:17:01] INFO root fetch - processPackages [apconfig]: Remove: archive file [/home/abi/fetcher/tmp/apconfig-0.0.108.tar.gz]
+[2024-05-03 15:17:01] INFO root fetch - main [MainThread]: End processing [apconfig]: success
+[2024-05-03 15:17:02] INFO root fetch - processPackages [prpy]: Remove: archive file [/home/abi/fetcher/tmp/prpy-0.2.4.tar.gz]
+[2024-05-03 15:17:02] INFO root fetch - processPackages [prpy]: Remove: archive file [/home/abi/fetcher/tmp/prpy-0.2.5.tar.gz]
+[2024-05-03 15:17:02] INFO root fetch - main [MainThread]: End processing [prpy]: success
+[2024-05-03 15:17:02] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-05-03 15:17:02] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-05-03 15:17:02] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-05-03 15:17:02] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-05-03 15:17:02] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip]
+[2024-05-03 15:17:02] INFO root fetch - main [MainThread]: End processing [amsdal]: success
+[2024-05-03 15:17:02] INFO root fetch - main [MainThread]: Store serial: [23046315]
