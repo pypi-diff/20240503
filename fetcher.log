@@ -6995,3 +6995,39 @@
 [2024-05-03 03:53:03] INFO root fetch - processPackages [snapatac2]: Remove: archive file [/home/abi/fetcher/tmp/snapatac2-2.6.1.tar.gz]
 [2024-05-03 03:53:03] INFO root fetch - main [MainThread]: End processing [snapatac2]: success
 [2024-05-03 03:53:03] INFO root fetch - main [MainThread]: Store serial: [23040714]
+[2024-05-03 03:55:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040714]
+[2024-05-03 03:55:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 03:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-axe
+[2024-05-03 03:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tools-jsyoo61
+[2024-05-03 03:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tools-jsyoo61
+[2024-05-03 03:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trio-binance
+[2024-05-03 03:55:12] INFO root fetch - processPackages [llm-axe]: New version: [1.0.5] Old Version: [1.0.2]
+[2024-05-03 03:55:12] INFO root fetch - processPackages [trio-binance]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: New version: [2024.5.2.1] Old Version: [2024.5.2.0]
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: New version: [2024.5.2.1] Old Version: [2024.5.2.0]
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: Downloading https://files.pythonhosted.org/packages/8b/98/251449f839659a89a0a925916403e74735ca40e793a3476a297580278501/tools-jsyoo61-2024.5.2.0.tar.gz
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: Downloading https://files.pythonhosted.org/packages/8b/98/251449f839659a89a0a925916403e74735ca40e793a3476a297580278501/tools-jsyoo61-2024.5.2.0.tar.gz
+[2024-05-03 03:55:12] INFO root fetch - processPackages [llm-axe]: Downloading https://files.pythonhosted.org/packages/32/59/e30bd4b98857a1c4723fef4cba76298500aa00589eb09297485e47a4fcb0/llm_axe-1.0.5.tar.gz
+[2024-05-03 03:55:12] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/91/64/9aefee66eaf3d5f133f042d224dbc6c1e826562934bde1f4383bd6a791a0/trio_binance-0.3.2.tar.gz
+[2024-05-03 03:55:12] INFO root fetch - processPackages [llm-axe]: executing diffoscope
+[2024-05-03 03:55:12] INFO root fetch - processPackages [llm-axe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_axe-1.0.2.tar.gz tmp/llm_axe-1.0.5.tar.gz --markdown 20240503/l/llm-axe/1.0.2-1.0.5/README.md --exclude *.pyd
+[2024-05-03 03:55:12] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/5b/c3/7240d7988988306e06887ce072b3d351ef59d4c539b3faf1c54c2967241b/trio_binance-0.3.3.tar.gz
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: Downloading https://files.pythonhosted.org/packages/2a/9c/16f465abbd1848350c583e0b03dcded13cf55826d50f21961d7fcd42e164/tools-jsyoo61-2024.5.2.1.tar.gz
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: Downloading https://files.pythonhosted.org/packages/2a/9c/16f465abbd1848350c583e0b03dcded13cf55826d50f21961d7fcd42e164/tools-jsyoo61-2024.5.2.1.tar.gz
+[2024-05-03 03:55:12] INFO root fetch - processPackages [trio-binance]: executing diffoscope
+[2024-05-03 03:55:12] INFO root fetch - processPackages [trio-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_binance-0.3.2.tar.gz tmp/trio_binance-0.3.3.tar.gz --markdown 20240503/t/trio-binance/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: executing diffoscope
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tools-jsyoo61-2024.5.2.0.tar.gz tmp/tools-jsyoo61-2024.5.2.1.tar.gz --markdown 20240503/t/tools-jsyoo61/2024.5.2.0-2024.5.2.1/README.md --exclude *.pyd
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: executing diffoscope
+[2024-05-03 03:55:12] INFO root fetch - processPackages [tools-jsyoo61]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tools-jsyoo61-2024.5.2.0.tar.gz tmp/tools-jsyoo61-2024.5.2.1.tar.gz --markdown 20240503/t/tools-jsyoo61/2024.5.2.0-2024.5.2.1/README.md --exclude *.pyd
+[2024-05-03 03:55:13] INFO root fetch - processPackages [llm-axe]: Remove: archive file [/home/abi/fetcher/tmp/llm_axe-1.0.2.tar.gz]
+[2024-05-03 03:55:13] INFO root fetch - processPackages [llm-axe]: Remove: archive file [/home/abi/fetcher/tmp/llm_axe-1.0.5.tar.gz]
+[2024-05-03 03:55:13] INFO root fetch - main [MainThread]: End processing [llm-axe]: success
+[2024-05-03 03:55:13] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.2.tar.gz]
+[2024-05-03 03:55:13] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.3.tar.gz]
+[2024-05-03 03:55:13] INFO root fetch - main [MainThread]: End processing [trio-binance]: success
+[2024-05-03 03:55:13] INFO root fetch - processPackages [tools-jsyoo61]: Remove: archive file [/home/abi/fetcher/tmp/tools-jsyoo61-2024.5.2.0.tar.gz]
+[2024-05-03 03:55:13] INFO root fetch - processPackages [tools-jsyoo61]: Remove: archive file [/home/abi/fetcher/tmp/tools-jsyoo61-2024.5.2.1.tar.gz]
+[2024-05-03 03:55:13] INFO root fetch - main [MainThread]: End processing [tools-jsyoo61]: success
+[2024-05-03 03:55:13] INFO root fetch - main [MainThread]: End processing [tools-jsyoo61]: success
+[2024-05-03 03:55:13] INFO root fetch - main [MainThread]: Store serial: [23040726]
