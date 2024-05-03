@@ -8059,3 +8059,45 @@
 [2024-05-03 05:01:42] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_business_requirement-14.0.1.2.1.dev2-py3-none-any.whl.zip]
 [2024-05-03 05:01:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-business-requirement]: success
 [2024-05-03 05:01:42] INFO root fetch - main [MainThread]: Store serial: [23041087]
+[2024-05-03 05:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041087]
+[2024-05-03 05:03:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 05:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-resource-booking
+[2024-05-03 05:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-commission
+[2024-05-03 05:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nl2flow
+[2024-05-03 05:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repo2docs
+[2024-05-03 05:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gr1336-toolbox
+[2024-05-03 05:03:51] WARNING root fetch - processPackages [nl2flow]: Skipping, unable to determine old version
+[2024-05-03 05:03:51] INFO root fetch - main [MainThread]: End processing [nl2flow] error
+[2024-05-03 05:03:51] INFO root fetch - processPackages [repo2docs]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 05:03:51] INFO root fetch - processPackages [odoo14-addon-resource-booking]: New version: [14.0.1.3.4.dev4] Old Version: [14.0.1.3.4.dev3]
+[2024-05-03 05:03:51] INFO root fetch - processPackages [odoo-addon-commission]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-03 05:03:51] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/ee/28/88531307c391dc86c30c53b4651896b11141a7bbc84d73cb5331af2ea2c3/repo2docs-0.1.4.tar.gz
+[2024-05-03 05:03:51] INFO root fetch - processPackages [odoo14-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/23/3a/bbda1c3db5c9565777d1c88e9e42b7eaaa980642f698c8628263136c8199/odoo14_addon_resource_booking-14.0.1.3.4.dev3-py3-none-any.whl
+[2024-05-03 05:03:51] INFO root fetch - processPackages [gr1336-toolbox]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-03 05:03:51] INFO root fetch - processPackages [gr1336-toolbox]: Downloading https://files.pythonhosted.org/packages/55/f7/0e21f57f597d38f37ff6a6e8a812889accd75069f03dbd8685004f68ded7/gr1336_toolbox-0.0.2.tar.gz
+[2024-05-03 05:03:51] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/f8/36/24e37368a21041c63ac24fde57d0b5f064634ac3d188c2a9977d18016c5d/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-03 05:03:51] INFO root fetch - processPackages [odoo14-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/78/8c/2b89d8bc3a3a452940ccbc5296955a2b31259991eb3a4669fd161908917f/odoo14_addon_resource_booking-14.0.1.3.4.dev4-py3-none-any.whl
+[2024-05-03 05:03:51] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/da/3d/147f30760b40880188a3eeb0f2da93aef4c331b05ac0d7363bbb250a3a37/repo2docs-0.1.5.tar.gz
+[2024-05-03 05:03:51] INFO root fetch - processPackages [odoo14-addon-resource-booking]: executing diffoscope
+[2024-05-03 05:03:51] INFO root fetch - processPackages [odoo14-addon-resource-booking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_resource_booking-14.0.1.3.4.dev3-py3-none-any.whl.zip tmp/odoo14_addon_resource_booking-14.0.1.3.4.dev4-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-resource-booking/14.0.1.3.4.dev3-14.0.1.3.4.dev4/README.md --exclude *.pyd
+[2024-05-03 05:03:51] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 05:03:51] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.4.tar.gz tmp/repo2docs-0.1.5.tar.gz --markdown 20240503/r/repo2docs/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 05:03:51] INFO root fetch - processPackages [gr1336-toolbox]: Downloading https://files.pythonhosted.org/packages/0c/60/8517001602f76d1ebe0a083a4fa06204e3ab37f654d6f5b859f56223a0f7/gr1336_toolbox-0.0.3.tar.gz
+[2024-05-03 05:03:51] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/75/1f/bf1cb0eb36159b0ad122b37fb99fe773c4d66b32f18fc0dc99b9d8382223/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-03 05:03:51] INFO root fetch - processPackages [gr1336-toolbox]: executing diffoscope
+[2024-05-03 05:03:51] INFO root fetch - processPackages [gr1336-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gr1336_toolbox-0.0.2.tar.gz tmp/gr1336_toolbox-0.0.3.tar.gz --markdown 20240503/g/gr1336-toolbox/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-03 05:03:52] INFO root fetch - processPackages [odoo-addon-commission]: executing diffoscope
+[2024-05-03 05:03:52] INFO root fetch - processPackages [odoo-addon-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-commission/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-03 05:03:52] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.4.tar.gz]
+[2024-05-03 05:03:52] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.5.tar.gz]
+[2024-05-03 05:03:52] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 05:03:52] INFO root fetch - processPackages [odoo14-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_resource_booking-14.0.1.3.4.dev3-py3-none-any.whl.zip]
+[2024-05-03 05:03:52] INFO root fetch - processPackages [odoo14-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_resource_booking-14.0.1.3.4.dev4-py3-none-any.whl.zip]
+[2024-05-03 05:03:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-resource-booking]: success
+[2024-05-03 05:03:52] INFO root fetch - processPackages [gr1336-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/gr1336_toolbox-0.0.2.tar.gz]
+[2024-05-03 05:03:52] INFO root fetch - processPackages [gr1336-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/gr1336_toolbox-0.0.3.tar.gz]
+[2024-05-03 05:03:52] INFO root fetch - main [MainThread]: End processing [gr1336-toolbox]: success
+[2024-05-03 05:03:52] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-03 05:03:52] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-03 05:03:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
+[2024-05-03 05:03:52] INFO root fetch - main [MainThread]: Store serial: [23041099]
