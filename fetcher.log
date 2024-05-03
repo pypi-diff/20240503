@@ -12381,3 +12381,42 @@
 [2024-05-03 09:43:25] INFO root fetch - processPackages [sound-source-id]: Remove: archive file [/home/abi/fetcher/tmp/sound_source_id-0.2.3.tar.gz]
 [2024-05-03 09:43:25] INFO root fetch - main [MainThread]: End processing [sound-source-id]: success
 [2024-05-03 09:43:25] INFO root fetch - main [MainThread]: Store serial: [23042802]
+[2024-05-03 09:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042802]
+[2024-05-03 09:45:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 09:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cj-package
+[2024-05-03 09:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fazah
+[2024-05-03 09:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jenfi-pipeline-data-app
+[2024-05-03 09:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-data-services
+[2024-05-03 09:45:35] INFO root fetch - processPackages [fazah]: New version: [3.15] Old Version: [3.14]
+[2024-05-03 09:45:35] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8934901680] Old Version: [2.0.0.dev8934542107]
+[2024-05-03 09:45:35] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/17/bc/676a9c17bc267a2b1ab37cffcc1ae233f71e2c2a6ae4b47b4c22e631dbf2/fazah-3.14.tar.gz
+[2024-05-03 09:45:35] INFO root fetch - processPackages [jenfi-pipeline-data-app]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-03 09:45:35] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 09:45:35] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/46/88/26051e318c8cec55b1c6b537f4a91659c991afd114f9c8502e45ca75f8dd/th2_data_services-2.0.0.dev8934542107.tar.gz
+[2024-05-03 09:45:35] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/6b/e3/0254d056fa15479e03da617f7b42d0c2f466e8dcd4b1399614cb2749b7c8/jenfi_pipeline_data_app-0.4.0.tar.gz
+[2024-05-03 09:45:36] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-03 09:45:36] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/4e/22/48c42d3f0ae6116f099ade5d245d6d2375880482f06e774f3178610f64c5/fazah-3.15.tar.gz
+[2024-05-03 09:45:36] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/00/40/911002c9044a9a9ab05e4139a926d572fef1ec92cc70519d84a107b807ae/th2_data_services-2.0.0.dev8934901680.tar.gz
+[2024-05-03 09:45:36] INFO root fetch - processPackages [fazah]: executing diffoscope
+[2024-05-03 09:45:36] INFO root fetch - processPackages [fazah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazah-3.14.tar.gz tmp/fazah-3.15.tar.gz --markdown 20240503/f/fazah/3.14-3.15/README.md --exclude *.pyd
+[2024-05-03 09:45:36] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-03 09:45:36] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-03 09:45:36] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8934542107.tar.gz tmp/th2_data_services-2.0.0.dev8934901680.tar.gz --markdown 20240503/t/th2-data-services/2.0.0.dev8934542107-2.0.0.dev8934901680/README.md --exclude *.pyd
+[2024-05-03 09:45:36] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/c6/3c/e9e09ab4a7c98ce02599d323ce00cc47ed3e0dc7e04904b81257565d3efd/jenfi_pipeline_data_app-0.4.1.tar.gz
+[2024-05-03 09:45:36] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-03 09:45:36] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240503/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 09:45:36] INFO root fetch - processPackages [jenfi-pipeline-data-app]: executing diffoscope
+[2024-05-03 09:45:36] INFO root fetch - processPackages [jenfi-pipeline-data-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenfi_pipeline_data_app-0.4.0.tar.gz tmp/jenfi_pipeline_data_app-0.4.1.tar.gz --markdown 20240503/j/jenfi-pipeline-data-app/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-03 09:45:36] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.14.tar.gz]
+[2024-05-03 09:45:36] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.15.tar.gz]
+[2024-05-03 09:45:36] INFO root fetch - main [MainThread]: End processing [fazah]: success
+[2024-05-03 09:45:37] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-03 09:45:37] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-03 09:45:37] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-03 09:45:37] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.0.tar.gz]
+[2024-05-03 09:45:37] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.1.tar.gz]
+[2024-05-03 09:45:37] INFO root fetch - main [MainThread]: End processing [jenfi-pipeline-data-app]: success
+[2024-05-03 09:45:37] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8934542107.tar.gz]
+[2024-05-03 09:45:37] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8934901680.tar.gz]
+[2024-05-03 09:45:37] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-03 09:45:37] INFO root fetch - main [MainThread]: Store serial: [23042811]
