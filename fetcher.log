@@ -21402,3 +21402,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:20:41] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.9.tar.gz]
 [2024-05-03 16:20:41] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-05-03 16:20:41] INFO root fetch - main [MainThread]: Store serial: [23046993]
+[2024-05-03 16:23:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046993]
+[2024-05-03 16:23:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 16:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neo4py
+[2024-05-03 16:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mq4hemc
+[2024-05-03 16:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snewpy
+[2024-05-03 16:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-gainsight-px
+[2024-05-03 16:23:09] INFO root fetch - processPackages [mq4hemc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 16:23:09] INFO root fetch - processPackages [neo4py]: New version: [1.1.8b0] Old Version: [1.1.7b0]
+[2024-05-03 16:23:09] INFO root fetch - processPackages [airbyte-source-gainsight-px]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 16:23:09] INFO root fetch - processPackages [snewpy]: New version: [1.5] Old Version: [1.4b2]
+[2024-05-03 16:23:09] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/25/91/ed6b12f291733bb6f72a6a8ec54bc3b008f27f07e1ec5a1767e2aea63b96/mq4hemc-0.0.8.tar.gz
+[2024-05-03 16:23:09] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/f5/de/884b0223b6b552cb64f093671c58108eba2118516884d1834b067f21612c/neo4py-1.1.7b0.tar.gz
+[2024-05-03 16:23:09] INFO root fetch - processPackages [snewpy]: Downloading https://files.pythonhosted.org/packages/8d/a9/015762cea0813174dc843422aa83447d8cbdebbef711f205377d4b928bba/snewpy-1.4b2.tar.gz
+[2024-05-03 16:23:09] INFO root fetch - processPackages [airbyte-source-gainsight-px]: Downloading https://files.pythonhosted.org/packages/19/d6/e2ebfe8affadaf4175dc9a2467b5b14a1b930dd2cae4caaf016eb07fd8f9/airbyte-source-gainsight-px-0.1.0.tar.gz
+[2024-05-03 16:23:09] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/17/ff/c305b978b3e007000fd785f4d1fac7016440237c188eb8be90a34debd419/mq4hemc-0.0.9.tar.gz
+[2024-05-03 16:23:09] INFO root fetch - processPackages [neo4py]: Downloading https://files.pythonhosted.org/packages/be/6e/fd3aca1b1d72be799df4ec6313d000e7c9fc7ed513663c9999375403c497/neo4py-1.1.8b0.tar.gz
+[2024-05-03 16:23:09] INFO root fetch - processPackages [mq4hemc]: executing diffoscope
+[2024-05-03 16:23:09] INFO root fetch - processPackages [mq4hemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mq4hemc-0.0.8.tar.gz tmp/mq4hemc-0.0.9.tar.gz --markdown 20240503/m/mq4hemc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 16:23:09] INFO root fetch - processPackages [neo4py]: executing diffoscope
+[2024-05-03 16:23:09] INFO root fetch - processPackages [neo4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4py-1.1.7b0.tar.gz tmp/neo4py-1.1.8b0.tar.gz --markdown 20240503/n/neo4py/1.1.7b0-1.1.8b0/README.md --exclude *.pyd
+[2024-05-03 16:23:09] INFO root fetch - processPackages [snewpy]: Downloading https://files.pythonhosted.org/packages/12/a5/7e53b7abbc839ca0cf337f5571f2debcd6f7ef0dc888cef46776536bd9f3/snewpy-1.5.tar.gz
+[2024-05-03 16:23:09] ERROR root fetch - processPackages [airbyte-source-gainsight-px]: Unable to fetch info: No such project/version 'airbyte-source-gainsight-px' 0.1.1
+[2024-05-03 16:23:09] INFO root fetch - main [MainThread]: End processing [airbyte-source-gainsight-px] error
+[2024-05-03 16:23:10] INFO root fetch - processPackages [snewpy]: executing diffoscope
+[2024-05-03 16:23:10] INFO root fetch - processPackages [snewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snewpy-1.4b2.tar.gz tmp/snewpy-1.5.tar.gz --markdown 20240503/s/snewpy/1.4b2-1.5/README.md --exclude *.pyd
+[2024-05-03 16:23:10] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.8.tar.gz]
+[2024-05-03 16:23:10] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.9.tar.gz]
+[2024-05-03 16:23:10] INFO root fetch - main [MainThread]: End processing [mq4hemc]: success
+[2024-05-03 16:23:10] INFO root fetch - processPackages [neo4py]: Remove: archive file [/home/abi/fetcher/tmp/neo4py-1.1.7b0.tar.gz]
+[2024-05-03 16:23:10] INFO root fetch - processPackages [neo4py]: Remove: archive file [/home/abi/fetcher/tmp/neo4py-1.1.8b0.tar.gz]
+[2024-05-03 16:23:10] INFO root fetch - main [MainThread]: End processing [neo4py]: success
+[2024-05-03 16:23:10] INFO root fetch - processPackages [snewpy]: Remove: archive file [/home/abi/fetcher/tmp/snewpy-1.4b2.tar.gz]
+[2024-05-03 16:23:10] INFO root fetch - processPackages [snewpy]: Remove: archive file [/home/abi/fetcher/tmp/snewpy-1.5.tar.gz]
+[2024-05-03 16:23:10] INFO root fetch - main [MainThread]: End processing [snewpy]: success
+[2024-05-03 16:23:10] INFO root fetch - main [MainThread]: Store serial: [23047005]
