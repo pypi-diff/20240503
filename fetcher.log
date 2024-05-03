@@ -23041,3 +23041,79 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 [2024-05-03 17:10:57] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240502-py3-none-win_amd64.whl.zip]
 [2024-05-03 17:10:57] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-03 17:10:57] INFO root fetch - main [MainThread]: Store serial: [23047728]
+[2024-05-03 17:13:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047728]
+[2024-05-03 17:13:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepsearch-glm
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replicate-whisper-diarization
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mymorsecode
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-drive-sdk
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovs
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: olist-loafer
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chaiverse
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yamk
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovs
+[2024-05-03 17:13:06] INFO root fetch - processPackages [replicate-whisper-diarization]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ovs]: New version: [3.1.2] Old Version: [3.0.6]
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ovs]: New version: [3.1.2] Old Version: [3.0.6]
+[2024-05-03 17:13:06] INFO root fetch - processPackages [chaiverse]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-03 17:13:06] INFO root fetch - processPackages [olist-loafer]: New version: [6.0.0a1] Old Version: [5.0.0a1]
+[2024-05-03 17:13:06] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-03 17:13:06] INFO root fetch - processPackages [yamk]: New version: [7.0.0] Old Version: [6.1.0]
+[2024-05-03 17:13:06] WARNING root fetch - processPackages [mymorsecode]: Skipping, unable to determine old version
+[2024-05-03 17:13:06] INFO root fetch - main [MainThread]: End processing [mymorsecode] error
+[2024-05-03 17:13:06] INFO root fetch - processPackages [replicate-whisper-diarization]: Downloading https://files.pythonhosted.org/packages/39/6e/b47d58eb9091a96f5b60b9656b776952c9046a6e203d638d67674cbdfb52/replicate_whisper_diarization-0.2.5.tar.gz
+[2024-05-03 17:13:06] INFO root fetch - processPackages [deepsearch-glm]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ovs]: Downloading https://files.pythonhosted.org/packages/cb/6c/f3286af80bd6a667fd144e41cce845f6f8f901ea814f299e1afcc8f62e92/ovs-3.0.6.tar.gz
+[2024-05-03 17:13:06] INFO root fetch - processPackages [ovs]: Downloading https://files.pythonhosted.org/packages/cb/6c/f3286af80bd6a667fd144e41cce845f6f8f901ea814f299e1afcc8f62e92/ovs-3.0.6.tar.gz
+[2024-05-03 17:13:06] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/40/8f/0c28b09c5b933f63a5e9e2b50a3e8a06a87151afc8e162b2c09deedc4bf0/chaiverse-1.9.8.tar.gz
+[2024-05-03 17:13:06] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/92/60/decf0711268db2bfcdb83725688627829c4ebd8a9e0266b5cdf26d8d314c/lusid_drive_sdk-2.1.8.tar.gz
+[2024-05-03 17:13:06] INFO root fetch - processPackages [olist-loafer]: Downloading https://files.pythonhosted.org/packages/3b/8f/8011d4948c64c341b59d9e272b5118096bc8950cfe2ef126c91d8078943b/olist_loafer-5.0.0a1.tar.gz
+[2024-05-03 17:13:06] INFO root fetch - processPackages [yamk]: Downloading https://files.pythonhosted.org/packages/b1/ad/cab8f0ca4784a16d969a1849243ff9bfe3f1dd7307dbcab65109dae76de2/yamk-6.1.0.tar.gz
+[2024-05-03 17:13:06] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/9b/9e/e3aec9901c93140a9ce87412641f030d7e333289633728170b0e46f96459/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-03 17:13:06] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/4c/ed/6d3e89ab870b31d2281b7595f6030d767109316508a89f1d6178491348cd/chaiverse-1.9.9.tar.gz
+[2024-05-03 17:13:06] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/9c/21/2bc7c2f4a88ea4186d6bb581b0de48f5118c4c40406113d542273c930957/lusid_drive_sdk-2.1.9.tar.gz
+[2024-05-03 17:13:07] INFO root fetch - processPackages [olist-loafer]: Downloading https://files.pythonhosted.org/packages/91/3e/8ac07ba794e3f3b220914760c04ead7acc180da8c6f17ee7ca5de0d0def0/olist_loafer-6.0.0a1.tar.gz
+[2024-05-03 17:13:07] INFO root fetch - processPackages [ovs]: Downloading https://files.pythonhosted.org/packages/52/a2/3a8e6c21e926560599018a4a3d721f17bf4c01705a9d75365952098ce3f6/ovs-3.1.2.tar.gz
+[2024-05-03 17:13:07] INFO root fetch - processPackages [ovs]: Downloading https://files.pythonhosted.org/packages/52/a2/3a8e6c21e926560599018a4a3d721f17bf4c01705a9d75365952098ce3f6/ovs-3.1.2.tar.gz
+[2024-05-03 17:13:07] INFO root fetch - processPackages [replicate-whisper-diarization]: Downloading https://files.pythonhosted.org/packages/e8/87/7ce448329f17e1acc26ccdca69e5e49836dd4a339cc33effe87dac31e900/replicate_whisper_diarization-0.2.6.tar.gz
+[2024-05-03 17:13:07] INFO root fetch - processPackages [chaiverse]: executing diffoscope
+[2024-05-03 17:13:07] INFO root fetch - processPackages [chaiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaiverse-1.9.8.tar.gz tmp/chaiverse-1.9.9.tar.gz --markdown 20240503/c/chaiverse/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-03 17:13:07] INFO root fetch - processPackages [olist-loafer]: executing diffoscope
+[2024-05-03 17:13:07] INFO root fetch - processPackages [olist-loafer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olist_loafer-5.0.0a1.tar.gz tmp/olist_loafer-6.0.0a1.tar.gz --markdown 20240503/o/olist-loafer/5.0.0a1-6.0.0a1/README.md --exclude *.pyd
+[2024-05-03 17:13:07] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-05-03 17:13:07] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.8.tar.gz tmp/lusid_drive_sdk-2.1.9.tar.gz --markdown 20240503/l/lusid-drive-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-03 17:13:07] INFO root fetch - processPackages [replicate-whisper-diarization]: executing diffoscope
+[2024-05-03 17:13:07] INFO root fetch - processPackages [replicate-whisper-diarization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replicate_whisper_diarization-0.2.5.tar.gz tmp/replicate_whisper_diarization-0.2.6.tar.gz --markdown 20240503/r/replicate-whisper-diarization/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-03 17:13:07] INFO root fetch - processPackages [ovs]: executing diffoscope
+[2024-05-03 17:13:07] INFO root fetch - processPackages [ovs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovs-3.0.6.tar.gz tmp/ovs-3.1.2.tar.gz --markdown 20240503/o/ovs/3.0.6-3.1.2/README.md --exclude *.pyd
+[2024-05-03 17:13:07] INFO root fetch - processPackages [ovs]: executing diffoscope
+[2024-05-03 17:13:07] INFO root fetch - processPackages [ovs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovs-3.0.6.tar.gz tmp/ovs-3.1.2.tar.gz --markdown 20240503/o/ovs/3.0.6-3.1.2/README.md --exclude *.pyd
+[2024-05-03 17:13:07] INFO root fetch - processPackages [yamk]: Downloading https://files.pythonhosted.org/packages/5f/3d/ebba44c0af8c91c88eb66b73dc90eae00c6afae23ec3fb8b598ed56551fa/yamk-7.0.0.tar.gz
+[2024-05-03 17:13:07] INFO root fetch - processPackages [yamk]: executing diffoscope
+[2024-05-03 17:13:07] INFO root fetch - processPackages [yamk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamk-6.1.0.tar.gz tmp/yamk-7.0.0.tar.gz --markdown 20240503/y/yamk/6.1.0-7.0.0/README.md --exclude *.pyd
+[2024-05-03 17:13:07] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/a7/b4/b6e4a1f599dd8c5b22a644ee41f01aa39b5fad5698dce6be0e003fdd6457/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-03 17:13:08] INFO root fetch - processPackages [olist-loafer]: Remove: archive file [/home/abi/fetcher/tmp/olist_loafer-5.0.0a1.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - processPackages [olist-loafer]: Remove: archive file [/home/abi/fetcher/tmp/olist_loafer-6.0.0a1.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - main [MainThread]: End processing [olist-loafer]: success
+[2024-05-03 17:13:08] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.8.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.9.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-05-03 17:13:08] INFO root fetch - processPackages [replicate-whisper-diarization]: Remove: archive file [/home/abi/fetcher/tmp/replicate_whisper_diarization-0.2.5.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - processPackages [replicate-whisper-diarization]: Remove: archive file [/home/abi/fetcher/tmp/replicate_whisper_diarization-0.2.6.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - main [MainThread]: End processing [replicate-whisper-diarization]: success
+[2024-05-03 17:13:08] INFO root fetch - processPackages [ovs]: Remove: archive file [/home/abi/fetcher/tmp/ovs-3.0.6.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - processPackages [ovs]: Remove: archive file [/home/abi/fetcher/tmp/ovs-3.1.2.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - main [MainThread]: End processing [ovs]: success
+[2024-05-03 17:13:08] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.8.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.9.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - main [MainThread]: End processing [chaiverse]: success
+[2024-05-03 17:13:08] INFO root fetch - processPackages [deepsearch-glm]: executing diffoscope
+[2024-05-03 17:13:08] INFO root fetch - processPackages [deepsearch-glm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240503/d/deepsearch-glm/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-03 17:13:08] INFO root fetch - processPackages [yamk]: Remove: archive file [/home/abi/fetcher/tmp/yamk-6.1.0.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - processPackages [yamk]: Remove: archive file [/home/abi/fetcher/tmp/yamk-7.0.0.tar.gz]
+[2024-05-03 17:13:08] INFO root fetch - main [MainThread]: End processing [yamk]: success
+[2024-05-03 17:13:08] INFO root fetch - main [MainThread]: End processing [ovs]: success
+[2024-05-03 17:13:32] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-03 17:13:32] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-03 17:13:32] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
+[2024-05-03 17:13:32] INFO root fetch - main [MainThread]: Store serial: [23047761]
