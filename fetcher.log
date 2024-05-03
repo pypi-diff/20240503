@@ -14269,3 +14269,60 @@
 [2024-05-03 10:48:40] INFO root fetch - processPackages [ftrack-qt-style]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt_style-2.2.0.tar.gz]
 [2024-05-03 10:48:40] INFO root fetch - main [MainThread]: End processing [ftrack-qt-style]: success
 [2024-05-03 10:48:40] INFO root fetch - main [MainThread]: Store serial: [23043543]
+[2024-05-03 10:50:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043543]
+[2024-05-03 10:50:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 10:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ftrack-framework-qt
+[2024-05-03 10:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognee
+[2024-05-03 10:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-vector-simulator
+[2024-05-03 10:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: podlozhnyy-module
+[2024-05-03 10:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shelxfile
+[2024-05-03 10:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mikrtoik-bt5
+[2024-05-03 10:50:54] INFO root fetch - processPackages [shelxfile]: New version: [9] Old Version: [8]
+[2024-05-03 10:50:54] INFO root fetch - processPackages [shelxfile]: Downloading https://files.pythonhosted.org/packages/3d/d2/c43140a5deb0ce10c9cb116249454aff1ef6b247557484181234622a42bc/shelxfile-8.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [cognee]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 10:50:54] INFO root fetch - processPackages [mikrtoik-bt5]: New version: [0.0.2b1] Old Version: [0.0.1]
+[2024-05-03 10:50:54] INFO root fetch - processPackages [ftrack-framework-qt]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-03 10:50:54] INFO root fetch - processPackages [podlozhnyy-module]: New version: [2.3a0] Old Version: [2.2.1]
+[2024-05-03 10:50:54] INFO root fetch - processPackages [multi-vector-simulator]: New version: [1.1.1rc1] Old Version: [1.1.0rc2]
+[2024-05-03 10:50:54] INFO root fetch - processPackages [ftrack-framework-qt]: Downloading https://files.pythonhosted.org/packages/ea/86/8b30a815c793891b9a3d5c5b36dc95327569556f3f0ea9cb28ea6dcbec03/ftrack_framework_qt-2.1.0.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [podlozhnyy-module]: Downloading https://files.pythonhosted.org/packages/65/51/f6bfeefbd3915d2c220d7ae2860272fd72b68e977fedc787e252666b1737/podlozhnyy_module-2.2.1.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/30/8c/ac953bc8fe4583233da28b06d40388621af997ddb82915580aebaad6192f/cognee-0.1.6.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [multi-vector-simulator]: Downloading https://files.pythonhosted.org/packages/dd/7d/5a65dbda4f69bebf78896ee8cc035e443ecec5a976a4f2032b75372f5816/multi-vector-simulator-1.1.0rc2.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [shelxfile]: Downloading https://files.pythonhosted.org/packages/86/14/a6fa935fdff30b3b6e435a827bf3bff3bd7d56cc6f396be51842668b79fe/shelxfile-9.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [mikrtoik-bt5]: Downloading https://files.pythonhosted.org/packages/4b/7a/5dadce6e386c6df9361a822f7709f863b5086d3271bebff41edd64f9d70d/mikrtoik-bt5-0.0.1.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [shelxfile]: executing diffoscope
+[2024-05-03 10:50:54] INFO root fetch - processPackages [shelxfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelxfile-8.tar.gz tmp/shelxfile-9.tar.gz --markdown 20240503/s/shelxfile/8-9/README.md --exclude *.pyd
+[2024-05-03 10:50:54] INFO root fetch - processPackages [ftrack-framework-qt]: Downloading https://files.pythonhosted.org/packages/6d/6d/0a32ec3108db6e93140e6ff7ea9333114e60d2da077b03577bbc3e5aea9c/ftrack_framework_qt-2.2.0.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/86/30/0fc4ec4eb7ca0eafec5a090cb308f0f4ddd5638c71ab734222105aa536bc/cognee-0.1.7.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [mikrtoik-bt5]: Downloading https://files.pythonhosted.org/packages/23/0e/9a49db18f6190165b812860fcc12ac33561fd6660d005d058922b1b74a95/mikrtoik-bt5-0.0.2b1.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [podlozhnyy-module]: Downloading https://files.pythonhosted.org/packages/44/5d/905bce9bb5dd4b4b852e94dda04eeca7c10a29d1534d2139a0ea8390a720/podlozhnyy_module-2.3a0.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [multi-vector-simulator]: Downloading https://files.pythonhosted.org/packages/3d/d3/db39cba703ff517f8ba8b4da0e600d1ae5ffd518769dbce76d2b4a80da13/multi_vector_simulator-1.1.1rc1.tar.gz
+[2024-05-03 10:50:54] INFO root fetch - processPackages [ftrack-framework-qt]: executing diffoscope
+[2024-05-03 10:50:54] INFO root fetch - processPackages [ftrack-framework-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_framework_qt-2.1.0.tar.gz tmp/ftrack_framework_qt-2.2.0.tar.gz --markdown 20240503/f/ftrack-framework-qt/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-03 10:50:54] INFO root fetch - processPackages [mikrtoik-bt5]: executing diffoscope
+[2024-05-03 10:50:54] INFO root fetch - processPackages [mikrtoik-bt5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikrtoik-bt5-0.0.1.tar.gz tmp/mikrtoik-bt5-0.0.2b1.tar.gz --markdown 20240503/m/mikrtoik-bt5/0.0.1-0.0.2b1/README.md --exclude *.pyd
+[2024-05-03 10:50:54] INFO root fetch - processPackages [cognee]: executing diffoscope
+[2024-05-03 10:50:54] INFO root fetch - processPackages [cognee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognee-0.1.6.tar.gz tmp/cognee-0.1.7.tar.gz --markdown 20240503/c/cognee/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 10:50:54] INFO root fetch - processPackages [podlozhnyy-module]: executing diffoscope
+[2024-05-03 10:50:54] INFO root fetch - processPackages [podlozhnyy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podlozhnyy_module-2.2.1.tar.gz tmp/podlozhnyy_module-2.3a0.tar.gz --markdown 20240503/p/podlozhnyy-module/2.2.1-2.3a0/README.md --exclude *.pyd
+[2024-05-03 10:50:54] INFO root fetch - processPackages [multi-vector-simulator]: executing diffoscope
+[2024-05-03 10:50:54] INFO root fetch - processPackages [multi-vector-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi-vector-simulator-1.1.0rc2.tar.gz tmp/multi_vector_simulator-1.1.1rc1.tar.gz --markdown 20240503/m/multi-vector-simulator/1.1.0rc2-1.1.1rc1/README.md --exclude *.pyd
+[2024-05-03 10:50:55] INFO root fetch - processPackages [shelxfile]: Remove: archive file [/home/abi/fetcher/tmp/shelxfile-8.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - processPackages [shelxfile]: Remove: archive file [/home/abi/fetcher/tmp/shelxfile-9.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - main [MainThread]: End processing [shelxfile]: success
+[2024-05-03 10:50:55] INFO root fetch - processPackages [mikrtoik-bt5]: Remove: archive file [/home/abi/fetcher/tmp/mikrtoik-bt5-0.0.1.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - processPackages [mikrtoik-bt5]: Remove: archive file [/home/abi/fetcher/tmp/mikrtoik-bt5-0.0.2b1.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - main [MainThread]: End processing [mikrtoik-bt5]: success
+[2024-05-03 10:50:55] INFO root fetch - processPackages [ftrack-framework-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_qt-2.1.0.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - processPackages [ftrack-framework-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_qt-2.2.0.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - main [MainThread]: End processing [ftrack-framework-qt]: success
+[2024-05-03 10:50:55] INFO root fetch - processPackages [podlozhnyy-module]: Remove: archive file [/home/abi/fetcher/tmp/podlozhnyy_module-2.2.1.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - processPackages [podlozhnyy-module]: Remove: archive file [/home/abi/fetcher/tmp/podlozhnyy_module-2.3a0.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - main [MainThread]: End processing [podlozhnyy-module]: success
+[2024-05-03 10:50:55] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.6.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.7.tar.gz]
+[2024-05-03 10:50:55] INFO root fetch - main [MainThread]: End processing [cognee]: success
+[2024-05-03 10:50:56] INFO root fetch - processPackages [multi-vector-simulator]: Remove: archive file [/home/abi/fetcher/tmp/multi-vector-simulator-1.1.0rc2.tar.gz]
+[2024-05-03 10:50:56] INFO root fetch - processPackages [multi-vector-simulator]: Remove: archive file [/home/abi/fetcher/tmp/multi_vector_simulator-1.1.1rc1.tar.gz]
+[2024-05-03 10:50:56] INFO root fetch - main [MainThread]: End processing [multi-vector-simulator]: success
+[2024-05-03 10:50:56] INFO root fetch - main [MainThread]: Store serial: [23043561]
