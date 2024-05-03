@@ -21345,3 +21345,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:18:09] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
 [2024-05-03 16:18:09] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
 [2024-05-03 16:18:09] INFO root fetch - main [MainThread]: Store serial: [23046976]
+[2024-05-03 16:20:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046976]
+[2024-05-03 16:20:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 16:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygpt-net
+[2024-05-03 16:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cli-nb2py
+[2024-05-03 16:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unico_device_setuper
+[2024-05-03 16:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: levy-stable-jax
+[2024-05-03 16:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jenfi-pipeline-data-app
+[2024-05-03 16:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tlslib
+[2024-05-03 16:20:36] INFO root fetch - processPackages [levy-stable-jax]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-03 16:20:36] INFO root fetch - processPackages [tlslib]: New version: [0.0.2rc1] Old Version: [0.0.2rc0]
+[2024-05-03 16:20:37] INFO root fetch - processPackages [pygpt-net]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-03 16:20:37] INFO root fetch - processPackages [jenfi-pipeline-data-app]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-03 16:20:37] INFO root fetch - processPackages [tlslib]: Downloading https://files.pythonhosted.org/packages/d3/23/b263436466269e8eeade0929b0dd69aaf238966151f16a27d6d9330e98ef/tlslib-0.0.2rc0.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [unico_device_setuper]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-03 16:20:37] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/87/bd/03fe72e7f320669a90b84d238388ace4f71b3ca79f6054ca48f08902b2ca/jenfi_pipeline_data_app-0.4.4.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [cli-nb2py]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-03 16:20:37] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a2/51/eab8c08ccf8061d3c9a0a64e34850f09c2f311fb768c293d3683b097b0a1/pygpt_net-2.2.8.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [levy-stable-jax]: Downloading https://files.pythonhosted.org/packages/01/b8/96edd9e30b48ee673223e52ebff8e301a222f23f96e7c105a273b1419fa4/levy_stable_jax-0.1.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [tlslib]: Downloading https://files.pythonhosted.org/packages/77/38/7044aab8b074be046172ce7365a031ae5c7d65c646201a4c274984320973/tlslib-0.0.2rc1.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [cli-nb2py]: Downloading https://files.pythonhosted.org/packages/65/eb/9601ed834f3490d40cda1893ddb8ef618857f3fdc6e2dc61908b798745dd/cli-nb2py-0.6.0.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [unico_device_setuper]: Downloading https://files.pythonhosted.org/packages/0a/1e/cfc914941966269d2af4838ee31391551c27e32aabff1f24ab39e9a52d01/unico_device_setuper-0.3.0.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [tlslib]: executing diffoscope
+[2024-05-03 16:20:37] INFO root fetch - processPackages [tlslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlslib-0.0.2rc0.tar.gz tmp/tlslib-0.0.2rc1.tar.gz --markdown 20240503/t/tlslib/0.0.2rc0-0.0.2rc1/README.md --exclude *.pyd
+[2024-05-03 16:20:37] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/84/14/1419e35000adabf1d9150d056876676c08a2c159f944ea0f0801a3347c5c/jenfi_pipeline_data_app-0.4.5.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/9a/6b/ef19dace2478125566a1c01459255b7c5ee6d85a70cc2501323506c14e6a/pygpt_net-2.2.9.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [jenfi-pipeline-data-app]: executing diffoscope
+[2024-05-03 16:20:37] INFO root fetch - processPackages [jenfi-pipeline-data-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenfi_pipeline_data_app-0.4.4.tar.gz tmp/jenfi_pipeline_data_app-0.4.5.tar.gz --markdown 20240503/j/jenfi-pipeline-data-app/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-03 16:20:37] INFO root fetch - processPackages [unico_device_setuper]: Downloading https://files.pythonhosted.org/packages/78/f7/08460a9b662b0fc50eb864ac067b71a81e30c6e2ded2122866f767b387e4/unico_device_setuper-0.3.1.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [cli-nb2py]: Downloading https://files.pythonhosted.org/packages/a2/ee/77aa9162f4a4e118db73decad254fd5cc5a547f8f85a39485ef1804c0d75/cli-nb2py-0.7.0.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-05-03 16:20:37] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.2.8.tar.gz tmp/pygpt_net-2.2.9.tar.gz --markdown 20240503/p/pygpt-net/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-03 16:20:37] INFO root fetch - processPackages [unico_device_setuper]: executing diffoscope
+[2024-05-03 16:20:37] INFO root fetch - processPackages [unico_device_setuper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unico_device_setuper-0.3.0.tar.gz tmp/unico_device_setuper-0.3.1.tar.gz --markdown 20240503/u/unico_device_setuper/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-03 16:20:37] INFO root fetch - processPackages [levy-stable-jax]: Downloading https://files.pythonhosted.org/packages/e2/56/eff990fffa5b2b787e000c26ca64eb40c7a1435c0e8a8f2e2daa8732e773/levy_stable_jax-0.1.1.tar.gz
+[2024-05-03 16:20:37] INFO root fetch - processPackages [cli-nb2py]: executing diffoscope
+[2024-05-03 16:20:37] INFO root fetch - processPackages [cli-nb2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-nb2py-0.6.0.tar.gz tmp/cli-nb2py-0.7.0.tar.gz --markdown 20240503/c/cli-nb2py/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-03 16:20:38] INFO root fetch - processPackages [tlslib]: Remove: archive file [/home/abi/fetcher/tmp/tlslib-0.0.2rc0.tar.gz]
+[2024-05-03 16:20:38] INFO root fetch - processPackages [tlslib]: Remove: archive file [/home/abi/fetcher/tmp/tlslib-0.0.2rc1.tar.gz]
+[2024-05-03 16:20:38] INFO root fetch - main [MainThread]: End processing [tlslib]: success
+[2024-05-03 16:20:38] INFO root fetch - processPackages [levy-stable-jax]: executing diffoscope
+[2024-05-03 16:20:38] INFO root fetch - processPackages [levy-stable-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/levy_stable_jax-0.1.tar.gz tmp/levy_stable_jax-0.1.1.tar.gz --markdown 20240503/l/levy-stable-jax/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-03 16:20:38] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.4.tar.gz]
+[2024-05-03 16:20:38] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.5.tar.gz]
+[2024-05-03 16:20:38] INFO root fetch - main [MainThread]: End processing [jenfi-pipeline-data-app]: success
+[2024-05-03 16:20:38] INFO root fetch - processPackages [unico_device_setuper]: Remove: archive file [/home/abi/fetcher/tmp/unico_device_setuper-0.3.0.tar.gz]
+[2024-05-03 16:20:38] INFO root fetch - processPackages [unico_device_setuper]: Remove: archive file [/home/abi/fetcher/tmp/unico_device_setuper-0.3.1.tar.gz]
+[2024-05-03 16:20:38] INFO root fetch - main [MainThread]: End processing [unico_device_setuper]: success
+[2024-05-03 16:20:38] INFO root fetch - processPackages [cli-nb2py]: Remove: archive file [/home/abi/fetcher/tmp/cli-nb2py-0.6.0.tar.gz]
+[2024-05-03 16:20:38] INFO root fetch - processPackages [cli-nb2py]: Remove: archive file [/home/abi/fetcher/tmp/cli-nb2py-0.7.0.tar.gz]
+[2024-05-03 16:20:38] INFO root fetch - main [MainThread]: End processing [cli-nb2py]: success
+[2024-05-03 16:20:39] INFO root fetch - processPackages [levy-stable-jax]: Remove: archive file [/home/abi/fetcher/tmp/levy_stable_jax-0.1.tar.gz]
+[2024-05-03 16:20:39] INFO root fetch - processPackages [levy-stable-jax]: Remove: archive file [/home/abi/fetcher/tmp/levy_stable_jax-0.1.1.tar.gz]
+[2024-05-03 16:20:39] INFO root fetch - main [MainThread]: End processing [levy-stable-jax]: success
+[2024-05-03 16:20:41] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.8.tar.gz]
+[2024-05-03 16:20:41] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.9.tar.gz]
+[2024-05-03 16:20:41] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-05-03 16:20:41] INFO root fetch - main [MainThread]: Store serial: [23046993]
