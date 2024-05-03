@@ -14810,3 +14810,93 @@
 [2024-05-03 11:16:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-03 11:16:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-03 11:16:22] INFO root fetch - main [MainThread]: Store serial: [23043749]
+[2024-05-03 11:18:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043749]
+[2024-05-03 11:18:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MT5Manager
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vcmtools
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu121
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: create-app-fastapi
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissemble-extensions-model-training-api-sagemaker
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu118
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chocolatine
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tietoolbox
+[2024-05-03 11:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lwk
+[2024-05-03 11:18:37] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: New version: [1.7.0.dev1714641904] Old Version: [1.7.0.dev1714641537]
+[2024-05-03 11:18:37] INFO root fetch - processPackages [vcmtools]: New version: [0.2] Old Version: [0.1]
+[2024-05-03 11:18:37] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.3.dev20240502] Old Version: [0.2.3.dev20240501]
+[2024-05-03 11:18:37] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.3.dev20240502] Old Version: [0.2.3.dev20240501]
+[2024-05-03 11:18:37] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-03 11:18:37] INFO root fetch - processPackages [create-app-fastapi]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 11:18:37] WARNING root fetch - processPackages [tietoolbox]: Skipping, unable to determine old version
+[2024-05-03 11:18:37] INFO root fetch - processPackages [tietoolbox]: Start processing: skald
+[2024-05-03 11:18:37] INFO root fetch - main [MainThread]: End processing [tietoolbox] error
+[2024-05-03 11:18:37] INFO root fetch - processPackages [lwk]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-03 11:18:37] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/35/2d/98412c343d72ffa1d41ee7670605c8dd4e2641ec6601761a6d37fde47975/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [chocolatine]: New version: [0.86] Old Version: [0.85]
+[2024-05-03 11:18:38] INFO root fetch - processPackages [MT5Manager]: New version: [5.0.4288] Old Version: [5.0.4200]
+[2024-05-03 11:18:38] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b4/2b/1e72e3a365b7cfe97b8caf38a75583f16794046143a83a4694baa5d69d6e/nvfuser_cu121-0.2.3.dev20240501.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/40/97/230f68336985c19d5317466cf2f3ae66c05b161bb93c44edbeda440e53dd/nvfuser_cu118-0.2.3.dev20240501.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-03 11:18:38] INFO root fetch - processPackages [vcmtools]: Downloading https://files.pythonhosted.org/packages/f9/e2/46e2ea1848956a607cdcd8ea39b6430ccd9af2203443d5a9018fb361bc59/vcmtools-0.1.tar.gz
+[2024-05-03 11:18:38] WARNING root fetch - processPackages [skald]: Skipping, unable to determine old version
+[2024-05-03 11:18:38] INFO root fetch - main [MainThread]: End processing [skald] error
+[2024-05-03 11:18:38] INFO root fetch - processPackages [create-app-fastapi]: Downloading https://files.pythonhosted.org/packages/98/f6/2d19ef6a32cbe348a9d37b5582d32dd0233ebd2e45183bc4d0e624dbd435/create-app-fastapi-0.0.4.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [lwk]: Downloading https://files.pythonhosted.org/packages/84/53/877127295ba5791d50eeafc69c89f73fae60b0a4c9b193cd7da3660957bc/lwk-0.2.2-py3-none-win_amd64.whl
+[2024-05-03 11:18:38] INFO root fetch - processPackages [MT5Manager]: Downloading https://files.pythonhosted.org/packages/4f/31/5bbbc29628728a18802fefe6230b54d52069a94eae2f24d513af964aa803/MT5Manager-5.0.4200-cp39-cp39-win_amd64.whl
+[2024-05-03 11:18:38] INFO root fetch - processPackages [chocolatine]: Downloading https://files.pythonhosted.org/packages/14/0c/81d3adacc5e7d8abf3f490b006504906f805fb431615d426f0dffafe8a1e/chocolatine-0.85.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/0f/dc/76636ef99b3117db7ed693c1e7c081687f8516c72eea3a833ab86960a910/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641904.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/0a/79/692ed02a592d23e53dae9845dd4b98afc1c78dc520615395c3c8771a4a9a/nvfuser_cu121-0.2.3.dev20240502.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [vcmtools]: Downloading https://files.pythonhosted.org/packages/06/20/798927c85ab1444c2391d20484a08fa7953066598951eba808843a9ca708/vcmtools-0.2.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/66/35/1de585032285a4527cb828d4eefb8b6b5e81133c4cc0b84ad85481846699/nvfuser_cu118-0.2.3.dev20240502.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [create-app-fastapi]: Downloading https://files.pythonhosted.org/packages/b7/ce/666a014892a55ddd647c648a8c510504c355ca7cdb4da7d202943900b76c/create-app-fastapi-0.0.5.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: executing diffoscope
+[2024-05-03 11:18:38] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641904.tar.gz --markdown 20240503/a/aissemble-extensions-model-training-api-sagemaker/1.7.0.dev1714641537-1.7.0.dev1714641904/README.md --exclude *.pyd
+[2024-05-03 11:18:38] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-03 11:18:38] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240501.tar.gz tmp/nvfuser_cu121-0.2.3.dev20240502.tar.gz --markdown 20240503/n/nvfuser-cu121/0.2.3.dev20240501-0.2.3.dev20240502/README.md --exclude *.pyd
+[2024-05-03 11:18:38] INFO root fetch - processPackages [vcmtools]: executing diffoscope
+[2024-05-03 11:18:38] INFO root fetch - processPackages [vcmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcmtools-0.1.tar.gz tmp/vcmtools-0.2.tar.gz --markdown 20240503/v/vcmtools/0.1-0.2/README.md --exclude *.pyd
+[2024-05-03 11:18:38] INFO root fetch - processPackages [chocolatine]: Downloading https://files.pythonhosted.org/packages/f6/40/005fd72ad7b3e28bc9cb5ed3644f9ff0689a4848b2e952e1ca4c5c03ccef/chocolatine-0.86.tar.gz
+[2024-05-03 11:18:38] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-03 11:18:38] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-03 11:18:38] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240501.tar.gz tmp/nvfuser_cu118-0.2.3.dev20240502.tar.gz --markdown 20240503/n/nvfuser-cu118/0.2.3.dev20240501-0.2.3.dev20240502/README.md --exclude *.pyd
+[2024-05-03 11:18:38] INFO root fetch - processPackages [create-app-fastapi]: executing diffoscope
+[2024-05-03 11:18:38] INFO root fetch - processPackages [create-app-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create-app-fastapi-0.0.4.tar.gz tmp/create-app-fastapi-0.0.5.tar.gz --markdown 20240503/c/create-app-fastapi/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 11:18:38] INFO root fetch - processPackages [chocolatine]: executing diffoscope
+[2024-05-03 11:18:38] INFO root fetch - processPackages [chocolatine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chocolatine-0.85.tar.gz tmp/chocolatine-0.86.tar.gz --markdown 20240503/c/chocolatine/0.85-0.86/README.md --exclude *.pyd
+[2024-05-03 11:18:38] INFO root fetch - processPackages [MT5Manager]: Downloading https://files.pythonhosted.org/packages/d8/b3/82c0f47353c54d3ade59690252c17a737b55265b2dfe6a4ddcac92cdd734/MT5Manager-5.0.4288-cp39-cp39-win_amd64.whl
+[2024-05-03 11:18:39] INFO root fetch - processPackages [lwk]: Downloading https://files.pythonhosted.org/packages/7a/09/c41be262780aa2fd6d2ef6bbc0a6ddbb77111cc0f2924df000048dac4c06/lwk-0.3.0-py3-none-win_amd64.whl
+[2024-05-03 11:18:39] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-03 11:18:39] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240503/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-03 11:18:39] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240501.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240502.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-03 11:18:39] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240501.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240502.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-03 11:18:39] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641904.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-model-training-api-sagemaker]: success
+[2024-05-03 11:18:39] INFO root fetch - processPackages [vcmtools]: Remove: archive file [/home/abi/fetcher/tmp/vcmtools-0.1.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - processPackages [vcmtools]: Remove: archive file [/home/abi/fetcher/tmp/vcmtools-0.2.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - main [MainThread]: End processing [vcmtools]: success
+[2024-05-03 11:18:39] INFO root fetch - processPackages [create-app-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-app-fastapi-0.0.4.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - processPackages [create-app-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-app-fastapi-0.0.5.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - main [MainThread]: End processing [create-app-fastapi]: success
+[2024-05-03 11:18:39] INFO root fetch - processPackages [chocolatine]: Remove: archive file [/home/abi/fetcher/tmp/chocolatine-0.85.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - processPackages [chocolatine]: Remove: archive file [/home/abi/fetcher/tmp/chocolatine-0.86.tar.gz]
+[2024-05-03 11:18:39] INFO root fetch - main [MainThread]: End processing [chocolatine]: success
+[2024-05-03 11:18:39] INFO root fetch - processPackages [MT5Manager]: executing diffoscope
+[2024-05-03 11:18:39] INFO root fetch - processPackages [MT5Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MT5Manager-5.0.4200-cp39-cp39-win_amd64.whl.zip tmp/MT5Manager-5.0.4288-cp39-cp39-win_amd64.whl.zip --markdown 20240503/M/MT5Manager/5.0.4200-5.0.4288/README.md --exclude *.pyd
+[2024-05-03 11:18:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-03 11:18:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-03 11:18:40] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-03 11:18:40] INFO root fetch - processPackages [lwk]: executing diffoscope
+[2024-05-03 11:18:40] INFO root fetch - processPackages [lwk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lwk-0.2.2-py3-none-win_amd64.whl.zip tmp/lwk-0.3.0-py3-none-win_amd64.whl.zip --markdown 20240503/l/lwk/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-03 11:19:02] INFO root fetch - processPackages [MT5Manager]: Remove: archive file [/home/abi/fetcher/tmp/MT5Manager-5.0.4200-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 11:19:02] INFO root fetch - processPackages [MT5Manager]: Remove: archive file [/home/abi/fetcher/tmp/MT5Manager-5.0.4288-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 11:19:02] INFO root fetch - main [MainThread]: End processing [MT5Manager]: success
+[2024-05-03 11:19:32] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.2.2-py3-none-win_amd64.whl.zip]
+[2024-05-03 11:19:32] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.3.0-py3-none-win_amd64.whl.zip]
+[2024-05-03 11:19:32] INFO root fetch - main [MainThread]: End processing [lwk]: success
+[2024-05-03 11:19:32] INFO root fetch - main [MainThread]: Store serial: [23043788]
