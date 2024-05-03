@@ -19824,3 +19824,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:17:02] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip]
 [2024-05-03 15:17:02] INFO root fetch - main [MainThread]: End processing [amsdal]: success
 [2024-05-03 15:17:02] INFO root fetch - main [MainThread]: Store serial: [23046315]
+[2024-05-03 15:19:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046315]
+[2024-05-03 15:19:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-micro
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lfg-llama
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: praisonAI
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: supadantic
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lfg-llama
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ETS-CookBook
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scoring-matrices
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c4m-flexio
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xbooster
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: New version: [1.0.6] Old Version: [1.0.55555]
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ETS-CookBook]: New version: [1.0.9a0] Old Version: [1.0.9]
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: New version: [1.0.6] Old Version: [1.0.55555]
+[2024-05-03 15:19:35] INFO root fetch - processPackages [xbooster]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 15:19:35] INFO root fetch - processPackages [supadantic]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ETS-CookBook]: Downloading https://files.pythonhosted.org/packages/43/06/29da449adb8ce838fee8a99888bfb64e05bf44cd0778e1fd409250642450/ETS_CookBook-1.0.9.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [c4m-flexio]: New version: [0.4.2.post2] Old Version: [0.4.2.post1]
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/46/d9/d3b206cf8bc987f2117daf34b202104f2ec6fd3d2fea1c8a693c98bdbdcd/lfg_llama-1.0.55555.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [praisonAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 15:19:35] WARNING root fetch - processPackages [scoring-matrices]: Skipping, unable to determine old version
+[2024-05-03 15:19:35] INFO root fetch - main [MainThread]: End processing [scoring-matrices] error
+[2024-05-03 15:19:35] INFO root fetch - processPackages [tflite-micro]: New version: [0.dev20240502151121] Old Version: [0.dev20240430183525]
+[2024-05-03 15:19:35] INFO root fetch - processPackages [xbooster]: Downloading https://files.pythonhosted.org/packages/c6/25/7860c05f568e1d8a08f0d61be6a93538b9110253afa5ebeda97c82e0487e/xbooster-0.1.0.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/46/d9/d3b206cf8bc987f2117daf34b202104f2ec6fd3d2fea1c8a693c98bdbdcd/lfg_llama-1.0.55555.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [supadantic]: Downloading https://files.pythonhosted.org/packages/ef/9a/6c614ae19b5b3c3700f76a3842c082b4296ee1116564783d465bd74fe82e/supadantic-0.0.3.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [praisonAI]: Downloading https://files.pythonhosted.org/packages/4a/fb/058fc12e29483448272d9940d30499b97a17a6242de0ac970dd58acf105a/praisonai-0.0.8.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/08/03/ef133121d632c41dd546a9fbfb8ce09204fcc33b43c1be1b6bb153a071a0/tflite_micro-0.dev20240430183525-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-03 15:19:35] INFO root fetch - processPackages [c4m-flexio]: Downloading https://files.pythonhosted.org/packages/02/ce/d61735cb4fba9bb702f5ddbc1f4c75db8fff43ea2694a3c87066f373d270/c4m_flexio-0.4.2.post1.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [xbooster]: Downloading https://files.pythonhosted.org/packages/d6/a4/233a207a696c2286189fb9e81ea931a1fd09d7ec29488e06fa1a9cfb543a/xbooster-0.2.0.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/7f/cd/6447c8895a494adf0418a18db890bc132ec1a823b56ff03bfeed1985acc2/lfg_llama-1.0.6.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/7f/cd/6447c8895a494adf0418a18db890bc132ec1a823b56ff03bfeed1985acc2/lfg_llama-1.0.6.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [xbooster]: executing diffoscope
+[2024-05-03 15:19:35] INFO root fetch - processPackages [xbooster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbooster-0.1.0.tar.gz tmp/xbooster-0.2.0.tar.gz --markdown 20240503/x/xbooster/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 15:19:35] INFO root fetch - processPackages [ETS-CookBook]: Downloading https://files.pythonhosted.org/packages/09/fa/90d5886284c7be6ea9ec8bc00d3c061d39084492a13408c258798891c1cf/ETS_CookBook-1.0.9a0.tar.gz
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.0.55555.tar.gz tmp/lfg_llama-1.0.6.tar.gz --markdown 20240503/l/lfg-llama/1.0.55555-1.0.6/README.md --exclude *.pyd
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-03 15:19:35] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.0.55555.tar.gz tmp/lfg_llama-1.0.6.tar.gz --markdown 20240503/l/lfg-llama/1.0.55555-1.0.6/README.md --exclude *.pyd
+[2024-05-03 15:19:35] INFO root fetch - processPackages [praisonAI]: Downloading https://files.pythonhosted.org/packages/c1/ff/1216187b9c3ca8bf85cfb1da01ce373803da39a7a92617344964436e42d3/praisonai-0.0.9.tar.gz
+[2024-05-03 15:19:36] INFO root fetch - processPackages [supadantic]: Downloading https://files.pythonhosted.org/packages/61/22/f6aa61959ab38b111483478969c8348d5cebbee85418f1b79ccd2a2a4483/supadantic-0.0.4.tar.gz
+[2024-05-03 15:19:36] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/eb/05/1d8743c208a645e05dcb2181399d2c58fdd5ffe9e22e5bed7858fbeb1c4c/tflite_micro-0.dev20240502151121-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-03 15:19:36] INFO root fetch - processPackages [c4m-flexio]: Downloading https://files.pythonhosted.org/packages/17/58/9ccde36a990d7247082279198cf70bd034a415a1ec63103fa5417b1a4d2c/c4m_flexio-0.4.2.post2.tar.gz
+[2024-05-03 15:19:36] INFO root fetch - processPackages [ETS-CookBook]: executing diffoscope
+[2024-05-03 15:19:36] INFO root fetch - processPackages [ETS-CookBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ETS_CookBook-1.0.9.tar.gz tmp/ETS_CookBook-1.0.9a0.tar.gz --markdown 20240503/E/ETS-CookBook/1.0.9-1.0.9a0/README.md --exclude *.pyd
+[2024-05-03 15:19:36] INFO root fetch - processPackages [praisonAI]: executing diffoscope
+[2024-05-03 15:19:36] INFO root fetch - processPackages [praisonAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/praisonai-0.0.8.tar.gz tmp/praisonai-0.0.9.tar.gz --markdown 20240503/p/praisonAI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 15:19:36] INFO root fetch - processPackages [supadantic]: executing diffoscope
+[2024-05-03 15:19:36] INFO root fetch - processPackages [supadantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supadantic-0.0.3.tar.gz tmp/supadantic-0.0.4.tar.gz --markdown 20240503/s/supadantic/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 15:19:36] INFO root fetch - processPackages [c4m-flexio]: executing diffoscope
+[2024-05-03 15:19:36] INFO root fetch - processPackages [c4m-flexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexio-0.4.2.post1.tar.gz tmp/c4m_flexio-0.4.2.post2.tar.gz --markdown 20240503/c/c4m-flexio/0.4.2.post1-0.4.2.post2/README.md --exclude *.pyd
+[2024-05-03 15:19:36] INFO root fetch - processPackages [tflite-micro]: executing diffoscope
+[2024-05-03 15:19:36] INFO root fetch - processPackages [tflite-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_micro-0.dev20240430183525-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/tflite_micro-0.dev20240502151121-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20240503/t/tflite-micro/0.dev20240430183525-0.dev20240502151121/README.md --exclude *.pyd
+[2024-05-03 15:19:36] INFO root fetch - processPackages [xbooster]: Remove: archive file [/home/abi/fetcher/tmp/xbooster-0.1.0.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - processPackages [xbooster]: Remove: archive file [/home/abi/fetcher/tmp/xbooster-0.2.0.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - main [MainThread]: End processing [xbooster]: success
+[2024-05-03 15:19:36] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.55555.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.6.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-03 15:19:36] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-03 15:19:36] INFO root fetch - processPackages [praisonAI]: Remove: archive file [/home/abi/fetcher/tmp/praisonai-0.0.8.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - processPackages [praisonAI]: Remove: archive file [/home/abi/fetcher/tmp/praisonai-0.0.9.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - main [MainThread]: End processing [praisonAI]: success
+[2024-05-03 15:19:36] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.4.2.post1.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.4.2.post2.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - main [MainThread]: End processing [c4m-flexio]: success
+[2024-05-03 15:19:36] INFO root fetch - processPackages [supadantic]: Remove: archive file [/home/abi/fetcher/tmp/supadantic-0.0.3.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - processPackages [supadantic]: Remove: archive file [/home/abi/fetcher/tmp/supadantic-0.0.4.tar.gz]
+[2024-05-03 15:19:36] INFO root fetch - main [MainThread]: End processing [supadantic]: success
+[2024-05-03 15:19:37] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240430183525-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-03 15:19:37] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240502151121-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-03 15:19:37] INFO root fetch - main [MainThread]: End processing [tflite-micro]: success
+[2024-05-03 15:19:37] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9.tar.gz]
+[2024-05-03 15:19:37] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9a0.tar.gz]
+[2024-05-03 15:19:37] INFO root fetch - main [MainThread]: End processing [ETS-CookBook]: success
+[2024-05-03 15:19:37] INFO root fetch - main [MainThread]: Store serial: [23046352]
