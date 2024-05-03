@@ -20935,3 +20935,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:02:55] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.0.tar.gz]
 [2024-05-03 16:02:55] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
 [2024-05-03 16:02:55] INFO root fetch - main [MainThread]: Store serial: [23046832]
+[2024-05-03 16:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046832]
+[2024-05-03 16:05:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kqcircuits
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ALLMDEV
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mastsel
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: octoflow
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python_dev_utils
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casagui
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyCHX
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openAIInsight
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ALLMDEV]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-03 16:05:24] INFO root fetch - processPackages [casagui]: New version: [0.3.9] Old Version: [0.3.85]
+[2024-05-03 16:05:24] INFO root fetch - processPackages [python_dev_utils]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-03 16:05:24] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 16:05:24] INFO root fetch - processPackages [mastsel]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-03 16:05:24] INFO root fetch - processPackages [kqcircuits]: New version: [4.7.9] Old Version: [4.7.7]
+[2024-05-03 16:05:24] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/b6/09/fe29d59a9d5921f91d2abf97dd979ad8b9ff3cc107874c37fb9b7ef0e5ab/ALLMDEV-1.2.6-py3-none-any.whl
+[2024-05-03 16:05:24] INFO root fetch - processPackages [pyCHX]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-05-03 16:05:24] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/7b/93/c10dcf31de3d7375b815edac671c5b4a69766abace77bbb7ab90c33a2edf/python_dev_utils-1.7.0.tar.gz
+[2024-05-03 16:05:24] INFO root fetch - processPackages [casagui]: Downloading https://files.pythonhosted.org/packages/35/4c/c0fdc2c6140a8d11bbbc585fcb14bc66f5b98790a52ffc70be0024d58a2c/casagui-0.3.85.tar.gz
+[2024-05-03 16:05:24] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-05-03 16:05:24] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/ae/06/fa51b5dcb39e8e6a7a8a823499d9504e6c1e9251753ad6524ae82bbb466e/openAIInsight-0.0.8-py3-none-any.whl
+[2024-05-03 16:05:24] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/67/ad/100dfda7026a3ab2a0a2e59ec3bbdb9bc5882a8a770f8d30b6c4a05cb5b2/mastsel-1.2.7.tar.gz
+[2024-05-03 16:05:24] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/a1/ed/839fb6b85a7a5671adff0e932c12b36a57e9489f8e44ca854bde27727f93/kqcircuits-4.7.7.tar.gz
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/1d/ae/f2d0f9f0600535d8bd754022359b955194e5b7691e90352c57459a486b20/ALLMDEV-1.2.7-py3-none-any.whl
+[2024-05-03 16:05:24] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-05-03 16:05:24] INFO root fetch - processPackages [pyCHX]: Downloading https://files.pythonhosted.org/packages/db/0b/71ac6b050594ea3d0fb1bff0542091ab21b9339c6b70159b6385b639d503/pychx-4.2.0.tar.gz
+[2024-05-03 16:05:24] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/64/d0/aa775056483439bb480d4f5c2cfa40a8390e3b4f977734be82f2221c6775/python_dev_utils-1.8.0.tar.gz
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ALLMDEV]: executing diffoscope
+[2024-05-03 16:05:24] INFO root fetch - processPackages [ALLMDEV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALLMDEV-1.2.6-py3-none-any.whl.zip tmp/ALLMDEV-1.2.7-py3-none-any.whl.zip --markdown 20240503/A/ALLMDEV/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-03 16:05:24] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-05-03 16:05:24] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240503/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 16:05:25] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-03 16:05:25] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.7.0.tar.gz tmp/python_dev_utils-1.8.0.tar.gz --markdown 20240503/p/python_dev_utils/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-03 16:05:25] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/26/4c/5a327b1422b323687596aca5a05e12c23d02757e20906f97504ed95e9a03/mastsel-1.2.8.tar.gz
+[2024-05-03 16:05:25] INFO root fetch - processPackages [casagui]: Downloading https://files.pythonhosted.org/packages/70/f1/a7710edfe82e62b142455a80c80cf8c7fb3ddb338ddea498b2b978212506/casagui-0.3.9.tar.gz
+[2024-05-03 16:05:25] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/1e/33/a70a124292be5c9d2c37167928812a80dc68e36910e94f3ba08cba349c03/openAIInsight-0.0.9-py3-none-any.whl
+[2024-05-03 16:05:25] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/0f/66/e738dc55ec6ab57487e99a84596a44bea1df97654810360b0bca99c00feb/kqcircuits-4.7.9.tar.gz
+[2024-05-03 16:05:25] INFO root fetch - processPackages [mastsel]: executing diffoscope
+[2024-05-03 16:05:25] INFO root fetch - processPackages [mastsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastsel-1.2.7.tar.gz tmp/mastsel-1.2.8.tar.gz --markdown 20240503/m/mastsel/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-03 16:05:25] INFO root fetch - processPackages [casagui]: executing diffoscope
+[2024-05-03 16:05:25] INFO root fetch - processPackages [casagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casagui-0.3.85.tar.gz tmp/casagui-0.3.9.tar.gz --markdown 20240503/c/casagui/0.3.85-0.3.9/README.md --exclude *.pyd
+[2024-05-03 16:05:25] INFO root fetch - processPackages [pyCHX]: Downloading https://files.pythonhosted.org/packages/d0/95/1d32f1e2116f80f89fa6fc5b5ce59b91cf63a2669e858918cd3fef739c23/pychx-4.3.0.tar.gz
+[2024-05-03 16:05:25] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2024-05-03 16:05:25] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.8-py3-none-any.whl.zip tmp/openAIInsight-0.0.9-py3-none-any.whl.zip --markdown 20240503/o/openAIInsight/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 16:05:25] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2024-05-03 16:05:25] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.7.7.tar.gz tmp/kqcircuits-4.7.9.tar.gz --markdown 20240503/k/kqcircuits/4.7.7-4.7.9/README.md --exclude *.pyd
+[2024-05-03 16:05:25] INFO root fetch - processPackages [pyCHX]: executing diffoscope
+[2024-05-03 16:05:25] INFO root fetch - processPackages [pyCHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychx-4.2.0.tar.gz tmp/pychx-4.3.0.tar.gz --markdown 20240503/p/pyCHX/4.2.0-4.3.0/README.md --exclude *.pyd
+[2024-05-03 16:05:25] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-05-03 16:05:25] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-05-03 16:05:25] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-05-03 16:05:25] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.2.6-py3-none-any.whl.zip]
+[2024-05-03 16:05:25] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.2.7-py3-none-any.whl.zip]
+[2024-05-03 16:05:25] INFO root fetch - main [MainThread]: End processing [ALLMDEV]: success
+[2024-05-03 16:05:25] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.7.0.tar.gz]
+[2024-05-03 16:05:25] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.0.tar.gz]
+[2024-05-03 16:05:25] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-03 16:05:26] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.8-py3-none-any.whl.zip]
+[2024-05-03 16:05:26] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.9-py3-none-any.whl.zip]
+[2024-05-03 16:05:26] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2024-05-03 16:05:26] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.2.7.tar.gz]
+[2024-05-03 16:05:26] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.2.8.tar.gz]
+[2024-05-03 16:05:26] INFO root fetch - main [MainThread]: End processing [mastsel]: success
+[2024-05-03 16:05:26] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.7.7.tar.gz]
+[2024-05-03 16:05:26] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.7.9.tar.gz]
+[2024-05-03 16:05:26] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2024-05-03 16:05:27] INFO root fetch - processPackages [casagui]: Remove: archive file [/home/abi/fetcher/tmp/casagui-0.3.85.tar.gz]
+[2024-05-03 16:05:27] INFO root fetch - processPackages [casagui]: Remove: archive file [/home/abi/fetcher/tmp/casagui-0.3.9.tar.gz]
+[2024-05-03 16:05:27] INFO root fetch - main [MainThread]: End processing [casagui]: success
+[2024-05-03 16:05:27] INFO root fetch - processPackages [pyCHX]: Remove: archive file [/home/abi/fetcher/tmp/pychx-4.2.0.tar.gz]
+[2024-05-03 16:05:27] INFO root fetch - processPackages [pyCHX]: Remove: archive file [/home/abi/fetcher/tmp/pychx-4.3.0.tar.gz]
+[2024-05-03 16:05:27] INFO root fetch - main [MainThread]: End processing [pyCHX]: success
+[2024-05-03 16:05:27] INFO root fetch - main [MainThread]: Store serial: [23046855]
