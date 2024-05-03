@@ -10416,3 +10416,60 @@
 [2024-05-03 08:05:51] INFO root fetch - processPackages [picomet]: Remove: archive file [/home/abi/fetcher/tmp/picomet-0.0.9.tar.gz]
 [2024-05-03 08:05:51] INFO root fetch - main [MainThread]: End processing [picomet]: success
 [2024-05-03 08:05:51] INFO root fetch - main [MainThread]: Store serial: [23041979]
+[2024-05-03 08:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041979]
+[2024-05-03 08:08:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picomet
+[2024-05-03 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-request
+[2024-05-03 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-cycle-count
+[2024-05-03 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nnfasta
+[2024-05-03 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-stock-logistics-warehouse
+[2024-05-03 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quant2
+[2024-05-03 08:08:00] INFO root fetch - processPackages [picomet]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:08:01] INFO root fetch - processPackages [nnfasta]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-03 08:08:01] INFO root fetch - processPackages [picomet]: Downloading https://files.pythonhosted.org/packages/9b/40/51e244f466eef9b5179e2942bff54871f5bf6dcd73a660f4c81d3d2f3cab/picomet-0.0.8.tar.gz
+[2024-05-03 08:08:01] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/ef/99/1d750b80c5cac5fcb5963bdcf5b68bd9aa0e8f2144f29bf2a76d6b8eec58/nnfasta-0.1.5.tar.gz
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addon-stock-cycle-count]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.7.4.dev4] Old Version: [14.0.1.7.4.dev3]
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: New version: [16.0.20240421.0] Old Version: [16.0.20240321.0]
+[2024-05-03 08:08:01] INFO root fetch - processPackages [quant2]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 08:08:01] INFO root fetch - processPackages [picomet]: Downloading https://files.pythonhosted.org/packages/d9/c3/66cc982e5346de096998988667573cfa88816e3f34e68e680883a05e8f87/picomet-0.0.9.tar.gz
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/ed/8c/a57a3c18be84aefbbe17d43e8f9801bddf807b9eb6ff413c91ae3e073b09/odoo_addon_stock_cycle_count-15.0.1.0.0.4-py3-none-any.whl
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/19/b9/291997998957ca1a7107dbb3caa0a414009bf5c1174c7b676829bb3448eb/odoo14_addon_stock_request-14.0.1.7.4.dev3-py3-none-any.whl
+[2024-05-03 08:08:01] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/8c/95b0b708a3cd61829bebc45cde551ba9b6d2873d10f8c9d96f89d6f06315/quant2-0.1.8.tar.gz
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/9a/e7/326a7494165be20c45297d1602db97c4c7a1a5051bc0ada1e8f340078a37/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl
+[2024-05-03 08:08:01] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/19/5c/c6026e9c1a7f50ecb7ffdd23e688f1c3d06c18d81d5437f9fc0269f257c5/nnfasta-0.1.6.tar.gz
+[2024-05-03 08:08:01] INFO root fetch - processPackages [picomet]: executing diffoscope
+[2024-05-03 08:08:01] INFO root fetch - processPackages [picomet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picomet-0.0.8.tar.gz tmp/picomet-0.0.9.tar.gz --markdown 20240503/p/picomet/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:08:01] INFO root fetch - processPackages [nnfasta]: executing diffoscope
+[2024-05-03 08:08:01] INFO root fetch - processPackages [nnfasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnfasta-0.1.5.tar.gz tmp/nnfasta-0.1.6.tar.gz --markdown 20240503/n/nnfasta/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/bf/c8/eee34e97925c09566bac73b6db48d6ba9579447d7e762f60d933981febd9/odoo_addon_stock_cycle_count-15.0.1.0.0.5-py3-none-any.whl
+[2024-05-03 08:08:01] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/bf/1a/6ceafd7a5a862aa7b8839815a0b32442b1a768caef03ce4ee178c5125c8c/quant2-0.1.9.tar.gz
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/5b/08/f13f3513f0afc887872e36f0851c2949841d22b52256922c90ccfd8f2202/odoo14_addon_stock_request-14.0.1.7.4.dev4-py3-none-any.whl
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/f7/87/e6f7bd329c4968526bd557176153459ae884cc6a95dced20b2a012c6332f/odoo_addons_oca_stock_logistics_warehouse-16.0.20240421.0-py3-none-any.whl
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addon-stock-cycle-count]: executing diffoscope
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addon-stock-cycle-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_cycle_count-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_cycle_count-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-stock-cycle-count/15.0.1.0.0.4-15.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240421.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-stock-logistics-warehouse/16.0.20240321.0-16.0.20240421.0/README.md --exclude *.pyd
+[2024-05-03 08:08:01] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-05-03 08:08:01] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.1.8.tar.gz tmp/quant2-0.1.9.tar.gz --markdown 20240503/q/quant2/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2024-05-03 08:08:01] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.7.4.dev3-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.7.4.dev4-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-stock-request/14.0.1.7.4.dev3-14.0.1.7.4.dev4/README.md --exclude *.pyd
+[2024-05-03 08:08:02] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.5.tar.gz]
+[2024-05-03 08:08:02] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.6.tar.gz]
+[2024-05-03 08:08:02] INFO root fetch - main [MainThread]: End processing [nnfasta]: success
+[2024-05-03 08:08:02] INFO root fetch - processPackages [picomet]: Remove: archive file [/home/abi/fetcher/tmp/picomet-0.0.8.tar.gz]
+[2024-05-03 08:08:02] INFO root fetch - processPackages [picomet]: Remove: archive file [/home/abi/fetcher/tmp/picomet-0.0.9.tar.gz]
+[2024-05-03 08:08:02] INFO root fetch - main [MainThread]: End processing [picomet]: success
+[2024-05-03 08:08:02] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl.zip]
+[2024-05-03 08:08:02] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240421.0-py3-none-any.whl.zip]
+[2024-05-03 08:08:02] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-warehouse]: success
+[2024-05-03 08:08:02] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.8.tar.gz]
+[2024-05-03 08:08:02] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.9.tar.gz]
+[2024-05-03 08:08:02] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-05-03 08:08:02] INFO root fetch - processPackages [odoo-addon-stock-cycle-count]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_cycle_count-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-03 08:08:02] INFO root fetch - processPackages [odoo-addon-stock-cycle-count]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_cycle_count-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-03 08:08:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-cycle-count]: success
+[2024-05-03 08:08:02] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.7.4.dev3-py3-none-any.whl.zip]
+[2024-05-03 08:08:02] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.7.4.dev4-py3-none-any.whl.zip]
+[2024-05-03 08:08:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2024-05-03 08:08:02] INFO root fetch - main [MainThread]: Store serial: [23041994]
