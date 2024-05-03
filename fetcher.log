@@ -9964,3 +9964,33 @@
 [2024-05-03 07:33:09] INFO root fetch - processPackages [SiEPIC]: Remove: archive file [/home/abi/fetcher/tmp/siepic-0.5.7.tar.gz]
 [2024-05-03 07:33:09] INFO root fetch - main [MainThread]: End processing [SiEPIC]: success
 [2024-05-03 07:33:09] INFO root fetch - main [MainThread]: Store serial: [23041833]
+[2024-05-03 07:35:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041833]
+[2024-05-03 07:35:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 07:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2024-05-03 07:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repo2docs
+[2024-05-03 07:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-layout-category-hide-detail
+[2024-05-03 07:35:18] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 07:35:18] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0]
+[2024-05-03 07:35:18] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240501] Old Version: [2.17.0.dev20240429]
+[2024-05-03 07:35:18] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 07:35:18] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: Downloading https://files.pythonhosted.org/packages/82/2d/dc84b187522759881a8d2f335ce3d2a41b6123cff7693b707babc6d177e2/odoo_addon_sale_layout_category_hide_detail-16.0.1.1.0-py3-none-any.whl
+[2024-05-03 07:35:18] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/16/d7/d101f167da02d99377e62b65115e0fd1c0ffafdcc453bc4b403ee5a04a76/tflite_runtime_nightly-2.17.0.dev20240429-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-03 07:35:18] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 07:35:18] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: Downloading https://files.pythonhosted.org/packages/40/d5/8d18d3c36c2e7d79bff2c239d20f1ad3cfc6a09675342a38cf8cf0480053/odoo_addon_sale_layout_category_hide_detail-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-03 07:35:18] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 07:35:18] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 07:35:18] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/fa/a6/a09cf06119244891cac020661c575cb37769ee800960da4969f794034d44/tflite_runtime_nightly-2.17.0.dev20240501-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-03 07:35:18] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: executing diffoscope
+[2024-05-03 07:35:18] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_layout_category_hide_detail-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_layout_category_hide_detail-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-sale-layout-category-hide-detail/16.0.1.1.0-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-03 07:35:18] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-03 07:35:18] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240429-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240501-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240503/t/tflite-runtime-nightly/2.17.0.dev20240429-2.17.0.dev20240501/README.md --exclude *.pyd
+[2024-05-03 07:35:19] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 07:35:19] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 07:35:19] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 07:35:19] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_layout_category_hide_detail-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-03 07:35:19] INFO root fetch - processPackages [odoo-addon-sale-layout-category-hide-detail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_layout_category_hide_detail-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-03 07:35:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-layout-category-hide-detail]: success
+[2024-05-03 07:35:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240429-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-03 07:35:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240501-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-03 07:35:19] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-03 07:35:19] INFO root fetch - main [MainThread]: Store serial: [23041848]
