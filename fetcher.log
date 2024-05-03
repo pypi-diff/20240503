@@ -10256,3 +10256,45 @@
 [2024-05-03 07:54:52] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev9-py3-none-any.whl.zip]
 [2024-05-03 07:54:52] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-tier-validation]: success
 [2024-05-03 07:54:52] INFO root fetch - main [MainThread]: Store serial: [23041924]
+[2024-05-03 07:56:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041924]
+[2024-05-03 07:57:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 07:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SimpleDomControl
+[2024-05-03 07:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slurmgen
+[2024-05-03 07:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ozonetel-ai
+[2024-05-03 07:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libvsapm-python
+[2024-05-03 07:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mccstyle
+[2024-05-03 07:57:01] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.12] Old Version: [0.0.11]
+[2024-05-03 07:57:01] INFO root fetch - processPackages [libvsapm-python]: New version: [20240503] Old Version: [20240226]
+[2024-05-03 07:57:01] WARNING root fetch - processPackages [mccstyle]: Skipping, unable to determine old version
+[2024-05-03 07:57:01] INFO root fetch - main [MainThread]: End processing [mccstyle] error
+[2024-05-03 07:57:01] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/cb/8c/f110006a8b723fc1e9e8bdd4686a2e2593b549815a5c272ebadb8a6e948c/ozonetel-ai-0.0.11.tar.gz
+[2024-05-03 07:57:01] INFO root fetch - processPackages [SimpleDomControl]: New version: [0.4.8] Old Version: [0.4.6]
+[2024-05-03 07:57:01] INFO root fetch - processPackages [slurmgen]: New version: [3.3.3] Old Version: [3.2.0]
+[2024-05-03 07:57:01] INFO root fetch - processPackages [libvsapm-python]: Downloading https://files.pythonhosted.org/packages/fc/97/e100e5d2c4a59a0b80b85b94e3efe4deae7905acf1d6558d3276d8cec455/libvsapm-python-20240226.tar.gz
+[2024-05-03 07:57:01] INFO root fetch - processPackages [slurmgen]: Downloading https://files.pythonhosted.org/packages/49/b9/a01529861335e1799b7ac4e4c93c371a3cb6b18779c6e580395167da6bc0/slurmgen-3.2.0.tar.gz
+[2024-05-03 07:57:01] INFO root fetch - processPackages [SimpleDomControl]: Downloading https://files.pythonhosted.org/packages/9b/fb/c773437aa291f64220a512ecad538bb91b52eb0969d44a8964f44d0a024a/simpledomcontrol-0.4.6.tar.gz
+[2024-05-03 07:57:01] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/58/65/b3047c9fb6da575697f3e7b24bced34e23ef9e0b217111f6b5e126c73d81/ozonetel-ai-0.0.12.tar.gz
+[2024-05-03 07:57:01] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-05-03 07:57:01] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.11.tar.gz tmp/ozonetel-ai-0.0.12.tar.gz --markdown 20240503/o/ozonetel-ai/0.0.11-0.0.12/README.md --exclude *.pyd
+[2024-05-03 07:57:01] INFO root fetch - processPackages [SimpleDomControl]: Downloading https://files.pythonhosted.org/packages/58/13/fa958e772a1a7985e7a806807c0fff6fc49ee67ec322e00043ccd53521a7/simpledomcontrol-0.4.8.tar.gz
+[2024-05-03 07:57:01] INFO root fetch - processPackages [libvsapm-python]: Downloading https://files.pythonhosted.org/packages/8b/2a/4389f5b4544e72e06908d210ed8382824ae6565716a6d656968a7db3f71f/libvsapm-python-20240503.tar.gz
+[2024-05-03 07:57:01] INFO root fetch - processPackages [slurmgen]: Downloading https://files.pythonhosted.org/packages/99/4a/f00218fb44d216be1d70157f45d63dd5a96e3de1286ed3788a4c094c7bf6/slurmgen-3.3.3.tar.gz
+[2024-05-03 07:57:01] INFO root fetch - processPackages [SimpleDomControl]: executing diffoscope
+[2024-05-03 07:57:01] INFO root fetch - processPackages [SimpleDomControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpledomcontrol-0.4.6.tar.gz tmp/simpledomcontrol-0.4.8.tar.gz --markdown 20240503/S/SimpleDomControl/0.4.6-0.4.8/README.md --exclude *.pyd
+[2024-05-03 07:57:01] INFO root fetch - processPackages [slurmgen]: executing diffoscope
+[2024-05-03 07:57:01] INFO root fetch - processPackages [slurmgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmgen-3.2.0.tar.gz tmp/slurmgen-3.3.3.tar.gz --markdown 20240503/s/slurmgen/3.2.0-3.3.3/README.md --exclude *.pyd
+[2024-05-03 07:57:02] INFO root fetch - processPackages [libvsapm-python]: executing diffoscope
+[2024-05-03 07:57:02] INFO root fetch - processPackages [libvsapm-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvsapm-python-20240226.tar.gz tmp/libvsapm-python-20240503.tar.gz --markdown 20240503/l/libvsapm-python/20240226-20240503/README.md --exclude *.pyd
+[2024-05-03 07:57:02] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.11.tar.gz]
+[2024-05-03 07:57:02] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.12.tar.gz]
+[2024-05-03 07:57:02] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-05-03 07:57:02] INFO root fetch - processPackages [slurmgen]: Remove: archive file [/home/abi/fetcher/tmp/slurmgen-3.2.0.tar.gz]
+[2024-05-03 07:57:02] INFO root fetch - processPackages [slurmgen]: Remove: archive file [/home/abi/fetcher/tmp/slurmgen-3.3.3.tar.gz]
+[2024-05-03 07:57:02] INFO root fetch - main [MainThread]: End processing [slurmgen]: success
+[2024-05-03 07:57:02] INFO root fetch - processPackages [SimpleDomControl]: Remove: archive file [/home/abi/fetcher/tmp/simpledomcontrol-0.4.6.tar.gz]
+[2024-05-03 07:57:02] INFO root fetch - processPackages [SimpleDomControl]: Remove: archive file [/home/abi/fetcher/tmp/simpledomcontrol-0.4.8.tar.gz]
+[2024-05-03 07:57:02] INFO root fetch - main [MainThread]: End processing [SimpleDomControl]: success
+[2024-05-03 07:57:06] INFO root fetch - processPackages [libvsapm-python]: Remove: archive file [/home/abi/fetcher/tmp/libvsapm-python-20240226.tar.gz]
+[2024-05-03 07:57:06] INFO root fetch - processPackages [libvsapm-python]: Remove: archive file [/home/abi/fetcher/tmp/libvsapm-python-20240503.tar.gz]
+[2024-05-03 07:57:06] INFO root fetch - main [MainThread]: End processing [libvsapm-python]: success
+[2024-05-03 07:57:06] INFO root fetch - main [MainThread]: Store serial: [23041940]
