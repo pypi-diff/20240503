@@ -10551,3 +10551,86 @@
 [2024-05-03 08:12:30] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
 [2024-05-03 08:12:30] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
 [2024-05-03 08:12:30] INFO root fetch - main [MainThread]: Store serial: [23042018]
+[2024-05-03 08:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042018]
+[2024-05-03 08:14:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckdb
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dismo
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-awscdk-resolver
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: custom-db-connector
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelbase2
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyswipe
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: usempl-plots
+[2024-05-03 08:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hbox
+[2024-05-03 08:14:41] WARNING root fetch - processPackages [custom-db-connector]: Skipping, unable to determine old version
+[2024-05-03 08:14:41] INFO root fetch - main [MainThread]: End processing [custom-db-connector] error
+[2024-05-03 08:14:41] INFO root fetch - processPackages [hbox]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 08:14:41] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-03 08:14:41] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240502] Old Version: [2.6.0.dev20240501]
+[2024-05-03 08:14:41] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.94] Old Version: [0.0.93]
+[2024-05-03 08:14:41] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-03 08:14:41] INFO root fetch - processPackages [pyswipe]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-03 08:14:41] INFO root fetch - processPackages [usempl-plots]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 08:14:41] INFO root fetch - processPackages [dismo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 08:14:41] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/71/35/ba587e7c3d19190b9dd88e9edd6cd7e719cfdbdf231ee6c101e8bc6e8a6b/pyg_nightly-2.6.0.dev20240501.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/01/69/066bdf60c2893d2d411f8515ab7df56c07f9bab2396285e57ce34b31a6f8/hbox-0.2.1.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/b6/d8/6827d1c869dc15277f3d8b70d5cf96a0908f144909388d93782e7662c1cc/cdk8s-awscdk-resolver-0.0.93.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/e9/d8/33ec1926582882ec91e543cb167d590ea8473e0c8fdc328d9b16cf94dc2e/dismo-1.0.8.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [pyswipe]: Downloading https://files.pythonhosted.org/packages/3b/4b/e43065732c87b49997f64cee0f6f867692c913ed674c355c0f6dd9f19830/pyswipe-0.9.5.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.72]
+[2024-05-03 08:14:42] INFO root fetch - processPackages [usempl-plots]: Downloading https://files.pythonhosted.org/packages/f9/c7/7c26892cd1728f2b1f76fdb55fab6476052ca23fec8eecb500a82a7f7319/usempl-plots-0.0.1.tar.gz
+[2024-05-03 08:14:42] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-03 08:14:42] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-03 08:14:42] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/4a/f2/eed23abe8b4c657a2887ec1faa6d43fa56d4382ac8a0882508969975f220/pyg_nightly-2.6.0.dev20240502.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/e9/ec/c38a72e8ee00e97d535b44c56c512cb4ef5be91c3c73f30c056aaf829b89/modelbase2-0.1.72.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/a8/45/c614cf7372a353aef5dcd4e869a4ed686736d9c730b6b597431c6cf356f1/hbox-0.2.2.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/46/ea/aca21eb7dddb69cc86666a35b07fe59fd6139a8b65bae53f8052ace4d4ec/dismo-1.0.9.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-03 08:14:42] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240501.tar.gz tmp/pyg_nightly-2.6.0.dev20240502.tar.gz --markdown 20240503/p/pyg-nightly/2.6.0.dev20240501-2.6.0.dev20240502/README.md --exclude *.pyd
+[2024-05-03 08:14:42] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/cd/c6/2b2770089e36d2640ab4231e4b0545d693db3981d91a4030b3390dacc246/cdk8s-awscdk-resolver-0.0.94.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [usempl-plots]: Downloading https://files.pythonhosted.org/packages/4e/1f/6d12269449e7e6ce8a0ac7de8795de4f006ce6fffea56d11319a143139d3/usempl-plots-0.0.2.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-03 08:14:42] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.2.1.tar.gz tmp/hbox-0.2.2.tar.gz --markdown 20240503/h/hbox/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 08:14:42] INFO root fetch - processPackages [dismo]: executing diffoscope
+[2024-05-03 08:14:42] INFO root fetch - processPackages [dismo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismo-1.0.8.tar.gz tmp/dismo-1.0.9.tar.gz --markdown 20240503/d/dismo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 08:14:42] INFO root fetch - processPackages [usempl-plots]: executing diffoscope
+[2024-05-03 08:14:42] INFO root fetch - processPackages [usempl-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usempl-plots-0.0.1.tar.gz tmp/usempl-plots-0.0.2.tar.gz --markdown 20240503/u/usempl-plots/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 08:14:42] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-03 08:14:42] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.93.tar.gz tmp/cdk8s-awscdk-resolver-0.0.94.tar.gz --markdown 20240503/c/cdk8s-awscdk-resolver/0.0.93-0.0.94/README.md --exclude *.pyd
+[2024-05-03 08:14:42] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2024-05-03 08:14:42] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-03 08:14:42] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240503/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 08:14:43] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2024-05-03 08:14:43] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.72.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20240503/m/modelbase2/0.1.72-0.1.8/README.md --exclude *.pyd
+[2024-05-03 08:14:43] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.8.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.9.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - main [MainThread]: End processing [dismo]: success
+[2024-05-03 08:14:43] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.1.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.2.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-03 08:14:43] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.93.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.94.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-03 08:14:43] INFO root fetch - processPackages [pyswipe]: Downloading https://files.pythonhosted.org/packages/cf/1f/57f8bac94ed9f376c2857b9d64559ae2bf28127b73072f546ad97e08e3bf/pyswipe-0.9.6.tar.gz
+[2024-05-03 08:14:43] INFO root fetch - processPackages [usempl-plots]: Remove: archive file [/home/abi/fetcher/tmp/usempl-plots-0.0.1.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - processPackages [usempl-plots]: Remove: archive file [/home/abi/fetcher/tmp/usempl-plots-0.0.2.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - main [MainThread]: End processing [usempl-plots]: success
+[2024-05-03 08:14:43] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.72.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
+[2024-05-03 08:14:43] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2024-05-03 08:14:44] INFO root fetch - processPackages [pyswipe]: executing diffoscope
+[2024-05-03 08:14:44] INFO root fetch - processPackages [pyswipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswipe-0.9.5.tar.gz tmp/pyswipe-0.9.6.tar.gz --markdown 20240503/p/pyswipe/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-03 08:14:44] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-03 08:14:44] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-03 08:14:44] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-03 08:14:45] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240501.tar.gz]
+[2024-05-03 08:14:45] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240502.tar.gz]
+[2024-05-03 08:14:45] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-03 08:14:45] INFO root fetch - processPackages [pyswipe]: Remove: archive file [/home/abi/fetcher/tmp/pyswipe-0.9.5.tar.gz]
+[2024-05-03 08:14:45] INFO root fetch - processPackages [pyswipe]: Remove: archive file [/home/abi/fetcher/tmp/pyswipe-0.9.6.tar.gz]
+[2024-05-03 08:14:45] INFO root fetch - main [MainThread]: End processing [pyswipe]: success
+[2024-05-03 08:14:45] INFO root fetch - main [MainThread]: Store serial: [23042088]
