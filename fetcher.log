@@ -15428,3 +15428,31 @@
 [2024-05-03 11:50:34] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-1.0.0.tar.gz]
 [2024-05-03 11:50:34] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
 [2024-05-03 11:50:34] INFO root fetch - main [MainThread]: Store serial: [23044095]
+[2024-05-03 11:52:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044095]
+[2024-05-03 11:53:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lfg-llama
+[2024-05-03 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opperai
+[2024-05-03 11:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lfg-llama
+[2024-05-03 11:53:03] INFO root fetch - processPackages [opperai]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-03 11:53:03] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/ed/e6/8349f819c3ea18f73e90aeea6fd80951ac40d94cd1983db2280cef1f0db5/opperai-0.4.0.tar.gz
+[2024-05-03 11:53:03] INFO root fetch - processPackages [lfg-llama]: New version: [1.0.55555] Old Version: [1.0.4]
+[2024-05-03 11:53:03] INFO root fetch - processPackages [lfg-llama]: New version: [1.0.55555] Old Version: [1.0.4]
+[2024-05-03 11:53:04] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/80/6e/ddf70058c19112fab5792756cffc49e3b582341dd38733a731f8db7f7cdf/lfg_llama-1.0.4.tar.gz
+[2024-05-03 11:53:04] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/80/6e/ddf70058c19112fab5792756cffc49e3b582341dd38733a731f8db7f7cdf/lfg_llama-1.0.4.tar.gz
+[2024-05-03 11:53:04] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/1e/fb/a88d5b8d474fb0851d815367046c8d27b2810be6c9d6fb052fa3227d3c07/opperai-0.5.0.tar.gz
+[2024-05-03 11:53:04] INFO root fetch - processPackages [opperai]: executing diffoscope
+[2024-05-03 11:53:04] INFO root fetch - processPackages [opperai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opperai-0.4.0.tar.gz tmp/opperai-0.5.0.tar.gz --markdown 20240503/o/opperai/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-03 11:53:04] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/46/d9/d3b206cf8bc987f2117daf34b202104f2ec6fd3d2fea1c8a693c98bdbdcd/lfg_llama-1.0.55555.tar.gz
+[2024-05-03 11:53:04] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/46/d9/d3b206cf8bc987f2117daf34b202104f2ec6fd3d2fea1c8a693c98bdbdcd/lfg_llama-1.0.55555.tar.gz
+[2024-05-03 11:53:04] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-03 11:53:04] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.0.4.tar.gz tmp/lfg_llama-1.0.55555.tar.gz --markdown 20240503/l/lfg-llama/1.0.4-1.0.55555/README.md --exclude *.pyd
+[2024-05-03 11:53:04] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-03 11:53:04] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.0.4.tar.gz tmp/lfg_llama-1.0.55555.tar.gz --markdown 20240503/l/lfg-llama/1.0.4-1.0.55555/README.md --exclude *.pyd
+[2024-05-03 11:53:05] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.4.tar.gz]
+[2024-05-03 11:53:05] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.55555.tar.gz]
+[2024-05-03 11:53:05] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-03 11:53:05] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-03 11:53:05] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.4.0.tar.gz]
+[2024-05-03 11:53:05] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.5.0.tar.gz]
+[2024-05-03 11:53:05] INFO root fetch - main [MainThread]: End processing [opperai]: success
+[2024-05-03 11:53:05] INFO root fetch - main [MainThread]: Store serial: [23044115]
