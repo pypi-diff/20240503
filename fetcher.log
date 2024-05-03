@@ -2041,3 +2041,54 @@
 [2024-05-03 02:10:41] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405020009.tar.gz]
 [2024-05-03 02:10:41] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-03 02:10:41] INFO root fetch - main [MainThread]: Store serial: [23038896]
+[2024-05-03 02:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23038896]
+[2024-05-03 02:12:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 02:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-05-03 02:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-05-03 02:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seesoink
+[2024-05-03 02:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnx-embedding-models
+[2024-05-03 02:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PokerNow
+[2024-05-03 02:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ding-api-client
+[2024-05-03 02:12:51] INFO root fetch - processPackages [PokerNow]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-03 02:12:51] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240502.post1037] Old Version: [1.5.0.20240501.post1128]
+[2024-05-03 02:12:51] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/b3/10/f05f7e3c9948d1b108fbaf32d26a6e265039b53f8367e1e2cc9e34b0d84b/pokernow-0.6.0.win-amd64.zip
+[2024-05-03 02:12:51] WARNING root fetch - processPackages [seesoink]: Skipping, unable to determine old version
+[2024-05-03 02:12:51] INFO root fetch - main [MainThread]: End processing [seesoink] error
+[2024-05-03 02:12:51] INFO root fetch - processPackages [onnx-embedding-models]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 02:12:51] INFO root fetch - processPackages [ding-api-client]: New version: [3.4.5] Old Version: [3.4.4]
+[2024-05-03 02:12:51] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-03 02:12:51] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/68/11/0aa8a67a5b6ffef51f122f5952cc9d6ca2d83605dc98ca591306ec40ffef/mct-quantizers-nightly-1.5.0.20240501.post1128.tar.gz
+[2024-05-03 02:12:51] INFO root fetch - processPackages [onnx-embedding-models]: Downloading https://files.pythonhosted.org/packages/34/5b/c2b935b5a666085f07e81c70ee74309f33ff30cc4d4f1bcb7e84c510fb1a/onnx_embedding_models-0.0.8.tar.gz
+[2024-05-03 02:12:51] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/b5/29/192e40486741a8028cfe2684f51c943d4b6124fb05e6bd696d3d7775bea0/ding_api_client-3.4.4.tar.gz
+[2024-05-03 02:12:52] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-03 02:12:52] INFO root fetch - processPackages [PokerNow]: Downloading https://files.pythonhosted.org/packages/5f/dc/4da992f91eed6fcd7dd6d347ca39dc39efb80aad4ce471bec15ed7b32c8c/pokernow-0.6.1.tar.gz
+[2024-05-03 02:12:52] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/13/8b/177a0be7c82f0972f11fc988020299e7979f9faf61581313d2a6e2495e53/mct-quantizers-nightly-1.5.0.20240502.post1037.tar.gz
+[2024-05-03 02:12:52] INFO root fetch - processPackages [PokerNow]: executing diffoscope
+[2024-05-03 02:12:52] INFO root fetch - processPackages [PokerNow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokernow-0.6.0.win-amd64.zip tmp/pokernow-0.6.1.tar.gz --markdown 20240503/P/PokerNow/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-03 02:12:52] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-03 02:12:52] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240501.post1128.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240502.post1037.tar.gz --markdown 20240503/m/mct-quantizers-nightly/1.5.0.20240501.post1128-1.5.0.20240502.post1037/README.md --exclude *.pyd
+[2024-05-03 02:12:52] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/89/5a/098109cdf48854b7d7af32bcf44700d4fc1b82c201d82b6b0524db1a734e/ding_api_client-3.4.5.tar.gz
+[2024-05-03 02:12:52] INFO root fetch - processPackages [ding-api-client]: executing diffoscope
+[2024-05-03 02:12:52] INFO root fetch - processPackages [ding-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ding_api_client-3.4.4.tar.gz tmp/ding_api_client-3.4.5.tar.gz --markdown 20240503/d/ding-api-client/3.4.4-3.4.5/README.md --exclude *.pyd
+[2024-05-03 02:12:52] INFO root fetch - processPackages [onnx-embedding-models]: Downloading https://files.pythonhosted.org/packages/f8/98/4f04e0b895db9730c16746674080163dfd77931ee2ca06b34aae601790fa/onnx_embedding_models-0.0.9.tar.gz
+[2024-05-03 02:12:52] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-03 02:12:52] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-03 02:12:52] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240503/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-03 02:12:52] INFO root fetch - processPackages [onnx-embedding-models]: executing diffoscope
+[2024-05-03 02:12:52] INFO root fetch - processPackages [onnx-embedding-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx_embedding_models-0.0.8.tar.gz tmp/onnx_embedding_models-0.0.9.tar.gz --markdown 20240503/o/onnx-embedding-models/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 02:12:52] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.0.win-amd64.zip]
+[2024-05-03 02:12:52] INFO root fetch - processPackages [PokerNow]: Remove: archive file [/home/abi/fetcher/tmp/pokernow-0.6.1.tar.gz]
+[2024-05-03 02:12:52] INFO root fetch - main [MainThread]: End processing [PokerNow]: success
+[2024-05-03 02:12:52] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240501.post1128.tar.gz]
+[2024-05-03 02:12:52] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240502.post1037.tar.gz]
+[2024-05-03 02:12:52] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-03 02:12:53] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.4.tar.gz]
+[2024-05-03 02:12:53] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.5.tar.gz]
+[2024-05-03 02:12:53] INFO root fetch - main [MainThread]: End processing [ding-api-client]: success
+[2024-05-03 02:12:53] INFO root fetch - processPackages [onnx-embedding-models]: Remove: archive file [/home/abi/fetcher/tmp/onnx_embedding_models-0.0.8.tar.gz]
+[2024-05-03 02:12:53] INFO root fetch - processPackages [onnx-embedding-models]: Remove: archive file [/home/abi/fetcher/tmp/onnx_embedding_models-0.0.9.tar.gz]
+[2024-05-03 02:12:53] INFO root fetch - main [MainThread]: End processing [onnx-embedding-models]: success
+[2024-05-03 02:12:53] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-03 02:12:53] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-03 02:12:53] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-03 02:12:53] INFO root fetch - main [MainThread]: Store serial: [23038914]
