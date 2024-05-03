@@ -8588,3 +8588,42 @@
 [2024-05-03 05:46:19] INFO root fetch - processPackages [macls]: Remove: archive file [/home/abi/fetcher/tmp/macls-0.4.4-py3-none-any.whl.zip]
 [2024-05-03 05:46:19] INFO root fetch - main [MainThread]: End processing [macls]: success
 [2024-05-03 05:46:19] INFO root fetch - main [MainThread]: Store serial: [23041282]
+[2024-05-03 05:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041282]
+[2024-05-03 05:48:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stable-ts
+[2024-05-03 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: release-action-testing
+[2024-05-03 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-cfd
+[2024-05-03 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qai-server
+[2024-05-03 05:48:28] INFO root fetch - processPackages [qai-server]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-03 05:48:29] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/48/34/b5e6ad0dfc96412e9cbc0d6be7bc3ab3feaf7fab59b28c0e3874e0db21eb/qai_server-0.5.2.tar.gz
+[2024-05-03 05:48:29] INFO root fetch - processPackages [torch-cfd]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 05:48:29] INFO root fetch - processPackages [release-action-testing]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 05:48:29] INFO root fetch - processPackages [stable-ts]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-05-03 05:48:29] INFO root fetch - processPackages [release-action-testing]: Downloading https://files.pythonhosted.org/packages/3d/fa/92753bc8bc7fd8847cb2c5bafeb306dca14a1d0d9708bc916f72ae230202/release_action_testing-0.1.0.tar.gz
+[2024-05-03 05:48:29] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/71/33/452a72b7bb4dfa0508c2cd4e009be5354de149c990e6780f4c857bbbb2bd/qai_server-0.5.3.tar.gz
+[2024-05-03 05:48:29] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/b5/4e/230d64b0c72299e3c08c40e04a51172b8f39e267b1d237cf0897e3ae4599/stable-ts-2.8.1.tar.gz
+[2024-05-03 05:48:29] INFO root fetch - processPackages [torch-cfd]: Downloading https://files.pythonhosted.org/packages/35/da/8f53168ab092bed130e2efc814baa37b65202d2b0268011f02ec09138ccb/torch_cfd-0.0.3.tar.gz
+[2024-05-03 05:48:29] INFO root fetch - processPackages [qai-server]: executing diffoscope
+[2024-05-03 05:48:29] INFO root fetch - processPackages [qai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_server-0.5.2.tar.gz tmp/qai_server-0.5.3.tar.gz --markdown 20240503/q/qai-server/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-03 05:48:29] INFO root fetch - processPackages [release-action-testing]: Downloading https://files.pythonhosted.org/packages/3f/e8/35e3d25ad9c4834e5fa783d0a5e37a9a98cc79f70fefd98d0e94c7cb0c7e/release_action_testing-0.2.0.tar.gz
+[2024-05-03 05:48:29] INFO root fetch - processPackages [torch-cfd]: Downloading https://files.pythonhosted.org/packages/df/cc/d11c183fd653d390db3389f407c4e553ee884c77268abd0e7c743303a9c2/torch_cfd-0.0.4.tar.gz
+[2024-05-03 05:48:29] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/48/20/4e33cc411acc1eb3efa9decb3190a678dccd77cbe25fe1322a08fcdec691/stable-ts-2.9.0.tar.gz
+[2024-05-03 05:48:29] INFO root fetch - processPackages [release-action-testing]: executing diffoscope
+[2024-05-03 05:48:29] INFO root fetch - processPackages [release-action-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/release_action_testing-0.1.0.tar.gz tmp/release_action_testing-0.2.0.tar.gz --markdown 20240503/r/release-action-testing/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 05:48:29] INFO root fetch - processPackages [torch-cfd]: executing diffoscope
+[2024-05-03 05:48:29] INFO root fetch - processPackages [torch-cfd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_cfd-0.0.3.tar.gz tmp/torch_cfd-0.0.4.tar.gz --markdown 20240503/t/torch-cfd/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 05:48:29] INFO root fetch - processPackages [stable-ts]: executing diffoscope
+[2024-05-03 05:48:29] INFO root fetch - processPackages [stable-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-2.8.1.tar.gz tmp/stable-ts-2.9.0.tar.gz --markdown 20240503/s/stable-ts/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-05-03 05:48:30] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.2.tar.gz]
+[2024-05-03 05:48:30] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.3.tar.gz]
+[2024-05-03 05:48:30] INFO root fetch - main [MainThread]: End processing [qai-server]: success
+[2024-05-03 05:48:30] INFO root fetch - processPackages [release-action-testing]: Remove: archive file [/home/abi/fetcher/tmp/release_action_testing-0.1.0.tar.gz]
+[2024-05-03 05:48:30] INFO root fetch - processPackages [release-action-testing]: Remove: archive file [/home/abi/fetcher/tmp/release_action_testing-0.2.0.tar.gz]
+[2024-05-03 05:48:30] INFO root fetch - main [MainThread]: End processing [release-action-testing]: success
+[2024-05-03 05:48:30] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.8.1.tar.gz]
+[2024-05-03 05:48:30] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.9.0.tar.gz]
+[2024-05-03 05:48:30] INFO root fetch - main [MainThread]: End processing [stable-ts]: success
+[2024-05-03 05:48:30] INFO root fetch - processPackages [torch-cfd]: Remove: archive file [/home/abi/fetcher/tmp/torch_cfd-0.0.3.tar.gz]
+[2024-05-03 05:48:30] INFO root fetch - processPackages [torch-cfd]: Remove: archive file [/home/abi/fetcher/tmp/torch_cfd-0.0.4.tar.gz]
+[2024-05-03 05:48:30] INFO root fetch - main [MainThread]: End processing [torch-cfd]: success
+[2024-05-03 05:48:30] INFO root fetch - main [MainThread]: Store serial: [23041293]
