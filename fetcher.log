@@ -7250,3 +7250,42 @@
 [2024-05-03 04:08:16] INFO root fetch - processPackages [wedding]: Remove: archive file [/home/abi/fetcher/tmp/wedding-1.0.0.tar.gz]
 [2024-05-03 04:08:16] INFO root fetch - main [MainThread]: End processing [wedding]: success
 [2024-05-03 04:08:16] INFO root fetch - main [MainThread]: Store serial: [23040815]
+[2024-05-03 04:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040815]
+[2024-05-03 04:10:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 04:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ec2-gazua
+[2024-05-03 04:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mom-test-py
+[2024-05-03 04:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synthx
+[2024-05-03 04:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutrical
+[2024-05-03 04:10:24] INFO root fetch - processPackages [mom-test-py]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-05-03 04:10:24] INFO root fetch - processPackages [synthx]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-03 04:10:24] INFO root fetch - processPackages [nutrical]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 04:10:25] INFO root fetch - processPackages [ec2-gazua]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-03 04:10:25] INFO root fetch - processPackages [mom-test-py]: Downloading https://files.pythonhosted.org/packages/90/ce/8a13cad71966b0b7b041294661ebcdee9992790619e9a0fd0d2a773f626f/mom_test_py-1.0.2.tar.gz
+[2024-05-03 04:10:25] INFO root fetch - processPackages [synthx]: Downloading https://files.pythonhosted.org/packages/52/25/c45081ebd4703937f668d3c925326185780ebbc5a2158819da117dfe4868/synthx-1.1.0.tar.gz
+[2024-05-03 04:10:25] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/36/6d/575979f695c9babe03becb56561345dbd3bd9a9b22cf033f51a4a187d99b/nutrical-0.0.1.tar.gz
+[2024-05-03 04:10:25] INFO root fetch - processPackages [ec2-gazua]: Downloading https://files.pythonhosted.org/packages/cf/65/267f8e6edbc854d5a0116621b0a42cbed7f2b3a56d9581d370e24af2fe58/ec2-gazua-0.0.3.tar.gz
+[2024-05-03 04:10:25] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/2f/4a/d528e4264d672f09618ee016304e732f143fc98659510ba87757a60ff258/nutrical-0.0.2.tar.gz
+[2024-05-03 04:10:25] INFO root fetch - processPackages [synthx]: Downloading https://files.pythonhosted.org/packages/97/f4/e270a5afd00914f282010d3fc434794f64c961bf51b692c05c14f3b15032/synthx-1.1.1.tar.gz
+[2024-05-03 04:10:25] INFO root fetch - processPackages [mom-test-py]: Downloading https://files.pythonhosted.org/packages/0c/c2/e28117596eb2880ac18856095958f0a548d805076ca518c1dd437c45702b/mom_test_py-1.0.4.tar.gz
+[2024-05-03 04:10:25] INFO root fetch - processPackages [nutrical]: executing diffoscope
+[2024-05-03 04:10:25] INFO root fetch - processPackages [nutrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutrical-0.0.1.tar.gz tmp/nutrical-0.0.2.tar.gz --markdown 20240503/n/nutrical/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 04:10:25] INFO root fetch - processPackages [synthx]: executing diffoscope
+[2024-05-03 04:10:25] INFO root fetch - processPackages [synthx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthx-1.1.0.tar.gz tmp/synthx-1.1.1.tar.gz --markdown 20240503/s/synthx/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-03 04:10:25] INFO root fetch - processPackages [mom-test-py]: executing diffoscope
+[2024-05-03 04:10:25] INFO root fetch - processPackages [mom-test-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mom_test_py-1.0.2.tar.gz tmp/mom_test_py-1.0.4.tar.gz --markdown 20240503/m/mom-test-py/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-05-03 04:10:25] INFO root fetch - processPackages [ec2-gazua]: Downloading https://files.pythonhosted.org/packages/41/29/81f25aacec708f4e959b64bb6d77a3abbde8176619a3f194fd0a7492f434/ec2-gazua-0.1.0.tar.gz
+[2024-05-03 04:10:25] INFO root fetch - processPackages [ec2-gazua]: executing diffoscope
+[2024-05-03 04:10:25] INFO root fetch - processPackages [ec2-gazua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-gazua-0.0.3.tar.gz tmp/ec2-gazua-0.1.0.tar.gz --markdown 20240503/e/ec2-gazua/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-03 04:10:26] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.1.tar.gz]
+[2024-05-03 04:10:26] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.2.tar.gz]
+[2024-05-03 04:10:26] INFO root fetch - main [MainThread]: End processing [nutrical]: success
+[2024-05-03 04:10:26] INFO root fetch - processPackages [synthx]: Remove: archive file [/home/abi/fetcher/tmp/synthx-1.1.0.tar.gz]
+[2024-05-03 04:10:26] INFO root fetch - processPackages [synthx]: Remove: archive file [/home/abi/fetcher/tmp/synthx-1.1.1.tar.gz]
+[2024-05-03 04:10:26] INFO root fetch - main [MainThread]: End processing [synthx]: success
+[2024-05-03 04:10:26] INFO root fetch - processPackages [mom-test-py]: Remove: archive file [/home/abi/fetcher/tmp/mom_test_py-1.0.2.tar.gz]
+[2024-05-03 04:10:26] INFO root fetch - processPackages [mom-test-py]: Remove: archive file [/home/abi/fetcher/tmp/mom_test_py-1.0.4.tar.gz]
+[2024-05-03 04:10:26] INFO root fetch - main [MainThread]: End processing [mom-test-py]: success
+[2024-05-03 04:10:26] INFO root fetch - processPackages [ec2-gazua]: Remove: archive file [/home/abi/fetcher/tmp/ec2-gazua-0.0.3.tar.gz]
+[2024-05-03 04:10:26] INFO root fetch - processPackages [ec2-gazua]: Remove: archive file [/home/abi/fetcher/tmp/ec2-gazua-0.1.0.tar.gz]
+[2024-05-03 04:10:26] INFO root fetch - main [MainThread]: End processing [ec2-gazua]: success
+[2024-05-03 04:10:26] INFO root fetch - main [MainThread]: Store serial: [23040825]
