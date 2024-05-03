@@ -14389,3 +14389,33 @@
 [2024-05-03 10:55:42] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.1.tar.gz]
 [2024-05-03 10:55:42] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-05-03 10:55:42] INFO root fetch - main [MainThread]: Store serial: [23043601]
+[2024-05-03 10:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043601]
+[2024-05-03 10:57:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 10:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mayan-importer
+[2024-05-03 10:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-anime-downloader
+[2024-05-03 10:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuxmake
+[2024-05-03 10:57:56] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 10:57:56] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Downloading https://files.pythonhosted.org/packages/97/d9/8a250d9215ae20429cefb158f48ceab4b435236bfd991ea937d3ac139d14/nonebot_plugin_anime_downloader-0.1.1.tar.gz
+[2024-05-03 10:57:56] INFO root fetch - processPackages [tuxmake]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 10:57:56] INFO root fetch - processPackages [mayan-importer]: New version: [3.1] Old Version: [3.0.3]
+[2024-05-03 10:57:57] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/46/c5/0aaceffcdd95bee2b75b09418edaa4a8ebfcb471f6add06545661a9a1085/tuxmake-1.8.0.tar.gz
+[2024-05-03 10:57:57] INFO root fetch - processPackages [mayan-importer]: Downloading https://files.pythonhosted.org/packages/df/04/bd90529cf49f10f51809978343af44b997bdff79a4361a4e653c41d36dd1/mayan-importer-3.0.3.tar.gz
+[2024-05-03 10:57:57] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Downloading https://files.pythonhosted.org/packages/8b/8d/f7eee44a83b90e69014943d08be539f772d29d99637b05da1faca07a1d0f/nonebot_plugin_anime_downloader-0.1.2.tar.gz
+[2024-05-03 10:57:57] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: executing diffoscope
+[2024-05-03 10:57:57] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_anime_downloader-0.1.1.tar.gz tmp/nonebot_plugin_anime_downloader-0.1.2.tar.gz --markdown 20240503/n/nonebot-plugin-anime-downloader/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 10:57:57] INFO root fetch - processPackages [tuxmake]: Downloading https://files.pythonhosted.org/packages/63/d6/1a0d16774332729db06319fca66d2207f8696e0d3c2e8b3197b625cccb7b/tuxmake-1.9.0.tar.gz
+[2024-05-03 10:57:57] INFO root fetch - processPackages [mayan-importer]: Downloading https://files.pythonhosted.org/packages/c6/d7/1ada4f3a48e7702108360f62c80e1dd87624b55830e8b597fbe2b8df2523/mayan-importer-3.1.tar.gz
+[2024-05-03 10:57:57] INFO root fetch - processPackages [tuxmake]: executing diffoscope
+[2024-05-03 10:57:57] INFO root fetch - processPackages [tuxmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxmake-1.8.0.tar.gz tmp/tuxmake-1.9.0.tar.gz --markdown 20240503/t/tuxmake/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-03 10:57:57] INFO root fetch - processPackages [mayan-importer]: executing diffoscope
+[2024-05-03 10:57:57] INFO root fetch - processPackages [mayan-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-importer-3.0.3.tar.gz tmp/mayan-importer-3.1.tar.gz --markdown 20240503/m/mayan-importer/3.0.3-3.1/README.md --exclude *.pyd
+[2024-05-03 10:57:57] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_anime_downloader-0.1.1.tar.gz]
+[2024-05-03 10:57:57] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_anime_downloader-0.1.2.tar.gz]
+[2024-05-03 10:57:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-anime-downloader]: success
+[2024-05-03 10:57:58] INFO root fetch - processPackages [mayan-importer]: Remove: archive file [/home/abi/fetcher/tmp/mayan-importer-3.0.3.tar.gz]
+[2024-05-03 10:57:58] INFO root fetch - processPackages [mayan-importer]: Remove: archive file [/home/abi/fetcher/tmp/mayan-importer-3.1.tar.gz]
+[2024-05-03 10:57:58] INFO root fetch - main [MainThread]: End processing [mayan-importer]: success
+[2024-05-03 10:57:58] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.8.0.tar.gz]
+[2024-05-03 10:57:58] INFO root fetch - processPackages [tuxmake]: Remove: archive file [/home/abi/fetcher/tmp/tuxmake-1.9.0.tar.gz]
+[2024-05-03 10:57:58] INFO root fetch - main [MainThread]: End processing [tuxmake]: success
+[2024-05-03 10:57:58] INFO root fetch - main [MainThread]: Store serial: [23043610]
