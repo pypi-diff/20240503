@@ -19073,3 +19073,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:40:17] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.9.0.tar.gz]
 [2024-05-03 14:40:17] INFO root fetch - main [MainThread]: End processing [pyedb]: success
 [2024-05-03 14:40:17] INFO root fetch - main [MainThread]: Store serial: [23045952]
+[2024-05-03 14:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045952]
+[2024-05-03 14:42:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-llm
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eodc-faas-openeo
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schwab-py
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-commands
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oterm
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my-data-quality-library
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdo-sdk-python
+[2024-05-03 14:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gcp-pal
+[2024-05-03 14:42:49] INFO root fetch - processPackages [my-data-quality-library]: New version: [1.3] Old Version: [1.2]
+[2024-05-03 14:42:49] INFO root fetch - processPackages [core-commands]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-03 14:42:49] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 14:42:49] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-03 14:42:49] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240502] Old Version: [2.5.0b20240501]
+[2024-05-03 14:42:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.9] Old Version: [14.0.1.0.8]
+[2024-05-03 14:42:50] INFO root fetch - processPackages [schwab-py]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2024-05-03 14:42:50] INFO root fetch - processPackages [core-commands]: Downloading https://files.pythonhosted.org/packages/43/d9/5376d1e4fdd36130e106fc43f60e6c3243d644fb79aea05a144194896736/core_commands-0.4.0.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [oterm]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-03 14:42:50] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/b9/53/0499b1bdad8e79c84118cbf501ebb26b70c8b5b60bce463c4a8d0618fe81/gcp_pal-1.0.8.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.0] Old Version: [2024.4.9]
+[2024-05-03 14:42:50] ERROR root fetch - processPackages [my-data-quality-library]: Unable to fetch info: No such project/version 'my-data-quality-library' 1.2
+[2024-05-03 14:42:50] INFO root fetch - main [MainThread]: End processing [my-data-quality-library] error
+[2024-05-03 14:42:50] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/61/55/e488b864443510d05a2488db9f89ee0d2437c8b8f9e9718d5d4db285b251/bigdl_llm-2.5.0b20240501-py3-none-win_amd64.whl
+[2024-05-03 14:42:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/29/36/7268bc24d8389016271fa5339775a21de8b62a9394c3f27c7da5eee932d4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [oterm]: Downloading https://files.pythonhosted.org/packages/7d/b6/a16eb00b7e078dbdfb989ddf41b59a2ec6e4242e61f0f892939b37f2a57e/oterm-0.2.7.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/4a/97/d78b9c894adc5546c1464a6150bd183cffc758049f5f599b96df24c97f56/schwab-py-0.0.0a8.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/5e/60/0df26077da816d4440ca6002beb2eb117e5fc28afecbc0fc984839e59b0e/eodc_faas_openeo-2024.4.9.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/8c/b8/2efa9600008859fa691d602891fa9c6bb228fd92cd7f0036d55241b68620/gcp_pal-1.0.9.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [core-commands]: Downloading https://files.pythonhosted.org/packages/b8/39/69e4d396ba0c65ae3d3496ba61ba7caac3313ca91653f48860f129196d04/core_commands-0.4.1.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [core-commands]: executing diffoscope
+[2024-05-03 14:42:50] INFO root fetch - processPackages [core-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_commands-0.4.0.tar.gz tmp/core_commands-0.4.1.tar.gz --markdown 20240503/c/core-commands/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-03 14:42:50] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-05-03 14:42:50] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.8.tar.gz tmp/gcp_pal-1.0.9.tar.gz --markdown 20240503/g/gcp-pal/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 14:42:50] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-03 14:42:50] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240503/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-03 14:42:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/e2/db/60f2eaaffb9864df5bb98ea187aef4761d8a58c121f9814ea9db53e834bb/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/2a/61/425616b0bbba358a458327d444f15403f4dd619dfa8d8627abd7a252f913/eodc_faas_openeo-2024.5.0.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [oterm]: Downloading https://files.pythonhosted.org/packages/e7/b1/f224886e5d51438c179b6dbff57fb55f11d534d1c4dd5be854b7c47078a2/oterm-0.2.8.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/f3/f1/efd2cf1baeff4d7f78477ad6df2d7f97c864c877ffd1d2e6a1425706ef14/schwab-py-0.0.0a9.tar.gz
+[2024-05-03 14:42:50] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/a8/a7/60256691496922aba98bc19535a2b6050917972e7c315c1b3c4fd923619a/bigdl_llm-2.5.0b20240502-py3-none-win_amd64.whl
+[2024-05-03 14:42:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2024-05-03 14:42:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz --markdown 20240503/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.8-14.0.1.0.9/README.md --exclude *.pyd
+[2024-05-03 14:42:50] INFO root fetch - processPackages [oterm]: executing diffoscope
+[2024-05-03 14:42:50] INFO root fetch - processPackages [oterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oterm-0.2.7.tar.gz tmp/oterm-0.2.8.tar.gz --markdown 20240503/o/oterm/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-03 14:42:50] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-05-03 14:42:50] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab-py-0.0.0a8.tar.gz tmp/schwab-py-0.0.0a9.tar.gz --markdown 20240503/s/schwab-py/0.0.0a8-0.0.0a9/README.md --exclude *.pyd
+[2024-05-03 14:42:50] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-03 14:42:50] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.9.tar.gz tmp/eodc_faas_openeo-2024.5.0.tar.gz --markdown 20240503/e/eodc-faas-openeo/2024.4.9-2024.5.0/README.md --exclude *.pyd
+[2024-05-03 14:42:51] INFO root fetch - processPackages [core-commands]: Remove: archive file [/home/abi/fetcher/tmp/core_commands-0.4.0.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - processPackages [core-commands]: Remove: archive file [/home/abi/fetcher/tmp/core_commands-0.4.1.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - main [MainThread]: End processing [core-commands]: success
+[2024-05-03 14:42:51] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-03 14:42:51] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240501-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240502-py3-none-win_amd64.whl.zip --markdown 20240503/b/bigdl-llm/2.5.0b20240501-2.5.0b20240502/README.md --exclude *.pyd
+[2024-05-03 14:42:51] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.8.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.9.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-05-03 14:42:51] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2024-05-03 14:42:51] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a8.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a9.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-05-03 14:42:51] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.9.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.0.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-03 14:42:51] INFO root fetch - processPackages [oterm]: Remove: archive file [/home/abi/fetcher/tmp/oterm-0.2.7.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - processPackages [oterm]: Remove: archive file [/home/abi/fetcher/tmp/oterm-0.2.8.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - main [MainThread]: End processing [oterm]: success
+[2024-05-03 14:42:51] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-03 14:42:51] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-03 14:42:52] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240501-py3-none-win_amd64.whl.zip]
+[2024-05-03 14:42:52] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240502-py3-none-win_amd64.whl.zip]
+[2024-05-03 14:42:52] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-03 14:42:52] INFO root fetch - main [MainThread]: Store serial: [23045995]
