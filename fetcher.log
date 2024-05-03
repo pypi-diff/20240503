@@ -16697,3 +16697,54 @@
 [2024-05-03 12:53:00] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-03 12:53:00] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-03 12:53:00] INFO root fetch - main [MainThread]: Store serial: [23044828]
+[2024-05-03 12:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044828]
+[2024-05-03 12:55:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 12:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: preflibtools
+[2024-05-03 12:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkscreener
+[2024-05-03 12:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beetl
+[2024-05-03 12:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2024-05-03 12:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mikrotik-bt5
+[2024-05-03 12:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: archivooor
+[2024-05-03 12:55:32] WARNING root fetch - processPackages [mikrotik-bt5]: Skipping, unable to determine old version
+[2024-05-03 12:55:32] INFO root fetch - main [MainThread]: End processing [mikrotik-bt5] error
+[2024-05-03 12:55:32] INFO root fetch - processPackages [beetl]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-03 12:55:32] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-03 12:55:32] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240503.324] Old Version: [0.44.20240503.322]
+[2024-05-03 12:55:32] INFO root fetch - processPackages [archivooor]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 12:55:32] INFO root fetch - processPackages [preflibtools]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-03 12:55:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-03 12:55:32] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/04/10/3c7572796fed88f363009296c02924fbc2fb323a7be41c6f00210c01ecc3/beetl-0.4.3.tar.gz
+[2024-05-03 12:55:32] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/39/5a/a4f6383cd76dafe7d04e745bba416bee5700c3b8380d2a0c8947b95ebfd1/pkscreener-0.44.20240503.322.tar.gz
+[2024-05-03 12:55:32] INFO root fetch - processPackages [archivooor]: Downloading https://files.pythonhosted.org/packages/ee/05/9eb09d7759e98a892c7a33db93b58c8818db764ccf742b9b7952491884be/archivooor-0.0.3-py3-none-any.whl
+[2024-05-03 12:55:32] INFO root fetch - processPackages [preflibtools]: Downloading https://files.pythonhosted.org/packages/87/9a/b1360d573206dbc4fa7962068c20eaae240c92af2081a763fb0362ba5fc3/preflibtools-2.0.7.tar.gz
+[2024-05-03 12:55:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-03 12:55:32] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/fb/25/910ac7380d73fde895ac564e8bb1162b4bf959e740ed7f1ebc86a8cab441/beetl-0.4.4.tar.gz
+[2024-05-03 12:55:32] INFO root fetch - processPackages [beetl]: executing diffoscope
+[2024-05-03 12:55:32] INFO root fetch - processPackages [beetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetl-0.4.3.tar.gz tmp/beetl-0.4.4.tar.gz --markdown 20240503/b/beetl/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-03 12:55:32] INFO root fetch - processPackages [archivooor]: Downloading https://files.pythonhosted.org/packages/24/ff/59d4fdbd023ec57c7a11b18b10c6035facc510d94712138c37fa3a2af177/archivooor-0.0.4.tar.gz
+[2024-05-03 12:55:32] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/2b/c2/0dcf07df09ab6df1d69c402432328783332207443adea8053e4852fdaf42/pkscreener-0.44.20240503.324.tar.gz
+[2024-05-03 12:55:32] INFO root fetch - processPackages [preflibtools]: Downloading https://files.pythonhosted.org/packages/8f/8b/2e34f2397d30cd60e544c54f2b42a64914d527ff2c9d8a2b2457244144b7/preflibtools-2.0.8.tar.gz
+[2024-05-03 12:55:32] INFO root fetch - processPackages [archivooor]: executing diffoscope
+[2024-05-03 12:55:32] INFO root fetch - processPackages [archivooor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archivooor-0.0.3-py3-none-any.whl.zip tmp/archivooor-0.0.4.tar.gz --markdown 20240503/a/archivooor/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 12:55:32] INFO root fetch - processPackages [preflibtools]: executing diffoscope
+[2024-05-03 12:55:32] INFO root fetch - processPackages [preflibtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preflibtools-2.0.7.tar.gz tmp/preflibtools-2.0.8.tar.gz --markdown 20240503/p/preflibtools/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-03 12:55:33] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-03 12:55:33] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240503/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-03 12:55:33] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-03 12:55:33] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240503.322.tar.gz tmp/pkscreener-0.44.20240503.324.tar.gz --markdown 20240503/p/pkscreener/0.44.20240503.322-0.44.20240503.324/README.md --exclude *.pyd
+[2024-05-03 12:55:33] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.3.tar.gz]
+[2024-05-03 12:55:33] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.4.tar.gz]
+[2024-05-03 12:55:33] INFO root fetch - main [MainThread]: End processing [beetl]: success
+[2024-05-03 12:55:33] INFO root fetch - processPackages [archivooor]: Remove: archive file [/home/abi/fetcher/tmp/archivooor-0.0.3-py3-none-any.whl.zip]
+[2024-05-03 12:55:33] INFO root fetch - processPackages [archivooor]: Remove: archive file [/home/abi/fetcher/tmp/archivooor-0.0.4.tar.gz]
+[2024-05-03 12:55:33] INFO root fetch - main [MainThread]: End processing [archivooor]: success
+[2024-05-03 12:55:33] INFO root fetch - processPackages [preflibtools]: Remove: archive file [/home/abi/fetcher/tmp/preflibtools-2.0.7.tar.gz]
+[2024-05-03 12:55:33] INFO root fetch - processPackages [preflibtools]: Remove: archive file [/home/abi/fetcher/tmp/preflibtools-2.0.8.tar.gz]
+[2024-05-03 12:55:33] INFO root fetch - main [MainThread]: End processing [preflibtools]: success
+[2024-05-03 12:55:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-03 12:55:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-03 12:55:33] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-03 12:55:33] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240503.322.tar.gz]
+[2024-05-03 12:55:33] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240503.324.tar.gz]
+[2024-05-03 12:55:33] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-03 12:55:33] INFO root fetch - main [MainThread]: Store serial: [23044846]
