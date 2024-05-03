@@ -9197,3 +9197,45 @@
 [2024-05-03 06:29:59] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.1.1.tar.gz]
 [2024-05-03 06:29:59] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2024-05-03 06:29:59] INFO root fetch - main [MainThread]: Store serial: [23041498]
+[2024-05-03 06:32:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041498]
+[2024-05-03 06:32:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hpc-suite
+[2024-05-03 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlrun
+[2024-05-03 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lakshmi
+[2024-05-03 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radhesh
+[2024-05-03 06:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-llama
+[2024-05-03 06:32:08] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 06:32:08] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-03 06:32:08] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-03 06:32:08] INFO root fetch - processPackages [hpc-suite]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-03 06:32:08] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-03 06:32:08] WARNING root fetch - processPackages [radhesh]: Skipping, unable to determine old version
+[2024-05-03 06:32:08] INFO root fetch - main [MainThread]: End processing [radhesh] error
+[2024-05-03 06:32:08] INFO root fetch - processPackages [lakshmi]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-03 06:32:08] INFO root fetch - processPackages [hpc-suite]: Downloading https://files.pythonhosted.org/packages/c8/c9/f51e184438ab5d1b9db9c312be98b802fd7bc6fca6ed6d9513948fb98d20/hpc-suite-1.8.1.tar.gz
+[2024-05-03 06:32:08] INFO root fetch - processPackages [lakshmi]: Downloading https://files.pythonhosted.org/packages/c4/e1/164172acafd0fe27d16a77c811ac97d97e797c3aa5d2e09e245e37d390e0/lakshmi-2.9.0.tar.gz
+[2024-05-03 06:32:08] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-03 06:32:08] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-03 06:32:08] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-03 06:32:08] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240503/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 06:32:09] INFO root fetch - processPackages [hpc-suite]: Downloading https://files.pythonhosted.org/packages/bf/6e/246a2cf01d594e74ad73c609e14c21e9b2f578b0229b99777d494894cd58/hpc-suite-1.9.0.tar.gz
+[2024-05-03 06:32:09] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-03 06:32:09] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240503/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-03 06:32:09] INFO root fetch - processPackages [lakshmi]: Downloading https://files.pythonhosted.org/packages/3c/b4/d7570e71bec8424254155d2a11c97cfb6bff9a21bcfbd47c13d21f325f07/lakshmi-2.9.1.tar.gz
+[2024-05-03 06:32:09] INFO root fetch - processPackages [hpc-suite]: executing diffoscope
+[2024-05-03 06:32:09] INFO root fetch - processPackages [hpc-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpc-suite-1.8.1.tar.gz tmp/hpc-suite-1.9.0.tar.gz --markdown 20240503/h/hpc-suite/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-03 06:32:09] INFO root fetch - processPackages [lakshmi]: executing diffoscope
+[2024-05-03 06:32:09] INFO root fetch - processPackages [lakshmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakshmi-2.9.0.tar.gz tmp/lakshmi-2.9.1.tar.gz --markdown 20240503/l/lakshmi/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-03 06:32:09] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-03 06:32:09] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-03 06:32:09] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-03 06:32:09] INFO root fetch - processPackages [hpc-suite]: Remove: archive file [/home/abi/fetcher/tmp/hpc-suite-1.8.1.tar.gz]
+[2024-05-03 06:32:09] INFO root fetch - processPackages [hpc-suite]: Remove: archive file [/home/abi/fetcher/tmp/hpc-suite-1.9.0.tar.gz]
+[2024-05-03 06:32:09] INFO root fetch - main [MainThread]: End processing [hpc-suite]: success
+[2024-05-03 06:32:10] INFO root fetch - processPackages [lakshmi]: Remove: archive file [/home/abi/fetcher/tmp/lakshmi-2.9.0.tar.gz]
+[2024-05-03 06:32:10] INFO root fetch - processPackages [lakshmi]: Remove: archive file [/home/abi/fetcher/tmp/lakshmi-2.9.1.tar.gz]
+[2024-05-03 06:32:10] INFO root fetch - main [MainThread]: End processing [lakshmi]: success
+[2024-05-03 06:32:11] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-03 06:32:11] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-03 06:32:11] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-03 06:32:11] INFO root fetch - main [MainThread]: Store serial: [23041518]
