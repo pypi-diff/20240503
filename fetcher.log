@@ -9994,3 +9994,24 @@
 [2024-05-03 07:35:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240501-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-05-03 07:35:19] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-05-03 07:35:19] INFO root fetch - main [MainThread]: Store serial: [23041848]
+[2024-05-03 07:37:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041848]
+[2024-05-03 07:37:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 07:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nmuwd
+[2024-05-03 07:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssm-svg
+[2024-05-03 07:37:29] INFO root fetch - processPackages [ssm-svg]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-03 07:37:29] INFO root fetch - processPackages [ssm-svg]: Downloading https://files.pythonhosted.org/packages/2e/b9/edfdbb2fe8bbecb2ee7a971b01ecf0243a552a3dab5a912aeb525077f8cc/ssm_svg-0.0.5.tar.gz
+[2024-05-03 07:37:29] INFO root fetch - processPackages [nmuwd]: New version: [0.0.2] Old Version: [0.0.1rc0]
+[2024-05-03 07:37:29] INFO root fetch - processPackages [nmuwd]: Downloading https://files.pythonhosted.org/packages/4c/a3/3b3a7eeb9dd3a5d6be964f383c2a5100bcec4f019359df351e26ea93aee0/nmuwd-0.0.1rc0.tar.gz
+[2024-05-03 07:37:29] INFO root fetch - processPackages [ssm-svg]: Downloading https://files.pythonhosted.org/packages/7c/38/56abdefb0fb67b927ffe821264e820196afc037798e5bb00297fc0890d42/ssm_svg-0.0.6.tar.gz
+[2024-05-03 07:37:30] INFO root fetch - processPackages [ssm-svg]: executing diffoscope
+[2024-05-03 07:37:30] INFO root fetch - processPackages [ssm-svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssm_svg-0.0.5.tar.gz tmp/ssm_svg-0.0.6.tar.gz --markdown 20240503/s/ssm-svg/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-03 07:37:30] INFO root fetch - processPackages [nmuwd]: Downloading https://files.pythonhosted.org/packages/d0/c3/19e6b4987f02135da24dacb9c2fcf73ba52ab7a93fe423602eaa45f604d4/nmuwd-0.0.2.tar.gz
+[2024-05-03 07:37:30] INFO root fetch - processPackages [nmuwd]: executing diffoscope
+[2024-05-03 07:37:30] INFO root fetch - processPackages [nmuwd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmuwd-0.0.1rc0.tar.gz tmp/nmuwd-0.0.2.tar.gz --markdown 20240503/n/nmuwd/0.0.1rc0-0.0.2/README.md --exclude *.pyd
+[2024-05-03 07:37:30] INFO root fetch - processPackages [ssm-svg]: Remove: archive file [/home/abi/fetcher/tmp/ssm_svg-0.0.5.tar.gz]
+[2024-05-03 07:37:30] INFO root fetch - processPackages [ssm-svg]: Remove: archive file [/home/abi/fetcher/tmp/ssm_svg-0.0.6.tar.gz]
+[2024-05-03 07:37:30] INFO root fetch - main [MainThread]: End processing [ssm-svg]: success
+[2024-05-03 07:37:30] INFO root fetch - processPackages [nmuwd]: Remove: archive file [/home/abi/fetcher/tmp/nmuwd-0.0.1rc0.tar.gz]
+[2024-05-03 07:37:30] INFO root fetch - processPackages [nmuwd]: Remove: archive file [/home/abi/fetcher/tmp/nmuwd-0.0.2.tar.gz]
+[2024-05-03 07:37:30] INFO root fetch - main [MainThread]: End processing [nmuwd]: success
+[2024-05-03 07:37:30] INFO root fetch - main [MainThread]: Store serial: [23041854]
