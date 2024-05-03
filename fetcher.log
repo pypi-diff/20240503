@@ -7675,3 +7675,33 @@
 [2024-05-03 04:41:09] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_financial_tools-14.0.20240502.0-py3-none-any.whl.zip]
 [2024-05-03 04:41:09] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-account-financial-tools]: success
 [2024-05-03 04:41:09] INFO root fetch - main [MainThread]: Store serial: [23040973]
+[2024-05-03 04:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040973]
+[2024-05-03 04:43:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PheTK
+[2024-05-03 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-journal-lock-date
+[2024-05-03 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypcd4
+[2024-05-03 04:43:17] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.9]
+[2024-05-03 04:43:17] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/7c/1e/aea039a84b3ecce3ebf4ae84cdf1fb52bee9e694b3fa0e007a7c44fcb87a/odoo_addon_account_journal_lock_date-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-03 04:43:17] INFO root fetch - processPackages [pypcd4]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-03 04:43:17] INFO root fetch - processPackages [PheTK]: New version: [0.1.39] Old Version: [0.1.38]
+[2024-05-03 04:43:18] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/b1/91/366cefe53e02e5171eeadb94ac04c8038ef69d80c1e0242bc68313624b65/odoo_addon_account_journal_lock_date-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 04:43:18] INFO root fetch - processPackages [PheTK]: Downloading https://files.pythonhosted.org/packages/d6/ba/5d70a1860a1dec77d35c8111077e653b21093b57dd14ca050f74b584414c/PheTK-0.1.38.tar.gz
+[2024-05-03 04:43:18] INFO root fetch - processPackages [pypcd4]: Downloading https://files.pythonhosted.org/packages/b1/f0/fe3249fad3a50cc5b080eeb6f568ef4ca1db00f9c3378d1fc9e1259943a0/pypcd4-0.4.8.tar.gz
+[2024-05-03 04:43:18] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: executing diffoscope
+[2024-05-03 04:43:18] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_journal_lock_date-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-account-journal-lock-date/16.0.1.0.0.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-03 04:43:18] INFO root fetch - processPackages [pypcd4]: Downloading https://files.pythonhosted.org/packages/c7/b3/30daefc6d71b5695dae9433a88d4bc5d7b239d30c114ec1cff1a1c5bfd17/pypcd4-0.4.9.tar.gz
+[2024-05-03 04:43:18] INFO root fetch - processPackages [PheTK]: Downloading https://files.pythonhosted.org/packages/4d/a9/58a2cb06136135f3a08066a8bca5738b1deb70998c019b71c5521a58e41f/PheTK-0.1.39.tar.gz
+[2024-05-03 04:43:18] INFO root fetch - processPackages [pypcd4]: executing diffoscope
+[2024-05-03 04:43:18] INFO root fetch - processPackages [pypcd4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcd4-0.4.8.tar.gz tmp/pypcd4-0.4.9.tar.gz --markdown 20240503/p/pypcd4/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-03 04:43:18] INFO root fetch - processPackages [PheTK]: executing diffoscope
+[2024-05-03 04:43:18] INFO root fetch - processPackages [PheTK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PheTK-0.1.38.tar.gz tmp/PheTK-0.1.39.tar.gz --markdown 20240503/P/PheTK/0.1.38-0.1.39/README.md --exclude *.pyd
+[2024-05-03 04:43:19] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-03 04:43:19] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 04:43:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-lock-date]: success
+[2024-05-03 04:43:19] INFO root fetch - processPackages [pypcd4]: Remove: archive file [/home/abi/fetcher/tmp/pypcd4-0.4.8.tar.gz]
+[2024-05-03 04:43:19] INFO root fetch - processPackages [pypcd4]: Remove: archive file [/home/abi/fetcher/tmp/pypcd4-0.4.9.tar.gz]
+[2024-05-03 04:43:19] INFO root fetch - main [MainThread]: End processing [pypcd4]: success
+[2024-05-03 04:43:20] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.38.tar.gz]
+[2024-05-03 04:43:20] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.39.tar.gz]
+[2024-05-03 04:43:20] INFO root fetch - main [MainThread]: End processing [PheTK]: success
+[2024-05-03 04:43:20] INFO root fetch - main [MainThread]: Store serial: [23040982]
