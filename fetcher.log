@@ -14900,3 +14900,80 @@
 [2024-05-03 11:19:32] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.3.0-py3-none-win_amd64.whl.zip]
 [2024-05-03 11:19:32] INFO root fetch - main [MainThread]: End processing [lwk]: success
 [2024-05-03 11:19:32] INFO root fetch - main [MainThread]: Store serial: [23043788]
+[2024-05-03 11:22:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043788]
+[2024-05-03 11:22:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml3-platform-sdk
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeodeWeb-Back
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto-ext
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-extensions-model-training-api-sagemaker
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: r2ai
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ragtime
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upowpy
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-account-invoice-change-currency
+[2024-05-03 11:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-account-invoice-line-complimentary
+[2024-05-03 11:22:13] INFO root fetch - processPackages [upowpy]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-03 11:22:13] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: New version: [1.7.0.dev1714727830] Old Version: [1.7.0.dev1714641904]
+[2024-05-03 11:22:14] INFO root fetch - processPackages [upowpy]: Downloading https://files.pythonhosted.org/packages/08/53/2f3dddcca98e4b91787552371e52be6e636646e30b2eabc8ce7708b6b7a6/upowpy-1.0.3.tar.gz
+[2024-05-03 11:22:14] WARNING root fetch - processPackages [odoo12-addon-account-invoice-line-complimentary]: Skipping, unable to determine old version
+[2024-05-03 11:22:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-line-complimentary] error
+[2024-05-03 11:22:14] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/0f/dc/76636ef99b3117db7ed693c1e7c081687f8516c72eea3a833ab86960a910/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641904.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [ml3-platform-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 11:22:14] INFO root fetch - processPackages [ragtime]: New version: [0.0.31] Old Version: [0.0.30]
+[2024-05-03 11:22:14] INFO root fetch - processPackages [odoo12-addon-account-invoice-change-currency]: New version: [12.0.1.1.0.99.dev9] Old Version: [12.0.1.1.0.99.dev7]
+[2024-05-03 11:22:14] INFO root fetch - processPackages [r2ai]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-03 11:22:14] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [4.1.0rc3] Old Version: [4.1.0rc2]
+[2024-05-03 11:22:14] INFO root fetch - processPackages [moto-ext]: New version: [5.0.6.post1] Old Version: [5.0.5.post1]
+[2024-05-03 11:22:14] INFO root fetch - processPackages [ml3-platform-sdk]: Downloading https://files.pythonhosted.org/packages/20/00/81fc710f8e0b1f233ed31796ee4b64701ff6cdc7f75e27abb9134cc1c746/ml3_platform_sdk-0.0.8.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/2e/24/a6d89930da2a0a782beae637a38ecbace301ff68457804fa98b396b55da3/opengeodeweb_back-4.1.0rc2.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/7b/a3/0cf7c238db298f984dd91255d4e3d1cca040f4d7dc47dbeca5ab49a74952/ragtime-0.0.30.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [r2ai]: Downloading https://files.pythonhosted.org/packages/53/6a/b94bcc04be9a8cf2099ca2532d1baf884f5e93ab24cd3b2873c7cfb70419/r2ai-0.6.1.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [odoo12-addon-account-invoice-change-currency]: Downloading https://files.pythonhosted.org/packages/fd/bf/9f45c99a6df29088dc81b5ea3cbee178b210b8c27630c01cc95a95662539/odoo12_addon_account_invoice_change_currency-12.0.1.1.0.99.dev7-py3-none-any.whl
+[2024-05-03 11:22:14] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/d7/2f/88a352038c49a9a06c8e214d11842a66b00171ce815124d293ccdc8c155e/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714727830.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [upowpy]: Downloading https://files.pythonhosted.org/packages/c6/de/f82cfb917ba73235c565342806300e82b29d53b16d23c61cdaddec373704/upowpy-1.0.4.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: executing diffoscope
+[2024-05-03 11:22:14] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641904.tar.gz tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714727830.tar.gz --markdown 20240503/a/aissemble-extensions-model-training-api-sagemaker/1.7.0.dev1714641904-1.7.0.dev1714727830/README.md --exclude *.pyd
+[2024-05-03 11:22:14] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/09/8c/1670342fefbae956194a975655f08cad91dae0476f361e37f6ec68de2c24/moto_ext-5.0.6.post1.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [upowpy]: executing diffoscope
+[2024-05-03 11:22:14] INFO root fetch - processPackages [upowpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upowpy-1.0.3.tar.gz tmp/upowpy-1.0.4.tar.gz --markdown 20240503/u/upowpy/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-03 11:22:14] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/e7/ea/9474c4b471ebaaf884cec1c8d760e88d435a92844ef4bf6eddb40f8773d8/opengeodeweb_back-4.1.0rc3.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [ml3-platform-sdk]: Downloading https://files.pythonhosted.org/packages/9a/92/b939246cc29c360be4320a80bacea22a022c66276dcb9a6772b9d1360b7e/ml3_platform_sdk-0.0.9.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [r2ai]: Downloading https://files.pythonhosted.org/packages/48/35/9c05ba00d29d87030d0b2dba6bd994979712ddbae0fc571246a1b1da208a/r2ai-0.7.0.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2024-05-03 11:22:14] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeodeweb_back-4.1.0rc2.tar.gz tmp/opengeodeweb_back-4.1.0rc3.tar.gz --markdown 20240503/O/OpenGeodeWeb-Back/4.1.0rc2-4.1.0rc3/README.md --exclude *.pyd
+[2024-05-03 11:22:14] INFO root fetch - processPackages [odoo12-addon-account-invoice-change-currency]: Downloading https://files.pythonhosted.org/packages/f4/1d/046e7bb599a5d98fc222352b39dc3e5f600dceb8fc820c7bd0bff3f655bf/odoo12_addon_account_invoice_change_currency-12.0.1.1.0.99.dev9-py3-none-any.whl
+[2024-05-03 11:22:14] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/ff/6f/7a0bba4703c88b92d8b9f90bdb0f515cc869d3df86eff420b01ad7002486/ragtime-0.0.31.tar.gz
+[2024-05-03 11:22:14] INFO root fetch - processPackages [r2ai]: executing diffoscope
+[2024-05-03 11:22:14] INFO root fetch - processPackages [r2ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2ai-0.6.1.tar.gz tmp/r2ai-0.7.0.tar.gz --markdown 20240503/r/r2ai/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-03 11:22:14] INFO root fetch - processPackages [ml3-platform-sdk]: executing diffoscope
+[2024-05-03 11:22:14] INFO root fetch - processPackages [ml3-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml3_platform_sdk-0.0.8.tar.gz tmp/ml3_platform_sdk-0.0.9.tar.gz --markdown 20240503/m/ml3-platform-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 11:22:15] INFO root fetch - processPackages [odoo12-addon-account-invoice-change-currency]: executing diffoscope
+[2024-05-03 11:22:15] INFO root fetch - processPackages [odoo12-addon-account-invoice-change-currency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_invoice_change_currency-12.0.1.1.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_account_invoice_change_currency-12.0.1.1.0.99.dev9-py3-none-any.whl.zip --markdown 20240503/o/odoo12-addon-account-invoice-change-currency/12.0.1.1.0.99.dev7-12.0.1.1.0.99.dev9/README.md --exclude *.pyd
+[2024-05-03 11:22:15] INFO root fetch - processPackages [ragtime]: executing diffoscope
+[2024-05-03 11:22:15] INFO root fetch - processPackages [ragtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragtime-0.0.30.tar.gz tmp/ragtime-0.0.31.tar.gz --markdown 20240503/r/ragtime/0.0.30-0.0.31/README.md --exclude *.pyd
+[2024-05-03 11:22:15] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641904.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714727830.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-model-training-api-sagemaker]: success
+[2024-05-03 11:22:15] INFO root fetch - processPackages [upowpy]: Remove: archive file [/home/abi/fetcher/tmp/upowpy-1.0.3.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - processPackages [upowpy]: Remove: archive file [/home/abi/fetcher/tmp/upowpy-1.0.4.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - main [MainThread]: End processing [upowpy]: success
+[2024-05-03 11:22:15] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2024-05-03 11:22:15] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-5.0.5.post1.tar.gz tmp/moto_ext-5.0.6.post1.tar.gz --markdown 20240503/m/moto-ext/5.0.5.post1-5.0.6.post1/README.md --exclude *.pyd
+[2024-05-03 11:22:15] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.1.0rc2.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.1.0rc3.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2024-05-03 11:22:15] INFO root fetch - processPackages [odoo12-addon-account-invoice-change-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_change_currency-12.0.1.1.0.99.dev7-py3-none-any.whl.zip]
+[2024-05-03 11:22:15] INFO root fetch - processPackages [odoo12-addon-account-invoice-change-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_change_currency-12.0.1.1.0.99.dev9-py3-none-any.whl.zip]
+[2024-05-03 11:22:15] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-change-currency]: success
+[2024-05-03 11:22:15] INFO root fetch - processPackages [r2ai]: Remove: archive file [/home/abi/fetcher/tmp/r2ai-0.6.1.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - processPackages [r2ai]: Remove: archive file [/home/abi/fetcher/tmp/r2ai-0.7.0.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - main [MainThread]: End processing [r2ai]: success
+[2024-05-03 11:22:15] INFO root fetch - processPackages [ml3-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ml3_platform_sdk-0.0.8.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - processPackages [ml3-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ml3_platform_sdk-0.0.9.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - main [MainThread]: End processing [ml3-platform-sdk]: success
+[2024-05-03 11:22:15] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.30.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.31.tar.gz]
+[2024-05-03 11:22:15] INFO root fetch - main [MainThread]: End processing [ragtime]: success
+[2024-05-03 11:22:39] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-5.0.5.post1.tar.gz]
+[2024-05-03 11:22:39] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.6.post1.tar.gz]
+[2024-05-03 11:22:39] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
+[2024-05-03 11:22:39] INFO root fetch - main [MainThread]: Store serial: [23043816]
