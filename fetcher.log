@@ -15166,3 +15166,66 @@
 [2024-05-03 11:35:17] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.7.1.tar.gz]
 [2024-05-03 11:35:17] INFO root fetch - main [MainThread]: End processing [iinfer]: success
 [2024-05-03 11:35:17] INFO root fetch - main [MainThread]: Store serial: [23043903]
+[2024-05-03 11:37:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043903]
+[2024-05-03 11:37:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2024-05-03 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nnfasta
+[2024-05-03 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebdamame
+[2024-05-03 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linktest
+[2024-05-03 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cramjam
+[2024-05-03 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chittorgarh-client
+[2024-05-03 11:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RikPy
+[2024-05-03 11:37:47] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.9] Old Version: [14.0.1.0.8]
+[2024-05-03 11:37:47] INFO root fetch - processPackages [cramjam]: New version: [2.8.4rc1] Old Version: [2.8.3rc1]
+[2024-05-03 11:37:47] INFO root fetch - processPackages [nnfasta]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 11:37:47] INFO root fetch - processPackages [linktest]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-03 11:37:47] INFO root fetch - processPackages [ebdamame]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 11:37:47] INFO root fetch - processPackages [chittorgarh-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 11:37:47] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/29/36/7268bc24d8389016271fa5339775a21de8b62a9394c3f27c7da5eee932d4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz
+[2024-05-03 11:37:47] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/19/5c/c6026e9c1a7f50ecb7ffdd23e688f1c3d06c18d81d5437f9fc0269f257c5/nnfasta-0.1.6.tar.gz
+[2024-05-03 11:37:47] INFO root fetch - processPackages [RikPy]: New version: [0.2.8] Old Version: [0.2.72]
+[2024-05-03 11:37:47] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/b7/81/a9dcb0186f1926694ec74c3da25871873967315749ae2a42662528c2cdc3/linktest-2.6.8.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [cramjam]: Downloading https://files.pythonhosted.org/packages/22/e0/a00f6c8e9ca06f2adb35b7a03225f7f172570812ed44b96aa2e0f71ceed7/cramjam-2.8.3rc1.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [ebdamame]: Downloading https://files.pythonhosted.org/packages/ef/36/0c6ced1b31ecbb72de0aa5c55a6c04880c94b629057502296c0386eb3b55/ebdamame-0.1.1.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/7a/a5/763311ef5b7671d7d7d796aa5c7cde0ebac51eb76ea86c48fdbaead3cb6c/chittorgarh_client-1.0.8.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [RikPy]: Downloading https://files.pythonhosted.org/packages/7c/ca/17622d7c155efaf24f901fec3c52ab649b484276219d2fcb712508bb9b12/RikPy-0.2.72.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/e2/db/60f2eaaffb9864df5bb98ea187aef4761d8a58c121f9814ea9db53e834bb/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/27/a8/2c35f89487f5a414d0387a0912157da6451fc7d805f4eb4bdb7f2d6b006a/linktest-2.6.9.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [nnfasta]: Downloading https://files.pythonhosted.org/packages/7a/09/72726182d426957ef53587dbf2ca1a8acc33c1e0528c7443aca030307b5f/nnfasta-0.1.7.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2024-05-03 11:37:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz --markdown 20240503/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.8-14.0.1.0.9/README.md --exclude *.pyd
+[2024-05-03 11:37:48] INFO root fetch - processPackages [nnfasta]: executing diffoscope
+[2024-05-03 11:37:48] INFO root fetch - processPackages [nnfasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnfasta-0.1.6.tar.gz tmp/nnfasta-0.1.7.tar.gz --markdown 20240503/n/nnfasta/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 11:37:48] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-03 11:37:48] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.6.8.tar.gz tmp/linktest-2.6.9.tar.gz --markdown 20240503/l/linktest/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-03 11:37:48] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/56/3e/fc317ea00053937e692f624fe70a95f6d6c6f22d64c13d62f0ac7fe66b7d/chittorgarh_client-1.0.9.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [ebdamame]: Downloading https://files.pythonhosted.org/packages/2e/52/907b2f669d890cee62dd5df54f8d6fae7bc13f4ca2d800ccdccd4c8c1af3/ebdamame-0.1.2.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [RikPy]: Downloading https://files.pythonhosted.org/packages/b3/3f/23e3a121573841a6e6fcea01af995b97f589ac5db6106d16786b6445cdc8/RikPy-0.2.8.tar.gz
+[2024-05-03 11:37:48] INFO root fetch - processPackages [chittorgarh-client]: executing diffoscope
+[2024-05-03 11:37:48] INFO root fetch - processPackages [chittorgarh-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chittorgarh_client-1.0.8.tar.gz tmp/chittorgarh_client-1.0.9.tar.gz --markdown 20240503/c/chittorgarh-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 11:37:48] INFO root fetch - processPackages [ebdamame]: executing diffoscope
+[2024-05-03 11:37:48] INFO root fetch - processPackages [ebdamame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebdamame-0.1.1.tar.gz tmp/ebdamame-0.1.2.tar.gz --markdown 20240503/e/ebdamame/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 11:37:48] INFO root fetch - processPackages [RikPy]: executing diffoscope
+[2024-05-03 11:37:48] INFO root fetch - processPackages [RikPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RikPy-0.2.72.tar.gz tmp/RikPy-0.2.8.tar.gz --markdown 20240503/R/RikPy/0.2.72-0.2.8/README.md --exclude *.pyd
+[2024-05-03 11:37:49] INFO root fetch - processPackages [cramjam]: Downloading https://files.pythonhosted.org/packages/ac/df/2ed8043e36b2585027b2d826bed84d73e0c986b995fdc2b162b839a7882c/cramjam-2.8.4rc1.tar.gz
+[2024-05-03 11:37:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.8.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.9.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2024-05-03 11:37:49] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.6.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - processPackages [nnfasta]: Remove: archive file [/home/abi/fetcher/tmp/nnfasta-0.1.7.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - main [MainThread]: End processing [nnfasta]: success
+[2024-05-03 11:37:49] WARNING root fetch - processPackages [cramjam]: Skipping package: exceeds size limit 56128588>=10485760
+[2024-05-03 11:37:49] INFO root fetch - main [MainThread]: End processing [cramjam] error
+[2024-05-03 11:37:49] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.8.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.9.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-03 11:37:49] INFO root fetch - processPackages [RikPy]: Remove: archive file [/home/abi/fetcher/tmp/RikPy-0.2.72.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - processPackages [RikPy]: Remove: archive file [/home/abi/fetcher/tmp/RikPy-0.2.8.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - main [MainThread]: End processing [RikPy]: success
+[2024-05-03 11:37:49] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.8.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.9.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - main [MainThread]: End processing [chittorgarh-client]: success
+[2024-05-03 11:37:49] INFO root fetch - processPackages [ebdamame]: Remove: archive file [/home/abi/fetcher/tmp/ebdamame-0.1.1.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - processPackages [ebdamame]: Remove: archive file [/home/abi/fetcher/tmp/ebdamame-0.1.2.tar.gz]
+[2024-05-03 11:37:49] INFO root fetch - main [MainThread]: End processing [ebdamame]: success
+[2024-05-03 11:37:49] INFO root fetch - main [MainThread]: Store serial: [23043955]
