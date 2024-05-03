@@ -7559,3 +7559,18 @@
 [2024-05-03 04:25:49] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.5.3.tar.gz]
 [2024-05-03 04:25:49] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
 [2024-05-03 04:25:49] INFO root fetch - main [MainThread]: Store serial: [23040916]
+[2024-05-03 04:27:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040916]
+[2024-05-03 04:27:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 04:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-db
+[2024-05-03 04:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digrdf
+[2024-05-03 04:27:58] WARNING root fetch - processPackages [digrdf]: Skipping, unable to determine old version
+[2024-05-03 04:27:58] INFO root fetch - main [MainThread]: End processing [digrdf] error
+[2024-05-03 04:27:58] INFO root fetch - processPackages [core-db]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-03 04:27:58] INFO root fetch - processPackages [core-db]: Downloading https://files.pythonhosted.org/packages/d7/95/f3477b266be27f8cbe05cc73638dbdb7d7703011beefc72a7713ecd612da/core-db-2.0.2.tar.gz
+[2024-05-03 04:27:58] INFO root fetch - processPackages [core-db]: Downloading https://files.pythonhosted.org/packages/62/27/46e071daf6360ccb8de4bdcbbec3573c29e18ce6b0c3a8a9cd44401b84af/core_db-2.0.3.tar.gz
+[2024-05-03 04:27:59] INFO root fetch - processPackages [core-db]: executing diffoscope
+[2024-05-03 04:27:59] INFO root fetch - processPackages [core-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-db-2.0.2.tar.gz tmp/core_db-2.0.3.tar.gz --markdown 20240503/c/core-db/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-03 04:27:59] INFO root fetch - processPackages [core-db]: Remove: archive file [/home/abi/fetcher/tmp/core-db-2.0.2.tar.gz]
+[2024-05-03 04:27:59] INFO root fetch - processPackages [core-db]: Remove: archive file [/home/abi/fetcher/tmp/core_db-2.0.3.tar.gz]
+[2024-05-03 04:27:59] INFO root fetch - main [MainThread]: End processing [core-db]: success
+[2024-05-03 04:27:59] INFO root fetch - main [MainThread]: Store serial: [23040921]
