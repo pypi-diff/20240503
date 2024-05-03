@@ -14365,3 +14365,27 @@
 [2024-05-03 10:53:24] INFO root fetch - processPackages [ucscsdk]: Remove: archive file [/home/abi/fetcher/tmp/ucscsdk-0.9.0.5.tar.gz]
 [2024-05-03 10:53:24] INFO root fetch - main [MainThread]: End processing [ucscsdk]: success
 [2024-05-03 10:53:24] INFO root fetch - main [MainThread]: Store serial: [23043573]
+[2024-05-03 10:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043573]
+[2024-05-03 10:55:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erlab
+[2024-05-03 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-node-binding
+[2024-05-03 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statistic-tool
+[2024-05-03 10:55:39] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1246] Old Version: [3.0.3.post1240]
+[2024-05-03 10:55:39] INFO root fetch - processPackages [erlab]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-03 10:55:39] ERROR root fetch - processPackages [statistic-tool]: Unable to get metadata: No such project 'statistic-tool'
+[2024-05-03 10:55:39] INFO root fetch - main [MainThread]: End processing [statistic-tool] error
+[2024-05-03 10:55:39] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/2f/f8/e816f774c6d264b18238d05f74a514ef9207095b79fd5b4572a92c301d97/nucliadb_node_binding-3.0.3.post1240.tar.gz
+[2024-05-03 10:55:39] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/76/6d/3832c71550885b8f16c6cdeb90f105e14cc82f50ce656aec72c952ec0a6e/erlab-2.4.0.tar.gz
+[2024-05-03 10:55:39] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/66/e2/cd8861101a6a93451f2a4ccbf2da57beddbd83e982781a290ad9959a38fb/nucliadb_node_binding-3.0.3.post1246.tar.gz
+[2024-05-03 10:55:39] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-03 10:55:39] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1240.tar.gz tmp/nucliadb_node_binding-3.0.3.post1246.tar.gz --markdown 20240503/n/nucliadb-node-binding/3.0.3.post1240-3.0.3.post1246/README.md --exclude *.pyd
+[2024-05-03 10:55:40] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/5c/16/87f337a6e1904578af56d66eb85bdf24fba536c5199cce7db117d7ce98d1/erlab-2.4.1.tar.gz
+[2024-05-03 10:55:41] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-05-03 10:55:41] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.4.0.tar.gz tmp/erlab-2.4.1.tar.gz --markdown 20240503/e/erlab/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-03 10:55:41] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1240.tar.gz]
+[2024-05-03 10:55:41] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1246.tar.gz]
+[2024-05-03 10:55:41] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-03 10:55:42] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.0.tar.gz]
+[2024-05-03 10:55:42] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.1.tar.gz]
+[2024-05-03 10:55:42] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-05-03 10:55:42] INFO root fetch - main [MainThread]: Store serial: [23043601]
