@@ -11774,3 +11774,36 @@
 [2024-05-03 09:11:59] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.9.0.tar.gz]
 [2024-05-03 09:11:59] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
 [2024-05-03 09:11:59] INFO root fetch - main [MainThread]: Store serial: [23042553]
+[2024-05-03 09:14:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042553]
+[2024-05-03 09:14:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 09:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myPYPI9
+[2024-05-03 09:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyedpro
+[2024-05-03 09:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wxc_sdk
+[2024-05-03 09:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iothings
+[2024-05-03 09:14:08] INFO root fetch - processPackages [myPYPI9]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-03 09:14:08] WARNING root fetch - processPackages [iothings]: Skipping, unable to determine old version
+[2024-05-03 09:14:08] INFO root fetch - main [MainThread]: End processing [iothings] error
+[2024-05-03 09:14:08] INFO root fetch - processPackages [pyedpro]: New version: [3.3.6] Old Version: [3.3.5]
+[2024-05-03 09:14:08] INFO root fetch - processPackages [wxc_sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 09:14:08] INFO root fetch - processPackages [pyedpro]: Downloading https://files.pythonhosted.org/packages/f8/1f/96725305572c0f5c878c3101c0c735c774ae699d0ead4cbef78e6128ae72/pyedpro-3.3.5.tar.gz
+[2024-05-03 09:14:08] INFO root fetch - processPackages [myPYPI9]: Downloading https://files.pythonhosted.org/packages/d2/03/5b0462b74e5bbe20e7683813ed6047ef9b8e0e11bbf832307c81a6eb57b0/mypypi9-0.7.8.tar.gz
+[2024-05-03 09:14:08] INFO root fetch - processPackages [wxc_sdk]: Downloading https://files.pythonhosted.org/packages/65/68/6b828b0a26e40300376631622bcaaca6866bdef28e75f6ed444823a77fde/wxc_sdk-1.8.0.tar.gz
+[2024-05-03 09:14:08] INFO root fetch - processPackages [myPYPI9]: Downloading https://files.pythonhosted.org/packages/59/50/e6ade8fa894f63707b31ffb2a965aa60c3b56b9ba31f82374779f571167e/mypypi9-0.7.9.tar.gz
+[2024-05-03 09:14:08] INFO root fetch - processPackages [myPYPI9]: executing diffoscope
+[2024-05-03 09:14:08] INFO root fetch - processPackages [myPYPI9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypypi9-0.7.8.tar.gz tmp/mypypi9-0.7.9.tar.gz --markdown 20240503/m/myPYPI9/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-03 09:14:08] INFO root fetch - processPackages [wxc_sdk]: Downloading https://files.pythonhosted.org/packages/3e/ca/aaf7cecba5b35a662002acb68c785a03eb5f3c85d5a96b58d0aa4d096101/wxc_sdk-1.9.0.tar.gz
+[2024-05-03 09:14:08] INFO root fetch - processPackages [pyedpro]: Downloading https://files.pythonhosted.org/packages/9a/c9/d300730bec5352f1c12a1dc63ff42581022a60e2fb178f24be7b6611b5ae/pyedpro-3.3.6-py3-none-any.whl
+[2024-05-03 09:14:09] INFO root fetch - processPackages [wxc_sdk]: executing diffoscope
+[2024-05-03 09:14:09] INFO root fetch - processPackages [wxc_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxc_sdk-1.8.0.tar.gz tmp/wxc_sdk-1.9.0.tar.gz --markdown 20240503/w/wxc_sdk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-03 09:14:09] INFO root fetch - processPackages [pyedpro]: executing diffoscope
+[2024-05-03 09:14:09] INFO root fetch - processPackages [pyedpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedpro-3.3.5.tar.gz tmp/pyedpro-3.3.6-py3-none-any.whl.zip --markdown 20240503/p/pyedpro/3.3.5-3.3.6/README.md --exclude *.pyd
+[2024-05-03 09:14:09] INFO root fetch - processPackages [myPYPI9]: Remove: archive file [/home/abi/fetcher/tmp/mypypi9-0.7.8.tar.gz]
+[2024-05-03 09:14:09] INFO root fetch - processPackages [myPYPI9]: Remove: archive file [/home/abi/fetcher/tmp/mypypi9-0.7.9.tar.gz]
+[2024-05-03 09:14:09] INFO root fetch - main [MainThread]: End processing [myPYPI9]: success
+[2024-05-03 09:14:09] INFO root fetch - processPackages [pyedpro]: Remove: archive file [/home/abi/fetcher/tmp/pyedpro-3.3.5.tar.gz]
+[2024-05-03 09:14:09] INFO root fetch - processPackages [pyedpro]: Remove: archive file [/home/abi/fetcher/tmp/pyedpro-3.3.6-py3-none-any.whl.zip]
+[2024-05-03 09:14:09] INFO root fetch - main [MainThread]: End processing [pyedpro]: success
+[2024-05-03 09:14:10] INFO root fetch - processPackages [wxc_sdk]: Remove: archive file [/home/abi/fetcher/tmp/wxc_sdk-1.8.0.tar.gz]
+[2024-05-03 09:14:10] INFO root fetch - processPackages [wxc_sdk]: Remove: archive file [/home/abi/fetcher/tmp/wxc_sdk-1.9.0.tar.gz]
+[2024-05-03 09:14:10] INFO root fetch - main [MainThread]: End processing [wxc_sdk]: success
+[2024-05-03 09:14:10] INFO root fetch - main [MainThread]: Store serial: [23042567]
