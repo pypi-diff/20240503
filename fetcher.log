@@ -22851,3 +22851,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 17:06:05] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
 [2024-05-03 17:06:05] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
 [2024-05-03 17:06:05] INFO root fetch - main [MainThread]: Store serial: [23047607]
+[2024-05-03 17:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047607]
+[2024-05-03 17:08:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beetl
+[2024-05-03 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdremotifier
+[2024-05-03 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: attribox
+[2024-05-03 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrevm
+[2024-05-03 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: negate
+[2024-05-03 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework-testnotify
+[2024-05-03 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-testnotify
+[2024-05-03 17:08:15] INFO root fetch - processPackages [beetl]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-03 17:08:15] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/81/7c/da3a68c5418c8b22d47de9fec78a580d6b25506e748d0b174aada7098ab8/beetl-0.4.6.tar.gz
+[2024-05-03 17:08:15] INFO root fetch - processPackages [negate]: New version: [1.1.5] Old Version: [1.1.3]
+[2024-05-03 17:08:15] INFO root fetch - processPackages [pyrevm]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-03 17:08:15] INFO root fetch - processPackages [mdremotifier]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-03 17:08:15] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 17:08:15] INFO root fetch - processPackages [robotframework-testnotify]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-03 17:08:15] INFO root fetch - processPackages [robotframework-testnotify]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-03 17:08:15] INFO root fetch - processPackages [pyrevm]: Downloading https://files.pythonhosted.org/packages/30/c3/06d99929624114b412bca3a7af86745b22d82fc511ca0d44373cbced2ea8/pyrevm-0.3.2.tar.gz
+[2024-05-03 17:08:15] INFO root fetch - processPackages [negate]: Downloading https://files.pythonhosted.org/packages/b0/be/ad8a66d982f8cdd4c3197f70f9501ec08b1801890b1040ee4249f0f9dd7e/negate-1.1.3.tar.gz
+[2024-05-03 17:08:15] INFO root fetch - processPackages [mdremotifier]: Downloading https://files.pythonhosted.org/packages/4d/fa/cd3a9b74bc0a0d9e9dc453d1631c29d69b4ef3875f4c860c09044cb6b151/mdremotifier-0.2.0.tar.gz
+[2024-05-03 17:08:15] INFO root fetch - processPackages [robotframework-testnotify]: Downloading https://files.pythonhosted.org/packages/01/24/6dd7c5abd2ab8e9dd836cd77ae904471cdbb04a3fe3e6ae67790348b9ebd/robotframework_testnotify-1.tar.gz
+[2024-05-03 17:08:15] INFO root fetch - processPackages [robotframework-testnotify]: Downloading https://files.pythonhosted.org/packages/01/24/6dd7c5abd2ab8e9dd836cd77ae904471cdbb04a3fe3e6ae67790348b9ebd/robotframework_testnotify-1.tar.gz
+[2024-05-03 17:08:15] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-03 17:08:15] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/3a/67/544b51b22da09c73406adaeb0a4faf0493ed047ae9d3c7b29d3266cc364b/beetl-0.4.7.tar.gz
+[2024-05-03 17:08:16] INFO root fetch - processPackages [beetl]: executing diffoscope
+[2024-05-03 17:08:16] INFO root fetch - processPackages [beetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetl-0.4.6.tar.gz tmp/beetl-0.4.7.tar.gz --markdown 20240503/b/beetl/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-03 17:08:16] INFO root fetch - processPackages [mdremotifier]: Downloading https://files.pythonhosted.org/packages/c8/7b/7c9ecdfcdf9914797196fb9aaedefeb5336ca18dd577c8b810ba63b862f6/mdremotifier-0.3.0.tar.gz
+[2024-05-03 17:08:16] INFO root fetch - processPackages [negate]: Downloading https://files.pythonhosted.org/packages/ab/50/73921479046422c989807e514933a9c43f30c0801437510d3041ef764498/negate-1.1.5.tar.gz
+[2024-05-03 17:08:16] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-03 17:08:16] INFO root fetch - processPackages [pyrevm]: Downloading https://files.pythonhosted.org/packages/97/36/4065d382d27152d4250cd4ec3871ca8271f1c181c686e01c80e0a2495046/pyrevm-0.3.3.tar.gz
+[2024-05-03 17:08:16] INFO root fetch - processPackages [negate]: executing diffoscope
+[2024-05-03 17:08:16] INFO root fetch - processPackages [negate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negate-1.1.3.tar.gz tmp/negate-1.1.5.tar.gz --markdown 20240503/n/negate/1.1.3-1.1.5/README.md --exclude *.pyd
+[2024-05-03 17:08:16] INFO root fetch - processPackages [mdremotifier]: executing diffoscope
+[2024-05-03 17:08:16] INFO root fetch - processPackages [mdremotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdremotifier-0.2.0.tar.gz tmp/mdremotifier-0.3.0.tar.gz --markdown 20240503/m/mdremotifier/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-03 17:08:16] INFO root fetch - processPackages [pyrevm]: executing diffoscope
+[2024-05-03 17:08:16] INFO root fetch - processPackages [pyrevm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrevm-0.3.2.tar.gz tmp/pyrevm-0.3.3.tar.gz --markdown 20240503/p/pyrevm/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-03 17:08:16] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-03 17:08:16] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240503/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 17:08:16] INFO root fetch - processPackages [robotframework-testnotify]: Downloading https://files.pythonhosted.org/packages/42/56/2863057f8b7289564a494f46bd46320fe7686bfcada7e887280a6dad2727/robotframework-testnotify-1.1.0.tar.gz
+[2024-05-03 17:08:16] INFO root fetch - processPackages [robotframework-testnotify]: Downloading https://files.pythonhosted.org/packages/42/56/2863057f8b7289564a494f46bd46320fe7686bfcada7e887280a6dad2727/robotframework-testnotify-1.1.0.tar.gz
+[2024-05-03 17:08:16] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.6.tar.gz]
+[2024-05-03 17:08:16] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.7.tar.gz]
+[2024-05-03 17:08:16] INFO root fetch - main [MainThread]: End processing [beetl]: success
+[2024-05-03 17:08:16] INFO root fetch - processPackages [robotframework-testnotify]: executing diffoscope
+[2024-05-03 17:08:16] INFO root fetch - processPackages [robotframework-testnotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_testnotify-1.tar.gz tmp/robotframework-testnotify-1.1.0.tar.gz --markdown 20240503/r/robotframework-testnotify/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-03 17:08:16] INFO root fetch - processPackages [robotframework-testnotify]: executing diffoscope
+[2024-05-03 17:08:16] INFO root fetch - processPackages [robotframework-testnotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_testnotify-1.tar.gz tmp/robotframework-testnotify-1.1.0.tar.gz --markdown 20240503/r/robotframework-testnotify/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-03 17:08:17] INFO root fetch - processPackages [negate]: Remove: archive file [/home/abi/fetcher/tmp/negate-1.1.3.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - processPackages [negate]: Remove: archive file [/home/abi/fetcher/tmp/negate-1.1.5.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - main [MainThread]: End processing [negate]: success
+[2024-05-03 17:08:17] INFO root fetch - processPackages [mdremotifier]: Remove: archive file [/home/abi/fetcher/tmp/mdremotifier-0.2.0.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - processPackages [mdremotifier]: Remove: archive file [/home/abi/fetcher/tmp/mdremotifier-0.3.0.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - main [MainThread]: End processing [mdremotifier]: success
+[2024-05-03 17:08:17] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-03 17:08:17] INFO root fetch - processPackages [pyrevm]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm-0.3.2.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - processPackages [pyrevm]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm-0.3.3.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - main [MainThread]: End processing [pyrevm]: success
+[2024-05-03 17:08:17] INFO root fetch - processPackages [robotframework-testnotify]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_testnotify-1.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - processPackages [robotframework-testnotify]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-testnotify-1.1.0.tar.gz]
+[2024-05-03 17:08:17] INFO root fetch - main [MainThread]: End processing [robotframework-testnotify]: success
+[2024-05-03 17:08:17] ERROR root fetch - processPackages [robotframework-testnotify]: Diffoscope failed: time="2024-05-03T17:08:17+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
+
+[2024-05-03 17:08:17] INFO root fetch - main [MainThread]: End processing [robotframework-testnotify] error
+[2024-05-03 17:08:17] INFO root fetch - main [MainThread]: Store serial: [23047658]
