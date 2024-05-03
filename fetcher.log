@@ -21914,3 +21914,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [pyiron-atomistics]: success
 [2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [accelerate]: success
 [2024-05-03 16:38:21] INFO root fetch - main [MainThread]: Store serial: [23047170]
+[2024-05-03 16:40:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047170]
+[2024-05-03 16:40:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: senseport
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-snowflake
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flops-utils
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moexalgo
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clappform-integrations
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dls-dodal
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snapquery
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: patent-client
+[2024-05-03 16:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tlparse
+[2024-05-03 16:40:50] INFO root fetch - processPackages [shipyard-snowflake]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-03 16:40:50] INFO root fetch - processPackages [moexalgo]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-03 16:40:50] WARNING root fetch - processPackages [snapquery]: Skipping, unable to determine old version
+[2024-05-03 16:40:50] INFO root fetch - main [MainThread]: End processing [snapquery] error
+[2024-05-03 16:40:50] INFO root fetch - processPackages [patent-client]: New version: [5.0.2] Old Version: [5.0.1]
+[2024-05-03 16:40:51] INFO root fetch - processPackages [shipyard-snowflake]: Downloading https://files.pythonhosted.org/packages/6e/d0/993aee3368e9930cab9196b60470d6d7f64c5d65cf22fc124760a0899c42/shipyard_snowflake-0.2.5.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [clappform-integrations]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 16:40:51] WARNING root fetch - processPackages [senseport]: Skipping, unable to determine old version
+[2024-05-03 16:40:51] INFO root fetch - main [MainThread]: End processing [senseport] error
+[2024-05-03 16:40:51] INFO root fetch - processPackages [moexalgo]: Downloading https://files.pythonhosted.org/packages/41/47/3b4c583af35f38d67418060be8d200755c5639cc4bb302477fedd9aa1451/moexalgo-2.0.0.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [dls-dodal]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 16:40:51] INFO root fetch - processPackages [flops-utils]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-03 16:40:51] INFO root fetch - processPackages [patent-client]: Downloading https://files.pythonhosted.org/packages/6a/f1/ae0b8c18aa059dc6bcdecfcb0002e9a661bcae254d147ea1269231a9b2c6/patent_client-5.0.1.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [tlparse]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-03 16:40:51] INFO root fetch - processPackages [flops-utils]: Downloading https://files.pythonhosted.org/packages/a0/ec/d35561032a9c56781684f379173fde5c8906bdf18cb7d2f79266e17ff563/flops_utils-0.2.6.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/20/77/57c7ebb9ba32b318b442c9f31f596182611f8b9949b9a0800a0f3abecdb5/clappform-integrations-1.0.8.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/7d/05/37c63aa0cd1a6ce2a8a5c2af1a34235ffe8817d51ad11163a3cd85ae12f0/dls-dodal-1.8.0.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [tlparse]: Downloading https://files.pythonhosted.org/packages/35/03/174d547b3ccdd3b04eb335a607d5c40007b1d0a3f1fa1647a1e4319a9b00/tlparse-0.3.6.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [shipyard-snowflake]: Downloading https://files.pythonhosted.org/packages/24/f8/9bb5db92960514d93bb72f88ce24ff528bb5b58a9aa47d5d00a5f151362a/shipyard_snowflake-0.2.6.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [moexalgo]: Downloading https://files.pythonhosted.org/packages/56/9b/ad4aa9765d1fab8217df60ac72727c59734e83480c59522d9e27d9aa2b36/moexalgo-2.0.1.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [shipyard-snowflake]: executing diffoscope
+[2024-05-03 16:40:51] INFO root fetch - processPackages [shipyard-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_snowflake-0.2.5.tar.gz tmp/shipyard_snowflake-0.2.6.tar.gz --markdown 20240503/s/shipyard-snowflake/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-03 16:40:51] INFO root fetch - processPackages [flops-utils]: Downloading https://files.pythonhosted.org/packages/10/cb/c97674c0bc36c7bda63e6fe5debef2c525e23cf74107ddbc08ef5e7fc7ab/flops_utils-0.2.7.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [patent-client]: Downloading https://files.pythonhosted.org/packages/2b/69/0229b495dd4cf5e024199ad3db55d5e5dd2441fb5273d513bca560c079eb/patent_client-5.0.2.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [moexalgo]: executing diffoscope
+[2024-05-03 16:40:51] INFO root fetch - processPackages [moexalgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moexalgo-2.0.0.tar.gz tmp/moexalgo-2.0.1.tar.gz --markdown 20240503/m/moexalgo/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-03 16:40:51] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/0f/b3/c8af395d46d1c9764756342c7841827c9e0e708aade9b05af36c576f333a/dls-dodal-1.9.0.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [tlparse]: Downloading https://files.pythonhosted.org/packages/b1/9f/84459ac6f0623acadc83a6d9888fe93fd68968346f1b9589165ba329a76c/tlparse-0.3.7.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/1b/87/d1bd22e550a438c726df88f986c9ca34f15cf630f0c0d3587eb3081d4339/clappform-integrations-1.0.9.tar.gz
+[2024-05-03 16:40:51] INFO root fetch - processPackages [flops-utils]: executing diffoscope
+[2024-05-03 16:40:51] INFO root fetch - processPackages [flops-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flops_utils-0.2.6.tar.gz tmp/flops_utils-0.2.7.tar.gz --markdown 20240503/f/flops-utils/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-03 16:40:51] INFO root fetch - processPackages [tlparse]: executing diffoscope
+[2024-05-03 16:40:51] INFO root fetch - processPackages [tlparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlparse-0.3.6.tar.gz tmp/tlparse-0.3.7.tar.gz --markdown 20240503/t/tlparse/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-03 16:40:51] INFO root fetch - processPackages [dls-dodal]: executing diffoscope
+[2024-05-03 16:40:51] INFO root fetch - processPackages [dls-dodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-dodal-1.8.0.tar.gz tmp/dls-dodal-1.9.0.tar.gz --markdown 20240503/d/dls-dodal/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-03 16:40:51] INFO root fetch - processPackages [clappform-integrations]: executing diffoscope
+[2024-05-03 16:40:51] INFO root fetch - processPackages [clappform-integrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clappform-integrations-1.0.8.tar.gz tmp/clappform-integrations-1.0.9.tar.gz --markdown 20240503/c/clappform-integrations/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 16:40:51] INFO root fetch - processPackages [patent-client]: executing diffoscope
+[2024-05-03 16:40:51] INFO root fetch - processPackages [patent-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patent_client-5.0.1.tar.gz tmp/patent_client-5.0.2.tar.gz --markdown 20240503/p/patent-client/5.0.1-5.0.2/README.md --exclude *.pyd
+[2024-05-03 16:40:52] INFO root fetch - processPackages [shipyard-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_snowflake-0.2.5.tar.gz]
+[2024-05-03 16:40:52] INFO root fetch - processPackages [shipyard-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_snowflake-0.2.6.tar.gz]
+[2024-05-03 16:40:52] INFO root fetch - main [MainThread]: End processing [shipyard-snowflake]: success
+[2024-05-03 16:40:52] INFO root fetch - processPackages [flops-utils]: Remove: archive file [/home/abi/fetcher/tmp/flops_utils-0.2.6.tar.gz]
+[2024-05-03 16:40:52] INFO root fetch - processPackages [flops-utils]: Remove: archive file [/home/abi/fetcher/tmp/flops_utils-0.2.7.tar.gz]
+[2024-05-03 16:40:52] INFO root fetch - main [MainThread]: End processing [flops-utils]: success
+[2024-05-03 16:40:52] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.6.tar.gz]
+[2024-05-03 16:40:52] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.7.tar.gz]
+[2024-05-03 16:40:52] INFO root fetch - main [MainThread]: End processing [tlparse]: success
+[2024-05-03 16:40:52] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.8.tar.gz]
+[2024-05-03 16:40:52] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.9.tar.gz]
+[2024-05-03 16:40:52] INFO root fetch - main [MainThread]: End processing [clappform-integrations]: success
+[2024-05-03 16:40:53] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.8.0.tar.gz]
+[2024-05-03 16:40:53] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.9.0.tar.gz]
+[2024-05-03 16:40:53] INFO root fetch - main [MainThread]: End processing [dls-dodal]: success
+[2024-05-03 16:40:55] INFO root fetch - processPackages [patent-client]: Remove: archive file [/home/abi/fetcher/tmp/patent_client-5.0.1.tar.gz]
+[2024-05-03 16:40:55] INFO root fetch - processPackages [patent-client]: Remove: archive file [/home/abi/fetcher/tmp/patent_client-5.0.2.tar.gz]
+[2024-05-03 16:40:55] INFO root fetch - main [MainThread]: End processing [patent-client]: success
+[2024-05-03 16:41:08] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-2.0.0.tar.gz]
+[2024-05-03 16:41:08] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-2.0.1.tar.gz]
+[2024-05-03 16:41:08] INFO root fetch - main [MainThread]: End processing [moexalgo]: success
+[2024-05-03 16:41:08] INFO root fetch - main [MainThread]: Store serial: [23047197]
