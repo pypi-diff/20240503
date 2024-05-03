@@ -21605,3 +21605,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:25:44] INFO root fetch - processPackages [cryptik]: Remove: archive file [/home/abi/fetcher/tmp/cryptik-3.9.0.tar.gz]
 [2024-05-03 16:25:44] INFO root fetch - main [MainThread]: End processing [cryptik]: success
 [2024-05-03 16:25:44] INFO root fetch - main [MainThread]: Store serial: [23047060]
+[2024-05-03 16:28:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047060]
+[2024-05-03 16:28:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 16:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-steam-info
+[2024-05-03 16:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zippyform
+[2024-05-03 16:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2024-05-03 16:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mutwo.timeline
+[2024-05-03 16:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: romanisim
+[2024-05-03 16:28:12] INFO root fetch - processPackages [zippyform]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-03 16:28:12] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-03 16:28:12] INFO root fetch - processPackages [mutwo.timeline]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-03 16:28:12] INFO root fetch - processPackages [nonebot-plugin-steam-info]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-03 16:28:12] INFO root fetch - processPackages [romanisim]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-03 16:28:12] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/d7/d6/89a6c3a90a6a9ec63ae63d27de4e6b7e1a8b78b640496e3ed291bb36030e/zippyform-1.4.8-py3-none-any.whl
+[2024-05-03 16:28:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-03 16:28:12] INFO root fetch - processPackages [mutwo.timeline]: Downloading https://files.pythonhosted.org/packages/40/04/7fb0720de74ff3bc8c5db0acb5e0dba758e5af1056a51f7ae7edfda63ee8/mutwo.timeline-0.5.0.tar.gz
+[2024-05-03 16:28:12] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Downloading https://files.pythonhosted.org/packages/21/aa/1423a68c6d843bd262a09c110b2ef4d4d441d21720734b6912c07a029c36/nonebot_plugin_steam_info-0.2.0.tar.gz
+[2024-05-03 16:28:12] INFO root fetch - processPackages [romanisim]: Downloading https://files.pythonhosted.org/packages/0b/ed/20652cda7e6ec74de85efe7da4d17789b11f130547fc71a34e46f6adbece/romanisim-0.5.0.tar.gz
+[2024-05-03 16:28:12] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/7d/35/a3dfe5803d393705d1159b1f1a2642bbc1518edd9ce0df79604a1596ea5d/zippyform-1.4.9-py3-none-any.whl
+[2024-05-03 16:28:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-03 16:28:12] INFO root fetch - processPackages [zippyform]: executing diffoscope
+[2024-05-03 16:28:12] INFO root fetch - processPackages [zippyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zippyform-1.4.8-py3-none-any.whl.zip tmp/zippyform-1.4.9-py3-none-any.whl.zip --markdown 20240503/z/zippyform/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-03 16:28:13] INFO root fetch - processPackages [mutwo.timeline]: Downloading https://files.pythonhosted.org/packages/4e/b4/4fd7b9267a730cefa9d6788756134699e8c62562fdbf0b33b8da28f393fc/mutwo_timeline-0.6.0.tar.gz
+[2024-05-03 16:28:13] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Downloading https://files.pythonhosted.org/packages/8b/4e/0e0482c71f63d55f5ebaa64b84720d810da070f5516533d51a05ddc57e0f/nonebot_plugin_steam_info-0.3.0.tar.gz
+[2024-05-03 16:28:13] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-03 16:28:13] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240503/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-03 16:28:13] INFO root fetch - processPackages [romanisim]: Downloading https://files.pythonhosted.org/packages/4b/52/2b04b8a7b0dcb16e2f7e3fd95f952c2fc5df73de708cecab1fbcd49b3c3c/romanisim-0.5.1.tar.gz
+[2024-05-03 16:28:13] INFO root fetch - processPackages [nonebot-plugin-steam-info]: executing diffoscope
+[2024-05-03 16:28:13] INFO root fetch - processPackages [nonebot-plugin-steam-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_steam_info-0.2.0.tar.gz tmp/nonebot_plugin_steam_info-0.3.0.tar.gz --markdown 20240503/n/nonebot-plugin-steam-info/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-03 16:28:13] INFO root fetch - processPackages [mutwo.timeline]: executing diffoscope
+[2024-05-03 16:28:13] INFO root fetch - processPackages [mutwo.timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutwo.timeline-0.5.0.tar.gz tmp/mutwo_timeline-0.6.0.tar.gz --markdown 20240503/m/mutwo.timeline/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-03 16:28:13] INFO root fetch - processPackages [romanisim]: executing diffoscope
+[2024-05-03 16:28:13] INFO root fetch - processPackages [romanisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romanisim-0.5.0.tar.gz tmp/romanisim-0.5.1.tar.gz --markdown 20240503/r/romanisim/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-03 16:28:13] INFO root fetch - processPackages [mutwo.timeline]: Remove: archive file [/home/abi/fetcher/tmp/mutwo.timeline-0.5.0.tar.gz]
+[2024-05-03 16:28:13] INFO root fetch - processPackages [mutwo.timeline]: Remove: archive file [/home/abi/fetcher/tmp/mutwo_timeline-0.6.0.tar.gz]
+[2024-05-03 16:28:13] INFO root fetch - main [MainThread]: End processing [mutwo.timeline]: success
+[2024-05-03 16:28:14] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-03 16:28:14] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-03 16:28:14] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-03 16:28:14] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.8-py3-none-any.whl.zip]
+[2024-05-03 16:28:14] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.9-py3-none-any.whl.zip]
+[2024-05-03 16:28:14] INFO root fetch - main [MainThread]: End processing [zippyform]: success
+[2024-05-03 16:28:14] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_steam_info-0.2.0.tar.gz]
+[2024-05-03 16:28:14] INFO root fetch - processPackages [nonebot-plugin-steam-info]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_steam_info-0.3.0.tar.gz]
+[2024-05-03 16:28:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-steam-info]: success
+[2024-05-03 16:28:14] INFO root fetch - processPackages [romanisim]: Remove: archive file [/home/abi/fetcher/tmp/romanisim-0.5.0.tar.gz]
+[2024-05-03 16:28:14] INFO root fetch - processPackages [romanisim]: Remove: archive file [/home/abi/fetcher/tmp/romanisim-0.5.1.tar.gz]
+[2024-05-03 16:28:14] INFO root fetch - main [MainThread]: End processing [romanisim]: success
+[2024-05-03 16:28:14] INFO root fetch - main [MainThread]: Store serial: [23047083]
