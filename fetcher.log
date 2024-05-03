@@ -23430,3 +23430,51 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 [2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [dbt-synapse]: success
 [2024-05-03 17:23:21] INFO root fetch - main [MainThread]: End processing [dbt-synapse]: success
 [2024-05-03 17:23:21] INFO root fetch - main [MainThread]: Store serial: [23047910]
+[2024-05-03 17:25:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047910]
+[2024-05-03 17:25:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 17:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linopy
+[2024-05-03 17:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nmuwd
+[2024-05-03 17:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teradatasqlalchemy
+[2024-05-03 17:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molecularprofiles
+[2024-05-03 17:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-vector-stores-chroma
+[2024-05-03 17:25:30] INFO root fetch - processPackages [nmuwd]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-03 17:25:30] INFO root fetch - processPackages [teradatasqlalchemy]: New version: [20.0.0.1] Old Version: [20.0.0.0]
+[2024-05-03 17:25:30] INFO root fetch - processPackages [linopy]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-03 17:25:30] INFO root fetch - processPackages [nmuwd]: Downloading https://files.pythonhosted.org/packages/43/5f/e701c71f40404fcf91801d4adc52899268bf80d8d08c14281f06178b3edc/nmuwd-0.0.3.tar.gz
+[2024-05-03 17:25:30] INFO root fetch - processPackages [llama-index-vector-stores-chroma]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 17:25:30] INFO root fetch - processPackages [molecularprofiles]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-03 17:25:30] INFO root fetch - processPackages [linopy]: Downloading https://files.pythonhosted.org/packages/03/3c/f2ce99678a77ffa53476b5c3ab0f90f1958aaff51529f2de51745576ceb6/linopy-0.3.8.tar.gz
+[2024-05-03 17:25:30] INFO root fetch - processPackages [teradatasqlalchemy]: Downloading https://files.pythonhosted.org/packages/5d/b1/82e5549be0d5e7d42f63f14ee6a34b196a4b4ccfa3fef2cf45dd16faf5fc/teradatasqlalchemy-20.0.0.0-py3-none-any.whl
+[2024-05-03 17:25:30] INFO root fetch - processPackages [llama-index-vector-stores-chroma]: Downloading https://files.pythonhosted.org/packages/4a/8b/7d8a55983731659ba1dc1635e5888a1fc5e9275273b6ae57927ff55fbe6d/llama_index_vector_stores_chroma-0.1.7.tar.gz
+[2024-05-03 17:25:30] INFO root fetch - processPackages [molecularprofiles]: Downloading https://files.pythonhosted.org/packages/1a/1a/332fe50a51cd79f9482e81366acbedc5c3ca07f17e1745c50394cb276ccf/molecularprofiles-0.5.6.tar.gz
+[2024-05-03 17:25:30] INFO root fetch - processPackages [nmuwd]: Downloading https://files.pythonhosted.org/packages/7c/e3/d88b4769c77f1e63bfbff78843343861252c7149ce1c94172a53a5a6642a/nmuwd-0.0.4.tar.gz
+[2024-05-03 17:25:30] INFO root fetch - processPackages [nmuwd]: executing diffoscope
+[2024-05-03 17:25:30] INFO root fetch - processPackages [nmuwd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmuwd-0.0.3.tar.gz tmp/nmuwd-0.0.4.tar.gz --markdown 20240503/n/nmuwd/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-03 17:25:31] INFO root fetch - processPackages [llama-index-vector-stores-chroma]: Downloading https://files.pythonhosted.org/packages/b2/32/f43017a3bd84755e7201054aa074f578aa392a29507b395a8c34bd55e239/llama_index_vector_stores_chroma-0.1.8.tar.gz
+[2024-05-03 17:25:31] INFO root fetch - processPackages [teradatasqlalchemy]: Downloading https://files.pythonhosted.org/packages/6d/db/a9a6be57651d415d195ddbb9a3d0e3719c0840e59c253ad41bd5bea13620/teradatasqlalchemy-20.0.0.1-py3-none-any.whl
+[2024-05-03 17:25:31] INFO root fetch - processPackages [linopy]: Downloading https://files.pythonhosted.org/packages/bd/99/58b3bbb5edfd388db429ae52fa9d4f2cef1ca9bbc9eb946e6f45f74aee15/linopy-0.3.9.tar.gz
+[2024-05-03 17:25:31] INFO root fetch - processPackages [molecularprofiles]: Downloading https://files.pythonhosted.org/packages/4b/a5/3868047822bf06d6e8f71c97f216f14d4e406680e87ef7444ab10c75a17b/molecularprofiles-0.5.7.tar.gz
+[2024-05-03 17:25:31] INFO root fetch - processPackages [llama-index-vector-stores-chroma]: executing diffoscope
+[2024-05-03 17:25:31] INFO root fetch - processPackages [llama-index-vector-stores-chroma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_chroma-0.1.7.tar.gz tmp/llama_index_vector_stores_chroma-0.1.8.tar.gz --markdown 20240503/l/llama-index-vector-stores-chroma/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 17:25:31] INFO root fetch - processPackages [linopy]: executing diffoscope
+[2024-05-03 17:25:31] INFO root fetch - processPackages [linopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linopy-0.3.8.tar.gz tmp/linopy-0.3.9.tar.gz --markdown 20240503/l/linopy/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-03 17:25:31] INFO root fetch - processPackages [teradatasqlalchemy]: executing diffoscope
+[2024-05-03 17:25:31] INFO root fetch - processPackages [teradatasqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teradatasqlalchemy-20.0.0.0-py3-none-any.whl.zip tmp/teradatasqlalchemy-20.0.0.1-py3-none-any.whl.zip --markdown 20240503/t/teradatasqlalchemy/20.0.0.0-20.0.0.1/README.md --exclude *.pyd
+[2024-05-03 17:25:31] INFO root fetch - processPackages [molecularprofiles]: executing diffoscope
+[2024-05-03 17:25:31] INFO root fetch - processPackages [molecularprofiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecularprofiles-0.5.6.tar.gz tmp/molecularprofiles-0.5.7.tar.gz --markdown 20240503/m/molecularprofiles/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-03 17:25:31] INFO root fetch - processPackages [nmuwd]: Remove: archive file [/home/abi/fetcher/tmp/nmuwd-0.0.3.tar.gz]
+[2024-05-03 17:25:31] INFO root fetch - processPackages [nmuwd]: Remove: archive file [/home/abi/fetcher/tmp/nmuwd-0.0.4.tar.gz]
+[2024-05-03 17:25:31] INFO root fetch - main [MainThread]: End processing [nmuwd]: success
+[2024-05-03 17:25:31] INFO root fetch - processPackages [molecularprofiles]: Remove: archive file [/home/abi/fetcher/tmp/molecularprofiles-0.5.6.tar.gz]
+[2024-05-03 17:25:31] INFO root fetch - processPackages [molecularprofiles]: Remove: archive file [/home/abi/fetcher/tmp/molecularprofiles-0.5.7.tar.gz]
+[2024-05-03 17:25:31] INFO root fetch - main [MainThread]: End processing [molecularprofiles]: success
+[2024-05-03 17:25:31] INFO root fetch - processPackages [llama-index-vector-stores-chroma]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_chroma-0.1.7.tar.gz]
+[2024-05-03 17:25:31] INFO root fetch - processPackages [llama-index-vector-stores-chroma]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_chroma-0.1.8.tar.gz]
+[2024-05-03 17:25:31] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-chroma]: success
+[2024-05-03 17:25:32] INFO root fetch - processPackages [teradatasqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/teradatasqlalchemy-20.0.0.0-py3-none-any.whl.zip]
+[2024-05-03 17:25:32] INFO root fetch - processPackages [teradatasqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/teradatasqlalchemy-20.0.0.1-py3-none-any.whl.zip]
+[2024-05-03 17:25:32] INFO root fetch - main [MainThread]: End processing [teradatasqlalchemy]: success
+[2024-05-03 17:25:32] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.3.8.tar.gz]
+[2024-05-03 17:25:32] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.3.9.tar.gz]
+[2024-05-03 17:25:32] INFO root fetch - main [MainThread]: End processing [linopy]: success
+[2024-05-03 17:25:32] INFO root fetch - main [MainThread]: Store serial: [23047924]
