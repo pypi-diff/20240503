@@ -18677,3 +18677,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:19:44] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.65.tar.gz]
 [2024-05-03 14:19:44] INFO root fetch - main [MainThread]: End processing [monisha]: success
 [2024-05-03 14:19:44] INFO root fetch - main [MainThread]: Store serial: [23045741]
+[2024-05-03 14:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045741]
+[2024-05-03 14:22:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 14:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapegraphai
+[2024-05-03 14:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roysolver
+[2024-05-03 14:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Jord
+[2024-05-03 14:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyrpy
+[2024-05-03 14:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-invoice-view-payment
+[2024-05-03 14:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynxtools-ellips
+[2024-05-03 14:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spin
+[2024-05-03 14:22:17] INFO root fetch - processPackages [lyrpy]: New version: [2024.0.3] Old Version: [2024.0.2]
+[2024-05-03 14:22:17] INFO root fetch - processPackages [scrapegraphai]: New version: [0.6.2] Old Version: [0.6.1b1]
+[2024-05-03 14:22:17] INFO root fetch - processPackages [odoo-addon-account-invoice-view-payment]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.5]
+[2024-05-03 14:22:17] WARNING root fetch - processPackages [roysolver]: Skipping, unable to determine old version
+[2024-05-03 14:22:17] INFO root fetch - main [MainThread]: End processing [roysolver] error
+[2024-05-03 14:22:17] WARNING root fetch - processPackages [pynxtools-ellips]: Skipping, unable to determine old version
+[2024-05-03 14:22:17] INFO root fetch - main [MainThread]: End processing [pynxtools-ellips] error
+[2024-05-03 14:22:17] INFO root fetch - processPackages [spin]: New version: [0.9] Old Version: [0.8]
+[2024-05-03 14:22:17] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/0a/b7/d7c351bf63bf62a96017c177b36b0ef886e1cb35ffdfe192e4fdf142a1ae/scrapegraphai-0.6.1b1.tar.gz
+[2024-05-03 14:22:17] INFO root fetch - processPackages [lyrpy]: Downloading https://files.pythonhosted.org/packages/7d/3e/1c14bed999fa0ef33770021292973a223833b23679007c1465acbc3408b8/lyrpy-2024.0.2.tar.gz
+[2024-05-03 14:22:17] INFO root fetch - processPackages [Jord]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-03 14:22:17] INFO root fetch - processPackages [odoo-addon-account-invoice-view-payment]: Downloading https://files.pythonhosted.org/packages/57/f5/fdb275aab40f5a6ac12250028e3466f8942d0f90a2b39493e678a4355f8d/odoo_addon_account_invoice_view_payment-15.0.1.0.0.5-py3-none-any.whl
+[2024-05-03 14:22:17] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/00/64/eb8281edeec41696210bc4478eb756f30e7645a439351a710b6ffea65a4e/jord-0.6.0.tar.gz
+[2024-05-03 14:22:17] INFO root fetch - processPackages [spin]: Downloading https://files.pythonhosted.org/packages/00/8f/c6b204ec332677ebb3e197dde858c133264d9479787c781232ddac9d1de1/spin-0.8.tar.gz
+[2024-05-03 14:22:17] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/17/7f/cd88e2314bb897260c06c26580a1a74329239741f7e21e2d4a349910b015/scrapegraphai-0.6.2.tar.gz
+[2024-05-03 14:22:17] INFO root fetch - processPackages [lyrpy]: Downloading https://files.pythonhosted.org/packages/ec/45/b1f550181b0d374109cd7e56d11b17c654a71346261a60c2a42fa29f5a97/lyrpy-2024.0.3-py3-none-any.whl
+[2024-05-03 14:22:17] INFO root fetch - processPackages [odoo-addon-account-invoice-view-payment]: Downloading https://files.pythonhosted.org/packages/fe/53/62d3a3d0c9c53736b714ccd565205b490b69f6f7f38eb587be1d2ead13f9/odoo_addon_account_invoice_view_payment-15.0.1.1.0-py3-none-any.whl
+[2024-05-03 14:22:17] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-03 14:22:17] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.6.1b1.tar.gz tmp/scrapegraphai-0.6.2.tar.gz --markdown 20240503/s/scrapegraphai/0.6.1b1-0.6.2/README.md --exclude *.pyd
+[2024-05-03 14:22:17] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/ac/b7/1c7618d670effa3b98c5ef1b0cf5b849b3b8ba866f96707136fde350b0a2/jord-0.6.1.tar.gz
+[2024-05-03 14:22:17] INFO root fetch - processPackages [spin]: Downloading https://files.pythonhosted.org/packages/0b/f5/d3e6c15b3472d54e262b5232428ef096d633f4265a6c6d468dd2c38b2214/spin-0.9.tar.gz
+[2024-05-03 14:22:17] INFO root fetch - processPackages [lyrpy]: executing diffoscope
+[2024-05-03 14:22:17] INFO root fetch - processPackages [lyrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrpy-2024.0.2.tar.gz tmp/lyrpy-2024.0.3-py3-none-any.whl.zip --markdown 20240503/l/lyrpy/2024.0.2-2024.0.3/README.md --exclude *.pyd
+[2024-05-03 14:22:17] INFO root fetch - processPackages [odoo-addon-account-invoice-view-payment]: executing diffoscope
+[2024-05-03 14:22:17] INFO root fetch - processPackages [odoo-addon-account-invoice-view-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_view_payment-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_view_payment-15.0.1.1.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-account-invoice-view-payment/15.0.1.0.0.5-15.0.1.1.0/README.md --exclude *.pyd
+[2024-05-03 14:22:17] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2024-05-03 14:22:17] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jord-0.6.0.tar.gz tmp/jord-0.6.1.tar.gz --markdown 20240503/J/Jord/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-03 14:22:18] INFO root fetch - processPackages [spin]: executing diffoscope
+[2024-05-03 14:22:18] INFO root fetch - processPackages [spin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spin-0.8.tar.gz tmp/spin-0.9.tar.gz --markdown 20240503/s/spin/0.8-0.9/README.md --exclude *.pyd
+[2024-05-03 14:22:18] INFO root fetch - processPackages [lyrpy]: Remove: archive file [/home/abi/fetcher/tmp/lyrpy-2024.0.2.tar.gz]
+[2024-05-03 14:22:18] INFO root fetch - processPackages [lyrpy]: Remove: archive file [/home/abi/fetcher/tmp/lyrpy-2024.0.3-py3-none-any.whl.zip]
+[2024-05-03 14:22:18] INFO root fetch - main [MainThread]: End processing [lyrpy]: success
+[2024-05-03 14:22:18] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.6.1b1.tar.gz]
+[2024-05-03 14:22:18] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.6.2.tar.gz]
+[2024-05-03 14:22:18] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-03 14:22:18] INFO root fetch - processPackages [spin]: Remove: archive file [/home/abi/fetcher/tmp/spin-0.8.tar.gz]
+[2024-05-03 14:22:18] INFO root fetch - processPackages [spin]: Remove: archive file [/home/abi/fetcher/tmp/spin-0.9.tar.gz]
+[2024-05-03 14:22:18] INFO root fetch - main [MainThread]: End processing [spin]: success
+[2024-05-03 14:22:18] INFO root fetch - processPackages [odoo-addon-account-invoice-view-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_view_payment-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-03 14:22:18] INFO root fetch - processPackages [odoo-addon-account-invoice-view-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_view_payment-15.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-03 14:22:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-view-payment]: success
+[2024-05-03 14:22:18] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.6.0.tar.gz]
+[2024-05-03 14:22:18] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.6.1.tar.gz]
+[2024-05-03 14:22:18] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2024-05-03 14:22:18] INFO root fetch - main [MainThread]: Store serial: [23045766]
