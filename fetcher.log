@@ -22665,3 +22665,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:59:30] INFO root fetch - processPackages [fluiddyn]: Remove: archive file [/home/abi/fetcher/tmp/fluiddyn-0.6.3.tar.gz]
 [2024-05-03 16:59:30] INFO root fetch - main [MainThread]: End processing [fluiddyn]: success
 [2024-05-03 16:59:30] INFO root fetch - main [MainThread]: Store serial: [23047519]
+[2024-05-03 17:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047519]
+[2024-05-03 17:01:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libpyvinyl
+[2024-05-03 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moexalgo
+[2024-05-03 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unic
+[2024-05-03 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icalcli
+[2024-05-03 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devicebay
+[2024-05-03 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beam-client
+[2024-05-03 17:01:39] INFO root fetch - processPackages [unic]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-03 17:01:39] INFO root fetch - processPackages [moexalgo]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-03 17:01:39] INFO root fetch - processPackages [libpyvinyl]: New version: [1.2.5] Old Version: [1.2.0b1]
+[2024-05-03 17:01:40] INFO root fetch - processPackages [devicebay]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 17:01:40] INFO root fetch - processPackages [icalcli]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-03 17:01:40] INFO root fetch - processPackages [moexalgo]: Downloading https://files.pythonhosted.org/packages/56/9b/ad4aa9765d1fab8217df60ac72727c59734e83480c59522d9e27d9aa2b36/moexalgo-2.0.1.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [beam-client]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-03 17:01:40] INFO root fetch - processPackages [unic]: Downloading https://files.pythonhosted.org/packages/cc/9c/54f1a03fa7d6176a60183303c7cef5bc5799acf32df0cc5b55b08a779ec4/unic-0.4.2.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [libpyvinyl]: Downloading https://files.pythonhosted.org/packages/91/ab/0ea148ee4fcaad25e7441150f4d4bfbe8186e0c92cb8a74e369130282c6a/libpyvinyl-1.2.0b1.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [devicebay]: Downloading https://files.pythonhosted.org/packages/5d/35/9e41c1d2bd15e88729fdcd5b62b4a7de5dbc1c8a97674c8e26f2bbb51cc2/devicebay-0.1.8.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [icalcli]: Downloading https://files.pythonhosted.org/packages/ee/28/37146e35706e7a505c9ff3bd280bfa56f2105b8c02d8428ebc01b3549d1b/icalcli-1.0.5.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/08/4f/c492eada3f7f76b79680e38f2a84abc8de760fe099f3d72d5ffdcc5f15b6/beam_client-0.2.4.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [moexalgo]: Downloading https://files.pythonhosted.org/packages/94/00/93127d47b3bc46350f48e17f4807071b81e30dae161d14996bef6ec8f469/moexalgo-2.0.2.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [moexalgo]: executing diffoscope
+[2024-05-03 17:01:40] INFO root fetch - processPackages [moexalgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moexalgo-2.0.1.tar.gz tmp/moexalgo-2.0.2.tar.gz --markdown 20240503/m/moexalgo/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-03 17:01:40] INFO root fetch - processPackages [unic]: Downloading https://files.pythonhosted.org/packages/ac/93/585a6c603cd7986de053637be9f550d6641c5725e8c577fd08ecaa76125b/unic-0.4.3.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [devicebay]: Downloading https://files.pythonhosted.org/packages/e5/96/b13c67b11af0747066e9d93a63ece2bb5f80d597ff1909a2e3178ec12a2c/devicebay-0.1.9.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/f3/35/6bfabe03943f7ba52129048de25fec34ca8cdd7c623b006c92ccb14899b1/beam_client-0.2.5.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [libpyvinyl]: Downloading https://files.pythonhosted.org/packages/d0/4e/80d7b7051d175566730dd10f1262c5c6112723f8f89654d9e03caa12f241/libpyvinyl-1.2.5.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [icalcli]: Downloading https://files.pythonhosted.org/packages/f3/07/93bda2d231e95da71e613550140a2bc7e797e9f1ea98962faa0b4292febf/icalcli-1.0.6.tar.gz
+[2024-05-03 17:01:40] INFO root fetch - processPackages [devicebay]: executing diffoscope
+[2024-05-03 17:01:40] INFO root fetch - processPackages [devicebay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devicebay-0.1.8.tar.gz tmp/devicebay-0.1.9.tar.gz --markdown 20240503/d/devicebay/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 17:01:40] INFO root fetch - processPackages [unic]: executing diffoscope
+[2024-05-03 17:01:40] INFO root fetch - processPackages [unic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unic-0.4.2.tar.gz tmp/unic-0.4.3.tar.gz --markdown 20240503/u/unic/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-03 17:01:40] INFO root fetch - processPackages [libpyvinyl]: executing diffoscope
+[2024-05-03 17:01:40] INFO root fetch - processPackages [libpyvinyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libpyvinyl-1.2.0b1.tar.gz tmp/libpyvinyl-1.2.5.tar.gz --markdown 20240503/l/libpyvinyl/1.2.0b1-1.2.5/README.md --exclude *.pyd
+[2024-05-03 17:01:40] INFO root fetch - processPackages [icalcli]: executing diffoscope
+[2024-05-03 17:01:40] INFO root fetch - processPackages [icalcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icalcli-1.0.5.tar.gz tmp/icalcli-1.0.6.tar.gz --markdown 20240503/i/icalcli/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-03 17:01:41] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-2.0.1.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - processPackages [moexalgo]: Remove: archive file [/home/abi/fetcher/tmp/moexalgo-2.0.2.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - processPackages [beam-client]: executing diffoscope
+[2024-05-03 17:01:41] INFO root fetch - processPackages [beam-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_client-0.2.4.tar.gz tmp/beam_client-0.2.5.tar.gz --markdown 20240503/b/beam-client/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-03 17:01:41] INFO root fetch - main [MainThread]: End processing [moexalgo]: success
+[2024-05-03 17:01:41] INFO root fetch - processPackages [devicebay]: Remove: archive file [/home/abi/fetcher/tmp/devicebay-0.1.8.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - processPackages [devicebay]: Remove: archive file [/home/abi/fetcher/tmp/devicebay-0.1.9.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - main [MainThread]: End processing [devicebay]: success
+[2024-05-03 17:01:41] INFO root fetch - processPackages [unic]: Remove: archive file [/home/abi/fetcher/tmp/unic-0.4.2.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - processPackages [unic]: Remove: archive file [/home/abi/fetcher/tmp/unic-0.4.3.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - main [MainThread]: End processing [unic]: success
+[2024-05-03 17:01:41] INFO root fetch - processPackages [libpyvinyl]: Remove: archive file [/home/abi/fetcher/tmp/libpyvinyl-1.2.0b1.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - processPackages [libpyvinyl]: Remove: archive file [/home/abi/fetcher/tmp/libpyvinyl-1.2.5.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - main [MainThread]: End processing [libpyvinyl]: success
+[2024-05-03 17:01:41] INFO root fetch - processPackages [icalcli]: Remove: archive file [/home/abi/fetcher/tmp/icalcli-1.0.5.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - processPackages [icalcli]: Remove: archive file [/home/abi/fetcher/tmp/icalcli-1.0.6.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - main [MainThread]: End processing [icalcli]: success
+[2024-05-03 17:01:41] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.4.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.5.tar.gz]
+[2024-05-03 17:01:41] INFO root fetch - main [MainThread]: End processing [beam-client]: success
+[2024-05-03 17:01:41] INFO root fetch - main [MainThread]: Store serial: [23047549]
