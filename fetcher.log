@@ -8966,3 +8966,23 @@
 [2024-05-03 06:12:30] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
 [2024-05-03 06:12:30] INFO root fetch - main [MainThread]: End processing [pandera]: success
 [2024-05-03 06:12:30] INFO root fetch - main [MainThread]: Store serial: [23041399]
+[2024-05-03 06:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041399]
+[2024-05-03 06:14:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naplib
+[2024-05-03 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-assets-management
+[2024-05-03 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aifinalcode
+[2024-05-03 06:14:38] INFO root fetch - processPackages [odoo14-addon-assets-management]: New version: [14.0.1.5.0] Old Version: [14.0.1.4.5.dev3]
+[2024-05-03 06:14:38] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/53/01/b9956d8892f632b00fb86c23ce09a369f44c04f5b2ecd937fa2b2e1839c6/odoo14_addon_assets_management-14.0.1.4.5.dev3-py3-none-any.whl
+[2024-05-03 06:14:38] WARNING root fetch - processPackages [aifinalcode]: Skipping, unable to determine old version
+[2024-05-03 06:14:38] INFO root fetch - main [MainThread]: End processing [aifinalcode] error
+[2024-05-03 06:14:38] INFO root fetch - processPackages [naplib]: New version: [2.0.0] Old Version: [1.4.0]
+[2024-05-03 06:14:39] INFO root fetch - processPackages [naplib]: Downloading https://files.pythonhosted.org/packages/cd/4f/3a92e9e0519a7af7a87ae3e95b270df44ab6cef05855572d0e6357a122dd/naplib-1.4.0-py3-none-any.whl
+[2024-05-03 06:14:39] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/68/28/bcea8b65954965e44618814f8ef5ce4542be617f1a34387d954d5f588070/odoo14_addon_assets_management-14.0.1.5.0-py3-none-any.whl
+[2024-05-03 06:14:39] WARNING root fetch - processPackages [naplib]: Skipping package: exceeds size limit 83245856>=10485760
+[2024-05-03 06:14:39] INFO root fetch - main [MainThread]: End processing [naplib] error
+[2024-05-03 06:14:39] INFO root fetch - processPackages [odoo14-addon-assets-management]: executing diffoscope
+[2024-05-03 06:14:39] INFO root fetch - processPackages [odoo14-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_assets_management-14.0.1.4.5.dev3-py3-none-any.whl.zip tmp/odoo14_addon_assets_management-14.0.1.5.0-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-assets-management/14.0.1.4.5.dev3-14.0.1.5.0/README.md --exclude *.pyd
+[2024-05-03 06:14:40] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.4.5.dev3-py3-none-any.whl.zip]
+[2024-05-03 06:14:40] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-03 06:14:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
+[2024-05-03 06:14:40] INFO root fetch - main [MainThread]: Store serial: [23041409]
