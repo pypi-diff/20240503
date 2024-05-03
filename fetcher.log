@@ -12528,3 +12528,51 @@
 [2024-05-03 09:50:02] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_automatic_workflow-16.0.1.1.0-py3-none-any.whl.zip]
 [2024-05-03 09:50:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-automatic-workflow]: success
 [2024-05-03 09:50:02] INFO root fetch - main [MainThread]: Store serial: [23042840]
+[2024-05-03 09:52:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042840]
+[2024-05-03 09:52:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 09:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cj-package
+[2024-05-03 09:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-testing
+[2024-05-03 09:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mutalyzer-retriever
+[2024-05-03 09:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-project-tracker
+[2024-05-03 09:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pppfy
+[2024-05-03 09:52:12] INFO root fetch - processPackages [pppfy]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-03 09:52:12] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-03 09:52:12] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 09:52:12] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 09:52:13] INFO root fetch - processPackages [mutalyzer-retriever]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-03 09:52:13] INFO root fetch - processPackages [pppfy]: Downloading https://files.pythonhosted.org/packages/17/77/1a843b9fe2d71f0e14d7990f33f8e5277d4badbfcd1e2774528e9457209a/pppfy-1.0.1.tar.gz
+[2024-05-03 09:52:13] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-03 09:52:13] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-03 09:52:13] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-03 09:52:13] INFO root fetch - processPackages [mutalyzer-retriever]: Downloading https://files.pythonhosted.org/packages/40/7d/c3075a0f3aa7d7460f1bd96848eb6d98389a57f3ef53ca481a5c9a704b53/mutalyzer_retriever-0.3.3.tar.gz
+[2024-05-03 09:52:13] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-03 09:52:13] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-03 09:52:13] INFO root fetch - processPackages [pppfy]: Downloading https://files.pythonhosted.org/packages/ff/42/fba4a88d4c12f46e5a5a8cef0da26266d0869c6c32e44f97e54f575dc753/pppfy-1.1.0.tar.gz
+[2024-05-03 09:52:13] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-03 09:52:13] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-03 09:52:13] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240503/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-03 09:52:13] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-03 09:52:13] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240503/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 09:52:13] INFO root fetch - processPackages [pppfy]: executing diffoscope
+[2024-05-03 09:52:13] INFO root fetch - processPackages [pppfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pppfy-1.0.1.tar.gz tmp/pppfy-1.1.0.tar.gz --markdown 20240503/p/pppfy/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-03 09:52:13] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-03 09:52:13] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240503/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 09:52:13] INFO root fetch - processPackages [mutalyzer-retriever]: Downloading https://files.pythonhosted.org/packages/6a/f2/76f99507c20b1ffdf351f134548ba0b1c99eac3c074b0067c6fc8d645175/mutalyzer_retriever-0.3.4.tar.gz
+[2024-05-03 09:52:13] INFO root fetch - processPackages [mutalyzer-retriever]: executing diffoscope
+[2024-05-03 09:52:13] INFO root fetch - processPackages [mutalyzer-retriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutalyzer_retriever-0.3.3.tar.gz tmp/mutalyzer_retriever-0.3.4.tar.gz --markdown 20240503/m/mutalyzer-retriever/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-03 09:52:14] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-03 09:52:14] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-03 09:52:14] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-03 09:52:14] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-03 09:52:14] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-03 09:52:14] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-03 09:52:14] INFO root fetch - processPackages [pppfy]: Remove: archive file [/home/abi/fetcher/tmp/pppfy-1.0.1.tar.gz]
+[2024-05-03 09:52:14] INFO root fetch - processPackages [pppfy]: Remove: archive file [/home/abi/fetcher/tmp/pppfy-1.1.0.tar.gz]
+[2024-05-03 09:52:14] INFO root fetch - main [MainThread]: End processing [pppfy]: success
+[2024-05-03 09:52:14] INFO root fetch - processPackages [mutalyzer-retriever]: Remove: archive file [/home/abi/fetcher/tmp/mutalyzer_retriever-0.3.3.tar.gz]
+[2024-05-03 09:52:14] INFO root fetch - processPackages [mutalyzer-retriever]: Remove: archive file [/home/abi/fetcher/tmp/mutalyzer_retriever-0.3.4.tar.gz]
+[2024-05-03 09:52:14] INFO root fetch - main [MainThread]: End processing [mutalyzer-retriever]: success
+[2024-05-03 09:52:14] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-03 09:52:14] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-03 09:52:14] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-03 09:52:14] INFO root fetch - main [MainThread]: Store serial: [23042856]
