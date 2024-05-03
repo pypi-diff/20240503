@@ -15824,3 +15824,36 @@
 [2024-05-03 12:13:20] INFO root fetch - processPackages [multi-vector-simulator]: Remove: archive file [/home/abi/fetcher/tmp/multi_vector_simulator-1.1.1rc1.tar.gz]
 [2024-05-03 12:13:20] INFO root fetch - main [MainThread]: End processing [multi-vector-simulator]: success
 [2024-05-03 12:13:20] INFO root fetch - main [MainThread]: Store serial: [23044362]
+[2024-05-03 12:15:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044362]
+[2024-05-03 12:15:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 12:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iccore
+[2024-05-03 12:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haskellian
+[2024-05-03 12:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: salabim
+[2024-05-03 12:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TineAutomationToolkit
+[2024-05-03 12:15:49] INFO root fetch - processPackages [salabim]: New version: [24.0.4] Old Version: [24.0.3.post2]
+[2024-05-03 12:15:49] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/71/3a/142a2c2e8c022902f051d5297cece08227baf524dd29b90d6dbe16e9b4d5/salabim-24.0.3.post2.tar.gz
+[2024-05-03 12:15:49] INFO root fetch - processPackages [haskellian]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-03 12:15:49] INFO root fetch - processPackages [TineAutomationToolkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 12:15:49] WARNING root fetch - processPackages [iccore]: Skipping, unable to determine old version
+[2024-05-03 12:15:49] INFO root fetch - main [MainThread]: End processing [iccore] error
+[2024-05-03 12:15:49] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/db/6c/0cdc593830d9100fe25525ec6686c93e0284c0c2dec1bd9a6f2756850f4c/haskellian-0.3.8.tar.gz
+[2024-05-03 12:15:49] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/4a/b3/2844ce9fcd07ffe767b2e55b8e631ab55073c6fea7b3bc940814e91ad955/TineAutomationToolkit-1.0.8.tar.gz
+[2024-05-03 12:15:50] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/42/08/2a43c4a7e5607e2e05e9e34a172863c35bc2b09f474bedded37e5daeb8a2/salabim-24.0.4.tar.gz
+[2024-05-03 12:15:50] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/8b/df/3eb19bd642700028401c81470efaf1e1837789f8cdcf015405e2a5d5a5d1/TineAutomationToolkit-1.0.9.tar.gz
+[2024-05-03 12:15:50] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/03/2b/ba04bf61c6d93413248fa1d1286dad3fe5fa7835df534f02230b764ad6e3/haskellian-0.3.9.tar.gz
+[2024-05-03 12:15:50] INFO root fetch - processPackages [TineAutomationToolkit]: executing diffoscope
+[2024-05-03 12:15:50] INFO root fetch - processPackages [TineAutomationToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TineAutomationToolkit-1.0.8.tar.gz tmp/TineAutomationToolkit-1.0.9.tar.gz --markdown 20240503/T/TineAutomationToolkit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 12:15:50] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-05-03 12:15:50] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.8.tar.gz tmp/haskellian-0.3.9.tar.gz --markdown 20240503/h/haskellian/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-03 12:15:50] INFO root fetch - processPackages [salabim]: executing diffoscope
+[2024-05-03 12:15:50] INFO root fetch - processPackages [salabim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salabim-24.0.3.post2.tar.gz tmp/salabim-24.0.4.tar.gz --markdown 20240503/s/salabim/24.0.3.post2-24.0.4/README.md --exclude *.pyd
+[2024-05-03 12:15:50] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.8.tar.gz]
+[2024-05-03 12:15:50] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.9.tar.gz]
+[2024-05-03 12:15:50] INFO root fetch - main [MainThread]: End processing [TineAutomationToolkit]: success
+[2024-05-03 12:15:50] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.8.tar.gz]
+[2024-05-03 12:15:50] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.9.tar.gz]
+[2024-05-03 12:15:50] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-05-03 12:15:52] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-24.0.3.post2.tar.gz]
+[2024-05-03 12:15:52] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-24.0.4.tar.gz]
+[2024-05-03 12:15:52] INFO root fetch - main [MainThread]: End processing [salabim]: success
+[2024-05-03 12:15:52] INFO root fetch - main [MainThread]: Store serial: [23044379]
