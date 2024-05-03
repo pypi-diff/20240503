@@ -20882,3 +20882,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:00:25] INFO root fetch - processPackages [holcstore]: Remove: archive file [/home/abi/fetcher/tmp/holcstore-0.1.8.tar.gz]
 [2024-05-03 16:00:25] INFO root fetch - main [MainThread]: End processing [holcstore]: success
 [2024-05-03 16:00:25] INFO root fetch - main [MainThread]: Store serial: [23046809]
+[2024-05-03 16:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046809]
+[2024-05-03 16:02:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 16:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutation-profile
+[2024-05-03 16:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-tiff
+[2024-05-03 16:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: large-image-source-tifffile
+[2024-05-03 16:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-vips
+[2024-05-03 16:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-zarr
+[2024-05-03 16:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python_dev_utils
+[2024-05-03 16:02:53] INFO root fetch - processPackages [mutation-profile]: New version: [0.2.1b1] Old Version: [0.2.1b0]
+[2024-05-03 16:02:53] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-05-03 16:02:53] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-05-03 16:02:53] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-05-03 16:02:53] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-03 16:02:53] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/09/2b/f278f48b012978112ffee5ee9e4b95ccdcdad006241d95ad73d37298f9da/large-image-source-vips-1.28.2.dev6.tar.gz
+[2024-05-03 16:02:53] INFO root fetch - processPackages [mutation-profile]: Downloading https://files.pythonhosted.org/packages/ab/d1/dd110316868afa5d6f5e1f5dd14c807bb7ebf37fd528f9f5ae713309a624/mutation-profile-0.2.1b0.tar.gz
+[2024-05-03 16:02:53] INFO root fetch - processPackages [python_dev_utils]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-03 16:02:53] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/b3/50/0904b61d25b001b1fb17b19c9296bcbdd673e2165c2089735bdfa3047fd3/large-image-source-tifffile-1.28.2.dev6.tar.gz
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/df/66/91c5e4abb81e615d58e7e4074dd517b3214d45a13dba0bfd1cc1dd15409f/large-image-source-zarr-1.28.2.dev6.tar.gz
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/b8/6f/33da1232bb10fa806f9a6bccecad4df81c07a8914a3e3efe73220779c6f1/large-image-source-vips-1.28.2.dev8.tar.gz
+[2024-05-03 16:02:54] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/7b/93/c10dcf31de3d7375b815edac671c5b4a69766abace77bbb7ab90c33a2edf/python_dev_utils-1.7.0.tar.gz
+[2024-05-03 16:02:54] ERROR root fetch - processPackages [mutation-profile]: Unable to fetch info: No such project/version 'mutation-profile' 0.2.1b1
+[2024-05-03 16:02:54] INFO root fetch - main [MainThread]: End processing [mutation-profile] error
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/d5/26/9814d55d1fc88a245bb4a4916cb38d9706d3c080b021d79d2e7d1c4e2473/large-image-source-zarr-1.28.2.dev8.tar.gz
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.28.2.dev6.tar.gz tmp/large-image-source-vips-1.28.2.dev8.tar.gz --markdown 20240503/l/large-image-source-vips/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/4b/ef/3b83e33732fe01b2734e93604ff381548526fd5e2e302e4e9677a6e6b2e7/large-image-source-tifffile-1.28.2.dev8.tar.gz
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.28.2.dev6.tar.gz tmp/large-image-source-zarr-1.28.2.dev8.tar.gz --markdown 20240503/l/large-image-source-zarr/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240503/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.28.2.dev6.tar.gz tmp/large-image-source-tifffile-1.28.2.dev8.tar.gz --markdown 20240503/l/large-image-source-tifffile/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-05-03 16:02:54] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/64/d0/aa775056483439bb480d4f5c2cfa40a8390e3b4f977734be82f2221c6775/python_dev_utils-1.8.0.tar.gz
+[2024-05-03 16:02:54] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-03 16:02:54] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.7.0.tar.gz tmp/python_dev_utils-1.8.0.tar.gz --markdown 20240503/p/python_dev_utils/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.2.dev6.tar.gz]
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.2.dev8.tar.gz]
+[2024-05-03 16:02:54] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.2.dev6.tar.gz]
+[2024-05-03 16:02:54] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.2.dev8.tar.gz]
+[2024-05-03 16:02:54] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-05-03 16:02:55] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-05-03 16:02:55] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-05-03 16:02:55] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-05-03 16:02:55] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.2.dev6.tar.gz]
+[2024-05-03 16:02:55] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.2.dev8.tar.gz]
+[2024-05-03 16:02:55] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-05-03 16:02:55] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.7.0.tar.gz]
+[2024-05-03 16:02:55] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.0.tar.gz]
+[2024-05-03 16:02:55] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-03 16:02:55] INFO root fetch - main [MainThread]: Store serial: [23046832]
