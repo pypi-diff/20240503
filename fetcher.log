@@ -16799,3 +16799,71 @@
 [2024-05-03 12:58:08] INFO root fetch - processPackages [virtme-ng]: Remove: archive file [/home/abi/fetcher/tmp/virtme-ng-1.24.tar.gz]
 [2024-05-03 12:58:08] INFO root fetch - main [MainThread]: End processing [virtme-ng]: success
 [2024-05-03 12:58:08] INFO root fetch - main [MainThread]: Store serial: [23044863]
+[2024-05-03 13:00:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044863]
+[2024-05-03 13:00:40] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-03 13:02:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044863]
+[2024-05-03 13:02:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 13:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blueetl-core
+[2024-05-03 13:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fse.torii
+[2024-05-03 13:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hhnk-research-tools
+[2024-05-03 13:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DiffeRT
+[2024-05-03 13:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bambooai
+[2024-05-03 13:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-ads-api-report-fetcher
+[2024-05-03 13:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiotx
+[2024-05-03 13:02:45] INFO root fetch - processPackages [fse.torii]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 13:02:45] INFO root fetch - processPackages [aiotx]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-03 13:02:45] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-03 13:02:45] INFO root fetch - processPackages [hhnk-research-tools]: New version: [2024.1] Old Version: [2023.4]
+[2024-05-03 13:02:45] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-03 13:02:45] INFO root fetch - processPackages [DiffeRT]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 13:02:45] INFO root fetch - processPackages [blueetl-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-03 13:02:45] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/86/be/ea7e17e268a89c5b8f7f45e4756f2969efab0b4e8bc89d4187f8ed943424/fse.torii-1.0.8-py3-none-any.whl
+[2024-05-03 13:02:45] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/d7/a8/9c67700a6c9645fa7356f3387b4be6e50e5f09efb36b80e65a1275442e24/aiotx-0.2.0.tar.gz
+[2024-05-03 13:02:45] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [hhnk-research-tools]: Downloading https://files.pythonhosted.org/packages/56/75/119116e7074714ef0b0c8b1a966775e3f3b1b05c72cb9a5545c2e38c1352/hhnk_research_tools-2023.4.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [DiffeRT]: Downloading https://files.pythonhosted.org/packages/c0/f4/e5cdadbe11f51673dc81081fea6e1bfa140c7487214fa43784a1aefb1859/DiffeRT-0.0.8.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [blueetl-core]: Downloading https://files.pythonhosted.org/packages/50/94/4eaf0c258e31b278a3c1d418e92acc13eb02018ec18cb75b1f77aad849bf/blueetl-core-0.2.3.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/57/6c/1f7fb91feff671d0676889a3b774e33793c1670bb6f43f8b7164378491cb/fse.torii-1.0.9-py3-none-any.whl
+[2024-05-03 13:02:46] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/50/d9/55adbc7d0327a44032f2f0ee6c7822238c0133618408da150f7efbc2202f/aiotx-0.3.0.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-03 13:02:46] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240503/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-03 13:02:46] INFO root fetch - processPackages [fse.torii]: executing diffoscope
+[2024-05-03 13:02:46] INFO root fetch - processPackages [fse.torii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse.torii-1.0.8-py3-none-any.whl.zip tmp/fse.torii-1.0.9-py3-none-any.whl.zip --markdown 20240503/f/fse.torii/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 13:02:46] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-05-03 13:02:46] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-0.2.0.tar.gz tmp/aiotx-0.3.0.tar.gz --markdown 20240503/a/aiotx/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-03 13:02:46] INFO root fetch - processPackages [DiffeRT]: Downloading https://files.pythonhosted.org/packages/12/b3/af5f23b0e4a2c04da5b0aff65519323b88ad0c7f5e517bfb3d6266a76467/DiffeRT-0.0.9.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [hhnk-research-tools]: Downloading https://files.pythonhosted.org/packages/40/df/7157eefaf0d328c5ae868367859555d6794ed1cd79d82cc207494aba828c/hhnk_research_tools-2024.1.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [DiffeRT]: executing diffoscope
+[2024-05-03 13:02:46] INFO root fetch - processPackages [DiffeRT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DiffeRT-0.0.8.tar.gz tmp/DiffeRT-0.0.9.tar.gz --markdown 20240503/D/DiffeRT/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 13:02:46] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [blueetl-core]: Downloading https://files.pythonhosted.org/packages/b9/b8/b63dcd55b9a1903b07a99277c0e923c7bea7414995a8863fc557e26c223b/blueetl_core-0.2.4.tar.gz
+[2024-05-03 13:02:46] INFO root fetch - processPackages [hhnk-research-tools]: executing diffoscope
+[2024-05-03 13:02:46] INFO root fetch - processPackages [hhnk-research-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhnk_research_tools-2023.4.tar.gz tmp/hhnk_research_tools-2024.1.tar.gz --markdown 20240503/h/hhnk-research-tools/2023.4-2024.1/README.md --exclude *.pyd
+[2024-05-03 13:02:46] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-03 13:02:46] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240503/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-03 13:02:46] INFO root fetch - processPackages [blueetl-core]: executing diffoscope
+[2024-05-03 13:02:46] INFO root fetch - processPackages [blueetl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueetl-core-0.2.3.tar.gz tmp/blueetl_core-0.2.4.tar.gz --markdown 20240503/b/blueetl-core/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-03 13:02:47] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-03 13:02:47] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.8-py3-none-any.whl.zip]
+[2024-05-03 13:02:47] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.9-py3-none-any.whl.zip]
+[2024-05-03 13:02:47] INFO root fetch - main [MainThread]: End processing [fse.torii]: success
+[2024-05-03 13:02:47] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.2.0.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.3.0.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-05-03 13:02:47] INFO root fetch - processPackages [blueetl-core]: Remove: archive file [/home/abi/fetcher/tmp/blueetl-core-0.2.3.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - processPackages [blueetl-core]: Remove: archive file [/home/abi/fetcher/tmp/blueetl_core-0.2.4.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - main [MainThread]: End processing [blueetl-core]: success
+[2024-05-03 13:02:47] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-03 13:02:47] INFO root fetch - processPackages [hhnk-research-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk_research_tools-2023.4.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - processPackages [hhnk-research-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk_research_tools-2024.1.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - main [MainThread]: End processing [hhnk-research-tools]: success
+[2024-05-03 13:02:47] INFO root fetch - processPackages [DiffeRT]: Remove: archive file [/home/abi/fetcher/tmp/DiffeRT-0.0.8.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - processPackages [DiffeRT]: Remove: archive file [/home/abi/fetcher/tmp/DiffeRT-0.0.9.tar.gz]
+[2024-05-03 13:02:47] INFO root fetch - main [MainThread]: End processing [DiffeRT]: success
+[2024-05-03 13:02:47] INFO root fetch - main [MainThread]: Store serial: [23044884]
