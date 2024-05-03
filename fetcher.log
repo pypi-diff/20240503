@@ -23117,3 +23117,42 @@ AssertionError: tmp/robotframework_testnotify-1.tar.gz does not exist
 [2024-05-03 17:13:32] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-03 17:13:32] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
 [2024-05-03 17:13:32] INFO root fetch - main [MainThread]: Store serial: [23047761]
+[2024-05-03 17:15:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047761]
+[2024-05-03 17:15:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovs
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mymorsecode
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-notification-library
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arclet-entari
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nlp
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdgclassification-benchmark
+[2024-05-03 17:15:48] WARNING root fetch - processPackages [mymorsecode]: Skipping, unable to determine old version
+[2024-05-03 17:15:48] INFO root fetch - main [MainThread]: End processing [mymorsecode] error
+[2024-05-03 17:15:48] INFO root fetch - processPackages [keras-nlp]: New version: [0.9.3.dev0] Old Version: [0.9.3]
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ovs]: New version: [3.2.2] Old Version: [3.1.4]
+[2024-05-03 17:15:48] WARNING root fetch - processPackages [sdgclassification-benchmark]: Skipping, unable to determine old version
+[2024-05-03 17:15:48] INFO root fetch - main [MainThread]: End processing [sdgclassification-benchmark] error
+[2024-05-03 17:15:48] INFO root fetch - processPackages [arclet-entari]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-03 17:15:48] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/83/32/20a22225dd8137c13005edaf0bb6cdfdd488c90f8a7e510791538ce36506/keras-nlp-0.9.3.tar.gz
+[2024-05-03 17:15:48] WARNING root fetch - processPackages [test-notification-library]: Skipping, unable to determine old version
+[2024-05-03 17:15:48] INFO root fetch - main [MainThread]: End processing [test-notification-library] error
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ovs]: Downloading https://files.pythonhosted.org/packages/1a/4d/896864aedb7b3670abec55373c9671d4d6c6de0c98dce4695b3ed96e7a54/ovs-3.1.4.tar.gz
+[2024-05-03 17:15:48] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/50/b6/1345fd928d492cd09975d1ecdfc11786ca6c8fe4829732f61bdef86824ca/arclet_entari-0.3.3.tar.gz
+[2024-05-03 17:15:48] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/b4/b4/77a34d094447631579707e2238a11403eb3c35511fd6eb4c97563e4a8ff0/keras-nlp-0.9.3.dev0.tar.gz
+[2024-05-03 17:15:48] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/42/e2/9ca9db900f02661dc0422aa1849a0994c95b3fcee0818a64d29582f4a8bf/arclet_entari-0.4.0.tar.gz
+[2024-05-03 17:15:48] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2024-05-03 17:15:48] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.9.3.tar.gz tmp/keras-nlp-0.9.3.dev0.tar.gz --markdown 20240503/k/keras-nlp/0.9.3-0.9.3.dev0/README.md --exclude *.pyd
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ovs]: Downloading https://files.pythonhosted.org/packages/e8/ab/a41696df47f90a0d35ac75f2d7e80cbf49e365680497f93f96e1b4c607a4/ovs-3.2.2.tar.gz
+[2024-05-03 17:15:48] INFO root fetch - processPackages [arclet-entari]: executing diffoscope
+[2024-05-03 17:15:48] INFO root fetch - processPackages [arclet-entari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet_entari-0.3.3.tar.gz tmp/arclet_entari-0.4.0.tar.gz --markdown 20240503/a/arclet-entari/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ovs]: executing diffoscope
+[2024-05-03 17:15:48] INFO root fetch - processPackages [ovs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovs-3.1.4.tar.gz tmp/ovs-3.2.2.tar.gz --markdown 20240503/o/ovs/3.1.4-3.2.2/README.md --exclude *.pyd
+[2024-05-03 17:15:49] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.3.3.tar.gz]
+[2024-05-03 17:15:49] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.4.0.tar.gz]
+[2024-05-03 17:15:49] INFO root fetch - main [MainThread]: End processing [arclet-entari]: success
+[2024-05-03 17:15:49] INFO root fetch - processPackages [ovs]: Remove: archive file [/home/abi/fetcher/tmp/ovs-3.1.4.tar.gz]
+[2024-05-03 17:15:49] INFO root fetch - processPackages [ovs]: Remove: archive file [/home/abi/fetcher/tmp/ovs-3.2.2.tar.gz]
+[2024-05-03 17:15:49] INFO root fetch - main [MainThread]: End processing [ovs]: success
+[2024-05-03 17:15:50] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.tar.gz]
+[2024-05-03 17:15:50] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.dev0.tar.gz]
+[2024-05-03 17:15:50] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2024-05-03 17:15:50] INFO root fetch - main [MainThread]: Store serial: [23047780]
