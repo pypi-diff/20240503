@@ -12768,3 +12768,72 @@
 [2024-05-03 09:58:51] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-05-03 09:58:51] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-05-03 09:58:51] INFO root fetch - main [MainThread]: Store serial: [23042956]
+[2024-05-03 10:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042956]
+[2024-05-03 10:01:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PREN-flawas
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdgclassification-benchmark
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PepperPepper
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-scheema
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d2dcn
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lumipy
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-project-tracker
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upowpy
+[2024-05-03 10:01:02] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.6.6] Old Version: [0.0.6.5]
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-03 10:01:02] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-03 10:01:02] INFO root fetch - processPackages [upowpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-03 10:01:02] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 10:01:02] WARNING root fetch - processPackages [sdgclassification-benchmark]: Skipping, unable to determine old version
+[2024-05-03 10:01:02] INFO root fetch - main [MainThread]: End processing [sdgclassification-benchmark] error
+[2024-05-03 10:01:02] INFO root fetch - processPackages [d2dcn]: New version: [0.4.1] Old Version: [0.3.3]
+[2024-05-03 10:01:02] INFO root fetch - processPackages [lumipy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-03 10:01:02] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/2c/61/50606a1c3549e4ead10c29d8d8f085b89557e5a0ae210a1c40f8beaa4c77/pepperpepper-0.0.6.5.tar.gz
+[2024-05-03 10:01:02] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-05-03 10:01:02] INFO root fetch - processPackages [upowpy]: Downloading https://files.pythonhosted.org/packages/67/97/47011d81e505e14c725866952fe8209f80c028473959c22a504e2c3144bf/upowpy-1.0.2.tar.gz
+[2024-05-03 10:01:02] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-03 10:01:02] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-05-03 10:01:02] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-03 10:01:02] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/b2/4e/3f0f7526e744208367facb6b5482fab262e455ac495079cc647964ba8706/pepperpepper-0.0.6.6.tar.gz
+[2024-05-03 10:01:02] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/76/cd/25af7895f094ecdce8642b8eefbf5570e3f3251c3ad74ca6781ab765b529/lumipy-1.0.8-py3-none-any.whl
+[2024-05-03 10:01:02] INFO root fetch - processPackages [d2dcn]: Downloading https://files.pythonhosted.org/packages/54/82/a31da4a78bb99499629a90a6d97fa151512177df95ce5443cb15409fe6c8/d2dcn-0.3.3.tar.gz
+[2024-05-03 10:01:03] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-05-03 10:01:03] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240503/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-03 10:01:03] INFO root fetch - processPackages [upowpy]: Downloading https://files.pythonhosted.org/packages/08/53/2f3dddcca98e4b91787552371e52be6e636646e30b2eabc8ce7708b6b7a6/upowpy-1.0.3.tar.gz
+[2024-05-03 10:01:03] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-03 10:01:03] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.6.5.tar.gz tmp/pepperpepper-0.0.6.6.tar.gz --markdown 20240503/P/PepperPepper/0.0.6.5-0.0.6.6/README.md --exclude *.pyd
+[2024-05-03 10:01:03] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-03 10:01:03] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-03 10:01:03] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240503/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-03 10:01:03] INFO root fetch - processPackages [upowpy]: executing diffoscope
+[2024-05-03 10:01:03] INFO root fetch - processPackages [upowpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upowpy-1.0.2.tar.gz tmp/upowpy-1.0.3.tar.gz --markdown 20240503/u/upowpy/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-03 10:01:03] INFO root fetch - processPackages [d2dcn]: Downloading https://files.pythonhosted.org/packages/98/74/2dc63c9425fddf658bc83049375cfb598ac3bbe56389355824820a9856d0/d2dcn-0.4.1.tar.gz
+[2024-05-03 10:01:03] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-03 10:01:03] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240503/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 10:01:03] INFO root fetch - processPackages [d2dcn]: executing diffoscope
+[2024-05-03 10:01:03] INFO root fetch - processPackages [d2dcn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2dcn-0.3.3.tar.gz tmp/d2dcn-0.4.1.tar.gz --markdown 20240503/d/d2dcn/0.3.3-0.4.1/README.md --exclude *.pyd
+[2024-05-03 10:01:03] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/af/13/4cc42c3e2deec28973c7b4dd4f45a865415a11d4da32c248fd3904f3babb/lumipy-1.0.9-py3-none-any.whl
+[2024-05-03 10:01:03] INFO root fetch - processPackages [lumipy]: executing diffoscope
+[2024-05-03 10:01:03] INFO root fetch - processPackages [lumipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumipy-1.0.8-py3-none-any.whl.zip tmp/lumipy-1.0.9-py3-none-any.whl.zip --markdown 20240503/l/lumipy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 10:01:03] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-05-03 10:01:03] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-05-03 10:01:03] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-05-03 10:01:03] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.5.tar.gz]
+[2024-05-03 10:01:03] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.6.tar.gz]
+[2024-05-03 10:01:03] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-03 10:01:03] INFO root fetch - processPackages [upowpy]: Remove: archive file [/home/abi/fetcher/tmp/upowpy-1.0.2.tar.gz]
+[2024-05-03 10:01:03] INFO root fetch - processPackages [upowpy]: Remove: archive file [/home/abi/fetcher/tmp/upowpy-1.0.3.tar.gz]
+[2024-05-03 10:01:03] INFO root fetch - main [MainThread]: End processing [upowpy]: success
+[2024-05-03 10:01:03] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-03 10:01:03] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-03 10:01:03] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-03 10:01:04] INFO root fetch - processPackages [d2dcn]: Remove: archive file [/home/abi/fetcher/tmp/d2dcn-0.3.3.tar.gz]
+[2024-05-03 10:01:04] INFO root fetch - processPackages [d2dcn]: Remove: archive file [/home/abi/fetcher/tmp/d2dcn-0.4.1.tar.gz]
+[2024-05-03 10:01:04] INFO root fetch - main [MainThread]: End processing [d2dcn]: success
+[2024-05-03 10:01:04] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-03 10:01:04] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-03 10:01:04] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-03 10:01:04] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.8-py3-none-any.whl.zip]
+[2024-05-03 10:01:04] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.9-py3-none-any.whl.zip]
+[2024-05-03 10:01:04] INFO root fetch - main [MainThread]: End processing [lumipy]: success
+[2024-05-03 10:01:04] INFO root fetch - main [MainThread]: Store serial: [23043004]
