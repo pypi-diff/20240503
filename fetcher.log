@@ -6756,3 +6756,30 @@
 [2024-05-03 03:29:15] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.7.tar.gz]
 [2024-05-03 03:29:15] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2024-05-03 03:29:15] INFO root fetch - main [MainThread]: Store serial: [23040289]
+[2024-05-03 03:31:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040289]
+[2024-05-03 03:31:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 03:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ithaca-py
+[2024-05-03 03:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: observer-machine
+[2024-05-03 03:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libsrg
+[2024-05-03 03:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ztarxtes
+[2024-05-03 03:31:23] INFO root fetch - processPackages [libsrg]: New version: [4.4.0] Old Version: [4.3.2]
+[2024-05-03 03:31:23] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/f7/96/a00bc629d615616f505ba3b5fac19e897d019ae52bd56b1c007f0a40119e/libsrg-4.3.2-py3-none-any.whl
+[2024-05-03 03:31:23] INFO root fetch - processPackages [ithaca-py]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-03 03:31:23] WARNING root fetch - processPackages [ztarxtes]: Skipping, unable to determine old version
+[2024-05-03 03:31:23] INFO root fetch - main [MainThread]: End processing [ztarxtes] error
+[2024-05-03 03:31:23] WARNING root fetch - processPackages [observer-machine]: Skipping, unable to determine old version
+[2024-05-03 03:31:23] INFO root fetch - main [MainThread]: End processing [observer-machine] error
+[2024-05-03 03:31:24] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/16/1d/46476160d2311560950b9def5f1bdd672926f7061151931f7eee30ace3fa/libsrg-4.4.0.tar.gz
+[2024-05-03 03:31:24] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/75/58/1c5d5e26f63fad29d1e1080db9cd45ed4487dd82235be1907508d8e701ad/ithaca_py-0.2.4.tar.gz
+[2024-05-03 03:31:24] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2024-05-03 03:31:24] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-4.3.2-py3-none-any.whl.zip tmp/libsrg-4.4.0.tar.gz --markdown 20240503/l/libsrg/4.3.2-4.4.0/README.md --exclude *.pyd
+[2024-05-03 03:31:24] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/1e/19/fae237ec1a44d8795cb4473e0713e2968af38e82f0c4ace5f6e5ef0aabab/ithaca_py-0.2.5.tar.gz
+[2024-05-03 03:31:24] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-05-03 03:31:24] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.2.4.tar.gz tmp/ithaca_py-0.2.5.tar.gz --markdown 20240503/i/ithaca-py/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-03 03:31:24] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.3.2-py3-none-any.whl.zip]
+[2024-05-03 03:31:24] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.4.0.tar.gz]
+[2024-05-03 03:31:24] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2024-05-03 03:31:25] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.4.tar.gz]
+[2024-05-03 03:31:25] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.5.tar.gz]
+[2024-05-03 03:31:25] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-05-03 03:31:25] INFO root fetch - main [MainThread]: Store serial: [23040358]
