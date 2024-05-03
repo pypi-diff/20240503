@@ -14194,3 +14194,78 @@
 [2024-05-03 10:46:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-03 10:46:21] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-03 10:46:21] INFO root fetch - main [MainThread]: Store serial: [23043520]
+[2024-05-03 10:48:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043520]
+[2024-05-03 10:48:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-energiepartagee
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyspacemouse
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repo2docs
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftrack-framework-core
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ftrack-utils
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ftrack-qt-style
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ftrack-qt
+[2024-05-03 10:48:35] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 10:48:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-03 10:48:35] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ftrack-utils]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ftrack-qt-style]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ftrack-framework-core]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-03 10:48:35] INFO root fetch - processPackages [pyspacemouse]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ftrack-qt]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-03 10:48:35] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 10:48:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-03 10:48:35] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-03 10:48:35] INFO root fetch - processPackages [ftrack-utils]: Downloading https://files.pythonhosted.org/packages/15/45/cf503deff1a2eeab6c7f019939a463abc4360b14027266be577a4917bcb9/ftrack_utils-2.1.0.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/da/4e/781941a238cfb898021248a5b42593464e6d9ee2f821e122363a3b0e1184/ftrack_framework_core-2.1.0.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [pyspacemouse]: Downloading https://files.pythonhosted.org/packages/aa/7c/8885eef3826a8c65e681adc25054639c7fc93793aca0f1ac242909992b2b/pyspacemouse-1.1.2.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-qt]: Downloading https://files.pythonhosted.org/packages/a4/08/2e922ffee872747259926eb4bd02d99a9f8484f661f4b76b067389a36b6e/ftrack_qt-2.1.0.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-qt-style]: Downloading https://files.pythonhosted.org/packages/ee/6a/28ae3fe43f2bde57a671da035e1dfda4f3da7f1965b854bd142b3e9f09ef/ftrack_qt_style-2.1.0.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 10:48:36] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 10:48:36] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-03 10:48:36] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240503/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-03 10:48:36] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-03 10:48:36] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240503/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-utils]: Downloading https://files.pythonhosted.org/packages/39/03/c44931691a69b526c540513d6430deac52a17f5010a31fffade264ac8638/ftrack_utils-2.2.0.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [pyspacemouse]: Downloading https://files.pythonhosted.org/packages/40/ba/4b52aeb77791f33282dfdff2b18512fabfd2f2989dff285dd15a8253755e/pyspacemouse-1.1.3.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/60/ce/2b50f06403353d4576fde3f1d8a5f8f3c9dc3b639704ee6bee42fe4fd021/ftrack_framework_core-2.2.0.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-qt]: Downloading https://files.pythonhosted.org/packages/1b/db/76f7c36b73d0cf87cdd4edf548f90729141ecad64df796807a57577d243f/ftrack_qt-2.2.0.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-qt-style]: Downloading https://files.pythonhosted.org/packages/32/29/ec139ab748c26b32e372b9c78775649567078e209fd85d150eb7e454eee7/ftrack_qt_style-2.2.0.tar.gz
+[2024-05-03 10:48:36] INFO root fetch - processPackages [pyspacemouse]: executing diffoscope
+[2024-05-03 10:48:36] INFO root fetch - processPackages [pyspacemouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspacemouse-1.1.2.tar.gz tmp/pyspacemouse-1.1.3.tar.gz --markdown 20240503/p/pyspacemouse/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-utils]: executing diffoscope
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_utils-2.1.0.tar.gz tmp/ftrack_utils-2.2.0.tar.gz --markdown 20240503/f/ftrack-utils/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-framework-core]: executing diffoscope
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-framework-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_framework_core-2.1.0.tar.gz tmp/ftrack_framework_core-2.2.0.tar.gz --markdown 20240503/f/ftrack-framework-core/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-qt]: executing diffoscope
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_qt-2.1.0.tar.gz tmp/ftrack_qt-2.2.0.tar.gz --markdown 20240503/f/ftrack-qt/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-03 10:48:36] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 10:48:36] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 10:48:36] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-qt-style]: executing diffoscope
+[2024-05-03 10:48:36] INFO root fetch - processPackages [ftrack-qt-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_qt_style-2.1.0.tar.gz tmp/ftrack_qt_style-2.2.0.tar.gz --markdown 20240503/f/ftrack-qt-style/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-03 10:48:37] INFO root fetch - processPackages [ftrack-utils]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_utils-2.1.0.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - processPackages [ftrack-utils]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_utils-2.2.0.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - main [MainThread]: End processing [ftrack-utils]: success
+[2024-05-03 10:48:37] INFO root fetch - processPackages [pyspacemouse]: Remove: archive file [/home/abi/fetcher/tmp/pyspacemouse-1.1.2.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - processPackages [pyspacemouse]: Remove: archive file [/home/abi/fetcher/tmp/pyspacemouse-1.1.3.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - main [MainThread]: End processing [pyspacemouse]: success
+[2024-05-03 10:48:37] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.1.0.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.2.0.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - main [MainThread]: End processing [ftrack-framework-core]: success
+[2024-05-03 10:48:37] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-03 10:48:37] INFO root fetch - processPackages [ftrack-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt-2.1.0.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - processPackages [ftrack-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt-2.2.0.tar.gz]
+[2024-05-03 10:48:37] INFO root fetch - main [MainThread]: End processing [ftrack-qt]: success
+[2024-05-03 10:48:38] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-03 10:48:38] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-03 10:48:38] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-03 10:48:40] INFO root fetch - processPackages [ftrack-qt-style]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt_style-2.1.0.tar.gz]
+[2024-05-03 10:48:40] INFO root fetch - processPackages [ftrack-qt-style]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt_style-2.2.0.tar.gz]
+[2024-05-03 10:48:40] INFO root fetch - main [MainThread]: End processing [ftrack-qt-style]: success
+[2024-05-03 10:48:40] INFO root fetch - main [MainThread]: Store serial: [23043543]
