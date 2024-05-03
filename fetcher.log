@@ -15661,3 +15661,63 @@
 [2024-05-03 12:03:11] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-03 12:03:11] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-03 12:03:11] INFO root fetch - main [MainThread]: Store serial: [23044183]
+[2024-05-03 12:05:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044183]
+[2024-05-03 12:05:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-03 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibridges
+[2024-05-03 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-build-dgcode
+[2024-05-03 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raugraf
+[2024-05-03 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenGeodeWeb-Viewer
+[2024-05-03 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: differt-core
+[2024-05-03 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roktools
+[2024-05-03 12:05:41] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev5] Old Version: [0.2.0.dev4]
+[2024-05-03 12:05:41] INFO root fetch - processPackages [ibridges]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-03 12:05:41] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: New version: [0.1.2rc1] Old Version: [0.1.1rc2]
+[2024-05-03 12:05:41] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/82/22/6a85294e4a28228f61fd4e4305ae14847311528bca0b4a9df434c2f8211a/torch_model_manager-0.2.0.dev4.tar.gz
+[2024-05-03 12:05:41] WARNING root fetch - processPackages [raugraf]: Skipping, unable to determine old version
+[2024-05-03 12:05:41] INFO root fetch - main [MainThread]: End processing [raugraf] error
+[2024-05-03 12:05:41] INFO root fetch - processPackages [simple-build-dgcode]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-03 12:05:41] INFO root fetch - processPackages [roktools]: New version: [6.2.0] Old Version: [6.1.2]
+[2024-05-03 12:05:41] INFO root fetch - processPackages [differt-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 12:05:41] INFO root fetch - processPackages [ibridges]: Downloading https://files.pythonhosted.org/packages/99/d7/d9f124db08179d4d5daffc3bb5d0db37df2a6e67aa0ad555ee501e586711/ibridges-0.1.4.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: Downloading https://files.pythonhosted.org/packages/5a/c4/1987926bc7f6c9adebbf25406631c5674b0c90035c214ab2a24b79571c07/OpenGeodeWeb-Viewer-0.1.1rc2.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [simple-build-dgcode]: Downloading https://files.pythonhosted.org/packages/ae/f3/e825a8a120c43c4e03d2c5a1f39f7b589a0f38b57de165d381eb2f757185/simple_build_dgcode-1.1.3.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/e4/f6/3e784bbadde1ac63946d803803716209d32deb84ddd17948dac45c724e03/roktools-6.1.2.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/e4/69/42cc0ba4f986662991ab57db9abc8dd5ff4e55c29239bbda9c777a048c24/differt_core-0.0.4.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/3c/49/013980feefa24fc09a13e6796b88eff8a7b3a6e969616bd0bb40e976c886/torch_model_manager-0.2.0.dev5.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-03 12:05:41] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.dev4.tar.gz tmp/torch_model_manager-0.2.0.dev5.tar.gz --markdown 20240503/t/torch-model-manager/0.2.0.dev4-0.2.0.dev5/README.md --exclude *.pyd
+[2024-05-03 12:05:41] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: Downloading https://files.pythonhosted.org/packages/31/c5/5f0006fdac88077c0e406782f824676230e99675c0b1bc615366462ec9e7/opengeodeweb_viewer-0.1.2rc1.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/d1/e6/55605ffedf84afbbe27bacf1701cbd2a128df23e89a15861b43e413bdb99/roktools-6.2.0.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [simple-build-dgcode]: Downloading https://files.pythonhosted.org/packages/75/ae/5048ef34cd78f769333219a18810ac395b33f0a34e44839d70dc303e14ed/simple_build_dgcode-1.1.4.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: executing diffoscope
+[2024-05-03 12:05:41] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeodeWeb-Viewer-0.1.1rc2.tar.gz tmp/opengeodeweb_viewer-0.1.2rc1.tar.gz --markdown 20240503/O/OpenGeodeWeb-Viewer/0.1.1rc2-0.1.2rc1/README.md --exclude *.pyd
+[2024-05-03 12:05:41] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-05-03 12:05:41] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-6.1.2.tar.gz tmp/roktools-6.2.0.tar.gz --markdown 20240503/r/roktools/6.1.2-6.2.0/README.md --exclude *.pyd
+[2024-05-03 12:05:41] INFO root fetch - processPackages [differt-core]: Downloading https://files.pythonhosted.org/packages/7e/2e/c1f08a4b067761ed3426efef6d591fc3ff90eb23fb16be8d10e4f35ab3e6/differt_core-0.0.5.tar.gz
+[2024-05-03 12:05:41] INFO root fetch - processPackages [simple-build-dgcode]: executing diffoscope
+[2024-05-03 12:05:41] INFO root fetch - processPackages [simple-build-dgcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_build_dgcode-1.1.3.tar.gz tmp/simple_build_dgcode-1.1.4.tar.gz --markdown 20240503/s/simple-build-dgcode/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-03 12:05:41] INFO root fetch - processPackages [ibridges]: Downloading https://files.pythonhosted.org/packages/3b/d8/77fe2038318a847c7d236a6292a38cfe9e3b49cbd4e8158eefa6bc6071b1/ibridges-0.1.5.tar.gz
+[2024-05-03 12:05:42] INFO root fetch - processPackages [differt-core]: executing diffoscope
+[2024-05-03 12:05:42] INFO root fetch - processPackages [differt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/differt_core-0.0.4.tar.gz tmp/differt_core-0.0.5.tar.gz --markdown 20240503/d/differt-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 12:05:42] INFO root fetch - processPackages [ibridges]: executing diffoscope
+[2024-05-03 12:05:42] INFO root fetch - processPackages [ibridges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibridges-0.1.4.tar.gz tmp/ibridges-0.1.5.tar.gz --markdown 20240503/i/ibridges/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-03 12:05:42] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev4.tar.gz]
+[2024-05-03 12:05:42] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev5.tar.gz]
+[2024-05-03 12:05:42] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-03 12:05:42] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Viewer-0.1.1rc2.tar.gz]
+[2024-05-03 12:05:42] INFO root fetch - processPackages [OpenGeodeWeb-Viewer]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_viewer-0.1.2rc1.tar.gz]
+[2024-05-03 12:05:42] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Viewer]: success
+[2024-05-03 12:05:42] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.1.2.tar.gz]
+[2024-05-03 12:05:42] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.2.0.tar.gz]
+[2024-05-03 12:05:42] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-05-03 12:05:42] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.4.tar.gz]
+[2024-05-03 12:05:42] INFO root fetch - processPackages [differt-core]: Remove: archive file [/home/abi/fetcher/tmp/differt_core-0.0.5.tar.gz]
+[2024-05-03 12:05:42] INFO root fetch - main [MainThread]: End processing [differt-core]: success
+[2024-05-03 12:05:43] INFO root fetch - processPackages [ibridges]: Remove: archive file [/home/abi/fetcher/tmp/ibridges-0.1.4.tar.gz]
+[2024-05-03 12:05:43] INFO root fetch - processPackages [ibridges]: Remove: archive file [/home/abi/fetcher/tmp/ibridges-0.1.5.tar.gz]
+[2024-05-03 12:05:43] INFO root fetch - main [MainThread]: End processing [ibridges]: success
+[2024-05-03 12:05:45] INFO root fetch - processPackages [simple-build-dgcode]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_dgcode-1.1.3.tar.gz]
+[2024-05-03 12:05:45] INFO root fetch - processPackages [simple-build-dgcode]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_dgcode-1.1.4.tar.gz]
+[2024-05-03 12:05:45] INFO root fetch - main [MainThread]: End processing [simple-build-dgcode]: success
+[2024-05-03 12:05:45] INFO root fetch - main [MainThread]: Store serial: [23044249]
