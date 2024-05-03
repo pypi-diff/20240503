@@ -10970,3 +10970,90 @@
 [2024-05-03 08:36:40] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.7.0.tar.gz]
 [2024-05-03 08:36:40] INFO root fetch - main [MainThread]: End processing [uptrain]: success
 [2024-05-03 08:36:40] INFO root fetch - main [MainThread]: Store serial: [23042194]
+[2024-05-03 08:38:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042194]
+[2024-05-03 08:38:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octoflow
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-financial-report
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oakvar
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sybil-engine
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skybridge
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scitbx
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ws2udp
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: isystem.connect
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GPTPlugins4All
+[2024-05-03 08:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hbox
+[2024-05-03 08:38:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.0.3] Old Version: [17.0.1.1.0.2]
+[2024-05-03 08:38:50] INFO root fetch - processPackages [hbox]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-03 08:38:50] INFO root fetch - processPackages [sybil-engine]: New version: [7.3.2] Old Version: [7.3.1]
+[2024-05-03 08:38:50] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:38:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/f6/0a/7e9987fe2d37083d92ad3951de5ee653ef2b51dbc3f5e3f357d15b544f76/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-03 08:38:50] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 08:38:50] WARNING root fetch - processPackages [skybridge]: Skipping, unable to determine old version
+[2024-05-03 08:38:50] INFO root fetch - main [MainThread]: End processing [skybridge] error
+[2024-05-03 08:38:50] INFO root fetch - processPackages [scitbx]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 08:38:50] INFO root fetch - processPackages [ws2udp]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-03 08:38:50] INFO root fetch - processPackages [oakvar]: New version: [2.9.99] Old Version: [2.9.98]
+[2024-05-03 08:38:50] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/4a/4c/b11219e36574c3e06ff1840544dc4f53fcc23d754c4585e50bdc13c3cc15/hbox-0.2.3.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/b2/0b/2da92e6315bda04b01d7980a1b024b99479521ace0a47529742ba10b0438/sybil_engine-7.3.1.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-05-03 08:38:50] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/a3/ce/6968cab51f4cb7b955287af8ac7062bbc3d7ecfca4110e778aca096983b8/oakvar-2.9.98.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [ws2udp]: Downloading https://files.pythonhosted.org/packages/89/7d/513dd4bfc56a905367f2ae6eab1b79f03a3a434b564764b48442119d956e/ws2udp-0.1.6.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [scitbx]: Downloading https://files.pythonhosted.org/packages/cb/79/43705ff3a0905a4f7509500c16517885e03ac41bb834349f39dc94677928/scitbx-0.0.8.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-05-03 08:38:50] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/51/22/88113c37c6724f93deb5137bb034b688a10771965645b1c1c12ef7d6f5c0/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl
+[2024-05-03 08:38:50] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/bc/75/f5e3bdd75dfd01723ce4f7455f23ec889a4c25f4dc7ffb938d377552b713/sybil_engine-7.3.2.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/ee/0a/453695272fc2a57480091f01c4c0744736edd0c8e3d2eb58172dfa265a28/hbox-0.2.4.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-05-03 08:38:50] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240503/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:38:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-03 08:38:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-account-financial-report/17.0.1.1.0.2-17.0.1.1.0.3/README.md --exclude *.pyd
+[2024-05-03 08:38:50] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-03 08:38:50] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.2.3.tar.gz tmp/hbox-0.2.4.tar.gz --markdown 20240503/h/hbox/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-03 08:38:50] INFO root fetch - processPackages [scitbx]: Downloading https://files.pythonhosted.org/packages/b8/ff/2e55176f8dabd4388b805375a27fd81f9b2006a4cd3d706ae0cb2aead55a/scitbx-0.0.9.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [sybil-engine]: executing diffoscope
+[2024-05-03 08:38:50] INFO root fetch - processPackages [sybil-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil_engine-7.3.1.tar.gz tmp/sybil_engine-7.3.2.tar.gz --markdown 20240503/s/sybil-engine/7.3.1-7.3.2/README.md --exclude *.pyd
+[2024-05-03 08:38:50] INFO root fetch - processPackages [ws2udp]: Downloading https://files.pythonhosted.org/packages/14/48/38b25f3ee94e608e98a8467fd2af29e21a66fcced6f5c1589d954d5cd28f/ws2udp-0.1.7.tar.gz
+[2024-05-03 08:38:50] INFO root fetch - processPackages [scitbx]: executing diffoscope
+[2024-05-03 08:38:50] INFO root fetch - processPackages [scitbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitbx-0.0.8.tar.gz tmp/scitbx-0.0.9.tar.gz --markdown 20240503/s/scitbx/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 08:38:51] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-03 08:38:51] INFO root fetch - processPackages [ws2udp]: executing diffoscope
+[2024-05-03 08:38:51] INFO root fetch - processPackages [ws2udp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws2udp-0.1.6.tar.gz tmp/ws2udp-0.1.7.tar.gz --markdown 20240503/w/ws2udp/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-03 08:38:51] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-03 08:38:51] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240503/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 08:38:51] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-05-03 08:38:51] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.3.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.4.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-03 08:38:51] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/cf/2a/de8e0ae3bf287725294b151b3a458f4350c6be98fc7b2c5896e98a2a82a5/oakvar-2.9.99.tar.gz
+[2024-05-03 08:38:51] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-05-03 08:38:51] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-05-03 08:38:51] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240503/i/isystem.connect/9.21.98.0-9.21.99.0/README.md --exclude *.pyd
+[2024-05-03 08:38:51] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-7.3.1.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-7.3.2.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - main [MainThread]: End processing [sybil-engine]: success
+[2024-05-03 08:38:51] INFO root fetch - processPackages [ws2udp]: Remove: archive file [/home/abi/fetcher/tmp/ws2udp-0.1.6.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - processPackages [ws2udp]: Remove: archive file [/home/abi/fetcher/tmp/ws2udp-0.1.7.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - main [MainThread]: End processing [ws2udp]: success
+[2024-05-03 08:38:51] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-03 08:38:51] INFO root fetch - processPackages [scitbx]: Remove: archive file [/home/abi/fetcher/tmp/scitbx-0.0.8.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - processPackages [scitbx]: Remove: archive file [/home/abi/fetcher/tmp/scitbx-0.0.9.tar.gz]
+[2024-05-03 08:38:51] INFO root fetch - main [MainThread]: End processing [scitbx]: success
+[2024-05-03 08:38:51] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-05-03 08:38:51] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.98.tar.gz tmp/oakvar-2.9.99.tar.gz --markdown 20240503/o/oakvar/2.9.98-2.9.99/README.md --exclude *.pyd
+[2024-05-03 08:38:52] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-03 08:38:52] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-03 08:38:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-03 08:38:52] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-05-03 08:38:52] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-05-03 08:38:52] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-05-03 08:38:54] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.98.tar.gz]
+[2024-05-03 08:38:54] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
+[2024-05-03 08:38:54] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-05-03 08:38:54] INFO root fetch - main [MainThread]: Store serial: [23042228]
