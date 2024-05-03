@@ -6717,3 +6717,42 @@
 [2024-05-03 03:27:02] INFO root fetch - processPackages [armisticeai]: Remove: archive file [/home/abi/fetcher/tmp/armisticeai-0.0.3-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl.zip]
 [2024-05-03 03:27:02] INFO root fetch - main [MainThread]: End processing [armisticeai]: success
 [2024-05-03 03:27:02] INFO root fetch - main [MainThread]: Store serial: [23040196]
+[2024-05-03 03:29:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040196]
+[2024-05-03 03:29:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 03:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics
+[2024-05-03 03:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediff
+[2024-05-03 03:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediffx
+[2024-05-03 03:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zettel-org
+[2024-05-03 03:29:12] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202405020126] Old Version: [1.0.0.dev202405010129]
+[2024-05-03 03:29:12] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405020126] Old Version: [1.0.0.dev202405010129]
+[2024-05-03 03:29:12] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/42/5a/209696b647a27b0a70fc7d17e72423ece815078625b8cc53510265ed19dc/onediffx-1.0.0.dev202405010129.tar.gz
+[2024-05-03 03:29:12] INFO root fetch - processPackages [ultralytics]: New version: [8.2.7] Old Version: [8.2.6]
+[2024-05-03 03:29:12] INFO root fetch - processPackages [zettel-org]: New version: [0.7.0] Old Version: [0.6.4]
+[2024-05-03 03:29:12] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/72/82/80518a0d7a9ad2279004d5bb4d1daf17f5a4fb1c9b6229c8b9a161dbeab7/onediff-1.0.0.dev202405010129.tar.gz
+[2024-05-03 03:29:13] INFO root fetch - processPackages [zettel-org]: Downloading https://files.pythonhosted.org/packages/8b/da/c4884dbcc49187acefb6d1c3788415fbf8ac0f2c82786b3334558e99c7ee/zettel_org-0.6.4.tar.gz
+[2024-05-03 03:29:13] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/5f/d2/1aec03e8ba99f57c162c89595bc8c2b05994fef5ffa1eafdfc8ff774f41d/ultralytics-8.2.6.tar.gz
+[2024-05-03 03:29:13] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/88/1f/ea4e121de44e9b74823e0cf48c56f21decf7e57f653442fe0880b6611abd/onediffx-1.0.0.dev202405020126.tar.gz
+[2024-05-03 03:29:13] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-03 03:29:13] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202405010129.tar.gz tmp/onediffx-1.0.0.dev202405020126.tar.gz --markdown 20240503/o/onediffx/1.0.0.dev202405010129-1.0.0.dev202405020126/README.md --exclude *.pyd
+[2024-05-03 03:29:13] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/a2/54/2dd8b04584af8c1b1e5eed3c1ee6c498bbf24ae453f1f3e1826ff91430d0/onediff-1.0.0.dev202405020126.tar.gz
+[2024-05-03 03:29:13] INFO root fetch - processPackages [zettel-org]: Downloading https://files.pythonhosted.org/packages/b1/7f/3af468ace93bb326be1e6e5bc1f751358e8475cde99710a88f411cdebf73/zettel_org-0.7.0.tar.gz
+[2024-05-03 03:29:13] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/d5/80/a2dd896538b4f366b070724f270e758d6bd7663efb71b9433ba5d0eccfa3/ultralytics-8.2.7.tar.gz
+[2024-05-03 03:29:13] INFO root fetch - processPackages [zettel-org]: executing diffoscope
+[2024-05-03 03:29:13] INFO root fetch - processPackages [zettel-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zettel_org-0.6.4.tar.gz tmp/zettel_org-0.7.0.tar.gz --markdown 20240503/z/zettel-org/0.6.4-0.7.0/README.md --exclude *.pyd
+[2024-05-03 03:29:13] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-03 03:29:13] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405010129.tar.gz tmp/onediff-1.0.0.dev202405020126.tar.gz --markdown 20240503/o/onediff/1.0.0.dev202405010129-1.0.0.dev202405020126/README.md --exclude *.pyd
+[2024-05-03 03:29:13] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-05-03 03:29:13] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.6.tar.gz tmp/ultralytics-8.2.7.tar.gz --markdown 20240503/u/ultralytics/8.2.6-8.2.7/README.md --exclude *.pyd
+[2024-05-03 03:29:14] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405010129.tar.gz]
+[2024-05-03 03:29:14] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405020126.tar.gz]
+[2024-05-03 03:29:14] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-03 03:29:14] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405010129.tar.gz]
+[2024-05-03 03:29:14] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405020126.tar.gz]
+[2024-05-03 03:29:14] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-03 03:29:14] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel_org-0.6.4.tar.gz]
+[2024-05-03 03:29:14] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel_org-0.7.0.tar.gz]
+[2024-05-03 03:29:14] INFO root fetch - main [MainThread]: End processing [zettel-org]: success
+[2024-05-03 03:29:15] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.6.tar.gz]
+[2024-05-03 03:29:15] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.7.tar.gz]
+[2024-05-03 03:29:15] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-05-03 03:29:15] INFO root fetch - main [MainThread]: Store serial: [23040289]
