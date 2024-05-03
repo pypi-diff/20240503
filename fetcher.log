@@ -15040,3 +15040,42 @@
 [2024-05-03 11:27:41] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
 [2024-05-03 11:27:41] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
 [2024-05-03 11:27:41] INFO root fetch - main [MainThread]: Store serial: [23043842]
+[2024-05-03 11:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043842]
+[2024-05-03 11:30:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 11:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymaginverse
+[2024-05-03 11:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-shopfloor-workstation-mobile
+[2024-05-03 11:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intersphinx_registry
+[2024-05-03 11:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MetaTrader5
+[2024-05-03 11:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: catalog-builder
+[2024-05-03 11:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packitos
+[2024-05-03 11:30:09] INFO root fetch - processPackages [MetaTrader5]: New version: [5.0.50] Old Version: [5.0.47]
+[2024-05-03 11:30:09] WARNING root fetch - processPackages [pymaginverse]: Skipping, unable to determine old version
+[2024-05-03 11:30:09] INFO root fetch - main [MainThread]: End processing [pymaginverse] error
+[2024-05-03 11:30:09] INFO root fetch - processPackages [catalog-builder]: New version: [0.4] Old Version: [0.3]
+[2024-05-03 11:30:09] INFO root fetch - processPackages [MetaTrader5]: Downloading https://files.pythonhosted.org/packages/94/30/6d822819bcadfdc6c6eb1e997a3babacb28663afc2ec02113e6908a1cd40/MetaTrader5-5.0.47-cp39-cp39-win_amd64.whl
+[2024-05-03 11:30:09] WARNING root fetch - processPackages [intersphinx_registry]: Skipping, unable to determine old version
+[2024-05-03 11:30:09] INFO root fetch - main [MainThread]: End processing [intersphinx_registry] error
+[2024-05-03 11:30:09] WARNING root fetch - processPackages [odoo-addon-shopfloor-workstation-mobile]: Skipping, unable to determine old version
+[2024-05-03 11:30:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-workstation-mobile] error
+[2024-05-03 11:30:09] INFO root fetch - processPackages [packitos]: New version: [0.96.0] Old Version: [0.95.0]
+[2024-05-03 11:30:09] INFO root fetch - processPackages [catalog-builder]: Downloading https://files.pythonhosted.org/packages/8c/e5/a6ca2cfd87ca9541d08173cc5c5a0315ab46641b899ce1e9bc634717c0f2/catalog_builder-0.3.tar.gz
+[2024-05-03 11:30:09] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/9f/3a/16fa237c3b43eba1deed7ddd6ec9e31c8629cb99004a6c86bc0f23cea916/packitos-0.95.0.tar.gz
+[2024-05-03 11:30:09] INFO root fetch - processPackages [MetaTrader5]: Downloading https://files.pythonhosted.org/packages/bc/c5/87ae13f01f4dc1b16d6aec52fae3f01f0ac3a29eb56c0f0714543cbecaeb/MetaTrader5-5.0.50-cp39-cp39-win_amd64.whl
+[2024-05-03 11:30:09] INFO root fetch - processPackages [MetaTrader5]: executing diffoscope
+[2024-05-03 11:30:09] INFO root fetch - processPackages [MetaTrader5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MetaTrader5-5.0.47-cp39-cp39-win_amd64.whl.zip tmp/MetaTrader5-5.0.50-cp39-cp39-win_amd64.whl.zip --markdown 20240503/M/MetaTrader5/5.0.47-5.0.50/README.md --exclude *.pyd
+[2024-05-03 11:30:10] INFO root fetch - processPackages [catalog-builder]: Downloading https://files.pythonhosted.org/packages/30/40/0662ca794aa92c46ed43ce9b90428e337b9dbb1f2186ab43571422081738/catalog_builder-0.4.tar.gz
+[2024-05-03 11:30:10] INFO root fetch - processPackages [catalog-builder]: executing diffoscope
+[2024-05-03 11:30:10] INFO root fetch - processPackages [catalog-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalog_builder-0.3.tar.gz tmp/catalog_builder-0.4.tar.gz --markdown 20240503/c/catalog-builder/0.3-0.4/README.md --exclude *.pyd
+[2024-05-03 11:30:10] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/d0/b3/dea7cd604b5ca0ec35b07205b6fbd20effa1f9b193114cc020c3f836a299/packitos-0.96.0.tar.gz
+[2024-05-03 11:30:10] INFO root fetch - processPackages [MetaTrader5]: Remove: archive file [/home/abi/fetcher/tmp/MetaTrader5-5.0.47-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 11:30:10] INFO root fetch - processPackages [MetaTrader5]: Remove: archive file [/home/abi/fetcher/tmp/MetaTrader5-5.0.50-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 11:30:10] INFO root fetch - main [MainThread]: End processing [MetaTrader5]: success
+[2024-05-03 11:30:10] INFO root fetch - processPackages [catalog-builder]: Remove: archive file [/home/abi/fetcher/tmp/catalog_builder-0.3.tar.gz]
+[2024-05-03 11:30:10] INFO root fetch - processPackages [catalog-builder]: Remove: archive file [/home/abi/fetcher/tmp/catalog_builder-0.4.tar.gz]
+[2024-05-03 11:30:10] INFO root fetch - main [MainThread]: End processing [catalog-builder]: success
+[2024-05-03 11:30:11] INFO root fetch - processPackages [packitos]: executing diffoscope
+[2024-05-03 11:30:11] INFO root fetch - processPackages [packitos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packitos-0.95.0.tar.gz tmp/packitos-0.96.0.tar.gz --markdown 20240503/p/packitos/0.95.0-0.96.0/README.md --exclude *.pyd
+[2024-05-03 11:30:14] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.95.0.tar.gz]
+[2024-05-03 11:30:14] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.96.0.tar.gz]
+[2024-05-03 11:30:14] INFO root fetch - main [MainThread]: End processing [packitos]: success
+[2024-05-03 11:30:14] INFO root fetch - main [MainThread]: Store serial: [23043875]
