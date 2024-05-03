@@ -8101,3 +8101,24 @@
 [2024-05-03 05:03:52] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-05-03 05:03:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
 [2024-05-03 05:03:52] INFO root fetch - main [MainThread]: Store serial: [23041099]
+[2024-05-03 05:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041099]
+[2024-05-03 05:06:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 05:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skillpacks
+[2024-05-03 05:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clishelf
+[2024-05-03 05:06:01] INFO root fetch - processPackages [skillpacks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 05:06:01] INFO root fetch - processPackages [clishelf]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-03 05:06:01] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/e5/2f/a1c43b4d509c4f512639a4b941f93a4a156c544bd2a39f3491b050d2ebbf/skillpacks-0.1.8.tar.gz
+[2024-05-03 05:06:01] INFO root fetch - processPackages [clishelf]: Downloading https://files.pythonhosted.org/packages/ed/3f/02c528bfb180b7ee3b823c67e5d8ac3308c9b3dd7efea421b2daead2744d/clishelf-0.2.1.tar.gz
+[2024-05-03 05:06:01] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/b6/89/f0de80c844dbbf0e0a57a873f9722d300512a78e06c8ea86863eb3f8391d/skillpacks-0.1.9.tar.gz
+[2024-05-03 05:06:01] INFO root fetch - processPackages [clishelf]: Downloading https://files.pythonhosted.org/packages/10/8d/a6d3131b1697b97e32501834d92936cfad02cac3e76eef54905a86d18761/clishelf-0.2.2.tar.gz
+[2024-05-03 05:06:01] INFO root fetch - processPackages [skillpacks]: executing diffoscope
+[2024-05-03 05:06:01] INFO root fetch - processPackages [skillpacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillpacks-0.1.8.tar.gz tmp/skillpacks-0.1.9.tar.gz --markdown 20240503/s/skillpacks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 05:06:01] INFO root fetch - processPackages [clishelf]: executing diffoscope
+[2024-05-03 05:06:01] INFO root fetch - processPackages [clishelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clishelf-0.2.1.tar.gz tmp/clishelf-0.2.2.tar.gz --markdown 20240503/c/clishelf/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-03 05:06:02] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.8.tar.gz]
+[2024-05-03 05:06:02] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.9.tar.gz]
+[2024-05-03 05:06:02] INFO root fetch - main [MainThread]: End processing [skillpacks]: success
+[2024-05-03 05:06:02] INFO root fetch - processPackages [clishelf]: Remove: archive file [/home/abi/fetcher/tmp/clishelf-0.2.1.tar.gz]
+[2024-05-03 05:06:02] INFO root fetch - processPackages [clishelf]: Remove: archive file [/home/abi/fetcher/tmp/clishelf-0.2.2.tar.gz]
+[2024-05-03 05:06:02] INFO root fetch - main [MainThread]: End processing [clishelf]: success
+[2024-05-03 05:06:02] INFO root fetch - main [MainThread]: Store serial: [23041106]
