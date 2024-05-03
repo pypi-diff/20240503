@@ -8728,3 +8728,42 @@
 [2024-05-03 05:57:08] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
 [2024-05-03 05:57:08] INFO root fetch - main [MainThread]: End processing [surfkit]: success
 [2024-05-03 05:57:08] INFO root fetch - main [MainThread]: Store serial: [23041323]
+[2024-05-03 05:59:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041323]
+[2024-05-03 05:59:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 05:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SparkleLogging
+[2024-05-03 05:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stable-ts-whisperless
+[2024-05-03 05:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digrdf
+[2024-05-03 05:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PepperPepper
+[2024-05-03 05:59:17] INFO root fetch - processPackages [SparkleLogging]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-03 05:59:17] INFO root fetch - processPackages [digrdf]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-03 05:59:17] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.6.4] Old Version: [0.0.6.3]
+[2024-05-03 05:59:17] INFO root fetch - processPackages [SparkleLogging]: Downloading https://files.pythonhosted.org/packages/8e/b7/15f3cbb8d28ff96164d954e444c98a5da42815cae1ebb72045032dc6c8ad/SparkleLogging-1.0.4.tar.gz
+[2024-05-03 05:59:17] INFO root fetch - processPackages [stable-ts-whisperless]: New version: [2.17.0] Old Version: [2.16.0]
+[2024-05-03 05:59:17] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/cc/a7/830b3755f96c9260c1e7879692dcb3294fb6232c12de2e48fc9afea1cc79/digrdf-0.1.1.tar.gz
+[2024-05-03 05:59:17] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/09/57/0fa235a8188f8686526f9809398fba169922e4fc1f797b526b73e715ee9a/pepperpepper-0.0.6.3.tar.gz
+[2024-05-03 05:59:17] INFO root fetch - processPackages [stable-ts-whisperless]: Downloading https://files.pythonhosted.org/packages/e8/5b/89c68a469b909241c3efe3f5147b76be790ba10095d65a1b57bcc6cd8a66/stable-ts-whisperless-2.16.0.tar.gz
+[2024-05-03 05:59:17] INFO root fetch - processPackages [SparkleLogging]: Downloading https://files.pythonhosted.org/packages/2d/b8/33b3d7641a6da357cf3af08289ac2ebd8cb6960f11fb4110211190ee39e1/SparkleLogging-1.0.5.tar.gz
+[2024-05-03 05:59:17] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/fe/74/ccc6587336a917b7b62ab6fecc0554ff38156927fd3a1a2da7a153b702fb/digrdf-0.1.2.tar.gz
+[2024-05-03 05:59:17] INFO root fetch - processPackages [SparkleLogging]: executing diffoscope
+[2024-05-03 05:59:17] INFO root fetch - processPackages [SparkleLogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SparkleLogging-1.0.4.tar.gz tmp/SparkleLogging-1.0.5.tar.gz --markdown 20240503/S/SparkleLogging/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-03 05:59:17] INFO root fetch - processPackages [digrdf]: executing diffoscope
+[2024-05-03 05:59:17] INFO root fetch - processPackages [digrdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digrdf-0.1.1.tar.gz tmp/digrdf-0.1.2.tar.gz --markdown 20240503/d/digrdf/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-03 05:59:17] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/14/4d/6a9a0ce50e2139e7703736103f1af6f0174daeb6bf26eec6bbceedf7585d/pepperpepper-0.0.6.4.tar.gz
+[2024-05-03 05:59:18] INFO root fetch - processPackages [stable-ts-whisperless]: Downloading https://files.pythonhosted.org/packages/a1/bb/54ed84ea6c3857495809b166385233da649e14a1ee22dee7c267becb0ff5/stable-ts-whisperless-2.17.0.tar.gz
+[2024-05-03 05:59:18] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-03 05:59:18] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.6.3.tar.gz tmp/pepperpepper-0.0.6.4.tar.gz --markdown 20240503/P/PepperPepper/0.0.6.3-0.0.6.4/README.md --exclude *.pyd
+[2024-05-03 05:59:18] INFO root fetch - processPackages [stable-ts-whisperless]: executing diffoscope
+[2024-05-03 05:59:18] INFO root fetch - processPackages [stable-ts-whisperless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-whisperless-2.16.0.tar.gz tmp/stable-ts-whisperless-2.17.0.tar.gz --markdown 20240503/s/stable-ts-whisperless/2.16.0-2.17.0/README.md --exclude *.pyd
+[2024-05-03 05:59:18] INFO root fetch - processPackages [SparkleLogging]: Remove: archive file [/home/abi/fetcher/tmp/SparkleLogging-1.0.4.tar.gz]
+[2024-05-03 05:59:18] INFO root fetch - processPackages [SparkleLogging]: Remove: archive file [/home/abi/fetcher/tmp/SparkleLogging-1.0.5.tar.gz]
+[2024-05-03 05:59:18] INFO root fetch - main [MainThread]: End processing [SparkleLogging]: success
+[2024-05-03 05:59:18] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.1.tar.gz]
+[2024-05-03 05:59:18] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.2.tar.gz]
+[2024-05-03 05:59:18] INFO root fetch - main [MainThread]: End processing [digrdf]: success
+[2024-05-03 05:59:18] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.3.tar.gz]
+[2024-05-03 05:59:18] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.4.tar.gz]
+[2024-05-03 05:59:18] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-03 05:59:19] INFO root fetch - processPackages [stable-ts-whisperless]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-whisperless-2.16.0.tar.gz]
+[2024-05-03 05:59:19] INFO root fetch - processPackages [stable-ts-whisperless]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-whisperless-2.17.0.tar.gz]
+[2024-05-03 05:59:19] INFO root fetch - main [MainThread]: End processing [stable-ts-whisperless]: success
+[2024-05-03 05:59:19] INFO root fetch - main [MainThread]: Store serial: [23041334]
