@@ -7322,3 +7322,51 @@
 [2024-05-03 04:12:36] INFO root fetch - processPackages [aiogtrans]: Remove: archive file [/home/abi/fetcher/tmp/aiogtrans-1.1.6.tar.gz]
 [2024-05-03 04:12:36] INFO root fetch - main [MainThread]: End processing [aiogtrans]: success
 [2024-05-03 04:12:36] INFO root fetch - main [MainThread]: Store serial: [23040836]
+[2024-05-03 04:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040836]
+[2024-05-03 04:14:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 04:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiogtrans
+[2024-05-03 04:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repo2docs
+[2024-05-03 04:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphlearning
+[2024-05-03 04:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MEGABYTE-pytorch
+[2024-05-03 04:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NEMO-CE
+[2024-05-03 04:14:46] INFO root fetch - processPackages [aiogtrans]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-03 04:14:46] INFO root fetch - processPackages [repo2docs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 04:14:46] INFO root fetch - processPackages [aiogtrans]: Downloading https://files.pythonhosted.org/packages/04/56/7f5f8c1345bfb4e7a1fc755a7291951ec6ba34a82971cd2a5adb11635fb6/aiogtrans-1.1.5.tar.gz
+[2024-05-03 04:14:46] INFO root fetch - processPackages [MEGABYTE-pytorch]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-03 04:14:46] INFO root fetch - processPackages [NEMO-CE]: New version: [2.5.0] Old Version: [2.4.4]
+[2024-05-03 04:14:47] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/b5/1a/daa711cb5a114608b9e98049621b4cb31f94baeee2c188838157c2ff0900/repo2docs-0.1.0.tar.gz
+[2024-05-03 04:14:47] INFO root fetch - processPackages [aiogtrans]: Downloading https://files.pythonhosted.org/packages/3a/60/e054900c5f92a31d82d0da9abfaffda7348a291e0d9289d74ada4bdaf8c9/aiogtrans-1.1.6.tar.gz
+[2024-05-03 04:14:47] INFO root fetch - processPackages [MEGABYTE-pytorch]: Downloading https://files.pythonhosted.org/packages/b9/ad/b0d7a0c74818b72294b10bf5e08b93737b75db8ba04b5a616d2ac990f265/MEGABYTE-pytorch-0.2.1.tar.gz
+[2024-05-03 04:14:47] INFO root fetch - processPackages [aiogtrans]: executing diffoscope
+[2024-05-03 04:14:47] INFO root fetch - processPackages [aiogtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogtrans-1.1.5.tar.gz tmp/aiogtrans-1.1.6.tar.gz --markdown 20240503/a/aiogtrans/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-03 04:14:47] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/17/b0/800ec529b3dd7701278be7e9a3ff3d04b7dc85ebf30bc821a6bfb6553337/NEMO_CE-2.4.4-py3-none-any.whl
+[2024-05-03 04:14:47] INFO root fetch - processPackages [graphlearning]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-03 04:14:47] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/35/8c/c292f8144382635be452728ce42977e6de4e3d7580212a1d696a77914627/repo2docs-0.1.1.tar.gz
+[2024-05-03 04:14:47] INFO root fetch - processPackages [graphlearning]: Downloading https://files.pythonhosted.org/packages/4d/a9/9efcbec1648d598871eabc2533caba3bc44995894fad77f96ea7a247bbc1/graphlearning-1.5.2.tar.gz
+[2024-05-03 04:14:47] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 04:14:47] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.0.tar.gz tmp/repo2docs-0.1.1.tar.gz --markdown 20240503/r/repo2docs/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 04:14:47] INFO root fetch - processPackages [MEGABYTE-pytorch]: Downloading https://files.pythonhosted.org/packages/54/9b/90ac17319d42c6c502ca8911a72e9437ffbb5c1d9ecace2e0c3b693d2836/megabyte_pytorch-0.3.0.tar.gz
+[2024-05-03 04:14:47] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/3d/17/e9a1d82e8171ef10ee6beb13c67d5977da835ffe8a17c3c78c16ae92f003/NEMO_CE-2.5.0-py3-none-any.whl
+[2024-05-03 04:14:47] INFO root fetch - processPackages [MEGABYTE-pytorch]: executing diffoscope
+[2024-05-03 04:14:47] INFO root fetch - processPackages [MEGABYTE-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MEGABYTE-pytorch-0.2.1.tar.gz tmp/megabyte_pytorch-0.3.0.tar.gz --markdown 20240503/M/MEGABYTE-pytorch/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-03 04:14:47] INFO root fetch - processPackages [graphlearning]: Downloading https://files.pythonhosted.org/packages/cc/0e/86cfc976fa7ffc2442262fc70fcd442c12d245aeb97066f9280f9d322f24/graphlearning-1.5.3.tar.gz
+[2024-05-03 04:14:47] INFO root fetch - processPackages [aiogtrans]: Remove: archive file [/home/abi/fetcher/tmp/aiogtrans-1.1.5.tar.gz]
+[2024-05-03 04:14:47] INFO root fetch - processPackages [aiogtrans]: Remove: archive file [/home/abi/fetcher/tmp/aiogtrans-1.1.6.tar.gz]
+[2024-05-03 04:14:47] INFO root fetch - main [MainThread]: End processing [aiogtrans]: success
+[2024-05-03 04:14:47] INFO root fetch - processPackages [graphlearning]: executing diffoscope
+[2024-05-03 04:14:47] INFO root fetch - processPackages [graphlearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlearning-1.5.2.tar.gz tmp/graphlearning-1.5.3.tar.gz --markdown 20240503/g/graphlearning/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-03 04:14:48] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.0.tar.gz]
+[2024-05-03 04:14:48] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.1.tar.gz]
+[2024-05-03 04:14:48] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 04:14:48] INFO root fetch - processPackages [MEGABYTE-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/MEGABYTE-pytorch-0.2.1.tar.gz]
+[2024-05-03 04:14:48] INFO root fetch - processPackages [MEGABYTE-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/megabyte_pytorch-0.3.0.tar.gz]
+[2024-05-03 04:14:48] INFO root fetch - main [MainThread]: End processing [MEGABYTE-pytorch]: success
+[2024-05-03 04:14:48] INFO root fetch - processPackages [graphlearning]: Remove: archive file [/home/abi/fetcher/tmp/graphlearning-1.5.2.tar.gz]
+[2024-05-03 04:14:48] INFO root fetch - processPackages [graphlearning]: Remove: archive file [/home/abi/fetcher/tmp/graphlearning-1.5.3.tar.gz]
+[2024-05-03 04:14:48] INFO root fetch - main [MainThread]: End processing [graphlearning]: success
+[2024-05-03 04:14:49] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2024-05-03 04:14:49] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-2.4.4-py3-none-any.whl.zip tmp/NEMO_CE-2.5.0-py3-none-any.whl.zip --markdown 20240503/N/NEMO-CE/2.4.4-2.5.0/README.md --exclude *.pyd
+[2024-05-03 04:14:51] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.4.4-py3-none-any.whl.zip]
+[2024-05-03 04:14:51] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.5.0-py3-none-any.whl.zip]
+[2024-05-03 04:14:51] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2024-05-03 04:14:51] INFO root fetch - main [MainThread]: Store serial: [23040849]
