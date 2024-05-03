@@ -9239,3 +9239,18 @@
 [2024-05-03 06:32:11] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
 [2024-05-03 06:32:11] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2024-05-03 06:32:11] INFO root fetch - main [MainThread]: Store serial: [23041518]
+[2024-05-03 06:34:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041518]
+[2024-05-03 06:34:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 06:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genai-apis
+[2024-05-03 06:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI.build
+[2024-05-03 06:34:19] INFO root fetch - processPackages [OZI.build]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-03 06:34:20] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/4c/f3/35c45df292c5fc7816420fc8aaba38f7e2553007aa93b2c03c9dcdfff213/OZI.build-0.0.7.tar.gz
+[2024-05-03 06:34:20] WARNING root fetch - processPackages [genai-apis]: Skipping, unable to determine old version
+[2024-05-03 06:34:20] INFO root fetch - main [MainThread]: End processing [genai-apis] error
+[2024-05-03 06:34:20] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/c2/68/445f96f8f6a7f7bc556936a301c80ff6e3b858eff7efa40c69e738b241fa/OZI.build-0.0.8.tar.gz
+[2024-05-03 06:34:20] INFO root fetch - processPackages [OZI.build]: executing diffoscope
+[2024-05-03 06:34:20] INFO root fetch - processPackages [OZI.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI.build-0.0.7.tar.gz tmp/OZI.build-0.0.8.tar.gz --markdown 20240503/O/OZI.build/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-03 06:34:20] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.7.tar.gz]
+[2024-05-03 06:34:20] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.8.tar.gz]
+[2024-05-03 06:34:20] INFO root fetch - main [MainThread]: End processing [OZI.build]: success
+[2024-05-03 06:34:20] INFO root fetch - main [MainThread]: Store serial: [23041525]
