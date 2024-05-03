@@ -11807,3 +11807,42 @@
 [2024-05-03 09:14:10] INFO root fetch - processPackages [wxc_sdk]: Remove: archive file [/home/abi/fetcher/tmp/wxc_sdk-1.9.0.tar.gz]
 [2024-05-03 09:14:10] INFO root fetch - main [MainThread]: End processing [wxc_sdk]: success
 [2024-05-03 09:14:10] INFO root fetch - main [MainThread]: Store serial: [23042567]
+[2024-05-03 09:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042567]
+[2024-05-03 09:16:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sound-source-id
+[2024-05-03 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-flex-report
+[2024-05-03 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fab-react-toolkit
+[2024-05-03 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RL-OM
+[2024-05-03 09:16:19] INFO root fetch - processPackages [sound-source-id]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-03 09:16:19] INFO root fetch - processPackages [sound-source-id]: Downloading https://files.pythonhosted.org/packages/d2/0d/3554a3b426cb68b69cb23f5a7453eac43b9b115ade2f1663744c913e2ea0/sound_source_id-0.2.0.tar.gz
+[2024-05-03 09:16:19] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-03 09:16:19] INFO root fetch - processPackages [django-flex-report]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-03 09:16:19] INFO root fetch - processPackages [RL-OM]: New version: [0.7.96] Old Version: [0.7.95]
+[2024-05-03 09:16:20] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/87/89/9159b2c007902b2c470c3b5add5d973380a4df082979bece60d6ff27e8b0/fab_react_toolkit-0.4.4.tar.gz
+[2024-05-03 09:16:20] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/02/93/20f32abbd684f543cb22768d0d4606f99c37b4695c47a41d3fce87e9c6ff/django-flex-report-0.7.8.tar.gz
+[2024-05-03 09:16:20] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/11/25/56ec84e223d1bdd04c02be7a81c00f4a2efa2221d66b23565d36a9ae78eb/RL_OM-0.7.95.tar.gz
+[2024-05-03 09:16:20] INFO root fetch - processPackages [sound-source-id]: Downloading https://files.pythonhosted.org/packages/a2/1f/a683922d2fa3845d95123b3decef08db7aa89dc71ae92b255eede1cf4b71/sound_source_id-0.2.2.tar.gz
+[2024-05-03 09:16:20] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/02/32/094bdde1c6e4ea7738e19259d01f60853b8b74de5a6eeb20834caa9aef5e/fab_react_toolkit-0.4.5.tar.gz
+[2024-05-03 09:16:20] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/70/5e/69fad62600926ae8fae2e542a4ef912e2fa998c69fac46276b978e8710a1/django-flex-report-0.7.9.tar.gz
+[2024-05-03 09:16:20] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-05-03 09:16:20] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab_react_toolkit-0.4.4.tar.gz tmp/fab_react_toolkit-0.4.5.tar.gz --markdown 20240503/f/fab-react-toolkit/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-03 09:16:20] INFO root fetch - processPackages [django-flex-report]: executing diffoscope
+[2024-05-03 09:16:20] INFO root fetch - processPackages [django-flex-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-flex-report-0.7.8.tar.gz tmp/django-flex-report-0.7.9.tar.gz --markdown 20240503/d/django-flex-report/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-03 09:16:20] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/e3/ad/1f68c1b55beecb0e92799308e022f3668196a99d8d7cef4e5cfa4fc75c9c/RL_OM-0.7.96.tar.gz
+[2024-05-03 09:16:20] INFO root fetch - processPackages [sound-source-id]: executing diffoscope
+[2024-05-03 09:16:20] INFO root fetch - processPackages [sound-source-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sound_source_id-0.2.0.tar.gz tmp/sound_source_id-0.2.2.tar.gz --markdown 20240503/s/sound-source-id/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-03 09:16:20] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-03 09:16:20] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.95.tar.gz tmp/RL_OM-0.7.96.tar.gz --markdown 20240503/R/RL-OM/0.7.95-0.7.96/README.md --exclude *.pyd
+[2024-05-03 09:16:21] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.4.tar.gz]
+[2024-05-03 09:16:21] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.5.tar.gz]
+[2024-05-03 09:16:21] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-05-03 09:16:21] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.7.8.tar.gz]
+[2024-05-03 09:16:21] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.7.9.tar.gz]
+[2024-05-03 09:16:21] INFO root fetch - main [MainThread]: End processing [django-flex-report]: success
+[2024-05-03 09:16:21] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.95.tar.gz]
+[2024-05-03 09:16:21] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.96.tar.gz]
+[2024-05-03 09:16:21] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-03 09:16:22] INFO root fetch - processPackages [sound-source-id]: Remove: archive file [/home/abi/fetcher/tmp/sound_source_id-0.2.0.tar.gz]
+[2024-05-03 09:16:22] INFO root fetch - processPackages [sound-source-id]: Remove: archive file [/home/abi/fetcher/tmp/sound_source_id-0.2.2.tar.gz]
+[2024-05-03 09:16:22] INFO root fetch - main [MainThread]: End processing [sound-source-id]: success
+[2024-05-03 09:16:22] INFO root fetch - main [MainThread]: Store serial: [23042580]
