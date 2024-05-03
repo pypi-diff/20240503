@@ -10108,3 +10108,33 @@
 [2024-05-03 07:44:04] INFO root fetch - processPackages [siepic-ebeam-pdk]: Remove: archive file [/home/abi/fetcher/tmp/siepic_ebeam_pdk-0.4.8.tar.gz]
 [2024-05-03 07:44:04] INFO root fetch - main [MainThread]: End processing [siepic-ebeam-pdk]: success
 [2024-05-03 07:44:04] INFO root fetch - main [MainThread]: Store serial: [23041880]
+[2024-05-03 07:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041880]
+[2024-05-03 07:46:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 07:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hbox
+[2024-05-03 07:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-05-03 07:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultima-scraper-db
+[2024-05-03 07:46:13] INFO root fetch - processPackages [hbox]: New version: [0.2.1] Old Version: [0.1.20]
+[2024-05-03 07:46:13] INFO root fetch - processPackages [ultima-scraper-db]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-03 07:46:13] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-03 07:46:13] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/c7/f7/ef029a41f3192c99d2856852eadcefb2b3ca2596be8a2721bb962137c374/hbox-0.1.20.tar.gz
+[2024-05-03 07:46:13] INFO root fetch - processPackages [ultima-scraper-db]: Downloading https://files.pythonhosted.org/packages/ea/37/680b7c6e7a579fab9983f5d64247bf5e19feac896675ce246303c34bc8c4/ultima_scraper_db-0.3.4.tar.gz
+[2024-05-03 07:46:13] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-03 07:46:13] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-03 07:46:13] INFO root fetch - processPackages [ultima-scraper-db]: Downloading https://files.pythonhosted.org/packages/88/f8/63d01a7b1cf775f6739a889ef86a9419dc1774c493cda43c72192817e13d/ultima_scraper_db-0.3.5.tar.gz
+[2024-05-03 07:46:13] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/01/69/066bdf60c2893d2d411f8515ab7df56c07f9bab2396285e57ce34b31a6f8/hbox-0.2.1.tar.gz
+[2024-05-03 07:46:13] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-03 07:46:13] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240503/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-03 07:46:13] INFO root fetch - processPackages [ultima-scraper-db]: executing diffoscope
+[2024-05-03 07:46:13] INFO root fetch - processPackages [ultima-scraper-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_db-0.3.4.tar.gz tmp/ultima_scraper_db-0.3.5.tar.gz --markdown 20240503/u/ultima-scraper-db/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-03 07:46:13] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-03 07:46:13] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.1.20.tar.gz tmp/hbox-0.2.1.tar.gz --markdown 20240503/h/hbox/0.1.20-0.2.1/README.md --exclude *.pyd
+[2024-05-03 07:46:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-03 07:46:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-03 07:46:14] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-03 07:46:14] INFO root fetch - processPackages [ultima-scraper-db]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_db-0.3.4.tar.gz]
+[2024-05-03 07:46:14] INFO root fetch - processPackages [ultima-scraper-db]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_db-0.3.5.tar.gz]
+[2024-05-03 07:46:14] INFO root fetch - main [MainThread]: End processing [ultima-scraper-db]: success
+[2024-05-03 07:46:14] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.20.tar.gz]
+[2024-05-03 07:46:14] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.2.1.tar.gz]
+[2024-05-03 07:46:14] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-03 07:46:14] INFO root fetch - main [MainThread]: Store serial: [23041888]
