@@ -9419,3 +9419,15 @@
 [2024-05-03 06:53:50] INFO root fetch - processPackages [relentless]: Remove: archive file [/home/abi/fetcher/tmp/relentless-0.1.1.tar.gz]
 [2024-05-03 06:53:50] INFO root fetch - main [MainThread]: End processing [relentless]: success
 [2024-05-03 06:53:50] INFO root fetch - main [MainThread]: Store serial: [23041617]
+[2024-05-03 06:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041617]
+[2024-05-03 06:55:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 06:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sprice
+[2024-05-03 06:55:59] INFO root fetch - processPackages [sprice]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 06:55:59] INFO root fetch - processPackages [sprice]: Downloading https://files.pythonhosted.org/packages/59/8a/2ba942ba646838cf9691f5037b4e83e18a0b1d007758551e34532f1615a1/sprice-0.1.0.tar.gz
+[2024-05-03 06:55:59] INFO root fetch - processPackages [sprice]: Downloading https://files.pythonhosted.org/packages/ad/b7/e0ac751d87f3482cf2af91ed4c6dbe0380926b7985511f252cd623a37c34/sprice-0.1.1.tar.gz
+[2024-05-03 06:55:59] INFO root fetch - processPackages [sprice]: executing diffoscope
+[2024-05-03 06:55:59] INFO root fetch - processPackages [sprice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprice-0.1.0.tar.gz tmp/sprice-0.1.1.tar.gz --markdown 20240503/s/sprice/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 06:56:00] INFO root fetch - processPackages [sprice]: Remove: archive file [/home/abi/fetcher/tmp/sprice-0.1.0.tar.gz]
+[2024-05-03 06:56:00] INFO root fetch - processPackages [sprice]: Remove: archive file [/home/abi/fetcher/tmp/sprice-0.1.1.tar.gz]
+[2024-05-03 06:56:00] INFO root fetch - main [MainThread]: End processing [sprice]: success
+[2024-05-03 06:56:00] INFO root fetch - main [MainThread]: Store serial: [23041620]
