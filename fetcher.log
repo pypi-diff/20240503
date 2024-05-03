@@ -12971,3 +12971,27 @@
 [2024-05-03 10:07:44] INFO root fetch - processPackages [ganessa]: Remove: archive file [/home/abi/fetcher/tmp/ganessa-2.4.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-03 10:07:44] INFO root fetch - main [MainThread]: End processing [ganessa]: success
 [2024-05-03 10:07:44] INFO root fetch - main [MainThread]: Store serial: [23043064]
+[2024-05-03 10:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043064]
+[2024-05-03 10:09:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 10:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PepperPepper
+[2024-05-03 10:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vcmtools
+[2024-05-03 10:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vdf-io
+[2024-05-03 10:09:54] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.6.7] Old Version: [0.0.6.6]
+[2024-05-03 10:09:54] INFO root fetch - processPackages [vdf-io]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-05-03 10:09:55] WARNING root fetch - processPackages [vcmtools]: Skipping, unable to determine old version
+[2024-05-03 10:09:55] INFO root fetch - main [MainThread]: End processing [vcmtools] error
+[2024-05-03 10:09:55] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/b2/4e/3f0f7526e744208367facb6b5482fab262e455ac495079cc647964ba8706/pepperpepper-0.0.6.6.tar.gz
+[2024-05-03 10:09:55] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/0f/79/960c399848c4b4e73ae4986620f78539ea8443881aa1b95f0e571909a7f3/vdf_io-0.1.85.tar.gz
+[2024-05-03 10:09:55] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/54/48/6653d701926d0676616e4c8e49bd591c2fa67a2abb3c903073d39d6cfe8b/vdf_io-0.1.9.tar.gz
+[2024-05-03 10:09:55] INFO root fetch - processPackages [vdf-io]: executing diffoscope
+[2024-05-03 10:09:55] INFO root fetch - processPackages [vdf-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdf_io-0.1.85.tar.gz tmp/vdf_io-0.1.9.tar.gz --markdown 20240503/v/vdf-io/0.1.85-0.1.9/README.md --exclude *.pyd
+[2024-05-03 10:09:55] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/3c/7c/ebcd20c92c5d47924d92d921a7e67ed2f43c3d4bf148e5845f8844da759f/pepperpepper-0.0.6.7.tar.gz
+[2024-05-03 10:09:55] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-03 10:09:55] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.6.6.tar.gz tmp/pepperpepper-0.0.6.7.tar.gz --markdown 20240503/P/PepperPepper/0.0.6.6-0.0.6.7/README.md --exclude *.pyd
+[2024-05-03 10:09:55] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.6.tar.gz]
+[2024-05-03 10:09:55] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.7.tar.gz]
+[2024-05-03 10:09:56] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-03 10:09:56] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.85.tar.gz]
+[2024-05-03 10:09:56] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.9.tar.gz]
+[2024-05-03 10:09:56] INFO root fetch - main [MainThread]: End processing [vdf-io]: success
+[2024-05-03 10:09:56] INFO root fetch - main [MainThread]: Store serial: [23043075]
