@@ -6783,3 +6783,33 @@
 [2024-05-03 03:31:25] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.5.tar.gz]
 [2024-05-03 03:31:25] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
 [2024-05-03 03:31:25] INFO root fetch - main [MainThread]: Store serial: [23040358]
+[2024-05-03 03:33:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040358]
+[2024-05-03 03:33:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TreeSAK
+[2024-05-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cgeniepy
+[2024-05-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-redux
+[2024-05-03 03:33:34] INFO root fetch - processPackages [python-redux]: New version: [0.9.9a0] Old Version: [0.9.9]
+[2024-05-03 03:33:34] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/25/f6/7f30f318faa9b9b4ed3d5b4517bc78ba60a0a3853efcecbfb8f1093f06f8/python_redux-0.9.9.tar.gz
+[2024-05-03 03:33:34] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-03 03:33:34] INFO root fetch - processPackages [cgeniepy]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-03 03:33:34] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/78/88/2425c5253a8005201b5b26b38481ea8784a32bea175f334a08082da43388/python_redux-0.9.9a0.tar.gz
+[2024-05-03 03:33:35] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-03 03:33:35] INFO root fetch - processPackages [cgeniepy]: Downloading https://files.pythonhosted.org/packages/b7/98/eee2c884ab93070afc5db081d7a9ce2bfd1a3aa7060ef6e6269dcf003f68/cgeniepy-0.7.4.tar.gz
+[2024-05-03 03:33:35] INFO root fetch - processPackages [python-redux]: executing diffoscope
+[2024-05-03 03:33:35] INFO root fetch - processPackages [python-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redux-0.9.9.tar.gz tmp/python_redux-0.9.9a0.tar.gz --markdown 20240503/p/python-redux/0.9.9-0.9.9a0/README.md --exclude *.pyd
+[2024-05-03 03:33:35] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-03 03:33:35] INFO root fetch - processPackages [cgeniepy]: Downloading https://files.pythonhosted.org/packages/5c/d2/1553518c6b08d35659a6888c610de0d6f8979893c79d4729d7c29eb3a25d/cgeniepy-0.7.5.tar.gz
+[2024-05-03 03:33:35] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-03 03:33:35] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240503/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-03 03:33:35] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9.tar.gz]
+[2024-05-03 03:33:35] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9a0.tar.gz]
+[2024-05-03 03:33:35] INFO root fetch - main [MainThread]: End processing [python-redux]: success
+[2024-05-03 03:33:35] INFO root fetch - processPackages [cgeniepy]: executing diffoscope
+[2024-05-03 03:33:35] INFO root fetch - processPackages [cgeniepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgeniepy-0.7.4.tar.gz tmp/cgeniepy-0.7.5.tar.gz --markdown 20240503/c/cgeniepy/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-03 03:33:36] INFO root fetch - processPackages [cgeniepy]: Remove: archive file [/home/abi/fetcher/tmp/cgeniepy-0.7.4.tar.gz]
+[2024-05-03 03:33:36] INFO root fetch - processPackages [cgeniepy]: Remove: archive file [/home/abi/fetcher/tmp/cgeniepy-0.7.5.tar.gz]
+[2024-05-03 03:33:36] INFO root fetch - main [MainThread]: End processing [cgeniepy]: success
+[2024-05-03 03:33:36] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-03 03:33:36] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-03 03:33:36] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-03 03:33:36] INFO root fetch - main [MainThread]: Store serial: [23040420]
