@@ -9723,3 +9723,26 @@
 [2024-05-03 07:15:45] INFO root fetch - processPackages [file-ops-suite]: Remove: archive file [/home/abi/fetcher/tmp/file_ops_suite-0.0.9.tar.gz]
 [2024-05-03 07:15:45] INFO root fetch - main [MainThread]: End processing [file-ops-suite]: success
 [2024-05-03 07:15:45] INFO root fetch - main [MainThread]: Store serial: [23041737]
+[2024-05-03 07:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041737]
+[2024-05-03 07:17:55] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-03 07:19:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041738]
+[2024-05-03 07:20:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 07:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2024-05-03 07:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replicate-whisper-diarization
+[2024-05-03 07:20:00] INFO root fetch - processPackages [replicate-whisper-diarization]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-03 07:20:00] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-03 07:20:01] INFO root fetch - processPackages [replicate-whisper-diarization]: Downloading https://files.pythonhosted.org/packages/d4/16/832772bcc805294854d7be68560840180843e781b8dcf5dec9e431ac1304/replicate_whisper_diarization-0.2.2.tar.gz
+[2024-05-03 07:20:01] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-03 07:20:01] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-03 07:20:01] INFO root fetch - processPackages [replicate-whisper-diarization]: Downloading https://files.pythonhosted.org/packages/5d/37/d8b320f3d96a11163de51d6b8f508de999df3f8700a9c68d11fc3cd13a86/replicate_whisper_diarization-0.2.3.tar.gz
+[2024-05-03 07:20:01] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-03 07:20:01] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240503/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-03 07:20:01] INFO root fetch - processPackages [replicate-whisper-diarization]: executing diffoscope
+[2024-05-03 07:20:01] INFO root fetch - processPackages [replicate-whisper-diarization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replicate_whisper_diarization-0.2.2.tar.gz tmp/replicate_whisper_diarization-0.2.3.tar.gz --markdown 20240503/r/replicate-whisper-diarization/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-03 07:20:02] INFO root fetch - processPackages [replicate-whisper-diarization]: Remove: archive file [/home/abi/fetcher/tmp/replicate_whisper_diarization-0.2.2.tar.gz]
+[2024-05-03 07:20:02] INFO root fetch - processPackages [replicate-whisper-diarization]: Remove: archive file [/home/abi/fetcher/tmp/replicate_whisper_diarization-0.2.3.tar.gz]
+[2024-05-03 07:20:02] INFO root fetch - main [MainThread]: End processing [replicate-whisper-diarization]: success
+[2024-05-03 07:20:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-03 07:20:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-03 07:20:02] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-03 07:20:02] INFO root fetch - main [MainThread]: Store serial: [23041744]
