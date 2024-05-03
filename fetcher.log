@@ -9521,3 +9521,33 @@
 [2024-05-03 07:02:31] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.3.0.tar.gz]
 [2024-05-03 07:02:31] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-05-03 07:02:31] INFO root fetch - main [MainThread]: Store serial: [23041647]
+[2024-05-03 07:04:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041647]
+[2024-05-03 07:04:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 07:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: self-stats
+[2024-05-03 07:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-pms
+[2024-05-03 07:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: affinda
+[2024-05-03 07:04:41] INFO root fetch - processPackages [self-stats]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 07:04:41] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-05-03 07:04:41] INFO root fetch - processPackages [self-stats]: Downloading https://files.pythonhosted.org/packages/79/8a/887f6a7f166c46ace72fd90d5646bf655e04407e42f054b8d3e71052cd75/self_stats-0.1.0.tar.gz
+[2024-05-03 07:04:41] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-05-03 07:04:41] INFO root fetch - processPackages [affinda]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-03 07:04:41] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/b8/42/2d7ae0302daac690c91569d7fbb66707c626d6712fd25b8b2e92aba77435/affinda-4.8.1.tar.gz
+[2024-05-03 07:04:41] INFO root fetch - processPackages [self-stats]: Downloading https://files.pythonhosted.org/packages/1e/ce/716813414e5b055a148e417992343b75fcc92771ccb75dbde35259d1f548/self_stats-0.1.1.tar.gz
+[2024-05-03 07:04:41] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-05-03 07:04:41] INFO root fetch - processPackages [self-stats]: executing diffoscope
+[2024-05-03 07:04:41] INFO root fetch - processPackages [self-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/self_stats-0.1.0.tar.gz tmp/self_stats-0.1.1.tar.gz --markdown 20240503/s/self-stats/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 07:04:41] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-05-03 07:04:41] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-05-03 07:04:41] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/27/14/0974ffb17feb20d1870434401d523dfd68229befd4a340456b1a9f07ece3/affinda-4.9.0.tar.gz
+[2024-05-03 07:04:42] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2024-05-03 07:04:42] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.8.1.tar.gz tmp/affinda-4.9.0.tar.gz --markdown 20240503/a/affinda/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-03 07:04:42] INFO root fetch - processPackages [self-stats]: Remove: archive file [/home/abi/fetcher/tmp/self_stats-0.1.0.tar.gz]
+[2024-05-03 07:04:42] INFO root fetch - processPackages [self-stats]: Remove: archive file [/home/abi/fetcher/tmp/self_stats-0.1.1.tar.gz]
+[2024-05-03 07:04:42] INFO root fetch - main [MainThread]: End processing [self-stats]: success
+[2024-05-03 07:04:42] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-05-03 07:04:42] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-05-03 07:04:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-05-03 07:04:44] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.8.1.tar.gz]
+[2024-05-03 07:04:44] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.9.0.tar.gz]
+[2024-05-03 07:04:44] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2024-05-03 07:04:44] INFO root fetch - main [MainThread]: Store serial: [23041655]
