@@ -17608,3 +17608,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:31:03] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.9.tar.gz]
 [2024-05-03 13:31:03] INFO root fetch - main [MainThread]: End processing [hgraph]: success
 [2024-05-03 13:31:03] INFO root fetch - main [MainThread]: Store serial: [23045225]
+[2024-05-03 13:33:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045225]
+[2024-05-03 13:33:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zibanu-django
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edgehog
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synch2jira
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numerous
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alyx_setup_utils
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypowsybl
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lektor-fixedlang
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atmosphericRadiationDoseAndFlux
+[2024-05-03 13:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vital
+[2024-05-03 13:33:34] INFO root fetch - processPackages [numerous]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-03 13:33:34] INFO root fetch - processPackages [vital]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-03 13:33:34] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-05-03 13:33:34] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 13:33:34] WARNING root fetch - processPackages [alyx_setup_utils]: Skipping, unable to determine old version
+[2024-05-03 13:33:34] INFO root fetch - main [MainThread]: End processing [alyx_setup_utils] error
+[2024-05-03 13:33:34] INFO root fetch - processPackages [zibanu-django]: New version: [1.4.0b0] Old Version: [1.3.5]
+[2024-05-03 13:33:34] INFO root fetch - processPackages [lektor-fixedlang]: New version: [0.5] Old Version: [0.4]
+[2024-05-03 13:33:34] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-03 13:33:34] INFO root fetch - processPackages [edgehog]: New version: [0.1.4] Old Version: [0.1.0]
+[2024-05-03 13:33:34] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/4d/71/6df83a13aca4c814f89698c7322cbffc4e6753fbe399b4c29b41d5384dee/vital-2.1.4.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/12/c1/caf793b56f49484381beb48603b0970667860df8d4d39019a5a7c6a94ba5/numerous-0.0.9.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [pypowsybl]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-03 13:33:34] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: Downloading https://files.pythonhosted.org/packages/87/29/f37738f03771c3502b03fe3ad7f2fbdfa831c799fcac0260df8a007ca153/atmosphericradiationdoseandflux-1.0.4.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/57/7f/68102655089a5b26ff479350548214baf0065caebbebe63662b2d68ae677/zibanu-django-1.3.5.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [lektor-fixedlang]: Downloading https://files.pythonhosted.org/packages/29/ca/1715189047ca0b46da89f4897253f17000588356edef3eb8a2d1cbaf19b8/lektor_fixedlang-0.4.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [edgehog]: Downloading https://files.pythonhosted.org/packages/5a/02/d53962e024bcd109b24f493a9e8a18ad853635c6c3e1c9ec2f3fb54a3d77/edgehog-0.1.0.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-05-03 13:33:34] INFO root fetch - processPackages [pypowsybl]: Downloading https://files.pythonhosted.org/packages/51/91/f04015382f0ba84c8ac50bf3e1ac743a01554ebf6bf897573ebffbbe7a82/pypowsybl-1.4.0-cp39-cp39-win_amd64.whl
+[2024-05-03 13:33:34] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 13:33:35] WARNING root fetch - processPackages [pypowsybl]: Skipping package: exceeds size limit 45737861>=10485760
+[2024-05-03 13:33:35] INFO root fetch - main [MainThread]: End processing [pypowsybl] error
+[2024-05-03 13:33:35] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/59/bb/2c78a5b732d6f04d4f2ebcc37cc9898cdfa260e451c9e27143d96357f412/vital-2.1.5.tar.gz
+[2024-05-03 13:33:35] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-05-03 13:33:35] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240503/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-05-03 13:33:35] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 13:33:35] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 13:33:35] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: Downloading https://files.pythonhosted.org/packages/d9/69/79d69a330faa9f3b7bbe6970dbf92fd7db89c5501ff7fba62169605e37d3/atmosphericradiationdoseandflux-1.0.5.tar.gz
+[2024-05-03 13:33:35] INFO root fetch - processPackages [vital]: executing diffoscope
+[2024-05-03 13:33:35] INFO root fetch - processPackages [vital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-2.1.4.tar.gz tmp/vital-2.1.5.tar.gz --markdown 20240503/v/vital/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-03 13:33:35] INFO root fetch - processPackages [edgehog]: Downloading https://files.pythonhosted.org/packages/d5/82/9096d7376fca9037a1d26746deaabe5f65d7aab433cc4715d1427e7c24e2/edgehog-0.1.4.tar.gz
+[2024-05-03 13:33:35] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/9b/15/5b0d1a98998d977976a1c470ca70391d655ed45a240871c28af20fba168a/zibanu_django-1.4.0b0.tar.gz
+[2024-05-03 13:33:35] INFO root fetch - processPackages [lektor-fixedlang]: Downloading https://files.pythonhosted.org/packages/e1/b3/527cc82cda8893eb81dc562b0d6b90c5d93165bbd3e2a1d50e0da1b1d262/lektor_fixedlang-0.5.tar.gz
+[2024-05-03 13:33:35] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 38078756>=10485760
+[2024-05-03 13:33:35] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-05-03 13:33:35] INFO root fetch - processPackages [edgehog]: executing diffoscope
+[2024-05-03 13:33:35] INFO root fetch - processPackages [edgehog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgehog-0.1.0.tar.gz tmp/edgehog-0.1.4.tar.gz --markdown 20240503/e/edgehog/0.1.0-0.1.4/README.md --exclude *.pyd
+[2024-05-03 13:33:35] INFO root fetch - processPackages [zibanu-django]: executing diffoscope
+[2024-05-03 13:33:35] INFO root fetch - processPackages [zibanu-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu-django-1.3.5.tar.gz tmp/zibanu_django-1.4.0b0.tar.gz --markdown 20240503/z/zibanu-django/1.3.5-1.4.0b0/README.md --exclude *.pyd
+[2024-05-03 13:33:35] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: executing diffoscope
+[2024-05-03 13:33:35] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmosphericradiationdoseandflux-1.0.4.tar.gz tmp/atmosphericradiationdoseandflux-1.0.5.tar.gz --markdown 20240503/a/atmosphericRadiationDoseAndFlux/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-03 13:33:35] INFO root fetch - processPackages [lektor-fixedlang]: executing diffoscope
+[2024-05-03 13:33:35] INFO root fetch - processPackages [lektor-fixedlang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektor_fixedlang-0.4.tar.gz tmp/lektor_fixedlang-0.5.tar.gz --markdown 20240503/l/lektor-fixedlang/0.4-0.5/README.md --exclude *.pyd
+[2024-05-03 13:33:35] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-05-03 13:33:35] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-05-03 13:33:35] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-05-03 13:33:36] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 13:33:36] INFO root fetch - processPackages [edgehog]: Remove: archive file [/home/abi/fetcher/tmp/edgehog-0.1.0.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - processPackages [edgehog]: Remove: archive file [/home/abi/fetcher/tmp/edgehog-0.1.4.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - main [MainThread]: End processing [edgehog]: success
+[2024-05-03 13:33:36] INFO root fetch - processPackages [lektor-fixedlang]: Remove: archive file [/home/abi/fetcher/tmp/lektor_fixedlang-0.4.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - processPackages [lektor-fixedlang]: Remove: archive file [/home/abi/fetcher/tmp/lektor_fixedlang-0.5.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - main [MainThread]: End processing [lektor-fixedlang]: success
+[2024-05-03 13:33:36] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: Remove: archive file [/home/abi/fetcher/tmp/atmosphericradiationdoseandflux-1.0.4.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: Remove: archive file [/home/abi/fetcher/tmp/atmosphericradiationdoseandflux-1.0.5.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - main [MainThread]: End processing [atmosphericRadiationDoseAndFlux]: success
+[2024-05-03 13:33:36] INFO root fetch - processPackages [zibanu-django]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-1.3.5.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - processPackages [zibanu-django]: Remove: archive file [/home/abi/fetcher/tmp/zibanu_django-1.4.0b0.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - main [MainThread]: End processing [zibanu-django]: success
+[2024-05-03 13:33:36] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.4.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.5.tar.gz]
+[2024-05-03 13:33:36] INFO root fetch - main [MainThread]: End processing [vital]: success
+[2024-05-03 13:33:36] INFO root fetch - main [MainThread]: Store serial: [23045261]
