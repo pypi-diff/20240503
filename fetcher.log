@@ -8412,3 +8412,30 @@
 [2024-05-03 05:34:05] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
 [2024-05-03 05:34:05] INFO root fetch - main [MainThread]: End processing [reactivated]: success
 [2024-05-03 05:34:05] INFO root fetch - main [MainThread]: Store serial: [23041202]
+[2024-05-03 05:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041202]
+[2024-05-03 05:36:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 05:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topt
+[2024-05-03 05:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-hcp
+[2024-05-03 05:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conversion_utils
+[2024-05-03 05:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repo2docs
+[2024-05-03 05:36:14] WARNING root fetch - processPackages [conversion_utils]: Skipping, unable to determine old version
+[2024-05-03 05:36:14] INFO root fetch - main [MainThread]: End processing [conversion_utils] error
+[2024-05-03 05:36:14] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 05:36:14] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: New version: [9.8.0] Old Version: [9.7.0]
+[2024-05-03 05:36:14] WARNING root fetch - processPackages [topt]: Skipping, unable to determine old version
+[2024-05-03 05:36:14] INFO root fetch - main [MainThread]: End processing [topt] error
+[2024-05-03 05:36:14] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 05:36:14] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/26/99/f5e3426538539054cdebdda5840a77fd52248bb764935cae098a4878214b/cdktf-cdktf-provider-hcp-9.7.0.tar.gz
+[2024-05-03 05:36:14] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 05:36:14] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 05:36:14] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 05:36:15] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/73/f0/dc3b2096146433db58b81ea406510a87c44d52e7ceefee35f70adfa3980b/cdktf-cdktf-provider-hcp-9.8.0.tar.gz
+[2024-05-03 05:36:15] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: executing diffoscope
+[2024-05-03 05:36:15] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-hcp-9.7.0.tar.gz tmp/cdktf-cdktf-provider-hcp-9.8.0.tar.gz --markdown 20240503/c/cdktf-cdktf-provider-hcp/9.7.0-9.8.0/README.md --exclude *.pyd
+[2024-05-03 05:36:15] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 05:36:15] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 05:36:15] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 05:36:17] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.7.0.tar.gz]
+[2024-05-03 05:36:17] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.8.0.tar.gz]
+[2024-05-03 05:36:17] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
+[2024-05-03 05:36:17] INFO root fetch - main [MainThread]: Store serial: [23041216]
