@@ -2828,3 +2828,33 @@
 [2024-05-03 02:50:58] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-2.0.0b0.tar.gz]
 [2024-05-03 02:50:58] INFO root fetch - main [MainThread]: End processing [osmnx]: success
 [2024-05-03 02:50:58] INFO root fetch - main [MainThread]: Store serial: [23039175]
+[2024-05-03 02:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23039175]
+[2024-05-03 02:53:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 02:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-redux
+[2024-05-03 02:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioversions
+[2024-05-03 02:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-05-03 02:53:08] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-03 02:53:08] INFO root fetch - processPackages [python-redux]: New version: [0.9.9a0] Old Version: [0.9.9]
+[2024-05-03 02:53:08] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-03 02:53:08] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-03 02:53:08] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-03 02:53:08] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/25/f6/7f30f318faa9b9b4ed3d5b4517bc78ba60a0a3853efcecbfb8f1093f06f8/python_redux-0.9.9.tar.gz
+[2024-05-03 02:53:08] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-03 02:53:09] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-03 02:53:09] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-03 02:53:09] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240503/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-03 02:53:09] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-03 02:53:09] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240503/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-03 02:53:09] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/78/88/2425c5253a8005201b5b26b38481ea8784a32bea175f334a08082da43388/python_redux-0.9.9a0.tar.gz
+[2024-05-03 02:53:09] INFO root fetch - processPackages [python-redux]: executing diffoscope
+[2024-05-03 02:53:09] INFO root fetch - processPackages [python-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redux-0.9.9.tar.gz tmp/python_redux-0.9.9a0.tar.gz --markdown 20240503/p/python-redux/0.9.9-0.9.9a0/README.md --exclude *.pyd
+[2024-05-03 02:53:09] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-03 02:53:09] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-03 02:53:09] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-03 02:53:09] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9.tar.gz]
+[2024-05-03 02:53:09] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9a0.tar.gz]
+[2024-05-03 02:53:09] INFO root fetch - main [MainThread]: End processing [python-redux]: success
+[2024-05-03 02:53:28] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-03 02:53:28] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-03 02:53:28] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-03 02:53:28] INFO root fetch - main [MainThread]: Store serial: [23039184]
