@@ -16867,3 +16867,42 @@
 [2024-05-03 13:02:47] INFO root fetch - processPackages [DiffeRT]: Remove: archive file [/home/abi/fetcher/tmp/DiffeRT-0.0.9.tar.gz]
 [2024-05-03 13:02:47] INFO root fetch - main [MainThread]: End processing [DiffeRT]: success
 [2024-05-03 13:02:47] INFO root fetch - main [MainThread]: Store serial: [23044884]
+[2024-05-03 13:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23044884]
+[2024-05-03 13:05:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arolla-test
+[2024-05-03 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squlearn
+[2024-05-03 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PepperPepper
+[2024-05-03 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-serving
+[2024-05-03 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iccicd
+[2024-05-03 13:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lavague
+[2024-05-03 13:05:17] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.6.8] Old Version: [0.0.6.7]
+[2024-05-03 13:05:17] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/3c/7c/ebcd20c92c5d47924d92d921a7e67ed2f43c3d4bf148e5845f8844da759f/pepperpepper-0.0.6.7.tar.gz
+[2024-05-03 13:05:17] WARNING root fetch - processPackages [tf-serving]: Skipping, unable to determine old version
+[2024-05-03 13:05:17] INFO root fetch - main [MainThread]: End processing [tf-serving] error
+[2024-05-03 13:05:17] WARNING root fetch - processPackages [arolla-test]: Skipping, unable to determine old version
+[2024-05-03 13:05:17] INFO root fetch - main [MainThread]: End processing [arolla-test] error
+[2024-05-03 13:05:17] WARNING root fetch - processPackages [iccicd]: Skipping, unable to determine old version
+[2024-05-03 13:05:17] INFO root fetch - processPackages [squlearn]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-03 13:05:17] INFO root fetch - main [MainThread]: End processing [iccicd] error
+[2024-05-03 13:05:17] INFO root fetch - processPackages [lavague]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 13:05:18] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/db/62/c2c66b9879874c56e2ef4633b25bd480903be891788f81e446d5071347b0/squlearn-0.7.1.tar.gz
+[2024-05-03 13:05:18] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/b0/fa/e20813e49f490477b80c5b638ee1f7a8f5f0dbc3dff78c34a4896c8b2b9c/lavague-1.0.8.tar.gz
+[2024-05-03 13:05:18] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/b3/15/a0867b36624a757d2f2571a3bfd02c4bd757e291d599a16b5b55ffe7a497/pepperpepper-0.0.6.8.tar.gz
+[2024-05-03 13:05:18] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-03 13:05:18] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.6.7.tar.gz tmp/pepperpepper-0.0.6.8.tar.gz --markdown 20240503/P/PepperPepper/0.0.6.7-0.0.6.8/README.md --exclude *.pyd
+[2024-05-03 13:05:18] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/60/cb/7b6033d655fe04e7fccb06f4409ba468218cb80c59d82064105a3e64f973/lavague-1.0.9.tar.gz
+[2024-05-03 13:05:18] INFO root fetch - processPackages [lavague]: executing diffoscope
+[2024-05-03 13:05:18] INFO root fetch - processPackages [lavague]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague-1.0.8.tar.gz tmp/lavague-1.0.9.tar.gz --markdown 20240503/l/lavague/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 13:05:18] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.7.tar.gz]
+[2024-05-03 13:05:18] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.8.tar.gz]
+[2024-05-03 13:05:18] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-03 13:05:19] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/ba/a7/170d412aaf713dabfad8b2a0de783e3fadc15803fc12f32e78e2d1a250bb/squlearn-0.7.2.tar.gz
+[2024-05-03 13:05:19] INFO root fetch - processPackages [squlearn]: executing diffoscope
+[2024-05-03 13:05:19] INFO root fetch - processPackages [squlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squlearn-0.7.1.tar.gz tmp/squlearn-0.7.2.tar.gz --markdown 20240503/s/squlearn/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-03 13:05:19] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.8.tar.gz]
+[2024-05-03 13:05:19] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.9.tar.gz]
+[2024-05-03 13:05:19] INFO root fetch - main [MainThread]: End processing [lavague]: success
+[2024-05-03 13:05:20] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.1.tar.gz]
+[2024-05-03 13:05:20] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.2.tar.gz]
+[2024-05-03 13:05:20] INFO root fetch - main [MainThread]: End processing [squlearn]: success
+[2024-05-03 13:05:20] INFO root fetch - main [MainThread]: Store serial: [23044911]
