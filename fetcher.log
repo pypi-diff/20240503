@@ -18608,3 +18608,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:17:09] INFO root fetch - processPackages [spark-on-k8s]: Remove: archive file [/home/abi/fetcher/tmp/spark_on_k8s-0.5.2.tar.gz]
 [2024-05-03 14:17:09] INFO root fetch - main [MainThread]: End processing [spark-on-k8s]: success
 [2024-05-03 14:17:09] INFO root fetch - main [MainThread]: Store serial: [23045716]
+[2024-05-03 14:19:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045716]
+[2024-05-03 14:19:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 14:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hhd
+[2024-05-03 14:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: couchdb-client
+[2024-05-03 14:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbrepo
+[2024-05-03 14:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: praisonai-tools
+[2024-05-03 14:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monisha
+[2024-05-03 14:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-delivery-split-date
+[2024-05-03 14:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naas-python
+[2024-05-03 14:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyegeria
+[2024-05-03 14:19:42] INFO root fetch - processPackages [hhd]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-05-03 14:19:42] INFO root fetch - processPackages [pyegeria]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-03 14:19:42] INFO root fetch - processPackages [naas-python]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-03 14:19:42] WARNING root fetch - processPackages [praisonai-tools]: Skipping, unable to determine old version
+[2024-05-03 14:19:42] INFO root fetch - main [MainThread]: End processing [praisonai-tools] error
+[2024-05-03 14:19:42] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.2]
+[2024-05-03 14:19:42] INFO root fetch - processPackages [couchdb-client]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-05-03 14:19:42] INFO root fetch - processPackages [monisha]: New version: [0.0.65] Old Version: [0.0.64]
+[2024-05-03 14:19:42] INFO root fetch - processPackages [naas-python]: Downloading https://files.pythonhosted.org/packages/95/2b/b9a6ce60acd09a8f77f296bbd504077fa5c2b5a361775280c683ba2c579f/naas_python-1.3.0.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [dbrepo]: New version: [1.4.3rc3] Old Version: [1.4.3rc2]
+[2024-05-03 14:19:42] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/ec/82/0298f933f068038b58aaa0f1fe7857079706689c2266a4dacdbce7fa508c/pyegeria-0.3.5.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [hhd]: Downloading https://files.pythonhosted.org/packages/fa/d9/7ba36e654e4d171bec37b977601844d80ad0262f618dd27b1b54e985ebea/hhd-2.6.4.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: Downloading https://files.pythonhosted.org/packages/93/31/ddfd14ebd0d7376c95d4184bc65e00f2c2f37fe56c3879431956bcb75c74/odoo_addon_purchase_delivery_split_date-16.0.1.0.2-py3-none-any.whl
+[2024-05-03 14:19:42] INFO root fetch - processPackages [couchdb-client]: Downloading https://files.pythonhosted.org/packages/ce/fb/74cd7e45458a6b92ba84909d5adab5bf97f196fbee5bb21eb93a81571585/couchdb_client-1.0.1.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/06/e6/01601c94af5acd0ee1f0ff4b30eb133d6e8a61a7b17f06e61dbd4c347d85/dbrepo-1.4.3rc2.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/42/b7/3fc0017fdb9e8dd7edfd3d7b07ce35c10d0f25e629247af0752fb7677f1e/monisha-0.0.64.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/42/55/1780d641016c015646a6fc9add2cd6526d179e3ba00d812006c127db53f4/pyegeria-0.3.6.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [naas-python]: Downloading https://files.pythonhosted.org/packages/8c/21/14c7e946d36679891b095c39ef678d656f4092d200152b2b8bfcbf81c3d4/naas_python-1.3.1.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [hhd]: Downloading https://files.pythonhosted.org/packages/21/9c/ac90b2b3c99eaac4d84dc8c791b3f5ca842d0cfd6798a7d9beefe0c51a14/hhd-2.6.5.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [naas-python]: executing diffoscope
+[2024-05-03 14:19:42] INFO root fetch - processPackages [naas-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas_python-1.3.0.tar.gz tmp/naas_python-1.3.1.tar.gz --markdown 20240503/n/naas-python/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-03 14:19:42] INFO root fetch - processPackages [pyegeria]: executing diffoscope
+[2024-05-03 14:19:42] INFO root fetch - processPackages [pyegeria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyegeria-0.3.5.tar.gz tmp/pyegeria-0.3.6.tar.gz --markdown 20240503/p/pyegeria/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-03 14:19:42] INFO root fetch - processPackages [hhd]: executing diffoscope
+[2024-05-03 14:19:42] INFO root fetch - processPackages [hhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhd-2.6.4.tar.gz tmp/hhd-2.6.5.tar.gz --markdown 20240503/h/hhd/2.6.4-2.6.5/README.md --exclude *.pyd
+[2024-05-03 14:19:42] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/16/8f/7a6a5804a6448dff5efc01624463639e4953e535e2ea18998c9e494a6d13/dbrepo-1.4.3rc3.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [couchdb-client]: Downloading https://files.pythonhosted.org/packages/de/0e/80090eb9f3fddb68b04425834a87c3150fe35a7d2027afb9349f6e211d9f/couchdb_client-1.0.3.tar.gz
+[2024-05-03 14:19:42] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/5f/e5/05c995013e1132ca584f84187f39f0657da5a68b9af29411c7d88920d314/monisha-0.0.65.tar.gz
+[2024-05-03 14:19:43] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: Downloading https://files.pythonhosted.org/packages/94/3e/f9901405be5b225d5637e9b8d06b39afa782d89a97a5ac6226d7c8dc3387/odoo_addon_purchase_delivery_split_date-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 14:19:43] INFO root fetch - processPackages [dbrepo]: executing diffoscope
+[2024-05-03 14:19:43] INFO root fetch - processPackages [dbrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrepo-1.4.3rc2.tar.gz tmp/dbrepo-1.4.3rc3.tar.gz --markdown 20240503/d/dbrepo/1.4.3rc2-1.4.3rc3/README.md --exclude *.pyd
+[2024-05-03 14:19:43] INFO root fetch - processPackages [couchdb-client]: executing diffoscope
+[2024-05-03 14:19:43] INFO root fetch - processPackages [couchdb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchdb_client-1.0.1.tar.gz tmp/couchdb_client-1.0.3.tar.gz --markdown 20240503/c/couchdb-client/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-05-03 14:19:43] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-05-03 14:19:43] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.64.tar.gz tmp/monisha-0.0.65.tar.gz --markdown 20240503/m/monisha/0.0.64-0.0.65/README.md --exclude *.pyd
+[2024-05-03 14:19:43] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: executing diffoscope
+[2024-05-03 14:19:43] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_delivery_split_date-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_delivery_split_date-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-purchase-delivery-split-date/16.0.1.0.2-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-03 14:19:43] INFO root fetch - processPackages [naas-python]: Remove: archive file [/home/abi/fetcher/tmp/naas_python-1.3.0.tar.gz]
+[2024-05-03 14:19:43] INFO root fetch - processPackages [naas-python]: Remove: archive file [/home/abi/fetcher/tmp/naas_python-1.3.1.tar.gz]
+[2024-05-03 14:19:43] INFO root fetch - main [MainThread]: End processing [naas-python]: success
+[2024-05-03 14:19:43] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.3rc2.tar.gz]
+[2024-05-03 14:19:43] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.3rc3.tar.gz]
+[2024-05-03 14:19:43] INFO root fetch - main [MainThread]: End processing [dbrepo]: success
+[2024-05-03 14:19:43] INFO root fetch - processPackages [couchdb-client]: Remove: archive file [/home/abi/fetcher/tmp/couchdb_client-1.0.1.tar.gz]
+[2024-05-03 14:19:43] INFO root fetch - processPackages [couchdb-client]: Remove: archive file [/home/abi/fetcher/tmp/couchdb_client-1.0.3.tar.gz]
+[2024-05-03 14:19:43] INFO root fetch - main [MainThread]: End processing [couchdb-client]: success
+[2024-05-03 14:19:43] INFO root fetch - processPackages [hhd]: Remove: archive file [/home/abi/fetcher/tmp/hhd-2.6.4.tar.gz]
+[2024-05-03 14:19:43] INFO root fetch - processPackages [hhd]: Remove: archive file [/home/abi/fetcher/tmp/hhd-2.6.5.tar.gz]
+[2024-05-03 14:19:43] INFO root fetch - main [MainThread]: End processing [hhd]: success
+[2024-05-03 14:19:44] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.5.tar.gz]
+[2024-05-03 14:19:44] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.6.tar.gz]
+[2024-05-03 14:19:44] INFO root fetch - main [MainThread]: End processing [pyegeria]: success
+[2024-05-03 14:19:44] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_delivery_split_date-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-03 14:19:44] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_delivery_split_date-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 14:19:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-delivery-split-date]: success
+[2024-05-03 14:19:44] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.64.tar.gz]
+[2024-05-03 14:19:44] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.65.tar.gz]
+[2024-05-03 14:19:44] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-05-03 14:19:44] INFO root fetch - main [MainThread]: Store serial: [23045741]
