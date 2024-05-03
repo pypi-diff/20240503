@@ -8767,3 +8767,72 @@
 [2024-05-03 05:59:19] INFO root fetch - processPackages [stable-ts-whisperless]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-whisperless-2.17.0.tar.gz]
 [2024-05-03 05:59:19] INFO root fetch - main [MainThread]: End processing [stable-ts-whisperless]: success
 [2024-05-03 05:59:19] INFO root fetch - main [MainThread]: Store serial: [23041334]
+[2024-05-03 06:01:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041334]
+[2024-05-03 06:01:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo2docs
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parameter-sweep
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-be-apb-tax
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-be-antibiotic-tax
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-be-eco-tax
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-l10n-belgium
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pkg-inspect
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssm-svg
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ssm-svg]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addons-oca-l10n-belgium]: New version: [16.0.20240502.0] Old Version: [16.0.20240419.0]
+[2024-05-03 06:01:28] INFO root fetch - processPackages [repo2docs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ssm-svg]: Downloading https://files.pythonhosted.org/packages/eb/19/cfac1601ab86a98485005e8fe2b6abcff052a4636a9707ea5407d0cff0aa/ssm_svg-0.0.4.tar.gz
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addon-l10n-be-apb-tax]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-05-03 06:01:28] INFO root fetch - processPackages [pkg-inspect]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-03 06:01:28] WARNING root fetch - processPackages [parameter-sweep]: Skipping, unable to determine old version
+[2024-05-03 06:01:28] INFO root fetch - main [MainThread]: End processing [parameter-sweep] error
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addon-l10n-be-antibiotic-tax]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addon-l10n-be-eco-tax]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addons-oca-l10n-belgium]: Downloading https://files.pythonhosted.org/packages/42/5c/05b924b7b48d1bc75b435aa10fce8ec4e46cfd048b6db890a6999749dba8/odoo_addons_oca_l10n_belgium-16.0.20240419.0-py3-none-any.whl
+[2024-05-03 06:01:28] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/de/17/902c6cd40dd8d1dae3d3daf366c8d7eccb773e7680f1f868dc5267d0e86d/repo2docs-0.1.8.tar.gz
+[2024-05-03 06:01:28] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/4e/e9/70d33caa83458f0529b476a34c41a509752b5e97ee6aabdc21bc24e5b664/pkg_inspect-0.1.2.tar.gz
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addon-l10n-be-apb-tax]: Downloading https://files.pythonhosted.org/packages/fb/91/b9f6ae3fa7bec6c3c253637981ca3423c00bddad4b9f857820ac6f2390dd/odoo_addon_l10n_be_apb_tax-16.0.1.0.1-py3-none-any.whl
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addon-l10n-be-eco-tax]: Downloading https://files.pythonhosted.org/packages/ab/7d/068ead17c94214974a4417d69592a31d724664dfcb9be9610a3498ea19f6/odoo_addon_l10n_be_eco_tax-16.0.1.0.1-py3-none-any.whl
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addon-l10n-be-antibiotic-tax]: Downloading https://files.pythonhosted.org/packages/04/40/deac78062ca6507df10dfa4430e44a0aaea89e76ead06b949452daa92b16/odoo_addon_l10n_be_antibiotic_tax-16.0.1.0.1-py3-none-any.whl
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ssm-svg]: Downloading https://files.pythonhosted.org/packages/2e/b9/edfdbb2fe8bbecb2ee7a971b01ecf0243a552a3dab5a912aeb525077f8cc/ssm_svg-0.0.5.tar.gz
+[2024-05-03 06:01:28] INFO root fetch - processPackages [repo2docs]: Downloading https://files.pythonhosted.org/packages/1f/56/64cc59328240723382934dc4ecb739c6d7a6769a25ac41140feacad9d738/repo2docs-0.1.9.tar.gz
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ssm-svg]: executing diffoscope
+[2024-05-03 06:01:28] INFO root fetch - processPackages [ssm-svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssm_svg-0.0.4.tar.gz tmp/ssm_svg-0.0.5.tar.gz --markdown 20240503/s/ssm-svg/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addons-oca-l10n-belgium]: Downloading https://files.pythonhosted.org/packages/31/fe/cb0d1b2f24afd644fa40f8093a82b9a57d846166df2abfa59a278c91b2a4/odoo_addons_oca_l10n_belgium-16.0.20240502.0-py3-none-any.whl
+[2024-05-03 06:01:28] INFO root fetch - processPackages [repo2docs]: executing diffoscope
+[2024-05-03 06:01:28] INFO root fetch - processPackages [repo2docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2docs-0.1.8.tar.gz tmp/repo2docs-0.1.9.tar.gz --markdown 20240503/r/repo2docs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addon-l10n-be-apb-tax]: Downloading https://files.pythonhosted.org/packages/2e/80/e1ec29db2d1f3ffb56d34c8f614749d2c6ef56eef9379ec879c6ec8c7e57/odoo_addon_l10n_be_apb_tax-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-03 06:01:28] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/71/65/93bb18801e7c52710b6ebf8a1fab8035bd09871706c99352d605becdbf4f/pkg_inspect-0.1.3.tar.gz
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addon-l10n-be-eco-tax]: Downloading https://files.pythonhosted.org/packages/21/a1/6652fe8ad59e1889eb9f009e424486e45bc6a753a3e82437326511cd8daf/odoo_addon_l10n_be_eco_tax-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addons-oca-l10n-belgium]: executing diffoscope
+[2024-05-03 06:01:28] INFO root fetch - processPackages [odoo-addons-oca-l10n-belgium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_belgium-16.0.20240419.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_belgium-16.0.20240502.0-py3-none-any.whl.zip --markdown 20240503/o/odoo-addons-oca-l10n-belgium/16.0.20240419.0-16.0.20240502.0/README.md --exclude *.pyd
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-apb-tax]: executing diffoscope
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-apb-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_be_apb_tax-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_be_apb_tax-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-be-apb-tax/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-antibiotic-tax]: Downloading https://files.pythonhosted.org/packages/bc/16/30a9f2c91657e1fa1fd26ccc4dc959c1ecaae8a2f3a8dda1b99d90f13f38/odoo_addon_l10n_be_antibiotic_tax-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-03 06:01:29] INFO root fetch - processPackages [pkg-inspect]: executing diffoscope
+[2024-05-03 06:01:29] INFO root fetch - processPackages [pkg-inspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_inspect-0.1.2.tar.gz tmp/pkg_inspect-0.1.3.tar.gz --markdown 20240503/p/pkg-inspect/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-eco-tax]: executing diffoscope
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-eco-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_be_eco_tax-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_be_eco_tax-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-be-eco-tax/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-antibiotic-tax]: executing diffoscope
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-antibiotic-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_be_antibiotic_tax-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_be_antibiotic_tax-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-l10n-be-antibiotic-tax/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-03 06:01:29] INFO root fetch - processPackages [ssm-svg]: Remove: archive file [/home/abi/fetcher/tmp/ssm_svg-0.0.4.tar.gz]
+[2024-05-03 06:01:29] INFO root fetch - processPackages [ssm-svg]: Remove: archive file [/home/abi/fetcher/tmp/ssm_svg-0.0.5.tar.gz]
+[2024-05-03 06:01:29] INFO root fetch - main [MainThread]: End processing [ssm-svg]: success
+[2024-05-03 06:01:29] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.8.tar.gz]
+[2024-05-03 06:01:29] INFO root fetch - processPackages [repo2docs]: Remove: archive file [/home/abi/fetcher/tmp/repo2docs-0.1.9.tar.gz]
+[2024-05-03 06:01:29] INFO root fetch - main [MainThread]: End processing [repo2docs]: success
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addons-oca-l10n-belgium]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_belgium-16.0.20240419.0-py3-none-any.whl.zip]
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addons-oca-l10n-belgium]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_belgium-16.0.20240502.0-py3-none-any.whl.zip]
+[2024-05-03 06:01:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-belgium]: success
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-apb-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_apb_tax-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-apb-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_apb_tax-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-03 06:01:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-apb-tax]: success
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-eco-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_eco_tax-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-eco-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_eco_tax-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-03 06:01:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-eco-tax]: success
+[2024-05-03 06:01:29] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.2.tar.gz]
+[2024-05-03 06:01:29] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.3.tar.gz]
+[2024-05-03 06:01:29] INFO root fetch - main [MainThread]: End processing [pkg-inspect]: success
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-antibiotic-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_antibiotic_tax-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 06:01:29] INFO root fetch - processPackages [odoo-addon-l10n-be-antibiotic-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_antibiotic_tax-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-03 06:01:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-antibiotic-tax]: success
+[2024-05-03 06:01:29] INFO root fetch - main [MainThread]: Store serial: [23041356]
