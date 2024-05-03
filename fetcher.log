@@ -21171,3 +21171,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:10:31] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
 [2024-05-03 16:10:31] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
 [2024-05-03 16:10:31] INFO root fetch - main [MainThread]: Store serial: [23046917]
+[2024-05-03 16:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046917]
+[2024-05-03 16:12:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aaiotrello
+[2024-05-03 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openg2p-g2pconnect-common-lib
+[2024-05-03 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embykeeper
+[2024-05-03 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mneflow
+[2024-05-03 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-ph
+[2024-05-03 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2024-05-03 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minivectordb
+[2024-05-03 16:12:59] INFO root fetch - processPackages [mneflow]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-03 16:12:59] INFO root fetch - processPackages [honeybee-ph]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-03 16:12:59] INFO root fetch - processPackages [embykeeper]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-03 16:12:59] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-03 16:12:59] WARNING root fetch - processPackages [openg2p-g2pconnect-common-lib]: Skipping, unable to determine old version
+[2024-05-03 16:12:59] INFO root fetch - main [MainThread]: End processing [openg2p-g2pconnect-common-lib] error
+[2024-05-03 16:12:59] INFO root fetch - processPackages [mneflow]: Downloading https://files.pythonhosted.org/packages/e0/94/c96df6c1131b6df305e228b3291132a958324bc82ba917b18e977da4ad9a/mneflow-0.5.8.tar.gz
+[2024-05-03 16:12:59] INFO root fetch - processPackages [aaiotrello]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-03 16:13:00] INFO root fetch - processPackages [minivectordb]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-03 16:13:00] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/d0/e6/4bb1ee3290f4aba08e9d6751566f039db27dba7d51553fc0681095c6a015/embykeeper-3.2.8.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/df/b8/fda4cf01d94f48d6d3083d5708571ff82cc12c33ab31021c75eae52fddf7/honeybee-ph-1.9.0.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [aaiotrello]: Downloading https://files.pythonhosted.org/packages/73/3e/fc7a21005872d1ecd8157ffca9aa6c01b19319dac1b74b3a1c92f1f68099/aaiotrello-1.0.2.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [mneflow]: Downloading https://files.pythonhosted.org/packages/14/60/b2f0ab81377f72e989d524e2a941c8baae4366f09c4117d5bbd3516e6701/mneflow-0.5.9.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [minivectordb]: Downloading https://files.pythonhosted.org/packages/1e/42/f1094ffbc1b6c7890b9b115502fae0e44bf182f1fc166138139b0d37a06b/minivectordb-1.4.2.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/02/85/cffd52bc872be074110305f46303d258fa7478eab3eae08d86465d0653a8/embykeeper-3.2.9.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/ac/3b/94670944c4a0e9844a88bedad8d71fd687fa1d4179f07d807acb90be0100/honeybee-ph-1.9.1.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [mneflow]: executing diffoscope
+[2024-05-03 16:13:00] INFO root fetch - processPackages [mneflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mneflow-0.5.8.tar.gz tmp/mneflow-0.5.9.tar.gz --markdown 20240503/m/mneflow/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-03 16:13:00] WARNING root fetch - processPackages [minivectordb]: Skipping package: exceeds size limit 45077342>=10485760
+[2024-05-03 16:13:00] INFO root fetch - main [MainThread]: End processing [minivectordb] error
+[2024-05-03 16:13:00] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2024-05-03 16:13:00] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-3.2.8.tar.gz tmp/embykeeper-3.2.9.tar.gz --markdown 20240503/e/embykeeper/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-03 16:13:00] INFO root fetch - processPackages [honeybee-ph]: executing diffoscope
+[2024-05-03 16:13:00] INFO root fetch - processPackages [honeybee-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-ph-1.9.0.tar.gz tmp/honeybee-ph-1.9.1.tar.gz --markdown 20240503/h/honeybee-ph/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-03 16:13:00] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-03 16:13:00] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240503/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-03 16:13:00] INFO root fetch - processPackages [aaiotrello]: Downloading https://files.pythonhosted.org/packages/75/93/3964b77d35f5d15924c65be3e3266636e244b2a232083b8b2c902ba1b85d/aaiotrello-2.0.0.tar.gz
+[2024-05-03 16:13:00] INFO root fetch - processPackages [aaiotrello]: executing diffoscope
+[2024-05-03 16:13:00] INFO root fetch - processPackages [aaiotrello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaiotrello-1.0.2.tar.gz tmp/aaiotrello-2.0.0.tar.gz --markdown 20240503/a/aaiotrello/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-03 16:13:01] INFO root fetch - processPackages [mneflow]: Remove: archive file [/home/abi/fetcher/tmp/mneflow-0.5.8.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - processPackages [mneflow]: Remove: archive file [/home/abi/fetcher/tmp/mneflow-0.5.9.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - main [MainThread]: End processing [mneflow]: success
+[2024-05-03 16:13:01] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.0.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.1.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
+[2024-05-03 16:13:01] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-03 16:13:01] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.8.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.9.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2024-05-03 16:13:01] INFO root fetch - processPackages [aaiotrello]: Remove: archive file [/home/abi/fetcher/tmp/aaiotrello-1.0.2.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - processPackages [aaiotrello]: Remove: archive file [/home/abi/fetcher/tmp/aaiotrello-2.0.0.tar.gz]
+[2024-05-03 16:13:01] INFO root fetch - main [MainThread]: End processing [aaiotrello]: success
+[2024-05-03 16:13:01] INFO root fetch - main [MainThread]: Store serial: [23046936]
