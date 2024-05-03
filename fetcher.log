@@ -21227,3 +21227,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:13:01] INFO root fetch - processPackages [aaiotrello]: Remove: archive file [/home/abi/fetcher/tmp/aaiotrello-2.0.0.tar.gz]
 [2024-05-03 16:13:01] INFO root fetch - main [MainThread]: End processing [aaiotrello]: success
 [2024-05-03 16:13:01] INFO root fetch - main [MainThread]: Store serial: [23046936]
+[2024-05-03 16:15:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046936]
+[2024-05-03 16:15:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 16:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unico_device_setuper
+[2024-05-03 16:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-03 16:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysma-plus
+[2024-05-03 16:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lfg-llama
+[2024-05-03 16:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2024-05-03 16:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svix
+[2024-05-03 16:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: froster
+[2024-05-03 16:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-json-schema-editor
+[2024-05-03 16:15:29] INFO root fetch - processPackages [unico_device_setuper]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 16:15:29] INFO root fetch - processPackages [lfg-llama]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-05-03 16:15:29] INFO root fetch - processPackages [django-json-schema-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-03 16:15:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-03 16:15:29] INFO root fetch - processPackages [pysma-plus]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-03 16:15:29] INFO root fetch - processPackages [svix]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-03 16:15:29] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/7f/cd/6447c8895a494adf0418a18db890bc132ec1a823b56ff03bfeed1985acc2/lfg_llama-1.0.6.tar.gz
+[2024-05-03 16:15:29] INFO root fetch - processPackages [unico_device_setuper]: Downloading https://files.pythonhosted.org/packages/20/40/5dbb236a0b434380d8e184a21d8becf9dc32a76b96aea0c6e2f2718b1dd8/unico_device_setuper-0.1.0.tar.gz
+[2024-05-03 16:15:29] WARNING root fetch - processPackages [froster]: Skipping, unable to determine old version
+[2024-05-03 16:15:29] INFO root fetch - main [MainThread]: End processing [froster] error
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-03 16:15:30] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/f1/7a/644b94f8e30f02521c773ac2294d8d33f4bf5be42ec5bce78f2fea7273e6/django_json_schema_editor-0.0.8.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/5b/55/3d2b7ecf9cc615c3652b6938eecc3203fc8971f1efd83eddb6bca5e4bc5c/pysma_plus-0.2.3.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [svix]: Downloading https://files.pythonhosted.org/packages/b1/98/a61b415bf63e874f7b9941b398af346d97a7c5d1068745f86b2ffe97ae2c/svix-1.8.1.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [unico_device_setuper]: Downloading https://files.pythonhosted.org/packages/8c/bb/b41fa1c36f52d1e7e9398db1d921ef9edfd292e8fc58ef99f4b6b1117193/unico_device_setuper-0.2.0.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/fe/33/fbc31371354b97194681d08db6bec40cb469672204617fbf4ef66b3bc6f4/django_json_schema_editor-0.0.9.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/1f/7f/d8e8f6431e4f47e503c13f95770010730df012c2af3a32ac91c3d06bd67b/lfg_llama-1.1.0.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [unico_device_setuper]: executing diffoscope
+[2024-05-03 16:15:30] INFO root fetch - processPackages [unico_device_setuper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unico_device_setuper-0.1.0.tar.gz tmp/unico_device_setuper-0.2.0.tar.gz --markdown 20240503/u/unico_device_setuper/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 16:15:30] INFO root fetch - processPackages [django-json-schema-editor]: executing diffoscope
+[2024-05-03 16:15:30] INFO root fetch - processPackages [django-json-schema-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_json_schema_editor-0.0.8.tar.gz tmp/django_json_schema_editor-0.0.9.tar.gz --markdown 20240503/d/django-json-schema-editor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240503/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-03 16:15:30] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-03 16:15:30] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.0.6.tar.gz tmp/lfg_llama-1.1.0.tar.gz --markdown 20240503/l/lfg-llama/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-03 16:15:30] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240503/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-03 16:15:30] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/ea/f1/16cb8fc044de2f56c3b7ac926cb28185bcf0306aac842c67f13e4bbf8647/pysma_plus-0.2.4.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [svix]: Downloading https://files.pythonhosted.org/packages/e1/2f/d3108eca2dbf81036406426a05cfde077363a62cd0c4724f8675bcf7e1a2/svix-1.9.0.tar.gz
+[2024-05-03 16:15:30] INFO root fetch - processPackages [svix]: executing diffoscope
+[2024-05-03 16:15:30] INFO root fetch - processPackages [svix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svix-1.8.1.tar.gz tmp/svix-1.9.0.tar.gz --markdown 20240503/s/svix/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-03 16:15:30] INFO root fetch - processPackages [pysma-plus]: executing diffoscope
+[2024-05-03 16:15:30] INFO root fetch - processPackages [pysma-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysma_plus-0.2.3.tar.gz tmp/pysma_plus-0.2.4.tar.gz --markdown 20240503/p/pysma-plus/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-03 16:15:31] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.6.tar.gz]
+[2024-05-03 16:15:31] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.1.0.tar.gz]
+[2024-05-03 16:15:31] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-03 16:15:31] INFO root fetch - processPackages [unico_device_setuper]: Remove: archive file [/home/abi/fetcher/tmp/unico_device_setuper-0.1.0.tar.gz]
+[2024-05-03 16:15:31] INFO root fetch - processPackages [unico_device_setuper]: Remove: archive file [/home/abi/fetcher/tmp/unico_device_setuper-0.2.0.tar.gz]
+[2024-05-03 16:15:31] INFO root fetch - main [MainThread]: End processing [unico_device_setuper]: success
+[2024-05-03 16:15:31] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-03 16:15:31] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-03 16:15:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-03 16:15:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-03 16:15:31] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.3.tar.gz]
+[2024-05-03 16:15:31] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.4.tar.gz]
+[2024-05-03 16:15:31] INFO root fetch - main [MainThread]: End processing [pysma-plus]: success
+[2024-05-03 16:15:32] INFO root fetch - processPackages [svix]: Remove: archive file [/home/abi/fetcher/tmp/svix-1.8.1.tar.gz]
+[2024-05-03 16:15:32] INFO root fetch - processPackages [svix]: Remove: archive file [/home/abi/fetcher/tmp/svix-1.9.0.tar.gz]
+[2024-05-03 16:15:32] INFO root fetch - main [MainThread]: End processing [svix]: success
+[2024-05-03 16:15:35] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.8.tar.gz]
+[2024-05-03 16:15:35] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
+[2024-05-03 16:15:35] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
+[2024-05-03 16:15:35] INFO root fetch - main [MainThread]: Store serial: [23046958]
