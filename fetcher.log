@@ -20385,3 +20385,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:45:05] INFO root fetch - processPackages [ophyd-async]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_async-0.3a3.tar.gz]
 [2024-05-03 15:45:05] INFO root fetch - main [MainThread]: End processing [ophyd-async]: success
 [2024-05-03 15:45:05] INFO root fetch - main [MainThread]: Store serial: [23046534]
+[2024-05-03 15:47:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046534]
+[2024-05-03 15:47:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 15:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lycoris-lora
+[2024-05-03 15:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hrbdataproject
+[2024-05-03 15:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mutation-profile
+[2024-05-03 15:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicommunicate
+[2024-05-03 15:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-datatables-net
+[2024-05-03 15:47:34] WARNING root fetch - processPackages [hrbdataproject]: Skipping, unable to determine old version
+[2024-05-03 15:47:34] INFO root fetch - main [MainThread]: End processing [hrbdataproject] error
+[2024-05-03 15:47:34] INFO root fetch - processPackages [mutation-profile]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-03 15:47:34] INFO root fetch - processPackages [streamlit-datatables-net]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-03 15:47:34] INFO root fetch - processPackages [mutation-profile]: Downloading https://files.pythonhosted.org/packages/12/79/9fa7c21d02e5acbc910e888ef62dd5c9918f2720042880edc3f217c47457/mutation-profile-0.1.0.tar.gz
+[2024-05-03 15:47:34] INFO root fetch - processPackages [streamlit-datatables-net]: Downloading https://files.pythonhosted.org/packages/f3/6b/84b45f5093ee43d630fd52b55548d79582a3b998da2299033025104acdc6/streamlit_datatables_net-0.0.1-py3-none-any.whl
+[2024-05-03 15:47:34] WARNING root fetch - processPackages [aicommunicate]: Skipping, unable to determine old version
+[2024-05-03 15:47:34] INFO root fetch - main [MainThread]: End processing [aicommunicate] error
+[2024-05-03 15:47:34] INFO root fetch - processPackages [lycoris-lora]: New version: [2.3.0.dev7] Old Version: [2.3.0.dev6]
+[2024-05-03 15:47:34] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/20/87/79cee21358ade743c8c3c3fcd8927b8746cb9b0a97d36c46cb0c5f3c4358/lycoris_lora-2.3.0.dev6.tar.gz
+[2024-05-03 15:47:34] INFO root fetch - processPackages [streamlit-datatables-net]: Downloading https://files.pythonhosted.org/packages/8e/de/21208b901b202e888568d389d3265bc3c38cd3d5ce9f1ef5af5eba03ec85/streamlit_datatables_net-0.0.2-py3-none-any.whl
+[2024-05-03 15:47:34] INFO root fetch - processPackages [mutation-profile]: Downloading https://files.pythonhosted.org/packages/5f/0e/dc0d5d460ebdd0bce071eed2b2dcd29cb931b2ac933cd6a464e95d06a183/mutation-profile-0.2.0.tar.gz
+[2024-05-03 15:47:34] INFO root fetch - processPackages [streamlit-datatables-net]: executing diffoscope
+[2024-05-03 15:47:34] INFO root fetch - processPackages [streamlit-datatables-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_datatables_net-0.0.1-py3-none-any.whl.zip tmp/streamlit_datatables_net-0.0.2-py3-none-any.whl.zip --markdown 20240503/s/streamlit-datatables-net/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-03 15:47:34] INFO root fetch - processPackages [mutation-profile]: executing diffoscope
+[2024-05-03 15:47:34] INFO root fetch - processPackages [mutation-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutation-profile-0.1.0.tar.gz tmp/mutation-profile-0.2.0.tar.gz --markdown 20240503/m/mutation-profile/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-03 15:47:35] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/7a/cf/36c0d0e3328e06574f45261863154f340284bc847decdcca8479ffee8e47/lycoris_lora-2.3.0.dev7.tar.gz
+[2024-05-03 15:47:35] INFO root fetch - processPackages [streamlit-datatables-net]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_datatables_net-0.0.1-py3-none-any.whl.zip]
+[2024-05-03 15:47:35] INFO root fetch - processPackages [streamlit-datatables-net]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_datatables_net-0.0.2-py3-none-any.whl.zip]
+[2024-05-03 15:47:35] INFO root fetch - main [MainThread]: End processing [streamlit-datatables-net]: success
+[2024-05-03 15:47:35] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2024-05-03 15:47:35] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-2.3.0.dev6.tar.gz tmp/lycoris_lora-2.3.0.dev7.tar.gz --markdown 20240503/l/lycoris-lora/2.3.0.dev6-2.3.0.dev7/README.md --exclude *.pyd
+[2024-05-03 15:47:35] INFO root fetch - processPackages [mutation-profile]: Remove: archive file [/home/abi/fetcher/tmp/mutation-profile-0.1.0.tar.gz]
+[2024-05-03 15:47:35] INFO root fetch - processPackages [mutation-profile]: Remove: archive file [/home/abi/fetcher/tmp/mutation-profile-0.2.0.tar.gz]
+[2024-05-03 15:47:35] INFO root fetch - main [MainThread]: End processing [mutation-profile]: success
+[2024-05-03 15:47:36] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev6.tar.gz]
+[2024-05-03 15:47:36] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev7.tar.gz]
+[2024-05-03 15:47:36] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2024-05-03 15:47:36] INFO root fetch - main [MainThread]: Store serial: [23046550]
