@@ -9001,3 +9001,33 @@
 [2024-05-03 06:16:50] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-1.1.0.tar.gz]
 [2024-05-03 06:16:50] INFO root fetch - main [MainThread]: End processing [deepdog]: success
 [2024-05-03 06:16:50] INFO root fetch - main [MainThread]: Store serial: [23041417]
+[2024-05-03 06:18:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041417]
+[2024-05-03 06:18:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 06:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI.build
+[2024-05-03 06:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genmax
+[2024-05-03 06:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultima-scraper-renamer
+[2024-05-03 06:18:58] INFO root fetch - processPackages [OZI.build]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-03 06:18:58] INFO root fetch - processPackages [ultima-scraper-renamer]: New version: [1.1.72] Old Version: [1.1.71]
+[2024-05-03 06:18:58] INFO root fetch - processPackages [genmax]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-03 06:18:59] INFO root fetch - processPackages [genmax]: Downloading https://files.pythonhosted.org/packages/a9/a6/0f2d5f5777444a84dddd1dc2feda1ad201e19aa18a63e5ec3d059bc52483/genmax-0.1.5.tar.gz
+[2024-05-03 06:18:59] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/4c/f3/35c45df292c5fc7816420fc8aaba38f7e2553007aa93b2c03c9dcdfff213/OZI.build-0.0.7.tar.gz
+[2024-05-03 06:18:59] INFO root fetch - processPackages [ultima-scraper-renamer]: Downloading https://files.pythonhosted.org/packages/0b/fe/73131a19db75d130d5c76d45e3d248ec079621299eaa5f9435397684b95c/ultima_scraper_renamer-1.1.71.tar.gz
+[2024-05-03 06:18:59] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/c2/68/445f96f8f6a7f7bc556936a301c80ff6e3b858eff7efa40c69e738b241fa/OZI.build-0.0.8.tar.gz
+[2024-05-03 06:18:59] INFO root fetch - processPackages [ultima-scraper-renamer]: Downloading https://files.pythonhosted.org/packages/63/64/12cb8b6b20e879ac2442e2eabbc8919e461f6e2ca3e0af9e3e71f73c4a1a/ultima_scraper_renamer-1.1.72.tar.gz
+[2024-05-03 06:18:59] INFO root fetch - processPackages [genmax]: Downloading https://files.pythonhosted.org/packages/7f/cf/b7c665f4f4df38bf60eada93ee32c287c3385b4fc437f117163aae14e808/genmax-0.1.6.tar.gz
+[2024-05-03 06:18:59] INFO root fetch - processPackages [OZI.build]: executing diffoscope
+[2024-05-03 06:18:59] INFO root fetch - processPackages [OZI.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI.build-0.0.7.tar.gz tmp/OZI.build-0.0.8.tar.gz --markdown 20240503/O/OZI.build/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-03 06:18:59] INFO root fetch - processPackages [ultima-scraper-renamer]: executing diffoscope
+[2024-05-03 06:18:59] INFO root fetch - processPackages [ultima-scraper-renamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_renamer-1.1.71.tar.gz tmp/ultima_scraper_renamer-1.1.72.tar.gz --markdown 20240503/u/ultima-scraper-renamer/1.1.71-1.1.72/README.md --exclude *.pyd
+[2024-05-03 06:18:59] INFO root fetch - processPackages [genmax]: executing diffoscope
+[2024-05-03 06:18:59] INFO root fetch - processPackages [genmax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genmax-0.1.5.tar.gz tmp/genmax-0.1.6.tar.gz --markdown 20240503/g/genmax/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-03 06:19:00] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.7.tar.gz]
+[2024-05-03 06:19:00] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.8.tar.gz]
+[2024-05-03 06:19:00] INFO root fetch - main [MainThread]: End processing [OZI.build]: success
+[2024-05-03 06:19:00] INFO root fetch - processPackages [ultima-scraper-renamer]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_renamer-1.1.71.tar.gz]
+[2024-05-03 06:19:00] INFO root fetch - processPackages [ultima-scraper-renamer]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_renamer-1.1.72.tar.gz]
+[2024-05-03 06:19:00] INFO root fetch - main [MainThread]: End processing [ultima-scraper-renamer]: success
+[2024-05-03 06:19:00] INFO root fetch - processPackages [genmax]: Remove: archive file [/home/abi/fetcher/tmp/genmax-0.1.5.tar.gz]
+[2024-05-03 06:19:00] INFO root fetch - processPackages [genmax]: Remove: archive file [/home/abi/fetcher/tmp/genmax-0.1.6.tar.gz]
+[2024-05-03 06:19:00] INFO root fetch - main [MainThread]: End processing [genmax]: success
+[2024-05-03 06:19:00] INFO root fetch - main [MainThread]: Store serial: [23041426]
