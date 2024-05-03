@@ -21817,3 +21817,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 16:35:49] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.56.0.tar.gz]
 [2024-05-03 16:35:49] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2024-05-03 16:35:49] INFO root fetch - main [MainThread]: Store serial: [23047133]
+[2024-05-03 16:38:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23047133]
+[2024-05-03 16:38:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelerate
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyiron-atomistics
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beta9
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vidyasutra
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cli-nb2py
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rHDPE-Data-Analysis
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: accelerate
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-anime-downloader
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-index-readers-web
+[2024-05-03 16:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twikit
+[2024-05-03 16:38:19] INFO root fetch - processPackages [accelerate]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [beta9]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [cli-nb2py]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [rHDPE-Data-Analysis]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [llama-index-readers-web]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [accelerate]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [pyiron-atomistics]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [twikit]: New version: [1.6.0] Old Version: [1.5.9]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [cli-nb2py]: Downloading https://files.pythonhosted.org/packages/65/eb/9601ed834f3490d40cda1893ddb8ef618857f3fdc6e2dc61908b798745dd/cli-nb2py-0.6.0.tar.gz
+[2024-05-03 16:38:19] WARNING root fetch - processPackages [vidyasutra]: Skipping, unable to determine old version
+[2024-05-03 16:38:19] INFO root fetch - processPackages [vidyasutra]: Start processing: flatpack
+[2024-05-03 16:38:19] INFO root fetch - main [MainThread]: End processing [vidyasutra] error
+[2024-05-03 16:38:19] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/4a/fa/6c966b3204985f54f587da7d64c7bb44a5bc0335e7331871398883a68848/rHDPE_Data_Analysis-1.0.6.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/ef/cc/70806f6e01d8b8e311af6e2e9d3a1336489db4b9009f10e521e2128084e7/beta9-0.1.7.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Downloading https://files.pythonhosted.org/packages/e7/92/fe20ee48308a29e3e204740f2f1cbb720d91b50db5612bfe101c7d768ee2/nonebot_plugin_anime_downloader-0.1.3.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [llama-index-readers-web]: Downloading https://files.pythonhosted.org/packages/41/30/f0a9b5b9942a884a82dd47ccc650d77fa490627945042c8a88f2846837e8/llama_index_readers_web-0.1.8.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-03 16:38:19] INFO root fetch - processPackages [accelerate]: Downloading https://files.pythonhosted.org/packages/bc/0c/b15698994f6090e5ef2e4572a90ad90a4a0d79b1670335aa4dda9ff1a338/accelerate-0.8.0.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [accelerate]: Downloading https://files.pythonhosted.org/packages/bc/0c/b15698994f6090e5ef2e4572a90ad90a4a0d79b1670335aa4dda9ff1a338/accelerate-0.8.0.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [pyiron-atomistics]: Downloading https://files.pythonhosted.org/packages/50/2b/b3c1570a31794275d644c71812cefc0ae8c93d6592c4247bb950a20f1604/pyiron_atomistics-0.5.3.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [cli-nb2py]: Downloading https://files.pythonhosted.org/packages/a2/ee/77aa9162f4a4e118db73decad254fd5cc5a547f8f85a39485ef1804c0d75/cli-nb2py-0.7.0.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/91/8f/4cbb6f8859c8b1bf5587ee57fa870e9ba808dd95602037d4719b70ed03ad/twikit-1.5.9.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/11/67/b604fdb1907c1ee8dda9654212239b97efe74c015aa742cfe9806173d4d3/beta9-0.1.8.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/c0/32/c62d3406786ccbf1af4557c5ae8a468ace8fad06e3f05203ad46f006d481/rHDPE_Data_Analysis-1.0.7.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [llama-index-readers-web]: Downloading https://files.pythonhosted.org/packages/80/7d/000003000811a7cc0a90a8b0b5a0d488b1dc29ade556562a3aa034792793/llama_index_readers_web-0.1.9.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [cli-nb2py]: executing diffoscope
+[2024-05-03 16:38:19] INFO root fetch - processPackages [cli-nb2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-nb2py-0.6.0.tar.gz tmp/cli-nb2py-0.7.0.tar.gz --markdown 20240503/c/cli-nb2py/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-03 16:38:19] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Downloading https://files.pythonhosted.org/packages/5f/c2/0eaceef3b1aadcfc3b779c41fdb0a0e840345677c43f4f786f4c5d0a2d53/nonebot_plugin_anime_downloader-0.1.4.tar.gz
+[2024-05-03 16:38:19] INFO root fetch - processPackages [beta9]: executing diffoscope
+[2024-05-03 16:38:19] INFO root fetch - processPackages [beta9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beta9-0.1.7.tar.gz tmp/beta9-0.1.8.tar.gz --markdown 20240503/b/beta9/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 16:38:19] INFO root fetch - processPackages [rHDPE-Data-Analysis]: executing diffoscope
+[2024-05-03 16:38:19] INFO root fetch - processPackages [rHDPE-Data-Analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rHDPE_Data_Analysis-1.0.6.tar.gz tmp/rHDPE_Data_Analysis-1.0.7.tar.gz --markdown 20240503/r/rHDPE-Data-Analysis/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-03 16:38:19] INFO root fetch - processPackages [llama-index-readers-web]: executing diffoscope
+[2024-05-03 16:38:19] INFO root fetch - processPackages [llama-index-readers-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_web-0.1.8.tar.gz tmp/llama_index_readers_web-0.1.9.tar.gz --markdown 20240503/l/llama-index-readers-web/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 16:38:20] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-03 16:38:20] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: executing diffoscope
+[2024-05-03 16:38:20] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_anime_downloader-0.1.3.tar.gz tmp/nonebot_plugin_anime_downloader-0.1.4.tar.gz --markdown 20240503/n/nonebot-plugin-anime-downloader/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-03 16:38:20] INFO root fetch - processPackages [pyiron-atomistics]: Downloading https://files.pythonhosted.org/packages/f1/28/ae3e1a0c36bbcd2108b1c3fbedafb1e67ba9aa846156eccdc67cffde61b6/pyiron_atomistics-0.5.4.tar.gz
+[2024-05-03 16:38:20] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-03 16:38:20] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240503/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-03 16:38:20] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/5a/5d/49cd1119fe89852c4069a412e10e120a2ed1bf53a7640c1ebc9acc4a8b0b/twikit-1.6.0.tar.gz
+[2024-05-03 16:38:20] INFO root fetch - processPackages [accelerate]: Downloading https://files.pythonhosted.org/packages/a3/23/0b0885e159ead2ec3b774096dab93476ef0d76cb314fd1bba5c2b8e29fa0/accelerate-0.9.0.tar.gz
+[2024-05-03 16:38:20] INFO root fetch - processPackages [accelerate]: Downloading https://files.pythonhosted.org/packages/a3/23/0b0885e159ead2ec3b774096dab93476ef0d76cb314fd1bba5c2b8e29fa0/accelerate-0.9.0.tar.gz
+[2024-05-03 16:38:20] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-05-03 16:38:20] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.5.9.tar.gz tmp/twikit-1.6.0.tar.gz --markdown 20240503/t/twikit/1.5.9-1.6.0/README.md --exclude *.pyd
+[2024-05-03 16:38:20] INFO root fetch - processPackages [pyiron-atomistics]: executing diffoscope
+[2024-05-03 16:38:20] INFO root fetch - processPackages [pyiron-atomistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_atomistics-0.5.3.tar.gz tmp/pyiron_atomistics-0.5.4.tar.gz --markdown 20240503/p/pyiron-atomistics/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-03 16:38:20] INFO root fetch - processPackages [accelerate]: executing diffoscope
+[2024-05-03 16:38:20] INFO root fetch - processPackages [accelerate]: executing diffoscope
+[2024-05-03 16:38:20] INFO root fetch - processPackages [accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelerate-0.8.0.tar.gz tmp/accelerate-0.9.0.tar.gz --markdown 20240503/a/accelerate/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 16:38:20] INFO root fetch - processPackages [accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelerate-0.8.0.tar.gz tmp/accelerate-0.9.0.tar.gz --markdown 20240503/a/accelerate/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-03 16:38:20] INFO root fetch - processPackages [cli-nb2py]: Remove: archive file [/home/abi/fetcher/tmp/cli-nb2py-0.6.0.tar.gz]
+[2024-05-03 16:38:20] INFO root fetch - processPackages [cli-nb2py]: Remove: archive file [/home/abi/fetcher/tmp/cli-nb2py-0.7.0.tar.gz]
+[2024-05-03 16:38:20] INFO root fetch - processPackages [cli-nb2py]: Start processing: self-reasoning-tokens-pytorch
+[2024-05-03 16:38:20] INFO root fetch - main [MainThread]: End processing [cli-nb2py]: success
+[2024-05-03 16:38:20] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_anime_downloader-0.1.3.tar.gz]
+[2024-05-03 16:38:20] INFO root fetch - processPackages [nonebot-plugin-anime-downloader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_anime_downloader-0.1.4.tar.gz]
+[2024-05-03 16:38:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-anime-downloader]: success
+[2024-05-03 16:38:20] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.8.tar.gz]
+[2024-05-03 16:38:20] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.9.tar.gz]
+[2024-05-03 16:38:20] INFO root fetch - main [MainThread]: End processing [llama-index-readers-web]: success
+[2024-05-03 16:38:21] WARNING root fetch - processPackages [self-reasoning-tokens-pytorch]: Skipping, unable to determine old version
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [self-reasoning-tokens-pytorch] error
+[2024-05-03 16:38:21] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-03 16:38:21] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.6.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.7.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
+[2024-05-03 16:38:21] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.7.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.8.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [beta9]: success
+[2024-05-03 16:38:21] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.9.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.6.0.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-05-03 16:38:21] INFO root fetch - processPackages [accelerate]: Remove: archive file [/home/abi/fetcher/tmp/accelerate-0.8.0.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - processPackages [accelerate]: Remove: archive file [/home/abi/fetcher/tmp/accelerate-0.9.0.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [accelerate]: success
+[2024-05-03 16:38:21] INFO root fetch - processPackages [pyiron-atomistics]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_atomistics-0.5.3.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - processPackages [pyiron-atomistics]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_atomistics-0.5.4.tar.gz]
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [pyiron-atomistics]: success
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: End processing [accelerate]: success
+[2024-05-03 16:38:21] INFO root fetch - main [MainThread]: Store serial: [23047170]
