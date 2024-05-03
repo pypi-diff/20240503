@@ -13259,3 +13259,122 @@
 [2024-05-03 10:19:11] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.0.tar.gz]
 [2024-05-03 10:19:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
 [2024-05-03 10:19:11] INFO root fetch - main [MainThread]: Store serial: [23043180]
+[2024-05-03 10:21:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23043180]
+[2024-05-03 10:21:22] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osism
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-pdp-client-python
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: requem
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-module-auto-update
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-foundation-pdp-client-python
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissemble-foundation-encryption-policy-python
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qadence
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aissemble-foundation-encryption-policy-python
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightning-habana
+[2024-05-03 10:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flightplotting
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: New version: [1.7.0.dev1714638103] Old Version: [1.7.0.dev1714638101]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: New version: [1.7.0.dev1714638135] Old Version: [1.7.0.dev1714638131]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: New version: [1.7.0.dev1714638103] Old Version: [1.7.0.dev1714638101]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: New version: [1.7.0.dev1714638135] Old Version: [1.7.0.dev1714638131]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Downloading https://files.pythonhosted.org/packages/8e/fe/d90cb11dc240b0245a6c1454a8db0f359d4475c24bef0afcdde7a13aaf3f/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638131.tar.gz
+[2024-05-03 10:21:23] WARNING root fetch - processPackages [requem]: Skipping, unable to determine old version
+[2024-05-03 10:21:23] INFO root fetch - processPackages [requem]: Start processing: cybsi-sdk
+[2024-05-03 10:21:23] INFO root fetch - main [MainThread]: End processing [requem] error
+[2024-05-03 10:21:23] INFO root fetch - processPackages [osism]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [odoo-addon-module-auto-update]: New version: [17.0.1.0.0.3] Old Version: [16.0.1.0.2]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Downloading https://files.pythonhosted.org/packages/75/2d/9f7444fb1df738a93e0362b7a4a37295b190931fac46da73c6df76ec6988/aissemble_foundation_pdp_client_python-1.7.0.dev1714638101.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [lightning-habana]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [flightplotting]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [qadence]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Downloading https://files.pythonhosted.org/packages/75/2d/9f7444fb1df738a93e0362b7a4a37295b190931fac46da73c6df76ec6988/aissemble_foundation_pdp_client_python-1.7.0.dev1714638101.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Downloading https://files.pythonhosted.org/packages/8e/fe/d90cb11dc240b0245a6c1454a8db0f359d4475c24bef0afcdde7a13aaf3f/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638131.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [cybsi-sdk]: New version: [2.12.2] Old Version: [2.12.1]
+[2024-05-03 10:21:23] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/d9/e4/97288db572dab148de08d6921483c28336f8657f5955abf4742e87d99ce1/osism-0.9.7.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Downloading https://files.pythonhosted.org/packages/4e/b6/37f432000e2094cedcf1752085cea5331089f62980287a59422693acb272/odoo_addon_module_auto_update-16.0.1.0.2-py3-none-any.whl
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Downloading https://files.pythonhosted.org/packages/35/d8/a50d3e7166f4d4707f554f2cf842cb9fe350fac77f7f23bbd47d81229b26/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638135.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [lightning-habana]: Downloading https://files.pythonhosted.org/packages/98/31/2e0bbbe061f4408b53378b70c1d349eaf75b8284a72b49804b576bb7d5da/lightning-habana-1.4.0.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [qadence]: Downloading https://files.pythonhosted.org/packages/8c/36/0e43238384e7d559de80ef9bf6d66f3bacb747ee2cebcfd2de43e1ad1aba/qadence-1.5.1.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [flightplotting]: Downloading https://files.pythonhosted.org/packages/74/50/708ddb7c681dcb20fc2b0ce53e1001016d7e3a3105e44b1dadf55f999278/flightplotting-0.2.4.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Downloading https://files.pythonhosted.org/packages/fb/b1/4586ae6c22340a64570c03c89af856fce7028fb57ab07edc8a6ef4cc7ea4/aissemble_foundation_pdp_client_python-1.7.0.dev1714638103.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Downloading https://files.pythonhosted.org/packages/fb/b1/4586ae6c22340a64570c03c89af856fce7028fb57ab07edc8a6ef4cc7ea4/aissemble_foundation_pdp_client_python-1.7.0.dev1714638103.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [cybsi-sdk]: Downloading https://files.pythonhosted.org/packages/63/49/4ee40f3eb18113f0157a01f5573d52f49fa2bca2966cf89f64c16de0fc2b/cybsi_sdk-2.12.1.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Downloading https://files.pythonhosted.org/packages/35/d8/a50d3e7166f4d4707f554f2cf842cb9fe350fac77f7f23bbd47d81229b26/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638135.tar.gz
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: executing diffoscope
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638131.tar.gz tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638135.tar.gz --markdown 20240503/a/aissemble-foundation-encryption-policy-python/1.7.0.dev1714638131-1.7.0.dev1714638135/README.md --exclude *.pyd
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: executing diffoscope
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1714638101.tar.gz tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1714638103.tar.gz --markdown 20240503/a/aissemble-foundation-pdp-client-python/1.7.0.dev1714638101-1.7.0.dev1714638103/README.md --exclude *.pyd
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: executing diffoscope
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1714638101.tar.gz tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1714638103.tar.gz --markdown 20240503/a/aissemble-foundation-pdp-client-python/1.7.0.dev1714638101-1.7.0.dev1714638103/README.md --exclude *.pyd
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: executing diffoscope
+[2024-05-03 10:21:23] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638131.tar.gz tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638135.tar.gz --markdown 20240503/a/aissemble-foundation-encryption-policy-python/1.7.0.dev1714638131-1.7.0.dev1714638135/README.md --exclude *.pyd
+[2024-05-03 10:21:23] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Downloading https://files.pythonhosted.org/packages/f6/14/36b97f6e282f9b7bb8727d3ecb057874a85e68398ed60112232dee274c42/odoo_addon_module_auto_update-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-03 10:21:23] INFO root fetch - processPackages [flightplotting]: Downloading https://files.pythonhosted.org/packages/6a/d3/35dbee8242a315be828ca1e48740514d1f5e1c14793d371c65215bbef852/flightplotting-0.2.5.tar.gz
+[2024-05-03 10:21:24] INFO root fetch - processPackages [lightning-habana]: Downloading https://files.pythonhosted.org/packages/2f/c7/9ef3a8940c76e684db9a81e984eb9e56facf4b7f5d03d5ba39198070da3c/lightning_habana-1.5.0.tar.gz
+[2024-05-03 10:21:24] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/f7/c9/7fabbdb50265b5306f0b31470c421517d434bda5f7f3f41fe3fcd98acac0/osism-0.9.8.tar.gz
+[2024-05-03 10:21:24] INFO root fetch - processPackages [cybsi-sdk]: Downloading https://files.pythonhosted.org/packages/d6/d3/e4867a929e09d723a29b4bbc55041a2bd5018fc30fe467eac6aa096f5d17/cybsi_sdk-2.12.2.tar.gz
+[2024-05-03 10:21:24] INFO root fetch - processPackages [qadence]: Downloading https://files.pythonhosted.org/packages/37/44/be9e0644818ab9cf84cff65a6bcb84f910d43a53c040690957713ad4af99/qadence-1.5.2.tar.gz
+[2024-05-03 10:21:24] INFO root fetch - processPackages [odoo-addon-module-auto-update]: executing diffoscope
+[2024-05-03 10:21:24] INFO root fetch - processPackages [odoo-addon-module-auto-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_module_auto_update-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_module_auto_update-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-module-auto-update/16.0.1.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-03 10:21:24] INFO root fetch - processPackages [lightning-habana]: executing diffoscope
+[2024-05-03 10:21:24] INFO root fetch - processPackages [lightning-habana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-habana-1.4.0.tar.gz tmp/lightning_habana-1.5.0.tar.gz --markdown 20240503/l/lightning-habana/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-03 10:21:24] INFO root fetch - processPackages [osism]: executing diffoscope
+[2024-05-03 10:21:24] INFO root fetch - processPackages [osism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osism-0.9.7.tar.gz tmp/osism-0.9.8.tar.gz --markdown 20240503/o/osism/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-03 10:21:24] INFO root fetch - processPackages [cybsi-sdk]: executing diffoscope
+[2024-05-03 10:21:24] INFO root fetch - processPackages [cybsi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybsi_sdk-2.12.1.tar.gz tmp/cybsi_sdk-2.12.2.tar.gz --markdown 20240503/c/cybsi-sdk/2.12.1-2.12.2/README.md --exclude *.pyd
+[2024-05-03 10:21:24] INFO root fetch - processPackages [qadence]: executing diffoscope
+[2024-05-03 10:21:24] INFO root fetch - processPackages [qadence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qadence-1.5.1.tar.gz tmp/qadence-1.5.2.tar.gz --markdown 20240503/q/qadence/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-03 10:21:24] INFO root fetch - processPackages [flightplotting]: executing diffoscope
+[2024-05-03 10:21:24] INFO root fetch - processPackages [flightplotting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightplotting-0.2.4.tar.gz tmp/flightplotting-0.2.5.tar.gz --markdown 20240503/f/flightplotting/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-03 10:21:24] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1714638101.tar.gz]
+[2024-05-03 10:21:24] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1714638103.tar.gz]
+[2024-05-03 10:21:24] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Start processing: taurus-pyqtgraph
+[2024-05-03 10:21:24] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-pdp-client-python]: success
+[2024-05-03 10:21:24] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638131.tar.gz]
+[2024-05-03 10:21:24] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1714638135.tar.gz]
+[2024-05-03 10:21:24] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Start processing: tomodo
+[2024-05-03 10:21:24] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-encryption-policy-python]: success
+[2024-05-03 10:21:24] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Start processing: clarifai
+[2024-05-03 10:21:24] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-encryption-policy-python]: success
+[2024-05-03 10:21:24] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-pdp-client-python]: success
+[2024-05-03 10:21:24] INFO root fetch - processPackages [taurus-pyqtgraph]: New version: [0.8.1a0] Old Version: [0.8.0]
+[2024-05-03 10:21:24] INFO root fetch - processPackages [tomodo]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-03 10:21:24] INFO root fetch - processPackages [clarifai]: New version: [9.9.3] Old Version: [9.9.2]
+[2024-05-03 10:21:25] INFO root fetch - processPackages [taurus-pyqtgraph]: Downloading https://files.pythonhosted.org/packages/74/80/6befb9415b77430a81a91e3fe1d9511bc49435fa27c192b12bb569a31f68/taurus_pyqtgraph-0.8.0.tar.gz
+[2024-05-03 10:21:25] INFO root fetch - processPackages [tomodo]: Downloading https://files.pythonhosted.org/packages/9c/73/57d460f4ebdff595d983e7f9a32bfd62d0aedb2c1ee1cf5a9da6d4c7cd2e/tomodo-1.0.4.tar.gz
+[2024-05-03 10:21:25] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/1f/1f/206aa0caf9bff7b476371f68f4e7fe31d2260b107a6c6f7b398a9384686f/clarifai-9.9.2.tar.gz
+[2024-05-03 10:21:25] INFO root fetch - processPackages [lightning-habana]: Remove: archive file [/home/abi/fetcher/tmp/lightning-habana-1.4.0.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - processPackages [lightning-habana]: Remove: archive file [/home/abi/fetcher/tmp/lightning_habana-1.5.0.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - main [MainThread]: End processing [lightning-habana]: success
+[2024-05-03 10:21:25] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_module_auto_update-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-03 10:21:25] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_module_auto_update-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-03 10:21:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-module-auto-update]: success
+[2024-05-03 10:21:25] INFO root fetch - processPackages [cybsi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cybsi_sdk-2.12.1.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - processPackages [cybsi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cybsi_sdk-2.12.2.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - main [MainThread]: End processing [cybsi-sdk]: success
+[2024-05-03 10:21:25] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.7.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.8.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - main [MainThread]: End processing [osism]: success
+[2024-05-03 10:21:25] INFO root fetch - processPackages [qadence]: Remove: archive file [/home/abi/fetcher/tmp/qadence-1.5.1.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - processPackages [qadence]: Remove: archive file [/home/abi/fetcher/tmp/qadence-1.5.2.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - main [MainThread]: End processing [qadence]: success
+[2024-05-03 10:21:25] INFO root fetch - processPackages [taurus-pyqtgraph]: Downloading https://files.pythonhosted.org/packages/00/cf/28d0d44b938498b9c5a86cbf6bbe08c1ee5cd15dddab9b16b39cc1c97be7/taurus_pyqtgraph-0.8.1a0.tar.gz
+[2024-05-03 10:21:25] INFO root fetch - processPackages [tomodo]: Downloading https://files.pythonhosted.org/packages/bc/2c/0bec8af34827abaa29803a96df49efe071ee475cd6563eaf1019124ea2ab/tomodo-1.1.0.tar.gz
+[2024-05-03 10:21:25] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/bb/4f/fc60395f457832dc34baa577d757b752d4d0fe0da35a5c810772ee5404ed/clarifai-9.9.3.tar.gz
+[2024-05-03 10:21:25] INFO root fetch - processPackages [taurus-pyqtgraph]: executing diffoscope
+[2024-05-03 10:21:25] INFO root fetch - processPackages [taurus-pyqtgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taurus_pyqtgraph-0.8.0.tar.gz tmp/taurus_pyqtgraph-0.8.1a0.tar.gz --markdown 20240503/t/taurus-pyqtgraph/0.8.0-0.8.1a0/README.md --exclude *.pyd
+[2024-05-03 10:21:25] INFO root fetch - processPackages [tomodo]: executing diffoscope
+[2024-05-03 10:21:25] INFO root fetch - processPackages [tomodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomodo-1.0.4.tar.gz tmp/tomodo-1.1.0.tar.gz --markdown 20240503/t/tomodo/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-03 10:21:25] INFO root fetch - processPackages [flightplotting]: Remove: archive file [/home/abi/fetcher/tmp/flightplotting-0.2.4.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - processPackages [flightplotting]: Remove: archive file [/home/abi/fetcher/tmp/flightplotting-0.2.5.tar.gz]
+[2024-05-03 10:21:25] INFO root fetch - main [MainThread]: End processing [flightplotting]: success
+[2024-05-03 10:21:26] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2024-05-03 10:21:26] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.9.2.tar.gz tmp/clarifai-9.9.3.tar.gz --markdown 20240503/c/clarifai/9.9.2-9.9.3/README.md --exclude *.pyd
+[2024-05-03 10:21:26] INFO root fetch - processPackages [tomodo]: Remove: archive file [/home/abi/fetcher/tmp/tomodo-1.0.4.tar.gz]
+[2024-05-03 10:21:26] INFO root fetch - processPackages [tomodo]: Remove: archive file [/home/abi/fetcher/tmp/tomodo-1.1.0.tar.gz]
+[2024-05-03 10:21:26] INFO root fetch - main [MainThread]: End processing [tomodo]: success
+[2024-05-03 10:21:26] INFO root fetch - processPackages [taurus-pyqtgraph]: Remove: archive file [/home/abi/fetcher/tmp/taurus_pyqtgraph-0.8.0.tar.gz]
+[2024-05-03 10:21:26] INFO root fetch - processPackages [taurus-pyqtgraph]: Remove: archive file [/home/abi/fetcher/tmp/taurus_pyqtgraph-0.8.1a0.tar.gz]
+[2024-05-03 10:21:26] INFO root fetch - main [MainThread]: End processing [taurus-pyqtgraph]: success
+[2024-05-03 10:21:27] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.9.2.tar.gz]
+[2024-05-03 10:21:27] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.9.3.tar.gz]
+[2024-05-03 10:21:27] INFO root fetch - main [MainThread]: End processing [clarifai]: success
+[2024-05-03 10:21:27] INFO root fetch - main [MainThread]: Store serial: [23043223]
