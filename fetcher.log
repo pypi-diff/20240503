@@ -17369,3 +17369,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 13:20:50] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.6.8.tar.gz]
 [2024-05-03 13:20:50] INFO root fetch - main [MainThread]: End processing [femagtools]: success
 [2024-05-03 13:20:50] INFO root fetch - main [MainThread]: Store serial: [23045114]
+[2024-05-03 13:23:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045114]
+[2024-05-03 13:23:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ximu3
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blueetl
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taurus-pyqtgraph
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: troi
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eis1600
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jenfi-pipeline-data-app
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lyrpy
+[2024-05-03 13:23:21] INFO root fetch - processPackages [taurus-pyqtgraph]: New version: [0.8.1a0] Old Version: [0.8.0]
+[2024-05-03 13:23:21] INFO root fetch - processPackages [jenfi-pipeline-data-app]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-03 13:23:21] INFO root fetch - processPackages [blueetl]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-03 13:23:21] WARNING root fetch - processPackages [lyrpy]: Skipping, unable to determine old version
+[2024-05-03 13:23:21] INFO root fetch - main [MainThread]: End processing [lyrpy] error
+[2024-05-03 13:23:21] INFO root fetch - processPackages [eis1600]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-05-03 13:23:21] INFO root fetch - processPackages [ximu3]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-03 13:23:21] INFO root fetch - processPackages [blueetl]: Downloading https://files.pythonhosted.org/packages/bc/3b/09eb2c90d9d15b3c3810e271f3b8dfc4315a9acf9f8f282b314af20d5c86/blueetl-0.9.0.tar.gz
+[2024-05-03 13:23:21] INFO root fetch - processPackages [troi]: New version: [3.0] Old Version: [29.0]
+[2024-05-03 13:23:21] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/3d/f8/17cff1aa1e6b2879964f00499f0b6487a3875b674f6fadd8c69eb8c4a802/jenfi_pipeline_data_app-0.4.2.tar.gz
+[2024-05-03 13:23:21] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240503] Old Version: [2.5.0b20240502]
+[2024-05-03 13:23:21] INFO root fetch - processPackages [taurus-pyqtgraph]: Downloading https://files.pythonhosted.org/packages/74/80/6befb9415b77430a81a91e3fe1d9511bc49435fa27c192b12bb569a31f68/taurus_pyqtgraph-0.8.0.tar.gz
+[2024-05-03 13:23:21] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/25/29/50ebdab6e442cec1e7f4b2f06d9cbd88567cf6e15100102513e504e80fb1/eis1600-1.6.3.tar.gz
+[2024-05-03 13:23:21] WARNING root fetch - processPackages [blueetl]: Skipping package: exceeds size limit 10638493>=10485760
+[2024-05-03 13:23:21] INFO root fetch - main [MainThread]: End processing [blueetl] error
+[2024-05-03 13:23:22] INFO root fetch - processPackages [troi]: Downloading https://files.pythonhosted.org/packages/2c/78/a634349a0527c2fb0221751b43170b29f62664b2a97466353b6f9e6469f0/troi-29.0.tar.gz
+[2024-05-03 13:23:22] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/b0/0d/048c517c18c20a6e046f50296c5c167eba7b73c5d373679e5b2f472e1e54/bigdl_core_xe-2.5.0b20240502-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-03 13:23:22] INFO root fetch - processPackages [ximu3]: Downloading https://files.pythonhosted.org/packages/a7/dd/eb4bee7654fc05ab537c4f1598fde56e9376cf6686264758de4a0e5d8d80/ximu3-1.4.3-cp39-cp39-win_amd64.whl
+[2024-05-03 13:23:22] INFO root fetch - processPackages [taurus-pyqtgraph]: Downloading https://files.pythonhosted.org/packages/00/cf/28d0d44b938498b9c5a86cbf6bbe08c1ee5cd15dddab9b16b39cc1c97be7/taurus_pyqtgraph-0.8.1a0.tar.gz
+[2024-05-03 13:23:22] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/df/ba/317425b5ff8a8b5f917e59cd1368a797c2f8d4c15344a2fe3c04e92f6d39/eis1600-1.6.4.tar.gz
+[2024-05-03 13:23:22] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Downloading https://files.pythonhosted.org/packages/eb/27/04784e8dba16cad01fae6643e5e9cf37aa751d09c5e711c3adb06f4d4626/jenfi_pipeline_data_app-0.4.3.tar.gz
+[2024-05-03 13:23:22] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105668121>=10485760
+[2024-05-03 13:23:22] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-05-03 13:23:22] INFO root fetch - processPackages [taurus-pyqtgraph]: executing diffoscope
+[2024-05-03 13:23:22] INFO root fetch - processPackages [taurus-pyqtgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taurus_pyqtgraph-0.8.0.tar.gz tmp/taurus_pyqtgraph-0.8.1a0.tar.gz --markdown 20240503/t/taurus-pyqtgraph/0.8.0-0.8.1a0/README.md --exclude *.pyd
+[2024-05-03 13:23:22] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2024-05-03 13:23:22] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-1.6.3.tar.gz tmp/eis1600-1.6.4.tar.gz --markdown 20240503/e/eis1600/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-05-03 13:23:22] INFO root fetch - processPackages [jenfi-pipeline-data-app]: executing diffoscope
+[2024-05-03 13:23:22] INFO root fetch - processPackages [jenfi-pipeline-data-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenfi_pipeline_data_app-0.4.2.tar.gz tmp/jenfi_pipeline_data_app-0.4.3.tar.gz --markdown 20240503/j/jenfi-pipeline-data-app/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-03 13:23:22] INFO root fetch - processPackages [troi]: Downloading https://files.pythonhosted.org/packages/37/7b/a01407c4c9502dd7e55c9e8e376e35abed9c7d79ebe98b8ed2a9daf52f14/troi-3.0.tar.gz
+[2024-05-03 13:23:22] INFO root fetch - processPackages [troi]: executing diffoscope
+[2024-05-03 13:23:22] INFO root fetch - processPackages [troi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troi-29.0.tar.gz tmp/troi-3.0.tar.gz --markdown 20240503/t/troi/29.0-3.0/README.md --exclude *.pyd
+[2024-05-03 13:23:22] INFO root fetch - processPackages [ximu3]: Downloading https://files.pythonhosted.org/packages/a6/9a/30e33d580e683e1ce800f21434464fbaf9e8e212d0a2531e4fff3be5bfc8/ximu3-1.4.4-cp312-cp312-win_amd64.whl
+[2024-05-03 13:23:22] INFO root fetch - processPackages [ximu3]: executing diffoscope
+[2024-05-03 13:23:22] INFO root fetch - processPackages [ximu3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ximu3-1.4.3-cp39-cp39-win_amd64.whl.zip tmp/ximu3-1.4.4-cp312-cp312-win_amd64.whl.zip --markdown 20240503/x/ximu3/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-03 13:23:23] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.2.tar.gz]
+[2024-05-03 13:23:23] INFO root fetch - processPackages [jenfi-pipeline-data-app]: Remove: archive file [/home/abi/fetcher/tmp/jenfi_pipeline_data_app-0.4.3.tar.gz]
+[2024-05-03 13:23:23] INFO root fetch - main [MainThread]: End processing [jenfi-pipeline-data-app]: success
+[2024-05-03 13:23:23] INFO root fetch - processPackages [taurus-pyqtgraph]: Remove: archive file [/home/abi/fetcher/tmp/taurus_pyqtgraph-0.8.0.tar.gz]
+[2024-05-03 13:23:23] INFO root fetch - processPackages [taurus-pyqtgraph]: Remove: archive file [/home/abi/fetcher/tmp/taurus_pyqtgraph-0.8.1a0.tar.gz]
+[2024-05-03 13:23:23] INFO root fetch - main [MainThread]: End processing [taurus-pyqtgraph]: success
+[2024-05-03 13:23:23] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.3.tar.gz]
+[2024-05-03 13:23:23] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.4.tar.gz]
+[2024-05-03 13:23:23] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2024-05-03 13:23:23] INFO root fetch - processPackages [troi]: Remove: archive file [/home/abi/fetcher/tmp/troi-29.0.tar.gz]
+[2024-05-03 13:23:23] INFO root fetch - processPackages [troi]: Remove: archive file [/home/abi/fetcher/tmp/troi-3.0.tar.gz]
+[2024-05-03 13:23:23] INFO root fetch - main [MainThread]: End processing [troi]: success
+[2024-05-03 13:23:23] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.4.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-03 13:23:23] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.4.4-cp312-cp312-win_amd64.whl.zip]
+[2024-05-03 13:23:23] INFO root fetch - main [MainThread]: End processing [ximu3]: success
+[2024-05-03 13:23:23] INFO root fetch - main [MainThread]: Store serial: [23045156]
