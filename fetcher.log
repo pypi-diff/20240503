@@ -8459,3 +8459,72 @@
 [2024-05-03 05:41:29] ERROR root fetch - processPackages [protolint-bin]: Timeout during execution of pkgdiff
 [2024-05-03 05:41:29] INFO root fetch - main [MainThread]: End processing [protolint-bin] error
 [2024-05-03 05:41:29] INFO root fetch - main [MainThread]: Store serial: [23041227]
+[2024-05-03 05:43:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041227]
+[2024-05-03 05:43:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-03 05:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: release-action-testing
+[2024-05-03 05:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fieldservice-account-analytic
+[2024-05-03 05:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-fieldservice
+[2024-05-03 05:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fieldservice-activity
+[2024-05-03 05:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conversion_utils
+[2024-05-03 05:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbl-sat-sdk
+[2024-05-03 05:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: InvokeAI
+[2024-05-03 05:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sleipnirgroup-jormungandr
+[2024-05-03 05:43:40] INFO root fetch - processPackages [conversion_utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 05:43:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-03 05:43:40] WARNING root fetch - processPackages [release-action-testing]: Skipping, unable to determine old version
+[2024-05-03 05:43:40] INFO root fetch - main [MainThread]: End processing [release-action-testing] error
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-03 05:43:40] INFO root fetch - processPackages [dbl-sat-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-05-03 05:43:40] INFO root fetch - processPackages [InvokeAI]: New version: [4.2.0b1] Old Version: [4.2.0a4]
+[2024-05-03 05:43:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-03 05:43:40] INFO root fetch - processPackages [conversion_utils]: Downloading https://files.pythonhosted.org/packages/e4/c7/1640604165a67f5ef6a82a4d0e0083ad58f573e3606f1b45186919a1747b/conversion_utils-0.1.0.tar.gz
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: Downloading https://files.pythonhosted.org/packages/f1/fb/329243d9e4cc7c8e8e444b52d6a25c3cf75bf5fad2328be0c4d8fd63770c/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/b2/70/c555944198d28de47ee1dcc0d696de18f900554c2e4af4dcda0b989cbc6c/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Downloading https://files.pythonhosted.org/packages/09/84/004d57802b226bee50824cbe481ec91a9904b10921cc512d7d528d32d224/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-03 05:43:40] INFO root fetch - processPackages [dbl-sat-sdk]: Downloading https://files.pythonhosted.org/packages/92/a4/34d3a48c978c55fba9771d6558dd7c1ca7ff308a4710885960c04bd674a6/dbl_sat_sdk-0.1.8-py3-none-any.whl
+[2024-05-03 05:43:40] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/e0/10/34572f861f88440cb3b8a78ba2b7147594d29b8529efb289aec6d084dde5/InvokeAI-4.2.0a4.tar.gz
+[2024-05-03 05:43:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-03 05:43:40] INFO root fetch - processPackages [conversion_utils]: Downloading https://files.pythonhosted.org/packages/67/2e/aa517ebb5c6685ecd689b76964ba3d936e2dfff3f27af905e0b2cf510deb/conversion_utils-0.1.1.tar.gz
+[2024-05-03 05:43:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-03 05:43:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240503/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: Downloading https://files.pythonhosted.org/packages/32/6d/50fba946b26fe441245e35eb8794c124c8be6f25f0864ef3ba65840b9c12/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Downloading https://files.pythonhosted.org/packages/77/35/01da4e294bd1e93ad4c61e7f75262cbe7260721b7565d8b1d2ec40255cf4/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-03 05:43:40] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/04/12/a634d972bd2e72415ae3fabb12d30b7fa50c731d3d3a71da39ab82ca0ee1/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl
+[2024-05-03 05:43:41] INFO root fetch - processPackages [conversion_utils]: executing diffoscope
+[2024-05-03 05:43:41] INFO root fetch - processPackages [conversion_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conversion_utils-0.1.0.tar.gz tmp/conversion_utils-0.1.1.tar.gz --markdown 20240503/c/conversion_utils/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 05:43:41] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/f8/76/bdf83e0097d834e92945d1b8e540208f383ea910a599546a911d039200a9/InvokeAI-4.2.0b1.tar.gz
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: executing diffoscope
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-fieldservice-account-analytic/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: executing diffoscope
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-fieldservice-activity/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-03 05:43:41] INFO root fetch - processPackages [dbl-sat-sdk]: Downloading https://files.pythonhosted.org/packages/68/93/5919b903f39674d454c45c7d6764f895d7defc58a3c77509f658c1847741/dbl_sat_sdk-0.1.9-py3-none-any.whl
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-fieldservice/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-05-03 05:43:41] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-05-03 05:43:41] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.2.0a4.tar.gz tmp/InvokeAI-4.2.0b1.tar.gz --markdown 20240503/I/InvokeAI/4.2.0a4-4.2.0b1/README.md --exclude *.pyd
+[2024-05-03 05:43:41] INFO root fetch - processPackages [dbl-sat-sdk]: executing diffoscope
+[2024-05-03 05:43:41] INFO root fetch - processPackages [dbl-sat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbl_sat_sdk-0.1.8-py3-none-any.whl.zip tmp/dbl_sat_sdk-0.1.9-py3-none-any.whl.zip --markdown 20240503/d/dbl-sat-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 05:43:41] INFO root fetch - processPackages [conversion_utils]: Remove: archive file [/home/abi/fetcher/tmp/conversion_utils-0.1.0.tar.gz]
+[2024-05-03 05:43:41] INFO root fetch - processPackages [conversion_utils]: Remove: archive file [/home/abi/fetcher/tmp/conversion_utils-0.1.1.tar.gz]
+[2024-05-03 05:43:41] INFO root fetch - main [MainThread]: End processing [conversion_utils]: success
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-03 05:43:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-activity]: success
+[2024-05-03 05:43:41] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-03 05:43:41] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-03 05:43:41] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-03 05:43:41] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-03 05:43:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-account-analytic]: success
+[2024-05-03 05:43:42] INFO root fetch - processPackages [dbl-sat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dbl_sat_sdk-0.1.8-py3-none-any.whl.zip]
+[2024-05-03 05:43:42] INFO root fetch - processPackages [dbl-sat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dbl_sat_sdk-0.1.9-py3-none-any.whl.zip]
+[2024-05-03 05:43:42] INFO root fetch - main [MainThread]: End processing [dbl-sat-sdk]: success
+[2024-05-03 05:43:42] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-03 05:43:42] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-05-03 05:43:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2024-05-03 05:44:08] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0a4.tar.gz]
+[2024-05-03 05:44:08] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0b1.tar.gz]
+[2024-05-03 05:44:08] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-05-03 05:44:08] INFO root fetch - main [MainThread]: Store serial: [23041264]
