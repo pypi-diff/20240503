@@ -12279,3 +12279,63 @@
 [2024-05-03 09:39:01] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1240.tar.gz]
 [2024-05-03 09:39:01] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-05-03 09:39:01] INFO root fetch - main [MainThread]: Store serial: [23042764]
+[2024-05-03 09:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23042764]
+[2024-05-03 09:41:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibm-eventnotifications
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiftyone-pipeline-cloudrequestengine
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fiftyone-pipeline-core
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiftyone-pipeline-engines-fiftyone
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fiftyone-pipeline-engines
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: f2r
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrestcountries
+[2024-05-03 09:41:11] WARNING root fetch - processPackages [pyrestcountries]: Skipping, unable to determine old version
+[2024-05-03 09:41:11] INFO root fetch - main [MainThread]: End processing [pyrestcountries] error
+[2024-05-03 09:41:11] INFO root fetch - processPackages [f2r]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ibm-eventnotifications]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-03 09:41:11] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-05-03 09:41:11] INFO root fetch - processPackages [f2r]: Downloading https://files.pythonhosted.org/packages/88/0e/28f383f2b27bd199908569da5e21122c4f9ad08be9f3f88dca61db413e2d/f2r-2.8.0.tar.gz
+[2024-05-03 09:41:11] INFO root fetch - processPackages [fiftyone-pipeline-engines]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-05-03 09:41:11] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-05-03 09:41:11] INFO root fetch - processPackages [fiftyone-pipeline-core]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-05-03 09:41:11] INFO root fetch - processPackages [ibm-eventnotifications]: Downloading https://files.pythonhosted.org/packages/2d/53/e4730a23ab8d26d2c70298b56a46f5131061baf769cd5007352623414839/ibm-eventnotifications-0.4.0.tar.gz
+[2024-05-03 09:41:11] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/57/0b/5043a75732cdb4f3894eee095bccca4eca3f291f2e64ebee5fcb716b24f2/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz
+[2024-05-03 09:41:11] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/76/d6/b34fc7d1d074a71df816c77ccb53905048f4ae560a2a70978ca29e3134f7/fiftyone_pipeline_core-4.4.8.0.tar.gz
+[2024-05-03 09:41:11] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/4e/a3/500d24c2165afbd2f3f48b2636467d8441bc9649a45121c4b1313d6721f2/fiftyone_pipeline_engines-4.4.8.0.tar.gz
+[2024-05-03 09:41:11] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/6b/95/db65322b6bc7c0e4e2cb94c839191565def3d46ed1ee559f0ca6d588e227/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz
+[2024-05-03 09:41:12] INFO root fetch - processPackages [f2r]: Downloading https://files.pythonhosted.org/packages/93/c4/ecd7fed80c85448239c5eab1fd5898ce9474a92d47376a298e321b56e0e5/f2r-2.8.1.tar.gz
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/23/7a/370305d5cf4106a6fed8cfa73f299a087c38edf5aea1e577829f23d4a332/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz
+[2024-05-03 09:41:12] INFO root fetch - processPackages [f2r]: executing diffoscope
+[2024-05-03 09:41:12] INFO root fetch - processPackages [f2r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f2r-2.8.0.tar.gz tmp/f2r-2.8.1.tar.gz --markdown 20240503/f/f2r/2.8.0-2.8.1/README.md --exclude *.pyd
+[2024-05-03 09:41:12] INFO root fetch - processPackages [ibm-eventnotifications]: Downloading https://files.pythonhosted.org/packages/df/e5/c037e284893f111ca091eec06eb40bbee53bcc72ff44a128120907bca3a9/ibm-eventnotifications-0.5.0.tar.gz
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/5c/0e/bb656280fc3dfa6b4b69e17ab2e2d2e256d4300cdb60e8cb5e81a4fcf331/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/01/0e/99e6212222e48ed13b12487df5c23221264e2d9ccf67adcb8902624547fc/fiftyone_pipeline_core-4.4.9.0.tar.gz
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/8f/08/ccc77f7100f8f3db59fa2f751fe41a249e04249113f00c5e1ff61774197e/fiftyone_pipeline_engines-4.4.9.0.tar.gz
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: executing diffoscope
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz --markdown 20240503/f/fiftyone-pipeline-cloudrequestengine/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: executing diffoscope
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz --markdown 20240503/f/fiftyone-pipeline-engines-fiftyone/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-05-03 09:41:12] INFO root fetch - processPackages [ibm-eventnotifications]: executing diffoscope
+[2024-05-03 09:41:12] INFO root fetch - processPackages [ibm-eventnotifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-eventnotifications-0.4.0.tar.gz tmp/ibm-eventnotifications-0.5.0.tar.gz --markdown 20240503/i/ibm-eventnotifications/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-core]: executing diffoscope
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz --markdown 20240503/f/fiftyone-pipeline-core/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-engines]: executing diffoscope
+[2024-05-03 09:41:12] INFO root fetch - processPackages [fiftyone-pipeline-engines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz --markdown 20240503/f/fiftyone-pipeline-engines/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-05-03 09:41:12] INFO root fetch - processPackages [f2r]: Remove: archive file [/home/abi/fetcher/tmp/f2r-2.8.0.tar.gz]
+[2024-05-03 09:41:12] INFO root fetch - processPackages [f2r]: Remove: archive file [/home/abi/fetcher/tmp/f2r-2.8.1.tar.gz]
+[2024-05-03 09:41:12] INFO root fetch - main [MainThread]: End processing [f2r]: success
+[2024-05-03 09:41:13] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-cloudrequestengine]: success
+[2024-05-03 09:41:13] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines-fiftyone]: success
+[2024-05-03 09:41:13] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines]: success
+[2024-05-03 09:41:13] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-core]: success
+[2024-05-03 09:41:13] INFO root fetch - processPackages [ibm-eventnotifications]: Remove: archive file [/home/abi/fetcher/tmp/ibm-eventnotifications-0.4.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - processPackages [ibm-eventnotifications]: Remove: archive file [/home/abi/fetcher/tmp/ibm-eventnotifications-0.5.0.tar.gz]
+[2024-05-03 09:41:13] INFO root fetch - main [MainThread]: End processing [ibm-eventnotifications]: success
+[2024-05-03 09:41:13] INFO root fetch - main [MainThread]: Store serial: [23042784]
