@@ -7616,3 +7616,27 @@
 [2024-05-03 04:32:22] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
 [2024-05-03 04:32:22] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2024-05-03 04:32:22] INFO root fetch - main [MainThread]: Store serial: [23040934]
+[2024-05-03 04:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040934]
+[2024-05-03 04:34:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-03 04:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rustitude
+[2024-05-03 04:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-readers-web
+[2024-05-03 04:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open2fa
+[2024-05-03 04:34:31] WARNING root fetch - processPackages [rustitude]: Skipping, unable to determine old version
+[2024-05-03 04:34:31] INFO root fetch - main [MainThread]: End processing [rustitude] error
+[2024-05-03 04:34:31] INFO root fetch - processPackages [open2fa]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-03 04:34:31] INFO root fetch - processPackages [llama-index-readers-web]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-03 04:34:32] INFO root fetch - processPackages [open2fa]: Downloading https://files.pythonhosted.org/packages/ca/47/a8d93669654a4970d366f8881a873c596bf8af113acb18fbf75d7228c707/open2fa-1.4.0-py3-none-any.whl
+[2024-05-03 04:34:32] INFO root fetch - processPackages [llama-index-readers-web]: Downloading https://files.pythonhosted.org/packages/41/30/f0a9b5b9942a884a82dd47ccc650d77fa490627945042c8a88f2846837e8/llama_index_readers_web-0.1.8.tar.gz
+[2024-05-03 04:34:32] INFO root fetch - processPackages [open2fa]: Downloading https://files.pythonhosted.org/packages/86/fd/8fa9346d4b2d3e67a764153ff905896a25ef28b2b081d7f42131a2d3ef2a/open2fa-1.4.1-py3-none-any.whl
+[2024-05-03 04:34:32] INFO root fetch - processPackages [llama-index-readers-web]: Downloading https://files.pythonhosted.org/packages/80/7d/000003000811a7cc0a90a8b0b5a0d488b1dc29ade556562a3aa034792793/llama_index_readers_web-0.1.9.tar.gz
+[2024-05-03 04:34:32] INFO root fetch - processPackages [open2fa]: executing diffoscope
+[2024-05-03 04:34:32] INFO root fetch - processPackages [open2fa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open2fa-1.4.0-py3-none-any.whl.zip tmp/open2fa-1.4.1-py3-none-any.whl.zip --markdown 20240503/o/open2fa/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-03 04:34:32] INFO root fetch - processPackages [llama-index-readers-web]: executing diffoscope
+[2024-05-03 04:34:32] INFO root fetch - processPackages [llama-index-readers-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_web-0.1.8.tar.gz tmp/llama_index_readers_web-0.1.9.tar.gz --markdown 20240503/l/llama-index-readers-web/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-03 04:34:33] INFO root fetch - processPackages [open2fa]: Remove: archive file [/home/abi/fetcher/tmp/open2fa-1.4.0-py3-none-any.whl.zip]
+[2024-05-03 04:34:33] INFO root fetch - processPackages [open2fa]: Remove: archive file [/home/abi/fetcher/tmp/open2fa-1.4.1-py3-none-any.whl.zip]
+[2024-05-03 04:34:33] INFO root fetch - main [MainThread]: End processing [open2fa]: success
+[2024-05-03 04:34:33] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.8.tar.gz]
+[2024-05-03 04:34:33] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.9.tar.gz]
+[2024-05-03 04:34:33] INFO root fetch - main [MainThread]: End processing [llama-index-readers-web]: success
+[2024-05-03 04:34:33] INFO root fetch - main [MainThread]: Store serial: [23040953]
