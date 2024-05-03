@@ -20421,3 +20421,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:47:36] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev7.tar.gz]
 [2024-05-03 15:47:36] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
 [2024-05-03 15:47:36] INFO root fetch - main [MainThread]: Store serial: [23046550]
+[2024-05-03 15:49:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046550]
+[2024-05-03 15:50:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 15:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openobd-protocol
+[2024-05-03 15:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gym-aloha
+[2024-05-03 15:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoring-matrices
+[2024-05-03 15:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aalto-boss
+[2024-05-03 15:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gym-pusht
+[2024-05-03 15:50:04] WARNING root fetch - processPackages [scoring-matrices]: Skipping, unable to determine old version
+[2024-05-03 15:50:04] INFO root fetch - main [MainThread]: End processing [scoring-matrices] error
+[2024-05-03 15:50:04] INFO root fetch - processPackages [aalto-boss]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-03 15:50:04] INFO root fetch - processPackages [openobd-protocol]: New version: [0.0.43] Old Version: [0.0.40]
+[2024-05-03 15:50:05] WARNING root fetch - processPackages [gym-pusht]: Skipping, unable to determine old version
+[2024-05-03 15:50:05] INFO root fetch - main [MainThread]: End processing [gym-pusht] error
+[2024-05-03 15:50:05] WARNING root fetch - processPackages [gym-aloha]: Skipping, unable to determine old version
+[2024-05-03 15:50:05] INFO root fetch - main [MainThread]: End processing [gym-aloha] error
+[2024-05-03 15:50:05] INFO root fetch - processPackages [aalto-boss]: Downloading https://files.pythonhosted.org/packages/2f/26/d01660f38c8c2335a108d6ed1c18d0e7adec865e77a3bf5ee0986176756b/aalto-boss-1.9.1.tar.gz
+[2024-05-03 15:50:05] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/73/fd/633ca753706cec9abec92be1d198f435e681248850f1acbbb0f66cc5e555/openobd_protocol-0.0.40.tar.gz
+[2024-05-03 15:50:05] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/7e/4d/a41e01f7634b0d085f2dd83a6af2560ecc7d054c08e3ab7ebd09d896b9b4/openobd_protocol-0.0.43.tar.gz
+[2024-05-03 15:50:05] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-05-03 15:50:05] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd_protocol-0.0.40.tar.gz tmp/openobd_protocol-0.0.43.tar.gz --markdown 20240503/o/openobd-protocol/0.0.40-0.0.43/README.md --exclude *.pyd
+[2024-05-03 15:50:05] INFO root fetch - processPackages [aalto-boss]: Downloading https://files.pythonhosted.org/packages/45/72/98b346df5d8cf1cd2fe5376bb5ad952384568ad7187a4673305183e920fc/aalto-boss-1.9.2.tar.gz
+[2024-05-03 15:50:05] INFO root fetch - processPackages [aalto-boss]: executing diffoscope
+[2024-05-03 15:50:05] INFO root fetch - processPackages [aalto-boss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aalto-boss-1.9.1.tar.gz tmp/aalto-boss-1.9.2.tar.gz --markdown 20240503/a/aalto-boss/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-03 15:50:06] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.40.tar.gz]
+[2024-05-03 15:50:06] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.43.tar.gz]
+[2024-05-03 15:50:06] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-05-03 15:50:06] INFO root fetch - processPackages [aalto-boss]: Remove: archive file [/home/abi/fetcher/tmp/aalto-boss-1.9.1.tar.gz]
+[2024-05-03 15:50:06] INFO root fetch - processPackages [aalto-boss]: Remove: archive file [/home/abi/fetcher/tmp/aalto-boss-1.9.2.tar.gz]
+[2024-05-03 15:50:06] INFO root fetch - main [MainThread]: End processing [aalto-boss]: success
+[2024-05-03 15:50:06] INFO root fetch - main [MainThread]: Store serial: [23046579]
