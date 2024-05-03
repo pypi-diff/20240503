@@ -9043,3 +9043,18 @@
 [2024-05-03 06:21:10] INFO root fetch - processPackages [roco]: Remove: archive file [/home/abi/fetcher/tmp/roco-0.4.3.tar.gz]
 [2024-05-03 06:21:10] INFO root fetch - main [MainThread]: End processing [roco]: success
 [2024-05-03 06:21:10] INFO root fetch - main [MainThread]: Store serial: [23041429]
+[2024-05-03 06:23:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041429]
+[2024-05-03 06:23:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-03 06:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibind
+[2024-05-03 06:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yamapan
+[2024-05-03 06:23:19] INFO root fetch - processPackages [ibind]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-03 06:23:19] WARNING root fetch - processPackages [yamapan]: Skipping, unable to determine old version
+[2024-05-03 06:23:19] INFO root fetch - main [MainThread]: End processing [yamapan] error
+[2024-05-03 06:23:19] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/ea/63/a2f81e1910768ed43282dc3174472bbe6425bce5e8328ff1d38e16831d81/ibind-0.0.2.tar.gz
+[2024-05-03 06:23:19] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/9f/0d/689231c1a5e11ceef31268edbbdb998053592105fe12d3a106f8574077cc/ibind-0.0.3.tar.gz
+[2024-05-03 06:23:19] INFO root fetch - processPackages [ibind]: executing diffoscope
+[2024-05-03 06:23:19] INFO root fetch - processPackages [ibind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibind-0.0.2.tar.gz tmp/ibind-0.0.3.tar.gz --markdown 20240503/i/ibind/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-03 06:23:20] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.2.tar.gz]
+[2024-05-03 06:23:20] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.3.tar.gz]
+[2024-05-03 06:23:20] INFO root fetch - main [MainThread]: End processing [ibind]: success
+[2024-05-03 06:23:20] INFO root fetch - main [MainThread]: Store serial: [23041434]
