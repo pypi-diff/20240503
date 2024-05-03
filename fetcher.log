@@ -8008,3 +8008,54 @@
 [2024-05-03 04:59:31] INFO root fetch - processPackages [sdeper]: Remove: archive file [/home/abi/fetcher/tmp/sdeper-1.2.1.tar.gz]
 [2024-05-03 04:59:31] INFO root fetch - main [MainThread]: End processing [sdeper]: success
 [2024-05-03 04:59:31] INFO root fetch - main [MainThread]: Store serial: [23041071]
+[2024-05-03 05:01:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23041071]
+[2024-05-03 05:01:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-03 05:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexfft
+[2024-05-03 05:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mllm
+[2024-05-03 05:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-business-requirement-deliverable
+[2024-05-03 05:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-business-requirement
+[2024-05-03 05:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-business-requirement
+[2024-05-03 05:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radhesh-algos
+[2024-05-03 05:01:40] INFO root fetch - processPackages [odoo-addon-business-requirement]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-05-03 05:01:40] INFO root fetch - processPackages [mllm]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 05:01:40] INFO root fetch - processPackages [odoo14-addon-business-requirement-deliverable]: New version: [14.0.1.1.1.dev4] Old Version: [14.0.1.1.1.dev3]
+[2024-05-03 05:01:40] INFO root fetch - processPackages [odoo14-addon-business-requirement]: New version: [14.0.1.2.1.dev2] Old Version: [14.0.1.2.1.dev1]
+[2024-05-03 05:01:40] INFO root fetch - processPackages [hexfft]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-03 05:01:40] WARNING root fetch - processPackages [radhesh-algos]: Skipping, unable to determine old version
+[2024-05-03 05:01:40] INFO root fetch - main [MainThread]: End processing [radhesh-algos] error
+[2024-05-03 05:01:40] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/8a/9f/f4b9ec7b83d875b03ed53d3d3cfb7f998331482dd0c21240ba8c59b52365/odoo_addon_business_requirement-16.0.1.0.1-py3-none-any.whl
+[2024-05-03 05:01:40] INFO root fetch - processPackages [mllm]: Downloading https://files.pythonhosted.org/packages/f2/44/5b779aa7a3ecad5f51567a8f135aca9219f10bbe5e0ccac8b509ab2b65d7/mllm-0.1.7.tar.gz
+[2024-05-03 05:01:40] INFO root fetch - processPackages [odoo14-addon-business-requirement-deliverable]: Downloading https://files.pythonhosted.org/packages/25/23/e9c0e52b7a6e6092919b0118f1293889ba9c4ce582f9bf39bbc2d4d396a5/odoo14_addon_business_requirement_deliverable-14.0.1.1.1.dev3-py3-none-any.whl
+[2024-05-03 05:01:40] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/47/98/86fd2d98281ec4f5d812e0df10d888b962cd3c1de3fc7141de2d0338227f/odoo14_addon_business_requirement-14.0.1.2.1.dev1-py3-none-any.whl
+[2024-05-03 05:01:41] INFO root fetch - processPackages [hexfft]: Downloading https://files.pythonhosted.org/packages/36/76/791e0b5b9ada2537273a6512d018b0d6c0031f8cd00edc76b7fe005d98da/hexfft-0.1.0.tar.gz
+[2024-05-03 05:01:41] INFO root fetch - processPackages [mllm]: Downloading https://files.pythonhosted.org/packages/dc/ad/0e1a9c70b058ad0a588c5bde67c28d26111389c945bd5153deb0b3a64a46/mllm-0.1.8.tar.gz
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo14-addon-business-requirement-deliverable]: Downloading https://files.pythonhosted.org/packages/7c/eb/34983c772c1ca294d4a8c78a9adfff4509111155b69c1cc8c27f8aea2d3b/odoo14_addon_business_requirement_deliverable-14.0.1.1.1.dev4-py3-none-any.whl
+[2024-05-03 05:01:41] INFO root fetch - processPackages [mllm]: executing diffoscope
+[2024-05-03 05:01:41] INFO root fetch - processPackages [mllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mllm-0.1.7.tar.gz tmp/mllm-0.1.8.tar.gz --markdown 20240503/m/mllm/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/76/a5/87d64b75e4473e49d6dff3c53589dd45e8573944254130ee9dc3ce01d979/odoo14_addon_business_requirement-14.0.1.2.1.dev2-py3-none-any.whl
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/31/e7/180ce6d6e981c625fed38bc81cc63bfcd65c3a1659f1cbcf75e66e127a1b/odoo_addon_business_requirement-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo14-addon-business-requirement-deliverable]: executing diffoscope
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo14-addon-business-requirement-deliverable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_business_requirement_deliverable-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_business_requirement_deliverable-14.0.1.1.1.dev4-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-business-requirement-deliverable/14.0.1.1.1.dev3-14.0.1.1.1.dev4/README.md --exclude *.pyd
+[2024-05-03 05:01:41] INFO root fetch - processPackages [hexfft]: Downloading https://files.pythonhosted.org/packages/5b/3f/836aad0c8fc4b157db5d6ec65f29976f781b0337af05df232d7775c045b8/hexfft-0.1.1.tar.gz
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo-addon-business-requirement]: executing diffoscope
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo-addon-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_business_requirement-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_business_requirement-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240503/o/odoo-addon-business-requirement/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo14-addon-business-requirement]: executing diffoscope
+[2024-05-03 05:01:41] INFO root fetch - processPackages [odoo14-addon-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_business_requirement-14.0.1.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_business_requirement-14.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20240503/o/odoo14-addon-business-requirement/14.0.1.2.1.dev1-14.0.1.2.1.dev2/README.md --exclude *.pyd
+[2024-05-03 05:01:41] INFO root fetch - processPackages [hexfft]: executing diffoscope
+[2024-05-03 05:01:41] INFO root fetch - processPackages [hexfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexfft-0.1.0.tar.gz tmp/hexfft-0.1.1.tar.gz --markdown 20240503/h/hexfft/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-03 05:01:41] INFO root fetch - processPackages [mllm]: Remove: archive file [/home/abi/fetcher/tmp/mllm-0.1.7.tar.gz]
+[2024-05-03 05:01:41] INFO root fetch - processPackages [mllm]: Remove: archive file [/home/abi/fetcher/tmp/mllm-0.1.8.tar.gz]
+[2024-05-03 05:01:41] INFO root fetch - main [MainThread]: End processing [mllm]: success
+[2024-05-03 05:01:42] INFO root fetch - processPackages [odoo14-addon-business-requirement-deliverable]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_business_requirement_deliverable-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2024-05-03 05:01:42] INFO root fetch - processPackages [odoo14-addon-business-requirement-deliverable]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_business_requirement_deliverable-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2024-05-03 05:01:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-business-requirement-deliverable]: success
+[2024-05-03 05:01:42] INFO root fetch - processPackages [hexfft]: Remove: archive file [/home/abi/fetcher/tmp/hexfft-0.1.0.tar.gz]
+[2024-05-03 05:01:42] INFO root fetch - processPackages [hexfft]: Remove: archive file [/home/abi/fetcher/tmp/hexfft-0.1.1.tar.gz]
+[2024-05-03 05:01:42] INFO root fetch - main [MainThread]: End processing [hexfft]: success
+[2024-05-03 05:01:42] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-03 05:01:42] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-03 05:01:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement]: success
+[2024-05-03 05:01:42] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_business_requirement-14.0.1.2.1.dev1-py3-none-any.whl.zip]
+[2024-05-03 05:01:42] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_business_requirement-14.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2024-05-03 05:01:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-business-requirement]: success
+[2024-05-03 05:01:42] INFO root fetch - main [MainThread]: Store serial: [23041087]
