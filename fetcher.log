@@ -18731,3 +18731,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 14:22:18] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.6.1.tar.gz]
 [2024-05-03 14:22:18] INFO root fetch - main [MainThread]: End processing [Jord]: success
 [2024-05-03 14:22:18] INFO root fetch - main [MainThread]: Store serial: [23045766]
+[2024-05-03 14:24:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23045766]
+[2024-05-03 14:24:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-03 14:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petrovisor
+[2024-05-03 14:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odk-tools
+[2024-05-03 14:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dingman-openapi-server-dev
+[2024-05-03 14:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cgdevxcli
+[2024-05-03 14:24:51] INFO root fetch - processPackages [petrovisor]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-03 14:24:51] INFO root fetch - processPackages [odk-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-03 14:24:52] INFO root fetch - processPackages [petrovisor]: Downloading https://files.pythonhosted.org/packages/f4/b7/09193434d6df6b9ee51127035fcf15bb9f34c6c1eb469861a9c6b9f52f52/petrovisor-0.1.5.tar.gz
+[2024-05-03 14:24:52] INFO root fetch - processPackages [odk-tools]: Downloading https://files.pythonhosted.org/packages/41/4c/42de12782cee6066204a9ee4b7bdda14d593f062a606afca5e8069793ce3/odk_tools-0.1.7.tar.gz
+[2024-05-03 14:24:52] INFO root fetch - processPackages [cgdevxcli]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-03 14:24:52] INFO root fetch - processPackages [dingman-openapi-server-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-03 14:24:52] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/0a/e0/a22b71c7a082395d67c3fc0251a257b5111b3d7e421ed01a12c627b3eb56/dingman-openapi-server-dev-1.0.8.tar.gz
+[2024-05-03 14:24:52] INFO root fetch - processPackages [cgdevxcli]: Downloading https://files.pythonhosted.org/packages/9f/65/3c07bfc6de09efb2a25e34e0b037d6eec4c4767cbb4af0202eff1a003509/cgdevxcli-0.3.0.tar.gz
+[2024-05-03 14:24:52] INFO root fetch - processPackages [petrovisor]: Downloading https://files.pythonhosted.org/packages/1f/81/cb8f9c98c7771fd1d6c1bff7e2f78bdaaf3678c799959ec43f6a1c329188/petrovisor-0.1.6.tar.gz
+[2024-05-03 14:24:52] INFO root fetch - processPackages [odk-tools]: Downloading https://files.pythonhosted.org/packages/28/96/8e791bb3e3641ae1403806d47d4c9773f0d69ee9da0c58f4a363a01769fd/odk_tools-0.1.8.tar.gz
+[2024-05-03 14:24:52] INFO root fetch - processPackages [petrovisor]: executing diffoscope
+[2024-05-03 14:24:52] INFO root fetch - processPackages [petrovisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrovisor-0.1.5.tar.gz tmp/petrovisor-0.1.6.tar.gz --markdown 20240503/p/petrovisor/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-03 14:24:52] INFO root fetch - processPackages [odk-tools]: executing diffoscope
+[2024-05-03 14:24:52] INFO root fetch - processPackages [odk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odk_tools-0.1.7.tar.gz tmp/odk_tools-0.1.8.tar.gz --markdown 20240503/o/odk-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-03 14:24:52] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/e4/c2/a7a9179d9294fd9fc6405f23a2718a8df0fd29cc68a702c76645d487ab33/dingman-openapi-server-dev-1.0.9.tar.gz
+[2024-05-03 14:24:52] INFO root fetch - processPackages [cgdevxcli]: Downloading https://files.pythonhosted.org/packages/03/11/b17f1779f3604021c65898a8b79f08d8c67de7050d122a2b4db76a725e48/cgdevxcli-0.3.1.tar.gz
+[2024-05-03 14:24:52] INFO root fetch - processPackages [dingman-openapi-server-dev]: executing diffoscope
+[2024-05-03 14:24:52] INFO root fetch - processPackages [dingman-openapi-server-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman-openapi-server-dev-1.0.8.tar.gz tmp/dingman-openapi-server-dev-1.0.9.tar.gz --markdown 20240503/d/dingman-openapi-server-dev/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-03 14:24:52] INFO root fetch - processPackages [cgdevxcli]: executing diffoscope
+[2024-05-03 14:24:52] INFO root fetch - processPackages [cgdevxcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgdevxcli-0.3.0.tar.gz tmp/cgdevxcli-0.3.1.tar.gz --markdown 20240503/c/cgdevxcli/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-03 14:24:53] INFO root fetch - processPackages [petrovisor]: Remove: archive file [/home/abi/fetcher/tmp/petrovisor-0.1.5.tar.gz]
+[2024-05-03 14:24:53] INFO root fetch - processPackages [petrovisor]: Remove: archive file [/home/abi/fetcher/tmp/petrovisor-0.1.6.tar.gz]
+[2024-05-03 14:24:53] INFO root fetch - main [MainThread]: End processing [petrovisor]: success
+[2024-05-03 14:24:53] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.1.7.tar.gz]
+[2024-05-03 14:24:53] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.1.8.tar.gz]
+[2024-05-03 14:24:53] INFO root fetch - main [MainThread]: End processing [odk-tools]: success
+[2024-05-03 14:24:53] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.8.tar.gz]
+[2024-05-03 14:24:53] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.9.tar.gz]
+[2024-05-03 14:24:53] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server-dev]: success
+[2024-05-03 14:24:53] INFO root fetch - processPackages [cgdevxcli]: Remove: archive file [/home/abi/fetcher/tmp/cgdevxcli-0.3.0.tar.gz]
+[2024-05-03 14:24:53] INFO root fetch - processPackages [cgdevxcli]: Remove: archive file [/home/abi/fetcher/tmp/cgdevxcli-0.3.1.tar.gz]
+[2024-05-03 14:24:53] INFO root fetch - main [MainThread]: End processing [cgdevxcli]: success
+[2024-05-03 14:24:53] INFO root fetch - main [MainThread]: Store serial: [23045777]
