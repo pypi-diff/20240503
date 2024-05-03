@@ -6861,3 +6861,9 @@
 [2024-05-03 03:37:58] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-03 03:37:58] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-03 03:37:58] INFO root fetch - main [MainThread]: Store serial: [23040592]
+[2024-05-03 03:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23040592]
+[2024-05-03 03:40:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-03 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioseba
+[2024-05-03 03:40:06] WARNING root fetch - processPackages [bioseba]: Skipping, unable to determine old version
+[2024-05-03 03:40:06] INFO root fetch - main [MainThread]: End processing [bioseba] error
+[2024-05-03 03:40:06] INFO root fetch - main [MainThread]: Store serial: [23040650]
