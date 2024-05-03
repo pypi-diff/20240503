@@ -20337,3 +20337,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-03 15:42:34] INFO root fetch - processPackages [intersphinx_registry]: Remove: archive file [/home/abi/fetcher/tmp/intersphinx_registry-0.0.2.tar.gz]
 [2024-05-03 15:42:34] INFO root fetch - main [MainThread]: End processing [intersphinx_registry]: success
 [2024-05-03 15:42:34] INFO root fetch - main [MainThread]: Store serial: [23046518]
+[2024-05-03 15:44:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23046518]
+[2024-05-03 15:45:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-03 15:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-erp-connector
+[2024-05-03 15:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neo4j-genai
+[2024-05-03 15:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chinese-address-generator
+[2024-05-03 15:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openobd-protocol
+[2024-05-03 15:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ophyd-async
+[2024-05-03 15:45:03] INFO root fetch - processPackages [chinese-address-generator]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-05-03 15:45:03] INFO root fetch - processPackages [neo4j-genai]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-03 15:45:03] INFO root fetch - processPackages [ophyd-async]: New version: [0.3a3] Old Version: [0.3a2]
+[2024-05-03 15:45:03] INFO root fetch - processPackages [custom-erp-connector]: New version: [0.3] Old Version: [0.24]
+[2024-05-03 15:45:03] INFO root fetch - processPackages [openobd-protocol]: New version: [0.0.43] Old Version: [0.0.40]
+[2024-05-03 15:45:03] INFO root fetch - processPackages [chinese-address-generator]: Downloading https://files.pythonhosted.org/packages/a3/d9/138097a1094e21aef54adc6ea2b5bd929b5fdb723425a98b0315d2734c08/chinese_address_generator-0.1.8.tar.gz
+[2024-05-03 15:45:03] INFO root fetch - processPackages [ophyd-async]: Downloading https://files.pythonhosted.org/packages/64/59/75707880dce3abdd46513bc3141e40ebc9f6487b947b7165f0e1c690822a/ophyd_async-0.3a2.tar.gz
+[2024-05-03 15:45:03] INFO root fetch - processPackages [neo4j-genai]: Downloading https://files.pythonhosted.org/packages/53/a3/46026d61f0922331540a945bb31ed9d3fd4a0afdb622b87809d105028751/neo4j_genai-0.1.3.tar.gz
+[2024-05-03 15:45:03] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/73/fd/633ca753706cec9abec92be1d198f435e681248850f1acbbb0f66cc5e555/openobd_protocol-0.0.40.tar.gz
+[2024-05-03 15:45:03] INFO root fetch - processPackages [custom-erp-connector]: Downloading https://files.pythonhosted.org/packages/19/c3/0e3084a991b6ba84da63941c12f23169c81b5d2591625d32e3f67e7f66ee/custom_erp_connector-0.24.tar.gz
+[2024-05-03 15:45:04] INFO root fetch - processPackages [neo4j-genai]: Downloading https://files.pythonhosted.org/packages/2a/7c/0780fc055452c574d5fa29fc6ea392957862877a346fcd76ace823a600bb/neo4j_genai-0.1.4.tar.gz
+[2024-05-03 15:45:04] INFO root fetch - processPackages [chinese-address-generator]: Downloading https://files.pythonhosted.org/packages/42/8b/ffbfa7fb0ffcba97ca8da42581954d4cf35adc920d83415dd3c46c3b0c12/chinese_address_generator-0.2.0.tar.gz
+[2024-05-03 15:45:04] INFO root fetch - processPackages [custom-erp-connector]: Downloading https://files.pythonhosted.org/packages/fa/e9/06e60489bf5f768ee1cef13109ff648ba530e0065881a981b67b88366259/custom_erp_connector-0.3.tar.gz
+[2024-05-03 15:45:04] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/7e/4d/a41e01f7634b0d085f2dd83a6af2560ecc7d054c08e3ab7ebd09d896b9b4/openobd_protocol-0.0.43.tar.gz
+[2024-05-03 15:45:04] INFO root fetch - processPackages [ophyd-async]: Downloading https://files.pythonhosted.org/packages/bd/8f/22eca02ea2db98f206c8e29d934d4ba492657aa401ea9dfd1ca11ae86cfa/ophyd_async-0.3a3.tar.gz
+[2024-05-03 15:45:04] INFO root fetch - processPackages [neo4j-genai]: executing diffoscope
+[2024-05-03 15:45:04] INFO root fetch - processPackages [neo4j-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j_genai-0.1.3.tar.gz tmp/neo4j_genai-0.1.4.tar.gz --markdown 20240503/n/neo4j-genai/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-03 15:45:04] INFO root fetch - processPackages [chinese-address-generator]: executing diffoscope
+[2024-05-03 15:45:04] INFO root fetch - processPackages [chinese-address-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chinese_address_generator-0.1.8.tar.gz tmp/chinese_address_generator-0.2.0.tar.gz --markdown 20240503/c/chinese-address-generator/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-05-03 15:45:04] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-05-03 15:45:04] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd_protocol-0.0.40.tar.gz tmp/openobd_protocol-0.0.43.tar.gz --markdown 20240503/o/openobd-protocol/0.0.40-0.0.43/README.md --exclude *.pyd
+[2024-05-03 15:45:04] INFO root fetch - processPackages [custom-erp-connector]: executing diffoscope
+[2024-05-03 15:45:04] INFO root fetch - processPackages [custom-erp-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_erp_connector-0.24.tar.gz tmp/custom_erp_connector-0.3.tar.gz --markdown 20240503/c/custom-erp-connector/0.24-0.3/README.md --exclude *.pyd
+[2024-05-03 15:45:04] INFO root fetch - processPackages [ophyd-async]: executing diffoscope
+[2024-05-03 15:45:04] INFO root fetch - processPackages [ophyd-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240503:/home/abi/fetcher/20240503:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_async-0.3a2.tar.gz tmp/ophyd_async-0.3a3.tar.gz --markdown 20240503/o/ophyd-async/0.3a2-0.3a3/README.md --exclude *.pyd
+[2024-05-03 15:45:05] INFO root fetch - processPackages [chinese-address-generator]: Remove: archive file [/home/abi/fetcher/tmp/chinese_address_generator-0.1.8.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - processPackages [chinese-address-generator]: Remove: archive file [/home/abi/fetcher/tmp/chinese_address_generator-0.2.0.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - main [MainThread]: End processing [chinese-address-generator]: success
+[2024-05-03 15:45:05] INFO root fetch - processPackages [neo4j-genai]: Remove: archive file [/home/abi/fetcher/tmp/neo4j_genai-0.1.3.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - processPackages [neo4j-genai]: Remove: archive file [/home/abi/fetcher/tmp/neo4j_genai-0.1.4.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - main [MainThread]: End processing [neo4j-genai]: success
+[2024-05-03 15:45:05] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.40.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.43.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-05-03 15:45:05] INFO root fetch - processPackages [custom-erp-connector]: Remove: archive file [/home/abi/fetcher/tmp/custom_erp_connector-0.24.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - processPackages [custom-erp-connector]: Remove: archive file [/home/abi/fetcher/tmp/custom_erp_connector-0.3.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - main [MainThread]: End processing [custom-erp-connector]: success
+[2024-05-03 15:45:05] INFO root fetch - processPackages [ophyd-async]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_async-0.3a2.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - processPackages [ophyd-async]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_async-0.3a3.tar.gz]
+[2024-05-03 15:45:05] INFO root fetch - main [MainThread]: End processing [ophyd-async]: success
+[2024-05-03 15:45:05] INFO root fetch - main [MainThread]: Store serial: [23046534]
